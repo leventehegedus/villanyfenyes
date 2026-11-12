@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { LeagueFile, SeasonsFile } from '../../src/lib/schema'
+import { BudgetExceeded } from './fetch'
 import { fixtureSource } from './fixture-source'
 import { runIngest } from './run'
 import type { Source } from './run'
@@ -34,5 +35,22 @@ describe('runIngest on fixtures (dry run)', () => {
     const bigger = { ...first, teams: [...first.teams, ...first.teams, ...first.teams] }
     const res = await runIngest(fixtureSource, { ...opts, previousLeague: () => bigger })
     expect(res.errors[0]).toMatch(/teams dropped/)
+  })
+})
+
+describe('runIngest request budget', () => {
+  it('stops fetching match pages when the budget runs out and reports them as pending', async () => {
+    let calls = 0
+    const limited: Source = {
+      get: async (path) => {
+        calls += 1
+        if (calls > 3) throw new BudgetExceeded(3)
+        return fixtureSource.get(path)
+      },
+    }
+    const res = await runIngest(limited, opts)
+    expect(res.errors).toEqual([])
+    expect(res.report.pendingMatchDetails).toBeGreaterThan(0)
+    expect(res.files.has('55/L1.json')).toBe(true)
   })
 })

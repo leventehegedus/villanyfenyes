@@ -24,7 +24,7 @@ type Props = {
 export function MatchesView({ title, defaultStatus, showStatus, newestFirst, actions }: Props) {
   const t = useT()
   const { favourites } = useFavourites()
-  const { query, teamName, keep, params, setSelection, seasonId, league } = useLeagueData()
+  const { query, teamName, keep, params, setSelection, seasonId, league, noData } = useLeagueData()
   const filters = readMatchFilters(params, defaultStatus)
 
   return (
@@ -33,7 +33,7 @@ export function MatchesView({ title, defaultStatus, showStatus, newestFirst, act
         <h1 className="font-heading text-2xl font-bold tracking-tight">{t(title)}</h1>
         <SeasonLeaguePicker />
       </div>
-      <QueryBoundary query={query} idle={seasonId === null || league === null}>
+      <QueryBoundary query={query} idle={noData || seasonId === null || league === null}>
         {(data) => {
           const matches = filterMatches(data.matches, {
             teamId: filters.teamId,

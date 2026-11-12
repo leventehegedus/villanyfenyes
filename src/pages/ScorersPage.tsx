@@ -10,13 +10,13 @@ import { aggregateScorers } from '@/lib/scorers'
 
 export default function ScorersPage() {
   const t = useT()
-  const { query, teamName, params, setSelection, seasonId, league } = useLeagueData()
+  const { query, teamName, params, setSelection, seasonId, league, noData } = useLeagueData()
   const q = params.get('q') ?? ''
 
   return (
     <div className="space-y-4">
       <PageHeader title={t('scorersTitle')} />
-      <QueryBoundary query={query} idle={seasonId === null || league === null}>
+      <QueryBoundary query={query} idle={noData || seasonId === null || league === null}>
         {(data) => {
           const { rows, coverage } = aggregateScorers(data.matches)
           const shown = rows.filter((r) => includesFolded(r.name, q) || includesFolded(teamName(r.teamId), q))

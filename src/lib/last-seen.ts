@@ -40,3 +40,15 @@ export function diffSinceSnapshot(
     newMatches: [...fresh.values()].sort((a, b) => (a.kickoff ?? '').localeCompare(b.kickoff ?? '')),
   }
 }
+
+/** Updates baselines only for favourites that play in `matches`; other teams keep theirs. */
+export function mergeSnapshot(
+  previous: LastSeenSnapshot | null,
+  favourites: readonly string[],
+  matches: readonly Match[],
+  now: Date,
+): LastSeenSnapshot {
+  const present = favourites.filter((id) => matches.some((m) => m.homeTeamId === id || m.awayTeamId === id))
+  const fresh = makeSnapshot(present, matches, now)
+  return { ...fresh, seen: { ...previous?.seen, ...fresh.seen } }
+}

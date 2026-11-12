@@ -72,7 +72,7 @@ function HeadToHead({ data, a, b, onPick }: { data: LeagueData; a: string | null
 export default function StatsPage() {
   const t = useT()
   const { prefs } = usePrefs()
-  const { query, keep, params, setSelection, seasonId, league } = useLeagueData()
+  const { query, keep, params, setSelection, seasonId, league, noData } = useLeagueData()
   const raw = params.get('o')
   const sortKey: SortKey = isSortKey(raw) ? raw : 'points'
   const col = COLS.find((c) => c.key === sortKey)
@@ -83,7 +83,7 @@ export default function StatsPage() {
       <PageHeader title={t('statsTitle')}>
         <p className="text-sm text-muted-foreground">{t('computedNote')}</p>
       </PageHeader>
-      <QueryBoundary query={query} idle={seasonId === null || league === null}>
+      <QueryBoundary query={query} idle={noData || seasonId === null || league === null}>
         {(data) => {
           const rows = sortRows(leagueTable(data.teams, data.matches), (r) => value(r, sortKey), col?.asc ? 'asc' : 'desc')
           if (rows.every((r) => r.played === 0)) return <EmptyState>{t('scorersEmpty')}</EmptyState>

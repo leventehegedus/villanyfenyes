@@ -52,6 +52,7 @@ const hu = {
   markerFewConceded: 'Kevés kapott gól',
   latestResults: 'Legutóbbi eredmények',
   nextFixtures: 'Következő mérkőzések',
+  nextMatch: 'Következő meccs',
   seeAll: 'Összes',
   favourites: 'Kedvencek',
   favouritesOnly: 'Csak kedvencek',
@@ -150,7 +151,6 @@ const hu = {
   toggleTheme: 'Téma váltása',
   toggleLanguage: 'English',
   current: 'aktuális',
-  versus: '–',
   skipToContent: 'Ugrás a tartalomhoz',
   sortBy: 'Rendezés: {col}',
 }
@@ -211,6 +211,7 @@ const en: Record<MessageKey, string> = {
   markerFewConceded: 'Few goals conceded',
   latestResults: 'Latest results',
   nextFixtures: 'Next fixtures',
+  nextMatch: 'Next match',
   seeAll: 'All',
   favourites: 'Favourites',
   favouritesOnly: 'Favourites only',
@@ -309,7 +310,6 @@ const en: Record<MessageKey, string> = {
   toggleTheme: 'Toggle theme',
   toggleLanguage: 'Magyar',
   current: 'current',
-  versus: '–',
   skipToContent: 'Skip to content',
   sortBy: 'Sort by {col}',
 }

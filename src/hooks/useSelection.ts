@@ -42,6 +42,8 @@ export function useSelection() {
     league,
     leagues,
     isCurrent: seasonId !== null && seasonId === data?.currentSeasonId,
+    /** True when seasons.json is loaded and lists no data for the selected season. */
+    noData: data !== undefined && leagues.length === 0,
     params,
     setSelection,
     /** Query string that keeps the selection when linking to another page. */

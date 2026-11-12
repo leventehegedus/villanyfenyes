@@ -14,12 +14,16 @@ export function readJson<T>(path: string, schema: ZodType<T>): T | null {
   }
 }
 
+// Fetch timestamps alone are not a data change: they would make every run commit and redeploy.
+// shortcut: the stored detailFetchedAt then lags, so recent matches are refetched more often (bounded by --budget); move fetch times to an uncommitted cache if requests become a concern.
+const withoutFetchTimes = (json: string) => json.replace(/"detailFetchedAt": (?:"[^"]*"|null)/g, '')
+
 /** Writes via a temp file + rename so a crash never leaves half a file. Returns false if unchanged. */
 export function writeIfChanged(dir: string, rel: string, value: unknown): boolean {
   const path = join(dir, rel)
   const next = serialise(value)
   try {
-    if (readFileSync(path, 'utf8') === next) return false
+    if (withoutFetchTimes(readFileSync(path, 'utf8')) === withoutFetchTimes(next)) return false
   } catch {
     // missing file: write it
   }

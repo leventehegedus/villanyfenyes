@@ -32,10 +32,13 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - name: Run ingest (fails visibly and writes nothing when a gate fails)
+        env:
+          SEASON: ${{ inputs.season }}
+          DRY_RUN: ${{ inputs.dry_run }}
         run: |
           args=()
-          if [ -n "${{ inputs.season }}" ]; then args+=(--season "${{ inputs.season }}"); fi
-          if [ "${{ inputs.dry_run }}" = "true" ]; then args+=(--dry-run); fi
+          if [ -n "$SEASON" ]; then args+=(--season "$SEASON"); fi
+          if [ "$DRY_RUN" = "true" ]; then args+=(--dry-run); fi
           pnpm ingest "${args[@]}"
       - name: Commit changed data
         run: |
@@ -44,4 +47,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/data
           git commit -m "chore(data): ingest $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase
           git push

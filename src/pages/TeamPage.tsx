@@ -124,11 +124,11 @@ function TeamView({ teamId, data, keep, teamName }: { teamId: string; data: Leag
 
 export default function TeamPage() {
   const { teamId = '' } = useParams()
-  const { query, keep, teamName, seasonId, league } = useLeagueData()
+  const { query, keep, teamName, seasonId, league, noData } = useLeagueData()
   return (
     <div className="space-y-4">
       <SeasonLeaguePicker />
-      <QueryBoundary query={query} idle={seasonId === null || league === null}>
+      <QueryBoundary query={query} idle={noData || seasonId === null || league === null}>
         {(data) => <TeamView teamId={teamId} data={data} keep={keep} teamName={teamName} />}
       </QueryBoundary>
     </div>

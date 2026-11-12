@@ -81,7 +81,7 @@ export default function MatchSheet() {
   const t = useT()
   const { matchId = '' } = useParams()
   const navigate = useNavigate()
-  const { query, keep, seasonId, league } = useLeagueData()
+  const { query, keep, seasonId, league, noData } = useLeagueData()
   return (
     <Sheet open onOpenChange={(open) => !open && navigate(`/eredmenyek${keep}`)}>
       <SheetContent closeLabel={t('close')} side="bottom" className="max-h-[90svh] overflow-y-auto sm:mx-auto sm:max-w-xl sm:rounded-t-xl">
@@ -89,7 +89,7 @@ export default function MatchSheet() {
           <SheetTitle>{t('matchDetails')}</SheetTitle>
           <SheetDescription className="sr-only">{t('matchDetails')}</SheetDescription>
         </SheetHeader>
-        <QueryBoundary query={query} idle={seasonId === null || league === null}>
+        <QueryBoundary query={query} idle={noData || seasonId === null || league === null}>
           {(data) => {
             const m = data.matches.find((x) => x.id === matchId)
             return m ? <MatchDetails match={m} data={data} keep={keep} /> : <EmptyState>{t('matchNotFound')}</EmptyState>

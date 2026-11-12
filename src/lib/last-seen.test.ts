@@ -22,3 +22,14 @@ describe('last seen', () => {
     expect(diffSinceSnapshot(snap, ['1', '2'], matches).newMatches).toEqual([])
   })
 })
+
+describe('mergeSnapshot', () => {
+  it('keeps baselines of favourites that do not play in the viewed league', async () => {
+    const { mergeSnapshot } = await import('./last-seen')
+    const before = makeSnapshot(['1'], matches, new Date('2026-10-01T00:00:00Z'))
+    const otherLeague = mergeSnapshot(before, ['1', '99'], [], new Date('2026-10-02T00:00:00Z'))
+    expect(otherLeague.seen['1']).toEqual(before.seen['1'])
+    expect(otherLeague.seen['99']).toBeUndefined()
+    expect(diffSinceSnapshot(otherLeague, ['1'], matches).newMatches).toEqual([])
+  })
+})
