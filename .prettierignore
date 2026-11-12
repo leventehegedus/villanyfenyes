@@ -1,0 +1,4 @@
+public/data
+pnpm-lock.yaml
+scripts/ingest/__fixtures__
+src/components/ui
