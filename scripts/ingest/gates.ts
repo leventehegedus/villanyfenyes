@@ -6,8 +6,8 @@ export function pageGate(page: ParsedStandingsPage, seasonId: number, league: st
   const where = `${seasonId}/${league}`
   return [
     page.seasons.length === 0 && `${where}: season selector missing`,
-    page.selectedSeasonId !== null && page.selectedSeasonId !== seasonId && `${where}: site served season ${page.selectedSeasonId}`,
-    page.selectedLeague !== null && page.selectedLeague !== league && `${where}: site served league ${page.selectedLeague}`,
+    page.selectedSeasonId !== seasonId && `${where}: site served season ${page.selectedSeasonId}`,
+    page.selectedLeague !== league && `${where}: site served league ${page.selectedLeague}`,
   ].filter((e): e is string => typeof e === 'string')
 }
 

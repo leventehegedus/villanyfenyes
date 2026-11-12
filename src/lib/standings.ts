@@ -99,3 +99,12 @@ export function compareWithSite(
     }))
   })
 }
+
+/** True when every team's results are stored and the site's order differs from `rankByRules`. */
+export function orderDiffers(site: readonly StandingRow[], matches: readonly Match[]): boolean {
+  const ids = site.map((r) => r.teamId)
+  const totals = computeTotals(ids, matches)
+  if (site.some((r) => totals.get(r.teamId)?.played !== r.played)) return false
+  const siteOrder = [...site].sort((a, b) => a.position - b.position).map((r) => r.teamId)
+  return rankByRules(ids, matches).join() !== siteOrder.join()
+}

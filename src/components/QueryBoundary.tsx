@@ -44,6 +44,7 @@ export const ListSkeleton = ({ rows = 6 }: { rows?: number }) => (
 export function QueryBoundary<T>({ query, idle, skeleton, children }: Props<T>) {
   const t = useT()
   const retry = () => void query.refetch()
+  if (idle) return <EmptyState>{t('emptySeason')}</EmptyState>
   if (query.data !== undefined) {
     return (
       <>
@@ -60,6 +61,5 @@ export function QueryBoundary<T>({ query, idle, skeleton, children }: Props<T>) 
     )
   }
   if (query.isError) return <ErrorState onRetry={retry} busy={query.isFetching} />
-  if (idle) return <EmptyState>{t('emptySeason')}</EmptyState>
   return <>{skeleton ?? <ListSkeleton />}</>
 }

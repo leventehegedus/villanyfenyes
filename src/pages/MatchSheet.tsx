@@ -1,4 +1,4 @@
-import { Link, useNavigate, useParams } from 'react-router'
+import { Link, useLocation, useNavigate, useParams } from 'react-router'
 import { ExternalLink } from 'lucide-react'
 import { EmptyState, QueryBoundary } from '@/components/QueryBoundary'
 import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle } from '@/components/ui/sheet'
@@ -81,9 +81,12 @@ export default function MatchSheet() {
   const t = useT()
   const { matchId = '' } = useParams()
   const navigate = useNavigate()
+  const location = useLocation()
   const { query, keep, seasonId, league, noData } = useLeagueData()
+  // Back to wherever the match was opened from; a direct deep link falls back to the results list.
+  const close = () => (location.key === 'default' ? navigate(`/eredmenyek${keep}`) : navigate(-1))
   return (
-    <Sheet open onOpenChange={(open) => !open && navigate(`/eredmenyek${keep}`)}>
+    <Sheet open onOpenChange={(open) => !open && close()}>
       <SheetContent closeLabel={t('close')} side="bottom" className="max-h-[90svh] overflow-y-auto sm:mx-auto sm:max-w-xl sm:rounded-t-xl">
         <SheetHeader>
           <SheetTitle>{t('matchDetails')}</SheetTitle>

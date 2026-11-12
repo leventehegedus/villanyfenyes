@@ -1,6 +1,6 @@
 import { HallOfFameFile, LeagueFile, SCHEMA_VERSION, SeasonsFile } from '../../src/lib/schema.ts'
 import type { Match, MetaFile, Mismatch } from '../../src/lib/schema.ts'
-import { compareWithSite } from '../../src/lib/standings.ts'
+import { compareWithSite, orderDiffers } from '../../src/lib/standings.ts'
 import { BudgetExceeded } from './fetch.ts'
 import { dropGate, pageGate } from './gates.ts'
 import { buildLeagueFile, needsDetail, splitTeams } from './normalise.ts'
@@ -78,16 +78,23 @@ export async function runIngest(source: Source, opts: RunOptions): Promise<RunRe
     const page = league === 'L1' ? entry : parseStandingsPage(await source.get(standingsPath(seasonId, league)))
     const gate = pageGate(page, seasonId, league)
     if (gate.length > 0) errors.push(...gate)
-    else if (page.rows.length === 0) warnings.push(`${seasonId}/${league}: empty table, skipped`)
+    else if (page.rows.length === 0) {
+      const hadTeams = (opts.previousLeague(seasonId, league)?.teams.length ?? 0) > 0
+      ;(hadTeams ? errors : warnings).push(`${seasonId}/${league}: empty table${hadTeams ? ' but the previous file had teams' : ', skipped'}`)
+    }
     else pages.set(league, page)
   }
   if (pages.size === 0 && errors.length === 0) errors.push(`${seasonId}: no league has standings rows`)
 
   // 3. Hall of fame (current season runs only).
   if (opts.includeHallOfFame) {
-    const tables = parseHallOfFame(await source.get('/hiressegek-csarnoka'))
-    if (tables.length === 0) errors.push('hall of fame: no tables found')
-    else files.set('hall-of-fame.json', HallOfFameFile.parse({ schemaVersion: SCHEMA_VERSION, sourceUrl: `${SITE}/hiressegek-csarnoka`, tables }))
+    // Optional page: a failure here must not block standings and results.
+    const tables = await source.get('/hiressegek-csarnoka').then(parseHallOfFame, (err: unknown) => {
+      warnings.push(`hall of fame: ${err instanceof Error ? err.message : String(err)}`)
+      return null
+    })
+    if (tables?.length === 0) errors.push('hall of fame: no tables found')
+    else if (tables) files.set('hall-of-fame.json', HallOfFameFile.parse({ schemaVersion: SCHEMA_VERSION, sourceUrl: `${SITE}/hiressegek-csarnoka`, tables }))
   }
 
   // 4. Match pages within the remaining budget.
@@ -129,6 +136,7 @@ export async function runIngest(source: Source, opts: RunOptions): Promise<RunRe
     }
     errors.push(...dropGate(previous, file))
     mismatches.push(...compareWithSite(seasonId, league, file.standings, file.matches))
+    if (orderDiffers(file.standings, file.matches)) warnings.push(`${seasonId}/${league}: site order differs from the tie-break rules`)
     files.set(`${seasonId}/${league}.json`, file)
   }
 
@@ -139,7 +147,7 @@ export async function runIngest(source: Source, opts: RunOptions): Promise<RunRe
       schemaVersion: SCHEMA_VERSION,
       currentSeasonId: opts.seasonId === undefined ? seasonId : (opts.previousSeasons?.currentSeasonId ?? seasonId),
       seasons: entry.seasons,
-      leagues: { ...prevLeagues, [String(seasonId)]: [...pages.keys()] },
+      leagues: { ...prevLeagues, [String(seasonId)]: [...new Set([...(prevLeagues[String(seasonId)] ?? []), ...pages.keys()])] },
     }),
   )
 

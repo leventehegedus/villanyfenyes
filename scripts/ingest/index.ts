@@ -24,15 +24,23 @@ const { values } = parseArgs({
   },
 })
 
+const positiveInt = (name: string, raw: string): number => {
+  const n = Number(raw)
+  if (!Number.isInteger(n) || n <= 0) throw new Error(`--${name} must be a positive integer, got "${raw}"`)
+  return n
+}
+
 async function main(): Promise<number> {
   const out = resolve(values.out)
+  const budget = positiveInt('budget', values.budget)
+  const delayMs = positiveInt('delay', values.delay)
   const now = values.now ? new Date(values.now) : new Date()
-  const seasonId = values.season ? Number(values.season) : undefined
+  const seasonId = values.season ? positiveInt('season', values.season) : undefined
   const client = politeFetcher({
     userAgent: USER_AGENT,
-    delayMs: Number(values.delay),
+    delayMs,
     retries: 3,
-    budget: Number(values.budget),
+    budget,
   })
   const source: Source = values.fixtures
     ? fixtureSource
@@ -65,7 +73,8 @@ async function main(): Promise<number> {
   const changed = [...result.files].filter(([rel, value]) => writeIfChanged(out, rel, value))
   const previousMeta = readJson(join(out, 'meta.json'), MetaFile)
   const metaDue = !previousMeta || now.getTime() - Date.parse(previousMeta.generatedAt) > META_REFRESH_MS
-  if (changed.length > 0 || metaDue) {
+  // A backfill must not refresh generatedAt: that would hide a failing current-season ingest.
+  if (seasonId === undefined && (changed.length > 0 || metaDue)) {
     writeIfChanged(
       out,
       'meta.json',

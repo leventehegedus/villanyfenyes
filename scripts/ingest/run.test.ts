@@ -54,3 +54,26 @@ describe('runIngest request budget', () => {
     expect(res.files.has('55/L1.json')).toBe(true)
   })
 })
+
+describe('runIngest resilience', () => {
+  it('keeps going without the hall of fame when that page fails', async () => {
+    const noHof: Source = { get: (path) => (path === '/hiressegek-csarnoka' ? Promise.reject(new Error('HTTP 503')) : fixtureSource.get(path)) }
+    const res = await runIngest(noHof, opts)
+    expect(res.errors).toEqual([])
+    expect(res.files.has('hall-of-fame.json')).toBe(false)
+    expect(res.report.warnings).toContain('hall of fame: HTTP 503')
+  })
+
+  it('keeps leagues of earlier runs in seasons.json', async () => {
+    const previousSeasons = { schemaVersion: 1, currentSeasonId: 55, seasons: [], leagues: { '55': ['L2A'] } }
+    const res = await runIngest(fixtureSource, { ...opts, previousSeasons })
+    expect(SeasonsFile.parse(res.files.get('seasons.json')).leagues['55']).toEqual(['L2A', 'L1'])
+  })
+
+  it('fails when a league that had teams comes back empty', async () => {
+    const first = LeagueFile.parse((await runIngest(fixtureSource, opts)).files.get('55/L1.json'))
+    const empty: Source = { get: async (path) => (await fixtureSource.get(path)).replace(/<div class="tabella-row"/g, '<div class="x"') }
+    const res = await runIngest(empty, { ...opts, previousLeague: () => first })
+    expect(res.errors[0]).toMatch(/empty table/)
+  })
+})

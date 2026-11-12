@@ -20,4 +20,5 @@
 
 ## Opus usage
 
-(none yet)
+- The main session ran on Opus 5.5 (session model chosen by the user); the build prompt's `opusplan` routing was not available here.
+- One Opus subagent: the final review before the last commit (allowed use 2). The project agents in `.claude/agents/` were created mid-session and only load in a new session, so a `general-purpose` agent with `model: opus` was used.

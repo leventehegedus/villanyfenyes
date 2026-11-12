@@ -19,6 +19,7 @@ export type BuildInput = {
 
 const HOUR = 3_600_000
 const UPLOAD_WINDOW = 4 * 24 * HOUR // results are uploaded within 3 days of the match
+const GIVE_UP_AFTER = 14 * 24 * HOUR // a match still without a score by then is not refetched
 
 /** Splits "Home - Away" using the league's known team names (names may contain " - "). */
 export function splitTeams(text: string, names: readonly string[]): [string, string] | null {
@@ -39,15 +40,17 @@ export function needsDetail(
 ): boolean {
   if (!prev?.detailFetchedAt) return true
   const age = now.getTime() - Date.parse(prev.detailFetchedAt)
-  if (prev.status !== 'played') return age >= 2 * HOUR
   const kick = kickoff ? Date.parse(kickoff) : 0
+  if (prev.status !== 'played') return age >= 2 * HOUR && now.getTime() < kick + GIVE_UP_AFTER
   const fetchedInsideWindow = Date.parse(prev.detailFetchedAt) < kick + UPLOAD_WINDOW
   return fetchedInsideWindow && age >= 24 * HOUR
 }
 
-function teamFor(row: ParsedRow): Team {
+/** Team id from its result links; an id already used in the previous file wins so favourites stay valid. */
+function teamFor(row: ParsedRow, previousIds: ReadonlyMap<string, string>): Team {
   const siteId = row.cards.find((c) => c.ownerTeamId !== null)?.ownerTeamId ?? null
-  return { id: siteId === null ? `x-${slug(row.name)}` : String(siteId), siteId, name: row.name }
+  const id = previousIds.get(row.name) ?? (siteId === null ? `x-${slug(row.name)}` : String(siteId))
+  return { id, siteId, name: row.name }
 }
 
 const scorersFor = (goals: ParsedGoal[], teamId: string): Scorer[] =>
@@ -56,7 +59,7 @@ const scorersFor = (goals: ParsedGoal[], teamId: string): Scorer[] =>
 type Pair = { homeId: string; awayId: string; home: string; away: string }
 
 /** Applies a fetched match page; returns an error string when its teams do not fit the card. */
-function applyDetail(base: Match, pair: Pair, detail: MatchDetail): Match | string {
+function applyDetail(base: Match, pair: Pair, detail: MatchDetail, prev: Match | undefined): Match | string {
   const { page } = detail
   const straight = page.homeName === pair.home && page.awayName === pair.away
   const swapped = page.homeName === pair.away && page.awayName === pair.home
@@ -64,6 +67,8 @@ function applyDetail(base: Match, pair: Pair, detail: MatchDetail): Match | stri
   const [hg, ag] = straight ? [page.homeGoals, page.awayGoals] : [page.awayGoals, page.homeGoals]
   const [hs, as] = straight ? [page.homeScorers, page.awayScorers] : [page.awayScorers, page.homeScorers]
   const hasScore = hg !== null && ag !== null
+  // Never replace a known score with "no score" (markup change or a blanked page).
+  if (!hasScore && prev?.status === 'played') return reusePrevious(base, prev)
   return {
     ...base,
     venue: page.venue ?? base.venue,
@@ -108,7 +113,8 @@ function baseMatch(card: FixtureCard, pair: Pair, input: BuildInput): Match {
 export function buildLeagueFile(input: BuildInput): { file: LeagueFile; skipped: string[] } {
   const { page, previous } = input
   const skipped = [...page.skipped]
-  const teams = page.rows.map(teamFor)
+  const previousIds = new Map((previous?.teams ?? []).map((t) => [t.name, t.id]))
+  const teams = page.rows.map((r) => teamFor(r, previousIds))
   const idByName = new Map(teams.map((t) => [t.name, t.id]))
   const names = teams.map((t) => t.name)
   const prevById = new Map((previous?.matches ?? []).map((m) => [m.id, m]))
@@ -125,10 +131,11 @@ export function buildLeagueFile(input: BuildInput): { file: LeagueFile; skipped:
     const base = baseMatch(card, pair, input)
     if (matches.has(base.id)) continue
     const detail = card.matchId === null ? undefined : input.details.get(card.matchId)
-    const merged = detail ? applyDetail(base, pair, detail) : reusePrevious(base, prevById.get(base.id))
+    const prev = prevById.get(base.id)
+    const merged = detail ? applyDetail(base, pair, detail, prev) : reusePrevious(base, prev)
     if (typeof merged === 'string') {
       skipped.push(merged)
-      matches.set(base.id, reusePrevious(base, prevById.get(base.id)))
+      matches.set(base.id, reusePrevious(base, prev))
     } else matches.set(base.id, merged)
   }
 

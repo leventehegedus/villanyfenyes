@@ -75,6 +75,19 @@ describe('buildLeagueFile', () => {
     expect(again.matches.find((x) => x.id === '48343')).toMatchObject({ homeGoals: 2, status: 'played' })
   })
 
+  it('keeps a known score when a refetched page has none', () => {
+    const blank = { ...detail, homeGoals: null, awayGoals: null }
+    const again = buildLeagueFile({ ...base, previous: file, details: new Map([[48343, { page: blank, fetchedAt: 'later' }]]) }).file
+    expect(again.matches.find((x) => x.id === '48343')).toMatchObject({ homeGoals: 2, awayGoals: 3, status: 'played' })
+  })
+
+  it('keeps a synthetic team id from the previous file so favourites survive', () => {
+    const prev = { ...file, teams: file.teams.map((t) => (t.id === '69' ? { ...t, id: 'x-lokomotiv-mfc', siteId: null } : t)) }
+    const again = buildLeagueFile({ ...base, previous: prev, details: new Map() }).file
+    expect(again.teams.find((t) => t.name === 'Lokomotív MFC')?.id).toBe('x-lokomotiv-mfc')
+    expect(again.standings[0]?.teamId).toBe('x-lokomotiv-mfc')
+  })
+
   it('ignores a match page whose team names do not fit the card', () => {
     const wrong = { ...detail, homeName: 'Valaki más' }
     const out = buildLeagueFile({ ...base, previous: null, details: new Map([[48343, { page: wrong, fetchedAt: 'x' }]]) })
@@ -91,6 +104,9 @@ describe('needsDetail', () => {
   it('refetches a match without score every run after 2 hours', () => {
     expect(needsDetail({ status: 'unknown', detailFetchedAt: '2026-11-12T11:00:00.000Z' }, kickoff, now)).toBe(false)
     expect(needsDetail({ status: 'unknown', detailFetchedAt: '2026-11-12T09:00:00.000Z' }, kickoff, now)).toBe(true)
+  })
+  it('stops refetching a scoreless match two weeks after kickoff', () => {
+    expect(needsDetail({ status: 'unknown', detailFetchedAt: '2026-11-12T09:00:00.000Z' }, '2026-10-20T19:00:00.000Z', now)).toBe(false)
   })
   it('refetches a played match daily only inside the 4-day upload window', () => {
     expect(needsDetail({ status: 'played', detailFetchedAt: '2026-11-11T09:00:00.000Z' }, kickoff, now)).toBe(true)

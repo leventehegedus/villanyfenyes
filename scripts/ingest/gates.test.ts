@@ -20,6 +20,7 @@ describe('pageGate', () => {
     expect(pageGate({ ...page, seasons: [] }, 55, 'L1')).toHaveLength(1)
     expect(pageGate({ ...page, rows: [] }, 55, 'L1')).toEqual([])
     expect(pageGate(page, 54, 'L2A')).toHaveLength(2)
+    expect(pageGate({ ...page, selectedSeasonId: null, selectedLeague: null }, 55, 'L1')).toHaveLength(2)
   })
 })
 

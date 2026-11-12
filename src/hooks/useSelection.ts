@@ -14,7 +14,8 @@ export function useSelection() {
   const seasonId = (Number.isInteger(fromUrl) && fromUrl > 0 ? fromUrl : null) ?? prefs.defaultSeason ?? data?.currentSeasonId ?? null
   const leagues = (seasonId !== null && data?.leagues[String(seasonId)]) || []
   const wanted = params.get('l') ?? prefs.defaultLeague ?? 'L1'
-  const league = leagues.length === 0 || leagues.includes(wanted) ? wanted : (leagues[0] ?? null)
+  const noData = data !== undefined && leagues.length === 0
+  const league = noData ? null : leagues.length === 0 || leagues.includes(wanted) ? wanted : (leagues[0] ?? null)
   const season = data?.seasons.find((s) => s.id === seasonId) ?? null
 
   const setSelection = useCallback(
@@ -43,7 +44,7 @@ export function useSelection() {
     leagues,
     isCurrent: seasonId !== null && seasonId === data?.currentSeasonId,
     /** True when seasons.json is loaded and lists no data for the selected season. */
-    noData: data !== undefined && leagues.length === 0,
+    noData,
     params,
     setSelection,
     /** Query string that keeps the selection when linking to another page. */

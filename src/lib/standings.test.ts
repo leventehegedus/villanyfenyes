@@ -43,3 +43,14 @@ describe('compareWithSite', () => {
     expect(compareWithSite(55, 'L1', site, matches)).toEqual([])
   })
 })
+
+describe('orderDiffers', () => {
+  it('compares the site order with the rule order only when all results are known', async () => {
+    const { orderDiffers } = await import('./standings')
+    expect(orderDiffers(standings, matches)).toBe(false)
+    const swapped = standings.map((r) => (r.teamId === '2' ? { ...r, position: 3 } : r.teamId === '3' ? { ...r, position: 2 } : r))
+    expect(orderDiffers(swapped, matches)).toBe(true)
+    const incomplete = standings.map((r) => (r.teamId === '4' ? { ...r, played: 4 } : r))
+    expect(orderDiffers(incomplete, matches)).toBe(false)
+  })
+})
