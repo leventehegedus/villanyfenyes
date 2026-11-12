@@ -1,5 +1,6 @@
 import { HallOfFameFile, LeagueFile, SCHEMA_VERSION, SeasonsFile } from '../../src/lib/schema.ts'
 import type { Match, MetaFile, Mismatch } from '../../src/lib/schema.ts'
+import { isEnabledLeague } from '../../src/lib/leagues.ts'
 import { compareWithSite, orderDiffers } from '../../src/lib/standings.ts'
 import { BudgetExceeded } from './fetch.ts'
 import { dropGate, pageGate } from './gates.ts'
@@ -70,7 +71,11 @@ export async function runIngest(source: Source, opts: RunOptions): Promise<RunRe
   if (seasonId === null || entry.seasons.length === 0) {
     return { errors: ['entry page: no season selector'], files, report: emptyReport() }
   }
-  const leagues = opts.leagues ?? entry.leagues
+  const refused = (opts.leagues ?? []).filter((l) => !isEnabledLeague(l))
+  if (refused.length > 0) {
+    return { errors: refused.map((l) => `league ${l} is not enabled (see src/lib/leagues.ts)`), files, report: emptyReport() }
+  }
+  const leagues = (opts.leagues ?? entry.leagues).filter(isEnabledLeague)
 
   // 2. All standings pages first, so the request budget never starves them.
   const pages = new Map<string, ParsedStandingsPage>()
@@ -147,7 +152,11 @@ export async function runIngest(source: Source, opts: RunOptions): Promise<RunRe
       schemaVersion: SCHEMA_VERSION,
       currentSeasonId: opts.seasonId === undefined ? seasonId : (opts.previousSeasons?.currentSeasonId ?? seasonId),
       seasons: entry.seasons,
-      leagues: { ...prevLeagues, [String(seasonId)]: [...new Set([...(prevLeagues[String(seasonId)] ?? []), ...pages.keys()])] },
+      leagues: Object.fromEntries(
+        Object.entries({ ...prevLeagues, [String(seasonId)]: [...(prevLeagues[String(seasonId)] ?? []), ...pages.keys()] }).map(
+          ([id, codes]) => [id, [...new Set(codes)].filter(isEnabledLeague)],
+        ),
+      ),
     }),
   )
 

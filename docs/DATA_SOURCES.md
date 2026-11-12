@@ -68,7 +68,8 @@ Hall of fame: six tables with an `h4` title; column headers are wrong on some ta
 
 ## Ingest behaviour
 
-- One run: entry page `/tabella` (current season, `L1`), the other leagues' standings pages, the hall of fame, then match pages within the remaining budget (never-fetched first, then newest).
+- Leagues: only those in `src/lib/leagues.ts` (currently `L1`).
+- One run: entry page `/tabella` (current season, `L1`), the other enabled leagues' standings pages, the hall of fame, then match pages within the remaining budget (never-fetched first, then newest).
 - Match page refetch rules: never fetched → fetch; no score yet → refetch if the last fetch is older than 2 h; scored → refetch daily only while inside the 4-day upload window after kickoff.
 - Politeness: one request at a time, 1.5 s delay, exponential backoff on 429/5xx (3 retries), 30 s timeout, 200 requests per run, User-Agent `villanyfenyes-viewer-ingest/0.1 (...; +https://github.com/leventehegedus/villanyfenyes)`.
 - Gates (any failure: nothing written, exit 1): season selector present; the site served the requested season and league; schema validation; teams/matches not dropping more than 30 % against the previous file; at least one league with rows. An empty league table is skipped with a warning.

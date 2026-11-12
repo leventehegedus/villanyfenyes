@@ -1,12 +1,18 @@
 name: Ingest
 on:
+  # Only the leagues in src/lib/leagues.ts are fetched (currently L1).
   schedule:
-    - cron: '17 */2 * * *'
+    - cron: '*/30 17-22 * * *' # every 30 min, 18:00-24:00 Budapest winter time (matches end ~21-22h)
+    - cron: '17 */3 * * *' # every 3 h the rest of the day
   workflow_dispatch:
     inputs:
       season:
         description: 'Season id to backfill (empty = current season)'
         required: false
+      budget:
+        description: 'Max requests for this run'
+        required: false
+        default: '200'
       dry_run:
         description: 'Parse and gate only, write nothing'
         type: boolean
@@ -35,8 +41,9 @@ jobs:
         env:
           SEASON: ${{ inputs.season }}
           DRY_RUN: ${{ inputs.dry_run }}
+          BUDGET: ${{ inputs.budget || '200' }}
         run: |
-          args=()
+          args=(--budget "$BUDGET")
           if [ -n "$SEASON" ]; then args+=(--season "$SEASON"); fi
           if [ "$DRY_RUN" = "true" ]; then args+=(--dry-run); fi
           pnpm ingest "${args[@]}"

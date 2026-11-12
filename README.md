@@ -8,7 +8,7 @@ This project is **not affiliated with the league**. The data comes from the leag
 
 ```
 villanyfenyesbajnoksag.hu (public HTML)
-  └─ scheduled GitHub Action (every 2 h): pnpm ingest
+  └─ scheduled GitHub Action (every 30 min in the evening, every 3 h otherwise): pnpm ingest
        fetch (polite, sequential, budgeted) → parse (cheerio) → normalise → validate (Zod) → sanity gates
        └─ public/data/*.json committed only when the data changed
             └─ static host redeploys (Vercel)
@@ -37,7 +37,7 @@ pnpm dev                              # run on public/data (empty until the firs
 | `pnpm build` / `pnpm preview` | production build / serve it |
 | `pnpm typecheck` · `pnpm lint` · `pnpm test` · `pnpm dup` | checks (Vitest, jscpd copy-paste gate at 3 %) |
 | `pnpm e2e` | Playwright smoke test on the build with fixture data (no live calls) |
-| `pnpm ingest` | fetch the current season into `public/data` |
+| `pnpm ingest` | fetch the current season into `public/data` (only leagues in `src/lib/leagues.ts`, currently L1) |
 | `pnpm ingest --season 52` | backfill one past season (rate-limited, same budget) |
 | `pnpm ingest --dry-run` | fetch, parse and gate, write nothing |
 | `pnpm ingest --fixtures --dry-run` | offline run on the saved HTML fixtures |
@@ -47,7 +47,7 @@ Ingest options: `--league L1` (repeatable), `--budget 200` (max requests per run
 ## Deploy and schedule
 
 1. Import the repo in Vercel (framework: Vite; `vercel.json` sets the build, SPA rewrites and cache headers). Every push redeploys.
-2. In GitHub, allow Actions to write to the repo (Settings → Actions → Workflow permissions → read and write). `.github/workflows/ingest.yml` then runs every 2 hours and on manual dispatch (optionally with a season id to backfill, or as a dry run).
+2. In GitHub, allow Actions to write to the repo (Settings → Actions → Workflow permissions → read and write). `.github/workflows/ingest.yml` then runs every 30 minutes from 18:00 to 24:00 Budapest time, every 3 hours otherwise, and on manual dispatch (optional season id, request budget, dry run).
 3. Match pages are cached: the first run fills the standings for all leagues and as many match pages as the budget allows; later runs fetch only new or recently changed matches. Filling a whole season takes a few runs.
 
 ## Limitations

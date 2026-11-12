@@ -18,6 +18,8 @@
 - **Sheet overlay patched with forwardRef** (same React 18 reason as Button).
 - **DATA_DIR**: a tiny Vite plugin serves `/data/*` from another folder in dev/preview, so dev and e2e use fixture data without touching `public/data`.
 
+- **Only L1 is fetched (2026-11-13, owner's request).** `src/lib/leagues.ts` is the allowlist: the ingest skips other leagues from the site's list, refuses `--league` for them, and `seasons.json` lists only enabled leagues. The schedule runs every 30 min 18:00-24:00 Budapest and every 3 h otherwise; one L1 run is ~2 requests plus new match pages.
+
 ## Opus usage
 
 - The main session ran on Opus 5.5 (session model chosen by the user); the build prompt's `opusplan` routing was not available here.
