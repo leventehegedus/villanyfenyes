@@ -4,9 +4,10 @@ import { AlertTriangle, RotateCw } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Skeleton } from '@/components/ui/skeleton'
 import { useT } from '@/hooks/prefs'
+import { DataError } from '@/lib/data'
 
 type Props<T> = {
-  query: Pick<UseQueryResult<T>, 'data' | 'isPending' | 'isError' | 'refetch' | 'isFetching'>
+  query: Pick<UseQueryResult<T>, 'data' | 'isPending' | 'isError' | 'refetch' | 'isFetching' | 'error'>
   /** Shown when the query is disabled because nothing is selected yet. */
   idle?: boolean
   skeleton?: ReactNode
@@ -60,6 +61,7 @@ export function QueryBoundary<T>({ query, idle, skeleton, children }: Props<T>) 
       </>
     )
   }
+  if (query.error instanceof DataError && query.error.missing) return <EmptyState>{t('noDataYet')}</EmptyState>
   if (query.isError) return <ErrorState onRetry={retry} busy={query.isFetching} />
   return <>{skeleton ?? <ListSkeleton />}</>
 }

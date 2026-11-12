@@ -11,6 +11,12 @@ describe('fetchLeague', () => {
     expect(data.teams).toHaveLength(4)
   })
 
+  it('flags a missing file, including an HTML fallback page', async () => {
+    const html = async () => new Response('<!doctype html>', { headers: { 'content-type': 'text/html' } })
+    await expect(fetchLeague(55, 'L1', html)).rejects.toMatchObject({ missing: true })
+    await expect(fetchLeague(55, 'L1', async () => new Response('', { status: 404 }))).rejects.toMatchObject({ missing: true })
+  })
+
   it('throws a DataError on HTTP errors and invalid shape', async () => {
     await expect(fetchLeague(55, 'L1', async () => new Response('', { status: 404 }))).rejects.toBeInstanceOf(DataError)
     await expect(fetchLeague(55, 'L1', async () => new Response('{"x":1}'))).rejects.toBeInstanceOf(DataError)

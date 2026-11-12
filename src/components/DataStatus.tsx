@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button'
 import { usePrefs, useT } from '@/hooks/prefs'
 import { useMeta } from '@/hooks/queries'
 import { STALE_AFTER_HOURS } from '@/lib/config'
+import { DataError } from '@/lib/data'
 import { formatAge, formatKickoff, isStale } from '@/lib/format'
 
 /** Data age from meta.generatedAt, a stale banner and a manual refresh. */
@@ -20,7 +21,13 @@ export function DataStatus() {
     <div className="border-b bg-muted/40 text-xs">
       <div className="mx-auto flex max-w-5xl items-center justify-between gap-2 px-3 py-1">
         <span className="text-muted-foreground" title={formatKickoff(generatedAt ?? null, prefs.locale, prefs.timeZone) ?? undefined}>
-          {generatedAt ? t('dataAge', { age: formatAge(generatedAt, now, prefs.locale) }) : meta.isError ? t('errorTitle') : t('loading')}
+          {generatedAt
+            ? t('dataAge', { age: formatAge(generatedAt, now, prefs.locale) })
+            : meta.error instanceof DataError && meta.error.missing
+              ? t('noDataYet')
+              : meta.isError
+                ? t('errorTitle')
+                : t('loading')}
         </span>
         <Button
           size="sm"

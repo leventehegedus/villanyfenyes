@@ -4,6 +4,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { Layout } from '@/components/Layout'
 import { PrefsProvider } from '@/components/PrefsProvider'
 import { Toaster } from '@/components/ui/sonner'
+import { DataError } from '@/lib/data'
 import { TooltipProvider } from '@/components/ui/tooltip'
 
 const StandingsPage = lazy(() => import('@/pages/StandingsPage'))
@@ -22,7 +23,8 @@ const queryClient = new QueryClient({
     queries: {
       staleTime: 10 * 60_000,
       refetchOnWindowFocus: true,
-      retry: 3,
+      // A missing file will not appear by retrying; only the next ingest adds it.
+      retry: (count, error) => !(error instanceof DataError && error.missing) && count < 3,
       retryDelay: (attempt) => Math.min(1000 * 2 ** attempt, 15_000),
     },
   },
