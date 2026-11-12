@@ -1,0 +1,126 @@
+{
+ "schemaVersion": 1,
+ "sourceUrl": "https://villanyfenyesbajnoksag.hu/hiressegek-csarnoka",
+ "tables": [
+  {
+   "key": "teamSeasons",
+   "title": "Legtöbb lejátszott szezon",
+   "kind": "team",
+   "metric": "seasons",
+   "rows": [
+    {
+     "name": "Koma Sutra",
+     "value": "51"
+    },
+    {
+     "name": "nyocmaco",
+     "value": "44"
+    },
+    {
+     "name": "Keverton",
+     "value": "43"
+    }
+   ]
+  },
+  {
+   "key": "teamGoals",
+   "title": "Legtöbb rúgott gól - csapat",
+   "kind": "team",
+   "metric": "goals",
+   "rows": [
+    {
+     "name": "Invincibles",
+     "value": "548"
+    },
+    {
+     "name": "Közhely FC",
+     "value": "496"
+    },
+    {
+     "name": "Beugrotok?",
+     "value": "450"
+    }
+   ]
+  },
+  {
+   "key": "playerGoals",
+   "title": "Legtöbb rúgott gól a ligában - játékos",
+   "kind": "player",
+   "metric": "goals",
+   "rows": [
+    {
+     "name": "Németh Csaba",
+     "value": "207"
+    },
+    {
+     "name": "Novozánszki Zsombor",
+     "value": "162"
+    },
+    {
+     "name": "Pusztai Bertalan",
+     "value": "161"
+    }
+   ]
+  },
+  {
+   "key": "teamWins",
+   "title": "Legtöbb győzelem",
+   "kind": "team",
+   "metric": "wins",
+   "rows": [
+    {
+     "name": "Albán Focisuli",
+     "value": "273"
+    },
+    {
+     "name": "nyocmaco",
+     "value": "228"
+    },
+    {
+     "name": "Koma Sutra",
+     "value": "223"
+    }
+   ]
+  },
+  {
+   "key": "teamOldest",
+   "title": "Legrégebbi aktív csapat",
+   "kind": "team",
+   "metric": "firstSeason",
+   "rows": [
+    {
+     "name": "Stabilizátorok",
+     "value": "2026 - Ősz"
+    },
+    {
+     "name": "A kispad legjobbjai",
+     "value": "2026 - Ősz"
+    },
+    {
+     "name": "Kispályások",
+     "value": "2026 - Ősz"
+    }
+   ]
+  },
+  {
+   "key": "playerSeasons",
+   "title": "Legtöbb szezon a bajnokságban - játékos",
+   "kind": "player",
+   "metric": "seasons",
+   "rows": [
+    {
+     "name": "Tróbert Attila",
+     "value": "6"
+    },
+    {
+     "name": "Rajnai Gábor",
+     "value": "6"
+    },
+    {
+     "name": "Horváth István",
+     "value": "6"
+    }
+   ]
+  }
+ ]
+}

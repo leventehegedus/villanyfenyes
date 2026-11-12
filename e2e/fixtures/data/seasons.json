@@ -1,0 +1,75 @@
+{
+ "schemaVersion": 1,
+ "currentSeasonId": 55,
+ "seasons": [
+  {
+   "id": 55,
+   "label": "2026 - Ősz",
+   "year": 2026,
+   "half": "osz",
+   "start": "2026-08-31",
+   "end": "2026-12-18"
+  },
+  {
+   "id": 54,
+   "label": "2026 - Nyár",
+   "year": 2026,
+   "half": "nyar",
+   "start": "2026-06-08",
+   "end": "2026-08-28"
+  },
+  {
+   "id": 53,
+   "label": "2026 - TAVASZ",
+   "year": 2026,
+   "half": "tavasz",
+   "start": "2026-02-02",
+   "end": "2026-06-05"
+  },
+  {
+   "id": 52,
+   "label": "2025 - Ősz",
+   "year": 2025,
+   "half": "osz",
+   "start": "2025-09-01",
+   "end": "2025-12-19"
+  },
+  {
+   "id": 51,
+   "label": "2025 - NYÁR",
+   "year": 2025,
+   "half": "nyar",
+   "start": "2025-06-09",
+   "end": "2025-08-24"
+  },
+  {
+   "id": 5,
+   "label": "2025 - TAVASZ",
+   "year": 2025,
+   "half": "tavasz",
+   "start": "2025-02-06",
+   "end": "2025-06-01"
+  },
+  {
+   "id": 6,
+   "label": "2024 - Tavasz",
+   "year": 2024,
+   "half": "tavasz",
+   "start": "2024-02-13",
+   "end": "2024-05-24"
+  },
+  {
+   "id": 7,
+   "label": "2023 - Ősz",
+   "year": 2023,
+   "half": "osz",
+   "start": "2023-09-01",
+   "end": "2023-12-07"
+  }
+ ],
+ "leagues": {
+  "55": [
+   "L1"
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+name: Ingest
+on:
+  schedule:
+    - cron: '17 */2 * * *'
+  workflow_dispatch:
+    inputs:
+      season:
+        description: 'Season id to backfill (empty = current season)'
+        required: false
+      dry_run:
+        description: 'Parse and gate only, write nothing'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Run ingest (fails visibly and writes nothing when a gate fails)
+        run: |
+          args=()
+          if [ -n "${{ inputs.season }}" ]; then args+=(--season "${{ inputs.season }}"); fi
+          if [ "${{ inputs.dry_run }}" = "true" ]; then args+=(--dry-run); fi
+          pnpm ingest "${args[@]}"
+      - name: Commit changed data
+        run: |
+          if [ -z "$(git status --porcelain public/data)" ]; then echo "No data change."; exit 0; fi
+          git config user.name "villanyfenyes-ingest[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data
+          git commit -m "chore(data): ingest $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
