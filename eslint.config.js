@@ -19,6 +19,10 @@ export default tseslint.config(
     },
   },
   {
+    files: ['**/*.test.{ts,tsx}', 'e2e/**'],
+    rules: { '@typescript-eslint/no-non-null-assertion': 'off' },
+  },
+  {
     // Generated shadcn components: keep upstream shape.
     files: ['src/components/ui/**'],
     rules: { 'react-refresh/only-export-components': 'off' },
