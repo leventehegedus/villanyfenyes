@@ -42,6 +42,23 @@ test('team page, favourites and language toggle', async ({ page }) => {
 test('schedule filters are reflected in the URL', async ({ page }) => {
   await page.goto('/menetrend?s=55&l=L1')
   await page.getByRole('radio', { name: 'Lejátszott' }).click()
-  await expect(page).toHaveURL(/st=played/)
+  await expect(page).toHaveURL(/st=past/)
   await expect(page.getByText('2:3')).toBeVisible()
+})
+
+test('stats: progression chart, cross table and form hover', async ({ page }) => {
+  await page.goto('/statisztika?s=55&l=L1')
+  await expect(page.getByRole('button', { name: 'Lokomotív MFC', pressed: true })).toBeVisible()
+  await page.getByRole('tab', { name: 'Kereszttábla' }).click()
+  await expect(page).toHaveURL(/v=cross/)
+  await expect(page.getByRole('link', { name: /Lokomotív MFC – Gyermekláncfűrész 3:2/ })).toBeVisible()
+  await page.goto('/t/69?s=55&l=L1')
+  await page.getByRole('link', { name: /Győzelem 3:2 – Gyermekláncfűrész/ }).hover()
+  await expect(page.getByRole('tooltip')).toContainText('Gyermekláncfűrész')
+})
+
+test('scorers can be filtered by team', async ({ page }) => {
+  await page.goto('/golok?s=55&l=L1&t=100')
+  await expect(page.getByRole('cell', { name: 'Horváth Dávid' })).toBeVisible()
+  await expect(page.getByRole('cell', { name: 'Pap Bulcsú' })).toHaveCount(0)
 })

@@ -8,7 +8,6 @@ import type { Source } from './run'
 const opts = {
   leagues: ['L1'],
   now: new Date('2026-11-12T12:00:00Z'),
-  includeHallOfFame: true,
   previousLeague: () => null,
   previousSeasons: null,
 }
@@ -17,7 +16,7 @@ describe('runIngest on fixtures (dry run)', () => {
   it('builds valid files and reports unavailable match pages as warnings', async () => {
     const res = await runIngest(fixtureSource, opts)
     expect(res.errors).toEqual([])
-    expect([...res.files.keys()].sort()).toEqual(['55/L1.json', 'hall-of-fame.json', 'seasons.json'])
+    expect([...res.files.keys()].sort()).toEqual(['55/L1.json', 'seasons.json'])
     const league = LeagueFile.parse(res.files.get('55/L1.json'))
     expect(league.matches.find((m) => m.id === '48343')?.status).toBe('played')
     expect(SeasonsFile.parse(res.files.get('seasons.json')).leagues).toEqual({ '55': ['L1'] })
@@ -56,14 +55,6 @@ describe('runIngest request budget', () => {
 })
 
 describe('runIngest resilience', () => {
-  it('keeps going without the hall of fame when that page fails', async () => {
-    const noHof: Source = { get: (path) => (path === '/hiressegek-csarnoka' ? Promise.reject(new Error('HTTP 503')) : fixtureSource.get(path)) }
-    const res = await runIngest(noHof, opts)
-    expect(res.errors).toEqual([])
-    expect(res.files.has('hall-of-fame.json')).toBe(false)
-    expect(res.report.warnings).toContain('hall of fame: HTTP 503')
-  })
-
   it('keeps only enabled leagues of earlier runs in seasons.json', async () => {
     const previousSeasons = { schemaVersion: 1, currentSeasonId: 55, seasons: [], leagues: { '55': ['L2A'] } }
     const res = await runIngest(fixtureSource, { ...opts, previousSeasons })

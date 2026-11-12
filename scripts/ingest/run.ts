@@ -1,4 +1,4 @@
-import { HallOfFameFile, LeagueFile, SCHEMA_VERSION, SeasonsFile } from '../../src/lib/schema.ts'
+import { LeagueFile, SCHEMA_VERSION, SeasonsFile } from '../../src/lib/schema.ts'
 import type { Match, MetaFile, Mismatch } from '../../src/lib/schema.ts'
 import { isEnabledLeague } from '../../src/lib/leagues.ts'
 import { compareWithSite, orderDiffers } from '../../src/lib/standings.ts'
@@ -6,7 +6,6 @@ import { BudgetExceeded } from './fetch.ts'
 import { dropGate, pageGate } from './gates.ts'
 import { buildLeagueFile, needsDetail, splitTeams } from './normalise.ts'
 import type { MatchDetail } from './normalise.ts'
-import { parseHallOfFame } from './parse-hall-of-fame.ts'
 import { parseMatchPage } from './parse-match.ts'
 import { parseStandingsPage } from './parse-standings.ts'
 import type { ParsedStandingsPage } from './parse-standings.ts'
@@ -20,7 +19,6 @@ export type RunOptions = {
   seasonId?: number
   leagues?: string[]
   now: Date
-  includeHallOfFame: boolean
   previousLeague: (seasonId: number, league: string) => LeagueFile | null
   previousSeasons: SeasonsFile | null
 }
@@ -91,18 +89,7 @@ export async function runIngest(source: Source, opts: RunOptions): Promise<RunRe
   }
   if (pages.size === 0 && errors.length === 0) errors.push(`${seasonId}: no league has standings rows`)
 
-  // 3. Hall of fame (current season runs only).
-  if (opts.includeHallOfFame) {
-    // Optional page: a failure here must not block standings and results.
-    const tables = await source.get('/hiressegek-csarnoka').then(parseHallOfFame, (err: unknown) => {
-      warnings.push(`hall of fame: ${err instanceof Error ? err.message : String(err)}`)
-      return null
-    })
-    if (tables?.length === 0) errors.push('hall of fame: no tables found')
-    else if (tables) files.set('hall-of-fame.json', HallOfFameFile.parse({ schemaVersion: SCHEMA_VERSION, sourceUrl: `${SITE}/hiressegek-csarnoka`, tables }))
-  }
-
-  // 4. Match pages within the remaining budget.
+  // 3. Match pages within the remaining budget.
   const candidates = [...pages].flatMap(([league, page]) =>
     detailCandidates(page, opts.previousLeague(seasonId, league), opts.now),
   )
@@ -121,7 +108,7 @@ export async function runIngest(source: Source, opts: RunOptions): Promise<RunRe
     }
   }
 
-  // 5. Build, validate and gate each league file.
+  // 4. Build, validate and gate each league file.
   for (const [league, page] of pages) {
     const previous = opts.previousLeague(seasonId, league)
     const { file, skipped } = buildLeagueFile({

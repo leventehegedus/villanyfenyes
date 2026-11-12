@@ -1,12 +1,10 @@
 import { Star } from 'lucide-react'
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
+import { TeamSelect } from '@/components/TeamSelect'
 import { Toggle } from '@/components/ui/toggle'
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group'
 import { useFavourites, useT } from '@/hooks/prefs'
 import type { Team } from '@/lib/schema'
 import type { MatchFilterState } from '@/lib/url-state'
-
-const ALL = '__all'
 
 type Props = {
   teams: readonly Team[]
@@ -20,21 +18,7 @@ export function MatchFilters({ teams, value, showStatus, onChange }: Props) {
   const { favourites } = useFavourites()
   return (
     <div className="flex flex-wrap items-center gap-2">
-      <Select value={value.teamId ?? ALL} onValueChange={(v) => onChange({ t: v === ALL ? null : v })}>
-        <SelectTrigger aria-label={t('team')} className="min-w-44">
-          <SelectValue />
-        </SelectTrigger>
-        <SelectContent>
-          <SelectItem value={ALL}>{t('allTeams')}</SelectItem>
-          {[...teams]
-            .sort((a, b) => a.name.localeCompare(b.name, 'hu'))
-            .map((team) => (
-              <SelectItem key={team.id} value={team.id}>
-                {team.name}
-              </SelectItem>
-            ))}
-        </SelectContent>
-      </Select>
+      <TeamSelect teams={teams} value={value.teamId} onChange={(id) => onChange({ t: id })} />
       {showStatus && (
         <ToggleGroup
           type="single"
@@ -44,7 +28,7 @@ export function MatchFilters({ teams, value, showStatus, onChange }: Props) {
           aria-label={t('statusAll')}
         >
           <ToggleGroupItem value="upcoming">{t('statusUpcoming')}</ToggleGroupItem>
-          <ToggleGroupItem value="played">{t('statusPlayed')}</ToggleGroupItem>
+          <ToggleGroupItem value="past">{t('statusPlayed')}</ToggleGroupItem>
           <ToggleGroupItem value="all">{t('statusAll')}</ToggleGroupItem>
         </ToggleGroup>
       )}

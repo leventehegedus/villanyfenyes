@@ -114,20 +114,6 @@ export const SeasonsFile = z.object({
   leagues: z.record(z.string(), z.array(LeagueCode)),
 })
 
-export const HallOfFameTable = z.object({
-  key: z.string(),
-  title: z.string(),
-  kind: z.enum(['team', 'player']),
-  metric: z.enum(['seasons', 'goals', 'wins', 'firstSeason', 'unknown']),
-  rows: z.array(z.object({ name: z.string(), value: z.string() })),
-})
-
-export const HallOfFameFile = z.object({
-  schemaVersion: z.number().int(),
-  sourceUrl: z.string().url(),
-  tables: z.array(HallOfFameTable),
-})
-
 export const Mismatch = z.object({
   seasonId: z.number().int(),
   league: z.string(),
@@ -158,7 +144,5 @@ export type Match = z.infer<typeof Match>
 export type TeamSummary = z.infer<typeof TeamSummary>
 export type LeagueFile = z.infer<typeof LeagueFile>
 export type SeasonsFile = z.infer<typeof SeasonsFile>
-export type HallOfFameTable = z.infer<typeof HallOfFameTable>
-export type HallOfFameFile = z.infer<typeof HallOfFameFile>
 export type Mismatch = z.infer<typeof Mismatch>
 export type MetaFile = z.infer<typeof MetaFile>

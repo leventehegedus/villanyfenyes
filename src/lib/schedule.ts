@@ -2,7 +2,8 @@ import type { Match } from './schema'
 import { isPlayed } from './standings'
 import { SITE_TIME_ZONE } from './time'
 
-export type StatusFilter = 'all' | 'played' | 'upcoming'
+/** played = has a score; past = kicked off, with or without a score yet. */
+export type StatusFilter = 'all' | 'played' | 'past' | 'upcoming'
 
 export type MatchFilter = {
   teamId?: string | null
@@ -20,7 +21,12 @@ export function filterMatches(matches: readonly Match[], f: MatchFilter, now = n
   return matches
     .filter((m) => !f.teamId || involves(m, f.teamId))
     .filter((m) => !f.favourites?.size || [...f.favourites].some((id) => involves(m, id)))
-    .filter((m) => (f.status === 'played' ? isPlayed(m) : f.status === 'upcoming' ? isUpcoming(m, now) : true))
+    .filter((m) => {
+      if (f.status === 'played') return isPlayed(m)
+      if (f.status === 'past') return isPlayed(m) || (m.kickoff !== null && Date.parse(m.kickoff) <= now.getTime())
+      if (f.status === 'upcoming') return isUpcoming(m, now)
+      return true
+    })
     .sort(byKickoff)
 }
 

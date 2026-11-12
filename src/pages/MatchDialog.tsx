@@ -1,7 +1,7 @@
 import { Link, useLocation, useNavigate, useParams } from 'react-router'
 import { ExternalLink } from 'lucide-react'
 import { EmptyState, QueryBoundary } from '@/components/QueryBoundary'
-import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle } from '@/components/ui/sheet'
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from '@/components/ui/dialog'
 import { usePrefs, useT } from '@/hooks/prefs'
 import { useLeagueData } from '@/hooks/useLeagueData'
 import { SOURCE_SITE } from '@/lib/config'
@@ -40,7 +40,7 @@ function MatchDetails({ match: m, data, keep }: { match: Match; data: LeagueData
     </Link>
   )
   return (
-    <div className="space-y-5 px-4 pb-6">
+    <div className="space-y-5">
       <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-3 text-center">
         {teamLink(m.homeTeamId)}
         <span className="tabular rounded-lg bg-secondary px-3 py-1 font-mono text-2xl font-bold">
@@ -77,7 +77,7 @@ function MatchDetails({ match: m, data, keep }: { match: Match; data: LeagueData
   )
 }
 
-export default function MatchSheet() {
+export default function MatchDialog() {
   const t = useT()
   const { matchId = '' } = useParams()
   const navigate = useNavigate()
@@ -86,19 +86,19 @@ export default function MatchSheet() {
   // Back to wherever the match was opened from; a direct deep link falls back to the results list.
   const close = () => (location.key === 'default' ? navigate(`/eredmenyek${keep}`) : navigate(-1))
   return (
-    <Sheet open onOpenChange={(open) => !open && close()}>
-      <SheetContent closeLabel={t('close')} side="bottom" className="max-h-[90svh] overflow-y-auto sm:mx-auto sm:max-w-xl sm:rounded-t-xl">
-        <SheetHeader>
-          <SheetTitle>{t('matchDetails')}</SheetTitle>
-          <SheetDescription className="sr-only">{t('matchDetails')}</SheetDescription>
-        </SheetHeader>
+    <Dialog open onOpenChange={(open) => !open && close()}>
+      <DialogContent closeLabel={t('close')} className="max-h-[90svh] overflow-y-auto sm:max-w-xl">
+        <DialogHeader>
+          <DialogTitle>{t('matchDetails')}</DialogTitle>
+          <DialogDescription className="sr-only">{t('matchDetails')}</DialogDescription>
+        </DialogHeader>
         <QueryBoundary query={query} idle={noData || seasonId === null || league === null}>
           {(data) => {
             const m = data.matches.find((x) => x.id === matchId)
             return m ? <MatchDetails match={m} data={data} keep={keep} /> : <EmptyState>{t('matchNotFound')}</EmptyState>
           }}
         </QueryBoundary>
-      </SheetContent>
-    </Sheet>
+      </DialogContent>
+    </Dialog>
   )
 }

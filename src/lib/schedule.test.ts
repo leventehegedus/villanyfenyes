@@ -19,6 +19,11 @@ describe('schedule', () => {
     expect(filterMatches(matches, { favourites: new Set(['3']) })).toHaveLength(4)
   })
 
+  it('lists every kicked-off match under "past", with or without a score', () => {
+    expect(filterMatches(matches, { status: 'past' }, now).map((m) => m.id)).toContain('107')
+    expect(filterMatches(matches, { status: 'past' }, now)).toHaveLength(7)
+  })
+
   it('treats a past match without a score as neither played nor upcoming', () => {
     const ids = [...filterMatches(matches, { status: 'played' }), ...filterMatches(matches, { status: 'upcoming' }, now)].map((m) => m.id)
     expect(ids).not.toContain('107')

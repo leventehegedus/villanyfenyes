@@ -1,4 +1,5 @@
 import type { Match, Team } from './schema'
+import { weekStart } from './schedule'
 import { isPlayed } from './standings'
 
 export type Outcome = 'W' | 'D' | 'L'
@@ -100,7 +101,7 @@ export function leagueTable(teams: readonly Team[], matches: readonly Match[]) {
       goalsForPerMatch: s.goalsForPerMatch,
       goalsAgainstPerMatch: s.goalsAgainstPerMatch,
       cleanSheets: s.cleanSheets,
-      form: s.form,
+      recent: s.results.slice(-5),
       streak: s.streak,
     }
   })
@@ -128,4 +129,31 @@ export function headToHead(a: string, b: string, matches: readonly Match[]) {
     goalsFor: results.reduce((n, r) => n + r.goalsFor, 0),
     goalsAgainst: results.reduce((n, r) => n + r.goalsAgainst, 0),
   }
+}
+
+/** Cumulative points of every team at the end of each Budapest week that had results. */
+export function leagueProgression(teams: readonly Team[], matches: readonly Match[]) {
+  const played = matches.filter(isPlayed).filter((m) => m.kickoff !== null)
+  const weeks = [...new Set(played.map((m) => weekStart(m.kickoff ?? '')))].sort()
+  const totals: Record<string, number> = Object.fromEntries(teams.map((t) => [t.id, 0]))
+  return weeks.map((week) => {
+    for (const m of played.filter((x) => weekStart(x.kickoff ?? '') === week)) {
+      const [h, a] = m.homeGoals > m.awayGoals ? [3, 0] : m.homeGoals === m.awayGoals ? [1, 1] : [0, 3]
+      if (m.homeTeamId in totals) totals[m.homeTeamId] = (totals[m.homeTeamId] ?? 0) + h
+      if (m.awayTeamId in totals) totals[m.awayTeamId] = (totals[m.awayTeamId] ?? 0) + a
+    }
+    return { week, points: { ...totals } }
+  })
+}
+
+/** Lookup of played results between two teams, from the first team's view. */
+export function crossTable(teams: readonly Team[], matches: readonly Match[]) {
+  const cells = new Map<string, TeamResult[]>()
+  for (const t of teams) {
+    for (const r of teamResults(t.id, matches)) {
+      const key = `${t.id}\u0000${r.opponentId}`
+      cells.set(key, [...(cells.get(key) ?? []), r])
+    }
+  }
+  return (a: string, b: string): TeamResult[] => cells.get(`${a}\u0000${b}`) ?? []
 }

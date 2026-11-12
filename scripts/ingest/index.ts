@@ -50,7 +50,6 @@ async function main(): Promise<number> {
     seasonId,
     leagues: values.fixtures ? ['L1'] : values.league,
     now,
-    includeHallOfFame: seasonId === undefined,
     previousLeague: (s, l) => readJson(join(out, String(s), `${l}.json`), LeagueFile),
     previousSeasons: readJson(join(out, 'seasons.json'), SeasonsFile),
   })

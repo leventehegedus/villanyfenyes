@@ -1,12 +1,15 @@
+import { Suspense, lazy } from 'react'
 import { Shield, Target } from 'lucide-react'
 import { Link } from 'react-router'
+import { CrossTable } from '@/components/CrossTable'
 import { FormStrip } from '@/components/FormStrip'
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { PageHeader } from '@/components/PageHeader'
-import { EmptyState, QueryBoundary } from '@/components/QueryBoundary'
+import { EmptyState, ListSkeleton, QueryBoundary } from '@/components/QueryBoundary'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
 import { TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table'
-import { usePrefs, useT } from '@/hooks/prefs'
+import { useFavourites, usePrefs, useT } from '@/hooks/prefs'
 import { useLeagueData } from '@/hooks/useLeagueData'
 import type { MessageKey } from '@/i18n/dict'
 import type { LeagueData } from '@/lib/data'
@@ -15,6 +18,9 @@ import { formatDecimal } from '@/lib/format'
 import { headToHead, leagueTable } from '@/lib/stats'
 import type { LeagueStatsRow } from '@/lib/stats'
 import { cn } from '@/lib/utils'
+import { readHighlight, toggleHighlight } from '@/lib/url-state'
+
+const LeagueProgressionChart = lazy(() => import('@/components/LeagueProgressionChart'))
 
 type SortKey = 'played' | 'goalsForPerMatch' | 'goalsAgainstPerMatch' | 'goalDiff' | 'cleanSheets' | 'points'
 const COLS: { key: SortKey; label: MessageKey; asc?: boolean }[] = [
@@ -72,11 +78,14 @@ function HeadToHead({ data, a, b, onPick }: { data: LeagueData; a: string | null
 export default function StatsPage() {
   const t = useT()
   const { prefs } = usePrefs()
-  const { query, keep, params, setSelection, seasonId, league, noData } = useLeagueData()
+  const { favourites } = useFavourites()
+  const { query, keep, params, setSelection, seasonId, league, noData, teamName } = useLeagueData()
   const raw = params.get('o')
   const sortKey: SortKey = isSortKey(raw) ? raw : 'points'
   const col = COLS.find((c) => c.key === sortKey)
   const value = (r: LeagueStatsRow, k: SortKey) => r[k]
+  const rawView = params.get('v')
+  const view = rawView === 'cross' || rawView === 'compare' ? rawView : 'progress'
 
   return (
     <div className="space-y-4">
@@ -87,8 +96,35 @@ export default function StatsPage() {
         {(data) => {
           const rows = sortRows(leagueTable(data.teams, data.matches), (r) => value(r, sortKey), col?.asc ? 'asc' : 'desc')
           if (rows.every((r) => r.played === 0)) return <EmptyState>{t('scorersEmpty')}</EmptyState>
+          const teamIds = data.teams.map((x) => x.id)
+          const favs = favourites.filter((id) => teamIds.includes(id))
+          const leaders = [...data.standings].sort((a, b) => a.position - b.position).slice(0, 3).map((r) => r.teamId)
+          const highlighted = readHighlight(params.get('h'), teamIds, favs.length > 0 ? favs : leaders)
           return (
-            <>
+            <Tabs value={view} onValueChange={(v) => setSelection({ extra: { v } })}>
+              <TabsList className="max-w-full overflow-x-auto">
+                <TabsTrigger value="progress">{t('tabProgress')}</TabsTrigger>
+                <TabsTrigger value="cross">{t('tabCross')}</TabsTrigger>
+                <TabsTrigger value="compare">{t('tabCompare')}</TabsTrigger>
+              </TabsList>
+              <TabsContent value="progress" className="space-y-2 pt-2">
+                <h2 className="text-lg font-semibold">{t('progressionTitle')}</h2>
+                <p className="text-sm text-muted-foreground">{t('progressionHint')}</p>
+                <Suspense fallback={<ListSkeleton rows={4} />}>
+                  <LeagueProgressionChart
+                    teams={data.teams}
+                    matches={data.matches}
+                    highlighted={highlighted}
+                    onToggle={(id) => setSelection({ extra: { h: toggleHighlight(highlighted, id).join(',') } })}
+                  />
+                </Suspense>
+              </TabsContent>
+              <TabsContent value="cross" className="space-y-2 pt-2">
+                <h2 className="text-lg font-semibold">{t('crossTable')}</h2>
+                <p className="text-sm text-muted-foreground">{t('crossTableHint')}</p>
+                <CrossTable data={data} keep={keep} />
+              </TabsContent>
+              <TabsContent value="compare" className="space-y-4 pt-2">
               <div className="overflow-x-auto rounded-xl border bg-card">
                 <table className="w-full text-sm">
                   <TableHeader>
@@ -130,7 +166,7 @@ export default function StatsPage() {
                           </TableCell>
                         ))}
                         <TableCell>
-                          <FormStrip form={r.form} locale={prefs.locale} />
+                          <FormStrip results={r.recent} teamName={teamName} keep={keep} />
                         </TableCell>
                       </TableRow>
                     ))}
@@ -138,7 +174,8 @@ export default function StatsPage() {
                 </table>
               </div>
               <HeadToHead data={data} a={params.get('a')} b={params.get('b')} onPick={(k, v) => setSelection({ extra: { [k]: v } })} />
-            </>
+              </TabsContent>
+            </Tabs>
           )
         }}
       </QueryBoundary>

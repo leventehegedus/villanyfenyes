@@ -1,6 +1,6 @@
 # Villanyfényes bajnokság viewer (unofficial)
 
-A fast, mobile-first, read-only viewer for the [Villanyfényes bajnokság](https://villanyfenyesbajnoksag.hu), an amateur football league in Budapest. It shows standings, the fixture schedule, results, match details, team statistics, top scorers, the hall of fame and your favourite teams. The UI is Hungarian by default, with English as an option.
+A fast, mobile-first, read-only viewer for the [Villanyfényes bajnokság](https://villanyfenyesbajnoksag.hu), an amateur football league in Budapest. It shows standings, the fixture schedule, results, match details, team statistics, top scorers and your favourite teams. The UI is Hungarian by default, with English as an option.
 
 This project is **not affiliated with the league**. The data comes from the league's public pages and may be delayed or contain errors. The official site is authoritative.
 
@@ -16,7 +16,7 @@ villanyfenyesbajnoksag.hu (public HTML)
 ```
 
 - There is no backend, database, account or API key. Preferences and favourites live in `localStorage`.
-- `public/data/` holds `meta.json`, `seasons.json`, `hall-of-fame.json` and `{seasonId}/{league}.json`.
+- `public/data/` holds `meta.json`, `seasons.json` and `{seasonId}/{league}.json`.
 - If any gate fails (wrong page served, missing selector, row counts dropping more than 30 %, schema errors), the ingest writes nothing and exits non-zero, so the workflow fails visibly and the previous data stays.
 - Standings always come from the site's own table. Statistics computed from results are labelled as computed. Missing data is shown as missing.
 
@@ -54,7 +54,6 @@ Ingest options: `--league L1` (repeatable), `--budget 200` (max requests per run
 
 - The site publishes no round numbers, referees or kick-off lengths. Lists are grouped by week; calendar events have a start time only.
 - Scores and scorers come from per-match pages, which the ingest fetches gradually; the scorer list states how many matches it covers.
-- Hall of fame data is shown as published (2025 onwards per the site) and is not mixed into season scorer lists.
 - The HTML can change without notice. When it does, the gates stop the ingest and the parser tests show what moved.
 
 ## Stack

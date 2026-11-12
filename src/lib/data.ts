@@ -1,6 +1,6 @@
 import type { ZodType } from 'zod'
 import { DATA_BASE } from './config'
-import { HallOfFameFile, LeagueFileRead, MetaFile, SeasonsFile } from './schema'
+import { LeagueFileRead, MetaFile, SeasonsFile } from './schema'
 
 export class DataError extends Error {
   constructor(
@@ -29,7 +29,6 @@ const browserFetch: Fetcher = (url) => fetch(url)
 
 export const fetchMeta = (f: Fetcher = browserFetch) => fetchJson('meta.json', MetaFile, f)
 export const fetchSeasons = (f: Fetcher = browserFetch) => fetchJson('seasons.json', SeasonsFile, f)
-export const fetchHallOfFame = (f: Fetcher = browserFetch) => fetchJson('hall-of-fame.json', HallOfFameFile, f)
 export const fetchLeague = (seasonId: number, league: string, f: Fetcher = browserFetch) =>
   fetchJson(`${seasonId}/${league}.json`, LeagueFileRead, f)
 

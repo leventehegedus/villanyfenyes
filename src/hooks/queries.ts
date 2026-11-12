@@ -1,11 +1,9 @@
 import { keepPreviousData, useQuery } from '@tanstack/react-query'
-import { fetchHallOfFame, fetchLeague, fetchMeta, fetchSeasons } from '@/lib/data'
+import { fetchLeague, fetchMeta, fetchSeasons } from '@/lib/data'
 
 export const useMeta = () => useQuery({ queryKey: ['meta'], queryFn: () => fetchMeta() })
 
 export const useSeasons = () => useQuery({ queryKey: ['seasons'], queryFn: () => fetchSeasons() })
-
-export const useHallOfFame = () => useQuery({ queryKey: ['hall-of-fame'], queryFn: () => fetchHallOfFame() })
 
 export function useLeague(seasonId: number | null, league: string | null, isCurrent: boolean) {
   return useQuery({

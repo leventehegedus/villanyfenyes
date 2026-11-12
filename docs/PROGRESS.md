@@ -23,3 +23,7 @@ README, `vercel.json` (SPA rewrite, cache headers), Playwright smoke test (`e2e/
 Clean clone: install, lint, typecheck, tests, `pnpm dup` (0 clones), build, fixture dry-run ingest and e2e all pass. Ponytail audit: 8 findings fixed (last-seen merge per league, pinned favourites, ingest commit noise, workflow input via env + rebase, empty state for seasons without data, tests for budget and writes). Opus review: 10 findings fixed (hall of fame failure no longer blocks the run, known scores never overwritten by blank pages, `seasons.json` merges leagues, empty table after data is a gate error, scoreless matches stop being refetched after 14 days, team ids stay stable across the season, gates require the selected season/league, backfills do not touch `meta.json`, match sheet closes back to where it was opened, CLI numbers validated). `rankByRules` now drives an ingest warning when the site's order differs from the rules.
 
 Open / needs the live site: first scheduled ingest (all 19 leagues, match page formats for forfeits, team id stability across seasons). Deploy: connect the repo to Vercel and allow Actions write access (see README).
+
+## 2026-11-13 follow-ups (done)
+
+L1-only ingest; missing-data state; UI round: league progression chart and cross table (Statisztika tabs), form hover, complete weekly lists, centred match dialog, scorer team filter, hall of fame removed.

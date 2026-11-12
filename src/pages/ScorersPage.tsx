@@ -1,6 +1,7 @@
 import { Search } from 'lucide-react'
 import { PageHeader } from '@/components/PageHeader'
 import { EmptyState, QueryBoundary } from '@/components/QueryBoundary'
+import { TeamSelect } from '@/components/TeamSelect'
 import { Input } from '@/components/ui/input'
 import { TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table'
 import { useT } from '@/hooks/prefs'
@@ -12,6 +13,7 @@ export default function ScorersPage() {
   const t = useT()
   const { query, teamName, params, setSelection, seasonId, league, noData } = useLeagueData()
   const q = params.get('q') ?? ''
+  const teamFilter = params.get('t')
 
   return (
     <div className="space-y-4">
@@ -19,13 +21,17 @@ export default function ScorersPage() {
       <QueryBoundary query={query} idle={noData || seasonId === null || league === null}>
         {(data) => {
           const { rows, coverage } = aggregateScorers(data.matches)
-          const shown = rows.filter((r) => includesFolded(r.name, q) || includesFolded(teamName(r.teamId), q))
+          const shown = rows.filter(
+            (r) => (!teamFilter || r.teamId === teamFilter) && (includesFolded(r.name, q) || includesFolded(teamName(r.teamId), q)),
+          )
           return (
             <>
               <p className="rounded-lg bg-muted px-3 py-2 text-sm text-muted-foreground">
                 {t('scorersCoverage', { with: coverage.withScorers, played: coverage.played })}
               </p>
-              <label className="relative block max-w-sm">
+              <div className="flex flex-wrap items-center gap-2">
+              <TeamSelect teams={data.teams} value={teamFilter} onChange={(id) => setSelection({ extra: { t: id } })} />
+              <label className="relative block max-w-sm flex-1">
                 <span className="sr-only">{t('search')}</span>
                 <Search className="absolute top-2.5 left-2.5 size-4 text-muted-foreground" aria-hidden />
                 <Input
@@ -36,6 +42,7 @@ export default function ScorersPage() {
                   onChange={(e) => setSelection({ extra: { q: e.target.value } })}
                 />
               </label>
+              </div>
               {shown.length === 0 ? (
                 <EmptyState>{rows.length === 0 ? t('scorersEmpty') : t('emptyFilter')}</EmptyState>
               ) : (

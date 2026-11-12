@@ -10,11 +10,10 @@ import { TooltipProvider } from '@/components/ui/tooltip'
 const StandingsPage = lazy(() => import('@/pages/StandingsPage'))
 const SchedulePage = lazy(() => import('@/pages/SchedulePage'))
 const ResultsPage = lazy(() => import('@/pages/ResultsPage'))
-const MatchSheet = lazy(() => import('@/pages/MatchSheet'))
+const MatchDialog = lazy(() => import('@/pages/MatchDialog'))
 const TeamPage = lazy(() => import('@/pages/TeamPage'))
 const ScorersPage = lazy(() => import('@/pages/ScorersPage'))
 const StatsPage = lazy(() => import('@/pages/StatsPage'))
-const HallOfFamePage = lazy(() => import('@/pages/HallOfFamePage'))
 const SettingsPage = lazy(() => import('@/pages/SettingsPage'))
 const NotFoundPage = lazy(() => import('@/pages/NotFoundPage'))
 
@@ -46,14 +45,13 @@ export default function App() {
                   element={
                     <>
                       <ResultsPage />
-                      <MatchSheet />
+                      <MatchDialog />
                     </>
                   }
                 />
                 <Route path="t/:teamId" element={<TeamPage />} />
                 <Route path="golok" element={<ScorersPage />} />
                 <Route path="statisztika" element={<StatsPage />} />
-                <Route path="hiressegek" element={<HallOfFamePage />} />
                 <Route path="beallitasok" element={<SettingsPage />} />
                 <Route path="*" element={<NotFoundPage />} />
               </Route>

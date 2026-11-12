@@ -1,6 +1,6 @@
 import { Suspense, useState } from 'react'
 import { NavLink, Outlet } from 'react-router'
-import { BarChart3, CalendarDays, Crown, ListOrdered, Menu, Moon, Settings, Sun, SunMoon, Target, Trophy } from 'lucide-react'
+import { BarChart3, CalendarDays, ListOrdered, Menu, Moon, Settings, Sun, SunMoon, Target, Trophy } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { DropdownMenu, DropdownMenuContent, DropdownMenuRadioGroup, DropdownMenuRadioItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu'
@@ -24,7 +24,6 @@ const PRIMARY: NavItem[] = [
 ]
 const SECONDARY: NavItem[] = [
   { to: '/statisztika', label: 'navStats', icon: BarChart3 },
-  { to: '/hiressegek', label: 'navHallOfFame', icon: Crown },
   { to: '/beallitasok', label: 'navSettings', icon: Settings },
 ]
 

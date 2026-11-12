@@ -14,10 +14,9 @@ All data comes from the public pages of <https://villanyfenyesbajnoksag.hu> (ser
 |---|---|---|
 | Standings | `/tabella?selected_season={seasonId}&league={code}` | season list, league list, standings rows, row icons, per-team fixture cards, team card summary |
 | Match result | `/tabella/{matchId}/eredmenyek/{teamId}` | season label, venue, kickoff, final score, goals per player (only players with goals > 0) |
-| Hall of fame | `/hiressegek-csarnoka` | six top-3 tables |
 | Rules | `/oldalak/3` (Versenykiírás) | tie-break rules (read once, implemented in code) |
 
-Not used: `/` (only truncated names), `/hirek/*`, `/blog`, `/versenykiirasok`, login/registration, anything behind authentication.
+Not used: `/` (only truncated names), `/hiressegek-csarnoka` (hall of fame, removed on 2026-11-13), `/hirek/*`, `/blog`, `/versenykiirasok`, login/registration, anything behind authentication.
 
 ## Ids
 
@@ -44,7 +43,6 @@ Team card (`extraRow{n}`): fixture cards (`Home - Away`, venue such as `Bogdánf
 
 Match page: home team = team 1, away team = team 2 (matches the card order), league, season label, `venue - kickoff`, final score `h : a`, per-team list of rostered players with goals. Players with `0` goals are roster members, not scorers: the ingest drops them. Team captain names are shown but not collected.
 
-Hall of fame: six tables with an `h4` title; column headers are wrong on some tables (player tables say "Csapat", the player seasons table says "Első szezon"). The ingest maps each table by its `h4` title, not the header. Data covers 2025 onwards only.
 
 ## Not provided
 
@@ -69,7 +67,7 @@ Hall of fame: six tables with an `h4` title; column headers are wrong on some ta
 ## Ingest behaviour
 
 - Leagues: only those in `src/lib/leagues.ts` (currently `L1`).
-- One run: entry page `/tabella` (current season, `L1`), the other enabled leagues' standings pages, the hall of fame, then match pages within the remaining budget (never-fetched first, then newest).
+- One run: entry page `/tabella` (current season, `L1`), the other enabled leagues' standings pages then match pages within the remaining budget (never-fetched first, then newest).
 - Match page refetch rules: never fetched → fetch; no score yet → refetch if the last fetch is older than 2 h; scored → refetch daily only while inside the 4-day upload window after kickoff.
 - Politeness: one request at a time, 1.5 s delay, exponential backoff on 429/5xx (3 retries), 30 s timeout, 200 requests per run, User-Agent `villanyfenyes-viewer-ingest/0.1 (...; +https://github.com/leventehegedus/villanyfenyes)`.
 - Gates (any failure: nothing written, exit 1): season selector present; the site served the requested season and league; schema validation; teams/matches not dropping more than 30 % against the previous file; at least one league with rows. An empty league table is skipped with a warning.

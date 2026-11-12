@@ -1,7 +1,8 @@
+import { useEffect } from 'react'
 import { Link } from 'react-router'
 import { useFavourites, usePrefs, useT } from '@/hooks/prefs'
 import { formatDay, formatKickoffShort } from '@/lib/format'
-import { groupByWeek } from '@/lib/schedule'
+import { groupByWeek, weekStart } from '@/lib/schedule'
 import type { Match } from '@/lib/schema'
 import { isPlayed } from '@/lib/standings'
 import { cn } from '@/lib/utils'
@@ -46,16 +47,33 @@ export function MatchRow({ match: m, teamName, keep, now }: RowProps) {
 }
 
 /** Matches grouped by Budapest week (the site publishes no round numbers). */
-export function MatchList({ matches, teamName, keep, newestFirst = false }: Omit<RowProps, 'match' | 'now'> & { matches: readonly Match[]; newestFirst?: boolean }) {
+export function MatchList({
+  matches,
+  teamName,
+  keep,
+  newestFirst = false,
+  scrollToCurrent = false,
+}: Omit<RowProps, 'match' | 'now'> & { matches: readonly Match[]; newestFirst?: boolean; scrollToCurrent?: boolean }) {
   const t = useT()
   const { prefs } = usePrefs()
   const now = new Date()
   const groups = groupByWeek(matches)
   if (newestFirst) groups.reverse()
+  const thisWeek = weekStart(now.toISOString())
+  const currentKey = groups.find((g) => g.week !== null && g.week >= thisWeek)?.week
+  // Jump to this week once when the list first mounts (DOM side effect, not data fetching).
+  useEffect(() => {
+    if (scrollToCurrent) document.getElementById('current-week')?.scrollIntoView({ block: 'start' })
+  }, [scrollToCurrent])
   return (
     <div className="space-y-4">
       {groups.map((g) => (
-        <section key={g.week ?? 'none'} aria-label={g.week ?? t('noKickoff')}>
+        <section
+          key={g.week ?? 'none'}
+          id={scrollToCurrent && g.week === currentKey ? 'current-week' : undefined}
+          className="scroll-mt-32"
+          aria-label={g.week ?? t('noKickoff')}
+        >
           <h3 className="mb-1 px-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
             {g.week ? t('weekOf', { date: formatDay(`${g.week}T12:00:00Z`, prefs.locale, 'UTC') }) : t('noKickoff')}
           </h3>

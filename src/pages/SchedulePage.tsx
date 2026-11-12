@@ -35,9 +35,10 @@ export default function SchedulePage() {
   return (
     <MatchesView
       title="navSchedule"
-      defaultStatus="upcoming"
+      defaultStatus="all"
       showStatus
       newestFirst={false}
+      scrollToCurrent
       actions={(matches, data) => <CalendarButton matches={matches} data={data} />}
     />
   )

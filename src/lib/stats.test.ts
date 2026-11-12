@@ -54,3 +54,25 @@ describe('headToHead', () => {
     expect(headToHead('1', '1', matches).results).toEqual([])
   })
 })
+
+describe('leagueProgression', () => {
+  it('gives cumulative points per team at the end of each week with results', async () => {
+    const { leagueProgression } = await import('./stats')
+    const p = leagueProgression(leagueFixture.teams, matches)
+    expect(p.map((r) => r.week)).toEqual(['2026-08-31', '2026-09-07', '2026-09-14'])
+    expect(p.map((r) => r.points['1'])).toEqual([3, 3, 6])
+    expect(p.map((r) => r.points['2'])).toEqual([0, 1, 4])
+    expect(p.at(-1)?.points['4']).toBe(3)
+  })
+})
+
+describe('crossTable', () => {
+  it('maps each pair to results from the row team view', async () => {
+    const { crossTable } = await import('./stats')
+    const cell = crossTable(leagueFixture.teams, matches)
+    expect(cell('1', '2').map((r) => [r.goalsFor, r.goalsAgainst, r.outcome, r.matchId])).toEqual([[3, 1, 'W', '101']])
+    expect(cell('2', '1').map((r) => r.outcome)).toEqual(['L'])
+    expect(cell('1', '1')).toEqual([])
+    expect(cell('1', '9')).toEqual([])
+  })
+})

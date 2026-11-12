@@ -20,6 +20,10 @@
 
 - **Only L1 is fetched (2026-11-13, owner's request).** `src/lib/leagues.ts` is the allowlist: the ingest skips other leagues from the site's list, refuses `--league` for them, and `seasons.json` lists only enabled leagues. The schedule runs every 30 min 18:00-24:00 Budapest and every 3 h otherwise; one L1 run is ~2 requests plus new match pages.
 
+- **2026-11-13 UI round (owner's requests):** hall of fame removed (page, parser, schema, fixture, data file); match details open in a centred dialog; results list every kicked-off match (scores pending show "awaiting result"), schedule shows all matches and jumps to the current week; scorer list has a team filter; form chips show the match on hover/focus and link to it.
+- **League progression chart:** 12 coloured lines are unreadable, so all teams draw muted and up to 4 highlighted teams (URL `h`, default favourites else the top 3) use the validated categorical slots 1-4 (dataviz reference palette, light and dark steps) with legend chips and direct end labels. Points are computed from stored results and labelled so.
+- **Cross table:** standings order, row team's view, cells link to the match; tinted by outcome with the score as text.
+
 ## Opus usage
 
 - The main session ran on Opus 5.5 (session model chosen by the user); the build prompt's `opusplan` routing was not available here.

@@ -8,7 +8,6 @@ const dir = new URL('./__fixtures__/', import.meta.url)
 const ROUTES: [RegExp, string][] = [
   [/^\/tabella(\?selected_season=55&league=L1)?$/, 'standings-current-L1.html'],
   [/^\/tabella\/48343\/eredmenyek\/\d+$/, 'match-played.html'],
-  [/^\/hiressegek-csarnoka$/, 'hall-of-fame.html'],
 ]
 
 export const fixtureSource: Source = {

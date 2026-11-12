@@ -45,7 +45,7 @@ function TeamView({ teamId, data, keep, teamName }: { teamId: string; data: Leag
         </div>
         <div title={t('formHint')}>
           <p className="mb-1 text-xs text-muted-foreground">{t('form')}</p>
-          <FormStrip form={s.form} locale={prefs.locale} />
+          <FormStrip results={s.results.slice(-5)} teamName={teamName} keep={keep} />
         </div>
       </header>
 

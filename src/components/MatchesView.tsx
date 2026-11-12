@@ -17,11 +17,12 @@ type Props = {
   defaultStatus: StatusFilter
   showStatus: boolean
   newestFirst: boolean
+  scrollToCurrent?: boolean
   actions?: (matches: Match[], data: LeagueData) => ReactNode
 }
 
 /** Shared page body for the schedule and results views: picker, URL filters, grouped list. */
-export function MatchesView({ title, defaultStatus, showStatus, newestFirst, actions }: Props) {
+export function MatchesView({ title, defaultStatus, showStatus, newestFirst, scrollToCurrent, actions }: Props) {
   const t = useT()
   const { favourites } = useFavourites()
   const { query, teamName, keep, params, setSelection, seasonId, league, noData } = useLeagueData()
@@ -49,7 +50,7 @@ export function MatchesView({ title, defaultStatus, showStatus, newestFirst, act
               {matches.length === 0 ? (
                 <EmptyState>{t('emptyFilter')}</EmptyState>
               ) : (
-                <MatchList matches={matches} teamName={teamName} keep={keep} newestFirst={newestFirst} />
+                <MatchList matches={matches} teamName={teamName} keep={keep} newestFirst={newestFirst} scrollToCurrent={scrollToCurrent} />
               )}
             </>
           )
