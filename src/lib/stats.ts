@@ -115,3 +115,17 @@ export function leagueTable(teams: readonly Team[], matches: readonly Match[]) {
 }
 
 export type LeagueStatsRow = ReturnType<typeof leagueTable>[number]
+
+/** Played meetings between two teams, from team `a`'s point of view. */
+export function headToHead(a: string, b: string, matches: readonly Match[]) {
+  const results = a === b ? [] : teamResults(a, matches).filter((r) => r.opponentId === b)
+  const count = (o: Outcome) => results.filter((r) => r.outcome === o).length
+  return {
+    results,
+    wins: count('W'),
+    draws: count('D'),
+    losses: count('L'),
+    goalsFor: results.reduce((n, r) => n + r.goalsFor, 0),
+    goalsAgainst: results.reduce((n, r) => n + r.goalsAgainst, 0),
+  }
+}

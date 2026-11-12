@@ -45,3 +45,12 @@ describe('leagueTable', () => {
     expect(table.find((r) => r.teamId === '2')?.bestDefence).toBe(true)
   })
 })
+
+describe('headToHead', () => {
+  it('summarises played meetings from the first team view', async () => {
+    const { headToHead } = await import('./stats')
+    expect(headToHead('1', '2', matches)).toMatchObject({ wins: 1, draws: 0, losses: 0, goalsFor: 3, goalsAgainst: 1 })
+    expect(headToHead('2', '1', matches)).toMatchObject({ wins: 0, losses: 1 })
+    expect(headToHead('1', '1', matches).results).toEqual([])
+  })
+})

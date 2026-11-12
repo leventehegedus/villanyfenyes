@@ -6,9 +6,20 @@ export function formatKickoff(iso: string | null, locale: Locale, timeZone: stri
 }
 
 export function formatDay(iso: string, locale: Locale, timeZone: string): string {
-  return new Intl.DateTimeFormat(locale, { month: 'short', day: 'numeric', weekday: 'short', timeZone }).format(
-    new Date(iso),
-  )
+  return new Intl.DateTimeFormat(locale, { month: 'short', day: 'numeric', timeZone }).format(new Date(iso))
+}
+
+/** Compact kickoff for lists: weekday, day and time without the year. */
+export function formatKickoffShort(iso: string | null, locale: Locale, timeZone: string): string | null {
+  if (!iso) return null
+  return new Intl.DateTimeFormat(locale, {
+    weekday: 'short',
+    month: 'short',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    timeZone,
+  }).format(new Date(iso))
 }
 
 export function formatDecimal(n: number | null, locale: Locale): string | null {

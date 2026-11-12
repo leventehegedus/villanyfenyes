@@ -11,6 +11,13 @@
 - **Chrome DevTools MCP was not installed**; network inspection used Playwright MCP instead.
 - **Frontend skills** (`vercel-react-best-practices`, `typescript-advanced-types`, `frontend-design`) were not installed; their rules are applied from the build prompt text.
 
+- **No rounds**: lists group by Budapest week (Monday start).
+- **Home/away split not shown**: every match is at the same venue, so the published order has no home advantage meaning.
+- **Ponytail audit**: run once at the end (phase 5) instead of after every phase, to save tokens; phases 1-3 got a manual review.
+- **UI written in the main session** rather than by parallel subagents: all pages share the i18n dictionary, layout and hooks, so parallel edits would conflict.
+- **Sheet overlay patched with forwardRef** (same React 18 reason as Button).
+- **DATA_DIR**: a tiny Vite plugin serves `/data/*` from another folder in dev/preview, so dev and e2e use fixture data without touching `public/data`.
+
 ## Opus usage
 
 (none yet)
