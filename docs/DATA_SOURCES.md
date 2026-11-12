@@ -65,3 +65,24 @@ Hall of fame: six tables with an `h4` title; column headers are wrong on some ta
 - Team name: the last `div` child of `.teamName`.
 - Numeric columns: `.tabella-col` with a first `div` label (`MSZ`, ...) and a second `div` value.
 - Match page score: `.sportsmagazine-overview-score > span` as `h <small>:</small> a`.
+
+## Ingest behaviour
+
+- One run: entry page `/tabella` (current season, `L1`), the other leagues' standings pages, the hall of fame, then match pages within the remaining budget (never-fetched first, then newest).
+- Match page refetch rules: never fetched → fetch; no score yet → refetch if the last fetch is older than 2 h; scored → refetch daily only while inside the 4-day upload window after kickoff.
+- Politeness: one request at a time, 1.5 s delay, exponential backoff on 429/5xx (3 retries), 30 s timeout, 200 requests per run, User-Agent `villanyfenyes-viewer-ingest/0.1 (...; +https://github.com/leventehegedus/villanyfenyes)`.
+- Gates (any failure: nothing written, exit 1): season selector present; the site served the requested season and league; schema validation; teams/matches not dropping more than 30 % against the previous file; at least one league with rows. An empty league table is skipped with a warning.
+- Diagnostics in `meta.json`: skipped rows with reasons, warnings (for example match pages that failed), standings-vs-results mismatches (only for teams whose played count matches), pending match pages.
+
+## When the HTML changes
+
+1. The scheduled run fails with `gate failed: ...` and keeps the old data.
+2. Save one trimmed page per changed type into `scripts/ingest/__fixtures__/` (strip scripts, styles, images and personal data such as captain names).
+3. Run `pnpm test` to see which parser assertions break, fix the selectors in `scripts/ingest/parse-*.ts`, update this file.
+4. Check with `pnpm ingest --dry-run` before re-enabling the schedule.
+
+## Not confirmed yet (needs the first live run)
+
+- Every league page uses the same markup as `L1` (verified for current `L1` and 2022 Tavasz `L2A`).
+- Forfeits and unplayed matches with a result link: the match page format for those was not observed.
+- Whether a team id stays the same across seasons (seen consistent in the inspected pages only).
