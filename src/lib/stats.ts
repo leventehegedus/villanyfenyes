@@ -16,7 +16,7 @@ export type TeamResult = {
 }
 
 const outcomeOf = (gf: number, ga: number): Outcome => (gf > ga ? 'W' : gf === ga ? 'D' : 'L')
-const POINTS: Record<Outcome, number> = { W: 3, D: 1, L: 0 }
+export const POINTS: Record<Outcome, number> = { W: 3, D: 1, L: 0 }
 
 /** Played matches of a team from its own point of view, oldest first. */
 export function teamResults(teamId: string, matches: readonly Match[]): TeamResult[] {

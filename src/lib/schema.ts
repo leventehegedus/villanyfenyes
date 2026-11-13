@@ -88,9 +88,14 @@ const tolerantArray = <T extends z.ZodType>(item: T) =>
     }),
   )
 
-const leagueFileShape = <A extends 'strict' | 'tolerant'>(mode: A) => {
-  const arr = <T extends z.ZodType>(item: T) =>
+type Mode = 'strict' | 'tolerant'
+const arrayFor =
+  (mode: Mode) =>
+  <T extends z.ZodType>(item: T) =>
     mode === 'strict' ? z.array(item) : tolerantArray(item)
+
+const leagueFileShape = (mode: Mode) => {
+  const arr = arrayFor(mode)
   return z.object({
     schemaVersion: z.number().int(),
     seasonId: z.number().int(),
@@ -105,6 +110,75 @@ const leagueFileShape = <A extends 'strict' | 'tolerant'>(mode: A) => {
 
 export const LeagueFile = leagueFileShape('strict')
 export const LeagueFileRead = leagueFileShape('tolerant')
+
+const count = z.number().int().nonnegative()
+
+export const AllTimeTotals = z.object({
+  played: count,
+  won: count,
+  drawn: count,
+  lost: count,
+  goalsFor: count,
+  goalsAgainst: count,
+  points: count,
+})
+
+/** One played match from the team's point of view, with where to find it. */
+export const MatchRef = z.object({
+  seasonId: z.number().int(),
+  league: LeagueCode,
+  matchId: z.string().min(1),
+  kickoff: z.string().nullable(),
+  opponentId: z.string().min(1),
+  goalsFor: count,
+  goalsAgainst: count,
+})
+
+const Streak = z.object({ length: z.number().int().positive(), from: MatchRef, to: MatchRef })
+
+const teamAllTimeShape = (mode: Mode) => {
+  const arr = arrayFor(mode)
+  return z.object({
+    schemaVersion: z.number().int(),
+    teamId: z.string().min(1),
+    /** Every name the site used for the team, latest first. */
+    names: z.array(z.string().min(1)).min(1),
+    /** Newest season first. */
+    seasons: arr(
+      z.object({
+        seasonId: z.number().int(),
+        label: z.string().min(1),
+        league: LeagueCode,
+        /** False for the current season: excluded from honours and best/worst season. */
+        finished: z.boolean(),
+        position: z.number().int().positive().nullable(),
+        teamsInLeague: count,
+        marker: z.enum(['promotion', 'relegation']).nullable(),
+        totals: AllTimeTotals,
+      }),
+    ),
+    opponents: arr(z.object({ teamId: z.string().min(1), name: z.string().min(1), totals: AllTimeTotals })),
+    records: z.object({
+      biggestWin: MatchRef.nullable(),
+      biggestDefeat: MatchRef.nullable(),
+      highestScoring: MatchRef.nullable(),
+    }),
+    streaks: z.object({ win: Streak.nullable(), unbeaten: Streak.nullable(), loss: Streak.nullable() }),
+    cleanSheets: count,
+    failedToScore: count,
+    scorers: z.object({
+      playedMatches: count,
+      /** Played matches whose scorers are known; the rest are "nincs adat", not zero. */
+      coveredMatches: count,
+      rows: arr(
+        z.object({ name: z.string().min(1), goals: z.number().int().positive(), matches: z.number().int().positive(), hatTricks: count }),
+      ),
+    }),
+  })
+}
+
+export const TeamAllTimeFile = teamAllTimeShape('strict')
+export const TeamAllTimeFileRead = teamAllTimeShape('tolerant')
 
 export const SeasonsFile = z.object({
   schemaVersion: z.number().int(),
@@ -146,3 +220,6 @@ export type LeagueFile = z.infer<typeof LeagueFile>
 export type SeasonsFile = z.infer<typeof SeasonsFile>
 export type Mismatch = z.infer<typeof Mismatch>
 export type MetaFile = z.infer<typeof MetaFile>
+export type AllTimeTotals = z.infer<typeof AllTimeTotals>
+export type MatchRef = z.infer<typeof MatchRef>
+export type TeamAllTimeFile = z.infer<typeof TeamAllTimeFile>
