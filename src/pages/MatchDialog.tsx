@@ -5,6 +5,7 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } f
 import { usePrefs, useT } from '@/hooks/prefs'
 import { useLeagueData } from '@/hooks/useLeagueData'
 import { SOURCE_SITE } from '@/lib/config'
+import { playerPath } from '@/lib/paths'
 import { formatKickoff } from '@/lib/format'
 import type { LeagueData } from '@/lib/data'
 import type { Match } from '@/lib/schema'
@@ -44,7 +45,9 @@ function MatchDetails({ match: m, data, keep }: { match: Match; data: LeagueData
                 <ul key={id} className={side === 0 ? 'space-y-0.5 text-right' : 'space-y-0.5'}>
                   {m.scorers?.filter((sc) => sc.teamId === id).map((sc) => (
                     <li key={sc.name}>
-                      {sc.name}
+                      <Link to={playerPath(id, sc.name, keep)} className="hover:underline">
+                        {sc.name}
+                      </Link>
                       {sc.goals > 1 && <span className="tabular ml-1 font-semibold">×{sc.goals}</span>}
                     </li>
                   ))}

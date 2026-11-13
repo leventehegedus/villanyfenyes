@@ -7,15 +7,17 @@ import { useT } from '@/hooks/prefs'
 import { useLeagueData } from '@/hooks/useLeagueData'
 import { isPlayed } from '@/lib/standings'
 import { readHighlight, toggleHighlight, writeHighlight } from '@/lib/url-state'
+import { parseWhatIf, serialiseWhatIf } from '@/lib/whatif'
 
 const LeagueProgressionChart = lazy(() => import('@/components/LeagueProgressionChart'))
 const PositionOdds = lazy(() => import('@/components/PositionOdds'))
+const WhatIfCalculator = lazy(() => import('@/components/WhatIfCalculator'))
 
 export default function StatsPage() {
   const t = useT()
   const { query, keep, params, setSelection, seasonId, league, noData } = useLeagueData()
   const rawView = params.get('v')
-  const view = rawView === 'cross' || rawView === 'odds' ? rawView : 'progress'
+  const view = rawView === 'cross' || rawView === 'odds' || rawView === 'whatif' ? rawView : 'progress'
 
   return (
     <div className="space-y-4">
@@ -31,10 +33,11 @@ export default function StatsPage() {
           const setHighlight = (ids: string[]) => setSelection({ extra: { h: writeHighlight(ids) } })
           return (
             <Tabs value={view} onValueChange={(v) => setSelection({ extra: { v: v === 'progress' ? null : v } })}>
-              <TabsList>
+              <TabsList className="max-w-full overflow-x-auto">
                 <TabsTrigger value="progress">{t('tabProgress')}</TabsTrigger>
                 <TabsTrigger value="cross">{t('tabCross')}</TabsTrigger>
                 <TabsTrigger value="odds">{t('tabOdds')}</TabsTrigger>
+                <TabsTrigger value="whatif">{t('whatIfTab')}</TabsTrigger>
               </TabsList>
               <TabsContent value="progress" className="space-y-2 pt-2">
                 <h2 className="text-lg font-semibold">{t('progressionTitle')}</h2>
@@ -59,6 +62,18 @@ export default function StatsPage() {
                 <h2 className="text-lg font-semibold">{t('oddsTitle')}</h2>
                 <Suspense fallback={<ListSkeleton rows={6} />}>
                   <PositionOdds data={data} keep={keep} />
+                </Suspense>
+              </TabsContent>
+              <TabsContent value="whatif" className="space-y-2 pt-2">
+                <h2 className="text-lg font-semibold">{t('whatIfTitle')}</h2>
+                <p className="text-sm text-muted-foreground">{t('whatIfHint')}</p>
+                <Suspense fallback={<ListSkeleton rows={6} />}>
+                  <WhatIfCalculator
+                    data={data}
+                    keep={keep}
+                    value={parseWhatIf(params.get('w'))}
+                    onChange={(w) => setSelection({ extra: { w: serialiseWhatIf(w) || null } })}
+                  />
                 </Suspense>
               </TabsContent>
             </Tabs>

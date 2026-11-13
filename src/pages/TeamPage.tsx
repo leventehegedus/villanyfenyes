@@ -1,5 +1,5 @@
 import { Suspense, lazy } from 'react'
-import { useParams } from 'react-router'
+import { Link, useParams } from 'react-router'
 import { FormStrip } from '@/components/FormStrip'
 import { Markers } from '@/components/Markers'
 import { MatchList } from '@/components/MatchList'
@@ -12,6 +12,7 @@ import { useLeagueData } from '@/hooks/useLeagueData'
 import type { LeagueData } from '@/lib/data'
 import { formatDecimal } from '@/lib/format'
 import { filterMatches } from '@/lib/schedule'
+import { playerPath } from '@/lib/paths'
 import { aggregateScorers } from '@/lib/scorers'
 import { teamStats } from '@/lib/stats'
 import type { TeamResult } from '@/lib/stats'
@@ -43,7 +44,7 @@ function TeamView({ teamId, data, keep, teamName }: { teamId: string; data: Leag
         </div>
         <div title={t('formHint')}>
           <p className="mb-1 text-xs text-muted-foreground">{t('form')}</p>
-          <FormStrip results={s.results.slice(-5)} teamName={teamName} keep={keep} />
+          <FormStrip teamId={teamId} results={s.results.slice(-5)} teamName={teamName} keep={keep} />
         </div>
       </header>
 
@@ -66,7 +67,7 @@ function TeamView({ teamId, data, keep, teamName }: { teamId: string; data: Leag
           </dl>
           {s.played > 1 && (
             <Suspense fallback={<ListSkeleton rows={2} />}>
-              <TeamCharts progression={s.pointsProgression} />
+              <TeamCharts teamId={teamId} progression={s.pointsProgression} teamName={teamName} />
             </Suspense>
           )}
         </CardContent>
@@ -85,7 +86,9 @@ function TeamView({ teamId, data, keep, teamName }: { teamId: string; data: Leag
               <ol className="space-y-1 text-sm">
                 {scorers.map((p) => (
                   <li key={p.name} className="flex justify-between">
-                    <span>{p.name}</span>
+                    <Link to={playerPath(teamId, p.name, keep)} className="hover:underline">
+                      {p.name}
+                    </Link>
                     <span className="tabular font-semibold">{p.goals}</span>
                   </li>
                 ))}

@@ -80,6 +80,8 @@ export function teamStats(teamId: string, matches: readonly Match[]) {
     pointsProgression: results.map((r) => ({
       matchId: r.matchId,
       kickoff: r.kickoff,
+      opponentId: r.opponentId,
+      home: r.home,
       goalsFor: r.goalsFor,
       goalsAgainst: r.goalsAgainst,
       points: (points += POINTS[r.outcome]),

@@ -176,3 +176,25 @@
     }
   }
 }
+
+@layer base {
+  /* Everything clickable shows the hand cursor (Tailwind v4 resets buttons to the default arrow). */
+  a[href],
+  button:not(:disabled),
+  summary,
+  select,
+  [role='button'],
+  [role='tab'],
+  [role='radio'],
+  [role='switch'],
+  [role='option'],
+  [role='menuitem'],
+  [role='menuitemcheckbox'],
+  [role='menuitemradio'],
+  [role='combobox'] {
+    cursor: pointer;
+  }
+  :is(button, [role='tab'], [role='radio'], [role='option'], [role='menuitem'], [role='menuitemcheckbox']):is(:disabled, [data-disabled]) {
+    cursor: not-allowed;
+  }
+}

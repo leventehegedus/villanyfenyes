@@ -40,3 +40,20 @@ export function formatAge(iso: string, now: Date, locale: Locale): string {
   if (Math.abs(hours) < 48) return rtf.format(hours, 'hour')
   return rtf.format(Math.round(hours / 24), 'day')
 }
+
+/** "Home 3:2 Away" from one team's point of view, as the site lists the match (home first). */
+export function matchLabel(
+  r: { home: boolean; opponentId: string; goalsFor: number; goalsAgainst: number },
+  teamId: string,
+  teamName: (id: string) => string,
+): string {
+  return r.home
+    ? `${teamName(teamId)} ${r.goalsFor}:${r.goalsAgainst} ${teamName(r.opponentId)}`
+    : `${teamName(r.opponentId)} ${r.goalsAgainst}:${r.goalsFor} ${teamName(teamId)}`
+}
+
+/** Axis ticks 0, step, 2*step, ... up to the first multiple of `step` that covers `max`. */
+export function stepTicks(max: number, step: number): number[] {
+  const top = Math.max(step, Math.ceil(Math.max(0, max) / step) * step)
+  return Array.from({ length: top / step + 1 }, (_, i) => i * step)
+}

@@ -54,10 +54,10 @@ test('stats: progression chart, cross table and form hover', async ({ page }) =>
   await expect(page.getByRole('button', { name: 'Lokomotív MFC', pressed: true })).toHaveCount(0)
   await page.getByRole('tab', { name: 'Kereszttábla' }).click()
   await expect(page).toHaveURL(/v=cross/)
-  await expect(page.getByRole('link', { name: /Lokomotív MFC – Gyermekláncfűrész 3:2/ })).toBeVisible()
+  await expect(page.getByRole('link', { name: /Gyermekláncfűrész 2:3 Lokomotív MFC/ }).first()).toBeVisible()
   await page.goto('/t/69?s=55&l=L1')
-  await page.getByRole('link', { name: /Győzelem 3:2, Gyermekláncfűrész/ }).hover()
-  await expect(page.getByRole('tooltip')).toHaveText('3:2')
+  await page.getByRole('link', { name: /Győzelem: Gyermekláncfűrész 2:3 Lokomotív MFC/ }).hover()
+  await expect(page.getByRole('tooltip')).toHaveText('Gyermekláncfűrész 2:3 Lokomotív MFC')
 })
 
 test('scorers can be filtered by team', async ({ page }) => {
@@ -90,4 +90,22 @@ test('clicking a team on the scorer list filters by it', async ({ page }) => {
   await page.getByRole('button', { name: 'Szűrés erre a csapatra: Gyermekláncfűrész' }).first().click()
   await expect(page).toHaveURL(/t=100/)
   await expect(page.getByRole('cell', { name: 'Pap Bulcsú' })).toHaveCount(0)
+})
+
+test('what-if: entering a result re-ranks the table and is kept in the URL', async ({ page }) => {
+  await page.goto('/statisztika?s=55&l=L1&v=whatif')
+  await expect(page.getByRole('heading', { name: 'Mi lenne, ha…' })).toBeVisible()
+  await page.getByRole('button', { name: '2' }).first().click()
+  await expect(page).toHaveURL(/w=[^&]+%3A0-1|w=[^&]+:0-1/)
+  await expect(page.getByText('1 meccshez adtál meg eredményt')).toBeVisible()
+  await page.getByRole('button', { name: 'Visszaállítás' }).click()
+  await expect(page.getByText('0 meccshez adtál meg eredményt')).toBeVisible()
+})
+
+test('player page from the scorer list', async ({ page }) => {
+  await page.goto('/golok?s=55&l=L1')
+  await expect(page.getByRole('heading', { name: 'Gólkirály-verseny' })).toBeVisible()
+  await page.getByRole('link', { name: 'Pap Bulcsú' }).click()
+  await expect(page.getByRole('heading', { name: 'Pap Bulcsú' })).toBeVisible()
+  await expect(page.getByRole('link', { name: 'Gyermekláncfűrész 2:3 Lokomotív MFC' })).toBeVisible()
 })

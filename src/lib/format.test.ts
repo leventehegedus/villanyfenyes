@@ -15,3 +15,21 @@ describe('format', () => {
     expect(isStale('garbage', now, 48)).toBe(true)
   })
 })
+
+describe('matchLabel', () => {
+  it('always lists the home team first with the real score', async () => {
+    const { matchLabel } = await import('./format')
+    const name = (id: string) => ({ a: 'Borg', b: 'Szia Uram!' })[id] ?? id
+    expect(matchLabel({ home: true, opponentId: 'b', goalsFor: 2, goalsAgainst: 4 }, 'a', name)).toBe('Borg 2:4 Szia Uram!')
+    expect(matchLabel({ home: false, opponentId: 'b', goalsFor: 2, goalsAgainst: 4 }, 'a', name)).toBe('Szia Uram! 4:2 Borg')
+  })
+})
+
+describe('stepTicks', () => {
+  it('covers the maximum in whole steps', async () => {
+    const { stepTicks } = await import('./format')
+    expect(stepTicks(21, 3)).toEqual([0, 3, 6, 9, 12, 15, 18, 21])
+    expect(stepTicks(22, 3).at(-1)).toBe(24)
+    expect(stepTicks(0, 3)).toEqual([0, 3])
+  })
+})

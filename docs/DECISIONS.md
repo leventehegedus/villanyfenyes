@@ -31,6 +31,8 @@
 - **Position odds (2026-11-13, owner's request):** `src/lib/projection.ts`. Reachable range = certain bounds from points only (teams already above the team's maximum stay above; teams whose maximum is below its current points stay below; ties not assumed). Odds = 5000 seeded Monte Carlo runs: every match without a stored score (including "awaiting result") gets Poisson goals from attack/defence rates shrunk toward the league average (3 pseudo-matches), no home advantage (single venue); each run is ranked with `rankByRules` (points, head-to-head mini-table, goal difference, goals). Shown as a one-hue heatmap on the Statisztika "Esélyek" tab; positions outside the bounds are blank, possible-but-unseen positions show a dot.
 - **Form tooltip** shows the match as listed (home first, real score), without the win/draw/loss word; the outcome stays in the chip letter and the screen-reader label.
 
+- **What-if calculator, scorer race, player page (2026-11-13):** what-if scores live in `?w=<matchId>:<h>-<a>,...` and only fill matches without a stored score; the table is ranked with `rankByRules`. Players have no site id, so the player page is `/j/:teamId/:name`. Both league-wide line charts share `RaceChart` (function `dataKey`, because player names can contain dots). Every match hover reads "Home h:a Away" via `matchLabel`. Points axes step by 3; clickable elements get a pointer cursor globally.
+
 ## Opus usage
 
 - The main session ran on Opus 5.5 (session model chosen by the user); the build prompt's `opusplan` routing was not available here.

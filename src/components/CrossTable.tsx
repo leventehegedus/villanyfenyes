@@ -3,6 +3,7 @@ import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip
 import { OUTCOME_STYLE } from '@/components/outcome-style'
 import { useT } from '@/hooks/prefs'
 import type { LeagueData } from '@/lib/data'
+import { matchLabel } from '@/lib/format'
 import { crossTable } from '@/lib/stats'
 import { cn } from '@/lib/utils'
 
@@ -56,7 +57,8 @@ export function CrossTable({ data, keep }: { data: LeagueData; keep: string }) {
                         <Link
                           key={r.matchId}
                           to={`/m/${encodeURIComponent(r.matchId)}${keep}`}
-                          aria-label={`${name.get(row)} – ${name.get(col)} ${r.goalsFor}:${r.goalsAgainst}, ${t(OUTCOME_STYLE[r.outcome].label)}`}
+                          title={matchLabel(r, row, (id) => name.get(id) ?? id)}
+                          aria-label={`${matchLabel(r, row, (id) => name.get(id) ?? id)}, ${t(OUTCOME_STYLE[r.outcome].label)}`}
                           className={cn('tabular block rounded px-1 py-1 font-mono font-semibold hover:ring-1 hover:ring-foreground/30', TINT[r.outcome])}
                         >
                           {r.goalsFor}:{r.goalsAgainst}

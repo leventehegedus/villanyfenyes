@@ -1,3 +1,5 @@
+import { Suspense, lazy } from 'react'
+import { Link } from 'react-router'
 import { Search } from 'lucide-react'
 import { PageHeader } from '@/components/PageHeader'
 import { EmptyState, QueryBoundary } from '@/components/QueryBoundary'
@@ -7,12 +9,15 @@ import { TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/compon
 import { useT } from '@/hooks/prefs'
 import { useLeagueData } from '@/hooks/useLeagueData'
 import { includesFolded } from '@/lib/filters'
+import { playerPath } from '@/lib/paths'
 import { aggregateScorers } from '@/lib/scorers'
 import { readTeamIds } from '@/lib/url-state'
 
+const ScorerRaceChart = lazy(() => import('@/components/ScorerRaceChart'))
+
 export default function ScorersPage() {
   const t = useT()
-  const { query, teamName, params, setSelection, seasonId, league, noData } = useLeagueData()
+  const { query, teamName, params, setSelection, seasonId, league, noData, keep } = useLeagueData()
   const q = params.get('q') ?? ''
   const teamFilter = readTeamIds(params)
 
@@ -30,6 +35,9 @@ export default function ScorersPage() {
               <p className="rounded-lg bg-muted px-3 py-2 text-sm text-muted-foreground">
                 {t('scorersCoverage', { with: coverage.withScorers, played: coverage.played })}
               </p>
+              <Suspense fallback={null}>
+                <ScorerRaceChart matches={data.matches} teamName={teamName} />
+              </Suspense>
               <div className="flex flex-wrap items-center gap-2">
               <TeamMultiSelect teams={data.teams} value={teamFilter} onChange={(ids) => setSelection({ extra: { t: ids.join(',') || null } })} />
               <label className="relative block max-w-sm flex-1">
@@ -62,7 +70,11 @@ export default function ScorersPage() {
                       {shown.map((r) => (
                         <TableRow key={`${r.teamId}-${r.name}`}>
                           <TableCell className="tabular text-center">{r.rank}</TableCell>
-                          <TableCell className="font-medium">{r.name}</TableCell>
+                          <TableCell className="font-medium">
+                            <Link to={playerPath(r.teamId, r.name, keep)} className="hover:underline">
+                              {r.name}
+                            </Link>
+                          </TableCell>
                           <TableCell>
                             <button
                               type="button"
