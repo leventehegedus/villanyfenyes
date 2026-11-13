@@ -172,7 +172,7 @@ const hu = {
   oddsDone: 'Minden meccs lejátszva, a végeredmény eldőlt.',
   skipToContent: 'Ugrás a tartalomhoz',
   sortBy: 'Rendezés: {col}',
-  allTime: 'Összesített',
+  allTime: 'Összesítés',
   teamNoHistory: 'Ehhez a csapathoz még nincs összesített adat.',
   backToSeason: 'Vissza a szezonhoz',
   allTimeTitle: 'Összesített statisztika',

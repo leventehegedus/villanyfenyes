@@ -111,7 +111,7 @@ test('player page from the scorer list', async ({ page }) => {
 
 test('team all-time page: totals, timeline and picker limited to the team', async ({ page }) => {
   await page.goto('/t/69?s=55&l=L1')
-  await page.getByRole('link', { name: /Összesített/ }).click()
+  await page.getByRole('link', { name: 'Összesítés' }).click()
   await expect(page).toHaveURL(/\/t\/69\/osszes/)
   await expect(page.getByRole('heading', { name: 'Lokomotív MFC' })).toBeVisible()
   await expect(page.getByRole('heading', { name: 'Mérleg ligánként' })).toBeVisible()

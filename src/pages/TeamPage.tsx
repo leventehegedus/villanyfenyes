@@ -1,4 +1,5 @@
 import { Suspense, lazy } from 'react'
+import { History } from 'lucide-react'
 import { Link, Navigate, useParams } from 'react-router'
 import { FormStrip } from '@/components/FormStrip'
 import { Markers } from '@/components/Markers'
@@ -6,6 +7,7 @@ import { MatchList } from '@/components/MatchList'
 import { EmptyState, ListSkeleton, QueryBoundary } from '@/components/QueryBoundary'
 import { SeasonLeaguePicker } from '@/components/SeasonLeaguePicker'
 import { Stat } from '@/components/Stat'
+import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { usePrefs, useT } from '@/hooks/prefs'
 import { useTeamAllTime } from '@/hooks/queries'
@@ -39,14 +41,19 @@ function TeamView({ teamId, data, keep, teamName }: { teamId: string; data: Leag
     <div className="space-y-5">
       <header className="flex flex-wrap items-center gap-3">
         <div className="min-w-0 flex-1">
-          <h1 className="font-heading text-2xl font-bold tracking-tight">{team.name}</h1>
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+            <h1 className="font-heading text-2xl font-bold tracking-tight">{team.name}</h1>
+            <Button asChild variant="outline" size="sm">
+              <Link to={`/t/${encodeURIComponent(teamId)}/osszes${keep}`}>
+                <History aria-hidden />
+                {t('allTime')}
+              </Link>
+            </Button>
+          </div>
           <p className="text-sm text-muted-foreground">
             {data.league} · {t('position')}: {row?.position ?? missing} · {t('points')}: {row?.points ?? missing}
           </p>
           {row && <Markers markers={row.markers} />}
-          <Link to={`/t/${encodeURIComponent(teamId)}/osszes${keep}`} className="text-sm font-medium text-primary hover:underline">
-            {t('allTime')} →
-          </Link>
         </div>
         <div title={t('formHint')}>
           <p className="mb-1 text-xs text-muted-foreground">{t('form')}</p>
