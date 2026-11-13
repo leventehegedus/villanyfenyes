@@ -1,0 +1,419 @@
+{
+ "schemaVersion": 1,
+ "currentSeasonId": 55,
+ "seasons": [
+  {
+   "id": 55,
+   "label": "2026 - Ősz",
+   "year": 2026,
+   "half": "osz",
+   "start": "2026-08-31",
+   "end": "2026-12-18"
+  },
+  {
+   "id": 54,
+   "label": "2026 - Nyár",
+   "year": 2026,
+   "half": "nyar",
+   "start": "2026-06-08",
+   "end": "2026-08-28"
+  },
+  {
+   "id": 53,
+   "label": "2026 - TAVASZ",
+   "year": 2026,
+   "half": "tavasz",
+   "start": "2026-02-02",
+   "end": "2026-06-05"
+  },
+  {
+   "id": 52,
+   "label": "2025 - Ősz",
+   "year": 2025,
+   "half": "osz",
+   "start": "2025-09-01",
+   "end": "2025-12-19"
+  },
+  {
+   "id": 51,
+   "label": "2025 - NYÁR",
+   "year": 2025,
+   "half": "nyar",
+   "start": "2025-06-09",
+   "end": "2025-08-24"
+  },
+  {
+   "id": 5,
+   "label": "2025 - TAVASZ",
+   "year": 2025,
+   "half": "tavasz",
+   "start": "2025-02-06",
+   "end": "2025-06-01"
+  },
+  {
+   "id": 6,
+   "label": "2024 - Tavasz",
+   "year": 2024,
+   "half": "tavasz",
+   "start": "2024-02-13",
+   "end": "2024-05-24"
+  },
+  {
+   "id": 7,
+   "label": "2023 - Ősz",
+   "year": 2023,
+   "half": "osz",
+   "start": "2023-09-01",
+   "end": "2023-12-07"
+  },
+  {
+   "id": 8,
+   "label": "2023 - Tavasz",
+   "year": 2023,
+   "half": "tavasz",
+   "start": "2023-02-27",
+   "end": "2023-06-16"
+  },
+  {
+   "id": 9,
+   "label": "2022 - Ősz",
+   "year": 2022,
+   "half": "osz",
+   "start": "2022-09-07",
+   "end": "2022-12-16"
+  },
+  {
+   "id": 10,
+   "label": "2022 - Tavasz",
+   "year": 2022,
+   "half": "tavasz",
+   "start": "2022-02-07",
+   "end": "2022-05-27"
+  },
+  {
+   "id": 11,
+   "label": "2021 - Ősz",
+   "year": 2021,
+   "half": "osz",
+   "start": "2021-09-08",
+   "end": "2021-12-17"
+  },
+  {
+   "id": 12,
+   "label": "2020 - Tavasz",
+   "year": 2020,
+   "half": "tavasz",
+   "start": "2020-02-17",
+   "end": "2020-11-10"
+  },
+  {
+   "id": 13,
+   "label": "2019 - Ősz",
+   "year": 2019,
+   "half": "osz",
+   "start": "2019-09-02",
+   "end": "2019-12-13"
+  },
+  {
+   "id": 14,
+   "label": "2019 - Tavasz",
+   "year": 2019,
+   "half": "tavasz",
+   "start": "2019-02-11",
+   "end": "2019-06-07"
+  },
+  {
+   "id": 15,
+   "label": "2018 - Ősz",
+   "year": 2018,
+   "half": "osz",
+   "start": "2018-09-03",
+   "end": "2018-12-21"
+  },
+  {
+   "id": 16,
+   "label": "2018 - Tavasz",
+   "year": 2018,
+   "half": "tavasz",
+   "start": "2018-02-12",
+   "end": "2018-06-28"
+  },
+  {
+   "id": 17,
+   "label": "2017 - Ősz",
+   "year": 2017,
+   "half": "osz",
+   "start": "2017-09-04",
+   "end": "2017-12-15"
+  },
+  {
+   "id": 18,
+   "label": "2017 - Tavasz",
+   "year": 2017,
+   "half": "tavasz",
+   "start": "2017-02-20",
+   "end": "2017-06-21"
+  },
+  {
+   "id": 19,
+   "label": "2016 - Ősz",
+   "year": 2016,
+   "half": "osz",
+   "start": "2016-09-05",
+   "end": "2016-12-16"
+  },
+  {
+   "id": 20,
+   "label": "2016 - Tavasz",
+   "year": 2016,
+   "half": "tavasz",
+   "start": "2016-02-29",
+   "end": "2016-06-15"
+  },
+  {
+   "id": 21,
+   "label": "2015 - Ősz",
+   "year": 2015,
+   "half": "osz",
+   "start": "2015-09-07",
+   "end": "2015-12-18"
+  },
+  {
+   "id": 22,
+   "label": "2015 - Tavasz",
+   "year": 2015,
+   "half": "tavasz",
+   "start": "2015-02-16",
+   "end": "2015-06-17"
+  },
+  {
+   "id": 23,
+   "label": "2014 - Ősz",
+   "year": 2014,
+   "half": "osz",
+   "start": "2014-02-08",
+   "end": "2014-12-12"
+  },
+  {
+   "id": 24,
+   "label": "2014 - Tavasz",
+   "year": 2014,
+   "half": "tavasz",
+   "start": "2014-02-17",
+   "end": "2014-06-12"
+  },
+  {
+   "id": 25,
+   "label": "2013 - Ősz",
+   "year": 2013,
+   "half": "osz",
+   "start": "2013-09-09",
+   "end": "2013-12-13"
+  },
+  {
+   "id": 26,
+   "label": "2013 - Tavasz",
+   "year": 2013,
+   "half": "tavasz",
+   "start": "2013-02-18",
+   "end": "2013-06-21"
+  },
+  {
+   "id": 27,
+   "label": "2012 - Ősz",
+   "year": 2012,
+   "half": "osz",
+   "start": "2012-09-01",
+   "end": "2012-11-30"
+  },
+  {
+   "id": 28,
+   "label": "2012 - Tavasz",
+   "year": 2012,
+   "half": "tavasz",
+   "start": "2012-03-01",
+   "end": "2012-05-31"
+  },
+  {
+   "id": 29,
+   "label": "2011 - Ősz",
+   "year": 2011,
+   "half": "osz",
+   "start": "2011-09-01",
+   "end": "2011-11-30"
+  },
+  {
+   "id": 30,
+   "label": "2011 - Tavasz",
+   "year": 2011,
+   "half": "tavasz",
+   "start": "2011-03-01",
+   "end": "2011-05-31"
+  },
+  {
+   "id": 31,
+   "label": "2010 - Ősz",
+   "year": 2010,
+   "half": "osz",
+   "start": "2010-09-01",
+   "end": "2010-11-30"
+  },
+  {
+   "id": 32,
+   "label": "2010 - Tavasz",
+   "year": 2010,
+   "half": "tavasz",
+   "start": "2010-03-01",
+   "end": "2010-05-31"
+  },
+  {
+   "id": 33,
+   "label": "2009 - Ősz",
+   "year": 2009,
+   "half": "osz",
+   "start": "2009-09-01",
+   "end": "2009-11-30"
+  },
+  {
+   "id": 34,
+   "label": "2009 - Tavasz",
+   "year": 2009,
+   "half": "tavasz",
+   "start": "2009-03-01",
+   "end": "2009-05-31"
+  },
+  {
+   "id": 35,
+   "label": "2008 - Ősz",
+   "year": 2008,
+   "half": "osz",
+   "start": "2008-09-01",
+   "end": "2008-11-30"
+  },
+  {
+   "id": 36,
+   "label": "2008 - Tavasz",
+   "year": 2008,
+   "half": "tavasz",
+   "start": "2008-03-01",
+   "end": "2008-05-31"
+  },
+  {
+   "id": 37,
+   "label": "2007 - Ősz",
+   "year": 2007,
+   "half": "osz",
+   "start": "2007-09-01",
+   "end": "2007-11-30"
+  },
+  {
+   "id": 38,
+   "label": "2007 - Tavasz",
+   "year": 2007,
+   "half": "tavasz",
+   "start": "2007-03-01",
+   "end": "2007-05-31"
+  },
+  {
+   "id": 39,
+   "label": "2006 - Ősz",
+   "year": 2006,
+   "half": "osz",
+   "start": "2006-09-01",
+   "end": "2006-11-30"
+  },
+  {
+   "id": 40,
+   "label": "2006 - Tavasz",
+   "year": 2006,
+   "half": "tavasz",
+   "start": "2006-03-01",
+   "end": "2006-05-31"
+  },
+  {
+   "id": 41,
+   "label": "2005 - Ősz",
+   "year": 2005,
+   "half": "osz",
+   "start": "1970-01-01",
+   "end": "1970-01-01"
+  },
+  {
+   "id": 42,
+   "label": "2005 - Tavasz",
+   "year": 2005,
+   "half": "tavasz",
+   "start": "2005-03-01",
+   "end": "2005-05-31"
+  },
+  {
+   "id": 43,
+   "label": "2004 - Ősz",
+   "year": 2004,
+   "half": "osz",
+   "start": "2004-09-01",
+   "end": "2004-11-30"
+  },
+  {
+   "id": 44,
+   "label": "2004 - Tavasz",
+   "year": 2004,
+   "half": "tavasz",
+   "start": "2004-03-01",
+   "end": "2004-05-31"
+  },
+  {
+   "id": 45,
+   "label": "2003 - Ősz",
+   "year": 2003,
+   "half": "osz",
+   "start": "2003-09-01",
+   "end": "2003-11-30"
+  },
+  {
+   "id": 46,
+   "label": "2003 - Tavasz",
+   "year": 2003,
+   "half": "tavasz",
+   "start": "2003-03-01",
+   "end": "2003-05-31"
+  },
+  {
+   "id": 47,
+   "label": "2002 - Ősz",
+   "year": 2002,
+   "half": "osz",
+   "start": "2002-09-01",
+   "end": "2002-11-30"
+  },
+  {
+   "id": 48,
+   "label": "2002 - Tavasz",
+   "year": 2002,
+   "half": "tavasz",
+   "start": "2002-03-01",
+   "end": "2002-05-31"
+  },
+  {
+   "id": 49,
+   "label": "2001 - Ősz",
+   "year": 2001,
+   "half": "osz",
+   "start": "2001-09-01",
+   "end": "2001-11-30"
+  },
+  {
+   "id": 50,
+   "label": "2001 - Tavasz",
+   "year": 2001,
+   "half": "tavasz",
+   "start": "2001-03-01",
+   "end": "2001-05-31"
+  }
+ ],
+ "leagues": {
+  "55": [
+   "L1"
+  ]
+ }
+}
