@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { leagueFixture, match } from './__fixtures__/league'
 import { compareWithSite, computeTotals, rankByRules } from './standings'
+import { matchesUpToWeek, standingsAtWeek } from './stats'
 
 const { teams, matches, standings } = leagueFixture
 const ids = teams.map((t) => t.id)
@@ -52,5 +53,28 @@ describe('orderDiffers', () => {
     expect(orderDiffers(swapped, matches)).toBe(true)
     const incomplete = standings.map((r) => (r.teamId === '4' ? { ...r, played: 4 } : r))
     expect(orderDiffers(incomplete, matches)).toBe(false)
+  })
+})
+
+describe('standingsAtWeek', () => {
+  it('ranks by the matches played up to the end of that week', () => {
+    const rows = standingsAtWeek(ids, matches, '2026-08-31')
+    expect(rows.map((r) => r.teamId)).toEqual(['1', '3', '4', '2'])
+    expect(rows[0]).toEqual({
+      position: 1, teamId: '1', played: 1, won: 1, drawn: 0, lost: 0, goalsFor: 3, goalsAgainst: 1, goalDiff: 2, points: 3, markers: [],
+    })
+  })
+  it('includes every earlier week', () => {
+    expect(standingsAtWeek(ids, matches, '2026-09-14').find((r) => r.teamId === '1')?.played).toBe(3)
+  })
+  it('shows everyone on zero before the first match', () => {
+    expect(standingsAtWeek(ids, matches, '2026-08-24').every((r) => r.played === 0)).toBe(true)
+  })
+})
+
+describe('matchesUpToWeek', () => {
+  it('keeps matches up to the end of the week and drops those without kick-off', () => {
+    const noKickoff = { ...match(['nk', '1', '2', '2026-08-01T18:00:00.000Z', [1, 0]]), kickoff: null }
+    expect(matchesUpToWeek([...matches, noKickoff], '2026-08-31').map((m) => m.id)).toEqual(['101', '102'])
   })
 })

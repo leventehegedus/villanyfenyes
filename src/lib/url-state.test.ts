@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { parseStandingsSort, readHighlight, readMatchFilters, teamRedirect, toggleHighlight, writeHighlight } from './url-state'
+import { parseStandingsSort, readHighlight, readMatchFilters, teamRedirect, toggleHighlight, writeHighlight, writeStandingsSort } from './url-state'
 
 describe('url state', () => {
   it('reads match filters with defaults', () => {
@@ -51,5 +51,13 @@ describe('teamRedirect', () => {
   it('does nothing without team seasons', () => {
     expect(teamRedirect(undefined, 30, 'L1', all)).toBeNull()
     expect(teamRedirect([], 30, 'L1', all)).toBeNull()
+  })
+})
+
+describe('writeStandingsSort', () => {
+  it('round-trips with parseStandingsSort and drops the default order', () => {
+    expect(writeStandingsSort({ key: 'points', dir: 'asc' })).toBe('points:asc')
+    expect(parseStandingsSort(writeStandingsSort({ key: 'goalDiff', dir: 'desc' }))).toEqual({ key: 'goalDiff', dir: 'desc' })
+    expect(writeStandingsSort({ key: 'position', dir: 'asc' })).toBeNull()
   })
 })

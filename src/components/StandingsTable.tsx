@@ -33,11 +33,13 @@ type Props = {
   keep: string
   sort: StandingsSort
   onSort: (sort: StandingsSort) => void
+  /** Team id whose row is emphasised. */
+  highlight?: string
 }
 
 const signed = (n: number) => (n > 0 ? `+${n}` : String(n))
 
-export function StandingsTable({ rows, matches, teamName, keep, sort, onSort }: Props) {
+export function StandingsTable({ rows, matches, teamName, keep, sort, onSort, highlight }: Props) {
   const t = useT()
   const key = sort.key
   const scroller = useRef<HTMLDivElement>(null)
@@ -93,10 +95,13 @@ export function StandingsTable({ rows, matches, teamName, keep, sort, onSort }: 
         <TableBody>
           {sorted.map((r) => {
             const name = teamName(r.teamId)
+            const mine = r.teamId === highlight
+            // Sticky cells need their own background, or the scrolled columns show through.
+            const stickyBg = mine ? 'bg-muted' : 'bg-card'
             return (
-              <TableRow key={r.teamId}>
-                <TableCell className="tabular sticky left-0 z-10 bg-card px-1 text-center font-medium">{r.position}</TableCell>
-                <TableCell className="sticky left-7 z-10 w-full max-w-28 bg-card px-1 py-1.5 sm:max-w-none">
+              <TableRow key={r.teamId} className={cn(mine && 'bg-muted font-semibold')} aria-current={mine || undefined}>
+                <TableCell className={cn('tabular sticky left-0 z-10 px-1 text-center font-medium', stickyBg)}>{r.position}</TableCell>
+                <TableCell className={cn('sticky left-7 z-10 w-full max-w-28 px-1 py-1.5 sm:max-w-none', stickyBg)}>
                   <div className="flex items-center gap-1">
                     <div className="min-w-0">
                       <Link to={`/t/${encodeURIComponent(r.teamId)}${keep}`} className="block truncate hover:underline">

@@ -28,6 +28,8 @@ export function parseStandingsSort(raw: string | null): StandingsSort {
   return isSortKey(key) && (dir === 'asc' || dir === 'desc') ? { key, dir } : { key: 'position', dir: 'asc' }
 }
 
+/** URL value for a standings sort; null for the site's own order (the param is then removed). */
+export const writeStandingsSort = (s: StandingsSort): string | null => (s.key === 'position' ? null : `${s.key}:${s.dir}`)
 
 /** URL value for "nothing highlighted" (an empty param would mean "use the default"). */
 export const NO_HIGHLIGHT = '-'

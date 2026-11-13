@@ -1,6 +1,6 @@
-import type { Match, Team } from './schema'
+import type { Match, StandingRow, Team } from './schema'
 import { weekStart } from './schedule'
-import { isPlayed } from './standings'
+import { computeTotals, isPlayed, rankByRules } from './standings'
 
 export type Outcome = 'W' | 'D' | 'L'
 
@@ -118,4 +118,21 @@ export function crossTable(teams: readonly Team[], matches: readonly Match[]) {
     }
   }
   return (a: string, b: string): TeamResult[] => cells.get(`${a}\u0000${b}`) ?? []
+}
+
+/** Matches with a kick-off up to the end of the given week (Monday, YYYY-MM-DD, Budapest). */
+export const matchesUpToWeek = (matches: readonly Match[], week: string): Match[] =>
+  matches.filter((m) => m.kickoff !== null && weekStart(m.kickoff) <= week)
+
+/**
+ * The table as it stood at the end of the given week (Monday, YYYY-MM-DD, Budapest), computed
+ * from results with the league's tie-break rules. No promotion/relegation markers: those are the site's.
+ */
+export function standingsAtWeek(teamIds: readonly string[], matches: readonly Match[], week: string): StandingRow[] {
+  const upTo = matchesUpToWeek(matches, week)
+  const totals = computeTotals(teamIds, upTo)
+  return rankByRules(teamIds, upTo).flatMap((teamId, i) => {
+    const t = totals.get(teamId)
+    return t ? [{ position: i + 1, teamId, ...t, markers: [] }] : []
+  })
 }

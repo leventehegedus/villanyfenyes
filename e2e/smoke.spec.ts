@@ -56,7 +56,7 @@ test('stats: progression chart, cross table and form hover', async ({ page }) =>
   await expect(page).toHaveURL(/v=cross/)
   await expect(page.getByRole('link', { name: /Gyermekláncfűrész 2:3 Lokomotív MFC/ }).first()).toBeVisible()
   await page.goto('/t/69?s=55&l=L1')
-  await page.getByRole('link', { name: /Győzelem: Gyermekláncfűrész 2:3 Lokomotív MFC/ }).hover()
+  await page.getByRole('link', { name: /Győzelem: Gyermekláncfűrész 2:3 Lokomotív MFC/ }).first().hover()
   await expect(page.getByRole('tooltip')).toHaveText('Gyermekláncfűrész 2:3 Lokomotív MFC')
 })
 
@@ -118,4 +118,15 @@ test('team all-time page: totals, timeline and picker limited to the team', asyn
   await expect(page.getByRole('cell', { name: 'Összesen' })).toBeVisible()
   await expect(page.getByText('folyamatban').first()).toBeVisible()
   await expect(page.getByRole('combobox', { name: 'Szezon' })).toHaveCount(0)
+})
+
+test('team page: table under the charts, past week from the URL', async ({ page }) => {
+  // The fixture team has one played match, so no chart to click; the chart sets the same ?w= param.
+  await page.goto('/t/69?s=55&l=L1')
+  await expect(page.getByRole('heading', { name: 'Tabella', exact: true })).toBeVisible()
+  await expect(page.locator('tr[aria-current="true"]')).toContainText('Lokomotív MFC')
+  await page.goto('/t/69?s=55&l=L1&w=2026-08-31')
+  await expect(page.getByRole('heading', { name: /kezdetű hét végén/ })).toBeVisible()
+  await page.getByRole('button', { name: 'Aktuális' }).click()
+  await expect(page).not.toHaveURL(/w=/)
 })

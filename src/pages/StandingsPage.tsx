@@ -7,7 +7,7 @@ import { Card, CardAction, CardContent, CardHeader, CardTitle } from '@/componen
 import { useT } from '@/hooks/prefs'
 import { useLeagueData } from '@/hooks/useLeagueData'
 import { filterMatches } from '@/lib/schedule'
-import { parseStandingsSort } from '@/lib/url-state'
+import { parseStandingsSort, writeStandingsSort } from '@/lib/url-state'
 
 export default function StandingsPage() {
   const t = useT()
@@ -33,7 +33,7 @@ export default function StandingsPage() {
                 teamName={teamName}
                 keep={keep}
                 sort={sort}
-                onSort={(s) => setSelection({ extra: { o: s.key === 'position' ? null : `${s.key}:${s.dir}` } })}
+                onSort={(o) => setSelection({ extra: { o: writeStandingsSort(o) } })}
               />
               <div className="grid gap-4 md:grid-cols-2">
                 <Card>
