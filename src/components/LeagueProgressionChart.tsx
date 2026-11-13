@@ -21,12 +21,17 @@ type Props = {
   highlighted: readonly string[]
   onToggle: (teamId: string) => void
   onClear: () => void
+  /** Week (Monday, YYYY-MM-DD) whose table is shown below; marked on the chart. */
+  selectedWeek: string | null
+  onSelectWeek: (week: string) => void
 }
 
-export default function LeagueProgressionChart({ teams, matches, podium, highlighted, onToggle, onClear }: Props) {
+export default function LeagueProgressionChart({ teams, matches, podium, highlighted, onToggle, onClear, selectedWeek, onSelectWeek }: Props) {
   const t = useT()
   const { prefs } = usePrefs()
-  const rows = leagueProgression(teams, matches).map((r) => ({ label: formatDay(`${r.week}T12:00:00Z`, prefs.locale, 'UTC'), values: r.points }))
+  const progression = leagueProgression(teams, matches)
+  const rows = progression.map((r) => ({ label: formatDay(`${r.week}T12:00:00Z`, prefs.locale, 'UTC'), values: r.points }))
+  const selected = progression.findIndex((r) => r.week === selectedWeek)
   const extras = highlighted.filter((id) => !podium.includes(id))
   const series: RaceSeries[] = teams.map((team) => {
     const medal = podium.indexOf(team.id)
@@ -62,7 +67,17 @@ export default function LeagueProgressionChart({ teams, matches, podium, highlig
           {t('clearHighlight')}
         </Button>
       </div>
-      <RaceChart rows={rows} series={series} tickStep={3} title={(label) => t('weekOf', { date: label })} />
+      <RaceChart
+        rows={rows}
+        series={series}
+        tickStep={3}
+        title={(label) => t('weekOf', { date: label })}
+        selected={selected === -1 ? null : selected}
+        onSelect={(i) => {
+          const week = progression[i]?.week
+          if (week) onSelectWeek(week)
+        }}
+      />
     </div>
   )
 }

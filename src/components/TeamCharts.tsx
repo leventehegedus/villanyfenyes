@@ -4,6 +4,8 @@ import type { ChartConfig } from '@/components/ui/chart'
 import { usePrefs, useT } from '@/hooks/prefs'
 import { matchLabel, stepTicks } from '@/lib/format'
 import { weekStart } from '@/lib/schedule'
+import { CLICKABLE_CHART, clickedIndex } from '@/lib/charts'
+import type { ChartClick } from '@/lib/charts'
 import type { TeamStats } from '@/lib/stats'
 
 type Props = {
@@ -28,11 +30,9 @@ export default function TeamCharts({ teamId, progression, teamName, selectedWeek
   }))
   const selectedLabel = data.find((d) => d.week !== null && d.week === selectedWeek)?.label
   // Clicking anywhere on a chart picks the week of the nearest match.
-  const select = (state: { activeTooltipIndex?: number | string | null; activeLabel?: string | number }) => {
-    // Number(null) is 0: without a guard a tap with no active point would pick the first week.
-    const i = state.activeTooltipIndex
-    const row = i !== null && i !== undefined && i !== '' ? data[Number(i)] : data.find((d) => d.label === state.activeLabel)
-    if (row?.week) onSelectWeek(row.week)
+  const select = (state: ChartClick) => {
+    const week = data[clickedIndex(state, data.map((d) => d.label)) ?? -1]?.week
+    if (week) onSelectWeek(week)
   }
   const marker = selectedLabel ? <ReferenceLine x={selectedLabel} stroke="var(--primary)" strokeDasharray="4 3" /> : null
   // One tick per win, like the league chart.
@@ -61,7 +61,7 @@ export default function TeamCharts({ teamId, progression, teamName, selectedWeek
       <figure>
         <figcaption className="mb-1 text-sm font-semibold">{t('pointsProgression')}</figcaption>
         <ChartContainer config={pointsConfig} className="h-48 w-full">
-          <LineChart data={data} margin={{ left: -20, right: 8, top: 8 }} onClick={select} className="cursor-pointer [&_.recharts-surface:focus:not(:focus-visible)]:outline-none">
+          <LineChart data={data} margin={{ left: -20, right: 8, top: 8 }} onClick={select} className={CLICKABLE_CHART}>
             <CartesianGrid vertical={false} />
             <XAxis dataKey="label" tickLine={false} axisLine={false} fontSize={11} />
             <YAxis domain={[0, pointTicks.at(-1) ?? 3]} ticks={pointTicks} interval={0} tickLine={false} axisLine={false} fontSize={11} />
@@ -74,7 +74,7 @@ export default function TeamCharts({ teamId, progression, teamName, selectedWeek
       <figure>
         <figcaption className="mb-1 text-sm font-semibold">{t('goalsPerMatch')}</figcaption>
         <ChartContainer config={goalsConfig} className="h-48 w-full">
-          <BarChart data={data} margin={{ left: -20, right: 8, top: 8 }} onClick={select} className="cursor-pointer [&_.recharts-surface:focus:not(:focus-visible)]:outline-none">
+          <BarChart data={data} margin={{ left: -20, right: 8, top: 8 }} onClick={select} className={CLICKABLE_CHART}>
             <CartesianGrid vertical={false} />
             <XAxis dataKey="label" tickLine={false} axisLine={false} fontSize={11} />
             <YAxis allowDecimals={false} tickLine={false} axisLine={false} fontSize={11} />

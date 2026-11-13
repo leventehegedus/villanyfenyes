@@ -130,3 +130,18 @@ test('team page: table under the charts, past week from the URL', async ({ page 
   await page.getByRole('button', { name: 'Aktuális' }).click()
   await expect(page).not.toHaveURL(/w=/)
 })
+
+test('stats: clicking the progression chart shows the table at that week', async ({ page }) => {
+  await page.goto('/statisztika?s=55&l=L1')
+  await expect(page.getByRole('heading', { name: 'Tabella', exact: true })).toBeVisible()
+  const chart = page.locator('.recharts-surface').first()
+  await chart.scrollIntoViewIfNeeded()
+  const box = await chart.boundingBox()
+  if (!box) throw new Error('chart not rendered')
+  await page.mouse.move(box.x + box.width * 0.4, box.y + box.height / 2)
+  await page.mouse.click(box.x + box.width * 0.4, box.y + box.height / 2)
+  await expect(page).toHaveURL(/w=\d{4}-\d{2}-\d{2}/)
+  await expect(page.getByRole('heading', { name: /kezdetű hét végén/ })).toBeVisible()
+  await page.getByRole('button', { name: 'Aktuális' }).click()
+  await expect(page).not.toHaveURL(/w=/)
+})

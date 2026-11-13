@@ -33,8 +33,8 @@ type Props = {
   keep: string
   sort: StandingsSort
   onSort: (sort: StandingsSort) => void
-  /** Team id whose row is emphasised. */
-  highlight?: string
+  /** Team ids whose rows are emphasised. */
+  highlight?: readonly string[]
 }
 
 const signed = (n: number) => (n > 0 ? `+${n}` : String(n))
@@ -95,7 +95,7 @@ export function StandingsTable({ rows, matches, teamName, keep, sort, onSort, hi
         <TableBody>
           {sorted.map((r) => {
             const name = teamName(r.teamId)
-            const mine = r.teamId === highlight
+            const mine = highlight?.includes(r.teamId) ?? false
             // Sticky cells need their own background, or the scrolled columns show through.
             const stickyBg = mine ? 'bg-muted' : 'bg-card'
             return (

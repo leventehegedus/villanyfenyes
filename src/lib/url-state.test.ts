@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { parseStandingsSort, readHighlight, readMatchFilters, teamRedirect, toggleHighlight, writeHighlight, writeStandingsSort } from './url-state'
+import { parseStandingsSort, readHighlight, readMatchFilters, teamRedirect, toggleHighlight, writeHighlight, writeStandingsSort, readWeek } from './url-state'
 
 describe('url state', () => {
   it('reads match filters with defaults', () => {
@@ -59,5 +59,13 @@ describe('writeStandingsSort', () => {
     expect(writeStandingsSort({ key: 'points', dir: 'asc' })).toBe('points:asc')
     expect(parseStandingsSort(writeStandingsSort({ key: 'goalDiff', dir: 'desc' }))).toEqual({ key: 'goalDiff', dir: 'desc' })
     expect(writeStandingsSort({ key: 'position', dir: 'asc' })).toBeNull()
+  })
+})
+
+describe('readWeek', () => {
+  it('accepts a date and rejects anything else', () => {
+    expect(readWeek('2026-10-05')).toBe('2026-10-05')
+    expect(readWeek('2026-10')).toBeNull()
+    expect(readWeek(null)).toBeNull()
   })
 })

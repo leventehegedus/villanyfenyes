@@ -2,11 +2,12 @@ import { Suspense, lazy } from 'react'
 import { CrossTable } from '@/components/CrossTable'
 import { PageHeader } from '@/components/PageHeader'
 import { EmptyState, ListSkeleton, QueryBoundary } from '@/components/QueryBoundary'
+import { WeekTable } from '@/components/WeekTable'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { useT } from '@/hooks/prefs'
 import { useLeagueData } from '@/hooks/useLeagueData'
 import { isPlayed } from '@/lib/standings'
-import { readHighlight, toggleHighlight, writeHighlight } from '@/lib/url-state'
+import { readHighlight, readWeek, toggleHighlight, writeHighlight } from '@/lib/url-state'
 import { parseWhatIf, serialiseWhatIf } from '@/lib/whatif'
 
 const LeagueProgressionChart = lazy(() => import('@/components/LeagueProgressionChart'))
@@ -15,7 +16,8 @@ const WhatIfCalculator = lazy(() => import('@/components/WhatIfCalculator'))
 
 export default function StatsPage() {
   const t = useT()
-  const { query, keep, params, setSelection, seasonId, league, noData } = useLeagueData()
+  const { query, keep, teamName, params, setSelection, seasonId, league, noData } = useLeagueData()
+  const week = readWeek(params.get('w'))
   const rawView = params.get('v')
   const view = rawView === 'cross' || rawView === 'odds' || rawView === 'whatif' ? rawView : 'progress'
 
@@ -50,8 +52,11 @@ export default function StatsPage() {
                     highlighted={highlighted}
                     onToggle={(id) => setHighlight(toggleHighlight(highlighted, id))}
                     onClear={() => setHighlight([])}
+                    selectedWeek={week}
+                    onSelectWeek={(w) => setSelection({ extra: { w } })}
                   />
                 </Suspense>
+                <WeekTable data={data} keep={keep} teamName={teamName} week={week} highlight={highlighted} />
               </TabsContent>
               <TabsContent value="cross" className="space-y-2 pt-2">
                 <h2 className="text-lg font-semibold">{t('crossTable')}</h2>

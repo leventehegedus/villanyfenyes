@@ -6,8 +6,8 @@ import { Markers } from '@/components/Markers'
 import { MatchList } from '@/components/MatchList'
 import { EmptyState, ListSkeleton, QueryBoundary } from '@/components/QueryBoundary'
 import { SeasonLeaguePicker } from '@/components/SeasonLeaguePicker'
-import { StandingsTable } from '@/components/StandingsTable'
 import { Stat } from '@/components/Stat'
+import { WeekTable } from '@/components/WeekTable'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { usePrefs, useT } from '@/hooks/prefs'
@@ -15,57 +15,21 @@ import { useTeamAllTime } from '@/hooks/queries'
 import { useLeagueData } from '@/hooks/useLeagueData'
 import { useSelection } from '@/hooks/useSelection'
 import type { LeagueData } from '@/lib/data'
-import { formatDate, formatDecimal } from '@/lib/format'
+import { formatDecimal } from '@/lib/format'
 import { filterMatches } from '@/lib/schedule'
 import { playerPath } from '@/lib/paths'
 import { aggregateScorers } from '@/lib/scorers'
-import { matchesUpToWeek, standingsAtWeek, teamStats } from '@/lib/stats'
-import { parseStandingsSort, teamRedirect, writeStandingsSort } from '@/lib/url-state'
+import { teamStats } from '@/lib/stats'
+import { readWeek, teamRedirect } from '@/lib/url-state'
 import type { TeamResult } from '@/lib/stats'
 
 const TeamCharts = lazy(() => import('@/components/TeamCharts'))
-
-const WEEK = /^\d{4}-\d{2}-\d{2}$/
-
-/** League table now, or as it stood at the end of the week picked on the charts (?w=YYYY-MM-DD). */
-function WeekTable({ teamId, data, keep, teamName, week }: { teamId: string; data: LeagueData; keep: string; teamName: (id: string) => string; week: string | null }) {
-  const t = useT()
-  const { prefs } = usePrefs()
-  const { params, setSelection } = useSelection()
-  const ids = data.teams.map((x) => x.id)
-  return (
-    <section aria-labelledby="week-table" className="space-y-2">
-      <div className="flex flex-wrap items-center justify-between gap-2">
-        <h3 id="week-table" className="text-sm font-semibold">
-          {week ? t('tableAtWeek', { week: formatDate(week, prefs.locale, prefs.timeZone) }) : t('tableNow')}
-        </h3>
-        {week ? (
-          <Button variant="outline" size="sm" onClick={() => setSelection({ extra: { w: null } })}>
-            {t('backToCurrent')}
-          </Button>
-        ) : (
-          <p className="text-xs text-muted-foreground">{t('tableWeekHint')}</p>
-        )}
-      </div>
-      <StandingsTable
-        rows={week ? standingsAtWeek(ids, data.matches, week) : data.standings}
-        matches={week ? matchesUpToWeek(data.matches, week) : data.matches}
-        teamName={teamName}
-        keep={keep}
-        sort={parseStandingsSort(params.get('o'))}
-        onSort={(o) => setSelection({ extra: { o: writeStandingsSort(o) } })}
-        highlight={teamId}
-      />
-    </section>
-  )
-}
 
 function TeamView({ teamId, data, keep, teamName }: { teamId: string; data: LeagueData; keep: string; teamName: (id: string) => string }) {
   const t = useT()
   const { prefs } = usePrefs()
   const { params, setSelection } = useSelection()
-  const rawWeek = params.get('w')
-  const week = rawWeek && WEEK.test(rawWeek) ? rawWeek : null
+  const week = readWeek(params.get('w'))
   const team = data.teams.find((x) => x.id === teamId)
   if (!team) return <EmptyState>{t('teamNotFound')}</EmptyState>
   const row = data.standings.find((r) => r.teamId === teamId)
@@ -128,7 +92,7 @@ function TeamView({ teamId, data, keep, teamName }: { teamId: string; data: Leag
               />
             </Suspense>
           )}
-          <WeekTable teamId={teamId} data={data} keep={keep} teamName={teamName} week={week} />
+          <WeekTable data={data} keep={keep} teamName={teamName} week={week} highlight={[teamId]} />
         </CardContent>
       </Card>
 

@@ -1,7 +1,8 @@
-import { CartesianGrid, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts'
+import { CartesianGrid, Line, LineChart, ReferenceLine, Tooltip, XAxis, YAxis } from 'recharts'
 import type { TooltipContentProps } from 'recharts'
 import type { NameType, ValueType } from 'recharts/types/component/DefaultTooltipContent'
 import { ChartContainer } from '@/components/ui/chart'
+import { CLICKABLE_CHART, clickedIndex } from '@/lib/charts'
 import { stepTicks } from '@/lib/format'
 import { cn } from '@/lib/utils'
 
@@ -18,12 +19,21 @@ export type RaceSeries = {
 
 export type RaceRow = { label: string; values: Record<string, number> }
 
-type Props = { rows: readonly RaceRow[]; series: readonly RaceSeries[]; tickStep: number; title: (label: string) => string }
+type Props = {
+  rows: readonly RaceRow[]
+  series: readonly RaceSeries[]
+  tickStep: number
+  title: (label: string) => string
+  /** Row index marked with a vertical line. */
+  selected?: number | null
+  /** Called with the clicked row index; makes the chart clickable. */
+  onSelect?: (index: number) => void
+}
 
 const LABEL_STEP = 13 // px between end labels of series that finish level
 
 /** Cumulative lines over weeks: muted context lines, coloured highlights with stacked end labels. */
-export function RaceChart({ rows, series, tickStep, title }: Props) {
+export function RaceChart({ rows, series, tickStep, title, selected = null, onSelect }: Props) {
   const final = rows.at(-1)?.values ?? {}
   const ticks = stepTicks(Math.max(0, ...Object.values(final)), tickStep)
   const byKey = new Map(series.map((s) => [s.key, s]))
@@ -63,11 +73,20 @@ export function RaceChart({ rows, series, tickStep, title }: Props) {
 
   return (
     <ChartContainer config={{}} className="aspect-auto h-80 w-full sm:h-96">
-      <LineChart data={[...rows]} margin={{ left: -16, right: 110, top: 8, bottom: 0 }}>
+      <LineChart
+        data={[...rows]}
+        margin={{ left: -16, right: 110, top: 8, bottom: 0 }}
+        className={onSelect ? CLICKABLE_CHART : undefined}
+        onClick={(state) => {
+          const i = clickedIndex(state, rows.map((r) => r.label))
+          if (onSelect && i !== null) onSelect(i)
+        }}
+      >
         <CartesianGrid vertical={false} strokeOpacity={0.5} />
         <XAxis dataKey="label" tickLine={false} axisLine={false} fontSize={11} />
         <YAxis domain={[0, ticks.at(-1) ?? tickStep]} ticks={ticks} interval={0} tickLine={false} axisLine={false} fontSize={11} />
         <Tooltip content={TooltipBody} cursor={{ strokeOpacity: 0.4 }} />
+        {selected !== null && rows[selected] && <ReferenceLine x={rows[selected].label} stroke="var(--primary)" strokeDasharray="4 3" />}
         {order.map((s) => (
           <Line
             key={s.key}

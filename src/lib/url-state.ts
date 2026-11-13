@@ -65,3 +65,6 @@ export function teamRedirect(
   const target = only.find((o) => o.seasonId === seasonId) ?? only[0]
   return target && selectable(target) ? target : null
 }
+
+/** Week from "?w=YYYY-MM-DD" (a Monday picked on a chart); anything else means "now". */
+export const readWeek = (raw: string | null): string | null => (raw && /^\d{4}-\d{2}-\d{2}$/.test(raw) ? raw : null)
