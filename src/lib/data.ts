@@ -1,6 +1,6 @@
 import type { ZodType } from 'zod'
 import { DATA_BASE } from './config'
-import { LeagueFileRead, MetaFile, SeasonsFile } from './schema'
+import { LeagueFileRead, MetaFile, SeasonsFile, TeamAllTimeFileRead } from './schema'
 
 export class DataError extends Error {
   constructor(
@@ -33,3 +33,6 @@ export const fetchLeague = (seasonId: number, league: string, f: Fetcher = brows
   fetchJson(`${seasonId}/${league}.json`, LeagueFileRead, f)
 
 export type LeagueData = Awaited<ReturnType<typeof fetchLeague>>
+export const fetchTeam = (teamId: string, f: Fetcher = browserFetch) =>
+  fetchJson(`teams/${encodeURIComponent(teamId)}.json`, TeamAllTimeFileRead, f)
+export type TeamAllTimeData = Awaited<ReturnType<typeof fetchTeam>>

@@ -1,5 +1,5 @@
 import { keepPreviousData, useQuery } from '@tanstack/react-query'
-import { fetchLeague, fetchMeta, fetchSeasons } from '@/lib/data'
+import { fetchLeague, fetchMeta, fetchSeasons, fetchTeam } from '@/lib/data'
 
 export const useMeta = () => useQuery({ queryKey: ['meta'], queryFn: () => fetchMeta() })
 
@@ -16,3 +16,12 @@ export function useLeague(seasonId: number | null, league: string | null, isCurr
     placeholderData: keepPreviousData,
   })
 }
+
+export const useTeamAllTime = (teamId: string | undefined) =>
+  useQuery({
+    queryKey: ['team', teamId],
+    queryFn: () => fetchTeam(teamId ?? ''),
+    enabled: teamId !== undefined,
+    staleTime: 10 * 60_000,
+    retry: false,
+  })
