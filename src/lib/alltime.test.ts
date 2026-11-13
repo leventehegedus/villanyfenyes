@@ -1,8 +1,8 @@
 import { describe, expect, it } from 'vitest'
 import { match } from './__fixtures__/league'
-import { buildAllTime, duplicateNames } from './alltime'
+import { bestWorstSeason, buildAllTime, duplicateNames, goalsPerSeason, honours, leagueTotals, opponentHighlights, overall, rates } from './alltime'
 import type { SeasonLeague } from './alltime'
-import type { LeagueFile, Match, SeasonsFile, StandingRow, Team } from './schema'
+import type { AllTimeTotals, LeagueFile, Match, SeasonsFile, StandingRow, Team, TeamAllTimeFile } from './schema'
 
 const row = (teamId: string, position: number, markers: StandingRow['markers'] = []): StandingRow => ({
   position, teamId, played: 0, won: 0, drawn: 0, lost: 0, goalsFor: 0, goalsAgainst: 0, goalDiff: 0, points: 0, markers,
@@ -133,5 +133,71 @@ describe('duplicateNames', () => {
     const s1 = file(1, [team('1', 'Same')], [], [])
     const s2 = file(2, [team('2', 'Same'), team('3', 'Other')], [], [])
     expect(duplicateNames([s1, s2])).toEqual([{ name: 'Same', ids: ['1', '2'] }])
+  })
+})
+
+const T = (won: number, drawn: number, lost: number, goalsFor = 0, goalsAgainst = 0) => ({
+  played: won + drawn + lost, won, drawn, lost, goalsFor, goalsAgainst, points: 3 * won + drawn,
+})
+type SeasonRow = TeamAllTimeFile['seasons'][number]
+const season = (seasonId: number, over: Partial<SeasonRow>): SeasonRow => ({
+  seasonId, label: `S${seasonId}`, league: 'L1', finished: true, position: 5, teamsInLeague: 10, marker: null, totals: T(1, 1, 1), ...over,
+})
+const summary = (seasonRows: SeasonRow[], opponents: TeamAllTimeFile['opponents'] = []): TeamAllTimeFile => ({
+  ...a(), seasons: seasonRows, opponents,
+})
+
+describe('display helpers', () => {
+  it('sums totals per league and overall', () => {
+    const f = summary([season(3, { league: 'L2A', totals: T(1, 0, 0, 2, 0) }), season(2, { totals: T(1, 0, 1, 3, 3) }), season(1, { totals: T(0, 1, 0, 1, 1) })])
+    expect(leagueTotals(f)).toEqual([
+      { league: 'L1', seasons: 2, totals: T(1, 1, 1, 4, 4) },
+      { league: 'L2A', seasons: 1, totals: T(1, 0, 0, 2, 0) },
+    ])
+    expect(overall(f)).toEqual(T(2, 1, 1, 6, 4))
+  })
+
+  it('gives no rates for zero matches', () => {
+    expect(rates(T(0, 0, 0))).toEqual({ winPct: null, pointsPerMatch: null, goalDiff: 0 })
+    expect(rates(T(1, 1, 2, 5, 3))).toEqual({ winPct: 25, pointsPerMatch: 1, goalDiff: 2 })
+  })
+
+  it('counts honours per league from finished seasons only', () => {
+    const f = summary([
+      season(4, { position: 1, finished: false }),
+      season(3, { position: 1, marker: 'promotion' }),
+      season(2, { position: 3, league: 'L2A' }),
+      season(1, { position: 9, marker: 'relegation' }),
+    ])
+    expect(honours(f)).toEqual([
+      { league: 'L1', titles: 1, podiums: 1, promotions: 1, relegations: 1 },
+      { league: 'L2A', titles: 0, podiums: 1, promotions: 0, relegations: 0 },
+    ])
+  })
+
+  it('picks best and worst finished season by points per match, ties by position then recency', () => {
+    const f = summary([
+      season(4, { finished: false, totals: T(9, 0, 0) }),
+      season(3, { position: 2, totals: T(2, 0, 1) }),
+      season(2, { position: 1, totals: T(2, 0, 1) }),
+      season(1, { position: 6, totals: T(0, 0, 3) }),
+    ])
+    expect(bestWorstSeason(f)).toEqual({ best: 2, worst: 1 })
+    expect(bestWorstSeason(summary([season(4, { finished: false })]))).toEqual({ best: null, worst: null })
+  })
+
+  it('highlights opponents, ignoring those met fewer than three times', () => {
+    const opp = (teamId: string, totals: AllTimeTotals) => ({ teamId, name: teamId, totals })
+    const f = summary([], [opp('few', T(2, 0, 0)), opp('fav', T(3, 0, 0)), opp('bogey', T(0, 0, 4)), opp('mid', T(1, 1, 1))])
+    expect(opponentHighlights(f)).toEqual({ mostPlayed: 'bogey', favourite: 'fav', bogey: 'bogey' })
+    expect(opponentHighlights(summary([], [opp('only', T(3, 0, 0))]))).toEqual({ mostPlayed: 'only', favourite: 'only', bogey: null })
+  })
+
+  it('lists goals per match by season, oldest first', () => {
+    const f = summary([season(2, { label: 'B', totals: T(1, 0, 1, 4, 2) }), season(1, { label: 'A', totals: T(0, 0, 0) })])
+    expect(goalsPerSeason(f)).toEqual([
+      { seasonId: 1, label: 'A', forPerMatch: null, againstPerMatch: null },
+      { seasonId: 2, label: 'B', forPerMatch: 2, againstPerMatch: 1 },
+    ])
   })
 })

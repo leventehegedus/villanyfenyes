@@ -136,3 +136,77 @@ export function duplicateNames(inputs: readonly SeasonLeague[]): { name: string;
   for (const { file } of inputs) for (const t of file.teams) ids.set(t.name, (ids.get(t.name) ?? new Set()).add(t.id))
   return [...ids].filter(([, s]) => s.size > 1).map(([name, s]) => ({ name, ids: [...s] }))
 }
+
+function sum(list: readonly AllTimeTotals[]): AllTimeTotals {
+  const t = emptyTotals()
+  for (const x of list) for (const k of Object.keys(t) as (keyof AllTimeTotals)[]) t[k] += x[k]
+  return t
+}
+
+const ppm = (t: AllTimeTotals): number | null => (t.played ? t.points / t.played : null)
+
+export function leagueTotals(file: TeamAllTimeFile): { league: string; seasons: number; totals: AllTimeTotals }[] {
+  const leagues = [...new Set(file.seasons.map((s) => s.league))].sort((x, y) => x.localeCompare(y))
+  return leagues.map((league) => {
+    const rows = file.seasons.filter((s) => s.league === league)
+    return { league, seasons: rows.length, totals: sum(rows.map((s) => s.totals)) }
+  })
+}
+
+export const overall = (file: TeamAllTimeFile): AllTimeTotals => sum(file.seasons.map((s) => s.totals))
+
+export const rates = (t: AllTimeTotals) => ({
+  winPct: t.played ? (100 * t.won) / t.played : null,
+  pointsPerMatch: ppm(t),
+  goalDiff: t.goalsFor - t.goalsAgainst,
+})
+
+/** Titles, podiums, promotions and relegations per league; the unfinished season does not count. */
+export function honours(file: TeamAllTimeFile) {
+  const done = file.seasons.filter((s) => s.finished)
+  return leagueTotals(file).map(({ league }) => {
+    const rows = done.filter((s) => s.league === league)
+    const at = (max: number) => rows.filter((s) => s.position !== null && s.position <= max).length
+    return {
+      league,
+      titles: at(1),
+      podiums: at(3),
+      promotions: rows.filter((s) => s.marker === 'promotion').length,
+      relegations: rows.filter((s) => s.marker === 'relegation').length,
+    }
+  })
+}
+
+/** Season ids by points per match among finished seasons; ties: better position, then more recent. */
+export function bestWorstSeason(file: TeamAllTimeFile): { best: number | null; worst: number | null } {
+  const rows = file.seasons.flatMap((s, recency) => {
+    const p = ppm(s.totals)
+    return s.finished && p !== null ? [{ id: s.seasonId, p, pos: s.position ?? Infinity, recency }] : []
+  })
+  const by = (dir: 1 | -1) =>
+    [...rows].sort((x, y) => dir * (y.p - x.p) || dir * (x.pos - y.pos) || x.recency - y.recency)[0]?.id ?? null
+  return { best: by(1), worst: by(-1) }
+}
+
+/** Opponent team ids; favourite and bogey need `minMatches` meetings and are never the same team. */
+export function opponentHighlights(file: TeamAllTimeFile, minMatches = 3) {
+  const top = <T>(list: readonly T[], score: (x: T) => number) =>
+    list.reduce<T | null>((b, x) => (b === null || score(x) > score(b) ? x : b), null)
+  const enough = file.opponents.filter((o) => o.totals.played >= minMatches)
+  const rate = (o: (typeof enough)[number]) => ppm(o.totals) ?? 0
+  const favourite = top(enough, rate)
+  const bogey = top(enough, (o) => -rate(o))
+  return {
+    mostPlayed: top(file.opponents, (o) => o.totals.played)?.teamId ?? null,
+    favourite: favourite?.teamId ?? null,
+    bogey: bogey && bogey !== favourite ? bogey.teamId : null,
+  }
+}
+
+export const goalsPerSeason = (file: TeamAllTimeFile) =>
+  [...file.seasons].reverse().map((s) => ({
+    seasonId: s.seasonId,
+    label: s.label,
+    forPerMatch: s.totals.played ? s.totals.goalsFor / s.totals.played : null,
+    againstPerMatch: s.totals.played ? s.totals.goalsAgainst / s.totals.played : null,
+  }))
