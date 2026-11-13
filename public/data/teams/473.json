@@ -148,6 +148,24 @@
     "goalsAgainst": 40,
     "points": 16
    }
+  },
+  {
+   "seasonId": 37,
+   "label": "2007 - Ősz",
+   "league": "L1",
+   "finished": true,
+   "position": 8,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 11,
+    "won": 4,
+    "drawn": 2,
+    "lost": 5,
+    "goalsFor": 42,
+    "goalsAgainst": 49,
+    "points": 14
+   }
   }
  ],
  "opponents": [
@@ -181,12 +199,12 @@
    "teamId": "395",
    "name": "Albán Focisuli",
    "totals": {
-    "played": 8,
+    "played": 9,
     "won": 1,
     "drawn": 2,
-    "lost": 5,
-    "goalsFor": 25,
-    "goalsAgainst": 38,
+    "lost": 6,
+    "goalsFor": 28,
+    "goalsAgainst": 44,
     "points": 5
    }
   },
@@ -194,12 +212,12 @@
    "teamId": "550",
    "name": "FociSCHták",
    "totals": {
-    "played": 8,
+    "played": 9,
     "won": 1,
     "drawn": 3,
-    "lost": 4,
-    "goalsFor": 27,
-    "goalsAgainst": 36,
+    "lost": 5,
+    "goalsFor": 30,
+    "goalsAgainst": 40,
     "points": 6
    }
   },
@@ -324,12 +342,12 @@
    "teamId": "853",
    "name": "Fabatka \"B\"",
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 1,
     "drawn": 1,
-    "lost": 5,
-    "goalsFor": 19,
-    "goalsAgainst": 32,
+    "lost": 6,
+    "goalsFor": 23,
+    "goalsAgainst": 37,
     "points": 4
    }
   },
@@ -402,13 +420,13 @@
    "teamId": "965",
    "name": "Akela",
    "totals": {
-    "played": 5,
-    "won": 2,
+    "played": 6,
+    "won": 3,
     "drawn": 1,
     "lost": 2,
-    "goalsFor": 17,
-    "goalsAgainst": 15,
-    "points": 7
+    "goalsFor": 23,
+    "goalsAgainst": 20,
+    "points": 10
    }
   },
   {
@@ -428,13 +446,13 @@
    "teamId": "1019",
    "name": "Micro Soccer",
    "totals": {
-    "played": 4,
-    "won": 2,
+    "played": 5,
+    "won": 3,
     "drawn": 0,
     "lost": 2,
-    "goalsFor": 18,
-    "goalsAgainst": 19,
-    "points": 6
+    "goalsFor": 24,
+    "goalsAgainst": 24,
+    "points": 9
    }
   },
   {
@@ -454,13 +472,13 @@
    "teamId": "196",
    "name": "Koma Sutra",
    "totals": {
-    "played": 2,
+    "played": 3,
     "won": 0,
-    "drawn": 0,
+    "drawn": 1,
     "lost": 2,
-    "goalsFor": 11,
-    "goalsAgainst": 14,
-    "points": 0
+    "goalsFor": 14,
+    "goalsAgainst": 17,
+    "points": 1
    }
   },
   {
@@ -480,12 +498,12 @@
    "teamId": "77",
    "name": "Keverton",
    "totals": {
-    "played": 2,
+    "played": 3,
     "won": 2,
     "drawn": 0,
-    "lost": 0,
-    "goalsFor": 11,
-    "goalsAgainst": 3,
+    "lost": 1,
+    "goalsFor": 14,
+    "goalsAgainst": 15,
     "points": 6
    }
   },
@@ -493,12 +511,12 @@
    "teamId": "1138",
    "name": "Fc Titán",
    "totals": {
-    "played": 1,
+    "played": 2,
     "won": 1,
     "drawn": 0,
-    "lost": 0,
-    "goalsFor": 6,
-    "goalsAgainst": 1,
+    "lost": 1,
+    "goalsFor": 9,
+    "goalsAgainst": 6,
     "points": 3
    }
   },
@@ -506,12 +524,38 @@
    "teamId": "1137",
    "name": "Tsötsök",
    "totals": {
+    "played": 2,
+    "won": 2,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 11,
+    "goalsAgainst": 8,
+    "points": 6
+   }
+  },
+  {
+   "teamId": "1180",
+   "name": "Nem fog fájni",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 2,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "1181",
+   "name": "Bobo FC",
+   "totals": {
     "played": 1,
     "won": 1,
     "drawn": 0,
     "lost": 0,
-    "goalsFor": 8,
-    "goalsAgainst": 7,
+    "goalsFor": 6,
+    "goalsAgainst": 1,
     "points": 3
    }
   }
@@ -527,13 +571,13 @@
    "goalsAgainst": 0
   },
   "biggestDefeat": {
-   "seasonId": 32,
+   "seasonId": 37,
    "league": "L1",
-   "matchId": "31411",
-   "kickoff": "2025-05-19T06:04:58.000Z",
-   "opponentId": "1054",
-   "goalsFor": 5,
-   "goalsAgainst": 11
+   "matchId": "35330",
+   "kickoff": "2025-05-19T06:14:08.000Z",
+   "opponentId": "77",
+   "goalsFor": 3,
+   "goalsAgainst": 12
   },
   "highestScoring": {
    "seasonId": 32,
@@ -613,8 +657,8 @@
  "cleanSheets": 6,
  "failedToScore": 1,
  "scorers": {
-  "playedMatches": 87,
-  "coveredMatches": 87,
+  "playedMatches": 98,
+  "coveredMatches": 98,
   "rows": []
  }
 }

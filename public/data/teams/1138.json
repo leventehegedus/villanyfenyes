@@ -22,6 +22,24 @@
     "goalsAgainst": 73,
     "points": 1
    }
+  },
+  {
+   "seasonId": 37,
+   "label": "2007 - Ősz",
+   "league": "L1",
+   "finished": true,
+   "position": 9,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 11,
+    "won": 4,
+    "drawn": 1,
+    "lost": 6,
+    "goalsFor": 42,
+    "goalsAgainst": 51,
+    "points": 13
+   }
   }
  ],
  "opponents": [
@@ -29,13 +47,13 @@
    "teamId": "473",
    "name": "FC T4",
    "totals": {
-    "played": 1,
-    "won": 0,
+    "played": 2,
+    "won": 1,
     "drawn": 0,
     "lost": 1,
-    "goalsFor": 1,
-    "goalsAgainst": 6,
-    "points": 0
+    "goalsFor": 6,
+    "goalsAgainst": 9,
+    "points": 3
    }
   },
   {
@@ -68,12 +86,12 @@
    "teamId": "77",
    "name": "Keverton",
    "totals": {
-    "played": 1,
+    "played": 2,
     "won": 0,
     "drawn": 0,
-    "lost": 1,
-    "goalsFor": 1,
-    "goalsAgainst": 3,
+    "lost": 2,
+    "goalsFor": 4,
+    "goalsAgainst": 10,
     "points": 0
    }
   },
@@ -81,25 +99,25 @@
    "teamId": "1137",
    "name": "Tsötsök",
    "totals": {
-    "played": 1,
-    "won": 0,
+    "played": 2,
+    "won": 1,
     "drawn": 0,
     "lost": 1,
-    "goalsFor": 5,
-    "goalsAgainst": 7,
-    "points": 0
+    "goalsFor": 10,
+    "goalsAgainst": 8,
+    "points": 3
    }
   },
   {
    "teamId": "395",
    "name": "Albán Focisuli",
    "totals": {
-    "played": 1,
+    "played": 2,
     "won": 0,
     "drawn": 0,
-    "lost": 1,
-    "goalsFor": 4,
-    "goalsAgainst": 9,
+    "lost": 2,
+    "goalsFor": 8,
+    "goalsAgainst": 18,
     "points": 0
    }
   },
@@ -107,12 +125,12 @@
    "teamId": "853",
    "name": "Fabatka \"B\"",
    "totals": {
-    "played": 1,
+    "played": 2,
     "won": 0,
     "drawn": 0,
-    "lost": 1,
-    "goalsFor": 2,
-    "goalsAgainst": 5,
+    "lost": 2,
+    "goalsFor": 7,
+    "goalsAgainst": 14,
     "points": 0
    }
   },
@@ -120,12 +138,12 @@
    "teamId": "1019",
    "name": "Micro Soccer",
    "totals": {
-    "played": 1,
+    "played": 2,
     "won": 0,
     "drawn": 0,
-    "lost": 1,
-    "goalsFor": 2,
-    "goalsAgainst": 4,
+    "lost": 2,
+    "goalsFor": 5,
+    "goalsAgainst": 9,
     "points": 0
    }
   },
@@ -133,25 +151,25 @@
    "teamId": "550",
    "name": "FociSCHták",
    "totals": {
-    "played": 1,
+    "played": 2,
     "won": 0,
-    "drawn": 0,
+    "drawn": 1,
     "lost": 1,
-    "goalsFor": 1,
-    "goalsAgainst": 7,
-    "points": 0
+    "goalsFor": 3,
+    "goalsAgainst": 9,
+    "points": 1
    }
   },
   {
    "teamId": "965",
    "name": "Akela",
    "totals": {
-    "played": 1,
+    "played": 2,
     "won": 0,
     "drawn": 1,
-    "lost": 0,
-    "goalsFor": 8,
-    "goalsAgainst": 8,
+    "lost": 1,
+    "goalsFor": 11,
+    "goalsAgainst": 13,
     "points": 1
    }
   },
@@ -167,10 +185,57 @@
     "goalsAgainst": 11,
     "points": 0
    }
+  },
+  {
+   "teamId": "1180",
+   "name": "Nem fog fájni",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "196",
+   "name": "Koma Sutra",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1181",
+   "name": "Bobo FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 3,
+    "points": 3
+   }
   }
  ],
  "records": {
-  "biggestWin": null,
+  "biggestWin": {
+   "seasonId": 37,
+   "league": "L1",
+   "matchId": "35320",
+   "kickoff": "2025-05-19T06:14:07.000Z",
+   "opponentId": "1137",
+   "goalsFor": 5,
+   "goalsAgainst": 1
+  },
   "biggestDefeat": {
    "seasonId": 36,
    "league": "L1",
@@ -191,26 +256,46 @@
   }
  },
  "streaks": {
-  "win": null,
-  "unbeaten": {
-   "length": 1,
+  "win": {
+   "length": 2,
    "from": {
-    "seasonId": 36,
+    "seasonId": 37,
     "league": "L1",
-    "matchId": "34724",
-    "kickoff": "2025-05-19T06:12:41.000Z",
-    "opponentId": "965",
-    "goalsFor": 8,
-    "goalsAgainst": 8
+    "matchId": "35348",
+    "kickoff": "2025-05-19T06:14:11.000Z",
+    "opponentId": "473",
+    "goalsFor": 5,
+    "goalsAgainst": 3
    },
    "to": {
-    "seasonId": 36,
+    "seasonId": 37,
     "league": "L1",
-    "matchId": "34724",
-    "kickoff": "2025-05-19T06:12:41.000Z",
-    "opponentId": "965",
-    "goalsFor": 8,
-    "goalsAgainst": 8
+    "matchId": "35347",
+    "kickoff": "2025-05-19T06:14:11.000Z",
+    "opponentId": "1181",
+    "goalsFor": 4,
+    "goalsAgainst": 3
+   }
+  },
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 37,
+    "league": "L1",
+    "matchId": "35348",
+    "kickoff": "2025-05-19T06:14:11.000Z",
+    "opponentId": "473",
+    "goalsFor": 5,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 37,
+    "league": "L1",
+    "matchId": "35347",
+    "kickoff": "2025-05-19T06:14:11.000Z",
+    "opponentId": "1181",
+    "goalsFor": 4,
+    "goalsAgainst": 3
    }
   },
   "loss": {
@@ -238,8 +323,8 @@
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 11,
-  "coveredMatches": 11,
+  "playedMatches": 22,
+  "coveredMatches": 22,
   "rows": []
  }
 }
