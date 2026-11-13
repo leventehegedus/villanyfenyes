@@ -1,0 +1,1188 @@
+{
+ "schemaVersion": 1,
+ "seasonId": 46,
+ "league": "L1",
+ "sourceUrl": "https://villanyfenyesbajnoksag.hu/tabella?selected_season=46&league=L1",
+ "teams": [
+  {
+   "id": "442",
+   "siteId": 442,
+   "name": "Csillagrombolók FC"
+  },
+  {
+   "id": "395",
+   "siteId": 395,
+   "name": "Albán Focisuli"
+  },
+  {
+   "id": "1181",
+   "siteId": 1181,
+   "name": "Bobo FC"
+  },
+  {
+   "id": "77",
+   "siteId": 77,
+   "name": "Keverton"
+  },
+  {
+   "id": "1348",
+   "siteId": 1348,
+   "name": "TAR KÁN"
+  },
+  {
+   "id": "196",
+   "siteId": 196,
+   "name": "Koma Sutra"
+  },
+  {
+   "id": "1259",
+   "siteId": 1259,
+   "name": "MSC Gépész"
+  },
+  {
+   "id": "1345",
+   "siteId": 1345,
+   "name": "JÓZSI FC"
+  },
+  {
+   "id": "1347",
+   "siteId": 1347,
+   "name": "DINAMO CSERNOBIL"
+  },
+  {
+   "id": "446",
+   "siteId": 446,
+   "name": "Hanyatt SE"
+  },
+  {
+   "id": "1152",
+   "siteId": 1152,
+   "name": "Lúzer SC"
+  },
+  {
+   "id": "1346",
+   "siteId": 1346,
+   "name": "WINCHESTER UNITED"
+  }
+ ],
+ "standings": [
+  {
+   "position": 1,
+   "teamId": "442",
+   "played": 11,
+   "won": 8,
+   "drawn": 2,
+   "lost": 1,
+   "goalsFor": 45,
+   "goalsAgainst": 27,
+   "goalDiff": 18,
+   "points": 26,
+   "markers": [
+    "winStreak",
+    "manyGoals"
+   ]
+  },
+  {
+   "position": 2,
+   "teamId": "395",
+   "played": 11,
+   "won": 8,
+   "drawn": 0,
+   "lost": 3,
+   "goalsFor": 49,
+   "goalsAgainst": 30,
+   "goalDiff": 19,
+   "points": 24,
+   "markers": [
+    "winStreak",
+    "manyGoals"
+   ]
+  },
+  {
+   "position": 3,
+   "teamId": "1181",
+   "played": 11,
+   "won": 7,
+   "drawn": 1,
+   "lost": 3,
+   "goalsFor": 30,
+   "goalsAgainst": 19,
+   "goalDiff": 11,
+   "points": 22,
+   "markers": [
+    "fewConceded"
+   ]
+  },
+  {
+   "position": 4,
+   "teamId": "77",
+   "played": 11,
+   "won": 6,
+   "drawn": 1,
+   "lost": 4,
+   "goalsFor": 38,
+   "goalsAgainst": 32,
+   "goalDiff": 6,
+   "points": 19,
+   "markers": [
+    "winStreak"
+   ]
+  },
+  {
+   "position": 5,
+   "teamId": "1348",
+   "played": 10,
+   "won": 4,
+   "drawn": 2,
+   "lost": 4,
+   "goalsFor": 28,
+   "goalsAgainst": 28,
+   "goalDiff": 0,
+   "points": 14,
+   "markers": []
+  },
+  {
+   "position": 6,
+   "teamId": "196",
+   "played": 11,
+   "won": 4,
+   "drawn": 1,
+   "lost": 6,
+   "goalsFor": 25,
+   "goalsAgainst": 30,
+   "goalDiff": -5,
+   "points": 13,
+   "markers": [
+    "lossStreak"
+   ]
+  },
+  {
+   "position": 7,
+   "teamId": "1259",
+   "played": 11,
+   "won": 4,
+   "drawn": 1,
+   "lost": 6,
+   "goalsFor": 22,
+   "goalsAgainst": 30,
+   "goalDiff": -8,
+   "points": 13,
+   "markers": [
+    "lossStreak"
+   ]
+  },
+  {
+   "position": 8,
+   "teamId": "1345",
+   "played": 10,
+   "won": 4,
+   "drawn": 0,
+   "lost": 6,
+   "goalsFor": 32,
+   "goalsAgainst": 40,
+   "goalDiff": -8,
+   "points": 12,
+   "markers": []
+  },
+  {
+   "position": 9,
+   "teamId": "1347",
+   "played": 11,
+   "won": 4,
+   "drawn": 0,
+   "lost": 7,
+   "goalsFor": 35,
+   "goalsAgainst": 38,
+   "goalDiff": -3,
+   "points": 12,
+   "markers": [
+    "lossStreak",
+    "relegation"
+   ]
+  },
+  {
+   "position": 10,
+   "teamId": "446",
+   "played": 11,
+   "won": 3,
+   "drawn": 3,
+   "lost": 5,
+   "goalsFor": 36,
+   "goalsAgainst": 44,
+   "goalDiff": -8,
+   "points": 12,
+   "markers": [
+    "relegation"
+   ]
+  },
+  {
+   "position": 11,
+   "teamId": "1152",
+   "played": 11,
+   "won": 3,
+   "drawn": 2,
+   "lost": 6,
+   "goalsFor": 31,
+   "goalsAgainst": 36,
+   "goalDiff": -5,
+   "points": 11,
+   "markers": [
+    "relegation"
+   ]
+  },
+  {
+   "position": 12,
+   "teamId": "1346",
+   "played": 11,
+   "won": 3,
+   "drawn": 1,
+   "lost": 7,
+   "goalsFor": 24,
+   "goalsAgainst": 41,
+   "goalDiff": -17,
+   "points": 10,
+   "markers": [
+    "relegation"
+   ]
+  }
+ ],
+ "matches": [
+  {
+   "id": "x-46-L1--hanyatt-se-jozsi-fc",
+   "siteId": null,
+   "homeTeamId": "446",
+   "awayTeamId": "1345",
+   "kickoff": null,
+   "venue": "nincs megadva",
+   "homeGoals": null,
+   "awayGoals": null,
+   "status": "unknown",
+   "scorers": null,
+   "detailFetchedAt": null
+  },
+  {
+   "id": "40109",
+   "siteId": 40109,
+   "homeTeamId": "446",
+   "awayTeamId": "1181",
+   "kickoff": "2025-05-19T06:26:41.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40110",
+   "siteId": 40110,
+   "homeTeamId": "446",
+   "awayTeamId": "77",
+   "kickoff": "2025-05-19T06:26:41.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40113",
+   "siteId": 40113,
+   "homeTeamId": "446",
+   "awayTeamId": "395",
+   "kickoff": "2025-05-19T06:26:42.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 2,
+   "awayGoals": 9,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40115",
+   "siteId": 40115,
+   "homeTeamId": "446",
+   "awayTeamId": "196",
+   "kickoff": "2025-05-19T06:26:42.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40111",
+   "siteId": 40111,
+   "homeTeamId": "446",
+   "awayTeamId": "1259",
+   "kickoff": "2025-05-19T06:26:42.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40114",
+   "siteId": 40114,
+   "homeTeamId": "446",
+   "awayTeamId": "1347",
+   "kickoff": "2025-05-19T06:26:42.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 4,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40116",
+   "siteId": 40116,
+   "homeTeamId": "446",
+   "awayTeamId": "1152",
+   "kickoff": "2025-05-19T06:26:42.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40112",
+   "siteId": 40112,
+   "homeTeamId": "446",
+   "awayTeamId": "1346",
+   "kickoff": "2025-05-19T06:26:42.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40118",
+   "siteId": 40118,
+   "homeTeamId": "446",
+   "awayTeamId": "442",
+   "kickoff": "2025-05-19T06:26:43.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 2,
+   "awayGoals": 6,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40123",
+   "siteId": 40123,
+   "homeTeamId": "1345",
+   "awayTeamId": "395",
+   "kickoff": "2025-05-19T06:26:43.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 1,
+   "awayGoals": 8,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40119",
+   "siteId": 40119,
+   "homeTeamId": "1345",
+   "awayTeamId": "1181",
+   "kickoff": "2025-05-19T06:26:43.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40120",
+   "siteId": 40120,
+   "homeTeamId": "1345",
+   "awayTeamId": "77",
+   "kickoff": "2025-05-19T06:26:43.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40117",
+   "siteId": 40117,
+   "homeTeamId": "446",
+   "awayTeamId": "1348",
+   "kickoff": "2025-05-19T06:26:43.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 10,
+   "awayGoals": 6,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40121",
+   "siteId": 40121,
+   "homeTeamId": "1345",
+   "awayTeamId": "1259",
+   "kickoff": "2025-05-19T06:26:43.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 3,
+   "awayGoals": 6,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40122",
+   "siteId": 40122,
+   "homeTeamId": "1345",
+   "awayTeamId": "1346",
+   "kickoff": "2025-05-19T06:26:43.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40127",
+   "siteId": 40127,
+   "homeTeamId": "1345",
+   "awayTeamId": "442",
+   "kickoff": "2025-05-19T06:26:44.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 3,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40128",
+   "siteId": 40128,
+   "homeTeamId": "1181",
+   "awayTeamId": "77",
+   "kickoff": "2025-05-19T06:26:44.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40129",
+   "siteId": 40129,
+   "homeTeamId": "1181",
+   "awayTeamId": "1259",
+   "kickoff": "2025-05-19T06:26:44.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40125",
+   "siteId": 40125,
+   "homeTeamId": "1345",
+   "awayTeamId": "196",
+   "kickoff": "2025-05-19T06:26:44.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40124",
+   "siteId": 40124,
+   "homeTeamId": "1345",
+   "awayTeamId": "1347",
+   "kickoff": "2025-05-19T06:26:44.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40126",
+   "siteId": 40126,
+   "homeTeamId": "1345",
+   "awayTeamId": "1152",
+   "kickoff": "2025-05-19T06:26:44.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 6,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40131",
+   "siteId": 40131,
+   "homeTeamId": "1181",
+   "awayTeamId": "395",
+   "kickoff": "2025-05-19T06:26:45.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40135",
+   "siteId": 40135,
+   "homeTeamId": "1181",
+   "awayTeamId": "1348",
+   "kickoff": "2025-05-19T06:26:45.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40134",
+   "siteId": 40134,
+   "homeTeamId": "1181",
+   "awayTeamId": "1152",
+   "kickoff": "2025-05-19T06:26:45.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40133",
+   "siteId": 40133,
+   "homeTeamId": "1181",
+   "awayTeamId": "196",
+   "kickoff": "2025-05-19T06:26:45.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40132",
+   "siteId": 40132,
+   "homeTeamId": "1181",
+   "awayTeamId": "1347",
+   "kickoff": "2025-05-19T06:26:45.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40130",
+   "siteId": 40130,
+   "homeTeamId": "1181",
+   "awayTeamId": "1346",
+   "kickoff": "2025-05-19T06:26:45.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40136",
+   "siteId": 40136,
+   "homeTeamId": "1181",
+   "awayTeamId": "442",
+   "kickoff": "2025-05-19T06:26:46.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40139",
+   "siteId": 40139,
+   "homeTeamId": "77",
+   "awayTeamId": "395",
+   "kickoff": "2025-05-19T06:26:46.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 7,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40141",
+   "siteId": 40141,
+   "homeTeamId": "77",
+   "awayTeamId": "196",
+   "kickoff": "2025-05-19T06:26:46.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40140",
+   "siteId": 40140,
+   "homeTeamId": "77",
+   "awayTeamId": "1347",
+   "kickoff": "2025-05-19T06:26:46.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 2,
+   "awayGoals": 6,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40138",
+   "siteId": 40138,
+   "homeTeamId": "77",
+   "awayTeamId": "1346",
+   "kickoff": "2025-05-19T06:26:46.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40137",
+   "siteId": 40137,
+   "homeTeamId": "77",
+   "awayTeamId": "1259",
+   "kickoff": "2025-05-19T06:26:46.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40144",
+   "siteId": 40144,
+   "homeTeamId": "77",
+   "awayTeamId": "442",
+   "kickoff": "2025-05-19T06:26:47.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40146",
+   "siteId": 40146,
+   "homeTeamId": "1259",
+   "awayTeamId": "395",
+   "kickoff": "2025-05-19T06:26:47.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40142",
+   "siteId": 40142,
+   "homeTeamId": "77",
+   "awayTeamId": "1152",
+   "kickoff": "2025-05-19T06:26:47.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40143",
+   "siteId": 40143,
+   "homeTeamId": "77",
+   "awayTeamId": "1348",
+   "kickoff": "2025-05-19T06:26:47.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40148",
+   "siteId": 40148,
+   "homeTeamId": "1259",
+   "awayTeamId": "196",
+   "kickoff": "2025-05-19T06:26:47.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40147",
+   "siteId": 40147,
+   "homeTeamId": "1259",
+   "awayTeamId": "1347",
+   "kickoff": "2025-05-19T06:26:47.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40145",
+   "siteId": 40145,
+   "homeTeamId": "1259",
+   "awayTeamId": "1346",
+   "kickoff": "2025-05-19T06:26:47.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40151",
+   "siteId": 40151,
+   "homeTeamId": "1259",
+   "awayTeamId": "442",
+   "kickoff": "2025-05-19T06:26:48.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 1,
+   "awayGoals": 6,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40152",
+   "siteId": 40152,
+   "homeTeamId": "1346",
+   "awayTeamId": "395",
+   "kickoff": "2025-05-19T06:26:48.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40150",
+   "siteId": 40150,
+   "homeTeamId": "1259",
+   "awayTeamId": "1348",
+   "kickoff": "2025-05-19T06:26:48.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40154",
+   "siteId": 40154,
+   "homeTeamId": "1346",
+   "awayTeamId": "196",
+   "kickoff": "2025-05-19T06:26:48.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40149",
+   "siteId": 40149,
+   "homeTeamId": "1259",
+   "awayTeamId": "1152",
+   "kickoff": "2025-05-19T06:26:48.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40153",
+   "siteId": 40153,
+   "homeTeamId": "1346",
+   "awayTeamId": "1347",
+   "kickoff": "2025-05-19T06:26:48.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 1,
+   "awayGoals": 6,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40157",
+   "siteId": 40157,
+   "homeTeamId": "1346",
+   "awayTeamId": "442",
+   "kickoff": "2025-05-19T06:26:49.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 3,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40158",
+   "siteId": 40158,
+   "homeTeamId": "395",
+   "awayTeamId": "1347",
+   "kickoff": "2025-05-19T06:26:49.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 4,
+   "awayGoals": 6,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40159",
+   "siteId": 40159,
+   "homeTeamId": "395",
+   "awayTeamId": "196",
+   "kickoff": "2025-05-19T06:26:49.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 8,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40160",
+   "siteId": 40160,
+   "homeTeamId": "395",
+   "awayTeamId": "1152",
+   "kickoff": "2025-05-19T06:26:49.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40156",
+   "siteId": 40156,
+   "homeTeamId": "1346",
+   "awayTeamId": "1348",
+   "kickoff": "2025-05-19T06:26:49.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40155",
+   "siteId": 40155,
+   "homeTeamId": "1346",
+   "awayTeamId": "1152",
+   "kickoff": "2025-05-19T06:26:49.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40162",
+   "siteId": 40162,
+   "homeTeamId": "395",
+   "awayTeamId": "442",
+   "kickoff": "2025-05-19T06:26:50.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40166",
+   "siteId": 40166,
+   "homeTeamId": "1347",
+   "awayTeamId": "442",
+   "kickoff": "2025-05-19T06:26:50.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 5,
+   "awayGoals": 8,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40161",
+   "siteId": 40161,
+   "homeTeamId": "395",
+   "awayTeamId": "1348",
+   "kickoff": "2025-05-19T06:26:50.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40165",
+   "siteId": 40165,
+   "homeTeamId": "1347",
+   "awayTeamId": "1348",
+   "kickoff": "2025-05-19T06:26:50.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40163",
+   "siteId": 40163,
+   "homeTeamId": "1347",
+   "awayTeamId": "196",
+   "kickoff": "2025-05-19T06:26:50.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40164",
+   "siteId": 40164,
+   "homeTeamId": "1347",
+   "awayTeamId": "1152",
+   "kickoff": "2025-05-19T06:26:50.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 3,
+   "awayGoals": 6,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40169",
+   "siteId": 40169,
+   "homeTeamId": "196",
+   "awayTeamId": "442",
+   "kickoff": "2025-05-19T06:26:51.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40171",
+   "siteId": 40171,
+   "homeTeamId": "1152",
+   "awayTeamId": "442",
+   "kickoff": "2025-05-19T06:26:51.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40172",
+   "siteId": 40172,
+   "homeTeamId": "1348",
+   "awayTeamId": "442",
+   "kickoff": "2025-05-19T06:26:51.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40168",
+   "siteId": 40168,
+   "homeTeamId": "196",
+   "awayTeamId": "1348",
+   "kickoff": "2025-05-19T06:26:51.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40170",
+   "siteId": 40170,
+   "homeTeamId": "1152",
+   "awayTeamId": "1348",
+   "kickoff": "2025-05-19T06:26:51.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  },
+  {
+   "id": "40167",
+   "siteId": 40167,
+   "homeTeamId": "196",
+   "awayTeamId": "1152",
+   "kickoff": "2025-05-19T06:26:51.000Z",
+   "venue": "nincs megadva",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T16:07:16.445Z"
+  }
+ ],
+ "summaries": [
+  {
+   "teamId": "442",
+   "bestLeague": "L1",
+   "topScorer": null,
+   "seasonsCount": 37,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "395",
+   "bestLeague": "L1",
+   "topScorer": null,
+   "seasonsCount": 39,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "1181",
+   "bestLeague": "L1",
+   "topScorer": null,
+   "seasonsCount": 14,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "77",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Henz Ákos",
+    "goals": 7
+   },
+   "seasonsCount": 43,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "1348",
+   "bestLeague": "L1",
+   "topScorer": null,
+   "seasonsCount": 3,
+   "matchesPlayed": 10
+  },
+  {
+   "teamId": "196",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Schneider Dávid",
+    "goals": 4
+   },
+   "seasonsCount": 51,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "1259",
+   "bestLeague": "L1",
+   "topScorer": null,
+   "seasonsCount": 8,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "1345",
+   "bestLeague": "L1",
+   "topScorer": null,
+   "seasonsCount": 1,
+   "matchesPlayed": 10
+  },
+  {
+   "teamId": "1347",
+   "bestLeague": "L1",
+   "topScorer": null,
+   "seasonsCount": 4,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "446",
+   "bestLeague": "L1",
+   "topScorer": null,
+   "seasonsCount": 38,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "1152",
+   "bestLeague": "L1",
+   "topScorer": null,
+   "seasonsCount": 8,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "1346",
+   "bestLeague": "L1",
+   "topScorer": null,
+   "seasonsCount": 5,
+   "matchesPlayed": 11
+  }
+ ]
+}

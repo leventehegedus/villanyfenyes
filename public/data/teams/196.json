@@ -238,6 +238,24 @@
     "goalsAgainst": 36,
     "points": 13
    }
+  },
+  {
+   "seasonId": 46,
+   "label": "2003 - Tavasz",
+   "league": "L1",
+   "finished": true,
+   "position": 6,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 11,
+    "won": 4,
+    "drawn": 1,
+    "lost": 6,
+    "goalsFor": 25,
+    "goalsAgainst": 30,
+    "points": 13
+   }
   }
  ],
  "opponents": [
@@ -258,12 +276,12 @@
    "teamId": "395",
    "name": "Albán Focisuli",
    "totals": {
-    "played": 13,
+    "played": 14,
     "won": 1,
     "drawn": 1,
-    "lost": 11,
-    "goalsFor": 34,
-    "goalsAgainst": 73,
+    "lost": 12,
+    "goalsFor": 37,
+    "goalsAgainst": 81,
     "points": 4
    }
   },
@@ -518,13 +536,13 @@
    "teamId": "77",
    "name": "Keverton",
    "totals": {
-    "played": 9,
-    "won": 5,
+    "played": 10,
+    "won": 6,
     "drawn": 0,
     "lost": 4,
-    "goalsFor": 50,
+    "goalsFor": 54,
     "goalsAgainst": 39,
-    "points": 15
+    "points": 18
    }
   },
   {
@@ -570,12 +588,12 @@
    "teamId": "1181",
    "name": "Bobo FC",
    "totals": {
-    "played": 8,
+    "played": 9,
     "won": 2,
     "drawn": 3,
-    "lost": 3,
-    "goalsFor": 22,
-    "goalsAgainst": 25,
+    "lost": 4,
+    "goalsFor": 24,
+    "goalsAgainst": 29,
     "points": 9
    }
   },
@@ -622,13 +640,13 @@
    "teamId": "446",
    "name": "Hanyatt SE",
    "totals": {
-    "played": 6,
+    "played": 7,
     "won": 4,
-    "drawn": 1,
+    "drawn": 2,
     "lost": 1,
-    "goalsFor": 22,
-    "goalsAgainst": 13,
-    "points": 13
+    "goalsFor": 24,
+    "goalsAgainst": 15,
+    "points": 14
    }
   },
   {
@@ -674,13 +692,13 @@
    "teamId": "1259",
    "name": "MSC Gépész",
    "totals": {
-    "played": 3,
-    "won": 2,
+    "played": 4,
+    "won": 3,
     "drawn": 0,
     "lost": 1,
-    "goalsFor": 7,
+    "goalsFor": 8,
     "goalsAgainst": 6,
-    "points": 6
+    "points": 9
    }
   },
   {
@@ -700,12 +718,12 @@
    "teamId": "442",
    "name": "Csillagrombolók FC",
    "totals": {
-    "played": 2,
+    "played": 3,
     "won": 2,
     "drawn": 0,
-    "lost": 0,
-    "goalsFor": 14,
-    "goalsAgainst": 5,
+    "lost": 1,
+    "goalsFor": 15,
+    "goalsAgainst": 7,
     "points": 6
    }
   },
@@ -713,12 +731,12 @@
    "teamId": "1152",
    "name": "Lúzer SC",
    "totals": {
-    "played": 2,
+    "played": 3,
     "won": 1,
     "drawn": 1,
-    "lost": 0,
-    "goalsFor": 7,
-    "goalsAgainst": 4,
+    "lost": 1,
+    "goalsFor": 9,
+    "goalsAgainst": 8,
     "points": 4
    }
   },
@@ -759,6 +777,58 @@
     "goalsFor": 5,
     "goalsAgainst": 4,
     "points": 3
+   }
+  },
+  {
+   "teamId": "1345",
+   "name": "JÓZSI FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1346",
+   "name": "WINCHESTER UNITED",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1347",
+   "name": "DINAMO CSERNOBIL",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1348",
+   "name": "TAR KÁN",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 4,
+    "points": 0
    }
   }
  ],
@@ -856,11 +926,11 @@
    }
   }
  },
- "cleanSheets": 5,
+ "cleanSheets": 8,
  "failedToScore": 5,
  "scorers": {
-  "playedMatches": 136,
-  "coveredMatches": 136,
+  "playedMatches": 147,
+  "coveredMatches": 147,
   "rows": []
  }
 }
