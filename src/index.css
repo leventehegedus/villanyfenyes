@@ -88,10 +88,11 @@
     --draw: oklch(0.55 0.02 258);
     --loss: oklch(0.55 0.19 27);
     --glow: oklch(0.93 0.12 95 / 55%);
+    --medal-1: #c9a227;
+    --medal-2: #8e98a3;
+    --medal-3: #9a4f1f;
     --series-1: #2a78d6;
-    --series-2: #eb6834;
-    --series-3: #1baf7a;
-    --series-4: #eda100;
+    --series-2: #1baf7a;
 }
 
 .dark {
@@ -130,10 +131,11 @@
     --draw: oklch(0.72 0.02 258);
     --loss: oklch(0.72 0.16 25);
     --glow: oklch(0.88 0.165 95 / 16%);
+    --medal-1: #d6aa2e;
+    --medal-2: #8f9aa6;
+    --medal-3: #b8642e;
     --series-1: #3987e5;
-    --series-2: #d95926;
-    --series-3: #199e70;
-    --series-4: #c98500;
+    --series-2: #199e70;
 }
 
 @layer base {

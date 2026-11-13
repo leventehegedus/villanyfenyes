@@ -1,15 +1,17 @@
 import type { SortDir } from './filters'
 import type { StatusFilter } from './schedule'
 
-export type MatchFilterState = { teamId: string | null; status: StatusFilter; favOnly: boolean }
+export type MatchFilterState = { teamIds: string[]; status: StatusFilter }
 
-/** Shared match filters from URL params (t = team, st = status, fav = 1). */
+/** Team ids from "?t=69,100"; empty means all teams. */
+export const readTeamIds = (params: URLSearchParams): string[] => (params.get('t') ?? '').split(',').filter(Boolean)
+
+/** Schedule filters from URL params (t = teams, st = status). */
 export function readMatchFilters(params: URLSearchParams, defaultStatus: StatusFilter): MatchFilterState {
   const st = params.get('st')
   return {
-    teamId: params.get('t'),
+    teamIds: readTeamIds(params),
     status: st === 'all' || st === 'past' || st === 'upcoming' ? st : defaultStatus,
-    favOnly: params.get('fav') === '1',
   }
 }
 
@@ -26,7 +28,12 @@ export function parseStandingsSort(raw: string | null): StandingsSort {
   return isSortKey(key) && (dir === 'asc' || dir === 'desc') ? { key, dir } : { key: 'position', dir: 'asc' }
 }
 
-export const MAX_HIGHLIGHT = 4
+/** The podium (top 3) can always be highlighted; at most this many other teams on top. */
+export const MAX_EXTRA_HIGHLIGHT = 2
+const MAX_HIGHLIGHT = 3 + MAX_EXTRA_HIGHLIGHT
+
+/** URL value for "nothing highlighted" (an empty param would mean "use the default"). */
+export const NO_HIGHLIGHT = '-'
 
 /** Highlighted chart teams from "?h=1,2" (unknown ids dropped); `fallback` when the param is absent. */
 export function readHighlight(raw: string | null, teamIds: readonly string[], fallback: readonly string[]): string[] {
@@ -37,8 +44,13 @@ export function readHighlight(raw: string | null, teamIds: readonly string[], fa
     .slice(0, MAX_HIGHLIGHT)
 }
 
-/** Adds or removes a team; when full, the oldest highlight makes room. */
-export function toggleHighlight(current: readonly string[], id: string): string[] {
+export const writeHighlight = (ids: readonly string[]): string => (ids.length === 0 ? NO_HIGHLIGHT : ids.join(','))
+
+/** Adds or removes a team; when the non-podium slots are full, the oldest of those makes room. */
+export function toggleHighlight(current: readonly string[], id: string, podium: readonly string[]): string[] {
   if (current.includes(id)) return current.filter((x) => x !== id)
-  return [...current, id].slice(-MAX_HIGHLIGHT)
+  const next = [...current, id]
+  const extras = next.filter((x) => !podium.includes(x))
+  const drop = extras.slice(0, Math.max(0, extras.length - MAX_EXTRA_HIGHLIGHT))
+  return next.filter((x) => !drop.includes(x))
 }

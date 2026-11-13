@@ -1,13 +1,14 @@
 import { Link } from 'react-router'
 import { ArrowDownUp } from 'lucide-react'
-import { FavouriteButton } from '@/components/FavouriteButton'
+import { FormStrip } from '@/components/FormStrip'
 import { Markers } from '@/components/Markers'
 import { TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table'
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip'
-import { useFavourites, useT } from '@/hooks/prefs'
+import { useT } from '@/hooks/prefs'
 import type { MessageKey } from '@/i18n/dict'
 import { sortRows } from '@/lib/filters'
-import type { StandingRow } from '@/lib/schema'
+import type { Match, StandingRow } from '@/lib/schema'
+import { teamResults } from '@/lib/stats'
 import type { StandingsSort, StandingsSortKey } from '@/lib/url-state'
 import { cn } from '@/lib/utils'
 
@@ -26,6 +27,7 @@ const COLS: { key: NumKey; short: MessageKey; long: MessageKey }[] = [
 
 type Props = {
   rows: readonly StandingRow[]
+  matches: readonly Match[]
   teamName: (id: string) => string
   keep: string
   sort: StandingsSort
@@ -34,9 +36,8 @@ type Props = {
 
 const signed = (n: number) => (n > 0 ? `+${n}` : String(n))
 
-export function StandingsTable({ rows, teamName, keep, sort, onSort }: Props) {
+export function StandingsTable({ rows, matches, teamName, keep, sort, onSort }: Props) {
   const t = useT()
-  const { isFavourite } = useFavourites()
   const key = sort.key
   const sorted = key === 'position' ? rows : sortRows(rows, (r) => r[key], sort.dir)
   const toggle = (key: NumKey) =>
@@ -71,20 +72,26 @@ export function StandingsTable({ rows, teamName, keep, sort, onSort }: Props) {
                 </Tooltip>
               </TableHead>
             ))}
+            <TableHead className="px-2">
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <span tabIndex={0}>{t('form')}</span>
+                </TooltipTrigger>
+                <TooltipContent>{t('formHint')}</TooltipContent>
+              </Tooltip>
+            </TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
           {sorted.map((r) => {
             const name = teamName(r.teamId)
-            const fav = isFavourite(r.teamId)
             return (
-              <TableRow key={r.teamId} className={cn(fav && 'bg-primary/5')}>
+              <TableRow key={r.teamId}>
                 <TableCell className="tabular sticky left-0 z-10 bg-card px-1 text-center font-medium">{r.position}</TableCell>
                 <TableCell className="sticky left-7 z-10 w-28 max-w-28 bg-card px-1 py-1.5 sm:w-auto sm:max-w-56">
                   <div className="flex items-center gap-1">
-                    <FavouriteButton teamId={r.teamId} name={name} className="-ml-1 size-6" />
                     <div className="min-w-0">
-                      <Link to={`/t/${encodeURIComponent(r.teamId)}${keep}`} className={cn('block truncate hover:underline', fav && 'font-semibold')}>
+                      <Link to={`/t/${encodeURIComponent(r.teamId)}${keep}`} className="block truncate hover:underline">
                         {name}
                       </Link>
                       <Markers markers={r.markers} />
@@ -96,6 +103,9 @@ export function StandingsTable({ rows, teamName, keep, sort, onSort }: Props) {
                     {c.key === 'goalDiff' ? signed(r.goalDiff) : r[c.key]}
                   </TableCell>
                 ))}
+                <TableCell className="px-2">
+                  <FormStrip results={teamResults(r.teamId, matches).slice(-5)} teamName={teamName} keep={keep} />
+                </TableCell>
               </TableRow>
             )
           })}

@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { Link } from 'react-router'
-import { useFavourites, usePrefs, useT } from '@/hooks/prefs'
+import { usePrefs, useT } from '@/hooks/prefs'
 import { formatDay, formatKickoffShort } from '@/lib/format'
 import { groupByWeek, weekStart } from '@/lib/schedule'
 import type { Match } from '@/lib/schema'
@@ -12,22 +12,17 @@ type RowProps = { match: Match; teamName: (id: string) => string; keep: string; 
 export function MatchRow({ match: m, teamName, keep, now }: RowProps) {
   const t = useT()
   const { prefs } = usePrefs()
-  const { isFavourite } = useFavourites()
   const played = isPlayed(m)
-  const fav = isFavourite(m.homeTeamId) || isFavourite(m.awayTeamId)
   const when = formatKickoffShort(m.kickoff, prefs.locale, prefs.timeZone) ?? t('noKickoff')
   const future = m.kickoff !== null && Date.parse(m.kickoff) > now.getTime()
   const side = (id: string, align: string) => (
-    <span className={cn('line-clamp-2 min-w-0 hyphens-auto', align, isFavourite(id) && 'font-semibold')}>{teamName(id)}</span>
+    <span className={cn('line-clamp-2 min-w-0 hyphens-auto', align)}>{teamName(id)}</span>
   )
   return (
     <li>
       <Link
         to={`/m/${encodeURIComponent(m.id)}${keep}`}
-        className={cn(
-          'grid grid-cols-[1fr_auto_1fr] items-center gap-2 rounded-lg px-2 py-2 text-sm hover:bg-accent focus-visible:bg-accent',
-          fav && 'bg-primary/5 ring-1 ring-primary/20',
-        )}
+        className="grid grid-cols-[1fr_auto_1fr] items-center gap-2 rounded-lg px-2 py-2 text-sm hover:bg-accent focus-visible:bg-accent"
       >
         {side(m.homeTeamId, 'text-right')}
         <span className="flex min-w-16 flex-col items-center">

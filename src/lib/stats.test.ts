@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { leagueFixture } from './__fixtures__/league'
-import { leagueTable, teamStats } from './stats'
+import { teamStats } from './stats'
 
 const { matches } = leagueFixture
 
@@ -37,23 +37,7 @@ describe('teamStats', () => {
   })
 })
 
-describe('leagueTable', () => {
-  it('builds a comparison row per team and flags best attack and defence', () => {
-    const table = leagueTable(leagueFixture.teams, matches)
-    expect(table).toHaveLength(4)
-    expect(table.find((r) => r.teamId === '1')?.bestAttack).toBe(true)
-    expect(table.find((r) => r.teamId === '2')?.bestDefence).toBe(true)
-  })
-})
 
-describe('headToHead', () => {
-  it('summarises played meetings from the first team view', async () => {
-    const { headToHead } = await import('./stats')
-    expect(headToHead('1', '2', matches)).toMatchObject({ wins: 1, draws: 0, losses: 0, goalsFor: 3, goalsAgainst: 1 })
-    expect(headToHead('2', '1', matches)).toMatchObject({ wins: 0, losses: 1 })
-    expect(headToHead('1', '1', matches).results).toEqual([])
-  })
-})
 
 describe('leagueProgression', () => {
   it('gives cumulative points per team at the end of each week with results', async () => {

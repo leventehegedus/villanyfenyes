@@ -9,7 +9,6 @@ import { TooltipProvider } from '@/components/ui/tooltip'
 
 const StandingsPage = lazy(() => import('@/pages/StandingsPage'))
 const SchedulePage = lazy(() => import('@/pages/SchedulePage'))
-const ResultsPage = lazy(() => import('@/pages/ResultsPage'))
 const MatchDialog = lazy(() => import('@/pages/MatchDialog'))
 const TeamPage = lazy(() => import('@/pages/TeamPage'))
 const ScorersPage = lazy(() => import('@/pages/ScorersPage'))
@@ -33,18 +32,17 @@ export default function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <PrefsProvider>
-        <TooltipProvider>
+        <TooltipProvider disableHoverableContent>
           <BrowserRouter>
             <Routes>
               <Route element={<Layout />}>
                 <Route index element={<StandingsPage />} />
                 <Route path="menetrend" element={<SchedulePage />} />
-                <Route path="eredmenyek" element={<ResultsPage />} />
                 <Route
                   path="m/:matchId"
                   element={
                     <>
-                      <ResultsPage />
+                      <SchedulePage />
                       <MatchDialog />
                     </>
                   }

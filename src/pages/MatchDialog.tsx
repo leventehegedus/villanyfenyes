@@ -10,29 +10,11 @@ import type { LeagueData } from '@/lib/data'
 import type { Match } from '@/lib/schema'
 import { isPlayed } from '@/lib/standings'
 
-function Scorers({ match, teamId }: { match: Match; teamId: string }) {
-  const t = useT()
-  if (match.scorers === null) return <p className="text-sm text-muted-foreground">{t('scorersUnknown')}</p>
-  const list = match.scorers.filter((s) => s.teamId === teamId)
-  if (list.length === 0) return <p className="text-sm text-muted-foreground">{t('scorersNone')}</p>
-  return (
-    <ul className="space-y-0.5 text-sm">
-      {list.map((s) => (
-        <li key={s.name} className="flex justify-between gap-2">
-          <span>{s.name}</span>
-          <span className="tabular font-semibold">{s.goals}</span>
-        </li>
-      ))}
-    </ul>
-  )
-}
-
 function MatchDetails({ match: m, data, keep }: { match: Match; data: LeagueData; keep: string }) {
   const t = useT()
   const { prefs } = usePrefs()
   const team = (id: string) => data.teams.find((x) => x.id === id)
   const home = team(m.homeTeamId)
-  const away = team(m.awayTeamId)
   const source = m.siteId !== null && home?.siteId != null ? `${SOURCE_SITE}/tabella/${m.siteId}/eredmenyek/${home.siteId}` : data.sourceUrl
   const teamLink = (id: string) => (
     <Link to={`/t/${encodeURIComponent(id)}${keep}`} className="font-semibold hover:underline">
@@ -40,7 +22,7 @@ function MatchDetails({ match: m, data, keep }: { match: Match; data: LeagueData
     </Link>
   )
   return (
-    <div className="space-y-5">
+    <div className="space-y-5 pt-4">
       <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-3 text-center">
         {teamLink(m.homeTeamId)}
         <span className="tabular rounded-lg bg-secondary px-3 py-1 font-mono text-2xl font-bold">
@@ -48,26 +30,28 @@ function MatchDetails({ match: m, data, keep }: { match: Match; data: LeagueData
         </span>
         {teamLink(m.awayTeamId)}
       </div>
-      <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-sm">
-        <dt className="text-muted-foreground">{t('kickoff')}</dt>
-        <dd>{formatKickoff(m.kickoff, prefs.locale, prefs.timeZone) ?? t('noData')}</dd>
-        <dt className="text-muted-foreground">{t('venue')}</dt>
-        <dd>{m.venue ?? t('noData')}</dd>
-        <dt className="text-muted-foreground">{t('league')}</dt>
-        <dd>{data.league}</dd>
-        <dt className="text-muted-foreground">{t('round')}</dt>
-        <dd className="text-muted-foreground">{t('roundNotPublished')}</dd>
-      </dl>
+      <p className="text-center text-sm text-muted-foreground">{formatKickoff(m.kickoff, prefs.locale, prefs.timeZone) ?? t('noKickoff')}</p>
       {isPlayed(m) && (
-        <section className="grid gap-4 sm:grid-cols-2">
-          {[m.homeTeamId, m.awayTeamId].map((id) => (
-            <div key={id}>
-              <h3 className="mb-1 text-sm font-semibold">
-                {t('scorers')} · {home?.id === id ? home.name : away?.name}
-              </h3>
-              <Scorers match={m} teamId={id} />
+        <section>
+          <h3 className="mb-2 text-center text-sm font-semibold">{t('scorers')}</h3>
+          {m.scorers === null ? (
+            <p className="text-center text-sm text-muted-foreground">{t('scorersUnknown')}</p>
+          ) : m.scorers.length === 0 ? (
+            <p className="text-center text-sm text-muted-foreground">{t('scorersNone')}</p>
+          ) : (
+            <div className="grid grid-cols-2 gap-6 text-sm">
+              {[m.homeTeamId, m.awayTeamId].map((id, side) => (
+                <ul key={id} className={side === 0 ? 'space-y-0.5 text-right' : 'space-y-0.5'}>
+                  {m.scorers?.filter((sc) => sc.teamId === id).map((sc) => (
+                    <li key={sc.name}>
+                      {sc.name}
+                      {sc.goals > 1 && <span className="tabular ml-1 font-semibold">×{sc.goals}</span>}
+                    </li>
+                  ))}
+                </ul>
+              ))}
             </div>
-          ))}
+          )}
         </section>
       )}
       <a href={source} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 text-sm underline underline-offset-2">
@@ -84,12 +68,12 @@ export default function MatchDialog() {
   const location = useLocation()
   const { query, keep, seasonId, league, noData } = useLeagueData()
   // Back to wherever the match was opened from; a direct deep link falls back to the results list.
-  const close = () => (location.key === 'default' ? navigate(`/eredmenyek${keep}`) : navigate(-1))
+  const close = () => (location.key === 'default' ? navigate(`/menetrend${keep}`) : navigate(-1))
   return (
     <Dialog open onOpenChange={(open) => !open && close()}>
       <DialogContent closeLabel={t('close')} className="max-h-[90svh] overflow-y-auto sm:max-w-xl">
         <DialogHeader>
-          <DialogTitle>{t('matchDetails')}</DialogTitle>
+          <DialogTitle className="sr-only">{t('matchDetails')}</DialogTitle>
           <DialogDescription className="sr-only">{t('matchDetails')}</DialogDescription>
         </DialogHeader>
         <QueryBoundary query={query} idle={noData || seasonId === null || league === null}>

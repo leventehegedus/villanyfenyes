@@ -11,7 +11,6 @@ export const Prefs = z.object({
   timeZone: z.string().catch(SITE_TIME_ZONE),
   defaultSeason: z.number().int().nullable().catch(null),
   defaultLeague: z.string().nullable().catch(null),
-  favourites: z.array(z.string()).catch([]),
 })
 export type Prefs = z.infer<typeof Prefs>
 
@@ -21,7 +20,6 @@ export const DEFAULT_PREFS: Prefs = {
   timeZone: SITE_TIME_ZONE,
   defaultSeason: null,
   defaultLeague: null,
-  favourites: [],
 }
 
 export const loadPrefs = () => readStored('prefs', Prefs, DEFAULT_PREFS)
@@ -40,18 +38,6 @@ export function useT() {
   )
 }
 
-export function useFavourites() {
-  const { prefs, update } = usePrefs()
-  const favourites = prefs.favourites
-  const toggle = useCallback(
-    (teamId: string) =>
-      update({
-        favourites: favourites.includes(teamId) ? favourites.filter((id) => id !== teamId) : [...favourites, teamId],
-      }),
-    [favourites, update],
-  )
-  return { favourites, isFavourite: (id: string) => favourites.includes(id), toggle }
-}
 
 const darkQuery = () => window.matchMedia?.('(prefers-color-scheme: dark)')
 

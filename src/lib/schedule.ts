@@ -6,9 +6,9 @@ import { SITE_TIME_ZONE } from './time'
 export type StatusFilter = 'all' | 'played' | 'past' | 'upcoming'
 
 export type MatchFilter = {
-  teamId?: string | null
+  /** Matches involving any of these teams; empty or missing means all teams. */
+  teamIds?: readonly string[] | null
   status?: StatusFilter
-  favourites?: ReadonlySet<string> | null
 }
 
 const involves = (m: Match, teamId: string) => m.homeTeamId === teamId || m.awayTeamId === teamId
@@ -19,8 +19,7 @@ export const isUpcoming = (m: Match, now: Date) =>
 
 export function filterMatches(matches: readonly Match[], f: MatchFilter, now = new Date()): Match[] {
   return matches
-    .filter((m) => !f.teamId || involves(m, f.teamId))
-    .filter((m) => !f.favourites?.size || [...f.favourites].some((id) => involves(m, id)))
+    .filter((m) => !f.teamIds?.length || f.teamIds.some((id) => involves(m, id)))
     .filter((m) => {
       if (f.status === 'played') return isPlayed(m)
       if (f.status === 'past') return isPlayed(m) || (m.kickoff !== null && Date.parse(m.kickoff) <= now.getTime())
@@ -31,10 +30,10 @@ export function filterMatches(matches: readonly Match[], f: MatchFilter, now = n
 }
 
 export const nextMatch = (teamId: string, matches: readonly Match[], now = new Date()): Match | null =>
-  filterMatches(matches, { teamId, status: 'upcoming' }, now)[0] ?? null
+  filterMatches(matches, { teamIds: [teamId], status: 'upcoming' }, now)[0] ?? null
 
 export const lastResult = (teamId: string, matches: readonly Match[]): Match | null =>
-  filterMatches(matches, { teamId, status: 'played' }).at(-1) ?? null
+  filterMatches(matches, { teamIds: [teamId], status: 'played' }).at(-1) ?? null
 
 const dayFormat = new Intl.DateTimeFormat('en-CA', {
   timeZone: SITE_TIME_ZONE,

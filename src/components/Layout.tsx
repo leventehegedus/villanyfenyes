@@ -1,6 +1,6 @@
 import { Suspense, useState } from 'react'
 import { NavLink, Outlet } from 'react-router'
-import { BarChart3, CalendarDays, ListOrdered, Menu, Moon, Settings, Sun, SunMoon, Target, Trophy } from 'lucide-react'
+import { BarChart3, CalendarDays, ListOrdered, Menu, Moon, Settings, Sun, SunMoon, Target } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { DropdownMenu, DropdownMenuContent, DropdownMenuRadioGroup, DropdownMenuRadioItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu'
@@ -19,7 +19,6 @@ type NavItem = { to: string; label: MessageKey; icon: LucideIcon }
 const PRIMARY: NavItem[] = [
   { to: '/', label: 'navStandings', icon: ListOrdered },
   { to: '/menetrend', label: 'navSchedule', icon: CalendarDays },
-  { to: '/eredmenyek', label: 'navResults', icon: Trophy },
   { to: '/golok', label: 'navScorers', icon: Target },
 ]
 const SECONDARY: NavItem[] = [
@@ -118,7 +117,7 @@ export function Layout() {
         </div>
       </footer>
 
-      <nav aria-label={t('menu')} className="fixed inset-x-0 bottom-0 z-30 grid grid-cols-5 border-t bg-background/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden">
+      <nav aria-label={t('menu')} className="fixed inset-x-0 bottom-0 z-30 grid grid-cols-4 border-t bg-background/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden">
         <NavItems items={PRIMARY} keep={keep} className="flex-col gap-0.5 rounded-none py-2 text-[11px]" />
         <button type="button" onClick={() => setMoreOpen(true)} className="flex flex-col items-center gap-0.5 py-2 text-[11px] hover:bg-accent">
           <Menu className="size-4" aria-hidden />

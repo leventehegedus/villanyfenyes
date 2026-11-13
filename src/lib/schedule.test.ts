@@ -12,11 +12,12 @@ describe('schedule', () => {
     expect(nextMatch('4', matches, now)).toBeNull()
   })
 
-  it('filters by team, status and favourites', () => {
-    expect(filterMatches(matches, { teamId: '4' }).map((m) => m.id)).toEqual(['102', '104', '106', '107'])
+  it('filters by one or more teams and by status', () => {
+    expect(filterMatches(matches, { teamIds: ['4'] }).map((m) => m.id)).toEqual(['102', '104', '106', '107'])
+    expect(filterMatches(matches, { teamIds: ['3', '4'] })).toHaveLength(7)
+    expect(filterMatches(matches, { teamIds: [] })).toHaveLength(8)
     expect(filterMatches(matches, { status: 'upcoming' }, now)).toHaveLength(1)
     expect(filterMatches(matches, { status: 'played' })).toHaveLength(6)
-    expect(filterMatches(matches, { favourites: new Set(['3']) })).toHaveLength(4)
   })
 
   it('lists every kicked-off match under "past", with or without a score', () => {

@@ -1,19 +1,20 @@
 import { Search } from 'lucide-react'
 import { PageHeader } from '@/components/PageHeader'
 import { EmptyState, QueryBoundary } from '@/components/QueryBoundary'
-import { TeamSelect } from '@/components/TeamSelect'
+import { TeamMultiSelect } from '@/components/TeamMultiSelect'
 import { Input } from '@/components/ui/input'
 import { TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table'
 import { useT } from '@/hooks/prefs'
 import { useLeagueData } from '@/hooks/useLeagueData'
 import { includesFolded } from '@/lib/filters'
 import { aggregateScorers } from '@/lib/scorers'
+import { readTeamIds } from '@/lib/url-state'
 
 export default function ScorersPage() {
   const t = useT()
   const { query, teamName, params, setSelection, seasonId, league, noData } = useLeagueData()
   const q = params.get('q') ?? ''
-  const teamFilter = params.get('t')
+  const teamFilter = readTeamIds(params)
 
   return (
     <div className="space-y-4">
@@ -22,7 +23,7 @@ export default function ScorersPage() {
         {(data) => {
           const { rows, coverage } = aggregateScorers(data.matches)
           const shown = rows.filter(
-            (r) => (!teamFilter || r.teamId === teamFilter) && (includesFolded(r.name, q) || includesFolded(teamName(r.teamId), q)),
+            (r) => (teamFilter.length === 0 || teamFilter.includes(r.teamId)) && (includesFolded(r.name, q) || includesFolded(teamName(r.teamId), q)),
           )
           return (
             <>
@@ -30,7 +31,7 @@ export default function ScorersPage() {
                 {t('scorersCoverage', { with: coverage.withScorers, played: coverage.played })}
               </p>
               <div className="flex flex-wrap items-center gap-2">
-              <TeamSelect teams={data.teams} value={teamFilter} onChange={(id) => setSelection({ extra: { t: id } })} />
+              <TeamMultiSelect teams={data.teams} value={teamFilter} onChange={(ids) => setSelection({ extra: { t: ids.join(',') || null } })} />
               <label className="relative block max-w-sm flex-1">
                 <span className="sr-only">{t('search')}</span>
                 <Search className="absolute top-2.5 left-2.5 size-4 text-muted-foreground" aria-hidden />

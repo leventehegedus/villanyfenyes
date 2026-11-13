@@ -1,6 +1,5 @@
 import { Suspense, lazy } from 'react'
 import { useParams } from 'react-router'
-import { FavouriteButton } from '@/components/FavouriteButton'
 import { FormStrip } from '@/components/FormStrip'
 import { Markers } from '@/components/Markers'
 import { MatchList } from '@/components/MatchList'
@@ -35,7 +34,6 @@ function TeamView({ teamId, data, keep, teamName }: { teamId: string; data: Leag
   return (
     <div className="space-y-5">
       <header className="flex flex-wrap items-center gap-3">
-        <FavouriteButton teamId={team.id} name={team.name} />
         <div className="min-w-0 flex-1">
           <h1 className="font-heading text-2xl font-bold tracking-tight">{team.name}</h1>
           <p className="text-sm text-muted-foreground">
@@ -116,7 +114,7 @@ function TeamView({ teamId, data, keep, teamName }: { teamId: string; data: Leag
 
       <section>
         <h2 className="mb-2 text-lg font-semibold">{t('fixtures')}</h2>
-        <MatchList matches={filterMatches(data.matches, { teamId })} teamName={teamName} keep={keep} />
+        <MatchList matches={filterMatches(data.matches, { teamIds: [teamId] })} teamName={teamName} keep={keep} />
       </section>
     </div>
   )

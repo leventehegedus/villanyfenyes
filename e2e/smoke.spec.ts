@@ -27,14 +27,13 @@ test('match deep link opens the detail sheet with score and scorers', async ({ p
   await expect(sheet.getByText('2:3')).toBeVisible()
   await expect(sheet.getByText('Pap Bulcsú')).toBeVisible()
   await sheet.getByRole('button', { name: 'Bezár' }).click()
-  await expect(page).toHaveURL(/\/eredmenyek\?s=55&l=L1/)
+  await expect(sheet.getByText('Pálya')).toHaveCount(0)
+  await expect(page).toHaveURL(/\/menetrend\?s=55&l=L1/)
 })
 
-test('team page, favourites and language toggle', async ({ page }) => {
+test('team page and language toggle', async ({ page }) => {
   await page.goto('/t/69?s=55&l=L1')
   await expect(page.getByRole('heading', { name: 'Lokomotív MFC' })).toBeVisible()
-  await page.getByRole('button', { name: /Lokomotív MFC hozzáadása/ }).click()
-  await expect(page.getByRole('button', { name: /Lokomotív MFC eltávolítása/ })).toBeVisible()
   await page.getByRole('button', { name: /^EN/ }).click()
   await expect(page.getByText('Computed from results').first()).toBeVisible()
 })
@@ -49,6 +48,9 @@ test('schedule filters are reflected in the URL', async ({ page }) => {
 test('stats: progression chart, cross table and form hover', async ({ page }) => {
   await page.goto('/statisztika?s=55&l=L1')
   await expect(page.getByRole('button', { name: 'Lokomotív MFC', pressed: true })).toBeVisible()
+  await page.getByRole('button', { name: 'Kiemelés törlése' }).click()
+  await expect(page).toHaveURL(/h=-/)
+  await expect(page.getByRole('button', { name: 'Lokomotív MFC', pressed: true })).toHaveCount(0)
   await page.getByRole('tab', { name: 'Kereszttábla' }).click()
   await expect(page).toHaveURL(/v=cross/)
   await expect(page.getByRole('link', { name: /Lokomotív MFC – Gyermekláncfűrész 3:2/ })).toBeVisible()
@@ -58,7 +60,19 @@ test('stats: progression chart, cross table and form hover', async ({ page }) =>
 })
 
 test('scorers can be filtered by team', async ({ page }) => {
-  await page.goto('/golok?s=55&l=L1&t=100')
+  await page.goto('/golok?s=55&l=L1&t=100,999')
   await expect(page.getByRole('cell', { name: 'Horváth Dávid' })).toBeVisible()
   await expect(page.getByRole('cell', { name: 'Pap Bulcsú' })).toHaveCount(0)
+})
+
+test('standings show the form column and the schedule team filter is multi-select', async ({ page }) => {
+  await page.goto('/?s=55&l=L1')
+  await expect(page.getByRole('columnheader', { name: 'Forma' })).toBeVisible()
+  await page.goto('/menetrend?s=55&l=L1')
+  await page.getByRole('button', { name: /Csapat: Minden csapat/ }).click()
+  await page.getByRole('menuitemcheckbox', { name: 'Borg' }).click()
+  await page.getByRole('menuitemcheckbox', { name: 'Banditák' }).click()
+  await page.keyboard.press('Escape')
+  await expect(page.getByRole('button', { name: /Csapat: 2 csapat/ })).toBeVisible()
+  await expect(page).toHaveURL(/t=[^&]+%2C|t=[^&]+,/)
 })

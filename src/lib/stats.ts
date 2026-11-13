@@ -86,50 +86,7 @@ export function teamStats(teamId: string, matches: readonly Match[]) {
 
 export type TeamStats = ReturnType<typeof teamStats>
 
-/** League-wide comparison rows computed from stored results. */
-export function leagueTable(teams: readonly Team[], matches: readonly Match[]) {
-  const rows = teams.map((t) => {
-    const s = teamStats(t.id, matches)
-    return {
-      teamId: t.id,
-      name: t.name,
-      played: s.played,
-      points: s.pointsProgression.at(-1)?.points ?? 0,
-      goalsFor: s.goalsFor,
-      goalsAgainst: s.goalsAgainst,
-      goalDiff: s.goalDiff,
-      goalsForPerMatch: s.goalsForPerMatch,
-      goalsAgainstPerMatch: s.goalsAgainstPerMatch,
-      cleanSheets: s.cleanSheets,
-      recent: s.results.slice(-5),
-      streak: s.streak,
-    }
-  })
-  const withGames = rows.filter((r) => r.played > 0)
-  const maxAttack = Math.max(...withGames.map((r) => r.goalsForPerMatch ?? 0))
-  const minDefence = Math.min(...withGames.map((r) => r.goalsAgainstPerMatch ?? Infinity))
-  return rows.map((r) => ({
-    ...r,
-    bestAttack: r.played > 0 && r.goalsForPerMatch === maxAttack,
-    bestDefence: r.played > 0 && r.goalsAgainstPerMatch === minDefence,
-  }))
-}
 
-export type LeagueStatsRow = ReturnType<typeof leagueTable>[number]
-
-/** Played meetings between two teams, from team `a`'s point of view. */
-export function headToHead(a: string, b: string, matches: readonly Match[]) {
-  const results = a === b ? [] : teamResults(a, matches).filter((r) => r.opponentId === b)
-  const count = (o: Outcome) => results.filter((r) => r.outcome === o).length
-  return {
-    results,
-    wins: count('W'),
-    draws: count('D'),
-    losses: count('L'),
-    goalsFor: results.reduce((n, r) => n + r.goalsFor, 0),
-    goalsAgainst: results.reduce((n, r) => n + r.goalsAgainst, 0),
-  }
-}
 
 /** Cumulative points of every team at the end of each Budapest week that had results. */
 export function leagueProgression(teams: readonly Team[], matches: readonly Match[]) {

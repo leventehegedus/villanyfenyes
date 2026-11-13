@@ -1,45 +1,35 @@
-import { CalendarPlus } from 'lucide-react'
-import { toast } from 'sonner'
-import { MatchesView } from '@/components/MatchesView'
-import { Button } from '@/components/ui/button'
+import { MatchFilters } from '@/components/MatchFilters'
+import { MatchList } from '@/components/MatchList'
+import { PageHeader } from '@/components/PageHeader'
+import { EmptyState, QueryBoundary } from '@/components/QueryBoundary'
 import { useT } from '@/hooks/prefs'
-import type { LeagueData } from '@/lib/data'
-import { buildIcs } from '@/lib/ics'
-import type { Match } from '@/lib/schema'
-
-function CalendarButton({ matches, data }: { matches: Match[]; data: LeagueData }) {
-  const t = useT()
-  const download = () => {
-    const timed = matches.filter((m) => m.kickoff !== null)
-    if (timed.length === 0) {
-      toast(t('calendarNone'))
-      return
-    }
-    const names = new Map(data.teams.map((team) => [team.id, team.name]))
-    const blob = new Blob([buildIcs(timed, names, data.league, new Date())], { type: 'text/calendar;charset=utf-8' })
-    const a = document.createElement('a')
-    a.href = URL.createObjectURL(blob)
-    a.download = `villanyfenyes-${data.league}.ics`
-    a.click()
-    URL.revokeObjectURL(a.href)
-  }
-  return (
-    <Button variant="outline" size="sm" onClick={download}>
-      <CalendarPlus aria-hidden />
-      {t('addToCalendar')}
-    </Button>
-  )
-}
+import { useLeagueData } from '@/hooks/useLeagueData'
+import { filterMatches } from '@/lib/schedule'
+import { readMatchFilters } from '@/lib/url-state'
 
 export default function SchedulePage() {
+  const t = useT()
+  const { query, teamName, keep, params, setSelection, seasonId, league, noData } = useLeagueData()
+  const filters = readMatchFilters(params, 'all')
+
   return (
-    <MatchesView
-      title="navSchedule"
-      defaultStatus="all"
-      showStatus
-      newestFirst={false}
-      scrollToCurrent
-      actions={(matches, data) => <CalendarButton matches={matches} data={data} />}
-    />
+    <div className="space-y-4">
+      <PageHeader title={t('navSchedule')} />
+      <QueryBoundary query={query} idle={noData || seasonId === null || league === null}>
+        {(data) => {
+          const matches = filterMatches(data.matches, filters)
+          return (
+            <>
+              <MatchFilters teams={data.teams} value={filters} onChange={(extra) => setSelection({ extra })} />
+              {matches.length === 0 ? (
+                <EmptyState>{t('emptyFilter')}</EmptyState>
+              ) : (
+                <MatchList matches={matches} teamName={teamName} keep={keep} newestFirst={filters.status === 'past'} scrollToCurrent={filters.status === 'all'} />
+              )}
+            </>
+          )
+        }}
+      </QueryBoundary>
+    </div>
   )
 }

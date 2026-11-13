@@ -24,6 +24,10 @@
 - **League progression chart:** 12 coloured lines are unreadable, so all teams draw muted and up to 4 highlighted teams (URL `h`, default favourites else the top 3) use the validated categorical slots 1-4 (dataviz reference palette, light and dark steps) with legend chips and direct end labels. Points are computed from stored results and labelled so.
 - **Cross table:** standings order, row team's view, cells link to the match; tinted by outcome with the score as text.
 
+- **2026-11-13 second UI round (owner's requests):** one schedule page instead of schedule + results; multi-select team filter (`?t=69,100`); every favourites feature and the last-seen notice removed; calendar export removed; form column on the standings table; match dialog shows only teams, score, kickoff and one scorer list split left/right; comparison tab (and its head-to-head logic) removed.
+- **Medal colours on the progression chart (owner's choice):** the top 3 are gold/silver/bronze. The validator flags silver (grey, low chroma) and aqua vs silver (normal-vision ΔE 14.2); mitigations: every highlighted line has a direct end label (medals with their position), non-podium highlights are dashed and capped at 2 (blue, aqua). `?h=-` means "nothing highlighted". Tied teams' end labels stack 13 px apart.
+- **Tooltips:** `disableHoverableContent` so moving the pointer sideways between form chips switches the tooltip immediately.
+
 ## Opus usage
 
 - The main session ran on Opus 5.5 (session model chosen by the user); the build prompt's `opusplan` routing was not available here.
