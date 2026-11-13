@@ -1,0 +1,238 @@
+{
+ "schemaVersion": 1,
+ "teamId": "116",
+ "names": [
+  "Toilet Time"
+ ],
+ "seasons": [
+  {
+   "seasonId": 54,
+   "label": "2026 - Nyár",
+   "league": "L1",
+   "finished": true,
+   "position": 6,
+   "teamsInLeague": 7,
+   "marker": "relegation",
+   "totals": {
+    "played": 5,
+    "won": 2,
+    "drawn": 0,
+    "lost": 3,
+    "goalsFor": 18,
+    "goalsAgainst": 26,
+    "points": 6
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "37",
+   "name": "CF Babinénik",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 10,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "107",
+   "name": "Banditák",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "41",
+   "name": "Sonkástojás",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "220",
+   "name": "Jó lövés bedobás",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "29",
+   "name": "Tunyacsáp",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 54,
+   "league": "L1",
+   "matchId": "48211",
+   "kickoff": "2026-07-29T19:00:00.000Z",
+   "opponentId": "220",
+   "goalsFor": 7,
+   "goalsAgainst": 2
+  },
+  "biggestDefeat": {
+   "seasonId": 54,
+   "league": "L1",
+   "matchId": "48174",
+   "kickoff": "2026-07-08T19:00:00.000Z",
+   "opponentId": "37",
+   "goalsFor": 3,
+   "goalsAgainst": 10
+  },
+  "highestScoring": {
+   "seasonId": 54,
+   "league": "L1",
+   "matchId": "48174",
+   "kickoff": "2026-07-08T19:00:00.000Z",
+   "opponentId": "37",
+   "goalsFor": 3,
+   "goalsAgainst": 10
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 2,
+   "from": {
+    "seasonId": 54,
+    "league": "L1",
+    "matchId": "48211",
+    "kickoff": "2026-07-29T19:00:00.000Z",
+    "opponentId": "220",
+    "goalsFor": 7,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 54,
+    "league": "L1",
+    "matchId": "48140",
+    "kickoff": "2026-08-11T17:00:00.000Z",
+    "opponentId": "29",
+    "goalsFor": 4,
+    "goalsAgainst": 3
+   }
+  },
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 54,
+    "league": "L1",
+    "matchId": "48211",
+    "kickoff": "2026-07-29T19:00:00.000Z",
+    "opponentId": "220",
+    "goalsFor": 7,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 54,
+    "league": "L1",
+    "matchId": "48140",
+    "kickoff": "2026-08-11T17:00:00.000Z",
+    "opponentId": "29",
+    "goalsFor": 4,
+    "goalsAgainst": 3
+   }
+  },
+  "loss": {
+   "length": 3,
+   "from": {
+    "seasonId": 54,
+    "league": "L1",
+    "matchId": "48174",
+    "kickoff": "2026-07-08T19:00:00.000Z",
+    "opponentId": "37",
+    "goalsFor": 3,
+    "goalsAgainst": 10
+   },
+   "to": {
+    "seasonId": 54,
+    "league": "L1",
+    "matchId": "48259",
+    "kickoff": "2026-07-21T17:00:00.000Z",
+    "opponentId": "41",
+    "goalsFor": 1,
+    "goalsAgainst": 3
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 5,
+  "coveredMatches": 5,
+  "rows": [
+   {
+    "name": "Vida Zalán",
+    "goals": 6,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Pusztai Bertalan",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Zelman Dávid",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Duda",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Gulácsi Zsombor Lajos",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Pusztai Dániel",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Sarnyai Domonkos",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

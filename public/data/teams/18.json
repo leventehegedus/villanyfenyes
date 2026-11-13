@@ -1,0 +1,628 @@
+{
+ "schemaVersion": 1,
+ "teamId": "18",
+ "names": [
+  "Stabilizátorok"
+ ],
+ "seasons": [
+  {
+   "seasonId": 20,
+   "label": "2016 - Tavasz",
+   "league": "L1",
+   "finished": true,
+   "position": 12,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 9,
+    "won": 0,
+    "drawn": 3,
+    "lost": 6,
+    "goalsFor": 28,
+    "goalsAgainst": 63,
+    "points": 3
+   }
+  },
+  {
+   "seasonId": 21,
+   "label": "2015 - Ősz",
+   "league": "L1",
+   "finished": true,
+   "position": 3,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 11,
+    "won": 7,
+    "drawn": 1,
+    "lost": 3,
+    "goalsFor": 69,
+    "goalsAgainst": 58,
+    "points": 22
+   }
+  },
+  {
+   "seasonId": 23,
+   "label": "2014 - Ősz",
+   "league": "L1",
+   "finished": true,
+   "position": 10,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 10,
+    "won": 2,
+    "drawn": 1,
+    "lost": 7,
+    "goalsFor": 45,
+    "goalsAgainst": 74,
+    "points": 7
+   }
+  },
+  {
+   "seasonId": 24,
+   "label": "2014 - Tavasz",
+   "league": "L1",
+   "finished": true,
+   "position": 3,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 11,
+    "won": 7,
+    "drawn": 1,
+    "lost": 3,
+    "goalsFor": 64,
+    "goalsAgainst": 50,
+    "points": 22
+   }
+  },
+  {
+   "seasonId": 25,
+   "label": "2013 - Ősz",
+   "league": "L1",
+   "finished": true,
+   "position": 5,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 11,
+    "won": 6,
+    "drawn": 1,
+    "lost": 4,
+    "goalsFor": 61,
+    "goalsAgainst": 64,
+    "points": 19
+   }
+  },
+  {
+   "seasonId": 26,
+   "label": "2013 - Tavasz",
+   "league": "L1",
+   "finished": true,
+   "position": 4,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 11,
+    "won": 6,
+    "drawn": 1,
+    "lost": 4,
+    "goalsFor": 75,
+    "goalsAgainst": 54,
+    "points": 19
+   }
+  },
+  {
+   "seasonId": 27,
+   "label": "2012 - Ősz",
+   "league": "L1",
+   "finished": true,
+   "position": 5,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 11,
+    "won": 6,
+    "drawn": 1,
+    "lost": 4,
+    "goalsFor": 75,
+    "goalsAgainst": 52,
+    "points": 19
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "760",
+   "name": "Dounin FC",
+   "totals": {
+    "played": 4,
+    "won": 2,
+    "drawn": 0,
+    "lost": 2,
+    "goalsFor": 20,
+    "goalsAgainst": 20,
+    "points": 6
+   }
+  },
+  {
+   "teamId": "522",
+   "name": "Fellelkesültek",
+   "totals": {
+    "played": 3,
+    "won": 2,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 20,
+    "goalsAgainst": 16,
+    "points": 7
+   }
+  },
+  {
+   "teamId": "621",
+   "name": "Ládidádi",
+   "totals": {
+    "played": 4,
+    "won": 2,
+    "drawn": 2,
+    "lost": 0,
+    "goalsFor": 26,
+    "goalsAgainst": 21,
+    "points": 8
+   }
+  },
+  {
+   "teamId": "82",
+   "name": "Berúg FC",
+   "totals": {
+    "played": 3,
+    "won": 0,
+    "drawn": 1,
+    "lost": 2,
+    "goalsFor": 18,
+    "goalsAgainst": 22,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "298",
+   "name": "Bizsda",
+   "totals": {
+    "played": 4,
+    "won": 3,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 21,
+    "goalsAgainst": 16,
+    "points": 9
+   }
+  },
+  {
+   "teamId": "67",
+   "name": "Kráken",
+   "totals": {
+    "played": 5,
+    "won": 1,
+    "drawn": 1,
+    "lost": 3,
+    "goalsFor": 22,
+    "goalsAgainst": 26,
+    "points": 4
+   }
+  },
+  {
+   "teamId": "254",
+   "name": "nyocmaco",
+   "totals": {
+    "played": 2,
+    "won": 2,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 11,
+    "goalsAgainst": 6,
+    "points": 6
+   }
+  },
+  {
+   "teamId": "395",
+   "name": "Albán Focisuli",
+   "totals": {
+    "played": 7,
+    "won": 1,
+    "drawn": 0,
+    "lost": 6,
+    "goalsFor": 31,
+    "goalsAgainst": 44,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "496",
+   "name": "Bénakacsák",
+   "totals": {
+    "played": 6,
+    "won": 0,
+    "drawn": 0,
+    "lost": 6,
+    "goalsFor": 17,
+    "goalsAgainst": 43,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "526",
+   "name": "Kánaán BK",
+   "totals": {
+    "played": 2,
+    "won": 1,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 21,
+    "goalsAgainst": 10,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "817",
+   "name": "Fatal Error",
+   "totals": {
+    "played": 2,
+    "won": 2,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 22,
+    "goalsAgainst": 9,
+    "points": 6
+   }
+  },
+  {
+   "teamId": "791",
+   "name": "Doctors",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "674",
+   "name": "FC Real Zetor",
+   "totals": {
+    "played": 2,
+    "won": 2,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 15,
+    "goalsAgainst": 5,
+    "points": 6
+   }
+  },
+  {
+   "teamId": "675",
+   "name": "Tsöts Error",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "230",
+   "name": "EjakuLazio",
+   "totals": {
+    "played": 4,
+    "won": 3,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 28,
+    "goalsAgainst": 24,
+    "points": 9
+   }
+  },
+  {
+   "teamId": "371",
+   "name": "Gyoriek",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 7,
+    "goalsAgainst": 10,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "60",
+   "name": "Domino Kijev",
+   "totals": {
+    "played": 2,
+    "won": 1,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 13,
+    "goalsAgainst": 10,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "646",
+   "name": "Vén Tapacs",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "672",
+   "name": "Alice in Wonderland",
+   "totals": {
+    "played": 2,
+    "won": 2,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 14,
+    "goalsAgainst": 7,
+    "points": 6
+   }
+  },
+  {
+   "teamId": "550",
+   "name": "FociSCHták",
+   "totals": {
+    "played": 4,
+    "won": 1,
+    "drawn": 2,
+    "lost": 1,
+    "goalsFor": 17,
+    "goalsAgainst": 20,
+    "points": 5
+   }
+  },
+  {
+   "teamId": "394",
+   "name": "Spanglia",
+   "totals": {
+    "played": 2,
+    "won": 0,
+    "drawn": 0,
+    "lost": 2,
+    "goalsFor": 9,
+    "goalsAgainst": 20,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "124",
+   "name": "Esélyetek SE",
+   "totals": {
+    "played": 2,
+    "won": 1,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 12,
+    "goalsAgainst": 11,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "320",
+   "name": "JUST4FUN",
+   "totals": {
+    "played": 2,
+    "won": 1,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 10,
+    "goalsAgainst": 14,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "467",
+   "name": "Centeam",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "647",
+   "name": "dp2",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "581",
+   "name": "FC Albabár",
+   "totals": {
+    "played": 2,
+    "won": 1,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 10,
+    "goalsAgainst": 8,
+    "points": 4
+   }
+  },
+  {
+   "teamId": "497",
+   "name": "Angry Csillagok",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 3,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "397",
+   "name": "SáRa",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 22,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "196",
+   "name": "Koma Sutra",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "818",
+   "name": "33 FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 26,
+   "league": "L1",
+   "matchId": "24892",
+   "kickoff": "2013-06-11T18:00:00.000Z",
+   "opponentId": "526",
+   "goalsFor": 15,
+   "goalsAgainst": 3
+  },
+  "biggestDefeat": {
+   "seasonId": 20,
+   "league": "L1",
+   "matchId": "17654",
+   "kickoff": "2016-05-31T19:00:00.000Z",
+   "opponentId": "397",
+   "goalsFor": 4,
+   "goalsAgainst": 22
+  },
+  "highestScoring": {
+   "seasonId": 20,
+   "league": "L1",
+   "matchId": "17654",
+   "kickoff": "2016-05-31T19:00:00.000Z",
+   "opponentId": "397",
+   "goalsFor": 4,
+   "goalsAgainst": 22
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 5,
+   "from": {
+    "seasonId": 26,
+    "league": "L1",
+    "matchId": "24892",
+    "kickoff": "2013-06-11T18:00:00.000Z",
+    "opponentId": "526",
+    "goalsFor": 15,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 25,
+    "league": "L1",
+    "matchId": "23658",
+    "kickoff": "2013-09-24T17:00:00.000Z",
+    "opponentId": "675",
+    "goalsFor": 7,
+    "goalsAgainst": 5
+   }
+  },
+  "unbeaten": {
+   "length": 7,
+   "from": {
+    "seasonId": 26,
+    "league": "L1",
+    "matchId": "24892",
+    "kickoff": "2013-06-11T18:00:00.000Z",
+    "opponentId": "526",
+    "goalsFor": 15,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 25,
+    "league": "L1",
+    "matchId": "23669",
+    "kickoff": "2013-10-15T17:00:00.000Z",
+    "opponentId": "254",
+    "goalsFor": 6,
+    "goalsAgainst": 4
+   }
+  },
+  "loss": {
+   "length": 4,
+   "from": {
+    "seasonId": 20,
+    "league": "L1",
+    "matchId": "17607",
+    "kickoff": "2016-03-08T20:00:00.000Z",
+    "opponentId": "395",
+    "goalsFor": 2,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 20,
+    "league": "L1",
+    "matchId": "17629",
+    "kickoff": "2016-04-19T19:00:00.000Z",
+    "opponentId": "320",
+    "goalsFor": 2,
+    "goalsAgainst": 7
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 74,
+  "coveredMatches": 74,
+  "rows": []
+ }
+}

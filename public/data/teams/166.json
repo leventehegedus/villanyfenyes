@@ -1,0 +1,246 @@
+{
+ "schemaVersion": 1,
+ "teamId": "166",
+ "names": [
+  "Borg"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L1",
+   "finished": false,
+   "position": 10,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 7,
+    "won": 1,
+    "drawn": 2,
+    "lost": 4,
+    "goalsFor": 16,
+    "goalsAgainst": 32,
+    "points": 5
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "93",
+   "name": "Milinte te szemét Club de Football",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 3,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "100",
+   "name": "Gyermekláncfűrész",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "107",
+   "name": "Banditák",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 3,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "69",
+   "name": "Lokomotív MFC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 10,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "142",
+   "name": "Szponzorok helye:_____",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "199",
+   "name": "2 zenész",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "149",
+   "name": "Nagyon fincsi",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L1",
+   "matchId": "48309",
+   "kickoff": "2026-09-30T19:00:00.000Z",
+   "opponentId": "100",
+   "goalsFor": 4,
+   "goalsAgainst": 2
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L1",
+   "matchId": "48318",
+   "kickoff": "2026-10-14T17:00:00.000Z",
+   "opponentId": "69",
+   "goalsFor": 3,
+   "goalsAgainst": 10
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L1",
+   "matchId": "48318",
+   "kickoff": "2026-10-14T17:00:00.000Z",
+   "opponentId": "69",
+   "goalsFor": 3,
+   "goalsAgainst": 10
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L1",
+    "matchId": "48309",
+    "kickoff": "2026-09-30T19:00:00.000Z",
+    "opponentId": "100",
+    "goalsFor": 4,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L1",
+    "matchId": "48309",
+    "kickoff": "2026-09-30T19:00:00.000Z",
+    "opponentId": "100",
+    "goalsFor": 4,
+    "goalsAgainst": 2
+   }
+  },
+  "unbeaten": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L1",
+    "matchId": "48304",
+    "kickoff": "2026-09-24T18:00:00.000Z",
+    "opponentId": "93",
+    "goalsFor": 3,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L1",
+    "matchId": "48316",
+    "kickoff": "2026-10-08T18:00:00.000Z",
+    "opponentId": "107",
+    "goalsFor": 3,
+    "goalsAgainst": 3
+   }
+  },
+  "loss": {
+   "length": 4,
+   "from": {
+    "seasonId": 55,
+    "league": "L1",
+    "matchId": "48318",
+    "kickoff": "2026-10-14T17:00:00.000Z",
+    "opponentId": "69",
+    "goalsFor": 3,
+    "goalsAgainst": 10
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L1",
+    "matchId": "48338",
+    "kickoff": "2026-11-04T20:00:00.000Z",
+    "opponentId": "149",
+    "goalsFor": 1,
+    "goalsAgainst": 4
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 1,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Grigorszky Péter",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Papp Csaba",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kiss Tibor",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Petróczi Zsolt",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

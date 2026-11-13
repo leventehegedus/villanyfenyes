@@ -1,0 +1,273 @@
+{
+ "schemaVersion": 1,
+ "teamId": "66",
+ "names": [
+  "Csak oda-vissza"
+ ],
+ "seasons": [
+  {
+   "seasonId": 9,
+   "label": "2022 - Ősz",
+   "league": "L1",
+   "finished": true,
+   "position": 10,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 11,
+    "won": 2,
+    "drawn": 2,
+    "lost": 7,
+    "goalsFor": 38,
+    "goalsAgainst": 70,
+    "points": 8
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "158",
+   "name": "Rózsaszín Chihuahua-k",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 5,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "64",
+   "name": "Vizes Zsömle",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "207",
+   "name": "Hellobélavagyok",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "320",
+   "name": "JUST4FUN",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "170",
+   "name": "FC Gyulai Kolbászok powered by Vácszentlászló SC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 4,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "100",
+   "name": "Gyermekláncfűrész",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "48",
+   "name": "Együtt szárszóért",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "298",
+   "name": "Bizsda",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 13,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "69",
+   "name": "Lokomotív MFC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 6,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "199",
+   "name": "2 zenész",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "179",
+   "name": "Drink Team",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 9,
+   "league": "L1",
+   "matchId": "4387",
+   "kickoff": "2022-09-21T18:00:00.000Z",
+   "opponentId": "64",
+   "goalsFor": 8,
+   "goalsAgainst": 5
+  },
+  "biggestDefeat": {
+   "seasonId": 9,
+   "league": "L1",
+   "matchId": "4419",
+   "kickoff": "2022-11-07T19:00:00.000Z",
+   "opponentId": "298",
+   "goalsFor": 2,
+   "goalsAgainst": 13
+  },
+  "highestScoring": {
+   "seasonId": 9,
+   "league": "L1",
+   "matchId": "4419",
+   "kickoff": "2022-11-07T19:00:00.000Z",
+   "opponentId": "298",
+   "goalsFor": 2,
+   "goalsAgainst": 13
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 9,
+    "league": "L1",
+    "matchId": "4395",
+    "kickoff": "2022-10-03T19:00:00.000Z",
+    "opponentId": "320",
+    "goalsFor": 4,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 9,
+    "league": "L1",
+    "matchId": "4395",
+    "kickoff": "2022-10-03T19:00:00.000Z",
+    "opponentId": "320",
+    "goalsFor": 4,
+    "goalsAgainst": 3
+   }
+  },
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 9,
+    "league": "L1",
+    "matchId": "4395",
+    "kickoff": "2022-10-03T19:00:00.000Z",
+    "opponentId": "320",
+    "goalsFor": 4,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 9,
+    "league": "L1",
+    "matchId": "4404",
+    "kickoff": "2022-10-12T19:00:00.000Z",
+    "opponentId": "170",
+    "goalsFor": 4,
+    "goalsAgainst": 4
+   }
+  },
+  "loss": {
+   "length": 6,
+   "from": {
+    "seasonId": 9,
+    "league": "L1",
+    "matchId": "4410",
+    "kickoff": "2022-10-19T19:00:00.000Z",
+    "opponentId": "100",
+    "goalsFor": 4,
+    "goalsAgainst": 9
+   },
+   "to": {
+    "seasonId": 9,
+    "league": "L1",
+    "matchId": "4440",
+    "kickoff": "2022-11-30T19:00:00.000Z",
+    "opponentId": "179",
+    "goalsFor": 0,
+    "goalsAgainst": 5
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 1,
+ "scorers": {
+  "playedMatches": 11,
+  "coveredMatches": 11,
+  "rows": []
+ }
+}

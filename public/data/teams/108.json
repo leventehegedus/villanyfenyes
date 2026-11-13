@@ -1,0 +1,264 @@
+{
+ "schemaVersion": 1,
+ "teamId": "108",
+ "names": [
+  "Szia Uram!"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L1",
+   "finished": false,
+   "position": 12,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 7,
+    "won": 1,
+    "drawn": 1,
+    "lost": 5,
+    "goalsFor": 19,
+    "goalsAgainst": 29,
+    "points": 4
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "142",
+   "name": "Szponzorok helye:_____",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 4,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "94",
+   "name": "Turbo Nitro Super Team",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "199",
+   "name": "2 zenész",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "93",
+   "name": "Milinte te szemét Club de Football",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "149",
+   "name": "Nagyon fincsi",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "100",
+   "name": "Gyermekláncfűrész",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "238",
+   "name": "Jézus tanítványai",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L1",
+   "matchId": "48315",
+   "kickoff": "2026-10-08T17:00:00.000Z",
+   "opponentId": "199",
+   "goalsFor": 4,
+   "goalsAgainst": 2
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L1",
+   "matchId": "48306",
+   "kickoff": "2026-09-30T17:00:00.000Z",
+   "opponentId": "94",
+   "goalsFor": 0,
+   "goalsAgainst": 6
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L1",
+   "matchId": "48336",
+   "kickoff": "2026-11-04T18:00:00.000Z",
+   "opponentId": "238",
+   "goalsFor": 4,
+   "goalsAgainst": 5
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L1",
+    "matchId": "48315",
+    "kickoff": "2026-10-08T17:00:00.000Z",
+    "opponentId": "199",
+    "goalsFor": 4,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L1",
+    "matchId": "48315",
+    "kickoff": "2026-10-08T17:00:00.000Z",
+    "opponentId": "199",
+    "goalsFor": 4,
+    "goalsAgainst": 2
+   }
+  },
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L1",
+    "matchId": "48315",
+    "kickoff": "2026-10-08T17:00:00.000Z",
+    "opponentId": "199",
+    "goalsFor": 4,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L1",
+    "matchId": "48315",
+    "kickoff": "2026-10-08T17:00:00.000Z",
+    "opponentId": "199",
+    "goalsFor": 4,
+    "goalsAgainst": 2
+   }
+  },
+  "loss": {
+   "length": 4,
+   "from": {
+    "seasonId": 55,
+    "league": "L1",
+    "matchId": "48321",
+    "kickoff": "2026-10-15T17:00:00.000Z",
+    "opponentId": "93",
+    "goalsFor": 2,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L1",
+    "matchId": "48336",
+    "kickoff": "2026-11-04T18:00:00.000Z",
+    "opponentId": "238",
+    "goalsFor": 4,
+    "goalsAgainst": 5
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 1,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Jászai Máté",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Halász Bertalan",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Rem Domonkos",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Bergendi Máté",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Ladányi Dániel",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Madarász Áron Balázs",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Madura Máté",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

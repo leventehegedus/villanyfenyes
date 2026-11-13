@@ -1,0 +1,212 @@
+{
+ "schemaVersion": 1,
+ "teamId": "620",
+ "names": [
+  "PH-Érték"
+ ],
+ "seasons": [
+  {
+   "seasonId": 19,
+   "label": "2016 - Ősz",
+   "league": "L1",
+   "finished": true,
+   "position": 12,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 10,
+    "won": 0,
+    "drawn": 0,
+    "lost": 10,
+    "goalsFor": 32,
+    "goalsAgainst": 83,
+    "points": 0
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "550",
+   "name": "FociSCHták",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "621",
+   "name": "Ládidádi",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 7,
+    "goalsAgainst": 11,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "124",
+   "name": "Esélyetek SE",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "179",
+   "name": "Drink Team",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 6,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "298",
+   "name": "Bizsda",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "74",
+   "name": "Mechateam",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "395",
+   "name": "Albán Focisuli",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "170",
+   "name": "FC Gyulai Kolbászok powered by Vácszentlászló SC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "581",
+   "name": "FC Albabár",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "496",
+   "name": "Bénakacsák",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 17,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": null,
+  "biggestDefeat": {
+   "seasonId": 19,
+   "league": "L1",
+   "matchId": "16446",
+   "kickoff": "2016-12-05T19:00:00.000Z",
+   "opponentId": "496",
+   "goalsFor": 3,
+   "goalsAgainst": 17
+  },
+  "highestScoring": {
+   "seasonId": 19,
+   "league": "L1",
+   "matchId": "16446",
+   "kickoff": "2016-12-05T19:00:00.000Z",
+   "opponentId": "496",
+   "goalsFor": 3,
+   "goalsAgainst": 17
+  }
+ },
+ "streaks": {
+  "win": null,
+  "unbeaten": null,
+  "loss": {
+   "length": 10,
+   "from": {
+    "seasonId": 19,
+    "league": "L1",
+    "matchId": "16396",
+    "kickoff": "2016-09-13T18:00:00.000Z",
+    "opponentId": "550",
+    "goalsFor": 4,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 19,
+    "league": "L1",
+    "matchId": "16446",
+    "kickoff": "2016-12-05T19:00:00.000Z",
+    "opponentId": "496",
+    "goalsFor": 3,
+    "goalsAgainst": 17
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 10,
+  "coveredMatches": 10,
+  "rows": []
+ }
+}

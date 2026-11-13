@@ -1,0 +1,193 @@
+{
+ "schemaVersion": 1,
+ "teamId": "648",
+ "names": [
+  "Hege"
+ ],
+ "seasons": [
+  {
+   "seasonId": 23,
+   "label": "2014 - Ősz",
+   "league": "L1",
+   "finished": true,
+   "position": 11,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 7,
+    "won": 0,
+    "drawn": 2,
+    "lost": 5,
+    "goalsFor": 21,
+    "goalsAgainst": 38,
+    "points": 2
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "550",
+   "name": "FociSCHták",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "298",
+   "name": "Bizsda",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "60",
+   "name": "Domino Kijev",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "230",
+   "name": "EjakuLazio",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 9,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "672",
+   "name": "Alice in Wonderland",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "395",
+   "name": "Albán Focisuli",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "394",
+   "name": "Spanglia",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 3,
+    "points": 1
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": null,
+  "biggestDefeat": {
+   "seasonId": 23,
+   "league": "L1",
+   "matchId": "21329",
+   "kickoff": "2014-11-10T20:00:00.000Z",
+   "opponentId": "395",
+   "goalsFor": 1,
+   "goalsAgainst": 8
+  },
+  "highestScoring": {
+   "seasonId": 23,
+   "league": "L1",
+   "matchId": "21317",
+   "kickoff": "2014-10-27T20:00:00.000Z",
+   "opponentId": "230",
+   "goalsFor": 9,
+   "goalsAgainst": 9
+  }
+ },
+ "streaks": {
+  "win": null,
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 23,
+    "league": "L1",
+    "matchId": "21342",
+    "kickoff": "2014-12-09T19:00:00.000Z",
+    "opponentId": "394",
+    "goalsFor": 3,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 23,
+    "league": "L1",
+    "matchId": "21342",
+    "kickoff": "2014-12-09T19:00:00.000Z",
+    "opponentId": "394",
+    "goalsFor": 3,
+    "goalsAgainst": 3
+   }
+  },
+  "loss": {
+   "length": 3,
+   "from": {
+    "seasonId": 23,
+    "league": "L1",
+    "matchId": "21287",
+    "kickoff": "2014-09-15T19:00:00.000Z",
+    "opponentId": "550",
+    "goalsFor": 4,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 23,
+    "league": "L1",
+    "matchId": "21307",
+    "kickoff": "2014-10-13T19:00:00.000Z",
+    "opponentId": "60",
+    "goalsFor": 0,
+    "goalsAgainst": 3
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 1,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": []
+ }
+}

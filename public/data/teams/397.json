@@ -1,0 +1,470 @@
+{
+ "schemaVersion": 1,
+ "teamId": "397",
+ "names": [
+  "SáRa"
+ ],
+ "seasons": [
+  {
+   "seasonId": 17,
+   "label": "2017 - Ősz",
+   "league": "L1",
+   "finished": true,
+   "position": 12,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 9,
+    "won": 2,
+    "drawn": 0,
+    "lost": 7,
+    "goalsFor": 23,
+    "goalsAgainst": 45,
+    "points": 6
+   }
+  },
+  {
+   "seasonId": 18,
+   "label": "2017 - Tavasz",
+   "league": "L1",
+   "finished": true,
+   "position": 8,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 11,
+    "won": 4,
+    "drawn": 3,
+    "lost": 4,
+    "goalsFor": 46,
+    "goalsAgainst": 47,
+    "points": 15
+   }
+  },
+  {
+   "seasonId": 20,
+   "label": "2016 - Tavasz",
+   "league": "L1",
+   "finished": true,
+   "position": 11,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 10,
+    "won": 2,
+    "drawn": 0,
+    "lost": 8,
+    "goalsFor": 57,
+    "goalsAgainst": 45,
+    "points": 6
+   }
+  },
+  {
+   "seasonId": 22,
+   "label": "2015 - Tavasz",
+   "league": "L1",
+   "finished": true,
+   "position": 11,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 11,
+    "won": 3,
+    "drawn": 0,
+    "lost": 8,
+    "goalsFor": 42,
+    "goalsAgainst": 58,
+    "points": 9
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "67",
+   "name": "Kráken",
+   "totals": {
+    "played": 2,
+    "won": 0,
+    "drawn": 0,
+    "lost": 2,
+    "goalsFor": 5,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "550",
+   "name": "FociSCHták",
+   "totals": {
+    "played": 3,
+    "won": 1,
+    "drawn": 0,
+    "lost": 2,
+    "goalsFor": 13,
+    "goalsAgainst": 14,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "672",
+   "name": "Alice in Wonderland",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "467",
+   "name": "Centeam",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "621",
+   "name": "Ládidádi",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "60",
+   "name": "Domino Kijev",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "581",
+   "name": "FC Albabár",
+   "totals": {
+    "played": 3,
+    "won": 1,
+    "drawn": 1,
+    "lost": 1,
+    "goalsFor": 12,
+    "goalsAgainst": 10,
+    "points": 4
+   }
+  },
+  {
+   "teamId": "522",
+   "name": "Fellelkesültek",
+   "totals": {
+    "played": 2,
+    "won": 0,
+    "drawn": 0,
+    "lost": 2,
+    "goalsFor": 5,
+    "goalsAgainst": 16,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "496",
+   "name": "Bénakacsák",
+   "totals": {
+    "played": 3,
+    "won": 1,
+    "drawn": 1,
+    "lost": 1,
+    "goalsFor": 9,
+    "goalsAgainst": 8,
+    "points": 4
+   }
+  },
+  {
+   "teamId": "298",
+   "name": "Bizsda",
+   "totals": {
+    "played": 4,
+    "won": 0,
+    "drawn": 0,
+    "lost": 4,
+    "goalsFor": 14,
+    "goalsAgainst": 31,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "395",
+   "name": "Albán Focisuli",
+   "totals": {
+    "played": 3,
+    "won": 1,
+    "drawn": 0,
+    "lost": 2,
+    "goalsFor": 14,
+    "goalsAgainst": 16,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "497",
+   "name": "Angry Csillagok",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "124",
+   "name": "Esélyetek SE",
+   "totals": {
+    "played": 3,
+    "won": 2,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 15,
+    "goalsAgainst": 12,
+    "points": 6
+   }
+  },
+  {
+   "teamId": "394",
+   "name": "Spanglia",
+   "totals": {
+    "played": 3,
+    "won": 0,
+    "drawn": 0,
+    "lost": 3,
+    "goalsFor": 7,
+    "goalsAgainst": 16,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "18",
+   "name": "Stabilizátorok",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 22,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "342",
+   "name": "Bazdelőre FC",
+   "totals": {
+    "played": 2,
+    "won": 1,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 6,
+    "points": 4
+   }
+  },
+  {
+   "teamId": "74",
+   "name": "Mechateam",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "438",
+   "name": "ARC FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "368",
+   "name": "Kanizsai Homályos",
+   "totals": {
+    "played": 2,
+    "won": 0,
+    "drawn": 0,
+    "lost": 2,
+    "goalsFor": 5,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "130",
+   "name": "VIKtory FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "109",
+   "name": "Absinthe FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "393",
+   "name": "Catenaccio",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 20,
+   "league": "L1",
+   "matchId": "17654",
+   "kickoff": "2016-05-31T19:00:00.000Z",
+   "opponentId": "18",
+   "goalsFor": 22,
+   "goalsAgainst": 4
+  },
+  "biggestDefeat": {
+   "seasonId": 22,
+   "league": "L1",
+   "matchId": "20079",
+   "kickoff": "2015-05-04T19:00:00.000Z",
+   "opponentId": "522",
+   "goalsFor": 3,
+   "goalsAgainst": 11
+  },
+  "highestScoring": {
+   "seasonId": 20,
+   "league": "L1",
+   "matchId": "17654",
+   "kickoff": "2016-05-31T19:00:00.000Z",
+   "opponentId": "18",
+   "goalsFor": 22,
+   "goalsAgainst": 4
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 2,
+   "from": {
+    "seasonId": 18,
+    "league": "L1",
+    "matchId": "15156",
+    "kickoff": "2017-03-27T19:00:00.000Z",
+    "opponentId": "124",
+    "goalsFor": 4,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 18,
+    "league": "L1",
+    "matchId": "15163",
+    "kickoff": "2017-04-04T17:00:00.000Z",
+    "opponentId": "74",
+    "goalsFor": 9,
+    "goalsAgainst": 4
+   }
+  },
+  "unbeaten": {
+   "length": 5,
+   "from": {
+    "seasonId": 18,
+    "league": "L1",
+    "matchId": "15152",
+    "kickoff": "2017-03-21T18:00:00.000Z",
+    "opponentId": "342",
+    "goalsFor": 5,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 18,
+    "league": "L1",
+    "matchId": "15174",
+    "kickoff": "2017-04-25T18:00:00.000Z",
+    "opponentId": "395",
+    "goalsFor": 6,
+    "goalsAgainst": 5
+   }
+  },
+  "loss": {
+   "length": 5,
+   "from": {
+    "seasonId": 17,
+    "league": "L1",
+    "matchId": "13925",
+    "kickoff": "2017-09-18T17:00:00.000Z",
+    "opponentId": "109",
+    "goalsFor": 1,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 17,
+    "league": "L1",
+    "matchId": "13956",
+    "kickoff": "2017-11-13T18:00:00.000Z",
+    "opponentId": "394",
+    "goalsFor": 4,
+    "goalsAgainst": 7
+   }
+  }
+ },
+ "cleanSheets": 1,
+ "failedToScore": 1,
+ "scorers": {
+  "playedMatches": 41,
+  "coveredMatches": 41,
+  "rows": []
+ }
+}

@@ -1,0 +1,273 @@
+{
+ "schemaVersion": 1,
+ "teamId": "244",
+ "names": [
+  "Csapatáska Fc"
+ ],
+ "seasons": [
+  {
+   "seasonId": 6,
+   "label": "2024 - Tavasz",
+   "league": "L1",
+   "finished": true,
+   "position": 9,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 11,
+    "won": 3,
+    "drawn": 2,
+    "lost": 6,
+    "goalsFor": 61,
+    "goalsAgainst": 67,
+    "points": 11
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "199",
+   "name": "2 zenész",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "142",
+   "name": "Szponzorok helye:_____",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "37",
+   "name": "CF Babinénik",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 11,
+    "goalsAgainst": 6,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "100",
+   "name": "Gyermekláncfűrész",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 5,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "28",
+   "name": "TéSz",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "197",
+   "name": "Ridomil SC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 7,
+    "goalsAgainst": 10,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "48",
+   "name": "Együtt szárszóért",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "170",
+   "name": "FC Gyulai Kolbászok powered by Vácszentlászló SC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 6,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "179",
+   "name": "Drink Team",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "69",
+   "name": "Lokomotív MFC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "88",
+   "name": "Elnökök",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 7,
+    "points": 1
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 6,
+   "league": "L1",
+   "matchId": "1231",
+   "kickoff": "2024-04-17T17:00:00.000Z",
+   "opponentId": "48",
+   "goalsFor": 8,
+   "goalsAgainst": 3
+  },
+  "biggestDefeat": {
+   "seasonId": 6,
+   "league": "L1",
+   "matchId": "1249",
+   "kickoff": "2024-05-09T17:00:00.000Z",
+   "opponentId": "69",
+   "goalsFor": 0,
+   "goalsAgainst": 5
+  },
+  "highestScoring": {
+   "seasonId": 6,
+   "league": "L1",
+   "matchId": "1225",
+   "kickoff": "2024-04-10T17:00:00.000Z",
+   "opponentId": "197",
+   "goalsFor": 7,
+   "goalsAgainst": 10
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 6,
+    "league": "L1",
+    "matchId": "1231",
+    "kickoff": "2024-04-17T17:00:00.000Z",
+    "opponentId": "48",
+    "goalsFor": 8,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 6,
+    "league": "L1",
+    "matchId": "1231",
+    "kickoff": "2024-04-17T17:00:00.000Z",
+    "opponentId": "48",
+    "goalsFor": 8,
+    "goalsAgainst": 3
+   }
+  },
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 6,
+    "league": "L1",
+    "matchId": "1207",
+    "kickoff": "2024-03-13T18:00:00.000Z",
+    "opponentId": "37",
+    "goalsFor": 11,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 6,
+    "league": "L1",
+    "matchId": "1213",
+    "kickoff": "2024-03-20T18:00:00.000Z",
+    "opponentId": "100",
+    "goalsFor": 5,
+    "goalsAgainst": 5
+   }
+  },
+  "loss": {
+   "length": 3,
+   "from": {
+    "seasonId": 6,
+    "league": "L1",
+    "matchId": "1237",
+    "kickoff": "2024-04-24T17:00:00.000Z",
+    "opponentId": "170",
+    "goalsFor": 6,
+    "goalsAgainst": 7
+   },
+   "to": {
+    "seasonId": 6,
+    "league": "L1",
+    "matchId": "1249",
+    "kickoff": "2024-05-09T17:00:00.000Z",
+    "opponentId": "69",
+    "goalsFor": 0,
+    "goalsAgainst": 5
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 1,
+ "scorers": {
+  "playedMatches": 11,
+  "coveredMatches": 11,
+  "rows": []
+ }
+}

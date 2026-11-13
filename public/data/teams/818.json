@@ -1,0 +1,232 @@
+{
+ "schemaVersion": 1,
+ "teamId": "818",
+ "names": [
+  "33 FC"
+ ],
+ "seasons": [
+  {
+   "seasonId": 27,
+   "label": "2012 - Ősz",
+   "league": "L1",
+   "finished": true,
+   "position": 12,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 10,
+    "won": 0,
+    "drawn": 1,
+    "lost": 9,
+    "goalsFor": 30,
+    "goalsAgainst": 59,
+    "points": 1
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "230",
+   "name": "EjakuLazio",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "496",
+   "name": "Bénakacsák",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 10,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "395",
+   "name": "Albán Focisuli",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "760",
+   "name": "Dounin FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "621",
+   "name": "Ládidádi",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "817",
+   "name": "Fatal Error",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "522",
+   "name": "Fellelkesültek",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "526",
+   "name": "Kánaán BK",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 6,
+    "goalsAgainst": 10,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "18",
+   "name": "Stabilizátorok",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "550",
+   "name": "FociSCHták",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 1,
+    "goalsAgainst": 1,
+    "points": 1
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": null,
+  "biggestDefeat": {
+   "seasonId": 27,
+   "league": "L1",
+   "matchId": "26116",
+   "kickoff": "2025-05-19T05:54:18.000Z",
+   "opponentId": "18",
+   "goalsFor": 2,
+   "goalsAgainst": 9
+  },
+  "highestScoring": {
+   "seasonId": 27,
+   "league": "L1",
+   "matchId": "26114",
+   "kickoff": "2025-05-19T05:54:18.000Z",
+   "opponentId": "526",
+   "goalsFor": 6,
+   "goalsAgainst": 10
+  }
+ },
+ "streaks": {
+  "win": null,
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 27,
+    "league": "L1",
+    "matchId": "26118",
+    "kickoff": "2025-05-19T05:54:18.000Z",
+    "opponentId": "550",
+    "goalsFor": 1,
+    "goalsAgainst": 1
+   },
+   "to": {
+    "seasonId": 27,
+    "league": "L1",
+    "matchId": "26118",
+    "kickoff": "2025-05-19T05:54:18.000Z",
+    "opponentId": "550",
+    "goalsFor": 1,
+    "goalsAgainst": 1
+   }
+  },
+  "loss": {
+   "length": 9,
+   "from": {
+    "seasonId": 27,
+    "league": "L1",
+    "matchId": "26072",
+    "kickoff": "2025-05-19T05:54:13.000Z",
+    "opponentId": "230",
+    "goalsFor": 3,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 27,
+    "league": "L1",
+    "matchId": "26116",
+    "kickoff": "2025-05-19T05:54:18.000Z",
+    "opponentId": "18",
+    "goalsFor": 2,
+    "goalsAgainst": 9
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 10,
+  "coveredMatches": 10,
+  "rows": []
+ }
+}

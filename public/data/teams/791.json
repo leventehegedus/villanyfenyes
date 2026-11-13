@@ -1,0 +1,247 @@
+{
+ "schemaVersion": 1,
+ "teamId": "791",
+ "names": [
+  "Doctors"
+ ],
+ "seasons": [
+  {
+   "seasonId": 25,
+   "label": "2013 - Ősz",
+   "league": "L1",
+   "finished": true,
+   "position": 8,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 9,
+    "won": 4,
+    "drawn": 0,
+    "lost": 5,
+    "goalsFor": 33,
+    "goalsAgainst": 45,
+    "points": 12
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "18",
+   "name": "Stabilizátorok",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "675",
+   "name": "Tsöts Error",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "254",
+   "name": "nyocmaco",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "496",
+   "name": "Bénakacsák",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 12,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "67",
+   "name": "Kráken",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "371",
+   "name": "Gyoriek",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "674",
+   "name": "FC Real Zetor",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 2,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "230",
+   "name": "EjakuLazio",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "760",
+   "name": "Dounin FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 25,
+   "league": "L1",
+   "matchId": "23654",
+   "kickoff": "2013-09-17T19:00:00.000Z",
+   "opponentId": "675",
+   "goalsFor": 6,
+   "goalsAgainst": 3
+  },
+  "biggestDefeat": {
+   "seasonId": 25,
+   "league": "L1",
+   "matchId": "23665",
+   "kickoff": "2013-10-08T19:00:00.000Z",
+   "opponentId": "496",
+   "goalsFor": 4,
+   "goalsAgainst": 12
+  },
+  "highestScoring": {
+   "seasonId": 25,
+   "league": "L1",
+   "matchId": "23665",
+   "kickoff": "2013-10-08T19:00:00.000Z",
+   "opponentId": "496",
+   "goalsFor": 4,
+   "goalsAgainst": 12
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 2,
+   "from": {
+    "seasonId": 25,
+    "league": "L1",
+    "matchId": "23670",
+    "kickoff": "2013-10-15T18:00:00.000Z",
+    "opponentId": "67",
+    "goalsFor": 6,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 25,
+    "league": "L1",
+    "matchId": "23676",
+    "kickoff": "2013-10-29T19:00:00.000Z",
+    "opponentId": "371",
+    "goalsFor": 6,
+    "goalsAgainst": 5
+   }
+  },
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 25,
+    "league": "L1",
+    "matchId": "23670",
+    "kickoff": "2013-10-15T18:00:00.000Z",
+    "opponentId": "67",
+    "goalsFor": 6,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 25,
+    "league": "L1",
+    "matchId": "23676",
+    "kickoff": "2013-10-29T19:00:00.000Z",
+    "opponentId": "371",
+    "goalsFor": 6,
+    "goalsAgainst": 5
+   }
+  },
+  "loss": {
+   "length": 3,
+   "from": {
+    "seasonId": 25,
+    "league": "L1",
+    "matchId": "23682",
+    "kickoff": "2013-11-05T19:00:00.000Z",
+    "opponentId": "674",
+    "goalsFor": 1,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 25,
+    "league": "L1",
+    "matchId": "23702",
+    "kickoff": "2013-12-03T19:00:00.000Z",
+    "opponentId": "760",
+    "goalsFor": 0,
+    "goalsAgainst": 5
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 1,
+ "scorers": {
+  "playedMatches": 9,
+  "coveredMatches": 9,
+  "rows": []
+ }
+}

@@ -1,0 +1,239 @@
+{
+ "schemaVersion": 1,
+ "teamId": "41",
+ "names": [
+  "Sonkástojás"
+ ],
+ "seasons": [
+  {
+   "seasonId": 54,
+   "label": "2026 - Nyár",
+   "league": "L1",
+   "finished": true,
+   "position": 5,
+   "teamsInLeague": 7,
+   "marker": "relegation",
+   "totals": {
+    "played": 6,
+    "won": 2,
+    "drawn": 0,
+    "lost": 4,
+    "goalsFor": 21,
+    "goalsAgainst": 29,
+    "points": 6
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "73",
+   "name": "Kulákok",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "220",
+   "name": "Jó lövés bedobás",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "116",
+   "name": "Toilet Time",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "29",
+   "name": "Tunyacsáp",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "37",
+   "name": "CF Babinénik",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 10,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "107",
+   "name": "Banditák",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 54,
+   "league": "L1",
+   "matchId": "48108",
+   "kickoff": "2026-06-15T18:00:00.000Z",
+   "opponentId": "73",
+   "goalsFor": 8,
+   "goalsAgainst": 1
+  },
+  "biggestDefeat": {
+   "seasonId": 54,
+   "league": "L1",
+   "matchId": "48221",
+   "kickoff": "2026-08-03T18:00:00.000Z",
+   "opponentId": "37",
+   "goalsFor": 3,
+   "goalsAgainst": 10
+  },
+  "highestScoring": {
+   "seasonId": 54,
+   "league": "L1",
+   "matchId": "48221",
+   "kickoff": "2026-08-03T18:00:00.000Z",
+   "opponentId": "37",
+   "goalsFor": 3,
+   "goalsAgainst": 10
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 54,
+    "league": "L1",
+    "matchId": "48259",
+    "kickoff": "2026-07-21T17:00:00.000Z",
+    "opponentId": "116",
+    "goalsFor": 3,
+    "goalsAgainst": 1
+   },
+   "to": {
+    "seasonId": 54,
+    "league": "L1",
+    "matchId": "48259",
+    "kickoff": "2026-07-21T17:00:00.000Z",
+    "opponentId": "116",
+    "goalsFor": 3,
+    "goalsAgainst": 1
+   }
+  },
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 54,
+    "league": "L1",
+    "matchId": "48259",
+    "kickoff": "2026-07-21T17:00:00.000Z",
+    "opponentId": "116",
+    "goalsFor": 3,
+    "goalsAgainst": 1
+   },
+   "to": {
+    "seasonId": 54,
+    "league": "L1",
+    "matchId": "48259",
+    "kickoff": "2026-07-21T17:00:00.000Z",
+    "opponentId": "116",
+    "goalsFor": 3,
+    "goalsAgainst": 1
+   }
+  },
+  "loss": {
+   "length": 3,
+   "from": {
+    "seasonId": 54,
+    "league": "L1",
+    "matchId": "48178",
+    "kickoff": "2026-07-28T18:00:00.000Z",
+    "opponentId": "29",
+    "goalsFor": 2,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 54,
+    "league": "L1",
+    "matchId": "48289",
+    "kickoff": "2026-08-24T18:00:00.000Z",
+    "opponentId": "107",
+    "goalsFor": 2,
+    "goalsAgainst": 5
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 6,
+  "coveredMatches": 6,
+  "rows": [
+   {
+    "name": "Ferincz Ákos",
+    "goals": 4,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Dr. Lukács Dávid",
+    "goals": 3,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Gergye András",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kovács-Kacsur Kristóf",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Tornyos Szilárd",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

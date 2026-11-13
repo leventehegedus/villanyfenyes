@@ -1,0 +1,530 @@
+{
+ "schemaVersion": 1,
+ "teamId": "149",
+ "names": [
+  "Nagyon fincsi"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L1",
+   "finished": false,
+   "position": 8,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 3,
+    "drawn": 0,
+    "lost": 4,
+    "goalsFor": 16,
+    "goalsAgainst": 20,
+    "points": 9
+   }
+  },
+  {
+   "seasonId": 53,
+   "label": "2026 - TAVASZ",
+   "league": "L1",
+   "finished": true,
+   "position": 3,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 11,
+    "won": 6,
+    "drawn": 1,
+    "lost": 4,
+    "goalsFor": 53,
+    "goalsAgainst": 38,
+    "points": 19
+   }
+  },
+  {
+   "seasonId": 52,
+   "label": "2025 - Ősz",
+   "league": "L1",
+   "finished": true,
+   "position": 9,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 11,
+    "won": 3,
+    "drawn": 0,
+    "lost": 8,
+    "goalsFor": 23,
+    "goalsAgainst": 44,
+    "points": 9
+   }
+  },
+  {
+   "seasonId": 5,
+   "label": "2025 - TAVASZ",
+   "league": "L1",
+   "finished": true,
+   "position": 7,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 11,
+    "won": 4,
+    "drawn": 3,
+    "lost": 4,
+    "goalsFor": 43,
+    "goalsAgainst": 38,
+    "points": 15
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "37",
+   "name": "CF Babinénik",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "88",
+   "name": "Elnökök",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 4,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "90",
+   "name": "Invincibles",
+   "totals": {
+    "played": 2,
+    "won": 2,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 10,
+    "goalsAgainst": 7,
+    "points": 6
+   }
+  },
+  {
+   "teamId": "23",
+   "name": "CS Tanszék",
+   "totals": {
+    "played": 3,
+    "won": 1,
+    "drawn": 0,
+    "lost": 2,
+    "goalsFor": 10,
+    "goalsAgainst": 11,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "29",
+   "name": "Tunyacsáp",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 6,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "28",
+   "name": "TéSz",
+   "totals": {
+    "played": 3,
+    "won": 2,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 11,
+    "goalsAgainst": 7,
+    "points": 7
+   }
+  },
+  {
+   "teamId": "93",
+   "name": "Milinte te szemét Club de Football",
+   "totals": {
+    "played": 3,
+    "won": 1,
+    "drawn": 0,
+    "lost": 2,
+    "goalsFor": 10,
+    "goalsAgainst": 12,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "142",
+   "name": "Szponzorok helye:_____",
+   "totals": {
+    "played": 4,
+    "won": 1,
+    "drawn": 0,
+    "lost": 3,
+    "goalsFor": 9,
+    "goalsAgainst": 12,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "69",
+   "name": "Lokomotív MFC",
+   "totals": {
+    "played": 4,
+    "won": 0,
+    "drawn": 1,
+    "lost": 3,
+    "goalsFor": 11,
+    "goalsAgainst": 25,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "100",
+   "name": "Gyermekláncfűrész",
+   "totals": {
+    "played": 3,
+    "won": 1,
+    "drawn": 0,
+    "lost": 2,
+    "goalsFor": 7,
+    "goalsAgainst": 12,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "199",
+   "name": "2 zenész",
+   "totals": {
+    "played": 4,
+    "won": 2,
+    "drawn": 0,
+    "lost": 2,
+    "goalsFor": 14,
+    "goalsAgainst": 11,
+    "points": 6
+   }
+  },
+  {
+   "teamId": "145",
+   "name": "Ballers",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "182",
+   "name": "Vergewalti GANG",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "230",
+   "name": "EjakuLazio",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "94",
+   "name": "Turbo Nitro Super Team",
+   "totals": {
+    "played": 2,
+    "won": 0,
+    "drawn": 0,
+    "lost": 2,
+    "goalsFor": 4,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "154",
+   "name": "Cefre Town",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 11,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "115",
+   "name": "Botladozó Fiúk",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "107",
+   "name": "Banditák",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "108",
+   "name": "Szia Uram!",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "238",
+   "name": "Jézus tanítványai",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "166",
+   "name": "Borg",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 53,
+   "league": "L1",
+   "matchId": "47507",
+   "kickoff": "2026-04-08T19:00:00.000Z",
+   "opponentId": "154",
+   "goalsFor": 11,
+   "goalsAgainst": 2
+  },
+  "biggestDefeat": {
+   "seasonId": 52,
+   "league": "L1",
+   "matchId": "46123",
+   "kickoff": "2025-11-13T18:00:00.000Z",
+   "opponentId": "69",
+   "goalsFor": 1,
+   "goalsAgainst": 9
+  },
+  "highestScoring": {
+   "seasonId": 53,
+   "league": "L1",
+   "matchId": "47507",
+   "kickoff": "2026-04-08T19:00:00.000Z",
+   "opponentId": "154",
+   "goalsFor": 11,
+   "goalsAgainst": 2
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 4,
+   "from": {
+    "seasonId": 53,
+    "league": "L1",
+    "matchId": "47445",
+    "kickoff": "2026-03-31T19:00:00.000Z",
+    "opponentId": "23",
+    "goalsFor": 7,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 53,
+    "league": "L1",
+    "matchId": "47658",
+    "kickoff": "2026-04-22T19:00:00.000Z",
+    "opponentId": "100",
+    "goalsFor": 3,
+    "goalsAgainst": 2
+   }
+  },
+  "unbeaten": {
+   "length": 5,
+   "from": {
+    "seasonId": 53,
+    "league": "L1",
+    "matchId": "47370",
+    "kickoff": "2026-03-24T20:00:00.000Z",
+    "opponentId": "28",
+    "goalsFor": 5,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 53,
+    "league": "L1",
+    "matchId": "47658",
+    "kickoff": "2026-04-22T19:00:00.000Z",
+    "opponentId": "100",
+    "goalsFor": 3,
+    "goalsAgainst": 2
+   }
+  },
+  "loss": {
+   "length": 5,
+   "from": {
+    "seasonId": 52,
+    "league": "L1",
+    "matchId": "45830",
+    "kickoff": "2025-10-15T18:00:00.000Z",
+    "opponentId": "23",
+    "goalsFor": 0,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 52,
+    "league": "L1",
+    "matchId": "46204",
+    "kickoff": "2025-11-20T19:00:00.000Z",
+    "opponentId": "230",
+    "goalsFor": 2,
+    "goalsAgainst": 4
+   }
+  }
+ },
+ "cleanSheets": 1,
+ "failedToScore": 1,
+ "scorers": {
+  "playedMatches": 40,
+  "coveredMatches": 40,
+  "rows": [
+   {
+    "name": "Szabó Koppány",
+    "goals": 37,
+    "matches": 18,
+    "hatTricks": 6
+   },
+   {
+    "name": "Lőrincz Koppány",
+    "goals": 21,
+    "matches": 15,
+    "hatTricks": 0
+   },
+   {
+    "name": "Huszár Balázs",
+    "goals": 15,
+    "matches": 10,
+    "hatTricks": 1
+   },
+   {
+    "name": "Markó Péter Dániel",
+    "goals": 11,
+    "matches": 7,
+    "hatTricks": 1
+   },
+   {
+    "name": "Vigh Balázs",
+    "goals": 10,
+    "matches": 8,
+    "hatTricks": 0
+   },
+   {
+    "name": "Gyenei András",
+    "goals": 9,
+    "matches": 8,
+    "hatTricks": 0
+   },
+   {
+    "name": "Markó Gábor Ferenc",
+    "goals": 8,
+    "matches": 5,
+    "hatTricks": 1
+   },
+   {
+    "name": "Herbert Bálint",
+    "goals": 4,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Nagy Ádám",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Hegedüs Péter",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Molnár Máté",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Keresztes Balázs",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

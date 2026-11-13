@@ -1,0 +1,343 @@
+{
+ "schemaVersion": 1,
+ "teamId": "468",
+ "names": [
+  "Győrszentiván SE"
+ ],
+ "seasons": [
+  {
+   "seasonId": 15,
+   "label": "2018 - Ősz",
+   "league": "L1",
+   "finished": true,
+   "position": 10,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 10,
+    "won": 2,
+    "drawn": 2,
+    "lost": 6,
+    "goalsFor": 30,
+    "goalsAgainst": 51,
+    "points": 8
+   }
+  },
+  {
+   "seasonId": 16,
+   "label": "2018 - Tavasz",
+   "league": "L1",
+   "finished": true,
+   "position": 9,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 10,
+    "won": 0,
+    "drawn": 10,
+    "lost": 0,
+    "goalsFor": 0,
+    "goalsAgainst": 0,
+    "points": 10
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "522",
+   "name": "Fellelkesültek",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 0,
+    "goalsAgainst": 0,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "497",
+   "name": "Angry Csillagok",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 0,
+    "goalsAgainst": 0,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "230",
+   "name": "EjakuLazio",
+   "totals": {
+    "played": 2,
+    "won": 0,
+    "drawn": 2,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 3,
+    "points": 2
+   }
+  },
+  {
+   "teamId": "394",
+   "name": "Spanglia",
+   "totals": {
+    "played": 2,
+    "won": 0,
+    "drawn": 1,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 8,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "395",
+   "name": "Albán Focisuli",
+   "totals": {
+    "played": 2,
+    "won": 0,
+    "drawn": 1,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 9,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "130",
+   "name": "VIKtory FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 0,
+    "goalsAgainst": 0,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "74",
+   "name": "Mechateam",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 0,
+    "goalsAgainst": 0,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "496",
+   "name": "Bénakacsák",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 0,
+    "goalsAgainst": 0,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "124",
+   "name": "Esélyetek SE",
+   "totals": {
+    "played": 2,
+    "won": 0,
+    "drawn": 1,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "393",
+   "name": "Catenaccio",
+   "totals": {
+    "played": 2,
+    "won": 0,
+    "drawn": 2,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 4,
+    "points": 2
+   }
+  },
+  {
+   "teamId": "94",
+   "name": "Turbo Nitro Super Team",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "60",
+   "name": "Domino Kijev",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "342",
+   "name": "Bazdelőre FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "199",
+   "name": "2 zenész",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "298",
+   "name": "Bizsda",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 15,
+   "league": "L1",
+   "matchId": "11427",
+   "kickoff": "2018-09-12T17:00:00.000Z",
+   "opponentId": "60",
+   "goalsFor": 5,
+   "goalsAgainst": 3
+  },
+  "biggestDefeat": {
+   "seasonId": 15,
+   "league": "L1",
+   "matchId": "11478",
+   "kickoff": "2018-12-03T20:00:00.000Z",
+   "opponentId": "395",
+   "goalsFor": 2,
+   "goalsAgainst": 9
+  },
+  "highestScoring": {
+   "seasonId": 15,
+   "league": "L1",
+   "matchId": "11449",
+   "kickoff": "2018-10-10T17:00:00.000Z",
+   "opponentId": "394",
+   "goalsFor": 5,
+   "goalsAgainst": 8
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 15,
+    "league": "L1",
+    "matchId": "11437",
+    "kickoff": "2018-09-24T19:00:00.000Z",
+    "opponentId": "342",
+    "goalsFor": 6,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 15,
+    "league": "L1",
+    "matchId": "11437",
+    "kickoff": "2018-09-24T19:00:00.000Z",
+    "opponentId": "342",
+    "goalsFor": 6,
+    "goalsAgainst": 5
+   }
+  },
+  "unbeaten": {
+   "length": 10,
+   "from": {
+    "seasonId": 16,
+    "league": "L1",
+    "matchId": "12680",
+    "kickoff": "2018-03-20T20:00:00.000Z",
+    "opponentId": "522",
+    "goalsFor": 0,
+    "goalsAgainst": 0
+   },
+   "to": {
+    "seasonId": 16,
+    "league": "L1",
+    "matchId": "12723",
+    "kickoff": "2018-06-05T18:00:00.000Z",
+    "opponentId": "393",
+    "goalsFor": 0,
+    "goalsAgainst": 0
+   }
+  },
+  "loss": {
+   "length": 5,
+   "from": {
+    "seasonId": 15,
+    "league": "L1",
+    "matchId": "11449",
+    "kickoff": "2018-10-10T17:00:00.000Z",
+    "opponentId": "394",
+    "goalsFor": 5,
+    "goalsAgainst": 8
+   },
+   "to": {
+    "seasonId": 15,
+    "league": "L1",
+    "matchId": "11478",
+    "kickoff": "2018-12-03T20:00:00.000Z",
+    "opponentId": "395",
+    "goalsFor": 2,
+    "goalsAgainst": 9
+   }
+  }
+ },
+ "cleanSheets": 10,
+ "failedToScore": 12,
+ "scorers": {
+  "playedMatches": 20,
+  "coveredMatches": 20,
+  "rows": []
+ }
+}

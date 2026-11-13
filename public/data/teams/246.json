@@ -1,0 +1,245 @@
+{
+ "schemaVersion": 1,
+ "teamId": "246",
+ "names": [
+  "ÁTE Bulls"
+ ],
+ "seasons": [
+  {
+   "seasonId": 7,
+   "label": "2023 - Ősz",
+   "league": "L1",
+   "finished": true,
+   "position": 12,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 11,
+    "won": 0,
+    "drawn": 1,
+    "lost": 10,
+    "goalsFor": 26,
+    "goalsAgainst": 66,
+    "points": 1
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "142",
+   "name": "Szponzorok helye:_____",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "170",
+   "name": "FC Gyulai Kolbászok powered by Vácszentlászló SC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "48",
+   "name": "Együtt szárszóért",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "93",
+   "name": "Milinte te szemét Club de Football",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "88",
+   "name": "Elnökök",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "207",
+   "name": "Hellobélavagyok",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 4,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "37",
+   "name": "CF Babinénik",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "158",
+   "name": "Rózsaszín Chihuahua-k",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "69",
+   "name": "Lokomotív MFC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "179",
+   "name": "Drink Team",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "100",
+   "name": "Gyermekláncfűrész",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": null,
+  "biggestDefeat": {
+   "seasonId": 7,
+   "league": "L1",
+   "matchId": "2295",
+   "kickoff": "2023-11-06T18:00:00.000Z",
+   "opponentId": "37",
+   "goalsFor": 0,
+   "goalsAgainst": 9
+  },
+  "highestScoring": {
+   "seasonId": 7,
+   "league": "L1",
+   "matchId": "2315",
+   "kickoff": "2023-11-27T20:00:00.000Z",
+   "opponentId": "179",
+   "goalsFor": 5,
+   "goalsAgainst": 9
+  }
+ },
+ "streaks": {
+  "win": null,
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 7,
+    "league": "L1",
+    "matchId": "2289",
+    "kickoff": "2023-10-30T18:00:00.000Z",
+    "opponentId": "207",
+    "goalsFor": 4,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 7,
+    "league": "L1",
+    "matchId": "2289",
+    "kickoff": "2023-10-30T18:00:00.000Z",
+    "opponentId": "207",
+    "goalsFor": 4,
+    "goalsAgainst": 4
+   }
+  },
+  "loss": {
+   "length": 5,
+   "from": {
+    "seasonId": 7,
+    "league": "L1",
+    "matchId": "2295",
+    "kickoff": "2023-11-06T18:00:00.000Z",
+    "opponentId": "37",
+    "goalsFor": 0,
+    "goalsAgainst": 9
+   },
+   "to": {
+    "seasonId": 7,
+    "league": "L1",
+    "matchId": "2319",
+    "kickoff": "2023-12-04T18:00:00.000Z",
+    "opponentId": "100",
+    "goalsFor": 3,
+    "goalsAgainst": 5
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 3,
+ "scorers": {
+  "playedMatches": 11,
+  "coveredMatches": 11,
+  "rows": []
+ }
+}

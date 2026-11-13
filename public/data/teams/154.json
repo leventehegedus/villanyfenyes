@@ -1,0 +1,292 @@
+{
+ "schemaVersion": 1,
+ "teamId": "154",
+ "names": [
+  "Cefre Town"
+ ],
+ "seasons": [
+  {
+   "seasonId": 53,
+   "label": "2026 - TAVASZ",
+   "league": "L1",
+   "finished": true,
+   "position": 10,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 11,
+    "won": 2,
+    "drawn": 0,
+    "lost": 9,
+    "goalsFor": 24,
+    "goalsAgainst": 82,
+    "points": 6
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "28",
+   "name": "TéSz",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "115",
+   "name": "Botladozó Fiúk",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "23",
+   "name": "CS Tanszék",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 12,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "199",
+   "name": "2 zenész",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 12,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "149",
+   "name": "Nagyon fincsi",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 11,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "142",
+   "name": "Szponzorok helye:_____",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 10,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "94",
+   "name": "Turbo Nitro Super Team",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "90",
+   "name": "Invincibles",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "100",
+   "name": "Gyermekláncfűrész",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 10,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "93",
+   "name": "Milinte te szemét Club de Football",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "69",
+   "name": "Lokomotív MFC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 53,
+   "league": "L1",
+   "matchId": "47203",
+   "kickoff": "2026-03-10T19:00:00.000Z",
+   "opponentId": "28",
+   "goalsFor": 5,
+   "goalsAgainst": 2
+  },
+  "biggestDefeat": {
+   "seasonId": 53,
+   "league": "L1",
+   "matchId": "47572",
+   "kickoff": "2026-04-14T18:00:00.000Z",
+   "opponentId": "142",
+   "goalsFor": 1,
+   "goalsAgainst": 10
+  },
+  "highestScoring": {
+   "seasonId": 53,
+   "league": "L1",
+   "matchId": "47437",
+   "kickoff": "2026-03-31T17:00:00.000Z",
+   "opponentId": "199",
+   "goalsFor": 3,
+   "goalsAgainst": 12
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 2,
+   "from": {
+    "seasonId": 53,
+    "league": "L1",
+    "matchId": "47203",
+    "kickoff": "2026-03-10T19:00:00.000Z",
+    "opponentId": "28",
+    "goalsFor": 5,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 53,
+    "league": "L1",
+    "matchId": "47288",
+    "kickoff": "2026-03-17T20:00:00.000Z",
+    "opponentId": "115",
+    "goalsFor": 7,
+    "goalsAgainst": 5
+   }
+  },
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 53,
+    "league": "L1",
+    "matchId": "47203",
+    "kickoff": "2026-03-10T19:00:00.000Z",
+    "opponentId": "28",
+    "goalsFor": 5,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 53,
+    "league": "L1",
+    "matchId": "47288",
+    "kickoff": "2026-03-17T20:00:00.000Z",
+    "opponentId": "115",
+    "goalsFor": 7,
+    "goalsAgainst": 5
+   }
+  },
+  "loss": {
+   "length": 9,
+   "from": {
+    "seasonId": 53,
+    "league": "L1",
+    "matchId": "47371",
+    "kickoff": "2026-03-25T20:00:00.000Z",
+    "opponentId": "23",
+    "goalsFor": 3,
+    "goalsAgainst": 12
+   },
+   "to": {
+    "seasonId": 53,
+    "league": "L1",
+    "matchId": "47938",
+    "kickoff": "2026-05-20T17:00:00.000Z",
+    "opponentId": "69",
+    "goalsFor": 0,
+    "goalsAgainst": 5
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 4,
+ "scorers": {
+  "playedMatches": 11,
+  "coveredMatches": 11,
+  "rows": [
+   {
+    "name": "Hornyák Krisztofer",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Juhász Csongor",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Hegedüs Dániel",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

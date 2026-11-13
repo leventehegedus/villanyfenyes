@@ -1,0 +1,182 @@
+{
+ "schemaVersion": 1,
+ "teamId": "73",
+ "names": [
+  "Kulákok"
+ ],
+ "seasons": [
+  {
+   "seasonId": 54,
+   "label": "2026 - Nyár",
+   "league": "L1",
+   "finished": true,
+   "position": 7,
+   "teamsInLeague": 7,
+   "marker": "relegation",
+   "totals": {
+    "played": 4,
+    "won": 1,
+    "drawn": 0,
+    "lost": 3,
+    "goalsFor": 23,
+    "goalsAgainst": 36,
+    "points": 3
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "41",
+   "name": "Sonkástojás",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "220",
+   "name": "Jó lövés bedobás",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 11,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "37",
+   "name": "CF Babinénik",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 8,
+    "goalsAgainst": 12,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "107",
+   "name": "Banditák",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 54,
+   "league": "L1",
+   "matchId": "48243",
+   "kickoff": "2026-08-13T19:00:00.000Z",
+   "opponentId": "107",
+   "goalsFor": 9,
+   "goalsAgainst": 5
+  },
+  "biggestDefeat": {
+   "seasonId": 54,
+   "league": "L1",
+   "matchId": "48108",
+   "kickoff": "2026-06-15T18:00:00.000Z",
+   "opponentId": "41",
+   "goalsFor": 1,
+   "goalsAgainst": 8
+  },
+  "highestScoring": {
+   "seasonId": 54,
+   "league": "L1",
+   "matchId": "48189",
+   "kickoff": "2026-07-15T19:00:00.000Z",
+   "opponentId": "37",
+   "goalsFor": 8,
+   "goalsAgainst": 12
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 54,
+    "league": "L1",
+    "matchId": "48243",
+    "kickoff": "2026-08-13T19:00:00.000Z",
+    "opponentId": "107",
+    "goalsFor": 9,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 54,
+    "league": "L1",
+    "matchId": "48243",
+    "kickoff": "2026-08-13T19:00:00.000Z",
+    "opponentId": "107",
+    "goalsFor": 9,
+    "goalsAgainst": 5
+   }
+  },
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 54,
+    "league": "L1",
+    "matchId": "48243",
+    "kickoff": "2026-08-13T19:00:00.000Z",
+    "opponentId": "107",
+    "goalsFor": 9,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 54,
+    "league": "L1",
+    "matchId": "48243",
+    "kickoff": "2026-08-13T19:00:00.000Z",
+    "opponentId": "107",
+    "goalsFor": 9,
+    "goalsAgainst": 5
+   }
+  },
+  "loss": {
+   "length": 3,
+   "from": {
+    "seasonId": 54,
+    "league": "L1",
+    "matchId": "48108",
+    "kickoff": "2026-06-15T18:00:00.000Z",
+    "opponentId": "41",
+    "goalsFor": 1,
+    "goalsAgainst": 8
+   },
+   "to": {
+    "seasonId": 54,
+    "league": "L1",
+    "matchId": "48189",
+    "kickoff": "2026-07-15T19:00:00.000Z",
+    "opponentId": "37",
+    "goalsFor": 8,
+    "goalsAgainst": 12
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 4,
+  "coveredMatches": 4,
+  "rows": []
+ }
+}

@@ -1,0 +1,374 @@
+{
+ "schemaVersion": 1,
+ "teamId": "442",
+ "names": [
+  "Csillagrombolók FC"
+ ],
+ "seasons": [
+  {
+   "seasonId": 30,
+   "label": "2011 - Tavasz",
+   "league": "L1",
+   "finished": true,
+   "position": 10,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 11,
+    "won": 3,
+    "drawn": 0,
+    "lost": 8,
+    "goalsFor": 43,
+    "goalsAgainst": 61,
+    "points": 9
+   }
+  },
+  {
+   "seasonId": 31,
+   "label": "2010 - Ősz",
+   "league": "L1",
+   "finished": true,
+   "position": 3,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 11,
+    "won": 7,
+    "drawn": 1,
+    "lost": 3,
+    "goalsFor": 50,
+    "goalsAgainst": 48,
+    "points": 22
+   }
+  },
+  {
+   "seasonId": 32,
+   "label": "2010 - Tavasz",
+   "league": "L1",
+   "finished": true,
+   "position": 7,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 10,
+    "won": 4,
+    "drawn": 0,
+    "lost": 6,
+    "goalsFor": 43,
+    "goalsAgainst": 51,
+    "points": 12
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "674",
+   "name": "FC Real Zetor",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "395",
+   "name": "Albán Focisuli",
+   "totals": {
+    "played": 3,
+    "won": 0,
+    "drawn": 0,
+    "lost": 3,
+    "goalsFor": 11,
+    "goalsAgainst": 17,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "817",
+   "name": "Fatal Error",
+   "totals": {
+    "played": 3,
+    "won": 1,
+    "drawn": 0,
+    "lost": 2,
+    "goalsFor": 11,
+    "goalsAgainst": 10,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "621",
+   "name": "Ládidádi",
+   "totals": {
+    "played": 2,
+    "won": 1,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 8,
+    "goalsAgainst": 14,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "550",
+   "name": "FociSCHták",
+   "totals": {
+    "played": 3,
+    "won": 1,
+    "drawn": 1,
+    "lost": 1,
+    "goalsFor": 13,
+    "goalsAgainst": 11,
+    "points": 4
+   }
+  },
+  {
+   "teamId": "230",
+   "name": "EjakuLazio",
+   "totals": {
+    "played": 3,
+    "won": 1,
+    "drawn": 0,
+    "lost": 2,
+    "goalsFor": 11,
+    "goalsAgainst": 11,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "496",
+   "name": "Bénakacsák",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "853",
+   "name": "Fabatka \"B\"",
+   "totals": {
+    "played": 3,
+    "won": 2,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 15,
+    "goalsAgainst": 20,
+    "points": 6
+   }
+  },
+  {
+   "teamId": "964",
+   "name": "Hooligans Diósgyőr",
+   "totals": {
+    "played": 3,
+    "won": 1,
+    "drawn": 0,
+    "lost": 2,
+    "goalsFor": 11,
+    "goalsAgainst": 14,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "473",
+   "name": "FC T4",
+   "totals": {
+    "played": 3,
+    "won": 2,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 11,
+    "goalsAgainst": 16,
+    "points": 6
+   }
+  },
+  {
+   "teamId": "702",
+   "name": "KGST",
+   "totals": {
+    "played": 2,
+    "won": 2,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 14,
+    "goalsAgainst": 4,
+    "points": 6
+   }
+  },
+  {
+   "teamId": "467",
+   "name": "Centeam",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "966",
+   "name": "Lami-Véd",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1054",
+   "name": "ZGI",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "965",
+   "name": "Akela",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "254",
+   "name": "nyocmaco",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 7,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 30,
+   "league": "L1",
+   "matchId": "29306",
+   "kickoff": "2025-05-19T06:00:24.000Z",
+   "opponentId": "702",
+   "goalsFor": 11,
+   "goalsAgainst": 2
+  },
+  "biggestDefeat": {
+   "seasonId": 30,
+   "league": "L1",
+   "matchId": "29307",
+   "kickoff": "2025-05-19T06:00:24.000Z",
+   "opponentId": "473",
+   "goalsFor": 1,
+   "goalsAgainst": 9
+  },
+  "highestScoring": {
+   "seasonId": 32,
+   "league": "L1",
+   "matchId": "31379",
+   "kickoff": "2025-05-19T06:04:54.000Z",
+   "opponentId": "853",
+   "goalsFor": 5,
+   "goalsAgainst": 12
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 3,
+   "from": {
+    "seasonId": 31,
+    "league": "L1",
+    "matchId": "30359",
+    "kickoff": "2025-05-19T06:02:39.000Z",
+    "opponentId": "817",
+    "goalsFor": 7,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 31,
+    "league": "L1",
+    "matchId": "30365",
+    "kickoff": "2025-05-19T06:02:40.000Z",
+    "opponentId": "473",
+    "goalsFor": 5,
+    "goalsAgainst": 4
+   }
+  },
+  "unbeaten": {
+   "length": 5,
+   "from": {
+    "seasonId": 31,
+    "league": "L1",
+    "matchId": "30361",
+    "kickoff": "2025-05-19T06:02:39.000Z",
+    "opponentId": "964",
+    "goalsFor": 5,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 31,
+    "league": "L1",
+    "matchId": "30365",
+    "kickoff": "2025-05-19T06:02:40.000Z",
+    "opponentId": "473",
+    "goalsFor": 5,
+    "goalsAgainst": 4
+   }
+  },
+  "loss": {
+   "length": 3,
+   "from": {
+    "seasonId": 30,
+    "league": "L1",
+    "matchId": "29291",
+    "kickoff": "2025-05-19T06:00:22.000Z",
+    "opponentId": "550",
+    "goalsFor": 4,
+    "goalsAgainst": 7
+   },
+   "to": {
+    "seasonId": 30,
+    "league": "L1",
+    "matchId": "29296",
+    "kickoff": "2025-05-19T06:00:23.000Z",
+    "opponentId": "496",
+    "goalsFor": 5,
+    "goalsAgainst": 9
+   }
+  }
+ },
+ "cleanSheets": 1,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 32,
+  "coveredMatches": 32,
+  "rows": []
+ }
+}

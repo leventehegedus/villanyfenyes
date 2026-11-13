@@ -1,0 +1,273 @@
+{
+ "schemaVersion": 1,
+ "teamId": "646",
+ "names": [
+  "Vén Tapacs"
+ ],
+ "seasons": [
+  {
+   "seasonId": 24,
+   "label": "2014 - Tavasz",
+   "league": "L1",
+   "finished": true,
+   "position": 12,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 11,
+    "won": 1,
+    "drawn": 2,
+    "lost": 8,
+    "goalsFor": 40,
+    "goalsAgainst": 64,
+    "points": 5
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "760",
+   "name": "Dounin FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 2,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "621",
+   "name": "Ládidádi",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "230",
+   "name": "EjakuLazio",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "395",
+   "name": "Albán Focisuli",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 7,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "496",
+   "name": "Bénakacsák",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "67",
+   "name": "Kráken",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 12,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "82",
+   "name": "Berúg FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "298",
+   "name": "Bizsda",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 2,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "674",
+   "name": "FC Real Zetor",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 6,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "18",
+   "name": "Stabilizátorok",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "60",
+   "name": "Domino Kijev",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 24,
+   "league": "L1",
+   "matchId": "22476",
+   "kickoff": "2014-03-25T18:00:00.000Z",
+   "opponentId": "230",
+   "goalsFor": 5,
+   "goalsAgainst": 3
+  },
+  "biggestDefeat": {
+   "seasonId": 24,
+   "league": "L1",
+   "matchId": "22491",
+   "kickoff": "2014-04-14T19:00:00.000Z",
+   "opponentId": "67",
+   "goalsFor": 4,
+   "goalsAgainst": 12
+  },
+  "highestScoring": {
+   "seasonId": 24,
+   "league": "L1",
+   "matchId": "22491",
+   "kickoff": "2014-04-14T19:00:00.000Z",
+   "opponentId": "67",
+   "goalsFor": 4,
+   "goalsAgainst": 12
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 24,
+    "league": "L1",
+    "matchId": "22476",
+    "kickoff": "2014-03-25T18:00:00.000Z",
+    "opponentId": "230",
+    "goalsFor": 5,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 24,
+    "league": "L1",
+    "matchId": "22476",
+    "kickoff": "2014-03-25T18:00:00.000Z",
+    "opponentId": "230",
+    "goalsFor": 5,
+    "goalsAgainst": 3
+   }
+  },
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 24,
+    "league": "L1",
+    "matchId": "22476",
+    "kickoff": "2014-03-25T18:00:00.000Z",
+    "opponentId": "230",
+    "goalsFor": 5,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 24,
+    "league": "L1",
+    "matchId": "22481",
+    "kickoff": "2014-03-31T19:00:00.000Z",
+    "opponentId": "395",
+    "goalsFor": 7,
+    "goalsAgainst": 7
+   }
+  },
+  "loss": {
+   "length": 7,
+   "from": {
+    "seasonId": 24,
+    "league": "L1",
+    "matchId": "22489",
+    "kickoff": "2014-04-08T19:00:00.000Z",
+    "opponentId": "496",
+    "goalsFor": 1,
+    "goalsAgainst": 7
+   },
+   "to": {
+    "seasonId": 24,
+    "league": "L1",
+    "matchId": "22522",
+    "kickoff": "2014-05-26T19:00:00.000Z",
+    "opponentId": "60",
+    "goalsFor": 4,
+    "goalsAgainst": 6
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 1,
+ "scorers": {
+  "playedMatches": 11,
+  "coveredMatches": 11,
+  "rows": []
+ }
+}
