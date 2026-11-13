@@ -55,8 +55,8 @@ test('stats: progression chart, cross table and form hover', async ({ page }) =>
   await expect(page).toHaveURL(/v=cross/)
   await expect(page.getByRole('link', { name: /Lokomotív MFC – Gyermekláncfűrész 3:2/ })).toBeVisible()
   await page.goto('/t/69?s=55&l=L1')
-  await page.getByRole('link', { name: /Győzelem 3:2 – Gyermekláncfűrész/ }).hover()
-  await expect(page.getByRole('tooltip')).toContainText('Gyermekláncfűrész')
+  await page.getByRole('link', { name: /Győzelem: Gyermekláncfűrész 2:3 Lokomotív MFC/ }).hover()
+  await expect(page.getByRole('tooltip')).toContainText('Gyermekláncfűrész 2:3 Lokomotív MFC')
 })
 
 test('scorers can be filtered by team', async ({ page }) => {
@@ -75,4 +75,11 @@ test('standings show the form column and the schedule team filter is multi-selec
   await page.keyboard.press('Escape')
   await expect(page.getByRole('button', { name: /Csapat: 2 csapat/ })).toBeVisible()
   await expect(page).toHaveURL(/t=[^&]+%2C|t=[^&]+,/)
+})
+
+test('odds tab shows a position heatmap with certain bounds', async ({ page }) => {
+  await page.goto('/statisztika?s=55&l=L1&v=odds')
+  await expect(page.getByRole('heading', { name: 'Helyezési esélyek' })).toBeVisible()
+  await expect(page.getByRole('columnheader', { name: 'Elérhető' })).toBeVisible()
+  await expect(page.getByRole('rowheader', { name: 'Lokomotív MFC' })).toBeVisible()
 })

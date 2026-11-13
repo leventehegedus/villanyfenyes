@@ -8,6 +8,8 @@ export type TeamResult = {
   matchId: string
   kickoff: string | null
   opponentId: string
+  /** True when the team was listed first (home) on the site. */
+  home: boolean
   goalsFor: number
   goalsAgainst: number
   outcome: Outcome
@@ -30,6 +32,7 @@ export function teamResults(teamId: string, matches: readonly Match[]): TeamResu
         matchId: m.id,
         kickoff: m.kickoff,
         opponentId: home ? m.awayTeamId : m.homeTeamId,
+        home,
         goalsFor: gf,
         goalsAgainst: ga,
         outcome: outcomeOf(gf, ga),

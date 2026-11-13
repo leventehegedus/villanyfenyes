@@ -9,11 +9,13 @@ import { isPlayed } from '@/lib/standings'
 import { readHighlight, toggleHighlight, writeHighlight } from '@/lib/url-state'
 
 const LeagueProgressionChart = lazy(() => import('@/components/LeagueProgressionChart'))
+const PositionOdds = lazy(() => import('@/components/PositionOdds'))
 
 export default function StatsPage() {
   const t = useT()
   const { query, keep, params, setSelection, seasonId, league, noData } = useLeagueData()
-  const view = params.get('v') === 'cross' ? 'cross' : 'progress'
+  const rawView = params.get('v')
+  const view = rawView === 'cross' || rawView === 'odds' ? rawView : 'progress'
 
   return (
     <div className="space-y-4">
@@ -28,10 +30,11 @@ export default function StatsPage() {
           const highlighted = readHighlight(params.get('h'), teamIds, podium)
           const setHighlight = (ids: string[]) => setSelection({ extra: { h: writeHighlight(ids) } })
           return (
-            <Tabs value={view} onValueChange={(v) => setSelection({ extra: { v: v === 'cross' ? v : null } })}>
+            <Tabs value={view} onValueChange={(v) => setSelection({ extra: { v: v === 'progress' ? null : v } })}>
               <TabsList>
                 <TabsTrigger value="progress">{t('tabProgress')}</TabsTrigger>
                 <TabsTrigger value="cross">{t('tabCross')}</TabsTrigger>
+                <TabsTrigger value="odds">{t('tabOdds')}</TabsTrigger>
               </TabsList>
               <TabsContent value="progress" className="space-y-2 pt-2">
                 <h2 className="text-lg font-semibold">{t('progressionTitle')}</h2>
@@ -51,6 +54,12 @@ export default function StatsPage() {
                 <h2 className="text-lg font-semibold">{t('crossTable')}</h2>
                 <p className="text-sm text-muted-foreground">{t('crossTableHint')}</p>
                 <CrossTable data={data} keep={keep} />
+              </TabsContent>
+              <TabsContent value="odds" className="space-y-2 pt-2">
+                <h2 className="text-lg font-semibold">{t('oddsTitle')}</h2>
+                <Suspense fallback={<ListSkeleton rows={6} />}>
+                  <PositionOdds data={data} keep={keep} />
+                </Suspense>
               </TabsContent>
             </Tabs>
           )

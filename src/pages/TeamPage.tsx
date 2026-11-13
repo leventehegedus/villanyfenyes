@@ -43,7 +43,7 @@ function TeamView({ teamId, data, keep, teamName }: { teamId: string; data: Leag
         </div>
         <div title={t('formHint')}>
           <p className="mb-1 text-xs text-muted-foreground">{t('form')}</p>
-          <FormStrip results={s.results.slice(-5)} teamName={teamName} keep={keep} />
+          <FormStrip teamId={teamId} results={s.results.slice(-5)} teamName={teamName} keep={keep} />
         </div>
       </header>
 

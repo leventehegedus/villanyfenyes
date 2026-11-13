@@ -28,6 +28,9 @@
 - **Medal colours on the progression chart (owner's choice):** the top 3 are gold/silver/bronze. The validator flags silver (grey, low chroma) and aqua vs silver (normal-vision ΔE 14.2); mitigations: every highlighted line has a direct end label (medals with their position), non-podium highlights are dashed. Since 2026-11-13 any number of teams can be highlighted (owner's request): non-podium teams take `--series-1..9` in selection order (reference categorical hues without yellow, plus teal and plum); with more than ~7 lines identity relies on the end labels and tooltip, not colour. `?h=-` means "nothing highlighted". Tied teams' end labels stack 13 px apart.
 - **Tooltips:** `disableHoverableContent` so moving the pointer sideways between form chips switches the tooltip immediately.
 
+- **Position odds (2026-11-13, owner's request):** `src/lib/projection.ts`. Reachable range = certain bounds from points only (teams already above the team's maximum stay above; teams whose maximum is below its current points stay below; ties not assumed). Odds = 5000 seeded Monte Carlo runs: every match without a stored score (including "awaiting result") gets Poisson goals from attack/defence rates shrunk toward the league average (3 pseudo-matches), no home advantage (single venue); each run is ranked with `rankByRules` (points, head-to-head mini-table, goal difference, goals). Shown as a one-hue heatmap on the Statisztika "Esélyek" tab; positions outside the bounds are blank, possible-but-unseen positions show a dot.
+- **Form tooltip** shows the match as listed (home first, real score), without the win/draw/loss word; the outcome stays in the chip letter and the screen-reader label.
+
 ## Opus usage
 
 - The main session ran on Opus 5.5 (session model chosen by the user); the build prompt's `opusplan` routing was not available here.

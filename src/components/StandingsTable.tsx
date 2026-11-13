@@ -104,7 +104,7 @@ export function StandingsTable({ rows, matches, teamName, keep, sort, onSort }: 
                   </TableCell>
                 ))}
                 <TableCell className="px-2">
-                  <FormStrip results={teamResults(r.teamId, matches).slice(-5)} teamName={teamName} keep={keep} />
+                  <FormStrip teamId={r.teamId} results={teamResults(r.teamId, matches).slice(-5)} teamName={teamName} keep={keep} />
                 </TableCell>
               </TableRow>
             )
