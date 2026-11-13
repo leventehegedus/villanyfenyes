@@ -148,6 +148,24 @@
     "goalsAgainst": 34,
     "points": 10
    }
+  },
+  {
+   "seasonId": 48,
+   "label": "2002 - Tavasz",
+   "league": "L1",
+   "finished": true,
+   "position": 5,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 10,
+    "won": 6,
+    "drawn": 1,
+    "lost": 3,
+    "goalsFor": 46,
+    "goalsAgainst": 23,
+    "points": 19
+   }
   }
  ],
  "opponents": [
@@ -233,13 +251,13 @@
    "teamId": "1181",
    "name": "Bobo FC",
    "totals": {
-    "played": 8,
-    "won": 1,
+    "played": 9,
+    "won": 2,
     "drawn": 0,
     "lost": 7,
-    "goalsFor": 15,
-    "goalsAgainst": 35,
-    "points": 3
+    "goalsFor": 19,
+    "goalsAgainst": 38,
+    "points": 6
    }
   },
   {
@@ -259,13 +277,13 @@
    "teamId": "196",
    "name": "Koma Sutra",
    "totals": {
-    "played": 8,
-    "won": 1,
+    "played": 9,
+    "won": 2,
     "drawn": 3,
     "lost": 4,
-    "goalsFor": 16,
-    "goalsAgainst": 25,
-    "points": 6
+    "goalsFor": 25,
+    "goalsAgainst": 28,
+    "points": 9
    }
   },
   {
@@ -298,12 +316,12 @@
    "teamId": "77",
    "name": "Keverton",
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 4,
     "drawn": 0,
-    "lost": 3,
-    "goalsFor": 32,
-    "goalsAgainst": 25,
+    "lost": 4,
+    "goalsFor": 34,
+    "goalsAgainst": 29,
     "points": 12
    }
   },
@@ -350,39 +368,39 @@
    "teamId": "1259",
    "name": "MSC Gépész",
    "totals": {
-    "played": 5,
-    "won": 2,
+    "played": 6,
+    "won": 3,
     "drawn": 1,
     "lost": 2,
-    "goalsFor": 19,
-    "goalsAgainst": 13,
-    "points": 7
+    "goalsFor": 26,
+    "goalsAgainst": 15,
+    "points": 10
    }
   },
   {
    "teamId": "1152",
    "name": "Lúzer SC",
    "totals": {
-    "played": 4,
-    "won": 2,
+    "played": 5,
+    "won": 3,
     "drawn": 0,
     "lost": 2,
-    "goalsFor": 13,
-    "goalsAgainst": 19,
-    "points": 6
+    "goalsFor": 23,
+    "goalsAgainst": 20,
+    "points": 9
    }
   },
   {
    "teamId": "442",
    "name": "Csillagrombolók FC",
    "totals": {
-    "played": 4,
-    "won": 3,
+    "played": 5,
+    "won": 4,
     "drawn": 0,
     "lost": 1,
-    "goalsFor": 18,
-    "goalsAgainst": 9,
-    "points": 9
+    "goalsFor": 23,
+    "goalsAgainst": 11,
+    "points": 12
    }
   },
   {
@@ -402,12 +420,12 @@
    "teamId": "856",
    "name": "Félénk Fiúk",
    "totals": {
-    "played": 2,
+    "played": 3,
     "won": 1,
     "drawn": 1,
-    "lost": 0,
-    "goalsFor": 5,
-    "goalsAgainst": 4,
+    "lost": 1,
+    "goalsFor": 7,
+    "goalsAgainst": 7,
     "points": 4
    }
   },
@@ -441,12 +459,12 @@
    "teamId": "1346",
    "name": "WINCHESTER UNITED",
    "totals": {
-    "played": 2,
+    "played": 3,
     "won": 0,
     "drawn": 1,
-    "lost": 1,
+    "lost": 2,
     "goalsFor": 4,
-    "goalsAgainst": 7,
+    "goalsAgainst": 10,
     "points": 1
    }
   },
@@ -488,17 +506,43 @@
     "goalsAgainst": 2,
     "points": 3
    }
+  },
+  {
+   "teamId": "1371",
+   "name": "Vato Loco",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1390",
+   "name": "AC TISZAKÉCSKE",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 2,
+    "points": 1
+   }
   }
  ],
  "records": {
   "biggestWin": {
-   "seasonId": 44,
+   "seasonId": 48,
    "league": "L1",
-   "matchId": "39219",
-   "kickoff": "2025-05-19T06:24:12.000Z",
-   "opponentId": "442",
-   "goalsFor": 9,
-   "goalsAgainst": 2
+   "matchId": "41027",
+   "kickoff": "2025-05-19T06:29:18.000Z",
+   "opponentId": "1152",
+   "goalsFor": 10,
+   "goalsAgainst": 1
   },
   "biggestDefeat": {
    "seasonId": 47,
@@ -521,44 +565,44 @@
  },
  "streaks": {
   "win": {
-   "length": 3,
+   "length": 5,
    "from": {
-    "seasonId": 44,
+    "seasonId": 48,
     "league": "L1",
-    "matchId": "39228",
-    "kickoff": "2025-05-19T06:24:13.000Z",
-    "opponentId": "77",
-    "goalsFor": 3,
-    "goalsAgainst": 2
+    "matchId": "41028",
+    "kickoff": "2025-05-19T06:29:18.000Z",
+    "opponentId": "196",
+    "goalsFor": 9,
+    "goalsAgainst": 3
    },
    "to": {
-    "seasonId": 45,
+    "seasonId": 48,
     "league": "L1",
-    "matchId": "39670",
-    "kickoff": "2025-05-19T06:25:29.000Z",
-    "opponentId": "77",
-    "goalsFor": 7,
-    "goalsAgainst": 1
+    "matchId": "41031",
+    "kickoff": "2025-05-19T06:29:19.000Z",
+    "opponentId": "442",
+    "goalsFor": 5,
+    "goalsAgainst": 2
    }
   },
   "unbeaten": {
-   "length": 4,
+   "length": 7,
    "from": {
-    "seasonId": 44,
+    "seasonId": 48,
     "league": "L1",
-    "matchId": "39228",
-    "kickoff": "2025-05-19T06:24:13.000Z",
-    "opponentId": "77",
-    "goalsFor": 3,
-    "goalsAgainst": 2
+    "matchId": "41028",
+    "kickoff": "2025-05-19T06:29:18.000Z",
+    "opponentId": "196",
+    "goalsFor": 9,
+    "goalsAgainst": 3
    },
    "to": {
-    "seasonId": 45,
+    "seasonId": 48,
     "league": "L1",
-    "matchId": "39679",
-    "kickoff": "2025-05-19T06:25:30.000Z",
-    "opponentId": "856",
-    "goalsFor": 2,
+    "matchId": "41032",
+    "kickoff": "2025-05-19T06:29:19.000Z",
+    "opponentId": "1259",
+    "goalsFor": 7,
     "goalsAgainst": 2
    }
   },
@@ -584,11 +628,11 @@
    }
   }
  },
- "cleanSheets": 2,
- "failedToScore": 7,
+ "cleanSheets": 3,
+ "failedToScore": 8,
  "scorers": {
-  "playedMatches": 81,
-  "coveredMatches": 81,
+  "playedMatches": 91,
+  "coveredMatches": 91,
   "rows": []
  }
 }

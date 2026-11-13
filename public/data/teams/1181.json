@@ -184,6 +184,24 @@
     "goalsAgainst": 15,
     "points": 24
    }
+  },
+  {
+   "seasonId": 48,
+   "label": "2002 - Tavasz",
+   "league": "L1",
+   "finished": true,
+   "position": 10,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 11,
+    "won": 3,
+    "drawn": 1,
+    "lost": 7,
+    "goalsFor": 41,
+    "goalsAgainst": 49,
+    "points": 10
+   }
   }
  ],
  "opponents": [
@@ -243,12 +261,12 @@
    "teamId": "77",
    "name": "Keverton",
    "totals": {
-    "played": 9,
+    "played": 10,
     "won": 5,
     "drawn": 1,
-    "lost": 3,
-    "goalsFor": 34,
-    "goalsAgainst": 32,
+    "lost": 4,
+    "goalsFor": 36,
+    "goalsAgainst": 40,
     "points": 16
    }
   },
@@ -256,12 +274,12 @@
    "teamId": "395",
    "name": "Albán Focisuli",
    "totals": {
-    "played": 10,
+    "played": 11,
     "won": 4,
     "drawn": 1,
-    "lost": 5,
-    "goalsFor": 34,
-    "goalsAgainst": 38,
+    "lost": 6,
+    "goalsFor": 36,
+    "goalsAgainst": 44,
     "points": 13
    }
   },
@@ -282,13 +300,13 @@
    "teamId": "196",
    "name": "Koma Sutra",
    "totals": {
-    "played": 10,
-    "won": 5,
+    "played": 11,
+    "won": 6,
     "drawn": 3,
     "lost": 2,
-    "goalsFor": 30,
-    "goalsAgainst": 24,
-    "points": 18
+    "goalsFor": 39,
+    "goalsAgainst": 28,
+    "points": 21
    }
   },
   {
@@ -373,12 +391,12 @@
    "teamId": "446",
    "name": "Hanyatt SE",
    "totals": {
-    "played": 8,
+    "played": 9,
     "won": 7,
     "drawn": 0,
-    "lost": 1,
-    "goalsFor": 35,
-    "goalsAgainst": 15,
+    "lost": 2,
+    "goalsFor": 38,
+    "goalsAgainst": 19,
     "points": 21
    }
   },
@@ -438,12 +456,12 @@
    "teamId": "1259",
    "name": "MSC Gépész",
    "totals": {
-    "played": 5,
+    "played": 6,
     "won": 2,
     "drawn": 1,
-    "lost": 2,
-    "goalsFor": 16,
-    "goalsAgainst": 16,
+    "lost": 3,
+    "goalsFor": 21,
+    "goalsAgainst": 22,
     "points": 7
    }
   },
@@ -451,12 +469,12 @@
    "teamId": "442",
    "name": "Csillagrombolók FC",
    "totals": {
-    "played": 4,
+    "played": 5,
     "won": 2,
     "drawn": 1,
-    "lost": 1,
+    "lost": 2,
     "goalsFor": 16,
-    "goalsAgainst": 14,
+    "goalsAgainst": 17,
     "points": 7
    }
   },
@@ -464,12 +482,12 @@
    "teamId": "1152",
    "name": "Lúzer SC",
    "totals": {
-    "played": 4,
+    "played": 5,
     "won": 1,
     "drawn": 2,
-    "lost": 1,
-    "goalsFor": 11,
-    "goalsAgainst": 11,
+    "lost": 2,
+    "goalsFor": 13,
+    "goalsAgainst": 15,
     "points": 5
    }
   },
@@ -490,13 +508,13 @@
    "teamId": "856",
    "name": "Félénk Fiúk",
    "totals": {
-    "played": 2,
+    "played": 3,
     "won": 2,
-    "drawn": 0,
+    "drawn": 1,
     "lost": 0,
-    "goalsFor": 10,
-    "goalsAgainst": 5,
-    "points": 6
+    "goalsFor": 12,
+    "goalsAgainst": 7,
+    "points": 7
    }
   },
   {
@@ -555,12 +573,12 @@
    "teamId": "1346",
    "name": "WINCHESTER UNITED",
    "totals": {
-    "played": 2,
+    "played": 3,
     "won": 1,
     "drawn": 1,
-    "lost": 0,
-    "goalsFor": 5,
-    "goalsAgainst": 2,
+    "lost": 1,
+    "goalsFor": 7,
+    "goalsAgainst": 9,
     "points": 4
    }
   },
@@ -588,6 +606,32 @@
     "goalsFor": 3,
     "goalsAgainst": 3,
     "points": 1
+   }
+  },
+  {
+   "teamId": "1371",
+   "name": "Vato Loco",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1390",
+   "name": "AC TISZAKÉCSKE",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 2,
+    "points": 3
    }
   }
  ],
@@ -686,10 +730,10 @@
   }
  },
  "cleanSheets": 12,
- "failedToScore": 4,
+ "failedToScore": 5,
  "scorers": {
-  "playedMatches": 105,
-  "coveredMatches": 105,
+  "playedMatches": 116,
+  "coveredMatches": 116,
   "rows": []
  }
 }
