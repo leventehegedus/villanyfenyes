@@ -6,7 +6,7 @@
       "Read(./node_modules/**)",
       "Read(./dist/**)",
       "Read(./coverage/**)",
-      "Read(./public/data/**)",
+      "Read(./public/data/[0-9]*/**)",
       "Read(./playwright-report/**)",
       "Read(./test-results/**)"
     ]
