@@ -76,6 +76,24 @@
     "goalsAgainst": 51,
     "points": 9
    }
+  },
+  {
+   "seasonId": 44,
+   "label": "2004 - Tavasz",
+   "league": "L1",
+   "finished": true,
+   "position": 9,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 10,
+    "won": 4,
+    "drawn": 1,
+    "lost": 5,
+    "goalsFor": 40,
+    "goalsAgainst": 36,
+    "points": 13
+   }
   }
  ],
  "opponents": [
@@ -109,25 +127,25 @@
    "teamId": "1019",
    "name": "Micro Soccer",
    "totals": {
-    "played": 4,
+    "played": 5,
     "won": 0,
-    "drawn": 0,
+    "drawn": 1,
     "lost": 4,
-    "goalsFor": 4,
-    "goalsAgainst": 24,
-    "points": 0
+    "goalsFor": 8,
+    "goalsAgainst": 28,
+    "points": 1
    }
   },
   {
    "teamId": "395",
    "name": "Albán Focisuli",
    "totals": {
-    "played": 4,
+    "played": 5,
     "won": 1,
     "drawn": 0,
-    "lost": 3,
-    "goalsFor": 10,
-    "goalsAgainst": 17,
+    "lost": 4,
+    "goalsFor": 14,
+    "goalsAgainst": 22,
     "points": 3
    }
   },
@@ -161,12 +179,12 @@
    "teamId": "1181",
    "name": "Bobo FC",
    "totals": {
-    "played": 4,
+    "played": 5,
     "won": 0,
     "drawn": 0,
-    "lost": 4,
-    "goalsFor": 4,
-    "goalsAgainst": 20,
+    "lost": 5,
+    "goalsFor": 6,
+    "goalsAgainst": 24,
     "points": 0
    }
   },
@@ -187,12 +205,12 @@
    "teamId": "196",
    "name": "Koma Sutra",
    "totals": {
-    "played": 4,
+    "played": 5,
     "won": 0,
     "drawn": 1,
-    "lost": 3,
-    "goalsFor": 8,
-    "goalsAgainst": 14,
+    "lost": 4,
+    "goalsFor": 9,
+    "goalsAgainst": 20,
     "points": 1
    }
   },
@@ -226,13 +244,13 @@
    "teamId": "77",
    "name": "Keverton",
    "totals": {
-    "played": 3,
-    "won": 1,
+    "played": 4,
+    "won": 2,
     "drawn": 0,
     "lost": 2,
-    "goalsFor": 15,
-    "goalsAgainst": 14,
-    "points": 3
+    "goalsFor": 18,
+    "goalsAgainst": 16,
+    "points": 6
    }
   },
   {
@@ -278,25 +296,77 @@
    "teamId": "1259",
    "name": "MSC Gépész",
    "totals": {
+    "played": 2,
+    "won": 1,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 11,
+    "goalsAgainst": 6,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1152",
+   "name": "Lúzer SC",
+   "totals": {
     "played": 1,
     "won": 0,
     "drawn": 0,
     "lost": 1,
-    "goalsFor": 3,
-    "goalsAgainst": 4,
+    "goalsFor": 4,
+    "goalsAgainst": 6,
     "points": 0
+   }
+  },
+  {
+   "teamId": "442",
+   "name": "Csillagrombolók FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1285",
+   "name": "ASA",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "856",
+   "name": "Félénk Fiúk",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 2,
+    "points": 3
    }
   }
  ],
  "records": {
   "biggestWin": {
-   "seasonId": 42,
+   "seasonId": 44,
    "league": "L1",
-   "matchId": "38259",
-   "kickoff": "2025-05-19T06:21:36.000Z",
-   "opponentId": "1203",
-   "goalsFor": 7,
-   "goalsAgainst": 1
+   "matchId": "39219",
+   "kickoff": "2025-05-19T06:24:12.000Z",
+   "opponentId": "442",
+   "goalsFor": 9,
+   "goalsAgainst": 2
   },
   "biggestDefeat": {
    "seasonId": 41,
@@ -321,22 +391,22 @@
   "win": {
    "length": 2,
    "from": {
-    "seasonId": 43,
+    "seasonId": 44,
     "league": "L1",
-    "matchId": "38815",
-    "kickoff": "2025-05-19T06:23:07.000Z",
-    "opponentId": "1203",
+    "matchId": "39228",
+    "kickoff": "2025-05-19T06:24:13.000Z",
+    "opponentId": "77",
     "goalsFor": 3,
     "goalsAgainst": 2
    },
    "to": {
-    "seasonId": 43,
+    "seasonId": 44,
     "league": "L1",
-    "matchId": "38814",
-    "kickoff": "2025-05-19T06:23:07.000Z",
-    "opponentId": "892",
-    "goalsFor": 7,
-    "goalsAgainst": 5
+    "matchId": "39227",
+    "kickoff": "2025-05-19T06:24:13.000Z",
+    "opponentId": "856",
+    "goalsFor": 3,
+    "goalsAgainst": 2
    }
   },
   "unbeaten": {
@@ -385,8 +455,8 @@
  "cleanSheets": 1,
  "failedToScore": 7,
  "scorers": {
-  "playedMatches": 41,
-  "coveredMatches": 41,
+  "playedMatches": 51,
+  "coveredMatches": 51,
   "rows": []
  }
 }

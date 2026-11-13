@@ -112,6 +112,24 @@
     "goalsAgainst": 29,
     "points": 17
    }
+  },
+  {
+   "seasonId": 44,
+   "label": "2004 - Tavasz",
+   "league": "L1",
+   "finished": true,
+   "position": 7,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 11,
+    "won": 4,
+    "drawn": 4,
+    "lost": 3,
+    "goalsFor": 31,
+    "goalsAgainst": 34,
+    "points": 16
+   }
   }
  ],
  "opponents": [
@@ -119,12 +137,12 @@
    "teamId": "1019",
    "name": "Micro Soccer",
    "totals": {
-    "played": 6,
+    "played": 7,
     "won": 1,
     "drawn": 0,
-    "lost": 5,
-    "goalsFor": 17,
-    "goalsAgainst": 30,
+    "lost": 6,
+    "goalsFor": 18,
+    "goalsAgainst": 35,
     "points": 3
    }
   },
@@ -171,26 +189,26 @@
    "teamId": "77",
    "name": "Keverton",
    "totals": {
-    "played": 5,
-    "won": 2,
+    "played": 6,
+    "won": 3,
     "drawn": 1,
     "lost": 2,
-    "goalsFor": 22,
-    "goalsAgainst": 23,
-    "points": 7
+    "goalsFor": 28,
+    "goalsAgainst": 25,
+    "points": 10
    }
   },
   {
    "teamId": "395",
    "name": "Albán Focisuli",
    "totals": {
-    "played": 6,
+    "played": 7,
     "won": 1,
-    "drawn": 0,
+    "drawn": 1,
     "lost": 5,
-    "goalsFor": 25,
-    "goalsAgainst": 35,
-    "points": 3
+    "goalsFor": 26,
+    "goalsAgainst": 36,
+    "points": 4
    }
   },
   {
@@ -210,13 +228,13 @@
    "teamId": "196",
    "name": "Koma Sutra",
    "totals": {
-    "played": 6,
+    "played": 7,
     "won": 3,
-    "drawn": 2,
+    "drawn": 3,
     "lost": 1,
-    "goalsFor": 22,
-    "goalsAgainst": 17,
-    "points": 11
+    "goalsFor": 24,
+    "goalsAgainst": 19,
+    "points": 12
    }
   },
   {
@@ -301,13 +319,13 @@
    "teamId": "446",
    "name": "Hanyatt SE",
    "totals": {
-    "played": 4,
-    "won": 4,
+    "played": 5,
+    "won": 5,
     "drawn": 0,
     "lost": 0,
-    "goalsFor": 20,
-    "goalsAgainst": 4,
-    "points": 12
+    "goalsFor": 24,
+    "goalsAgainst": 6,
+    "points": 15
    }
   },
   {
@@ -340,13 +358,13 @@
    "teamId": "1286",
    "name": "DOMBI TIBOR FUN CLUB",
    "totals": {
-    "played": 1,
+    "played": 2,
     "won": 0,
-    "drawn": 1,
+    "drawn": 2,
     "lost": 0,
-    "goalsFor": 5,
-    "goalsAgainst": 5,
-    "points": 1
+    "goalsFor": 8,
+    "goalsAgainst": 8,
+    "points": 2
    }
   },
   {
@@ -366,13 +384,65 @@
    "teamId": "1259",
    "name": "MSC Gépész",
    "totals": {
+    "played": 2,
+    "won": 0,
+    "drawn": 1,
+    "lost": 1,
+    "goalsFor": 7,
+    "goalsAgainst": 11,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "442",
+   "name": "Csillagrombolók FC",
+   "totals": {
     "played": 1,
     "won": 0,
     "drawn": 1,
     "lost": 0,
-    "goalsFor": 5,
-    "goalsAgainst": 5,
+    "goalsFor": 3,
+    "goalsAgainst": 3,
     "points": 1
+   }
+  },
+  {
+   "teamId": "1152",
+   "name": "Lúzer SC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1285",
+   "name": "ASA",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "856",
+   "name": "Félénk Fiúk",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 0,
+    "points": 3
    }
   }
  ],
@@ -470,11 +540,11 @@
    }
   }
  },
- "cleanSheets": 5,
- "failedToScore": 2,
+ "cleanSheets": 6,
+ "failedToScore": 3,
  "scorers": {
-  "playedMatches": 63,
-  "coveredMatches": 63,
+  "playedMatches": 74,
+  "coveredMatches": 74,
   "rows": []
  }
 }
