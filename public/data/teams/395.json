@@ -472,6 +472,24 @@
     "goalsAgainst": 52,
     "points": 17
    }
+  },
+  {
+   "seasonId": 39,
+   "label": "2006 - Ősz",
+   "league": "L1",
+   "finished": true,
+   "position": 2,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 11,
+    "won": 9,
+    "drawn": 1,
+    "lost": 1,
+    "goalsFor": 60,
+    "goalsAgainst": 36,
+    "points": 28
+   }
   }
  ],
  "opponents": [
@@ -713,13 +731,13 @@
    "teamId": "550",
    "name": "FociSCHták",
    "totals": {
-    "played": 18,
-    "won": 13,
+    "played": 19,
+    "won": 14,
     "drawn": 3,
     "lost": 2,
-    "goalsFor": 102,
-    "goalsAgainst": 61,
-    "points": 42
+    "goalsFor": 106,
+    "goalsAgainst": 62,
+    "points": 45
    }
   },
   {
@@ -1025,13 +1043,13 @@
    "teamId": "196",
    "name": "Koma Sutra",
    "totals": {
-    "played": 6,
-    "won": 5,
+    "played": 7,
+    "won": 6,
     "drawn": 1,
     "lost": 0,
-    "goalsFor": 41,
-    "goalsAgainst": 21,
-    "points": 16
+    "goalsFor": 46,
+    "goalsAgainst": 23,
+    "points": 19
    }
   },
   {
@@ -1064,13 +1082,13 @@
    "teamId": "853",
    "name": "Fabatka \"B\"",
    "totals": {
-    "played": 10,
-    "won": 3,
+    "played": 11,
+    "won": 4,
     "drawn": 2,
     "lost": 5,
-    "goalsFor": 39,
+    "goalsFor": 40,
     "goalsAgainst": 41,
-    "points": 11
+    "points": 14
    }
   },
   {
@@ -1090,13 +1108,13 @@
    "teamId": "473",
    "name": "FC T4",
    "totals": {
-    "played": 10,
-    "won": 6,
+    "played": 11,
+    "won": 7,
     "drawn": 2,
     "lost": 2,
-    "goalsFor": 46,
-    "goalsAgainst": 36,
-    "points": 20
+    "goalsFor": 54,
+    "goalsAgainst": 40,
+    "points": 23
    }
   },
   {
@@ -1168,13 +1186,13 @@
    "teamId": "965",
    "name": "Akela",
    "totals": {
-    "played": 7,
-    "won": 6,
+    "played": 8,
+    "won": 7,
     "drawn": 0,
     "lost": 1,
-    "goalsFor": 57,
-    "goalsAgainst": 25,
-    "points": 18
+    "goalsFor": 65,
+    "goalsAgainst": 30,
+    "points": 21
    }
   },
   {
@@ -1207,12 +1225,12 @@
    "teamId": "1019",
    "name": "Micro Soccer",
    "totals": {
-    "played": 6,
+    "played": 7,
     "won": 2,
     "drawn": 2,
-    "lost": 2,
-    "goalsFor": 26,
-    "goalsAgainst": 27,
+    "lost": 3,
+    "goalsFor": 29,
+    "goalsAgainst": 32,
     "points": 8
    }
   },
@@ -1220,13 +1238,13 @@
    "teamId": "77",
    "name": "Keverton",
    "totals": {
-    "played": 4,
-    "won": 3,
+    "played": 5,
+    "won": 4,
     "drawn": 1,
     "lost": 0,
-    "goalsFor": 22,
-    "goalsAgainst": 13,
-    "points": 10
+    "goalsFor": 29,
+    "goalsAgainst": 17,
+    "points": 13
    }
   },
   {
@@ -1259,52 +1277,52 @@
    "teamId": "1181",
    "name": "Bobo FC",
    "totals": {
-    "played": 1,
-    "won": 1,
+    "played": 2,
+    "won": 2,
     "drawn": 0,
     "lost": 0,
-    "goalsFor": 5,
-    "goalsAgainst": 3,
-    "points": 3
+    "goalsFor": 13,
+    "goalsAgainst": 9,
+    "points": 6
    }
   },
   {
    "teamId": "1180",
    "name": "Nem fog fájni",
    "totals": {
-    "played": 2,
-    "won": 1,
+    "played": 3,
+    "won": 2,
     "drawn": 0,
     "lost": 1,
-    "goalsFor": 8,
-    "goalsAgainst": 9,
-    "points": 3
+    "goalsFor": 15,
+    "goalsAgainst": 13,
+    "points": 6
    }
   },
   {
    "teamId": "1203",
    "name": "Qpon",
    "totals": {
-    "played": 1,
-    "won": 1,
+    "played": 2,
+    "won": 2,
     "drawn": 0,
     "lost": 0,
-    "goalsFor": 9,
-    "goalsAgainst": 5,
-    "points": 3
+    "goalsFor": 14,
+    "goalsAgainst": 6,
+    "points": 6
    }
   },
   {
    "teamId": "1204",
    "name": "Sörhenger",
    "totals": {
-    "played": 1,
+    "played": 2,
     "won": 0,
-    "drawn": 0,
+    "drawn": 1,
     "lost": 1,
-    "goalsFor": 2,
-    "goalsAgainst": 3,
-    "points": 0
+    "goalsFor": 6,
+    "goalsAgainst": 7,
+    "points": 1
    }
   }
  ],
@@ -1402,11 +1420,11 @@
    }
   }
  },
- "cleanSheets": 13,
+ "cleanSheets": 14,
  "failedToScore": 11,
  "scorers": {
-  "playedMatches": 269,
-  "coveredMatches": 269,
+  "playedMatches": 280,
+  "coveredMatches": 280,
   "rows": []
  }
 }

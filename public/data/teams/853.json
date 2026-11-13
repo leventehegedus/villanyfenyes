@@ -184,6 +184,24 @@
     "goalsAgainst": 33,
     "points": 24
    }
+  },
+  {
+   "seasonId": 39,
+   "label": "2006 - Ősz",
+   "league": "L1",
+   "finished": true,
+   "position": 9,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 11,
+    "won": 4,
+    "drawn": 0,
+    "lost": 7,
+    "goalsFor": 25,
+    "goalsAgainst": 31,
+    "points": 12
+   }
   }
  ],
  "opponents": [
@@ -230,13 +248,13 @@
    "teamId": "196",
    "name": "Koma Sutra",
    "totals": {
-    "played": 5,
-    "won": 5,
+    "played": 6,
+    "won": 6,
     "drawn": 0,
     "lost": 0,
-    "goalsFor": 28,
-    "goalsAgainst": 10,
-    "points": 15
+    "goalsFor": 32,
+    "goalsAgainst": 13,
+    "points": 18
    }
   },
   {
@@ -256,12 +274,12 @@
    "teamId": "550",
    "name": "FociSCHták",
    "totals": {
-    "played": 10,
+    "played": 11,
     "won": 5,
     "drawn": 1,
-    "lost": 4,
-    "goalsFor": 38,
-    "goalsAgainst": 30,
+    "lost": 5,
+    "goalsFor": 39,
+    "goalsAgainst": 34,
     "points": 16
    }
   },
@@ -308,12 +326,12 @@
    "teamId": "395",
    "name": "Albán Focisuli",
    "totals": {
-    "played": 10,
+    "played": 11,
     "won": 5,
     "drawn": 2,
-    "lost": 3,
+    "lost": 4,
     "goalsFor": 41,
-    "goalsAgainst": 39,
+    "goalsAgainst": 40,
     "points": 17
    }
   },
@@ -373,13 +391,13 @@
    "teamId": "473",
    "name": "FC T4",
    "totals": {
-    "played": 9,
-    "won": 7,
+    "played": 10,
+    "won": 8,
     "drawn": 1,
     "lost": 1,
-    "goalsFor": 41,
-    "goalsAgainst": 25,
-    "points": 22
+    "goalsFor": 46,
+    "goalsAgainst": 27,
+    "points": 25
    }
   },
   {
@@ -438,25 +456,25 @@
    "teamId": "965",
    "name": "Akela",
    "totals": {
-    "played": 7,
-    "won": 6,
+    "played": 8,
+    "won": 7,
     "drawn": 0,
     "lost": 1,
-    "goalsFor": 29,
-    "goalsAgainst": 19,
-    "points": 18
+    "goalsFor": 34,
+    "goalsAgainst": 23,
+    "points": 21
    }
   },
   {
    "teamId": "1019",
    "name": "Micro Soccer",
    "totals": {
-    "played": 5,
+    "played": 6,
     "won": 4,
     "drawn": 0,
-    "lost": 1,
-    "goalsFor": 34,
-    "goalsAgainst": 17,
+    "lost": 2,
+    "goalsFor": 35,
+    "goalsAgainst": 20,
     "points": 12
    }
   },
@@ -503,12 +521,12 @@
    "teamId": "77",
    "name": "Keverton",
    "totals": {
-    "played": 4,
+    "played": 5,
     "won": 3,
     "drawn": 0,
-    "lost": 1,
-    "goalsFor": 24,
-    "goalsAgainst": 13,
+    "lost": 2,
+    "goalsFor": 26,
+    "goalsAgainst": 16,
     "points": 9
    }
   },
@@ -542,12 +560,12 @@
    "teamId": "1180",
    "name": "Nem fog fájni",
    "totals": {
-    "played": 2,
+    "played": 3,
     "won": 1,
     "drawn": 0,
-    "lost": 1,
-    "goalsFor": 8,
-    "goalsAgainst": 6,
+    "lost": 2,
+    "goalsFor": 9,
+    "goalsAgainst": 8,
     "points": 3
    }
   },
@@ -555,12 +573,12 @@
    "teamId": "1181",
    "name": "Bobo FC",
    "totals": {
-    "played": 1,
+    "played": 2,
     "won": 1,
     "drawn": 0,
-    "lost": 0,
+    "lost": 1,
     "goalsFor": 15,
-    "goalsAgainst": 2,
+    "goalsAgainst": 5,
     "points": 3
    }
   },
@@ -568,25 +586,25 @@
    "teamId": "1203",
    "name": "Qpon",
    "totals": {
-    "played": 1,
-    "won": 1,
+    "played": 2,
+    "won": 2,
     "drawn": 0,
     "lost": 0,
-    "goalsFor": 6,
-    "goalsAgainst": 3,
-    "points": 3
+    "goalsFor": 10,
+    "goalsAgainst": 5,
+    "points": 6
    }
   },
   {
    "teamId": "1204",
    "name": "Sörhenger",
    "totals": {
-    "played": 1,
+    "played": 2,
     "won": 1,
     "drawn": 0,
-    "lost": 0,
-    "goalsFor": 7,
-    "goalsAgainst": 1,
+    "lost": 1,
+    "goalsFor": 9,
+    "goalsAgainst": 5,
     "points": 3
    }
   }
@@ -686,10 +704,10 @@
   }
  },
  "cleanSheets": 6,
- "failedToScore": 2,
+ "failedToScore": 4,
  "scorers": {
-  "playedMatches": 108,
-  "coveredMatches": 108,
+  "playedMatches": 119,
+  "coveredMatches": 119,
   "rows": []
  }
 }
