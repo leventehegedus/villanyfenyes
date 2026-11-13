@@ -108,3 +108,14 @@ test('player page from the scorer list', async ({ page }) => {
   await expect(page.getByRole('heading', { name: 'Pap Bulcsú' })).toBeVisible()
   await expect(page.getByRole('link', { name: 'Gyermekláncfűrész 2:3 Lokomotív MFC' })).toBeVisible()
 })
+
+test('team all-time page: totals, timeline and picker limited to the team', async ({ page }) => {
+  await page.goto('/t/69?s=55&l=L1')
+  await page.getByRole('link', { name: /Összesített/ }).click()
+  await expect(page).toHaveURL(/\/t\/69\/osszes/)
+  await expect(page.getByRole('heading', { name: 'Lokomotív MFC' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: 'Mérleg ligánként' })).toBeVisible()
+  await expect(page.getByRole('cell', { name: 'Összesen' })).toBeVisible()
+  await expect(page.getByText('folyamatban').first()).toBeVisible()
+  await expect(page.getByRole('combobox', { name: 'Szezon' })).toHaveCount(0)
+})
