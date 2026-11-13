@@ -1,8 +1,8 @@
 import { readdirSync } from 'node:fs'
 import { join } from 'node:path'
-import { buildAllTime, duplicateNames } from '../../src/lib/alltime.ts'
+import { buildAllTime, buildLeaderboard, duplicateNames } from '../../src/lib/alltime.ts'
 import type { SeasonLeague } from '../../src/lib/alltime.ts'
-import { LeagueFile, SeasonsFile, TeamAllTimeFile } from '../../src/lib/schema.ts'
+import { LeaderboardFile, LeagueFile, SCHEMA_VERSION, SeasonsFile, TeamAllTimeFile } from '../../src/lib/schema.ts'
 import { readJson } from './write.ts'
 
 const LEAGUE_FILE = /^(\d+)\/(L[1-5][A-H]?)\.json$/
@@ -37,12 +37,14 @@ export function teamFiles(out: string, produced: ReadonlyMap<string, unknown>) {
   if (!seasons) errors.push('seasons.json: missing or invalid')
 
   const files = new Map<string, TeamAllTimeFile>()
-  if (errors.length > 0 || !seasons) return { files, warnings: [], errors }
+  if (errors.length > 0 || !seasons) return { files, leaderboard: null, warnings: [], errors }
   for (const [teamId, value] of buildAllTime(inputs, seasons)) {
     const valid = TeamAllTimeFile.safeParse(value)
     if (valid.success) files.set(`teams/${teamId}.json`, valid.data)
     else errors.push(`teams/${teamId}.json: ${valid.error.issues[0]?.message ?? 'invalid'}`)
   }
   const warnings = duplicateNames(inputs).map((d) => `team name "${d.name}" has several ids: ${d.ids.join(', ')}`)
-  return errors.length > 0 ? { files: new Map<string, TeamAllTimeFile>(), warnings, errors } : { files, warnings, errors }
+  if (errors.length > 0) return { files: new Map<string, TeamAllTimeFile>(), leaderboard: null, warnings, errors }
+  const leaderboard = LeaderboardFile.parse({ schemaVersion: SCHEMA_VERSION, rows: buildLeaderboard(files.values()) })
+  return { files, leaderboard, warnings, errors }
 }

@@ -180,6 +180,24 @@ const teamAllTimeShape = (mode: Mode) => {
 export const TeamAllTimeFile = teamAllTimeShape('strict')
 export const TeamAllTimeFileRead = teamAllTimeShape('tolerant')
 
+export const LeaderboardRow = z.object({
+  teamId: z.string().min(1),
+  name: z.string().min(1),
+  /** L1 first places in finished seasons (site tables). */
+  titles: count,
+  /** L1 seasons, the current one included. */
+  l1Seasons: count,
+  /** Computed from results, every ingested league. */
+  won: count,
+  goalsFor: count,
+})
+
+const leaderboardShape = (mode: Mode) =>
+  z.object({ schemaVersion: z.number().int(), rows: arrayFor(mode)(LeaderboardRow) })
+
+export const LeaderboardFile = leaderboardShape('strict')
+export const LeaderboardFileRead = leaderboardShape('tolerant')
+
 export const SeasonsFile = z.object({
   schemaVersion: z.number().int(),
   currentSeasonId: z.number().int(),
@@ -223,3 +241,4 @@ export type MetaFile = z.infer<typeof MetaFile>
 export type AllTimeTotals = z.infer<typeof AllTimeTotals>
 export type MatchRef = z.infer<typeof MatchRef>
 export type TeamAllTimeFile = z.infer<typeof TeamAllTimeFile>
+export type LeaderboardRow = z.infer<typeof LeaderboardRow>

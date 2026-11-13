@@ -12,6 +12,7 @@ const SchedulePage = lazy(() => import('@/pages/SchedulePage'))
 const MatchDialog = lazy(() => import('@/pages/MatchDialog'))
 const TeamPage = lazy(() => import('@/pages/TeamPage'))
 const TeamAllTimePage = lazy(() => import('@/pages/TeamAllTimePage'))
+const LeaderboardPage = lazy(() => import('@/pages/LeaderboardPage'))
 const PlayerPage = lazy(() => import('@/pages/PlayerPage'))
 const ScorersPage = lazy(() => import('@/pages/ScorersPage'))
 const StatsPage = lazy(() => import('@/pages/StatsPage'))
@@ -54,6 +55,7 @@ export default function App() {
                 <Route path="j/:teamId/:name" element={<PlayerPage />} />
                 <Route path="golok" element={<ScorersPage />} />
                 <Route path="statisztika" element={<StatsPage />} />
+                <Route path="orokranglista" element={<LeaderboardPage />} />
                 <Route path="beallitasok" element={<SettingsPage />} />
                 <Route path="*" element={<NotFoundPage />} />
               </Route>

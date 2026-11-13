@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { match } from './__fixtures__/league'
-import { bestWorstSeason, buildAllTime, duplicateNames, goalsPerSeason, honours, leagueTotals, opponentHighlights, overall, rates } from './alltime'
+import { bestWorstSeason, buildAllTime, buildLeaderboard, rankBy, duplicateNames, goalsPerSeason, honours, leagueTotals, opponentHighlights, overall, rates } from './alltime'
 import type { SeasonLeague } from './alltime'
 import type { AllTimeTotals, LeagueFile, Match, SeasonsFile, StandingRow, Team, TeamAllTimeFile } from './schema'
 
@@ -199,5 +199,26 @@ describe('display helpers', () => {
       { seasonId: 1, label: 'A', forPerMatch: null, againstPerMatch: null },
       { seasonId: 2, label: 'B', forPerMatch: 2, againstPerMatch: 1 },
     ])
+  })
+})
+
+describe('leaderboard', () => {
+  const teamFile = (teamId: string, name: string, rows: SeasonRow[]): TeamAllTimeFile => ({ ...a(), teamId, names: [name], seasons: rows })
+
+  it('counts L1 titles from finished seasons, L1 seasons, wins and goals', () => {
+    const rows = buildLeaderboard([
+      teamFile('x', 'Xénia', [
+        season(4, { position: 1, finished: false, totals: T(2, 0, 0, 5, 1) }),
+        season(3, { position: 1, totals: T(3, 0, 0, 9, 2) }),
+        season(2, { position: 1, league: 'L2A', totals: T(1, 0, 0, 2, 0) }),
+      ]),
+    ])
+    expect(rows).toEqual([{ teamId: 'x', name: 'Xénia', titles: 1, l1Seasons: 2, won: 6, goalsFor: 16 }])
+  })
+
+  it('ranks with shared places, ties by name, and leaves out zeros', () => {
+    const row = (teamId: string, name: string, titles: number) => ({ teamId, name, titles, l1Seasons: 1, won: 0, goalsFor: 0 })
+    const ranked = rankBy([row('b', 'Béta', 2), row('a', 'Alfa', 2), row('c', 'Cé', 1), row('z', 'Zéró', 0)], 'titles')
+    expect(ranked.map((r) => [r.rank, r.name])).toEqual([[1, 'Alfa'], [1, 'Béta'], [3, 'Cé']])
   })
 })

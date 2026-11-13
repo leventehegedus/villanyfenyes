@@ -1,0 +1,101 @@
+{
+ "schemaVersion": 1,
+ "rows": [
+  {
+   "teamId": "69",
+   "name": "Lokomotív MFC",
+   "titles": 0,
+   "l1Seasons": 1,
+   "won": 1,
+   "goalsFor": 3
+  },
+  {
+   "teamId": "100",
+   "name": "Gyermekláncfűrész",
+   "titles": 0,
+   "l1Seasons": 1,
+   "won": 0,
+   "goalsFor": 2
+  },
+  {
+   "teamId": "142",
+   "name": "Szponzorok helye:_____",
+   "titles": 0,
+   "l1Seasons": 1,
+   "won": 0,
+   "goalsFor": 0
+  },
+  {
+   "teamId": "93",
+   "name": "Milinte te szemét Club de Football",
+   "titles": 0,
+   "l1Seasons": 1,
+   "won": 0,
+   "goalsFor": 0
+  },
+  {
+   "teamId": "199",
+   "name": "2 zenész",
+   "titles": 0,
+   "l1Seasons": 1,
+   "won": 0,
+   "goalsFor": 0
+  },
+  {
+   "teamId": "238",
+   "name": "Jézus tanítványai",
+   "titles": 0,
+   "l1Seasons": 1,
+   "won": 0,
+   "goalsFor": 0
+  },
+  {
+   "teamId": "90",
+   "name": "Invincibles",
+   "titles": 0,
+   "l1Seasons": 1,
+   "won": 0,
+   "goalsFor": 0
+  },
+  {
+   "teamId": "149",
+   "name": "Nagyon fincsi",
+   "titles": 0,
+   "l1Seasons": 1,
+   "won": 0,
+   "goalsFor": 0
+  },
+  {
+   "teamId": "94",
+   "name": "Turbo Nitro Super Team",
+   "titles": 0,
+   "l1Seasons": 1,
+   "won": 0,
+   "goalsFor": 0
+  },
+  {
+   "teamId": "166",
+   "name": "Borg",
+   "titles": 0,
+   "l1Seasons": 1,
+   "won": 0,
+   "goalsFor": 0
+  },
+  {
+   "teamId": "107",
+   "name": "Banditák",
+   "titles": 0,
+   "l1Seasons": 1,
+   "won": 0,
+   "goalsFor": 0
+  },
+  {
+   "teamId": "108",
+   "name": "Szia Uram!",
+   "titles": 0,
+   "l1Seasons": 1,
+   "won": 0,
+   "goalsFor": 0
+  }
+ ]
+}

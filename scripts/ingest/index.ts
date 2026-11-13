@@ -32,13 +32,19 @@ const positiveInt = (name: string, raw: string): number => {
   return n
 }
 
-/** Rebuilds teams/*.json from the league files already on disk; no requests. */
+/** Writes the team files and the leaderboard; returns the changed ones. */
+function writeTeamFiles(out: string, files: ReadonlyMap<string, unknown>, leaderboard: unknown) {
+  const all = leaderboard ? [...files, ['leaderboard.json', leaderboard] as const] : [...files]
+  return all.filter(([rel, value]) => writeIfChanged(out, rel, value))
+}
+
+/** Rebuilds teams/*.json and leaderboard.json from the league files already on disk; no requests. */
 function teamsOnly(out: string): number {
-  const { files, warnings, errors } = teamFiles(out, new Map())
+  const { files, leaderboard, warnings, errors } = teamFiles(out, new Map())
   for (const w of warnings) console.log(`warn: ${w}`)
   for (const e of errors) console.error(`gate failed: ${e}`)
   if (errors.length > 0) return 1
-  const changed = values['dry-run'] ? [] : [...files].filter(([rel, value]) => writeIfChanged(out, rel, value))
+  const changed = values['dry-run'] ? [] : writeTeamFiles(out, files, leaderboard)
   console.log(`team files ${files.size} · changed ${changed.length}${values['dry-run'] ? ' · dry run' : ''}`)
   return 0
 }
@@ -105,7 +111,7 @@ async function main(): Promise<number> {
       }),
     )
   }
-  const teamsChanged = [...teams.files].filter(([rel, value]) => writeIfChanged(out, rel, value))
+  const teamsChanged = writeTeamFiles(out, teams.files, teams.leaderboard)
   console.log(`changed: ${changed.map(([rel]) => rel).join(', ') || 'none'} · team files changed ${teamsChanged.length}`)
   // Non-zero so CI notices, after the season files are safely written.
   return teams.errors.length > 0 ? 1 : 0

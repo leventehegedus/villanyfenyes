@@ -36,6 +36,13 @@ describe('teamFiles', () => {
     expect(files.get('teams/1.json')?.seasons.map((s) => s.seasonId)).toEqual([55, 54])
   })
 
+  it('builds the leaderboard from the team files', () => {
+    const out = dataDir({ 'seasons.json': seasons, '55/L1.json': leagueFixture, '54/L1.json': older })
+    const { leaderboard } = teamFiles(out, new Map())
+    expect(leaderboard?.rows).toHaveLength(4)
+    expect(leaderboard?.rows.find((r) => r.teamId === '1')).toMatchObject({ name: 'Árvíztűrő FC', l1Seasons: 2, won: 2, goalsFor: 9 })
+  })
+
   it('prefers the files this run produced over the disk copies', () => {
     const out = dataDir({ 'seasons.json': seasons, '55/L1.json': older })
     const { files } = teamFiles(out, new Map<string, unknown>([['55/L1.json', leagueFixture]]))

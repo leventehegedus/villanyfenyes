@@ -145,3 +145,16 @@ test('stats: clicking the progression chart shows the table at that week', async
   await page.getByRole('button', { name: 'Aktuális' }).click()
   await expect(page).not.toHaveURL(/w=/)
 })
+
+test('all-time rankings page lists the four boards with links to team pages', async ({ page }) => {
+  await page.goto('/orokranglista')
+  await expect(page.getByRole('heading', { name: 'Örökranglista', level: 1 })).toBeVisible()
+  for (const name of ['Bajnoki címek', 'Szezonok az első osztályban', 'Győzelmek', 'Lőtt gólok']) {
+    await expect(page.getByRole('heading', { name })).toBeVisible()
+  }
+  // The fixture has 12 L1 teams: only the seasons board is longer than ten.
+  await page.getByRole('button', { name: 'Teljes lista' }).click()
+  await expect(page.getByRole('button', { name: 'Kevesebb' })).toBeVisible()
+  await page.getByRole('link', { name: 'Lokomotív MFC' }).first().click()
+  await expect(page).toHaveURL(/\/t\/69\/osszes/)
+})

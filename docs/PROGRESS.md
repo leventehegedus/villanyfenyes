@@ -33,3 +33,7 @@ L1-only ingest; missing-data state; UI round: league progression chart and cross
 L1 backfill of all seasons (5-54; 51, 8 and 13 have no L1 table on the site). Per-team all-time page `/t/:teamId/osszes`: honours per league, totals per league, season timeline with best/worst season, goals-per-match chart, record matches, streaks across seasons, clean sheets / no-goal matches, head-to-head with favourite and bogey, all-time scorers with coverage. Team page season picker lists only the team's seasons. Data: `public/data/teams/<id>.json` from `pnpm ingest` (or `--teams-only`).
 
 Next: enable more leagues in `src/lib/leagues.ts` when wanted (the page already handles several). Deferred: venue and kick-off time breakdowns, sortable opponents table.
+
+## 2026-11-13 later (done)
+
+Team page: "Összesítés" button next to the name; league table under the charts, clicking a week shows the table at the end of that week (`?w=`), same on the Statisztika progression chart. New "Örökranglista" page (`/orokranglista`): L1 titles, L1 seasons, wins and goals per team, from `public/data/leaderboard.json` (built by the ingest from the team files; `--teams-only` rebuilds it).

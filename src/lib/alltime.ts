@@ -1,5 +1,5 @@
 import { SCHEMA_VERSION } from './schema'
-import type { AllTimeTotals, LeagueFile, Match, MatchRef, SeasonsFile, TeamAllTimeFile } from './schema'
+import type { AllTimeTotals, LeaderboardRow, LeagueFile, Match, MatchRef, SeasonsFile, TeamAllTimeFile } from './schema'
 import { isPlayed } from './standings'
 import { POINTS, teamResults, teamStats } from './stats'
 import type { TeamResult } from './stats'
@@ -210,3 +210,26 @@ export const goalsPerSeason = (file: TeamAllTimeFile) =>
     forPerMatch: s.totals.played ? s.totals.goalsFor / s.totals.played : null,
     againstPerMatch: s.totals.played ? s.totals.goalsAgainst / s.totals.played : null,
   }))
+
+/** One leaderboard row per team, from its all-time file. */
+export const buildLeaderboard = (files: Iterable<TeamAllTimeFile>): LeaderboardRow[] =>
+  [...files].map((f) => {
+    const l1 = f.seasons.filter((s) => s.league === 'L1')
+    const all = overall(f)
+    return {
+      teamId: f.teamId,
+      name: f.names[0] ?? f.teamId,
+      titles: l1.filter((s) => s.finished && s.position === 1).length,
+      l1Seasons: l1.length,
+      won: all.won,
+      goalsFor: all.goalsFor,
+    }
+  })
+
+export type LeaderboardKey = 'titles' | 'l1Seasons' | 'won' | 'goalsFor'
+
+/** Rows with a non-zero value, best first; equal values share a place (1, 1, 3), then by name. */
+export function rankBy(rows: readonly LeaderboardRow[], key: LeaderboardKey) {
+  const sorted = rows.filter((r) => r[key] > 0).sort((x, y) => y[key] - x[key] || x.name.localeCompare(y.name, 'hu'))
+  return sorted.map((r) => ({ ...r, value: r[key], rank: sorted.findIndex((x) => x[key] === r[key]) + 1 }))
+}
