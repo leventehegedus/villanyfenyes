@@ -104,7 +104,6 @@ test('what-if: entering a result re-ranks the table and is kept in the URL', asy
 
 test('player page from the scorer list', async ({ page }) => {
   await page.goto('/golok?s=55&l=L1')
-  await expect(page.getByRole('heading', { name: 'Gólkirály-verseny' })).toBeVisible()
   await page.getByRole('link', { name: 'Pap Bulcsú' }).click()
   await expect(page.getByRole('heading', { name: 'Pap Bulcsú' })).toBeVisible()
   await expect(page.getByRole('link', { name: 'Gyermekláncfűrész 2:3 Lokomotív MFC' })).toBeVisible()

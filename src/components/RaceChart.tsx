@@ -72,7 +72,7 @@ export function RaceChart({ rows, series, tickStep, title }: Props) {
           <Line
             key={s.key}
             name={s.key}
-            // Function key: player names may contain dots, which string keys treat as paths.
+            // Function key: string keys are read as property paths, so ids with dots would break.
             dataKey={(row: RaceRow) => row.values[s.key] ?? 0}
             type="linear"
             stroke={s.color ?? 'var(--muted-foreground)'}

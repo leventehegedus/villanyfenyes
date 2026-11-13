@@ -1,4 +1,3 @@
-import { Suspense, lazy } from 'react'
 import { Link } from 'react-router'
 import { Search } from 'lucide-react'
 import { PageHeader } from '@/components/PageHeader'
@@ -12,8 +11,6 @@ import { includesFolded } from '@/lib/filters'
 import { playerPath } from '@/lib/paths'
 import { aggregateScorers } from '@/lib/scorers'
 import { readTeamIds } from '@/lib/url-state'
-
-const ScorerRaceChart = lazy(() => import('@/components/ScorerRaceChart'))
 
 export default function ScorersPage() {
   const t = useT()
@@ -35,9 +32,6 @@ export default function ScorersPage() {
               <p className="rounded-lg bg-muted px-3 py-2 text-sm text-muted-foreground">
                 {t('scorersCoverage', { with: coverage.withScorers, played: coverage.played })}
               </p>
-              <Suspense fallback={null}>
-                <ScorerRaceChart matches={data.matches} teamName={teamName} />
-              </Suspense>
               <div className="flex flex-wrap items-center gap-2">
               <TeamMultiSelect teams={data.teams} value={teamFilter} onChange={(ids) => setSelection({ extra: { t: ids.join(',') || null } })} />
               <label className="relative block max-w-sm flex-1">

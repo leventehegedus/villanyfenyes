@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { leagueFixture, match } from './__fixtures__/league'
-import { playerLog, scorerRace } from './players'
+import { playerLog } from './players'
 import type { Match } from './schema'
 
 const scored = (m: Match, scorers: { name: string; teamId: string; goals: number }[]): Match => ({ ...m, scorers })
@@ -36,15 +36,5 @@ describe('playerLog', () => {
 
   it('returns an empty log for an unknown player', () => {
     expect(playerLog('1', 'Senki', matches)).toMatchObject({ goals: 0, matchesScored: 0, longestStreak: 0 })
-  })
-})
-
-describe('scorerRace', () => {
-  it('gives cumulative goals per week for the top scorers', () => {
-    const race = scorerRace(matches, 2)
-    expect(race.players.map((p) => p.name)).toEqual(['Kiss Péter', 'Tóth Ödön'])
-    expect(race.weeks).toEqual(['2026-08-31', '2026-09-07', '2026-09-14'])
-    expect(race.rows.map((r) => r.values[race.players[0]!.key])).toEqual([2, 3, 3])
-    expect(race.rows.map((r) => r.values[race.players[1]!.key])).toEqual([1, 1, 1])
   })
 })
