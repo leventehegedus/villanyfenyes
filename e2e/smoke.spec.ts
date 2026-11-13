@@ -83,3 +83,10 @@ test('odds tab shows a position heatmap with certain bounds', async ({ page }) =
   await expect(page.getByRole('columnheader', { name: 'Elérhető' })).toBeVisible()
   await expect(page.getByRole('rowheader', { name: 'Lokomotív MFC' })).toBeVisible()
 })
+
+test('clicking a team on the scorer list filters by it', async ({ page }) => {
+  await page.goto('/golok?s=55&l=L1')
+  await page.getByRole('button', { name: 'Szűrés erre a csapatra: Gyermekláncfűrész' }).first().click()
+  await expect(page).toHaveURL(/t=100/)
+  await expect(page.getByRole('cell', { name: 'Pap Bulcsú' })).toHaveCount(0)
+})

@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import { ArrowDownUp } from 'lucide-react'
 import { FormStrip } from '@/components/FormStrip'
@@ -39,12 +40,19 @@ const signed = (n: number) => (n > 0 ? `+${n}` : String(n))
 export function StandingsTable({ rows, matches, teamName, keep, sort, onSort }: Props) {
   const t = useT()
   const key = sort.key
+  const scroller = useRef<HTMLDivElement>(null)
+  // Narrow screens: open scrolled to the right edge so the form column is visible; the position
+  // and team columns are sticky on the left. DOM side effect only, runs once on mount.
+  useEffect(() => {
+    const el = scroller.current
+    if (el) el.scrollLeft = el.scrollWidth
+  }, [])
   const sorted = key === 'position' ? rows : sortRows(rows, (r) => r[key], sort.dir)
   const toggle = (key: NumKey) =>
     onSort(sort.key === key ? (sort.dir === 'desc' ? { key, dir: 'asc' } : { key: 'position', dir: 'asc' }) : { key, dir: 'desc' })
 
   return (
-    <div className="overflow-x-auto rounded-xl border bg-card">
+    <div ref={scroller} className="overflow-x-auto rounded-xl border bg-card">
       <table className="w-full caption-bottom text-xs sm:text-sm">
         <TableHeader>
           <TableRow>

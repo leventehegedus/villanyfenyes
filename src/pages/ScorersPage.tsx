@@ -63,7 +63,19 @@ export default function ScorersPage() {
                         <TableRow key={`${r.teamId}-${r.name}`}>
                           <TableCell className="tabular text-center">{r.rank}</TableCell>
                           <TableCell className="font-medium">{r.name}</TableCell>
-                          <TableCell className="text-muted-foreground">{teamName(r.teamId)}</TableCell>
+                          <TableCell>
+                            <button
+                              type="button"
+                              className="text-left text-muted-foreground underline-offset-2 hover:text-foreground hover:underline"
+                              aria-label={t('filterByTeam', { team: teamName(r.teamId) })}
+                              onClick={() => {
+                                const only = teamFilter.length === 1 && teamFilter[0] === r.teamId
+                                setSelection({ extra: { t: only ? null : r.teamId } })
+                              }}
+                            >
+                              {teamName(r.teamId)}
+                            </button>
+                          </TableCell>
                           <TableCell className="tabular text-right font-bold">{r.goals}</TableCell>
                           <TableCell className="tabular text-right">{r.matches}</TableCell>
                         </TableRow>
