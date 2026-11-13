@@ -346,6 +346,24 @@
     "goalsAgainst": 37,
     "points": 12
    }
+  },
+  {
+   "seasonId": 40,
+   "label": "2006 - Tavasz",
+   "league": "L1",
+   "finished": true,
+   "position": 9,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 11,
+    "won": 3,
+    "drawn": 2,
+    "lost": 6,
+    "goalsFor": 29,
+    "goalsAgainst": 44,
+    "points": 11
+   }
   }
  ],
  "opponents": [
@@ -405,12 +423,12 @@
    "teamId": "395",
    "name": "Albán Focisuli",
    "totals": {
-    "played": 19,
+    "played": 20,
     "won": 2,
     "drawn": 3,
-    "lost": 14,
+    "lost": 15,
     "goalsFor": 62,
-    "goalsAgainst": 106,
+    "goalsAgainst": 116,
     "points": 9
    }
   },
@@ -691,13 +709,13 @@
    "teamId": "196",
    "name": "Koma Sutra",
    "totals": {
-    "played": 7,
-    "won": 3,
+    "played": 8,
+    "won": 4,
     "drawn": 1,
     "lost": 3,
-    "goalsFor": 34,
-    "goalsAgainst": 27,
-    "points": 10
+    "goalsFor": 39,
+    "goalsAgainst": 29,
+    "points": 13
    }
   },
   {
@@ -769,12 +787,12 @@
    "teamId": "853",
    "name": "Fabatka \"B\"",
    "totals": {
-    "played": 11,
+    "played": 12,
     "won": 5,
     "drawn": 1,
-    "lost": 5,
-    "goalsFor": 34,
-    "goalsAgainst": 39,
+    "lost": 6,
+    "goalsFor": 36,
+    "goalsAgainst": 45,
     "points": 16
    }
   },
@@ -808,13 +826,13 @@
    "teamId": "473",
    "name": "FC T4",
    "totals": {
-    "played": 11,
-    "won": 7,
+    "played": 12,
+    "won": 8,
     "drawn": 3,
     "lost": 1,
-    "goalsFor": 48,
+    "goalsFor": 53,
     "goalsAgainst": 34,
-    "points": 24
+    "points": 27
    }
   },
   {
@@ -938,12 +956,12 @@
    "teamId": "1019",
    "name": "Micro Soccer",
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 3,
     "drawn": 1,
-    "lost": 3,
-    "goalsFor": 34,
-    "goalsAgainst": 31,
+    "lost": 4,
+    "goalsFor": 36,
+    "goalsAgainst": 37,
     "points": 10
    }
   },
@@ -1016,25 +1034,25 @@
    "teamId": "1181",
    "name": "Bobo FC",
    "totals": {
-    "played": 2,
-    "won": 1,
+    "played": 3,
+    "won": 2,
     "drawn": 1,
     "lost": 0,
-    "goalsFor": 15,
-    "goalsAgainst": 6,
-    "points": 4
+    "goalsFor": 21,
+    "goalsAgainst": 9,
+    "points": 7
    }
   },
   {
    "teamId": "1203",
    "name": "Qpon",
    "totals": {
-    "played": 2,
+    "played": 3,
     "won": 1,
     "drawn": 0,
-    "lost": 1,
-    "goalsFor": 7,
-    "goalsAgainst": 6,
+    "lost": 2,
+    "goalsFor": 8,
+    "goalsAgainst": 8,
     "points": 3
    }
   },
@@ -1042,13 +1060,52 @@
    "teamId": "1204",
    "name": "Sörhenger",
    "totals": {
-    "played": 2,
+    "played": 3,
+    "won": 0,
+    "drawn": 2,
+    "lost": 1,
+    "goalsFor": 7,
+    "goalsAgainst": 10,
+    "points": 2
+   }
+  },
+  {
+   "teamId": "1233",
+   "name": "LÉTAV ÉRTESI VÖRÖS METEOR",
+   "totals": {
+    "played": 1,
     "won": 0,
     "drawn": 1,
-    "lost": 1,
-    "goalsFor": 5,
-    "goalsAgainst": 8,
+    "lost": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 2,
     "points": 1
+   }
+  },
+  {
+   "teamId": "446",
+   "name": "Hanyatt SE",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1234",
+   "name": "PÁZMÁNY JOG 2.",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 6,
+    "points": 0
    }
   }
  ],
@@ -1063,13 +1120,13 @@
    "goalsAgainst": 1
   },
   "biggestDefeat": {
-   "seasonId": 20,
+   "seasonId": 40,
    "league": "L1",
-   "matchId": "17611",
-   "kickoff": "2016-03-22T18:00:00.000Z",
-   "opponentId": "394",
-   "goalsFor": 4,
-   "goalsAgainst": 13
+   "matchId": "37086",
+   "kickoff": "2025-05-19T06:18:32.000Z",
+   "opponentId": "395",
+   "goalsFor": 0,
+   "goalsAgainst": 10
   },
   "highestScoring": {
    "seasonId": 21,
@@ -1146,11 +1203,11 @@
    }
   }
  },
- "cleanSheets": 5,
- "failedToScore": 5,
+ "cleanSheets": 6,
+ "failedToScore": 6,
  "scorers": {
-  "playedMatches": 202,
-  "coveredMatches": 202,
+  "playedMatches": 213,
+  "coveredMatches": 213,
   "rows": []
  }
 }

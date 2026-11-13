@@ -490,6 +490,24 @@
     "goalsAgainst": 36,
     "points": 28
    }
+  },
+  {
+   "seasonId": 40,
+   "label": "2006 - Tavasz",
+   "league": "L1",
+   "finished": true,
+   "position": 1,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 11,
+    "won": 9,
+    "drawn": 1,
+    "lost": 1,
+    "goalsFor": 60,
+    "goalsAgainst": 27,
+    "points": 28
+   }
   }
  ],
  "opponents": [
@@ -731,13 +749,13 @@
    "teamId": "550",
    "name": "FociSCHták",
    "totals": {
-    "played": 19,
-    "won": 14,
+    "played": 20,
+    "won": 15,
     "drawn": 3,
     "lost": 2,
-    "goalsFor": 106,
+    "goalsFor": 116,
     "goalsAgainst": 62,
-    "points": 45
+    "points": 48
    }
   },
   {
@@ -1043,13 +1061,13 @@
    "teamId": "196",
    "name": "Koma Sutra",
    "totals": {
-    "played": 7,
-    "won": 6,
+    "played": 8,
+    "won": 7,
     "drawn": 1,
     "lost": 0,
-    "goalsFor": 46,
-    "goalsAgainst": 23,
-    "points": 19
+    "goalsFor": 52,
+    "goalsAgainst": 24,
+    "points": 22
    }
   },
   {
@@ -1082,12 +1100,12 @@
    "teamId": "853",
    "name": "Fabatka \"B\"",
    "totals": {
-    "played": 11,
+    "played": 12,
     "won": 4,
     "drawn": 2,
-    "lost": 5,
-    "goalsFor": 40,
-    "goalsAgainst": 41,
+    "lost": 6,
+    "goalsFor": 42,
+    "goalsAgainst": 46,
     "points": 14
    }
   },
@@ -1108,13 +1126,13 @@
    "teamId": "473",
    "name": "FC T4",
    "totals": {
-    "played": 11,
-    "won": 7,
+    "played": 12,
+    "won": 8,
     "drawn": 2,
     "lost": 2,
-    "goalsFor": 54,
-    "goalsAgainst": 40,
-    "points": 23
+    "goalsFor": 59,
+    "goalsAgainst": 44,
+    "points": 26
    }
   },
   {
@@ -1225,13 +1243,13 @@
    "teamId": "1019",
    "name": "Micro Soccer",
    "totals": {
-    "played": 7,
-    "won": 2,
+    "played": 8,
+    "won": 3,
     "drawn": 2,
     "lost": 3,
-    "goalsFor": 29,
-    "goalsAgainst": 32,
-    "points": 8
+    "goalsFor": 35,
+    "goalsAgainst": 35,
+    "points": 11
    }
   },
   {
@@ -1277,13 +1295,13 @@
    "teamId": "1181",
    "name": "Bobo FC",
    "totals": {
-    "played": 2,
-    "won": 2,
+    "played": 3,
+    "won": 3,
     "drawn": 0,
     "lost": 0,
-    "goalsFor": 13,
-    "goalsAgainst": 9,
-    "points": 6
+    "goalsFor": 20,
+    "goalsAgainst": 11,
+    "points": 9
    }
   },
   {
@@ -1303,26 +1321,65 @@
    "teamId": "1203",
    "name": "Qpon",
    "totals": {
-    "played": 2,
+    "played": 3,
     "won": 2,
-    "drawn": 0,
+    "drawn": 1,
     "lost": 0,
-    "goalsFor": 14,
-    "goalsAgainst": 6,
-    "points": 6
+    "goalsFor": 17,
+    "goalsAgainst": 9,
+    "points": 7
    }
   },
   {
    "teamId": "1204",
    "name": "Sörhenger",
    "totals": {
-    "played": 2,
-    "won": 0,
+    "played": 3,
+    "won": 1,
     "drawn": 1,
     "lost": 1,
+    "goalsFor": 13,
+    "goalsAgainst": 10,
+    "points": 4
+   }
+  },
+  {
+   "teamId": "1233",
+   "name": "LÉTAV ÉRTESI VÖRÖS METEOR",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "446",
+   "name": "Hanyatt SE",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 1,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1234",
+   "name": "PÁZMÁNY JOG 2.",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
     "goalsFor": 6,
-    "goalsAgainst": 7,
-    "points": 1
+    "goalsAgainst": 5,
+    "points": 3
    }
   }
  ],
@@ -1420,11 +1477,11 @@
    }
   }
  },
- "cleanSheets": 14,
+ "cleanSheets": 16,
  "failedToScore": 11,
  "scorers": {
-  "playedMatches": 280,
-  "coveredMatches": 280,
+  "playedMatches": 291,
+  "coveredMatches": 291,
   "rows": []
  }
 }
