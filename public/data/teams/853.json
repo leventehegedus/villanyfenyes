@@ -166,6 +166,24 @@
     "goalsAgainst": 29,
     "points": 22
    }
+  },
+  {
+   "seasonId": 38,
+   "label": "2007 - Tavasz",
+   "league": "L1",
+   "finished": true,
+   "position": 2,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 11,
+    "won": 8,
+    "drawn": 0,
+    "lost": 3,
+    "goalsFor": 51,
+    "goalsAgainst": 33,
+    "points": 24
+   }
   }
  ],
  "opponents": [
@@ -212,13 +230,13 @@
    "teamId": "196",
    "name": "Koma Sutra",
    "totals": {
-    "played": 4,
-    "won": 4,
+    "played": 5,
+    "won": 5,
     "drawn": 0,
     "lost": 0,
-    "goalsFor": 25,
+    "goalsFor": 28,
     "goalsAgainst": 10,
-    "points": 12
+    "points": 15
    }
   },
   {
@@ -238,13 +256,13 @@
    "teamId": "550",
    "name": "FociSCHták",
    "totals": {
-    "played": 9,
-    "won": 4,
+    "played": 10,
+    "won": 5,
     "drawn": 1,
     "lost": 4,
-    "goalsFor": 34,
-    "goalsAgainst": 27,
-    "points": 13
+    "goalsFor": 38,
+    "goalsAgainst": 30,
+    "points": 16
    }
   },
   {
@@ -290,13 +308,13 @@
    "teamId": "395",
    "name": "Albán Focisuli",
    "totals": {
-    "played": 9,
-    "won": 4,
+    "played": 10,
+    "won": 5,
     "drawn": 2,
     "lost": 3,
-    "goalsFor": 36,
-    "goalsAgainst": 36,
-    "points": 14
+    "goalsFor": 41,
+    "goalsAgainst": 39,
+    "points": 17
    }
   },
   {
@@ -355,13 +373,13 @@
    "teamId": "473",
    "name": "FC T4",
    "totals": {
-    "played": 8,
-    "won": 6,
+    "played": 9,
+    "won": 7,
     "drawn": 1,
     "lost": 1,
-    "goalsFor": 37,
-    "goalsAgainst": 23,
-    "points": 19
+    "goalsFor": 41,
+    "goalsAgainst": 25,
+    "points": 22
    }
   },
   {
@@ -420,25 +438,25 @@
    "teamId": "965",
    "name": "Akela",
    "totals": {
-    "played": 6,
-    "won": 5,
+    "played": 7,
+    "won": 6,
     "drawn": 0,
     "lost": 1,
-    "goalsFor": 25,
-    "goalsAgainst": 16,
-    "points": 15
+    "goalsFor": 29,
+    "goalsAgainst": 19,
+    "points": 18
    }
   },
   {
    "teamId": "1019",
    "name": "Micro Soccer",
    "totals": {
-    "played": 4,
+    "played": 5,
     "won": 4,
     "drawn": 0,
-    "lost": 0,
-    "goalsFor": 33,
-    "goalsAgainst": 15,
+    "lost": 1,
+    "goalsFor": 34,
+    "goalsAgainst": 17,
     "points": 12
    }
   },
@@ -485,12 +503,12 @@
    "teamId": "77",
    "name": "Keverton",
    "totals": {
-    "played": 3,
+    "played": 4,
     "won": 3,
     "drawn": 0,
-    "lost": 0,
-    "goalsFor": 19,
-    "goalsAgainst": 7,
+    "lost": 1,
+    "goalsFor": 24,
+    "goalsAgainst": 13,
     "points": 9
    }
   },
@@ -511,25 +529,25 @@
    "teamId": "1138",
    "name": "Fc Titán",
    "totals": {
-    "played": 2,
-    "won": 2,
+    "played": 3,
+    "won": 3,
     "drawn": 0,
     "lost": 0,
-    "goalsFor": 14,
-    "goalsAgainst": 7,
-    "points": 6
+    "goalsFor": 23,
+    "goalsAgainst": 12,
+    "points": 9
    }
   },
   {
    "teamId": "1180",
    "name": "Nem fog fájni",
    "totals": {
-    "played": 1,
+    "played": 2,
     "won": 1,
     "drawn": 0,
-    "lost": 0,
-    "goalsFor": 5,
-    "goalsAgainst": 1,
+    "lost": 1,
+    "goalsFor": 8,
+    "goalsAgainst": 6,
     "points": 3
    }
   },
@@ -543,6 +561,32 @@
     "lost": 0,
     "goalsFor": 15,
     "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1203",
+   "name": "Qpon",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1204",
+   "name": "Sörhenger",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 1,
     "points": 3
    }
   }
@@ -641,11 +685,11 @@
    }
   }
  },
- "cleanSheets": 5,
+ "cleanSheets": 6,
  "failedToScore": 2,
  "scorers": {
-  "playedMatches": 97,
-  "coveredMatches": 97,
+  "playedMatches": 108,
+  "coveredMatches": 108,
   "rows": []
  }
 }

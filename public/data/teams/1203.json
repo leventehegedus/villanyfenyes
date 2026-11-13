@@ -1,0 +1,273 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1203",
+ "names": [
+  "Qpon"
+ ],
+ "seasons": [
+  {
+   "seasonId": 38,
+   "label": "2007 - Tavasz",
+   "league": "L1",
+   "finished": true,
+   "position": 12,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 11,
+    "won": 2,
+    "drawn": 1,
+    "lost": 8,
+    "goalsFor": 36,
+    "goalsAgainst": 51,
+    "points": 7
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "550",
+   "name": "FociSCHták",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1180",
+   "name": "Nem fog fájni",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "853",
+   "name": "Fabatka \"B\"",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "965",
+   "name": "Akela",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1019",
+   "name": "Micro Soccer",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "473",
+   "name": "FC T4",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 1,
+    "goalsAgainst": 1,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "395",
+   "name": "Albán Focisuli",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "196",
+   "name": "Koma Sutra",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "77",
+   "name": "Keverton",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1204",
+   "name": "Sörhenger",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1138",
+   "name": "Fc Titán",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 38,
+   "league": "L1",
+   "matchId": "35947",
+   "kickoff": "2025-05-19T06:15:41.000Z",
+   "opponentId": "77",
+   "goalsFor": 3,
+   "goalsAgainst": 1
+  },
+  "biggestDefeat": {
+   "seasonId": 38,
+   "league": "L1",
+   "matchId": "35949",
+   "kickoff": "2025-05-19T06:15:41.000Z",
+   "opponentId": "196",
+   "goalsFor": 0,
+   "goalsAgainst": 4
+  },
+  "highestScoring": {
+   "seasonId": 38,
+   "league": "L1",
+   "matchId": "35948",
+   "kickoff": "2025-05-19T06:15:41.000Z",
+   "opponentId": "395",
+   "goalsFor": 5,
+   "goalsAgainst": 9
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 2,
+   "from": {
+    "seasonId": 38,
+    "league": "L1",
+    "matchId": "35947",
+    "kickoff": "2025-05-19T06:15:41.000Z",
+    "opponentId": "77",
+    "goalsFor": 3,
+    "goalsAgainst": 1
+   },
+   "to": {
+    "seasonId": 38,
+    "league": "L1",
+    "matchId": "35946",
+    "kickoff": "2025-05-19T06:15:41.000Z",
+    "opponentId": "1204",
+    "goalsFor": 3,
+    "goalsAgainst": 2
+   }
+  },
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 38,
+    "league": "L1",
+    "matchId": "35947",
+    "kickoff": "2025-05-19T06:15:41.000Z",
+    "opponentId": "77",
+    "goalsFor": 3,
+    "goalsAgainst": 1
+   },
+   "to": {
+    "seasonId": 38,
+    "league": "L1",
+    "matchId": "35946",
+    "kickoff": "2025-05-19T06:15:41.000Z",
+    "opponentId": "1204",
+    "goalsFor": 3,
+    "goalsAgainst": 2
+   }
+  },
+  "loss": {
+   "length": 5,
+   "from": {
+    "seasonId": 38,
+    "league": "L1",
+    "matchId": "35922",
+    "kickoff": "2025-05-19T06:15:37.000Z",
+    "opponentId": "550",
+    "goalsFor": 3,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 38,
+    "league": "L1",
+    "matchId": "35944",
+    "kickoff": "2025-05-19T06:15:41.000Z",
+    "opponentId": "1019",
+    "goalsFor": 5,
+    "goalsAgainst": 6
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 1,
+ "scorers": {
+  "playedMatches": 11,
+  "coveredMatches": 11,
+  "rows": []
+ }
+}
