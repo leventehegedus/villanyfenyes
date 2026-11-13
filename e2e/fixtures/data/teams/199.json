@@ -1,0 +1,45 @@
+{
+ "schemaVersion": 1,
+ "teamId": "199",
+ "names": [
+  "2 zenész"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L1",
+   "finished": false,
+   "position": 5,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 0,
+    "won": 0,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 0,
+    "goalsAgainst": 0,
+    "points": 0
+   }
+  }
+ ],
+ "opponents": [],
+ "records": {
+  "biggestWin": null,
+  "biggestDefeat": null,
+  "highestScoring": null
+ },
+ "streaks": {
+  "win": null,
+  "unbeaten": null,
+  "loss": null
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 0,
+  "coveredMatches": 0,
+  "rows": []
+ }
+}
