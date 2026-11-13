@@ -19,6 +19,11 @@ export default function TeamCharts({ teamId, progression, teamName }: Props) {
   }))
   // One tick per win, like the league chart.
   const pointTicks = stepTicks(progression.at(-1)?.points ?? 0, 3)
+  // Same as every other match hover: just "Home h:a Away".
+  const matchOnly = ({ active, payload }: { active?: boolean; payload?: readonly { payload?: { match?: string } }[] }) =>
+    active && payload?.[0]?.payload?.match ? (
+      <div className="rounded-lg border bg-popover px-2.5 py-1.5 text-xs font-medium shadow-md">{payload[0].payload.match}</div>
+    ) : null
   const tooltip = (
     <ChartTooltipContent
       labelFormatter={(label, payload) => {
@@ -54,7 +59,7 @@ export default function TeamCharts({ teamId, progression, teamName }: Props) {
             <CartesianGrid vertical={false} />
             <XAxis dataKey="label" tickLine={false} axisLine={false} fontSize={11} />
             <YAxis allowDecimals={false} tickLine={false} axisLine={false} fontSize={11} />
-            <ChartTooltip content={tooltip} />
+            <ChartTooltip content={matchOnly} />
             <Bar dataKey="goalsFor" fill="var(--color-goalsFor)" radius={2} isAnimationActive={false} />
             <Bar dataKey="goalsAgainst" fill="var(--color-goalsAgainst)" radius={2} isAnimationActive={false} />
           </BarChart>
