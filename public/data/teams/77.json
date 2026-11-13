@@ -130,6 +130,24 @@
     "goalsAgainst": 34,
     "points": 21
    }
+  },
+  {
+   "seasonId": 43,
+   "label": "2004 - Ősz",
+   "league": "L1",
+   "finished": true,
+   "position": 5,
+   "teamsInLeague": 11,
+   "marker": null,
+   "totals": {
+    "played": 10,
+    "won": 5,
+    "drawn": 1,
+    "lost": 4,
+    "goalsFor": 39,
+    "goalsAgainst": 31,
+    "points": 16
+   }
   }
  ],
  "opponents": [
@@ -137,12 +155,12 @@
    "teamId": "1019",
    "name": "Micro Soccer",
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 0,
     "drawn": 1,
-    "lost": 6,
-    "goalsFor": 28,
-    "goalsAgainst": 47,
+    "lost": 7,
+    "goalsFor": 31,
+    "goalsAgainst": 52,
     "points": 1
    }
   },
@@ -176,12 +194,12 @@
    "teamId": "196",
    "name": "Koma Sutra",
    "totals": {
-    "played": 6,
+    "played": 7,
     "won": 3,
     "drawn": 0,
-    "lost": 3,
-    "goalsFor": 31,
-    "goalsAgainst": 32,
+    "lost": 4,
+    "goalsFor": 32,
+    "goalsAgainst": 39,
     "points": 9
    }
   },
@@ -228,12 +246,12 @@
    "teamId": "395",
    "name": "Albán Focisuli",
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 0,
     "drawn": 1,
-    "lost": 6,
-    "goalsFor": 24,
-    "goalsAgainst": 45,
+    "lost": 7,
+    "goalsFor": 26,
+    "goalsAgainst": 51,
     "points": 1
    }
   },
@@ -319,12 +337,12 @@
    "teamId": "1181",
    "name": "Bobo FC",
    "totals": {
-    "played": 4,
+    "played": 5,
     "won": 2,
     "drawn": 1,
-    "lost": 1,
-    "goalsFor": 20,
-    "goalsAgainst": 18,
+    "lost": 2,
+    "goalsFor": 23,
+    "goalsAgainst": 22,
     "points": 7
    }
   },
@@ -332,13 +350,13 @@
    "teamId": "1203",
    "name": "Qpon",
    "totals": {
-    "played": 4,
-    "won": 2,
+    "played": 5,
+    "won": 3,
     "drawn": 0,
     "lost": 2,
-    "goalsFor": 11,
+    "goalsFor": 14,
     "goalsAgainst": 10,
-    "points": 6
+    "points": 9
    }
   },
   {
@@ -371,26 +389,65 @@
    "teamId": "446",
    "name": "Hanyatt SE",
    "totals": {
-    "played": 2,
-    "won": 1,
+    "played": 3,
+    "won": 2,
     "drawn": 0,
     "lost": 1,
-    "goalsFor": 8,
-    "goalsAgainst": 12,
-    "points": 3
+    "goalsFor": 14,
+    "goalsAgainst": 15,
+    "points": 6
    }
   },
   {
    "teamId": "892",
    "name": "NOném3fcé",
    "totals": {
-    "played": 2,
-    "won": 2,
+    "played": 3,
+    "won": 3,
     "drawn": 0,
     "lost": 0,
-    "goalsFor": 14,
-    "goalsAgainst": 5,
-    "points": 6
+    "goalsFor": 22,
+    "goalsAgainst": 6,
+    "points": 9
+   }
+  },
+  {
+   "teamId": "1286",
+   "name": "DOMBI TIBOR FUN CLUB",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 1,
+    "goalsAgainst": 1,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "1306",
+   "name": "Csel-zi",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1259",
+   "name": "MSC Gépész",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 1,
+    "points": 3
    }
   }
  ],
@@ -488,11 +545,11 @@
    }
   }
  },
- "cleanSheets": 1,
+ "cleanSheets": 2,
  "failedToScore": 3,
  "scorers": {
-  "playedMatches": 75,
-  "coveredMatches": 75,
+  "playedMatches": 85,
+  "coveredMatches": 85,
   "rows": []
  }
 }
