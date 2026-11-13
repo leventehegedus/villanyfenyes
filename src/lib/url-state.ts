@@ -45,3 +45,21 @@ export const writeHighlight = (ids: readonly string[]): string => (ids.length ==
 /** Adds or removes a team; any number can be highlighted. */
 export const toggleHighlight = (current: readonly string[], id: string): string[] =>
   current.includes(id) ? current.filter((x) => x !== id) : [...current, id]
+
+type SeasonLeague = { seasonId: number; league: string }
+
+/**
+ * Where a team page should go when the selected season/league is not one the team played:
+ * the team's league in the chosen season, else its newest season. Null when no move is needed
+ * or the target is not selectable (avoids redirecting to a page that renders nothing).
+ */
+export function teamRedirect(
+  only: readonly SeasonLeague[] | undefined,
+  seasonId: number | null,
+  league: string | null,
+  selectable: (target: SeasonLeague) => boolean,
+): SeasonLeague | null {
+  if (!only?.length || only.some((o) => o.seasonId === seasonId && o.league === league)) return null
+  const target = only.find((o) => o.seasonId === seasonId) ?? only[0]
+  return target && selectable(target) ? target : null
+}

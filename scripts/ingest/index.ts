@@ -73,18 +73,19 @@ async function main(): Promise<number> {
     `requests ${client.used()} · files ${result.files.size} · skipped ${report.skippedRows.count} · warnings ${report.warnings.length} · mismatches ${report.mismatches.length} · pending match pages ${report.pendingMatchDetails}`,
   )
   for (const w of report.warnings.slice(0, 10)) console.log(`warn: ${w}`)
-  const teams = result.errors.length > 0 ? null : teamFiles(out, result.files)
-  for (const w of teams?.warnings ?? []) console.log(`warn: ${w}`)
-  const errors = [...result.errors, ...(teams?.errors ?? [])]
-  if (errors.length > 0 || !teams) {
-    for (const e of errors) console.error(`gate failed: ${e}`)
+  if (result.errors.length > 0) {
+    for (const e of result.errors) console.error(`gate failed: ${e}`)
     console.error('Nothing written; previous data kept.')
     return 1
   }
+  // The all-time step must never block the season data: its failure only skips the team files.
+  const teams = teamFiles(out, result.files)
+  for (const w of teams.warnings) console.log(`warn: ${w}`)
+  for (const e of teams.errors) console.error(`team files failed: ${e}`)
   if (values['dry-run']) {
     console.log(`team files ${teams.files.size}`)
     console.log('Dry run: nothing written.')
-    return 0
+    return teams.errors.length > 0 ? 1 : 0
   }
 
   const changed = [...result.files].filter(([rel, value]) => writeIfChanged(out, rel, value))
@@ -106,7 +107,8 @@ async function main(): Promise<number> {
   }
   const teamsChanged = [...teams.files].filter(([rel, value]) => writeIfChanged(out, rel, value))
   console.log(`changed: ${changed.map(([rel]) => rel).join(', ') || 'none'} · team files changed ${teamsChanged.length}`)
-  return 0
+  // Non-zero so CI notices, after the season files are safely written.
+  return teams.errors.length > 0 ? 1 : 0
 }
 
 main().then(

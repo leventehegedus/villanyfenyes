@@ -10,12 +10,14 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { usePrefs, useT } from '@/hooks/prefs'
 import { useTeamAllTime } from '@/hooks/queries'
 import { useLeagueData } from '@/hooks/useLeagueData'
+import { useSelection } from '@/hooks/useSelection'
 import type { LeagueData } from '@/lib/data'
 import { formatDecimal } from '@/lib/format'
 import { filterMatches } from '@/lib/schedule'
 import { playerPath } from '@/lib/paths'
 import { aggregateScorers } from '@/lib/scorers'
 import { teamStats } from '@/lib/stats'
+import { teamRedirect } from '@/lib/url-state'
 import type { TeamResult } from '@/lib/stats'
 
 const TeamCharts = lazy(() => import('@/components/TeamCharts'))
@@ -130,11 +132,15 @@ function TeamView({ teamId, data, keep, teamName }: { teamId: string; data: Leag
 export default function TeamPage() {
   const { teamId = '' } = useParams()
   const { query, keep, teamName, seasonId, league, noData } = useLeagueData()
+  const { seasons, params } = useSelection()
   // Without a team file (404, not ingested yet) the picker keeps the full list.
   const only = useTeamAllTime(teamId).data?.seasons.map((s) => ({ seasonId: s.seasonId, league: s.league }))
-  const newest = only?.[0]
-  if (newest && !only.some((o) => o.seasonId === seasonId && o.league === league)) {
-    return <Navigate to={`?s=${newest.seasonId}&l=${newest.league}`} replace />
+  const target = teamRedirect(only, seasonId, league, (o) => seasons.data?.leagues[String(o.seasonId)]?.includes(o.league) ?? false)
+  if (target) {
+    const next = new URLSearchParams(params)
+    next.set('s', String(target.seasonId))
+    next.set('l', target.league)
+    return <Navigate to={`?${next.toString()}`} replace />
   }
   return (
     <div className="space-y-4">
