@@ -27,3 +27,9 @@ Open / needs the live site: first scheduled ingest (all 19 leagues, match page f
 ## 2026-11-13 follow-ups (done)
 
 L1-only ingest; missing-data state; UI round: league progression chart and cross table (Statisztika tabs), form hover, complete weekly lists, centred match dialog, scorer team filter, hall of fame removed.
+
+## 2026-11-13 team all-time page (done)
+
+L1 backfill of all seasons (5-54; 51, 8 and 13 have no L1 table on the site). Per-team all-time page `/t/:teamId/osszes`: honours per league, totals per league, season timeline with best/worst season, goals-per-match chart, record matches, streaks across seasons, clean sheets / no-goal matches, head-to-head with favourite and bogey, all-time scorers with coverage. Team page season picker lists only the team's seasons. Data: `public/data/teams/<id>.json` from `pnpm ingest` (or `--teams-only`).
+
+Next: enable more leagues in `src/lib/leagues.ts` when wanted (the page already handles several). Deferred: venue and kick-off time breakdowns, sortable opponents table.

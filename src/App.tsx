@@ -11,6 +11,7 @@ const StandingsPage = lazy(() => import('@/pages/StandingsPage'))
 const SchedulePage = lazy(() => import('@/pages/SchedulePage'))
 const MatchDialog = lazy(() => import('@/pages/MatchDialog'))
 const TeamPage = lazy(() => import('@/pages/TeamPage'))
+const TeamAllTimePage = lazy(() => import('@/pages/TeamAllTimePage'))
 const PlayerPage = lazy(() => import('@/pages/PlayerPage'))
 const ScorersPage = lazy(() => import('@/pages/ScorersPage'))
 const StatsPage = lazy(() => import('@/pages/StatsPage'))
@@ -48,6 +49,7 @@ export default function App() {
                     </>
                   }
                 />
+                <Route path="t/:teamId/osszes" element={<TeamAllTimePage />} />
                 <Route path="t/:teamId" element={<TeamPage />} />
                 <Route path="j/:teamId/:name" element={<PlayerPage />} />
                 <Route path="golok" element={<ScorersPage />} />

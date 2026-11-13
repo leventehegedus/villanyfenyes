@@ -2,11 +2,17 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { useT } from '@/hooks/prefs'
 import { useSelection } from '@/hooks/useSelection'
 
-export function SeasonLeaguePicker() {
+type SeasonLeague = { seasonId: number; league: string }
+
+/** `only` limits the choices, e.g. to the seasons and leagues one team played in. */
+export function SeasonLeaguePicker({ only }: { only?: readonly SeasonLeague[] }) {
   const t = useT()
-  const { seasons, seasonId, league, leagues, setSelection } = useSelection()
+  const { seasons, seasonId, league, leagues: all, setSelection } = useSelection()
   const withData = seasons.data?.leagues ?? {}
-  const options = (seasons.data?.seasons ?? []).filter((s) => withData[String(s.id)]?.length)
+  const options = (seasons.data?.seasons ?? []).filter(
+    (s) => withData[String(s.id)]?.length && (!only || only.some((o) => o.seasonId === s.id)),
+  )
+  const leagues = only ? all.filter((code) => only.some((o) => o.seasonId === seasonId && o.league === code)) : all
 
   return (
     <div className="flex flex-wrap gap-2">

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { formatKickoff, isStale } from './format'
+import { formatDate, formatKickoff, isStale } from './format'
 
 describe('format', () => {
   it('formats kickoff in the chosen time zone', () => {
@@ -31,5 +31,11 @@ describe('stepTicks', () => {
     expect(stepTicks(21, 3)).toEqual([0, 3, 6, 9, 12, 15, 18, 21])
     expect(stepTicks(22, 3).at(-1)).toBe(24)
     expect(stepTicks(0, 3)).toEqual([0, 3])
+  })
+})
+
+describe('formatDate', () => {
+  it('shows year, month and day in the given zone', () => {
+    expect(formatDate('2025-03-01T23:30:00.000Z', 'hu', 'Europe/Budapest')).toBe('2025. 03. 02.')
   })
 })

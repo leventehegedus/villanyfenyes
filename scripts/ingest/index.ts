@@ -5,6 +5,7 @@ import { politeFetcher } from './fetch.ts'
 import { fixtureSource } from './fixture-source.ts'
 import { SITE, runIngest } from './run.ts'
 import type { Source } from './run.ts'
+import { teamFiles } from './alltime-step.ts'
 import { readJson, writeIfChanged } from './write.ts'
 
 const USER_AGENT =
@@ -17,6 +18,7 @@ const { values } = parseArgs({
     league: { type: 'string', multiple: true },
     'dry-run': { type: 'boolean', default: false },
     fixtures: { type: 'boolean', default: false },
+    'teams-only': { type: 'boolean', default: false },
     out: { type: 'string', default: 'public/data' },
     budget: { type: 'string', default: '200' },
     delay: { type: 'string', default: '1500' },
@@ -30,8 +32,20 @@ const positiveInt = (name: string, raw: string): number => {
   return n
 }
 
+/** Rebuilds teams/*.json from the league files already on disk; no requests. */
+function teamsOnly(out: string): number {
+  const { files, warnings, errors } = teamFiles(out, new Map())
+  for (const w of warnings) console.log(`warn: ${w}`)
+  for (const e of errors) console.error(`gate failed: ${e}`)
+  if (errors.length > 0) return 1
+  const changed = values['dry-run'] ? [] : [...files].filter(([rel, value]) => writeIfChanged(out, rel, value))
+  console.log(`team files ${files.size} · changed ${changed.length}${values['dry-run'] ? ' · dry run' : ''}`)
+  return 0
+}
+
 async function main(): Promise<number> {
   const out = resolve(values.out)
+  if (values['teams-only']) return teamsOnly(out)
   const budget = positiveInt('budget', values.budget)
   const delayMs = positiveInt('delay', values.delay)
   const now = values.now ? new Date(values.now) : new Date()
@@ -64,9 +78,14 @@ async function main(): Promise<number> {
     console.error('Nothing written; previous data kept.')
     return 1
   }
+  // The all-time step must never block the season data: its failure only skips the team files.
+  const teams = teamFiles(out, result.files)
+  for (const w of teams.warnings) console.log(`warn: ${w}`)
+  for (const e of teams.errors) console.error(`team files failed: ${e}`)
   if (values['dry-run']) {
+    console.log(`team files ${teams.files.size}`)
     console.log('Dry run: nothing written.')
-    return 0
+    return teams.errors.length > 0 ? 1 : 0
   }
 
   const changed = [...result.files].filter(([rel, value]) => writeIfChanged(out, rel, value))
@@ -86,8 +105,10 @@ async function main(): Promise<number> {
       }),
     )
   }
-  console.log(`changed: ${changed.map(([rel]) => rel).join(', ') || 'none'}`)
-  return 0
+  const teamsChanged = [...teams.files].filter(([rel, value]) => writeIfChanged(out, rel, value))
+  console.log(`changed: ${changed.map(([rel]) => rel).join(', ') || 'none'} · team files changed ${teamsChanged.length}`)
+  // Non-zero so CI notices, after the season files are safely written.
+  return teams.errors.length > 0 ? 1 : 0
 }
 
 main().then(

@@ -1,0 +1,108 @@
+{
+ "schemaVersion": 1,
+ "teamId": "100",
+ "names": [
+  "Gyermekláncfűrész"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L1",
+   "finished": false,
+   "position": 2,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "69",
+   "name": "Lokomotív MFC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": null,
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L1",
+   "matchId": "48343",
+   "kickoff": "2026-11-11T19:00:00.000Z",
+   "opponentId": "69",
+   "goalsFor": 2,
+   "goalsAgainst": 3
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L1",
+   "matchId": "48343",
+   "kickoff": "2026-11-11T19:00:00.000Z",
+   "opponentId": "69",
+   "goalsFor": 2,
+   "goalsAgainst": 3
+  }
+ },
+ "streaks": {
+  "win": null,
+  "unbeaten": null,
+  "loss": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L1",
+    "matchId": "48343",
+    "kickoff": "2026-11-11T19:00:00.000Z",
+    "opponentId": "69",
+    "goalsFor": 2,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L1",
+    "matchId": "48343",
+    "kickoff": "2026-11-11T19:00:00.000Z",
+    "opponentId": "69",
+    "goalsFor": 2,
+    "goalsAgainst": 3
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 1,
+  "coveredMatches": 1,
+  "rows": [
+   {
+    "name": "Füle András",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Horváth Dávid",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

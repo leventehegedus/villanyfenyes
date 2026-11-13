@@ -57,3 +57,7 @@ export function stepTicks(max: number, step: number): number[] {
   const top = Math.max(step, Math.ceil(Math.max(0, max) / step) * step)
   return Array.from({ length: top / step + 1 }, (_, i) => i * step)
 }
+
+export function formatDate(iso: string, locale: Locale, timeZone: string): string {
+  return new Intl.DateTimeFormat(locale, { year: 'numeric', month: '2-digit', day: '2-digit', timeZone }).format(new Date(iso))
+}

@@ -37,3 +37,12 @@
 
 - The main session ran on Opus 5.5 (session model chosen by the user); the build prompt's `opusplan` routing was not available here.
 - One Opus subagent: the final review before the last commit (allowed use 2). The project agents in `.claude/agents/` were created mid-session and only load in a new session, so a `general-purpose` agent with `model: opus` was used.
+
+## Team all-time page (2026-11-13)
+
+- **Per-team files built by the ingest** (`public/data/teams/<teamId>.json`), not aggregated in the browser: with all leagues enabled a browser-side aggregate would need up to ~900 league files per page view. Computation lives in `src/lib/alltime.ts`; `scripts/ingest/alltime-step.ts` only reads files and calls it. Spec: `docs/superpowers/specs/2026-11-13-team-alltime-design.md`.
+- **`pnpm ingest --teams-only`** rebuilds the team files from the league files on disk without any request.
+- **Team id stability**: a dry run over the backfilled L1 seasons found no team name under more than one id; the ingest now warns if that ever happens.
+- **Current season** counts in totals, records, streaks, opponents and scorers, but not in honours or best/worst season. Honours are per league. Favourite/bogey need at least 3 meetings.
+- Implemented inline by the main session (owner left the method to me) instead of the `builder` subagent: the tasks shared one set of types closely.
+- **Opus reviewer** (allowed use 2): one final whole-branch review of `feat/team-alltime` before merge.

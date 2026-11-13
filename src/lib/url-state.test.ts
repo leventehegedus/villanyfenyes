@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { parseStandingsSort, readHighlight, readMatchFilters, toggleHighlight, writeHighlight } from './url-state'
+import { parseStandingsSort, readHighlight, readMatchFilters, teamRedirect, toggleHighlight, writeHighlight } from './url-state'
 
 describe('url state', () => {
   it('reads match filters with defaults', () => {
@@ -26,5 +26,30 @@ describe('chart highlight', () => {
     expect(toggleHighlight(['1', '2'], '2')).toEqual(['1'])
     expect(toggleHighlight(['1', '2', '3', '4', '5'], '6')).toEqual(['1', '2', '3', '4', '5', '6'])
     expect(readHighlight('1,2,3,4,5', ids, [])).toHaveLength(5)
+  })
+})
+
+describe('teamRedirect', () => {
+  const only = [
+    { seasonId: 55, league: 'L1' },
+    { seasonId: 54, league: 'L2A' },
+  ]
+  const all = () => true
+
+  it('keeps a season and league the team played', () => {
+    expect(teamRedirect(only, 55, 'L1', all)).toBeNull()
+  })
+  it('switches to the team league within the chosen season', () => {
+    expect(teamRedirect(only, 54, 'L1', all)).toEqual({ seasonId: 54, league: 'L2A' })
+  })
+  it('falls back to the newest team season', () => {
+    expect(teamRedirect(only, 30, 'L1', all)).toEqual({ seasonId: 55, league: 'L1' })
+  })
+  it('does not redirect to a pair the app cannot select', () => {
+    expect(teamRedirect(only, 30, 'L1', () => false)).toBeNull()
+  })
+  it('does nothing without team seasons', () => {
+    expect(teamRedirect(undefined, 30, 'L1', all)).toBeNull()
+    expect(teamRedirect([], 30, 'L1', all)).toBeNull()
   })
 })

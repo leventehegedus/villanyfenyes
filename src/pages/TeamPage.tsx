@@ -1,5 +1,5 @@
 import { Suspense, lazy } from 'react'
-import { Link, useParams } from 'react-router'
+import { Link, Navigate, useParams } from 'react-router'
 import { FormStrip } from '@/components/FormStrip'
 import { Markers } from '@/components/Markers'
 import { MatchList } from '@/components/MatchList'
@@ -8,13 +8,16 @@ import { SeasonLeaguePicker } from '@/components/SeasonLeaguePicker'
 import { Stat } from '@/components/Stat'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { usePrefs, useT } from '@/hooks/prefs'
+import { useTeamAllTime } from '@/hooks/queries'
 import { useLeagueData } from '@/hooks/useLeagueData'
+import { useSelection } from '@/hooks/useSelection'
 import type { LeagueData } from '@/lib/data'
 import { formatDecimal } from '@/lib/format'
 import { filterMatches } from '@/lib/schedule'
 import { playerPath } from '@/lib/paths'
 import { aggregateScorers } from '@/lib/scorers'
 import { teamStats } from '@/lib/stats'
+import { teamRedirect } from '@/lib/url-state'
 import type { TeamResult } from '@/lib/stats'
 
 const TeamCharts = lazy(() => import('@/components/TeamCharts'))
@@ -41,6 +44,9 @@ function TeamView({ teamId, data, keep, teamName }: { teamId: string; data: Leag
             {data.league} · {t('position')}: {row?.position ?? missing} · {t('points')}: {row?.points ?? missing}
           </p>
           {row && <Markers markers={row.markers} />}
+          <Link to={`/t/${encodeURIComponent(teamId)}/osszes${keep}`} className="text-sm font-medium text-primary hover:underline">
+            {t('allTime')} →
+          </Link>
         </div>
         <div title={t('formHint')}>
           <p className="mb-1 text-xs text-muted-foreground">{t('form')}</p>
@@ -126,9 +132,19 @@ function TeamView({ teamId, data, keep, teamName }: { teamId: string; data: Leag
 export default function TeamPage() {
   const { teamId = '' } = useParams()
   const { query, keep, teamName, seasonId, league, noData } = useLeagueData()
+  const { seasons, params } = useSelection()
+  // Without a team file (404, not ingested yet) the picker keeps the full list.
+  const only = useTeamAllTime(teamId).data?.seasons.map((s) => ({ seasonId: s.seasonId, league: s.league }))
+  const target = teamRedirect(only, seasonId, league, (o) => seasons.data?.leagues[String(o.seasonId)]?.includes(o.league) ?? false)
+  if (target) {
+    const next = new URLSearchParams(params)
+    next.set('s', String(target.seasonId))
+    next.set('l', target.league)
+    return <Navigate to={`?${next.toString()}`} replace />
+  }
   return (
     <div className="space-y-4">
-      <SeasonLeaguePicker />
+      <SeasonLeaguePicker only={only} />
       <QueryBoundary query={query} idle={noData || seasonId === null || league === null}>
         {(data) => <TeamView teamId={teamId} data={data} keep={keep} teamName={teamName} />}
       </QueryBoundary>
