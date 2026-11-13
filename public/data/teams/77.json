@@ -166,6 +166,24 @@
     "goalsAgainst": 42,
     "points": 17
    }
+  },
+  {
+   "seasonId": 45,
+   "label": "2003 - Ősz",
+   "league": "L1",
+   "finished": true,
+   "position": 7,
+   "teamsInLeague": 11,
+   "marker": null,
+   "totals": {
+    "played": 9,
+    "won": 3,
+    "drawn": 1,
+    "lost": 5,
+    "goalsFor": 23,
+    "goalsAgainst": 29,
+    "points": 10
+   }
   }
  ],
  "opponents": [
@@ -173,13 +191,13 @@
    "teamId": "1019",
    "name": "Micro Soccer",
    "totals": {
-    "played": 9,
+    "played": 10,
     "won": 0,
-    "drawn": 1,
+    "drawn": 2,
     "lost": 8,
-    "goalsFor": 32,
-    "goalsAgainst": 57,
-    "points": 1
+    "goalsFor": 33,
+    "goalsAgainst": 58,
+    "points": 2
    }
   },
   {
@@ -212,13 +230,13 @@
    "teamId": "196",
    "name": "Koma Sutra",
    "totals": {
-    "played": 8,
-    "won": 3,
+    "played": 9,
+    "won": 4,
     "drawn": 0,
     "lost": 5,
-    "goalsFor": 34,
-    "goalsAgainst": 47,
-    "points": 9
+    "goalsFor": 39,
+    "goalsAgainst": 50,
+    "points": 12
    }
   },
   {
@@ -264,12 +282,12 @@
    "teamId": "395",
    "name": "Albán Focisuli",
    "totals": {
-    "played": 9,
+    "played": 10,
     "won": 1,
     "drawn": 1,
-    "lost": 7,
-    "goalsFor": 31,
-    "goalsAgainst": 52,
+    "lost": 8,
+    "goalsFor": 33,
+    "goalsAgainst": 55,
     "points": 4
    }
   },
@@ -355,12 +373,12 @@
    "teamId": "1181",
    "name": "Bobo FC",
    "totals": {
-    "played": 6,
+    "played": 7,
     "won": 2,
     "drawn": 1,
-    "lost": 3,
-    "goalsFor": 25,
-    "goalsAgainst": 28,
+    "lost": 4,
+    "goalsFor": 28,
+    "goalsAgainst": 32,
     "points": 7
    }
   },
@@ -407,12 +425,12 @@
    "teamId": "446",
    "name": "Hanyatt SE",
    "totals": {
-    "played": 4,
+    "played": 5,
     "won": 2,
     "drawn": 0,
-    "lost": 2,
-    "goalsFor": 16,
-    "goalsAgainst": 18,
+    "lost": 3,
+    "goalsFor": 17,
+    "goalsAgainst": 25,
     "points": 6
    }
   },
@@ -459,25 +477,25 @@
    "teamId": "1259",
    "name": "MSC Gépész",
    "totals": {
-    "played": 2,
-    "won": 1,
+    "played": 3,
+    "won": 2,
     "drawn": 1,
     "lost": 0,
-    "goalsFor": 9,
+    "goalsFor": 10,
     "goalsAgainst": 6,
-    "points": 4
+    "points": 7
    }
   },
   {
    "teamId": "442",
    "name": "Csillagrombolók FC",
    "totals": {
-    "played": 1,
+    "played": 2,
     "won": 1,
     "drawn": 0,
-    "lost": 0,
-    "goalsFor": 5,
-    "goalsAgainst": 4,
+    "lost": 1,
+    "goalsFor": 7,
+    "goalsAgainst": 7,
     "points": 3
    }
   },
@@ -485,12 +503,12 @@
    "teamId": "1152",
    "name": "Lúzer SC",
    "totals": {
-    "played": 1,
+    "played": 2,
     "won": 1,
     "drawn": 0,
-    "lost": 0,
-    "goalsFor": 3,
-    "goalsAgainst": 2,
+    "lost": 1,
+    "goalsFor": 7,
+    "goalsAgainst": 7,
     "points": 3
    }
   },
@@ -517,6 +535,19 @@
     "lost": 0,
     "goalsFor": 3,
     "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1308",
+   "name": "Ditrik Drink Tím",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 3,
     "points": 3
    }
   }
@@ -615,11 +646,11 @@
    }
   }
  },
- "cleanSheets": 2,
+ "cleanSheets": 3,
  "failedToScore": 3,
  "scorers": {
-  "playedMatches": 96,
-  "coveredMatches": 96,
+  "playedMatches": 105,
+  "coveredMatches": 105,
   "rows": []
  }
 }
