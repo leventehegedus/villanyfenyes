@@ -1742,26 +1742,26 @@
    "scorers": [
     {
      "name": "Wolford Márk",
-     "teamId": "90",
-     "goals": 2
+     "goals": 2,
+     "teamId": "90"
     },
     {
      "name": "Tóth Krisztián Kristóf",
-     "teamId": "90",
-     "goals": 1
+     "goals": 1,
+     "teamId": "90"
     },
     {
      "name": "Mucsi Mihály",
-     "teamId": "90",
-     "goals": 1
+     "goals": 1,
+     "teamId": "90"
     },
     {
      "name": "Németh Csaba",
-     "teamId": "90",
-     "goals": 1
+     "goals": 1,
+     "teamId": "90"
     }
    ],
-   "detailFetchedAt": "2026-11-12T23:15:44.683Z"
+   "detailFetchedAt": "2026-11-13T06:49:49.930Z"
   },
   {
    "id": "48343",
@@ -1815,31 +1815,31 @@
    "scorers": [
     {
      "name": "Gedó Lóránt",
-     "teamId": "238",
-     "goals": 3
+     "goals": 3,
+     "teamId": "238"
     },
     {
      "name": "Maafi Dávid",
-     "teamId": "238",
-     "goals": 1
+     "goals": 1,
+     "teamId": "238"
     },
     {
      "name": "Gelics Márton",
-     "teamId": "238",
-     "goals": 1
+     "goals": 1,
+     "teamId": "238"
     },
     {
      "name": "Gauzer Levente",
-     "teamId": "238",
-     "goals": 1
+     "goals": 1,
+     "teamId": "238"
     },
     {
      "name": "Szűcs Balázs",
-     "teamId": "238",
-     "goals": 1
+     "goals": 1,
+     "teamId": "238"
     }
    ],
-   "detailFetchedAt": "2026-11-12T23:15:44.683Z"
+   "detailFetchedAt": "2026-11-13T06:49:49.930Z"
   },
   {
    "id": "48345",
@@ -1854,21 +1854,21 @@
    "scorers": [
     {
      "name": "Jurák Péter",
-     "teamId": "107",
-     "goals": 2
+     "goals": 2,
+     "teamId": "107"
     },
     {
      "name": "Szabo Andras",
-     "teamId": "107",
-     "goals": 1
+     "goals": 1,
+     "teamId": "107"
     },
     {
      "name": "sikvölgyi martin",
-     "teamId": "107",
-     "goals": 1
+     "goals": 1,
+     "teamId": "107"
     }
    ],
-   "detailFetchedAt": "2026-11-12T23:15:44.683Z"
+   "detailFetchedAt": "2026-11-13T06:49:49.930Z"
   },
   {
    "id": "48346",
@@ -1881,7 +1881,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-12T23:15:44.683Z"
+   "detailFetchedAt": "2026-11-13T06:49:49.930Z"
   },
   {
    "id": "48347",
@@ -1894,7 +1894,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-12T23:15:44.683Z"
+   "detailFetchedAt": "2026-11-13T06:49:49.930Z"
   },
   {
    "id": "x-55-L1-202611181800-invincibles-jezus-tanitvanyai",
@@ -2206,7 +2206,7 @@
    "teamId": "149",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Szabó Koppány",
+    "name": "Markó Péter Dániel",
     "goals": 5
    },
    "seasonsCount": 9,
