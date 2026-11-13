@@ -1,0 +1,2568 @@
+{
+ "schemaVersion": 1,
+ "seasonId": 53,
+ "league": "L1",
+ "sourceUrl": "https://villanyfenyesbajnoksag.hu/tabella?selected_season=53&league=L1",
+ "teams": [
+  {
+   "id": "69",
+   "siteId": 69,
+   "name": "Lokomotív MFC"
+  },
+  {
+   "id": "142",
+   "siteId": 142,
+   "name": "Szponzorok helye:_____"
+  },
+  {
+   "id": "149",
+   "siteId": 149,
+   "name": "Nagyon fincsi"
+  },
+  {
+   "id": "90",
+   "siteId": 90,
+   "name": "Invincibles"
+  },
+  {
+   "id": "93",
+   "siteId": 93,
+   "name": "Milinte te szemét Club de Football"
+  },
+  {
+   "id": "199",
+   "siteId": 199,
+   "name": "2 zenész"
+  },
+  {
+   "id": "94",
+   "siteId": 94,
+   "name": "Turbo Nitro Super Team"
+  },
+  {
+   "id": "100",
+   "siteId": 100,
+   "name": "Gyermekláncfűrész"
+  },
+  {
+   "id": "23",
+   "siteId": 23,
+   "name": "CS Tanszék"
+  },
+  {
+   "id": "154",
+   "siteId": 154,
+   "name": "Cefre Town"
+  },
+  {
+   "id": "28",
+   "siteId": 28,
+   "name": "TéSz"
+  },
+  {
+   "id": "115",
+   "siteId": 115,
+   "name": "Botladozó Fiúk"
+  }
+ ],
+ "standings": [
+  {
+   "position": 1,
+   "teamId": "69",
+   "played": 11,
+   "won": 10,
+   "drawn": 1,
+   "lost": 0,
+   "goalsFor": 61,
+   "goalsAgainst": 29,
+   "goalDiff": 32,
+   "points": 31,
+   "markers": [
+    "winStreak",
+    "fewConceded"
+   ]
+  },
+  {
+   "position": 2,
+   "teamId": "142",
+   "played": 11,
+   "won": 9,
+   "drawn": 0,
+   "lost": 2,
+   "goalsFor": 52,
+   "goalsAgainst": 24,
+   "goalDiff": 28,
+   "points": 27,
+   "markers": [
+    "fewConceded"
+   ]
+  },
+  {
+   "position": 3,
+   "teamId": "149",
+   "played": 11,
+   "won": 6,
+   "drawn": 1,
+   "lost": 4,
+   "goalsFor": 53,
+   "goalsAgainst": 38,
+   "goalDiff": 15,
+   "points": 19,
+   "markers": [
+    "fewConceded"
+   ]
+  },
+  {
+   "position": 4,
+   "teamId": "90",
+   "played": 11,
+   "won": 5,
+   "drawn": 2,
+   "lost": 4,
+   "goalsFor": 45,
+   "goalsAgainst": 41,
+   "goalDiff": 4,
+   "points": 17,
+   "markers": []
+  },
+  {
+   "position": 5,
+   "teamId": "93",
+   "played": 10,
+   "won": 5,
+   "drawn": 2,
+   "lost": 3,
+   "goalsFor": 48,
+   "goalsAgainst": 38,
+   "goalDiff": 10,
+   "points": 17,
+   "markers": [
+    "winStreak",
+    "fewConceded"
+   ]
+  },
+  {
+   "position": 6,
+   "teamId": "199",
+   "played": 11,
+   "won": 5,
+   "drawn": 2,
+   "lost": 4,
+   "goalsFor": 43,
+   "goalsAgainst": 36,
+   "goalDiff": 7,
+   "points": 17,
+   "markers": [
+    "fewConceded"
+   ]
+  },
+  {
+   "position": 7,
+   "teamId": "94",
+   "played": 11,
+   "won": 5,
+   "drawn": 2,
+   "lost": 4,
+   "goalsFor": 51,
+   "goalsAgainst": 44,
+   "goalDiff": 7,
+   "points": 17,
+   "markers": [
+    "winStreak"
+   ]
+  },
+  {
+   "position": 8,
+   "teamId": "100",
+   "played": 11,
+   "won": 4,
+   "drawn": 3,
+   "lost": 4,
+   "goalsFor": 49,
+   "goalsAgainst": 45,
+   "goalDiff": 4,
+   "points": 15,
+   "markers": []
+  },
+  {
+   "position": 9,
+   "teamId": "23",
+   "played": 10,
+   "won": 3,
+   "drawn": 0,
+   "lost": 7,
+   "goalsFor": 51,
+   "goalsAgainst": 57,
+   "goalDiff": -6,
+   "points": 9,
+   "markers": [
+    "lossStreak",
+    "relegation"
+   ]
+  },
+  {
+   "position": 10,
+   "teamId": "154",
+   "played": 11,
+   "won": 2,
+   "drawn": 0,
+   "lost": 9,
+   "goalsFor": 24,
+   "goalsAgainst": 82,
+   "goalDiff": -58,
+   "points": 6,
+   "markers": [
+    "lossStreak",
+    "relegation"
+   ]
+  },
+  {
+   "position": 11,
+   "teamId": "28",
+   "played": 9,
+   "won": 1,
+   "drawn": 2,
+   "lost": 6,
+   "goalsFor": 32,
+   "goalsAgainst": 50,
+   "goalDiff": -18,
+   "points": 5,
+   "markers": [
+    "lossStreak",
+    "relegation"
+   ]
+  },
+  {
+   "position": 12,
+   "teamId": "115",
+   "played": 11,
+   "won": 1,
+   "drawn": 1,
+   "lost": 9,
+   "goalsFor": 37,
+   "goalsAgainst": 62,
+   "goalDiff": -25,
+   "points": 4,
+   "markers": [
+    "lossStreak",
+    "relegation"
+   ]
+  }
+ ],
+ "matches": [
+  {
+   "id": "47198",
+   "siteId": 47198,
+   "homeTeamId": "23",
+   "awayTeamId": "199",
+   "kickoff": "2026-03-10T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 3,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Vékássy Bendegúz",
+     "goals": 1,
+     "teamId": "23"
+    },
+    {
+     "name": "Bokor Gergely",
+     "goals": 1,
+     "teamId": "23"
+    },
+    {
+     "name": "Békefi Bálint",
+     "goals": 1,
+     "teamId": "23"
+    },
+    {
+     "name": "Stranyóczky László",
+     "goals": 3,
+     "teamId": "199"
+    },
+    {
+     "name": "Raport Dániel",
+     "goals": 1,
+     "teamId": "199"
+    },
+    {
+     "name": "Cziráky Dávid",
+     "goals": 1,
+     "teamId": "199"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47203",
+   "siteId": 47203,
+   "homeTeamId": "28",
+   "awayTeamId": "154",
+   "kickoff": "2026-03-10T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Horváth Ádám",
+     "goals": 1,
+     "teamId": "28"
+    },
+    {
+     "name": "Horváth István",
+     "goals": 1,
+     "teamId": "28"
+    },
+    {
+     "name": "Hornyák Krisztofer",
+     "goals": 2,
+     "teamId": "154"
+    },
+    {
+     "name": "Juhász Csongor",
+     "goals": 2,
+     "teamId": "154"
+    },
+    {
+     "name": "Hegedüs Dániel",
+     "goals": 1,
+     "teamId": "154"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47208",
+   "siteId": 47208,
+   "homeTeamId": "93",
+   "awayTeamId": "115",
+   "kickoff": "2026-03-10T20:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 6,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Tóbiás Marcell",
+     "goals": 3,
+     "teamId": "93"
+    },
+    {
+     "name": "Horváth Olivér",
+     "goals": 1,
+     "teamId": "93"
+    },
+    {
+     "name": "Erős Máté",
+     "goals": 1,
+     "teamId": "93"
+    },
+    {
+     "name": "Tüttő Olivér",
+     "goals": 3,
+     "teamId": "115"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47199",
+   "siteId": 47199,
+   "homeTeamId": "69",
+   "awayTeamId": "149",
+   "kickoff": "2026-03-11T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 6,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Pap Zsombor",
+     "goals": 3,
+     "teamId": "69"
+    },
+    {
+     "name": "Alács Mihály",
+     "goals": 1,
+     "teamId": "69"
+    },
+    {
+     "name": "Kele Balázs",
+     "goals": 1,
+     "teamId": "69"
+    },
+    {
+     "name": "Mogyorósi Zoltán",
+     "goals": 1,
+     "teamId": "69"
+    },
+    {
+     "name": "Szabó Koppány",
+     "goals": 4,
+     "teamId": "149"
+    },
+    {
+     "name": "Gyenei András",
+     "goals": 1,
+     "teamId": "149"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47204",
+   "siteId": 47204,
+   "homeTeamId": "94",
+   "awayTeamId": "100",
+   "kickoff": "2026-03-11T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 4,
+   "awayGoals": 6,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Szabó Nándor",
+     "goals": 2,
+     "teamId": "94"
+    },
+    {
+     "name": "Csokonay László",
+     "goals": 1,
+     "teamId": "94"
+    },
+    {
+     "name": "Dikasz Csanád",
+     "goals": 1,
+     "teamId": "94"
+    },
+    {
+     "name": "Füle András",
+     "goals": 4,
+     "teamId": "100"
+    },
+    {
+     "name": "Horváth Bálint",
+     "goals": 2,
+     "teamId": "100"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47209",
+   "siteId": 47209,
+   "homeTeamId": "90",
+   "awayTeamId": "142",
+   "kickoff": "2026-03-11T20:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Kalocsay Károly",
+     "goals": 2,
+     "teamId": "142"
+    },
+    {
+     "name": "Szigeti Balázs",
+     "goals": 1,
+     "teamId": "142"
+    },
+    {
+     "name": "Dudás Dániel",
+     "goals": 1,
+     "teamId": "142"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47278",
+   "siteId": 47278,
+   "homeTeamId": "90",
+   "awayTeamId": "199",
+   "kickoff": "2026-03-17T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Hegedűs Gábor",
+     "goals": 1,
+     "teamId": "90"
+    },
+    {
+     "name": "Balla Ábel",
+     "goals": 1,
+     "teamId": "90"
+    },
+    {
+     "name": "Mucsi Mihály",
+     "goals": 1,
+     "teamId": "90"
+    },
+    {
+     "name": "Németh Csaba",
+     "goals": 1,
+     "teamId": "90"
+    },
+    {
+     "name": "Siket Máté",
+     "goals": 1,
+     "teamId": "199"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47283",
+   "siteId": 47283,
+   "homeTeamId": "142",
+   "awayTeamId": "149",
+   "kickoff": "2026-03-17T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Kalocsay Károly",
+     "goals": 2,
+     "teamId": "142"
+    },
+    {
+     "name": "Szigeti Balázs",
+     "goals": 1,
+     "teamId": "142"
+    },
+    {
+     "name": "Barna Zsombor Bence",
+     "goals": 1,
+     "teamId": "142"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47288",
+   "siteId": 47288,
+   "homeTeamId": "115",
+   "awayTeamId": "154",
+   "kickoff": "2026-03-17T20:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 5,
+   "awayGoals": 7,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Tüttő Olivér",
+     "goals": 2,
+     "teamId": "115"
+    },
+    {
+     "name": "Balogh Bálint",
+     "goals": 1,
+     "teamId": "115"
+    },
+    {
+     "name": "Zoltán Prantner",
+     "goals": 1,
+     "teamId": "115"
+    },
+    {
+     "name": "Kováts Boldizsár",
+     "goals": 1,
+     "teamId": "115"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47279",
+   "siteId": 47279,
+   "homeTeamId": "69",
+   "awayTeamId": "93",
+   "kickoff": "2026-03-18T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Pap Zsombor",
+     "goals": 1,
+     "teamId": "69"
+    },
+    {
+     "name": "Kele Balázs",
+     "goals": 1,
+     "teamId": "69"
+    },
+    {
+     "name": "Horváth Olivér",
+     "goals": 1,
+     "teamId": "93"
+    },
+    {
+     "name": "Erős Máté",
+     "goals": 1,
+     "teamId": "93"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47284",
+   "siteId": 47284,
+   "homeTeamId": "28",
+   "awayTeamId": "94",
+   "kickoff": "2026-03-18T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 5,
+   "awayGoals": 8,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Petrovszki Dániel",
+     "goals": 8,
+     "teamId": "94"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47289",
+   "siteId": 47289,
+   "homeTeamId": "23",
+   "awayTeamId": "100",
+   "kickoff": "2026-03-18T20:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Vékássy Bendegúz",
+     "goals": 1,
+     "teamId": "23"
+    },
+    {
+     "name": "Skrodzki Andrzej",
+     "goals": 1,
+     "teamId": "23"
+    },
+    {
+     "name": "Békefi Bálint",
+     "goals": 1,
+     "teamId": "23"
+    },
+    {
+     "name": "Füle András",
+     "goals": 4,
+     "teamId": "100"
+    },
+    {
+     "name": "Horváth Bálint",
+     "goals": 1,
+     "teamId": "100"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47360",
+   "siteId": 47360,
+   "homeTeamId": "90",
+   "awayTeamId": "115",
+   "kickoff": "2026-03-24T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 4,
+   "awayGoals": 4,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Németh Csaba",
+     "goals": 2,
+     "teamId": "90"
+    },
+    {
+     "name": "Gyüre Levente",
+     "goals": 1,
+     "teamId": "90"
+    },
+    {
+     "name": "Mucsi Mihály",
+     "goals": 1,
+     "teamId": "90"
+    },
+    {
+     "name": "Tüttő Olivér",
+     "goals": 2,
+     "teamId": "115"
+    },
+    {
+     "name": "Gecsei Mátyás",
+     "goals": 1,
+     "teamId": "115"
+    },
+    {
+     "name": "Koch Bernát",
+     "goals": 1,
+     "teamId": "115"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47365",
+   "siteId": 47365,
+   "homeTeamId": "93",
+   "awayTeamId": "100",
+   "kickoff": "2026-03-24T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Horváth Bálint",
+     "goals": 2,
+     "teamId": "100"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47370",
+   "siteId": 47370,
+   "homeTeamId": "28",
+   "awayTeamId": "149",
+   "kickoff": "2026-03-24T20:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 5,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Markó Gábor Ferenc",
+     "goals": 2,
+     "teamId": "149"
+    },
+    {
+     "name": "Markó Péter Dániel",
+     "goals": 1,
+     "teamId": "149"
+    },
+    {
+     "name": "Herbert Bálint",
+     "goals": 1,
+     "teamId": "149"
+    },
+    {
+     "name": "Huszár Balázs",
+     "goals": 1,
+     "teamId": "149"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47361",
+   "siteId": 47361,
+   "homeTeamId": "69",
+   "awayTeamId": "142",
+   "kickoff": "2026-03-25T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Alács Mihály",
+     "goals": 2,
+     "teamId": "69"
+    },
+    {
+     "name": "Pap Zsombor",
+     "goals": 1,
+     "teamId": "69"
+    },
+    {
+     "name": "Kele Balázs",
+     "goals": 1,
+     "teamId": "69"
+    },
+    {
+     "name": "Fehér Dániel",
+     "goals": 1,
+     "teamId": "142"
+    },
+    {
+     "name": "Szigeti Balázs",
+     "goals": 1,
+     "teamId": "142"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47366",
+   "siteId": 47366,
+   "homeTeamId": "94",
+   "awayTeamId": "199",
+   "kickoff": "2026-03-25T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Kántor Tibor",
+     "goals": 1,
+     "teamId": "94"
+    },
+    {
+     "name": "Dikasz Csanád",
+     "goals": 1,
+     "teamId": "94"
+    },
+    {
+     "name": "Siket Máté",
+     "goals": 2,
+     "teamId": "199"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47371",
+   "siteId": 47371,
+   "homeTeamId": "23",
+   "awayTeamId": "154",
+   "kickoff": "2026-03-25T20:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 12,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Skrodzki Andrzej",
+     "goals": 4,
+     "teamId": "23"
+    },
+    {
+     "name": "Vékássy Bendegúz",
+     "goals": 3,
+     "teamId": "23"
+    },
+    {
+     "name": "Szalay Máté",
+     "goals": 3,
+     "teamId": "23"
+    },
+    {
+     "name": "Bokor Gergely",
+     "goals": 1,
+     "teamId": "23"
+    },
+    {
+     "name": "Békefi Bálint",
+     "goals": 1,
+     "teamId": "23"
+    },
+    {
+     "name": "Hornyák Krisztofer",
+     "goals": 1,
+     "teamId": "154"
+    },
+    {
+     "name": "Hegedüs Dániel",
+     "goals": 1,
+     "teamId": "154"
+    },
+    {
+     "name": "Juhász Csongor",
+     "goals": 1,
+     "teamId": "154"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47437",
+   "siteId": 47437,
+   "homeTeamId": "154",
+   "awayTeamId": "199",
+   "kickoff": "2026-03-31T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 3,
+   "awayGoals": 12,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Stranyóczky László",
+     "goals": 5,
+     "teamId": "199"
+    },
+    {
+     "name": "Siket Máté",
+     "goals": 3,
+     "teamId": "199"
+    },
+    {
+     "name": "Raport Dániel",
+     "goals": 2,
+     "teamId": "199"
+    },
+    {
+     "name": "Fröhlich Tamás",
+     "goals": 2,
+     "teamId": "199"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47441",
+   "siteId": 47441,
+   "homeTeamId": "93",
+   "awayTeamId": "94",
+   "kickoff": "2026-03-31T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 7,
+   "awayGoals": 7,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Jimoh Dániel Adenike",
+     "goals": 2,
+     "teamId": "94"
+    },
+    {
+     "name": "Csokonay László",
+     "goals": 2,
+     "teamId": "94"
+    },
+    {
+     "name": "Dikasz Csanád",
+     "goals": 2,
+     "teamId": "94"
+    },
+    {
+     "name": "Szabó Nándor",
+     "goals": 1,
+     "teamId": "94"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47445",
+   "siteId": 47445,
+   "homeTeamId": "23",
+   "awayTeamId": "149",
+   "kickoff": "2026-03-31T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 5,
+   "awayGoals": 7,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Bokor Gergely",
+     "goals": 3,
+     "teamId": "23"
+    },
+    {
+     "name": "Vékássy Bendegúz",
+     "goals": 1,
+     "teamId": "23"
+    },
+    {
+     "name": "Békefi Bálint",
+     "goals": 1,
+     "teamId": "23"
+    },
+    {
+     "name": "Markó Gábor Ferenc",
+     "goals": 3,
+     "teamId": "149"
+    },
+    {
+     "name": "Lőrincz Koppány",
+     "goals": 2,
+     "teamId": "149"
+    },
+    {
+     "name": "Szabó Koppány",
+     "goals": 1,
+     "teamId": "149"
+    },
+    {
+     "name": "Gyenei András",
+     "goals": 1,
+     "teamId": "149"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47438",
+   "siteId": 47438,
+   "homeTeamId": "69",
+   "awayTeamId": "115",
+   "kickoff": "2026-04-01T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Kele Balázs",
+     "goals": 2,
+     "teamId": "69"
+    },
+    {
+     "name": "Mándi Ferenc",
+     "goals": 2,
+     "teamId": "69"
+    },
+    {
+     "name": "Alács Mihály",
+     "goals": 1,
+     "teamId": "69"
+    },
+    {
+     "name": "Pap Zsombor",
+     "goals": 1,
+     "teamId": "69"
+    },
+    {
+     "name": "Tüttő Olivér",
+     "goals": 1,
+     "teamId": "115"
+    },
+    {
+     "name": "Balogh Bálint",
+     "goals": 1,
+     "teamId": "115"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47442",
+   "siteId": 47442,
+   "homeTeamId": "90",
+   "awayTeamId": "100",
+   "kickoff": "2026-04-01T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Wolford Márk",
+     "goals": 2,
+     "teamId": "90"
+    },
+    {
+     "name": "Hegedűs Gábor",
+     "goals": 1,
+     "teamId": "90"
+    },
+    {
+     "name": "Horváth Bálint",
+     "goals": 2,
+     "teamId": "100"
+    },
+    {
+     "name": "Kovacsics Márk Bence",
+     "goals": 1,
+     "teamId": "100"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47446",
+   "siteId": 47446,
+   "homeTeamId": "28",
+   "awayTeamId": "142",
+   "kickoff": "2026-04-01T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 4,
+   "awayGoals": 8,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Tóth Dávid",
+     "goals": 2,
+     "teamId": "142"
+    },
+    {
+     "name": "Szigeti Balázs",
+     "goals": 2,
+     "teamId": "142"
+    },
+    {
+     "name": "Fodor Dàniel",
+     "goals": 2,
+     "teamId": "142"
+    },
+    {
+     "name": "Barna Zsombor Bence",
+     "goals": 2,
+     "teamId": "142"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47498",
+   "siteId": 47498,
+   "homeTeamId": "93",
+   "awayTeamId": "199",
+   "kickoff": "2026-04-07T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Raport Dániel",
+     "goals": 1,
+     "teamId": "199"
+    },
+    {
+     "name": "Fröhlich Tamás",
+     "goals": 1,
+     "teamId": "199"
+    },
+    {
+     "name": "Cziráky Dávid",
+     "goals": 1,
+     "teamId": "199"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47502",
+   "siteId": 47502,
+   "homeTeamId": "23",
+   "awayTeamId": "142",
+   "kickoff": "2026-04-07T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 4,
+   "awayGoals": 7,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Szigeti Balázs",
+     "goals": 2,
+     "teamId": "142"
+    },
+    {
+     "name": "Tóth Dávid",
+     "goals": 1,
+     "teamId": "142"
+    },
+    {
+     "name": "Dudás Dániel",
+     "goals": 1,
+     "teamId": "142"
+    },
+    {
+     "name": "Fodor Dàniel",
+     "goals": 1,
+     "teamId": "142"
+    },
+    {
+     "name": "Kalocsay Károly",
+     "goals": 1,
+     "teamId": "142"
+    },
+    {
+     "name": "Barna Zsombor Bence",
+     "goals": 1,
+     "teamId": "142"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47506",
+   "siteId": 47506,
+   "homeTeamId": "28",
+   "awayTeamId": "115",
+   "kickoff": "2026-04-07T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 5,
+   "awayGoals": 4,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Tüttő Olivér",
+     "goals": 2,
+     "teamId": "115"
+    },
+    {
+     "name": "Vigh Balázs",
+     "goals": 2,
+     "teamId": "115"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47499",
+   "siteId": 47499,
+   "homeTeamId": "69",
+   "awayTeamId": "100",
+   "kickoff": "2026-04-08T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 7,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Kele Balázs",
+     "goals": 4,
+     "teamId": "69"
+    },
+    {
+     "name": "Pap Bulcsú",
+     "goals": 2,
+     "teamId": "69"
+    },
+    {
+     "name": "Alács Mihály",
+     "goals": 1,
+     "teamId": "69"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47503",
+   "siteId": 47503,
+   "homeTeamId": "90",
+   "awayTeamId": "94",
+   "kickoff": "2026-04-08T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Szilágyi Adam",
+     "goals": 3,
+     "teamId": "90"
+    },
+    {
+     "name": "Gyüre Levente",
+     "goals": 1,
+     "teamId": "90"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47507",
+   "siteId": 47507,
+   "homeTeamId": "149",
+   "awayTeamId": "154",
+   "kickoff": "2026-04-08T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 11,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Markó Péter Dániel",
+     "goals": 5,
+     "teamId": "149"
+    },
+    {
+     "name": "Huszár Balázs",
+     "goals": 3,
+     "teamId": "149"
+    },
+    {
+     "name": "Szabó Koppány",
+     "goals": 1,
+     "teamId": "149"
+    },
+    {
+     "name": "Keresztes Balázs",
+     "goals": 1,
+     "teamId": "149"
+    },
+    {
+     "name": "Herbert Bálint",
+     "goals": 1,
+     "teamId": "149"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47567",
+   "siteId": 47567,
+   "homeTeamId": "90",
+   "awayTeamId": "93",
+   "kickoff": "2026-04-14T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 8,
+   "awayGoals": 10,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Gyüre Levente",
+     "goals": 3,
+     "teamId": "90"
+    },
+    {
+     "name": "Wolford Márk",
+     "goals": 2,
+     "teamId": "90"
+    },
+    {
+     "name": "Németh Csaba",
+     "goals": 2,
+     "teamId": "90"
+    },
+    {
+     "name": "Hegedűs Gábor",
+     "goals": 1,
+     "teamId": "90"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47572",
+   "siteId": 47572,
+   "homeTeamId": "142",
+   "awayTeamId": "154",
+   "kickoff": "2026-04-14T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 10,
+   "awayGoals": 1,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Szigeti Balázs",
+     "goals": 3,
+     "teamId": "142"
+    },
+    {
+     "name": "Tóth Dávid",
+     "goals": 2,
+     "teamId": "142"
+    },
+    {
+     "name": "Rudolf Zoltán",
+     "goals": 2,
+     "teamId": "142"
+    },
+    {
+     "name": "Dudás Dániel",
+     "goals": 1,
+     "teamId": "142"
+    },
+    {
+     "name": "Kalocsay Károly",
+     "goals": 1,
+     "teamId": "142"
+    },
+    {
+     "name": "Barna Zsombor Bence",
+     "goals": 1,
+     "teamId": "142"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47577",
+   "siteId": 47577,
+   "homeTeamId": "149",
+   "awayTeamId": "199",
+   "kickoff": "2026-04-14T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 7,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Szabó Koppány",
+     "goals": 4,
+     "teamId": "149"
+    },
+    {
+     "name": "Lőrincz Koppány",
+     "goals": 1,
+     "teamId": "149"
+    },
+    {
+     "name": "Herbert Bálint",
+     "goals": 1,
+     "teamId": "149"
+    },
+    {
+     "name": "Gyenei András",
+     "goals": 1,
+     "teamId": "149"
+    },
+    {
+     "name": "Fröhlich Tamás",
+     "goals": 1,
+     "teamId": "199"
+    },
+    {
+     "name": "Alt Ákos",
+     "goals": 1,
+     "teamId": "199"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47568",
+   "siteId": 47568,
+   "homeTeamId": "69",
+   "awayTeamId": "94",
+   "kickoff": "2026-04-15T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 7,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Pap Zsombor",
+     "goals": 2,
+     "teamId": "69"
+    },
+    {
+     "name": "Kele Balázs",
+     "goals": 2,
+     "teamId": "69"
+    },
+    {
+     "name": "Mogyorósi Zoltán",
+     "goals": 2,
+     "teamId": "69"
+    },
+    {
+     "name": "Alács Bálint",
+     "goals": 1,
+     "teamId": "69"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47573",
+   "siteId": 47573,
+   "homeTeamId": "28",
+   "awayTeamId": "100",
+   "kickoff": "2026-04-15T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 4,
+   "awayGoals": 4,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Horváth Bálint",
+     "goals": 2,
+     "teamId": "100"
+    },
+    {
+     "name": "Dr. Kovács Dominik",
+     "goals": 1,
+     "teamId": "100"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47578",
+   "siteId": 47578,
+   "homeTeamId": "23",
+   "awayTeamId": "115",
+   "kickoff": "2026-04-15T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 8,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Vékássy Bendegúz",
+     "goals": 4,
+     "teamId": "23"
+    },
+    {
+     "name": "Skrodzki Andrzej",
+     "goals": 2,
+     "teamId": "23"
+    },
+    {
+     "name": "Bokor Gergely",
+     "goals": 1,
+     "teamId": "23"
+    },
+    {
+     "name": "Szalay Máté",
+     "goals": 1,
+     "teamId": "23"
+    },
+    {
+     "name": "Tüttő Olivér",
+     "goals": 1,
+     "teamId": "115"
+    },
+    {
+     "name": "Balogh Bálint",
+     "goals": 1,
+     "teamId": "115"
+    },
+    {
+     "name": "Gecsei Mátyás",
+     "goals": 1,
+     "teamId": "115"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47647",
+   "siteId": 47647,
+   "homeTeamId": "115",
+   "awayTeamId": "142",
+   "kickoff": "2026-04-21T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Vigh Balázs",
+     "goals": 1,
+     "teamId": "115"
+    },
+    {
+     "name": "Szigeti Balázs",
+     "goals": 2,
+     "teamId": "142"
+    },
+    {
+     "name": "Dudás Dániel",
+     "goals": 2,
+     "teamId": "142"
+    },
+    {
+     "name": "Barna Zsombor Bence",
+     "goals": 1,
+     "teamId": "142"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47652",
+   "siteId": 47652,
+   "homeTeamId": "28",
+   "awayTeamId": "90",
+   "kickoff": "2026-04-21T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 3,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Gyüre Levente",
+     "goals": 3,
+     "teamId": "90"
+    },
+    {
+     "name": "Szabó Gergő Péter",
+     "goals": 2,
+     "teamId": "90"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47657",
+   "siteId": 47657,
+   "homeTeamId": "23",
+   "awayTeamId": "93",
+   "kickoff": "2026-04-21T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 6,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Szalay Máté",
+     "goals": 2,
+     "teamId": "23"
+    },
+    {
+     "name": "Békefi Bálint",
+     "goals": 2,
+     "teamId": "23"
+    },
+    {
+     "name": "Vékássy Bendegúz",
+     "goals": 1,
+     "teamId": "23"
+    },
+    {
+     "name": "Bokor Gergely",
+     "goals": 1,
+     "teamId": "23"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47648",
+   "siteId": 47648,
+   "homeTeamId": "69",
+   "awayTeamId": "199",
+   "kickoff": "2026-04-22T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Alács Mihály",
+     "goals": 2,
+     "teamId": "69"
+    },
+    {
+     "name": "Pap Zsombor",
+     "goals": 1,
+     "teamId": "69"
+    },
+    {
+     "name": "Kele Balázs",
+     "goals": 1,
+     "teamId": "69"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47653",
+   "siteId": 47653,
+   "homeTeamId": "94",
+   "awayTeamId": "154",
+   "kickoff": "2026-04-22T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Petrovszki Dániel",
+     "goals": 5,
+     "teamId": "94"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47658",
+   "siteId": 47658,
+   "homeTeamId": "100",
+   "awayTeamId": "149",
+   "kickoff": "2026-04-22T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Füle András",
+     "goals": 1,
+     "teamId": "100"
+    },
+    {
+     "name": "Dr Tisler Geza",
+     "goals": 1,
+     "teamId": "100"
+    },
+    {
+     "name": "Lőrincz Koppány",
+     "goals": 2,
+     "teamId": "149"
+    },
+    {
+     "name": "Huszár Balázs",
+     "goals": 1,
+     "teamId": "149"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47722",
+   "siteId": 47722,
+   "homeTeamId": "90",
+   "awayTeamId": "154",
+   "kickoff": "2026-04-28T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Szilágyi Adam",
+     "goals": 1,
+     "teamId": "90"
+    },
+    {
+     "name": "Wolford Márk",
+     "goals": 1,
+     "teamId": "90"
+    },
+    {
+     "name": "Szabó Gergő Péter",
+     "goals": 1,
+     "teamId": "90"
+    },
+    {
+     "name": "Bolyós Erik",
+     "goals": 1,
+     "teamId": "90"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47726",
+   "siteId": 47726,
+   "homeTeamId": "28",
+   "awayTeamId": "199",
+   "kickoff": "2026-04-28T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 1,
+   "awayGoals": 6,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Gondos Andor",
+     "goals": 3,
+     "teamId": "199"
+    },
+    {
+     "name": "Stranyóczky László",
+     "goals": 1,
+     "teamId": "199"
+    },
+    {
+     "name": "Raport Dániel",
+     "goals": 1,
+     "teamId": "199"
+    },
+    {
+     "name": "Alt Ákos",
+     "goals": 1,
+     "teamId": "199"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47730",
+   "siteId": 47730,
+   "homeTeamId": "93",
+   "awayTeamId": "149",
+   "kickoff": "2026-04-28T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Lőrincz Koppány",
+     "goals": 2,
+     "teamId": "149"
+    },
+    {
+     "name": "Szabó Koppány",
+     "goals": 1,
+     "teamId": "149"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47723",
+   "siteId": 47723,
+   "homeTeamId": "23",
+   "awayTeamId": "69",
+   "kickoff": "2026-04-29T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 6,
+   "awayGoals": 7,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Szalay Gergely",
+     "goals": 3,
+     "teamId": "23"
+    },
+    {
+     "name": "Bokor Gergely",
+     "goals": 2,
+     "teamId": "23"
+    },
+    {
+     "name": "Szalay Máté",
+     "goals": 1,
+     "teamId": "23"
+    },
+    {
+     "name": "Kele Balázs",
+     "goals": 6,
+     "teamId": "69"
+    },
+    {
+     "name": "Pap Zsombor",
+     "goals": 1,
+     "teamId": "69"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47727",
+   "siteId": 47727,
+   "homeTeamId": "94",
+   "awayTeamId": "142",
+   "kickoff": "2026-04-29T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Szigeti Balázs",
+     "goals": 1,
+     "teamId": "142"
+    },
+    {
+     "name": "Kalocsay Károly",
+     "goals": 1,
+     "teamId": "142"
+    },
+    {
+     "name": "Andorka Kristóf",
+     "goals": 1,
+     "teamId": "142"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47731",
+   "siteId": 47731,
+   "homeTeamId": "100",
+   "awayTeamId": "115",
+   "kickoff": "2026-04-29T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 6,
+   "awayGoals": 8,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Tüttő Olivér",
+     "goals": 3,
+     "teamId": "115"
+    },
+    {
+     "name": "Koch Bernát",
+     "goals": 2,
+     "teamId": "115"
+    },
+    {
+     "name": "Balogh Bálint",
+     "goals": 1,
+     "teamId": "115"
+    },
+    {
+     "name": "Vigh Balázs",
+     "goals": 1,
+     "teamId": "115"
+    },
+    {
+     "name": "Zoltán Prantner",
+     "goals": 1,
+     "teamId": "115"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47786",
+   "siteId": 47786,
+   "homeTeamId": "115",
+   "awayTeamId": "149",
+   "kickoff": "2026-05-05T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Lőrincz Koppány",
+     "goals": 2,
+     "teamId": "149"
+    },
+    {
+     "name": "Szabó Koppány",
+     "goals": 1,
+     "teamId": "149"
+    },
+    {
+     "name": "Herbert Bálint",
+     "goals": 1,
+     "teamId": "149"
+    },
+    {
+     "name": "Gyenei András",
+     "goals": 1,
+     "teamId": "149"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47791",
+   "siteId": 47791,
+   "homeTeamId": "28",
+   "awayTeamId": "93",
+   "kickoff": "2026-05-05T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": null,
+   "awayGoals": null,
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47796",
+   "siteId": 47796,
+   "homeTeamId": "142",
+   "awayTeamId": "199",
+   "kickoff": "2026-05-05T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Szigeti Balázs",
+     "goals": 3,
+     "teamId": "142"
+    },
+    {
+     "name": "Gondos Andor",
+     "goals": 1,
+     "teamId": "199"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47787",
+   "siteId": 47787,
+   "homeTeamId": "69",
+   "awayTeamId": "90",
+   "kickoff": "2026-05-06T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 8,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Pap Zsombor",
+     "goals": 3,
+     "teamId": "69"
+    },
+    {
+     "name": "Kele Balázs",
+     "goals": 3,
+     "teamId": "69"
+    },
+    {
+     "name": "Alács Mihály",
+     "goals": 1,
+     "teamId": "69"
+    },
+    {
+     "name": "Mándi Ferenc",
+     "goals": 1,
+     "teamId": "69"
+    },
+    {
+     "name": "Wolford Márk",
+     "goals": 1,
+     "teamId": "90"
+    },
+    {
+     "name": "Tóth Krisztián Kristóf",
+     "goals": 1,
+     "teamId": "90"
+    },
+    {
+     "name": "Gyüre Levente",
+     "goals": 1,
+     "teamId": "90"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47792",
+   "siteId": 47792,
+   "homeTeamId": "23",
+   "awayTeamId": "94",
+   "kickoff": "2026-05-06T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 5,
+   "awayGoals": 10,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Dikasz Csanád",
+     "goals": 4,
+     "teamId": "94"
+    },
+    {
+     "name": "Szabó Nándor",
+     "goals": 3,
+     "teamId": "94"
+    },
+    {
+     "name": "Benyovszki Patrik",
+     "goals": 2,
+     "teamId": "94"
+    },
+    {
+     "name": "Jimoh Dániel Adenike",
+     "goals": 1,
+     "teamId": "94"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47797",
+   "siteId": 47797,
+   "homeTeamId": "100",
+   "awayTeamId": "154",
+   "kickoff": "2026-05-06T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 10,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Füle András",
+     "goals": 5,
+     "teamId": "100"
+    },
+    {
+     "name": "Horváth Bálint",
+     "goals": 3,
+     "teamId": "100"
+    },
+    {
+     "name": "Kovacsics Márk Bence",
+     "goals": 2,
+     "teamId": "100"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47864",
+   "siteId": 47864,
+   "homeTeamId": "115",
+   "awayTeamId": "199",
+   "kickoff": "2026-05-12T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Gecsei Mátyás",
+     "goals": 1,
+     "teamId": "115"
+    },
+    {
+     "name": "Zoltán Prantner",
+     "goals": 1,
+     "teamId": "115"
+    },
+    {
+     "name": "Alt Ákos",
+     "goals": 2,
+     "teamId": "199"
+    },
+    {
+     "name": "Stranyóczky László",
+     "goals": 1,
+     "teamId": "199"
+    },
+    {
+     "name": "Siket Máté",
+     "goals": 1,
+     "teamId": "199"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47869",
+   "siteId": 47869,
+   "homeTeamId": "23",
+   "awayTeamId": "90",
+   "kickoff": "2026-05-12T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Szilágyi Adam",
+     "goals": 1,
+     "teamId": "90"
+    },
+    {
+     "name": "Wolford Márk",
+     "goals": 1,
+     "teamId": "90"
+    },
+    {
+     "name": "Tóth Krisztián Kristóf",
+     "goals": 1,
+     "teamId": "90"
+    },
+    {
+     "name": "Mucsi Mihály",
+     "goals": 1,
+     "teamId": "90"
+    },
+    {
+     "name": "Szabó Gergő Péter",
+     "goals": 1,
+     "teamId": "90"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47874",
+   "siteId": 47874,
+   "homeTeamId": "93",
+   "awayTeamId": "154",
+   "kickoff": "2026-05-12T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Olajos Zsombor",
+     "goals": 5,
+     "teamId": "93"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47865",
+   "siteId": 47865,
+   "homeTeamId": "28",
+   "awayTeamId": "69",
+   "kickoff": "2026-05-13T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 3,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Kele Balázs",
+     "goals": 3,
+     "teamId": "69"
+    },
+    {
+     "name": "Alács Mihály",
+     "goals": 2,
+     "teamId": "69"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47870",
+   "siteId": 47870,
+   "homeTeamId": "94",
+   "awayTeamId": "149",
+   "kickoff": "2026-05-13T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Dikasz Csanád",
+     "goals": 2,
+     "teamId": "94"
+    },
+    {
+     "name": "Dániel Tóth",
+     "goals": 1,
+     "teamId": "94"
+    },
+    {
+     "name": "Lőrincz Koppány",
+     "goals": 1,
+     "teamId": "149"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47875",
+   "siteId": 47875,
+   "homeTeamId": "100",
+   "awayTeamId": "142",
+   "kickoff": "2026-05-13T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Horváth Bálint",
+     "goals": 1,
+     "teamId": "100"
+    },
+    {
+     "name": "Füle András",
+     "goals": 1,
+     "teamId": "100"
+    },
+    {
+     "name": "Szigeti Balázs",
+     "goals": 1,
+     "teamId": "142"
+    },
+    {
+     "name": "Dudás Dániel",
+     "goals": 1,
+     "teamId": "142"
+    },
+    {
+     "name": "Fodor Dàniel",
+     "goals": 1,
+     "teamId": "142"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47937",
+   "siteId": 47937,
+   "homeTeamId": "93",
+   "awayTeamId": "142",
+   "kickoff": "2026-05-19T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Török Norbert",
+     "goals": 4,
+     "teamId": "93"
+    },
+    {
+     "name": "Kalocsay Károly",
+     "goals": 2,
+     "teamId": "142"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47942",
+   "siteId": 47942,
+   "homeTeamId": "90",
+   "awayTeamId": "149",
+   "kickoff": "2026-05-19T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 4,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Mucsi Mihály",
+     "goals": 2,
+     "teamId": "90"
+    },
+    {
+     "name": "Németh Csaba",
+     "goals": 1,
+     "teamId": "90"
+    },
+    {
+     "name": "Hegedűs Gábor",
+     "goals": 1,
+     "teamId": "90"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47947",
+   "siteId": 47947,
+   "homeTeamId": "23",
+   "awayTeamId": "28",
+   "kickoff": "2026-05-19T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": null,
+   "awayGoals": null,
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47938",
+   "siteId": 47938,
+   "homeTeamId": "69",
+   "awayTeamId": "154",
+   "kickoff": "2026-05-20T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Alács Mihály",
+     "goals": 1,
+     "teamId": "69"
+    },
+    {
+     "name": "Tucsek Máté",
+     "goals": 1,
+     "teamId": "69"
+    },
+    {
+     "name": "Pap Zsombor",
+     "goals": 1,
+     "teamId": "69"
+    },
+    {
+     "name": "Kele Balázs",
+     "goals": 1,
+     "teamId": "69"
+    },
+    {
+     "name": "Mándi Ferenc",
+     "goals": 1,
+     "teamId": "69"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47943",
+   "siteId": 47943,
+   "homeTeamId": "94",
+   "awayTeamId": "115",
+   "kickoff": "2026-05-20T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 6,
+   "awayGoals": 4,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Csokonay László",
+     "goals": 3,
+     "teamId": "94"
+    },
+    {
+     "name": "Langer Ákos",
+     "goals": 1,
+     "teamId": "94"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  },
+  {
+   "id": "47948",
+   "siteId": 47948,
+   "homeTeamId": "100",
+   "awayTeamId": "199",
+   "kickoff": "2026-05-20T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 5,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Füle András",
+     "goals": 2,
+     "teamId": "100"
+    },
+    {
+     "name": "Kovacsics Márk Bence",
+     "goals": 2,
+     "teamId": "100"
+    },
+    {
+     "name": "Horváth Bálint",
+     "goals": 1,
+     "teamId": "100"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T13:39:59.980Z"
+  }
+ ],
+ "summaries": [
+  {
+   "teamId": "69",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Mogyorósi Zoltán",
+    "goals": 12
+   },
+   "seasonsCount": 22,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "142",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Andorka Kristóf",
+    "goals": 4
+   },
+   "seasonsCount": 8,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "149",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Markó Péter Dániel",
+    "goals": 5
+   },
+   "seasonsCount": 9,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "90",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Németh Csaba",
+    "goals": 6
+   },
+   "seasonsCount": 7,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "93",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Horváth Olivér",
+    "goals": 10
+   },
+   "seasonsCount": 24,
+   "matchesPlayed": 10
+  },
+  {
+   "teamId": "199",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Stranyóczky László",
+    "goals": 5
+   },
+   "seasonsCount": 24,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "94",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Petrovszki Dániel",
+    "goals": 8
+   },
+   "seasonsCount": 19,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "100",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Füle András",
+    "goals": 8
+   },
+   "seasonsCount": 21,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "23",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Korompay Örs",
+    "goals": 9
+   },
+   "seasonsCount": 8,
+   "matchesPlayed": 10
+  },
+  {
+   "teamId": "154",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Juhász Csongor",
+    "goals": 6
+   },
+   "seasonsCount": 8,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "28",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Horváth Ádám",
+    "goals": 7
+   },
+   "seasonsCount": 6,
+   "matchesPlayed": 9
+  },
+  {
+   "teamId": "115",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Tüttő Olivér",
+    "goals": 4
+   },
+   "seasonsCount": 8,
+   "matchesPlayed": 11
+  }
+ ]
+}
