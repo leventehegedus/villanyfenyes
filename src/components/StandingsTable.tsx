@@ -44,9 +44,9 @@ export function StandingsTable({ rows, matches, teamName, keep, sort, onSort }: 
     onSort(sort.key === key ? (sort.dir === 'desc' ? { key, dir: 'asc' } : { key: 'position', dir: 'asc' }) : { key, dir: 'desc' })
 
   return (
-    <div className="max-h-[75svh] overflow-auto rounded-xl border bg-card">
+    <div className="overflow-x-auto rounded-xl border bg-card">
       <table className="w-full caption-bottom text-xs sm:text-sm">
-        <TableHeader className="sticky top-0 z-20 bg-card shadow-[0_1px_0_var(--border)]">
+        <TableHeader>
           <TableRow>
             <TableHead className="sticky left-0 z-20 w-7 bg-card px-1 text-center">{t('colPos')}</TableHead>
             <TableHead className="sticky left-7 z-20 bg-card px-1">{t('colTeam')}</TableHead>
