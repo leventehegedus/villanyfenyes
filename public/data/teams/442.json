@@ -148,6 +148,24 @@
     "goalsAgainst": 34,
     "points": 21
    }
+  },
+  {
+   "seasonId": 49,
+   "label": "2001 - Ősz",
+   "league": "L1",
+   "finished": true,
+   "position": 9,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 11,
+    "won": 4,
+    "drawn": 0,
+    "lost": 7,
+    "goalsFor": 34,
+    "goalsAgainst": 45,
+    "points": 12
+   }
   }
  ],
  "opponents": [
@@ -168,12 +186,12 @@
    "teamId": "395",
    "name": "Albán Focisuli",
    "totals": {
-    "played": 8,
+    "played": 9,
     "won": 1,
     "drawn": 0,
-    "lost": 7,
-    "goalsFor": 23,
-    "goalsAgainst": 39,
+    "lost": 8,
+    "goalsFor": 25,
+    "goalsAgainst": 42,
     "points": 3
    }
   },
@@ -402,13 +420,13 @@
    "teamId": "1181",
    "name": "Bobo FC",
    "totals": {
-    "played": 5,
-    "won": 2,
+    "played": 6,
+    "won": 3,
     "drawn": 1,
     "lost": 2,
-    "goalsFor": 17,
-    "goalsAgainst": 16,
-    "points": 7
+    "goalsFor": 20,
+    "goalsAgainst": 17,
+    "points": 10
    }
   },
   {
@@ -428,12 +446,12 @@
    "teamId": "196",
    "name": "Koma Sutra",
    "totals": {
-    "played": 5,
+    "played": 6,
     "won": 1,
     "drawn": 0,
-    "lost": 4,
-    "goalsFor": 10,
-    "goalsAgainst": 24,
+    "lost": 5,
+    "goalsFor": 12,
+    "goalsAgainst": 28,
     "points": 3
    }
   },
@@ -454,12 +472,12 @@
    "teamId": "1259",
    "name": "MSC Gépész",
    "totals": {
-    "played": 5,
+    "played": 6,
     "won": 1,
     "drawn": 0,
-    "lost": 4,
-    "goalsFor": 13,
-    "goalsAgainst": 17,
+    "lost": 5,
+    "goalsFor": 15,
+    "goalsAgainst": 28,
     "points": 3
    }
   },
@@ -467,12 +485,12 @@
    "teamId": "856",
    "name": "Félénk Fiúk",
    "totals": {
-    "played": 3,
+    "played": 4,
     "won": 2,
     "drawn": 0,
-    "lost": 1,
-    "goalsFor": 10,
-    "goalsAgainst": 5,
+    "lost": 2,
+    "goalsFor": 12,
+    "goalsAgainst": 8,
     "points": 6
    }
   },
@@ -480,13 +498,13 @@
    "teamId": "77",
    "name": "Keverton",
    "totals": {
-    "played": 5,
-    "won": 1,
+    "played": 6,
+    "won": 2,
     "drawn": 1,
     "lost": 3,
-    "goalsFor": 11,
-    "goalsAgainst": 21,
-    "points": 4
+    "goalsFor": 16,
+    "goalsAgainst": 22,
+    "points": 7
    }
   },
   {
@@ -519,12 +537,12 @@
    "teamId": "1346",
    "name": "WINCHESTER UNITED",
    "totals": {
-    "played": 3,
+    "played": 4,
     "won": 2,
     "drawn": 1,
-    "lost": 0,
-    "goalsFor": 11,
-    "goalsAgainst": 8,
+    "lost": 1,
+    "goalsFor": 14,
+    "goalsAgainst": 17,
     "points": 7
    }
   },
@@ -584,12 +602,12 @@
    "teamId": "1371",
    "name": "Vato Loco",
    "totals": {
-    "played": 1,
+    "played": 2,
     "won": 1,
     "drawn": 0,
-    "lost": 0,
-    "goalsFor": 8,
-    "goalsAgainst": 0,
+    "lost": 1,
+    "goalsFor": 10,
+    "goalsAgainst": 4,
     "points": 3
    }
   },
@@ -597,12 +615,38 @@
    "teamId": "1390",
    "name": "AC TISZAKÉCSKE",
    "totals": {
+    "played": 2,
+    "won": 1,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 10,
+    "goalsAgainst": 8,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "139",
+   "name": "Inteam CF",
+   "totals": {
     "played": 1,
     "won": 1,
     "drawn": 0,
     "lost": 0,
-    "goalsFor": 7,
+    "goalsFor": 5,
     "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1266",
+   "name": "Ácsi Mazsolák",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 1,
     "points": 3
    }
   }
@@ -618,12 +662,12 @@
    "goalsAgainst": 2
   },
   "biggestDefeat": {
-   "seasonId": 45,
+   "seasonId": 49,
    "league": "L1",
-   "matchId": "39709",
-   "kickoff": "2025-05-19T06:25:35.000Z",
-   "opponentId": "1152",
-   "goalsFor": 3,
+   "matchId": "41470",
+   "kickoff": "2025-05-19T06:30:36.000Z",
+   "opponentId": "1259",
+   "goalsFor": 2,
    "goalsAgainst": 11
   },
   "highestScoring": {
@@ -704,8 +748,8 @@
  "cleanSheets": 4,
  "failedToScore": 5,
  "scorers": {
-  "playedMatches": 85,
-  "coveredMatches": 85,
+  "playedMatches": 96,
+  "coveredMatches": 96,
   "rows": []
  }
 }
