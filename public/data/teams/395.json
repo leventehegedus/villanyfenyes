@@ -616,6 +616,24 @@
     "goalsAgainst": 30,
     "points": 24
    }
+  },
+  {
+   "seasonId": 47,
+   "label": "2002 - Ősz",
+   "league": "L1",
+   "finished": true,
+   "position": 6,
+   "teamsInLeague": 11,
+   "marker": null,
+   "totals": {
+    "played": 10,
+    "won": 4,
+    "drawn": 2,
+    "lost": 4,
+    "goalsFor": 33,
+    "goalsAgainst": 44,
+    "points": 14
+   }
   }
  ],
  "opponents": [
@@ -1169,13 +1187,13 @@
    "teamId": "196",
    "name": "Koma Sutra",
    "totals": {
-    "played": 14,
+    "played": 15,
     "won": 12,
-    "drawn": 1,
+    "drawn": 2,
     "lost": 1,
-    "goalsFor": 81,
-    "goalsAgainst": 37,
-    "points": 37
+    "goalsFor": 83,
+    "goalsAgainst": 39,
+    "points": 38
    }
   },
   {
@@ -1260,13 +1278,13 @@
    "teamId": "442",
    "name": "Csillagrombolók FC",
    "totals": {
-    "played": 6,
-    "won": 6,
+    "played": 7,
+    "won": 7,
     "drawn": 0,
     "lost": 0,
-    "goalsFor": 28,
-    "goalsAgainst": 13,
-    "points": 18
+    "goalsFor": 35,
+    "goalsAgainst": 17,
+    "points": 21
    }
   },
   {
@@ -1364,13 +1382,13 @@
    "teamId": "77",
    "name": "Keverton",
    "totals": {
-    "played": 11,
+    "played": 12,
     "won": 8,
-    "drawn": 1,
+    "drawn": 2,
     "lost": 2,
-    "goalsFor": 58,
-    "goalsAgainst": 40,
-    "points": 25
+    "goalsFor": 61,
+    "goalsAgainst": 43,
+    "points": 26
    }
   },
   {
@@ -1403,12 +1421,12 @@
    "teamId": "1181",
    "name": "Bobo FC",
    "totals": {
-    "played": 9,
+    "played": 10,
     "won": 5,
     "drawn": 1,
-    "lost": 3,
+    "lost": 4,
     "goalsFor": 38,
-    "goalsAgainst": 31,
+    "goalsAgainst": 34,
     "points": 16
    }
   },
@@ -1468,12 +1486,12 @@
    "teamId": "446",
    "name": "Hanyatt SE",
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 6,
     "drawn": 0,
-    "lost": 1,
-    "goalsFor": 39,
-    "goalsAgainst": 20,
+    "lost": 2,
+    "goalsFor": 42,
+    "goalsAgainst": 27,
     "points": 18
    }
   },
@@ -1533,12 +1551,12 @@
    "teamId": "1259",
    "name": "MSC Gépész",
    "totals": {
-    "played": 4,
+    "played": 5,
     "won": 3,
     "drawn": 1,
-    "lost": 0,
-    "goalsFor": 21,
-    "goalsAgainst": 10,
+    "lost": 1,
+    "goalsFor": 22,
+    "goalsAgainst": 14,
     "points": 10
    }
   },
@@ -1546,13 +1564,13 @@
    "teamId": "1152",
    "name": "Lúzer SC",
    "totals": {
-    "played": 3,
-    "won": 3,
+    "played": 4,
+    "won": 4,
     "drawn": 0,
     "lost": 0,
-    "goalsFor": 20,
-    "goalsAgainst": 8,
-    "points": 9
+    "goalsFor": 26,
+    "goalsAgainst": 13,
+    "points": 12
    }
   },
   {
@@ -1611,13 +1629,13 @@
    "teamId": "1346",
    "name": "WINCHESTER UNITED",
    "totals": {
-    "played": 1,
-    "won": 1,
+    "played": 2,
+    "won": 2,
     "drawn": 0,
     "lost": 0,
-    "goalsFor": 3,
-    "goalsAgainst": 1,
-    "points": 3
+    "goalsFor": 8,
+    "goalsAgainst": 4,
+    "points": 6
    }
   },
   {
@@ -1644,6 +1662,32 @@
     "goalsFor": 4,
     "goalsAgainst": 2,
     "points": 3
+   }
+  },
+  {
+   "teamId": "1369",
+   "name": "Tarkán",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1370",
+   "name": "Red Fox Team",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 11,
+    "points": 0
    }
   }
  ],
@@ -1742,10 +1786,10 @@
   }
  },
  "cleanSheets": 20,
- "failedToScore": 14,
+ "failedToScore": 15,
  "scorers": {
-  "playedMatches": 352,
-  "coveredMatches": 352,
+  "playedMatches": 362,
+  "coveredMatches": 362,
   "rows": []
  }
 }
