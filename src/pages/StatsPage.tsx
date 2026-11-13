@@ -42,7 +42,7 @@ export default function StatsPage() {
                     matches={data.matches}
                     podium={podium}
                     highlighted={highlighted}
-                    onToggle={(id) => setHighlight(toggleHighlight(highlighted, id, podium))}
+                    onToggle={(id) => setHighlight(toggleHighlight(highlighted, id))}
                     onClear={() => setHighlight([])}
                   />
                 </Suspense>

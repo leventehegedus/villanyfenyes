@@ -93,6 +93,13 @@
     --medal-3: #9a4f1f;
     --series-1: #2a78d6;
     --series-2: #1baf7a;
+    --series-3: #e87ba4;
+    --series-4: #6250d6;
+    --series-5: #e34948;
+    --series-6: #008300;
+    --series-7: #eb6834;
+    --series-8: #0f8b8d;
+    --series-9: #8a3f8f;
 }
 
 .dark {
@@ -136,6 +143,13 @@
     --medal-3: #b8642e;
     --series-1: #3987e5;
     --series-2: #199e70;
+    --series-3: #d55181;
+    --series-4: #9085e9;
+    --series-5: #e66767;
+    --series-6: #2f9e2f;
+    --series-7: #d95926;
+    --series-8: #1aa6a8;
+    --series-9: #b26ab8;
 }
 
 @layer base {

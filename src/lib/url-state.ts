@@ -28,29 +28,20 @@ export function parseStandingsSort(raw: string | null): StandingsSort {
   return isSortKey(key) && (dir === 'asc' || dir === 'desc') ? { key, dir } : { key: 'position', dir: 'asc' }
 }
 
-/** The podium (top 3) can always be highlighted; at most this many other teams on top. */
-export const MAX_EXTRA_HIGHLIGHT = 2
-const MAX_HIGHLIGHT = 3 + MAX_EXTRA_HIGHLIGHT
 
 /** URL value for "nothing highlighted" (an empty param would mean "use the default"). */
 export const NO_HIGHLIGHT = '-'
 
 /** Highlighted chart teams from "?h=1,2" (unknown ids dropped); `fallback` when the param is absent. */
 export function readHighlight(raw: string | null, teamIds: readonly string[], fallback: readonly string[]): string[] {
-  if (raw === null) return fallback.slice(0, MAX_HIGHLIGHT)
+  if (raw === null) return [...fallback]
   return raw
     .split(',')
     .filter((id) => teamIds.includes(id))
-    .slice(0, MAX_HIGHLIGHT)
 }
 
 export const writeHighlight = (ids: readonly string[]): string => (ids.length === 0 ? NO_HIGHLIGHT : ids.join(','))
 
-/** Adds or removes a team; when the non-podium slots are full, the oldest of those makes room. */
-export function toggleHighlight(current: readonly string[], id: string, podium: readonly string[]): string[] {
-  if (current.includes(id)) return current.filter((x) => x !== id)
-  const next = [...current, id]
-  const extras = next.filter((x) => !podium.includes(x))
-  const drop = extras.slice(0, Math.max(0, extras.length - MAX_EXTRA_HIGHLIGHT))
-  return next.filter((x) => !drop.includes(x))
-}
+/** Adds or removes a team; any number can be highlighted. */
+export const toggleHighlight = (current: readonly string[], id: string): string[] =>
+  current.includes(id) ? current.filter((x) => x !== id) : [...current, id]

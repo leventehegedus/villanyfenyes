@@ -25,7 +25,7 @@
 - **Cross table:** standings order, row team's view, cells link to the match; tinted by outcome with the score as text.
 
 - **2026-11-13 second UI round (owner's requests):** one schedule page instead of schedule + results; multi-select team filter (`?t=69,100`); every favourites feature and the last-seen notice removed; calendar export removed; form column on the standings table; match dialog shows only teams, score, kickoff and one scorer list split left/right; comparison tab (and its head-to-head logic) removed.
-- **Medal colours on the progression chart (owner's choice):** the top 3 are gold/silver/bronze. The validator flags silver (grey, low chroma) and aqua vs silver (normal-vision ΔE 14.2); mitigations: every highlighted line has a direct end label (medals with their position), non-podium highlights are dashed and capped at 2 (blue, aqua). `?h=-` means "nothing highlighted". Tied teams' end labels stack 13 px apart.
+- **Medal colours on the progression chart (owner's choice):** the top 3 are gold/silver/bronze. The validator flags silver (grey, low chroma) and aqua vs silver (normal-vision ΔE 14.2); mitigations: every highlighted line has a direct end label (medals with their position), non-podium highlights are dashed. Since 2026-11-13 any number of teams can be highlighted (owner's request): non-podium teams take `--series-1..9` in selection order (reference categorical hues without yellow, plus teal and plum); with more than ~7 lines identity relies on the end labels and tooltip, not colour. `?h=-` means "nothing highlighted". Tied teams' end labels stack 13 px apart.
 - **Tooltips:** `disableHoverableContent` so moving the pointer sideways between form chips switches the tooltip immediately.
 
 ## Opus usage

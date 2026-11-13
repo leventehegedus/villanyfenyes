@@ -22,10 +22,9 @@ describe('chart highlight', () => {
     expect(readHighlight(writeHighlight([]), ids, ['5'])).toEqual([])
     expect(writeHighlight(['1', '2'])).toBe('1,2')
   })
-  it('toggles; podium always fits, other teams are capped at two (oldest dropped)', () => {
-    const podium = ['1', '2', '3']
-    expect(toggleHighlight(['1', '2'], '2', podium)).toEqual(['1'])
-    expect(toggleHighlight(['1', '2', '3', '4'], '5', podium)).toEqual(['1', '2', '3', '4', '5'])
-    expect(toggleHighlight(['1', '4', '5'], '6', podium)).toEqual(['1', '5', '6'])
+  it('toggles without a limit', () => {
+    expect(toggleHighlight(['1', '2'], '2')).toEqual(['1'])
+    expect(toggleHighlight(['1', '2', '3', '4', '5'], '6')).toEqual(['1', '2', '3', '4', '5', '6'])
+    expect(readHighlight('1,2,3,4,5', ids, [])).toHaveLength(5)
   })
 })

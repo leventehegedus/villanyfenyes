@@ -9,10 +9,11 @@ import type { Match, Team } from '@/lib/schema'
 import { leagueProgression } from '@/lib/stats'
 import { cn } from '@/lib/utils'
 
-// Owner's choice: the top three wear medal colours. Silver is grey by nature, so every highlighted
-// line also carries a direct end label (with the position for medals), and other teams draw dashed.
+// Owner's choice: the top three wear medal colours and any number of teams can be highlighted.
+// Beyond ~7 hues colour alone stops separating lines, so every highlighted line carries a direct
+// end label (medals with their position) and non-podium lines are dashed; the tooltip lists all.
 const MEDALS = ['var(--medal-1)', 'var(--medal-2)', 'var(--medal-3)']
-const EXTRAS = ['var(--series-1)', 'var(--series-2)']
+const EXTRAS = Array.from({ length: 9 }, (_, i) => `var(--series-${i + 1})`)
 const LABEL_STEP = 13 // px between labels of teams level on points
 
 type Props = {
