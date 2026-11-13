@@ -1,0 +1,260 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1442",
+ "names": [
+  "LÁGYM. DINAMÓ"
+ ],
+ "seasons": [
+  {
+   "seasonId": 50,
+   "label": "2001 - Tavasz",
+   "league": "L1",
+   "finished": true,
+   "position": 8,
+   "teamsInLeague": 11,
+   "marker": "relegation",
+   "totals": {
+    "played": 10,
+    "won": 2,
+    "drawn": 5,
+    "lost": 3,
+    "goalsFor": 29,
+    "goalsAgainst": 37,
+    "points": 11
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "1371",
+   "name": "Vato Loco",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "395",
+   "name": "Albán Focisuli",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1346",
+   "name": "WINCHESTER UNITED",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 4,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "196",
+   "name": "Koma Sutra",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 2,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "856",
+   "name": "Félénk Fiúk",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 2,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "77",
+   "name": "Keverton",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1181",
+   "name": "Bobo FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1390",
+   "name": "AC TISZAKÉCSKE",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 2,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "1443",
+   "name": "AC MAZSOLÁK",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "442",
+   "name": "Csillagrombolók FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 4,
+    "points": 1
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 50,
+   "league": "L1",
+   "matchId": "41908",
+   "kickoff": "2025-05-19T06:31:52.000Z",
+   "opponentId": "1371",
+   "goalsFor": 5,
+   "goalsAgainst": 3
+  },
+  "biggestDefeat": {
+   "seasonId": 50,
+   "league": "L1",
+   "matchId": "41918",
+   "kickoff": "2025-05-19T06:31:54.000Z",
+   "opponentId": "395",
+   "goalsFor": 2,
+   "goalsAgainst": 9
+  },
+  "highestScoring": {
+   "seasonId": 50,
+   "league": "L1",
+   "matchId": "41918",
+   "kickoff": "2025-05-19T06:31:54.000Z",
+   "opponentId": "395",
+   "goalsFor": 2,
+   "goalsAgainst": 9
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 50,
+    "league": "L1",
+    "matchId": "41959",
+    "kickoff": "2025-05-19T06:32:01.000Z",
+    "opponentId": "1443",
+    "goalsFor": 4,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 50,
+    "league": "L1",
+    "matchId": "41959",
+    "kickoff": "2025-05-19T06:32:01.000Z",
+    "opponentId": "1443",
+    "goalsFor": 4,
+    "goalsAgainst": 3
+   }
+  },
+  "unbeaten": {
+   "length": 3,
+   "from": {
+    "seasonId": 50,
+    "league": "L1",
+    "matchId": "41958",
+    "kickoff": "2025-05-19T06:32:01.000Z",
+    "opponentId": "1390",
+    "goalsFor": 2,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 50,
+    "league": "L1",
+    "matchId": "41960",
+    "kickoff": "2025-05-19T06:32:01.000Z",
+    "opponentId": "442",
+    "goalsFor": 4,
+    "goalsAgainst": 4
+   }
+  },
+  "loss": {
+   "length": 2,
+   "from": {
+    "seasonId": 50,
+    "league": "L1",
+    "matchId": "41952",
+    "kickoff": "2025-05-19T06:32:00.000Z",
+    "opponentId": "77",
+    "goalsFor": 2,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 50,
+    "league": "L1",
+    "matchId": "41957",
+    "kickoff": "2025-05-19T06:32:01.000Z",
+    "opponentId": "1181",
+    "goalsFor": 2,
+    "goalsAgainst": 3
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 10,
+  "coveredMatches": 10,
+  "rows": []
+ }
+}

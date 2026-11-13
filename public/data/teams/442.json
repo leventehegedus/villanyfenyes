@@ -166,6 +166,24 @@
     "goalsAgainst": 45,
     "points": 12
    }
+  },
+  {
+   "seasonId": 50,
+   "label": "2001 - Tavasz",
+   "league": "L1",
+   "finished": true,
+   "position": 11,
+   "teamsInLeague": 11,
+   "marker": "relegation",
+   "totals": {
+    "played": 10,
+    "won": 1,
+    "drawn": 2,
+    "lost": 7,
+    "goalsFor": 22,
+    "goalsAgainst": 48,
+    "points": 5
+   }
   }
  ],
  "opponents": [
@@ -186,12 +204,12 @@
    "teamId": "395",
    "name": "Albán Focisuli",
    "totals": {
-    "played": 9,
+    "played": 10,
     "won": 1,
     "drawn": 0,
-    "lost": 8,
-    "goalsFor": 25,
-    "goalsAgainst": 42,
+    "lost": 9,
+    "goalsFor": 28,
+    "goalsAgainst": 49,
     "points": 3
    }
   },
@@ -420,12 +438,12 @@
    "teamId": "1181",
    "name": "Bobo FC",
    "totals": {
-    "played": 6,
+    "played": 7,
     "won": 3,
     "drawn": 1,
-    "lost": 2,
-    "goalsFor": 20,
-    "goalsAgainst": 17,
+    "lost": 3,
+    "goalsFor": 21,
+    "goalsAgainst": 23,
     "points": 10
    }
   },
@@ -446,12 +464,12 @@
    "teamId": "196",
    "name": "Koma Sutra",
    "totals": {
-    "played": 6,
+    "played": 7,
     "won": 1,
     "drawn": 0,
-    "lost": 5,
-    "goalsFor": 12,
-    "goalsAgainst": 28,
+    "lost": 6,
+    "goalsFor": 13,
+    "goalsAgainst": 31,
     "points": 3
    }
   },
@@ -485,25 +503,25 @@
    "teamId": "856",
    "name": "Félénk Fiúk",
    "totals": {
-    "played": 4,
-    "won": 2,
+    "played": 5,
+    "won": 3,
     "drawn": 0,
     "lost": 2,
-    "goalsFor": 12,
+    "goalsFor": 15,
     "goalsAgainst": 8,
-    "points": 6
+    "points": 9
    }
   },
   {
    "teamId": "77",
    "name": "Keverton",
    "totals": {
-    "played": 6,
+    "played": 7,
     "won": 2,
     "drawn": 1,
-    "lost": 3,
-    "goalsFor": 16,
-    "goalsAgainst": 22,
+    "lost": 4,
+    "goalsFor": 18,
+    "goalsAgainst": 28,
     "points": 7
    }
   },
@@ -537,12 +555,12 @@
    "teamId": "1346",
    "name": "WINCHESTER UNITED",
    "totals": {
-    "played": 4,
+    "played": 5,
     "won": 2,
     "drawn": 1,
-    "lost": 1,
-    "goalsFor": 14,
-    "goalsAgainst": 17,
+    "lost": 2,
+    "goalsFor": 15,
+    "goalsAgainst": 24,
     "points": 7
    }
   },
@@ -602,12 +620,12 @@
    "teamId": "1371",
    "name": "Vato Loco",
    "totals": {
-    "played": 2,
+    "played": 3,
     "won": 1,
     "drawn": 0,
-    "lost": 1,
-    "goalsFor": 10,
-    "goalsAgainst": 4,
+    "lost": 2,
+    "goalsFor": 13,
+    "goalsAgainst": 12,
     "points": 3
    }
   },
@@ -615,13 +633,13 @@
    "teamId": "1390",
    "name": "AC TISZAKÉCSKE",
    "totals": {
-    "played": 2,
+    "played": 3,
     "won": 1,
-    "drawn": 0,
+    "drawn": 1,
     "lost": 1,
-    "goalsFor": 10,
-    "goalsAgainst": 8,
-    "points": 3
+    "goalsFor": 12,
+    "goalsAgainst": 10,
+    "points": 4
    }
   },
   {
@@ -648,6 +666,32 @@
     "goalsFor": 5,
     "goalsAgainst": 1,
     "points": 3
+   }
+  },
+  {
+   "teamId": "1442",
+   "name": "LÁGYM. DINAMÓ",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 4,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "1443",
+   "name": "AC MAZSOLÁK",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 5,
+    "points": 0
    }
   }
  ],
@@ -745,11 +789,11 @@
    }
   }
  },
- "cleanSheets": 4,
+ "cleanSheets": 5,
  "failedToScore": 5,
  "scorers": {
-  "playedMatches": 96,
-  "coveredMatches": 96,
+  "playedMatches": 106,
+  "coveredMatches": 106,
   "rows": []
  }
 }
