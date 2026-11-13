@@ -1,0 +1,1224 @@
+{
+ "schemaVersion": 1,
+ "seasonId": 9,
+ "league": "L1",
+ "sourceUrl": "https://villanyfenyesbajnoksag.hu/tabella?selected_season=9&league=L1",
+ "teams": [
+  {
+   "id": "179",
+   "siteId": 179,
+   "name": "Drink Team"
+  },
+  {
+   "id": "69",
+   "siteId": 69,
+   "name": "Lokomotív MFC"
+  },
+  {
+   "id": "100",
+   "siteId": 100,
+   "name": "Gyermekláncfűrész"
+  },
+  {
+   "id": "48",
+   "siteId": 48,
+   "name": "Együtt szárszóért"
+  },
+  {
+   "id": "170",
+   "siteId": 170,
+   "name": "FC Gyulai Kolbászok powered by Vácszentlászló SC"
+  },
+  {
+   "id": "207",
+   "siteId": 207,
+   "name": "Hellobélavagyok"
+  },
+  {
+   "id": "298",
+   "siteId": 298,
+   "name": "Bizsda"
+  },
+  {
+   "id": "158",
+   "siteId": 158,
+   "name": "Rózsaszín Chihuahua-k"
+  },
+  {
+   "id": "199",
+   "siteId": 199,
+   "name": "2 zenész"
+  },
+  {
+   "id": "66",
+   "siteId": 66,
+   "name": "Csak oda-vissza"
+  },
+  {
+   "id": "64",
+   "siteId": 64,
+   "name": "Vizes Zsömle"
+  },
+  {
+   "id": "320",
+   "siteId": 320,
+   "name": "JUST4FUN"
+  }
+ ],
+ "standings": [
+  {
+   "position": 1,
+   "teamId": "179",
+   "played": 11,
+   "won": 9,
+   "drawn": 0,
+   "lost": 2,
+   "goalsFor": 48,
+   "goalsAgainst": 29,
+   "goalDiff": 19,
+   "points": 27,
+   "markers": [
+    "winStreak",
+    "fewConceded"
+   ]
+  },
+  {
+   "position": 2,
+   "teamId": "69",
+   "played": 11,
+   "won": 8,
+   "drawn": 1,
+   "lost": 2,
+   "goalsFor": 59,
+   "goalsAgainst": 37,
+   "goalDiff": 22,
+   "points": 25,
+   "markers": [
+    "winStreak",
+    "fewConceded"
+   ]
+  },
+  {
+   "position": 3,
+   "teamId": "100",
+   "played": 11,
+   "won": 8,
+   "drawn": 0,
+   "lost": 3,
+   "goalsFor": 61,
+   "goalsAgainst": 35,
+   "goalDiff": 26,
+   "points": 24,
+   "markers": [
+    "manyGoals",
+    "fewConceded"
+   ]
+  },
+  {
+   "position": 4,
+   "teamId": "48",
+   "played": 11,
+   "won": 7,
+   "drawn": 2,
+   "lost": 2,
+   "goalsFor": 57,
+   "goalsAgainst": 37,
+   "goalDiff": 20,
+   "points": 23,
+   "markers": [
+    "fewConceded"
+   ]
+  },
+  {
+   "position": 5,
+   "teamId": "170",
+   "played": 11,
+   "won": 5,
+   "drawn": 3,
+   "lost": 3,
+   "goalsFor": 36,
+   "goalsAgainst": 36,
+   "goalDiff": 0,
+   "points": 18,
+   "markers": [
+    "fewConceded"
+   ]
+  },
+  {
+   "position": 6,
+   "teamId": "207",
+   "played": 11,
+   "won": 5,
+   "drawn": 2,
+   "lost": 4,
+   "goalsFor": 43,
+   "goalsAgainst": 47,
+   "goalDiff": -4,
+   "points": 17,
+   "markers": []
+  },
+  {
+   "position": 7,
+   "teamId": "298",
+   "played": 11,
+   "won": 4,
+   "drawn": 3,
+   "lost": 4,
+   "goalsFor": 42,
+   "goalsAgainst": 42,
+   "goalDiff": 0,
+   "points": 15,
+   "markers": [
+    "lossStreak"
+   ]
+  },
+  {
+   "position": 8,
+   "teamId": "158",
+   "played": 11,
+   "won": 3,
+   "drawn": 4,
+   "lost": 4,
+   "goalsFor": 36,
+   "goalsAgainst": 43,
+   "goalDiff": -7,
+   "points": 13,
+   "markers": []
+  },
+  {
+   "position": 9,
+   "teamId": "199",
+   "played": 11,
+   "won": 4,
+   "drawn": 0,
+   "lost": 7,
+   "goalsFor": 51,
+   "goalsAgainst": 41,
+   "goalDiff": 10,
+   "points": 12,
+   "markers": [
+    "relegation"
+   ]
+  },
+  {
+   "position": 10,
+   "teamId": "66",
+   "played": 11,
+   "won": 2,
+   "drawn": 2,
+   "lost": 7,
+   "goalsFor": 38,
+   "goalsAgainst": 70,
+   "goalDiff": -32,
+   "points": 8,
+   "markers": [
+    "lossStreak",
+    "relegation"
+   ]
+  },
+  {
+   "position": 11,
+   "teamId": "64",
+   "played": 11,
+   "won": 1,
+   "drawn": 1,
+   "lost": 9,
+   "goalsFor": 39,
+   "goalsAgainst": 66,
+   "goalDiff": -27,
+   "points": 4,
+   "markers": [
+    "lossStreak",
+    "relegation"
+   ]
+  },
+  {
+   "position": 12,
+   "teamId": "320",
+   "played": 11,
+   "won": 0,
+   "drawn": 2,
+   "lost": 9,
+   "goalsFor": 22,
+   "goalsAgainst": 49,
+   "goalDiff": -27,
+   "points": 2,
+   "markers": [
+    "relegation"
+   ]
+  }
+ ],
+ "matches": [
+  {
+   "id": "x-9-L1--bizsda-vizes-zsomle",
+   "siteId": null,
+   "homeTeamId": "298",
+   "awayTeamId": "64",
+   "kickoff": null,
+   "venue": "nincs megadva",
+   "homeGoals": null,
+   "awayGoals": null,
+   "status": "unknown",
+   "scorers": null,
+   "detailFetchedAt": null
+  },
+  {
+   "id": "4377",
+   "siteId": 4377,
+   "homeTeamId": "158",
+   "awayTeamId": "66",
+   "kickoff": "2022-09-12T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 5,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4378",
+   "siteId": 4378,
+   "homeTeamId": "298",
+   "awayTeamId": "69",
+   "kickoff": "2022-09-12T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4379",
+   "siteId": 4379,
+   "homeTeamId": "199",
+   "awayTeamId": "48",
+   "kickoff": "2022-09-12T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 5,
+   "awayGoals": 6,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4380",
+   "siteId": 4380,
+   "homeTeamId": "320",
+   "awayTeamId": "100",
+   "kickoff": "2022-09-14T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4381",
+   "siteId": 4381,
+   "homeTeamId": "179",
+   "awayTeamId": "64",
+   "kickoff": "2022-09-14T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4382",
+   "siteId": 4382,
+   "homeTeamId": "207",
+   "awayTeamId": "170",
+   "kickoff": "2022-09-14T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4383",
+   "siteId": 4383,
+   "homeTeamId": "320",
+   "awayTeamId": "48",
+   "kickoff": "2022-09-19T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4384",
+   "siteId": 4384,
+   "homeTeamId": "158",
+   "awayTeamId": "298",
+   "kickoff": "2022-09-19T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 5,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4385",
+   "siteId": 4385,
+   "homeTeamId": "207",
+   "awayTeamId": "199",
+   "kickoff": "2022-09-19T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4386",
+   "siteId": 4386,
+   "homeTeamId": "69",
+   "awayTeamId": "170",
+   "kickoff": "2022-09-21T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4387",
+   "siteId": 4387,
+   "homeTeamId": "64",
+   "awayTeamId": "66",
+   "kickoff": "2022-09-21T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 5,
+   "awayGoals": 8,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4388",
+   "siteId": 4388,
+   "homeTeamId": "179",
+   "awayTeamId": "100",
+   "kickoff": "2022-09-21T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 6,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4389",
+   "siteId": 4389,
+   "homeTeamId": "320",
+   "awayTeamId": "170",
+   "kickoff": "2022-09-26T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4390",
+   "siteId": 4390,
+   "homeTeamId": "207",
+   "awayTeamId": "66",
+   "kickoff": "2022-09-28T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4391",
+   "siteId": 4391,
+   "homeTeamId": "158",
+   "awayTeamId": "64",
+   "kickoff": "2022-09-28T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 8,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4392",
+   "siteId": 4392,
+   "homeTeamId": "179",
+   "awayTeamId": "69",
+   "kickoff": "2022-09-28T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 7,
+   "awayGoals": 6,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4393",
+   "siteId": 4393,
+   "homeTeamId": "158",
+   "awayTeamId": "69",
+   "kickoff": "2022-10-03T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 1,
+   "awayGoals": 7,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4394",
+   "siteId": 4394,
+   "homeTeamId": "298",
+   "awayTeamId": "199",
+   "kickoff": "2022-10-03T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4395",
+   "siteId": 4395,
+   "homeTeamId": "320",
+   "awayTeamId": "66",
+   "kickoff": "2022-10-03T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4396",
+   "siteId": 4396,
+   "homeTeamId": "207",
+   "awayTeamId": "64",
+   "kickoff": "2022-10-05T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 10,
+   "awayGoals": 6,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4397",
+   "siteId": 4397,
+   "homeTeamId": "179",
+   "awayTeamId": "48",
+   "kickoff": "2022-10-05T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4398",
+   "siteId": 4398,
+   "homeTeamId": "170",
+   "awayTeamId": "100",
+   "kickoff": "2022-10-05T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4399",
+   "siteId": 4399,
+   "homeTeamId": "298",
+   "awayTeamId": "100",
+   "kickoff": "2022-10-10T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 2,
+   "awayGoals": 12,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4400",
+   "siteId": 4400,
+   "homeTeamId": "158",
+   "awayTeamId": "48",
+   "kickoff": "2022-10-10T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4401",
+   "siteId": 4401,
+   "homeTeamId": "207",
+   "awayTeamId": "69",
+   "kickoff": "2022-10-10T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 3,
+   "awayGoals": 8,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4402",
+   "siteId": 4402,
+   "homeTeamId": "320",
+   "awayTeamId": "64",
+   "kickoff": "2022-10-12T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 3,
+   "awayGoals": 6,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4403",
+   "siteId": 4403,
+   "homeTeamId": "179",
+   "awayTeamId": "199",
+   "kickoff": "2022-10-12T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4404",
+   "siteId": 4404,
+   "homeTeamId": "66",
+   "awayTeamId": "170",
+   "kickoff": "2022-10-12T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 4,
+   "awayGoals": 4,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4405",
+   "siteId": 4405,
+   "homeTeamId": "320",
+   "awayTeamId": "69",
+   "kickoff": "2022-10-17T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4406",
+   "siteId": 4406,
+   "homeTeamId": "158",
+   "awayTeamId": "199",
+   "kickoff": "2022-10-17T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 5,
+   "awayGoals": 4,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4407",
+   "siteId": 4407,
+   "homeTeamId": "207",
+   "awayTeamId": "48",
+   "kickoff": "2022-10-17T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 2,
+   "awayGoals": 9,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4408",
+   "siteId": 4408,
+   "homeTeamId": "64",
+   "awayTeamId": "170",
+   "kickoff": "2022-10-19T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4409",
+   "siteId": 4409,
+   "homeTeamId": "179",
+   "awayTeamId": "298",
+   "kickoff": "2022-10-19T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4410",
+   "siteId": 4410,
+   "homeTeamId": "66",
+   "awayTeamId": "100",
+   "kickoff": "2022-10-19T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 4,
+   "awayGoals": 9,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4411",
+   "siteId": 4411,
+   "homeTeamId": "158",
+   "awayTeamId": "100",
+   "kickoff": "2022-10-24T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4412",
+   "siteId": 4412,
+   "homeTeamId": "320",
+   "awayTeamId": "298",
+   "kickoff": "2022-10-24T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4413",
+   "siteId": 4413,
+   "homeTeamId": "199",
+   "awayTeamId": "170",
+   "kickoff": "2022-10-24T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 4,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4414",
+   "siteId": 4414,
+   "homeTeamId": "69",
+   "awayTeamId": "64",
+   "kickoff": "2022-10-26T17:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 6,
+   "awayGoals": 4,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4415",
+   "siteId": 4415,
+   "homeTeamId": "207",
+   "awayTeamId": "179",
+   "kickoff": "2022-10-26T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4416",
+   "siteId": 4416,
+   "homeTeamId": "48",
+   "awayTeamId": "66",
+   "kickoff": "2022-10-26T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4417",
+   "siteId": 4417,
+   "homeTeamId": "199",
+   "awayTeamId": "100",
+   "kickoff": "2022-10-26T20:00:00.000Z",
+   "venue": "Bogdánfy_2",
+   "homeGoals": 2,
+   "awayGoals": 6,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4418",
+   "siteId": 4418,
+   "homeTeamId": "320",
+   "awayTeamId": "158",
+   "kickoff": "2022-11-07T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4419",
+   "siteId": 4419,
+   "homeTeamId": "298",
+   "awayTeamId": "66",
+   "kickoff": "2022-11-07T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 13,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4420",
+   "siteId": 4420,
+   "homeTeamId": "199",
+   "awayTeamId": "64",
+   "kickoff": "2022-11-07T20:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 12,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4421",
+   "siteId": 4421,
+   "homeTeamId": "207",
+   "awayTeamId": "100",
+   "kickoff": "2022-11-09T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4422",
+   "siteId": 4422,
+   "homeTeamId": "179",
+   "awayTeamId": "170",
+   "kickoff": "2022-11-09T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4423",
+   "siteId": 4423,
+   "homeTeamId": "48",
+   "awayTeamId": "69",
+   "kickoff": "2022-11-09T20:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 5,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4424",
+   "siteId": 4424,
+   "homeTeamId": "207",
+   "awayTeamId": "298",
+   "kickoff": "2022-11-14T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4425",
+   "siteId": 4425,
+   "homeTeamId": "320",
+   "awayTeamId": "199",
+   "kickoff": "2022-11-14T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 3,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4426",
+   "siteId": 4426,
+   "homeTeamId": "48",
+   "awayTeamId": "170",
+   "kickoff": "2022-11-14T20:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4427",
+   "siteId": 4427,
+   "homeTeamId": "64",
+   "awayTeamId": "100",
+   "kickoff": "2022-11-16T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4428",
+   "siteId": 4428,
+   "homeTeamId": "158",
+   "awayTeamId": "179",
+   "kickoff": "2022-11-16T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4429",
+   "siteId": 4429,
+   "homeTeamId": "69",
+   "awayTeamId": "66",
+   "kickoff": "2022-11-16T20:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 8,
+   "awayGoals": 6,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4430",
+   "siteId": 4430,
+   "homeTeamId": "207",
+   "awayTeamId": "158",
+   "kickoff": "2022-11-21T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4431",
+   "siteId": 4431,
+   "homeTeamId": "298",
+   "awayTeamId": "170",
+   "kickoff": "2022-11-21T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4432",
+   "siteId": 4432,
+   "homeTeamId": "199",
+   "awayTeamId": "66",
+   "kickoff": "2022-11-21T20:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 7,
+   "awayGoals": 2,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4433",
+   "siteId": 4433,
+   "homeTeamId": "48",
+   "awayTeamId": "64",
+   "kickoff": "2022-11-23T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 8,
+   "awayGoals": 4,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4434",
+   "siteId": 4434,
+   "homeTeamId": "320",
+   "awayTeamId": "179",
+   "kickoff": "2022-11-23T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4435",
+   "siteId": 4435,
+   "homeTeamId": "69",
+   "awayTeamId": "100",
+   "kickoff": "2022-11-23T20:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 6,
+   "awayGoals": 5,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4436",
+   "siteId": 4436,
+   "homeTeamId": "158",
+   "awayTeamId": "170",
+   "kickoff": "2022-11-28T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4437",
+   "siteId": 4437,
+   "homeTeamId": "298",
+   "awayTeamId": "48",
+   "kickoff": "2022-11-28T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 4,
+   "awayGoals": 7,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4438",
+   "siteId": 4438,
+   "homeTeamId": "199",
+   "awayTeamId": "69",
+   "kickoff": "2022-11-28T20:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4439",
+   "siteId": 4439,
+   "homeTeamId": "320",
+   "awayTeamId": "207",
+   "kickoff": "2022-11-30T18:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 6,
+   "awayGoals": 6,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4440",
+   "siteId": 4440,
+   "homeTeamId": "179",
+   "awayTeamId": "66",
+   "kickoff": "2022-11-30T19:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  },
+  {
+   "id": "4441",
+   "siteId": 4441,
+   "homeTeamId": "48",
+   "awayTeamId": "100",
+   "kickoff": "2022-11-30T20:00:00.000Z",
+   "venue": "Bogdánfy_1",
+   "homeGoals": 5,
+   "awayGoals": 8,
+   "status": "played",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-13T13:52:56.520Z"
+  }
+ ],
+ "summaries": [
+  {
+   "teamId": "179",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Németh Balázs",
+    "goals": 4
+   },
+   "seasonsCount": 26,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "69",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Mogyorósi Zoltán",
+    "goals": 12
+   },
+   "seasonsCount": 22,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "100",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Füle András",
+    "goals": 8
+   },
+   "seasonsCount": 21,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "48",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Mészáros Bence",
+    "goals": 4
+   },
+   "seasonsCount": 16,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "170",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Kecskeméti Balázs",
+    "goals": 5
+   },
+   "seasonsCount": 23,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "207",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Horváth András",
+    "goals": 5
+   },
+   "seasonsCount": 18,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "298",
+   "bestLeague": "L1",
+   "topScorer": null,
+   "seasonsCount": 28,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "158",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Novák Barnabás",
+    "goals": 3
+   },
+   "seasonsCount": 32,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "199",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Stranyóczky László",
+    "goals": 5
+   },
+   "seasonsCount": 24,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "66",
+   "bestLeague": null,
+   "topScorer": null,
+   "seasonsCount": 16,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "64",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Verbovszky Bence",
+    "goals": 4
+   },
+   "seasonsCount": 18,
+   "matchesPlayed": 11
+  },
+  {
+   "teamId": "320",
+   "bestLeague": "L1",
+   "topScorer": null,
+   "seasonsCount": 27,
+   "matchesPlayed": 11
+  }
+ ]
+}
