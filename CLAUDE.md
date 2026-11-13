@@ -11,7 +11,7 @@ React 18, strict TypeScript 5.9, Vite, Tailwind v4, shadcn/ui (Radix), TanStack 
 - `pnpm dev` / `pnpm build` / `pnpm preview`
 - `pnpm typecheck` / `pnpm lint` / `pnpm test` (Vitest, dot reporter) / `pnpm dup` (jscpd, 3 %)
 - `pnpm e2e` (Playwright smoke test on `e2e/fixtures/data`)
-- `pnpm ingest` (current season) · `pnpm ingest --season <id>` (backfill) · `pnpm ingest --dry-run` (parse, gate, no write)
+- `pnpm ingest` (current season) · `pnpm ingest --season <id>` (backfill) · `pnpm ingest --dry-run` (parse, gate, no write) · `pnpm ingest --teams-only` (rebuild `teams/*.json` from disk, no requests)
 
 ## Rules
 
