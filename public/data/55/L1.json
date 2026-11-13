@@ -1761,7 +1761,7 @@
      "teamId": "90"
     }
    ],
-   "detailFetchedAt": "2026-11-13T06:49:49.930Z"
+   "detailFetchedAt": "2026-11-13T17:13:19.351Z"
   },
   {
    "id": "48343",
@@ -1839,7 +1839,7 @@
      "teamId": "238"
     }
    ],
-   "detailFetchedAt": "2026-11-13T06:49:49.930Z"
+   "detailFetchedAt": "2026-11-13T17:13:19.351Z"
   },
   {
    "id": "48345",
@@ -1868,7 +1868,7 @@
      "teamId": "107"
     }
    ],
-   "detailFetchedAt": "2026-11-13T06:49:49.930Z"
+   "detailFetchedAt": "2026-11-13T17:13:19.351Z"
   },
   {
    "id": "48346",
@@ -1880,8 +1880,29 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-13T06:49:49.930Z"
+   "scorers": [
+    {
+     "name": "Bencze Mártom",
+     "goals": 2,
+     "teamId": "142"
+    },
+    {
+     "name": "Kalocsay Károly",
+     "goals": 2,
+     "teamId": "142"
+    },
+    {
+     "name": "Tóth Dávid",
+     "goals": 1,
+     "teamId": "142"
+    },
+    {
+     "name": "Szigeti Balázs",
+     "goals": 1,
+     "teamId": "142"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T17:13:19.351Z"
   },
   {
    "id": "48347",
@@ -1893,8 +1914,24 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-13T06:49:49.930Z"
+   "scorers": [
+    {
+     "name": "Gondos Andor",
+     "goals": 3,
+     "teamId": "199"
+    },
+    {
+     "name": "Siket Máté",
+     "goals": 2,
+     "teamId": "199"
+    },
+    {
+     "name": "Alt Ákos",
+     "goals": 1,
+     "teamId": "199"
+    }
+   ],
+   "detailFetchedAt": "2026-11-13T17:13:19.351Z"
   },
   {
    "id": "x-55-L1-202611181800-invincibles-jezus-tanitvanyai",
