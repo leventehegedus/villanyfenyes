@@ -10,7 +10,7 @@ import { readMatchFilters } from '@/lib/url-state'
 export default function SchedulePage() {
   const t = useT()
   const { query, teamName, keep, params, setSelection, seasonId, league, noData } = useLeagueData()
-  const filters = readMatchFilters(params, 'all')
+  const filters = readMatchFilters(params, 'upcoming')
 
   return (
     <div className="space-y-4">

@@ -57,11 +57,11 @@ export function StandingsTable({ rows, matches, teamName, keep, sort, onSort }: 
         <TableHeader>
           <TableRow>
             <TableHead className="sticky left-0 z-20 w-7 bg-card px-1 text-center">{t('colPos')}</TableHead>
-            <TableHead className="sticky left-7 z-20 bg-card px-1">{t('colTeam')}</TableHead>
+            <TableHead className="sticky left-7 z-20 w-full bg-card px-1">{t('colTeam')}</TableHead>
             {COLS.map((c) => (
               <TableHead
                 key={c.key}
-                className="px-0 text-center sm:px-1"
+                className="px-0 text-right sm:px-1"
                 aria-sort={sort.key === c.key ? (sort.dir === 'asc' ? 'ascending' : 'descending') : 'none'}
               >
                 <Tooltip>
@@ -80,7 +80,7 @@ export function StandingsTable({ rows, matches, teamName, keep, sort, onSort }: 
                 </Tooltip>
               </TableHead>
             ))}
-            <TableHead className="px-2">
+            <TableHead className="px-2 text-right">
               <Tooltip>
                 <TooltipTrigger asChild>
                   <span tabIndex={0}>{t('form')}</span>
@@ -96,7 +96,7 @@ export function StandingsTable({ rows, matches, teamName, keep, sort, onSort }: 
             return (
               <TableRow key={r.teamId}>
                 <TableCell className="tabular sticky left-0 z-10 bg-card px-1 text-center font-medium">{r.position}</TableCell>
-                <TableCell className="sticky left-7 z-10 w-28 max-w-28 bg-card px-1 py-1.5 sm:w-auto sm:max-w-56">
+                <TableCell className="sticky left-7 z-10 w-full max-w-28 bg-card px-1 py-1.5 sm:max-w-none">
                   <div className="flex items-center gap-1">
                     <div className="min-w-0">
                       <Link to={`/t/${encodeURIComponent(r.teamId)}${keep}`} className="block truncate hover:underline">
@@ -107,12 +107,12 @@ export function StandingsTable({ rows, matches, teamName, keep, sort, onSort }: 
                   </div>
                 </TableCell>
                 {COLS.map((c) => (
-                  <TableCell key={c.key} className={cn('tabular w-7 px-0.5 text-center sm:px-1', c.key === 'points' && 'font-bold')}>
+                  <TableCell key={c.key} className={cn('tabular w-7 px-0.5 text-right sm:px-1.5', c.key === 'points' && 'font-bold')}>
                     {c.key === 'goalDiff' ? signed(r.goalDiff) : r[c.key]}
                   </TableCell>
                 ))}
-                <TableCell className="px-2">
-                  <FormStrip teamId={r.teamId} results={teamResults(r.teamId, matches).slice(-5)} teamName={teamName} keep={keep} />
+                <TableCell className="px-2 [&_ol]:justify-end">
+                  <FormStrip results={teamResults(r.teamId, matches).slice(-5)} teamName={teamName} keep={keep} />
                 </TableCell>
               </TableRow>
             )

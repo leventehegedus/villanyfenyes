@@ -40,6 +40,7 @@ test('team page and language toggle', async ({ page }) => {
 
 test('schedule filters are reflected in the URL', async ({ page }) => {
   await page.goto('/menetrend?s=55&l=L1')
+  await expect(page.getByRole('radio', { name: 'Hátralévő' })).toHaveAttribute('data-state', 'on')
   await page.getByRole('radio', { name: 'Lejátszott' }).click()
   await expect(page).toHaveURL(/st=past/)
   await expect(page.getByText('2:3')).toBeVisible()
@@ -55,8 +56,8 @@ test('stats: progression chart, cross table and form hover', async ({ page }) =>
   await expect(page).toHaveURL(/v=cross/)
   await expect(page.getByRole('link', { name: /Lokomotív MFC – Gyermekláncfűrész 3:2/ })).toBeVisible()
   await page.goto('/t/69?s=55&l=L1')
-  await page.getByRole('link', { name: /Győzelem: Gyermekláncfűrész 2:3 Lokomotív MFC/ }).hover()
-  await expect(page.getByRole('tooltip')).toContainText('Gyermekláncfűrész 2:3 Lokomotív MFC')
+  await page.getByRole('link', { name: /Győzelem 3:2, Gyermekláncfűrész/ }).hover()
+  await expect(page.getByRole('tooltip')).toHaveText('3:2')
 })
 
 test('scorers can be filtered by team', async ({ page }) => {

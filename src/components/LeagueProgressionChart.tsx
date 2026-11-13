@@ -34,6 +34,9 @@ export default function LeagueProgressionChart({ teams, matches, podium, highlig
   const progression = leagueProgression(teams, matches)
   const rows = progression.map((r) => ({ label: formatDay(`${r.week}T12:00:00Z`, prefs.locale, 'UTC'), ...r.points }))
   const final = progression.at(-1)?.points ?? {}
+  // One tick per win (3 points).
+  const top = Math.max(3, Math.ceil(Math.max(0, ...Object.values(final)) / 3) * 3)
+  const ticks = Array.from({ length: top / 3 + 1 }, (_, i) => i * 3)
   const name = new Map(teams.map((x) => [x.id, x.name]))
 
   const extras = highlighted.filter((id) => !podium.includes(id))
@@ -108,7 +111,7 @@ export default function LeagueProgressionChart({ teams, matches, podium, highlig
         <LineChart data={rows} margin={{ left: -16, right: 110, top: 8, bottom: 0 }}>
           <CartesianGrid vertical={false} strokeOpacity={0.5} />
           <XAxis dataKey="label" tickLine={false} axisLine={false} fontSize={11} />
-          <YAxis allowDecimals={false} tickLine={false} axisLine={false} fontSize={11} />
+          <YAxis domain={[0, top]} ticks={ticks} interval={0} tickLine={false} axisLine={false} fontSize={11} />
           <Tooltip content={TooltipBody} cursor={{ strokeOpacity: 0.4 }} />
           {order.map((team) => {
             const l = look(team.id)
