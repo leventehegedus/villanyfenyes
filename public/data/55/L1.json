@@ -1761,7 +1761,7 @@
      "teamId": "90"
     }
    ],
-   "detailFetchedAt": "2026-11-14T02:32:14.295Z"
+   "detailFetchedAt": "2026-11-14T15:49:05.097Z"
   },
   {
    "id": "48343",
@@ -1839,7 +1839,7 @@
      "teamId": "238"
     }
    ],
-   "detailFetchedAt": "2026-11-14T02:32:14.295Z"
+   "detailFetchedAt": "2026-11-14T15:49:05.097Z"
   },
   {
    "id": "48345",
@@ -1868,7 +1868,7 @@
      "teamId": "107"
     }
    ],
-   "detailFetchedAt": "2026-11-14T02:32:14.295Z"
+   "detailFetchedAt": "2026-11-14T15:49:05.097Z"
   },
   {
    "id": "48346",
@@ -1902,7 +1902,7 @@
      "teamId": "142"
     }
    ],
-   "detailFetchedAt": "2026-11-14T02:32:14.295Z"
+   "detailFetchedAt": "2026-11-14T15:49:05.097Z"
   },
   {
    "id": "48347",
@@ -1931,7 +1931,7 @@
      "teamId": "199"
     }
    ],
-   "detailFetchedAt": "2026-11-14T02:32:14.295Z"
+   "detailFetchedAt": "2026-11-14T15:49:05.097Z"
   },
   {
    "id": "x-55-L1-202611181800-invincibles-jezus-tanitvanyai",
@@ -2243,7 +2243,7 @@
    "teamId": "149",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Szabó Koppány",
+    "name": "Markó Péter Dániel",
     "goals": 5
    },
    "seasonsCount": 9,
