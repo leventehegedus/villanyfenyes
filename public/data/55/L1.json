@@ -1761,7 +1761,7 @@
      "teamId": "90"
     }
    ],
-   "detailFetchedAt": "2026-11-15T06:32:27.463Z"
+   "detailFetchedAt": "2026-11-15T16:22:19.007Z"
   },
   {
    "id": "48343",
@@ -1839,7 +1839,7 @@
      "teamId": "238"
     }
    ],
-   "detailFetchedAt": "2026-11-15T06:32:27.463Z"
+   "detailFetchedAt": "2026-11-15T16:22:19.007Z"
   },
   {
    "id": "48345",
@@ -1868,7 +1868,7 @@
      "teamId": "107"
     }
    ],
-   "detailFetchedAt": "2026-11-15T06:32:27.463Z"
+   "detailFetchedAt": "2026-11-15T16:22:19.007Z"
   },
   {
    "id": "48346",
@@ -1902,7 +1902,7 @@
      "teamId": "142"
     }
    ],
-   "detailFetchedAt": "2026-11-15T06:32:27.463Z"
+   "detailFetchedAt": "2026-11-15T16:22:19.007Z"
   },
   {
    "id": "48347",
@@ -1931,7 +1931,7 @@
      "teamId": "199"
     }
    ],
-   "detailFetchedAt": "2026-11-15T06:32:27.463Z"
+   "detailFetchedAt": "2026-11-15T16:22:19.007Z"
   },
   {
    "id": "x-55-L1-202611181800-invincibles-jezus-tanitvanyai",
@@ -2193,7 +2193,7 @@
    "teamId": "142",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Bencze Mártom",
+    "name": "Andorka Kristóf",
     "goals": 4
    },
    "seasonsCount": 8,
