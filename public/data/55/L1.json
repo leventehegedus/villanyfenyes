@@ -1761,7 +1761,7 @@
      "teamId": "90"
     }
    ],
-   "detailFetchedAt": "2026-11-15T16:22:19.007Z"
+   "detailFetchedAt": "2026-11-16T01:11:10.128Z"
   },
   {
    "id": "48343",
@@ -1776,31 +1776,31 @@
    "scorers": [
     {
      "name": "Horváth Dávid",
-     "teamId": "100",
-     "goals": 1
+     "goals": 1,
+     "teamId": "100"
     },
     {
      "name": "Füle András",
-     "teamId": "100",
-     "goals": 1
+     "goals": 1,
+     "teamId": "100"
     },
     {
      "name": "Alács Mihály",
-     "teamId": "69",
-     "goals": 1
+     "goals": 1,
+     "teamId": "69"
     },
     {
      "name": "Kele Balázs",
-     "teamId": "69",
-     "goals": 1
+     "goals": 1,
+     "teamId": "69"
     },
     {
      "name": "Pap Bulcsú",
-     "teamId": "69",
-     "goals": 1
+     "goals": 1,
+     "teamId": "69"
     }
    ],
-   "detailFetchedAt": "2026-11-15T00:49:47.693Z"
+   "detailFetchedAt": "2026-11-16T01:11:10.128Z"
   },
   {
    "id": "48344",
@@ -1839,7 +1839,7 @@
      "teamId": "238"
     }
    ],
-   "detailFetchedAt": "2026-11-15T16:22:19.007Z"
+   "detailFetchedAt": "2026-11-16T01:11:10.128Z"
   },
   {
    "id": "48345",
@@ -1868,7 +1868,7 @@
      "teamId": "107"
     }
    ],
-   "detailFetchedAt": "2026-11-15T16:22:19.007Z"
+   "detailFetchedAt": "2026-11-16T01:11:10.128Z"
   },
   {
    "id": "48346",
@@ -1902,7 +1902,7 @@
      "teamId": "142"
     }
    ],
-   "detailFetchedAt": "2026-11-15T16:22:19.007Z"
+   "detailFetchedAt": "2026-11-16T01:11:10.128Z"
   },
   {
    "id": "48347",
@@ -1931,7 +1931,7 @@
      "teamId": "199"
     }
    ],
-   "detailFetchedAt": "2026-11-15T16:22:19.007Z"
+   "detailFetchedAt": "2026-11-16T01:11:10.128Z"
   },
   {
    "id": "x-55-L1-202611181800-invincibles-jezus-tanitvanyai",
@@ -2193,7 +2193,7 @@
    "teamId": "142",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Andorka Kristóf",
+    "name": "Bencze Mártom",
     "goals": 4
    },
    "seasonsCount": 8,
