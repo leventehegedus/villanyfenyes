@@ -42,7 +42,6 @@ const hu = {
   emptyFilter: 'Nincs a szűrésnek megfelelő mérkőzés.',
   dataAge: 'Adatok frissítve: {age}',
   staleBanner: 'Az adatok régebbiek {hours} óránál, lehet, hogy elavultak. A hivatalos oldal a mérvadó.',
-  refresh: 'Frissítés',
   officialPage: 'Eredeti oldal',
   disclaimer:
     'Nem hivatalos nézegető, nem kapcsolódik a bajnoksághoz. Az adatok a villanyfenyesbajnoksag.hu nyilvános oldalairól származnak, késhetnek vagy hibásak lehetnek; a hivatalos oldal a mérvadó.',
@@ -273,7 +272,6 @@ const en: Record<MessageKey, string> = {
   emptyFilter: 'No matches for these filters.',
   dataAge: 'Data updated {age}',
   staleBanner: 'The data is older than {hours} hours and may be out of date. The official site is authoritative.',
-  refresh: 'Refresh',
   officialPage: 'Original page',
   disclaimer:
     'Unofficial viewer, not affiliated with the league. Data is taken from the public pages of villanyfenyesbajnoksag.hu and may be delayed or contain errors; the official site is authoritative.',

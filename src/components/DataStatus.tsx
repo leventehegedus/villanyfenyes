@@ -1,18 +1,15 @@
-import { useQueryClient } from '@tanstack/react-query'
-import { AlertTriangle, RotateCw } from 'lucide-react'
-import { Button } from '@/components/ui/button'
+import { AlertTriangle } from 'lucide-react'
 import { usePrefs, useT } from '@/hooks/prefs'
 import { useMeta } from '@/hooks/queries'
 import { STALE_AFTER_HOURS } from '@/lib/config'
 import { DataError } from '@/lib/data'
 import { formatAge, formatKickoff, isStale } from '@/lib/format'
 
-/** Data age from meta.generatedAt, a stale banner and a manual refresh. */
+/** Data age from meta.generatedAt, and a stale banner. */
 export function DataStatus() {
   const t = useT()
   const { prefs } = usePrefs()
   const meta = useMeta()
-  const client = useQueryClient()
   const now = new Date()
   const generatedAt = meta.data?.generatedAt
   const stale = generatedAt ? isStale(generatedAt, now, STALE_AFTER_HOURS) : false
@@ -29,16 +26,6 @@ export function DataStatus() {
                 ? t('errorTitle')
                 : t('loading')}
         </span>
-        <Button
-          size="sm"
-          variant="ghost"
-          className="h-6 px-2 text-xs"
-          onClick={() => void client.invalidateQueries()}
-          disabled={meta.isFetching}
-        >
-          <RotateCw className={meta.isFetching ? 'size-3 animate-spin' : 'size-3'} aria-hidden />
-          {t('refresh')}
-        </Button>
       </div>
       {stale && (
         <p role="status" className="flex items-center justify-center gap-2 bg-accent px-3 py-1.5 text-center text-accent-foreground">
