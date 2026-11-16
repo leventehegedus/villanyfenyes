@@ -2,7 +2,7 @@ name: Ingest
 on:
   # Only the leagues in src/lib/leagues.ts are fetched (currently L1).
   schedule:
-    - cron: '*/30 17-22 * * *' # every 30 min, 18:00-24:00 Budapest winter time (matches end ~21-22h)
+    - cron: '7,37 17-22 * * *' # every 30 min (off :00/:30, GitHub drops peak-time runs), 18:00-24:00 Budapest winter time (matches end ~21-22h)
     - cron: '17 */3 * * *' # every 3 h the rest of the day
   workflow_dispatch:
     inputs:
