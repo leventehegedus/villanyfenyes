@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L1",
    "finished": false,
-   "position": 7,
+   "position": 5,
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 7,
-    "won": 3,
+    "played": 8,
+    "won": 4,
     "drawn": 0,
     "lost": 4,
-    "goalsFor": 32,
+    "goalsFor": 37,
     "goalsAgainst": 33,
-    "points": 9
+    "points": 12
    }
   },
   {
@@ -91,13 +91,13 @@
    "teamId": "149",
    "name": "Nagyon fincsi",
    "totals": {
-    "played": 2,
-    "won": 0,
+    "played": 3,
+    "won": 1,
     "drawn": 0,
     "lost": 2,
-    "goalsFor": 7,
+    "goalsFor": 12,
     "goalsAgainst": 10,
-    "points": 0
+    "points": 3
    }
   },
   {
@@ -290,20 +290,20 @@
   "win": {
    "length": 2,
    "from": {
-    "seasonId": 53,
+    "seasonId": 55,
     "league": "L1",
-    "matchId": "47652",
-    "kickoff": "2026-04-21T18:00:00.000Z",
-    "opponentId": "28",
+    "matchId": "48340",
+    "kickoff": "2026-11-05T19:00:00.000Z",
+    "opponentId": "199",
     "goalsFor": 5,
-    "goalsAgainst": 3
+    "goalsAgainst": 4
    },
    "to": {
-    "seasonId": 53,
+    "seasonId": 55,
     "league": "L1",
-    "matchId": "47722",
-    "kickoff": "2026-04-28T17:00:00.000Z",
-    "opponentId": "154",
+    "matchId": "48342",
+    "kickoff": "2026-11-11T18:00:00.000Z",
+    "opponentId": "149",
     "goalsFor": 5,
     "goalsAgainst": 0
    }
@@ -351,16 +351,16 @@
    }
   }
  },
- "cleanSheets": 3,
+ "cleanSheets": 4,
  "failedToScore": 1,
  "scorers": {
-  "playedMatches": 29,
-  "coveredMatches": 29,
+  "playedMatches": 30,
+  "coveredMatches": 30,
   "rows": [
    {
     "name": "Németh Csaba",
-    "goals": 40,
-    "matches": 17,
+    "goals": 41,
+    "matches": 18,
     "hatTricks": 5
    },
    {
@@ -371,14 +371,20 @@
    },
    {
     "name": "Wolford Márk",
-    "goals": 14,
-    "matches": 12,
+    "goals": 16,
+    "matches": 13,
     "hatTricks": 0
    },
    {
     "name": "Mucsi Mihály",
-    "goals": 12,
-    "matches": 10,
+    "goals": 13,
+    "matches": 11,
+    "hatTricks": 0
+   },
+   {
+    "name": "Tóth Krisztián Kristóf",
+    "goals": 11,
+    "matches": 9,
     "hatTricks": 0
    },
    {
@@ -386,12 +392,6 @@
     "goals": 10,
     "matches": 8,
     "hatTricks": 1
-   },
-   {
-    "name": "Tóth Krisztián Kristóf",
-    "goals": 10,
-    "matches": 8,
-    "hatTricks": 0
    },
    {
     "name": "Szabó Gergő Péter",

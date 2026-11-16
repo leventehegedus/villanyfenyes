@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 3,
     "drawn": 0,
-    "lost": 4,
+    "lost": 5,
     "goalsFor": 16,
-    "goalsAgainst": 20,
+    "goalsAgainst": 25,
     "points": 9
    }
   },
@@ -109,12 +109,12 @@
    "teamId": "90",
    "name": "Invincibles",
    "totals": {
-    "played": 2,
+    "played": 3,
     "won": 2,
     "drawn": 0,
-    "lost": 0,
+    "lost": 1,
     "goalsFor": 10,
-    "goalsAgainst": 7,
+    "goalsAgainst": 12,
     "points": 6
    }
   },
@@ -448,10 +448,10 @@
   }
  },
  "cleanSheets": 1,
- "failedToScore": 1,
+ "failedToScore": 2,
  "scorers": {
-  "playedMatches": 40,
-  "coveredMatches": 40,
+  "playedMatches": 41,
+  "coveredMatches": 41,
   "rows": [
    {
     "name": "Szabó Koppány",

@@ -25,6 +25,11 @@
    "name": "Milinte te szemét Club de Football"
   },
   {
+   "id": "90",
+   "siteId": 90,
+   "name": "Invincibles"
+  },
+  {
    "id": "199",
    "siteId": 199,
    "name": "2 zenész"
@@ -33,11 +38,6 @@
    "id": "238",
    "siteId": 238,
    "name": "Jézus tanítványai"
-  },
-  {
-   "id": "90",
-   "siteId": 90,
-   "name": "Invincibles"
   },
   {
    "id": "149",
@@ -131,6 +131,21 @@
   },
   {
    "position": 5,
+   "teamId": "90",
+   "played": 8,
+   "won": 4,
+   "drawn": 0,
+   "lost": 4,
+   "goalsFor": 37,
+   "goalsAgainst": 33,
+   "goalDiff": 4,
+   "points": 12,
+   "markers": [
+    "winStreak"
+   ]
+  },
+  {
+   "position": 6,
    "teamId": "199",
    "played": 7,
    "won": 4,
@@ -145,7 +160,7 @@
    ]
   },
   {
-   "position": 6,
+   "position": 7,
    "teamId": "238",
    "played": 7,
    "won": 3,
@@ -160,28 +175,15 @@
    ]
   },
   {
-   "position": 7,
-   "teamId": "90",
-   "played": 7,
-   "won": 3,
-   "drawn": 0,
-   "lost": 4,
-   "goalsFor": 32,
-   "goalsAgainst": 33,
-   "goalDiff": -1,
-   "points": 9,
-   "markers": []
-  },
-  {
    "position": 8,
    "teamId": "149",
-   "played": 7,
+   "played": 8,
    "won": 3,
    "drawn": 0,
-   "lost": 4,
+   "lost": 5,
    "goalsFor": 16,
-   "goalsAgainst": 20,
-   "goalDiff": -4,
+   "goalsAgainst": 25,
+   "goalDiff": -9,
    "points": 9,
    "markers": [
     "fewConceded"
@@ -1736,9 +1738,9 @@
    "awayTeamId": "149",
    "kickoff": "2026-11-11T18:00:00.000Z",
    "venue": "Bogdánfy_1",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "status": "played",
    "scorers": [
     {
      "name": "Wolford Márk",
@@ -1761,7 +1763,7 @@
      "teamId": "90"
     }
    ],
-   "detailFetchedAt": "2026-11-16T06:29:30.415Z"
+   "detailFetchedAt": "2026-11-16T13:23:46.092Z"
   },
   {
    "id": "48343",
@@ -1839,7 +1841,7 @@
      "teamId": "238"
     }
    ],
-   "detailFetchedAt": "2026-11-16T06:29:30.415Z"
+   "detailFetchedAt": "2026-11-16T13:23:46.092Z"
   },
   {
    "id": "48345",
@@ -1868,7 +1870,7 @@
      "teamId": "107"
     }
    ],
-   "detailFetchedAt": "2026-11-16T06:29:30.415Z"
+   "detailFetchedAt": "2026-11-16T13:23:46.092Z"
   },
   {
    "id": "48346",
@@ -1902,7 +1904,7 @@
      "teamId": "142"
     }
    ],
-   "detailFetchedAt": "2026-11-16T06:29:30.415Z"
+   "detailFetchedAt": "2026-11-16T13:23:46.092Z"
   },
   {
    "id": "48347",
@@ -1931,7 +1933,7 @@
      "teamId": "199"
     }
    ],
-   "detailFetchedAt": "2026-11-16T06:29:30.415Z"
+   "detailFetchedAt": "2026-11-16T13:23:46.092Z"
   },
   {
    "id": "x-55-L1-202611181800-invincibles-jezus-tanitvanyai",
@@ -2210,6 +2212,16 @@
    "matchesPlayed": 7
   },
   {
+   "teamId": "90",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Németh Csaba",
+    "goals": 6
+   },
+   "seasonsCount": 7,
+   "matchesPlayed": 8
+  },
+  {
    "teamId": "199",
    "bestLeague": "L1",
    "topScorer": {
@@ -2230,16 +2242,6 @@
    "matchesPlayed": 7
   },
   {
-   "teamId": "90",
-   "bestLeague": "L1",
-   "topScorer": {
-    "name": "Németh Csaba",
-    "goals": 6
-   },
-   "seasonsCount": 7,
-   "matchesPlayed": 7
-  },
-  {
    "teamId": "149",
    "bestLeague": "L1",
    "topScorer": {
@@ -2247,7 +2249,7 @@
     "goals": 5
    },
    "seasonsCount": 9,
-   "matchesPlayed": 7
+   "matchesPlayed": 8
   },
   {
    "teamId": "94",
