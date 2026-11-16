@@ -37,3 +37,8 @@ Next: enable more leagues in `src/lib/leagues.ts` when wanted (the page already 
 ## 2026-11-13 later (done)
 
 Team page: "Összesítés" button next to the name; league table under the charts, clicking a week shows the table at the end of that week (`?w=`), same on the Statisztika progression chart. New "Örökranglista" page (`/orokranglista`): L1 titles, L1 seasons, wins and goals per team, from `public/data/leaderboard.json` (built by the ingest from the team files; `--teams-only` rebuilds it).
+
+## 2026-11-16 ingest freshness (done)
+
+- Removed the header "Refresh" button: it only re-fetched deployed JSON (already covered by `staleTime` + `refetchOnWindowFocus`) and suggested live results.
+- GitHub drops most scheduled ingest runs (~5-6 of ~20 per day ran). Decision: an external scheduler (cron-job.org) triggers `workflow_dispatch` on `ingest.yml` every 3 h with a fine-grained token (this repo only, Actions: read and write). The GitHub crons stay as a fallback; the `ingest` concurrency group queues overlapping runs.
