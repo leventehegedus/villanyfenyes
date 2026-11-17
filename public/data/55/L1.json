@@ -1817,28 +1817,28 @@
    "scorers": [
     {
      "name": "Gedó Lóránt",
-     "goals": 3,
-     "teamId": "238"
+     "teamId": "238",
+     "goals": 3
     },
     {
      "name": "Maafi Dávid",
-     "goals": 1,
-     "teamId": "238"
+     "teamId": "238",
+     "goals": 1
     },
     {
      "name": "Gelics Márton",
-     "goals": 1,
-     "teamId": "238"
+     "teamId": "238",
+     "goals": 1
     },
     {
      "name": "Gauzer Levente",
-     "goals": 1,
-     "teamId": "238"
+     "teamId": "238",
+     "goals": 1
     },
     {
      "name": "Szűcs Balázs",
-     "goals": 1,
-     "teamId": "238"
+     "teamId": "238",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-17T00:44:48.814Z"
@@ -1870,7 +1870,7 @@
      "teamId": "107"
     }
    ],
-   "detailFetchedAt": "2026-11-17T00:44:48.814Z"
+   "detailFetchedAt": "2026-11-17T03:53:52.840Z"
   },
   {
    "id": "48346",
@@ -1904,7 +1904,7 @@
      "teamId": "142"
     }
    ],
-   "detailFetchedAt": "2026-11-17T00:44:48.814Z"
+   "detailFetchedAt": "2026-11-17T03:53:52.840Z"
   },
   {
    "id": "48347",
@@ -1933,7 +1933,7 @@
      "teamId": "199"
     }
    ],
-   "detailFetchedAt": "2026-11-17T00:44:48.814Z"
+   "detailFetchedAt": "2026-11-17T03:53:52.840Z"
   },
   {
    "id": "x-55-L1-202611181800-invincibles-jezus-tanitvanyai",
@@ -2245,7 +2245,7 @@
    "teamId": "149",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Szabó Koppány",
+    "name": "Markó Péter Dániel",
     "goals": 5
    },
    "seasonsCount": 9,
