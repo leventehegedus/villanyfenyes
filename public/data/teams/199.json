@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L1",
    "finished": false,
-   "position": 5,
+   "position": 4,
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 7,
-    "won": 4,
+    "played": 8,
+    "won": 5,
     "drawn": 0,
     "lost": 3,
-    "goalsFor": 24,
-    "goalsAgainst": 14,
-    "points": 12
+    "goalsFor": 30,
+    "goalsAgainst": 16,
+    "points": 15
    }
   },
   {
@@ -326,13 +326,13 @@
    "teamId": "94",
    "name": "Turbo Nitro Super Team",
    "totals": {
-    "played": 4,
-    "won": 2,
+    "played": 5,
+    "won": 3,
     "drawn": 1,
     "lost": 1,
-    "goalsFor": 16,
-    "goalsAgainst": 15,
-    "points": 7
+    "goalsFor": 22,
+    "goalsAgainst": 17,
+    "points": 10
    }
   },
   {
@@ -901,8 +901,8 @@
  "cleanSheets": 9,
  "failedToScore": 3,
  "scorers": {
-  "playedMatches": 114,
-  "coveredMatches": 114,
+  "playedMatches": 115,
+  "coveredMatches": 115,
   "rows": [
    {
     "name": "Stranyóczky László",
@@ -912,26 +912,26 @@
    },
    {
     "name": "Alt Ákos",
-    "goals": 20,
-    "matches": 11,
+    "goals": 21,
+    "matches": 12,
     "hatTricks": 3
+   },
+   {
+    "name": "Gondos Andor",
+    "goals": 18,
+    "matches": 11,
+    "hatTricks": 2
+   },
+   {
+    "name": "Siket Máté",
+    "goals": 18,
+    "matches": 13,
+    "hatTricks": 1
    },
    {
     "name": "Cziráky Dávid",
     "goals": 17,
     "matches": 14,
-    "hatTricks": 1
-   },
-   {
-    "name": "Siket Máté",
-    "goals": 16,
-    "matches": 12,
-    "hatTricks": 1
-   },
-   {
-    "name": "Gondos Andor",
-    "goals": 15,
-    "matches": 10,
     "hatTricks": 1
    },
    {

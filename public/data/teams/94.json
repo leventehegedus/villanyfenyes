@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": "relegation",
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 2,
     "drawn": 0,
-    "lost": 5,
-    "goalsFor": 26,
-    "goalsAgainst": 40,
+    "lost": 6,
+    "goalsFor": 28,
+    "goalsAgainst": 46,
     "points": 6
    }
   },
@@ -205,12 +205,12 @@
    "teamId": "199",
    "name": "2 zenész",
    "totals": {
-    "played": 4,
+    "played": 5,
     "won": 1,
     "drawn": 1,
-    "lost": 2,
-    "goalsFor": 15,
-    "goalsAgainst": 16,
+    "lost": 3,
+    "goalsFor": 17,
+    "goalsAgainst": 22,
     "points": 4
    }
   },
@@ -559,8 +559,8 @@
  "cleanSheets": 4,
  "failedToScore": 5,
  "scorers": {
-  "playedMatches": 51,
-  "coveredMatches": 51,
+  "playedMatches": 52,
+  "coveredMatches": 52,
   "rows": [
    {
     "name": "Dikasz Csanád",
@@ -594,20 +594,20 @@
    },
    {
     "name": "Sugár Soma",
-    "goals": 8,
-    "matches": 3,
+    "goals": 9,
+    "matches": 4,
     "hatTricks": 2
    },
    {
-    "name": "Jimoh Dániel Adenike",
+    "name": "Dániel Tóth",
     "goals": 7,
     "matches": 6,
     "hatTricks": 0
    },
    {
-    "name": "Dániel Tóth",
-    "goals": 6,
-    "matches": 5,
+    "name": "Jimoh Dániel Adenike",
+    "goals": 7,
+    "matches": 6,
     "hatTricks": 0
    },
    {

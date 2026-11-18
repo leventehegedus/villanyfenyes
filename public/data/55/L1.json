@@ -20,14 +20,14 @@
    "name": "Szponzorok helye:_____"
   },
   {
-   "id": "93",
-   "siteId": 93,
-   "name": "Milinte te szemét Club de Football"
-  },
-  {
    "id": "199",
    "siteId": 199,
    "name": "2 zenész"
+  },
+  {
+   "id": "93",
+   "siteId": 93,
+   "name": "Milinte te szemét Club de Football"
   },
   {
    "id": "90",
@@ -116,6 +116,21 @@
   },
   {
    "position": 4,
+   "teamId": "199",
+   "played": 8,
+   "won": 5,
+   "drawn": 0,
+   "lost": 3,
+   "goalsFor": 30,
+   "goalsAgainst": 16,
+   "goalDiff": 14,
+   "points": 15,
+   "markers": [
+    "fewConceded"
+   ]
+  },
+  {
+   "position": 5,
    "teamId": "93",
    "played": 7,
    "won": 4,
@@ -125,21 +140,6 @@
    "goalsAgainst": 26,
    "goalDiff": 1,
    "points": 13,
-   "markers": [
-    "fewConceded"
-   ]
-  },
-  {
-   "position": 5,
-   "teamId": "199",
-   "played": 7,
-   "won": 4,
-   "drawn": 0,
-   "lost": 3,
-   "goalsFor": 24,
-   "goalsAgainst": 14,
-   "goalDiff": 10,
-   "points": 12,
    "markers": [
     "fewConceded"
    ]
@@ -192,13 +192,13 @@
   {
    "position": 9,
    "teamId": "94",
-   "played": 7,
+   "played": 8,
    "won": 2,
    "drawn": 0,
-   "lost": 5,
-   "goalsFor": 26,
-   "goalsAgainst": 40,
-   "goalDiff": -14,
+   "lost": 6,
+   "goalsFor": 28,
+   "goalsAgainst": 46,
+   "goalDiff": -18,
    "points": 6,
    "markers": [
     "lossStreak",
@@ -1870,7 +1870,7 @@
      "teamId": "107"
     }
    ],
-   "detailFetchedAt": "2026-11-17T03:53:52.840Z"
+   "detailFetchedAt": "2026-11-18T11:41:32.025Z"
   },
   {
    "id": "48346",
@@ -1904,7 +1904,7 @@
      "teamId": "142"
     }
    ],
-   "detailFetchedAt": "2026-11-17T03:53:52.840Z"
+   "detailFetchedAt": "2026-11-18T11:41:32.025Z"
   },
   {
    "id": "48347",
@@ -1913,9 +1913,9 @@
    "awayTeamId": "94",
    "kickoff": "2026-11-12T20:00:00.000Z",
    "venue": "Bogdánfy_1",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "status": "played",
    "scorers": [
     {
      "name": "Gondos Andor",
@@ -1931,9 +1931,19 @@
      "name": "Alt Ákos",
      "goals": 1,
      "teamId": "199"
+    },
+    {
+     "name": "Dániel Tóth",
+     "goals": 1,
+     "teamId": "94"
+    },
+    {
+     "name": "Sugár Soma",
+     "goals": 1,
+     "teamId": "94"
     }
    ],
-   "detailFetchedAt": "2026-11-17T03:53:52.840Z"
+   "detailFetchedAt": "2026-11-18T11:41:32.025Z"
   },
   {
    "id": "x-55-L1-202611181800-invincibles-jezus-tanitvanyai",
@@ -2202,21 +2212,21 @@
    "matchesPlayed": 7
   },
   {
-   "teamId": "93",
-   "bestLeague": "L1",
-   "topScorer": {
-    "name": "Horváth Olivér",
-    "goals": 10
-   },
-   "seasonsCount": 24,
-   "matchesPlayed": 7
-  },
-  {
    "teamId": "199",
    "bestLeague": "L1",
    "topScorer": {
     "name": "Stranyóczky László",
     "goals": 5
+   },
+   "seasonsCount": 24,
+   "matchesPlayed": 8
+  },
+  {
+   "teamId": "93",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Horváth Olivér",
+    "goals": 10
    },
    "seasonsCount": 24,
    "matchesPlayed": 7
@@ -2259,7 +2269,7 @@
     "goals": 8
    },
    "seasonsCount": 19,
-   "matchesPlayed": 7
+   "matchesPlayed": 8
   },
   {
    "teamId": "166",
