@@ -1870,7 +1870,7 @@
      "teamId": "107"
     }
    ],
-   "detailFetchedAt": "2026-11-18T11:41:32.025Z"
+   "detailFetchedAt": "2026-11-18T20:30:50.145Z"
   },
   {
    "id": "48346",
@@ -1904,7 +1904,7 @@
      "teamId": "142"
     }
    ],
-   "detailFetchedAt": "2026-11-18T11:41:32.025Z"
+   "detailFetchedAt": "2026-11-18T20:30:50.145Z"
   },
   {
    "id": "48347",
@@ -1919,44 +1919,44 @@
    "scorers": [
     {
      "name": "Gondos Andor",
-     "goals": 3,
-     "teamId": "199"
+     "teamId": "199",
+     "goals": 3
     },
     {
      "name": "Siket Máté",
-     "goals": 2,
-     "teamId": "199"
+     "teamId": "199",
+     "goals": 2
     },
     {
      "name": "Alt Ákos",
-     "goals": 1,
-     "teamId": "199"
+     "teamId": "199",
+     "goals": 1
     },
     {
      "name": "Dániel Tóth",
-     "goals": 1,
-     "teamId": "94"
+     "teamId": "94",
+     "goals": 1
     },
     {
      "name": "Sugár Soma",
-     "goals": 1,
-     "teamId": "94"
+     "teamId": "94",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-18T11:41:32.025Z"
   },
   {
-   "id": "x-55-L1-202611181800-invincibles-jezus-tanitvanyai",
-   "siteId": null,
+   "id": "48348",
+   "siteId": 48348,
    "homeTeamId": "90",
    "awayTeamId": "238",
    "kickoff": "2026-11-18T18:00:00.000Z",
    "venue": "Bogdánfy_1",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-18T20:30:50.145Z"
   },
   {
    "id": "x-55-L1-202611181900-gyermeklancfuresz-szponzorok-helye",
@@ -1967,7 +1967,7 @@
    "venue": "Bogdánfy_1",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
+   "status": "unknown",
    "scorers": null,
    "detailFetchedAt": null
   },
@@ -1980,7 +1980,7 @@
    "venue": "Bogdánfy_1",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
+   "status": "unknown",
    "scorers": null,
    "detailFetchedAt": null
   },
