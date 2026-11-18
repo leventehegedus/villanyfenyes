@@ -1870,7 +1870,7 @@
      "teamId": "107"
     }
    ],
-   "detailFetchedAt": "2026-11-18T20:30:50.145Z"
+   "detailFetchedAt": "2026-11-18T23:21:36.243Z"
   },
   {
    "id": "48346",
@@ -1904,7 +1904,7 @@
      "teamId": "142"
     }
    ],
-   "detailFetchedAt": "2026-11-18T20:30:50.145Z"
+   "detailFetchedAt": "2026-11-18T23:21:36.243Z"
   },
   {
    "id": "48347",
@@ -1956,11 +1956,11 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-18T20:30:50.145Z"
+   "detailFetchedAt": "2026-11-18T23:21:36.243Z"
   },
   {
-   "id": "x-55-L1-202611181900-gyermeklancfuresz-szponzorok-helye",
-   "siteId": null,
+   "id": "48349",
+   "siteId": 48349,
    "homeTeamId": "100",
    "awayTeamId": "142",
    "kickoff": "2026-11-18T19:00:00.000Z",
@@ -1968,12 +1968,12 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": null,
-   "detailFetchedAt": null
+   "scorers": [],
+   "detailFetchedAt": "2026-11-18T23:21:36.243Z"
   },
   {
-   "id": "x-55-L1-202611182000-nagyon-fincsi-turbo-nitro-super-team",
-   "siteId": null,
+   "id": "48350",
+   "siteId": 48350,
    "homeTeamId": "149",
    "awayTeamId": "94",
    "kickoff": "2026-11-18T20:00:00.000Z",
@@ -1981,8 +1981,8 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": null,
-   "detailFetchedAt": null
+   "scorers": [],
+   "detailFetchedAt": "2026-11-18T23:21:36.243Z"
   },
   {
    "id": "x-55-L1-202611191800-milinte-te-szemet-club-de-football-2-zenesz",
