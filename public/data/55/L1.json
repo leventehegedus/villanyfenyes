@@ -1870,7 +1870,7 @@
      "teamId": "107"
     }
    ],
-   "detailFetchedAt": "2026-11-18T23:21:36.243Z"
+   "detailFetchedAt": "2026-11-19T11:39:20.245Z"
   },
   {
    "id": "48346",
@@ -1904,7 +1904,7 @@
      "teamId": "142"
     }
    ],
-   "detailFetchedAt": "2026-11-18T23:21:36.243Z"
+   "detailFetchedAt": "2026-11-19T11:39:20.245Z"
   },
   {
    "id": "48347",
@@ -1955,8 +1955,34 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-18T23:21:36.243Z"
+   "scorers": [
+    {
+     "name": "Wolford Márk",
+     "goals": 2,
+     "teamId": "90"
+    },
+    {
+     "name": "Németh Csaba",
+     "goals": 2,
+     "teamId": "90"
+    },
+    {
+     "name": "Hegedűs Gábor",
+     "goals": 1,
+     "teamId": "90"
+    },
+    {
+     "name": "Szilágyi Adam",
+     "goals": 1,
+     "teamId": "90"
+    },
+    {
+     "name": "Tóth Krisztián Kristóf",
+     "goals": 1,
+     "teamId": "90"
+    }
+   ],
+   "detailFetchedAt": "2026-11-19T11:39:20.245Z"
   },
   {
    "id": "48349",
@@ -1968,8 +1994,19 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-18T23:21:36.243Z"
+   "scorers": [
+    {
+     "name": "Szigeti Balázs",
+     "goals": 2,
+     "teamId": "142"
+    },
+    {
+     "name": "Tóth Dávid",
+     "goals": 1,
+     "teamId": "142"
+    }
+   ],
+   "detailFetchedAt": "2026-11-19T11:39:20.245Z"
   },
   {
    "id": "48350",
@@ -1981,8 +2018,29 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-18T23:21:36.243Z"
+   "scorers": [
+    {
+     "name": "Sugár Soma",
+     "goals": 4,
+     "teamId": "94"
+    },
+    {
+     "name": "Dániel Tóth",
+     "goals": 3,
+     "teamId": "94"
+    },
+    {
+     "name": "Csokonay László",
+     "goals": 1,
+     "teamId": "94"
+    },
+    {
+     "name": "Benyovszki Patrik",
+     "goals": 1,
+     "teamId": "94"
+    }
+   ],
+   "detailFetchedAt": "2026-11-19T11:39:20.245Z"
   },
   {
    "id": "x-55-L1-202611191800-milinte-te-szemet-club-de-football-2-zenesz",
@@ -2255,7 +2313,7 @@
    "teamId": "149",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Markó Péter Dániel",
+    "name": "Szabó Koppány",
     "goals": 5
    },
    "seasonsCount": 9,
