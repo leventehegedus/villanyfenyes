@@ -10,16 +10,16 @@
    "label": "2026 - Ősz",
    "league": "L1",
    "finished": false,
-   "position": 8,
+   "position": 9,
    "teamsInLeague": 12,
-   "marker": null,
+   "marker": "relegation",
    "totals": {
-    "played": 8,
+    "played": 9,
     "won": 3,
     "drawn": 0,
-    "lost": 5,
-    "goalsFor": 16,
-    "goalsAgainst": 25,
+    "lost": 6,
+    "goalsFor": 19,
+    "goalsAgainst": 34,
     "points": 9
    }
   },
@@ -265,12 +265,12 @@
    "teamId": "94",
    "name": "Turbo Nitro Super Team",
    "totals": {
-    "played": 2,
+    "played": 3,
     "won": 0,
     "drawn": 0,
-    "lost": 2,
-    "goalsFor": 4,
-    "goalsAgainst": 9,
+    "lost": 3,
+    "goalsFor": 7,
+    "goalsAgainst": 18,
     "points": 0
    }
   },
@@ -450,8 +450,8 @@
  "cleanSheets": 1,
  "failedToScore": 2,
  "scorers": {
-  "playedMatches": 41,
-  "coveredMatches": 41,
+  "playedMatches": 42,
+  "coveredMatches": 42,
   "rows": [
    {
     "name": "Szabó Koppány",
@@ -479,14 +479,14 @@
    },
    {
     "name": "Vigh Balázs",
-    "goals": 10,
-    "matches": 8,
+    "goals": 11,
+    "matches": 9,
     "hatTricks": 0
    },
    {
     "name": "Gyenei András",
-    "goals": 9,
-    "matches": 8,
+    "goals": 10,
+    "matches": 9,
     "hatTricks": 0
    },
    {
@@ -514,14 +514,14 @@
     "hatTricks": 0
    },
    {
-    "name": "Molnár Máté",
+    "name": "Keresztes Balázs",
     "goals": 2,
-    "matches": 1,
+    "matches": 2,
     "hatTricks": 0
    },
    {
-    "name": "Keresztes Balázs",
-    "goals": 1,
+    "name": "Molnár Máté",
+    "goals": 2,
     "matches": 1,
     "hatTricks": 0
    }

@@ -40,14 +40,14 @@
    "name": "Jézus tanítványai"
   },
   {
-   "id": "149",
-   "siteId": 149,
-   "name": "Nagyon fincsi"
-  },
-  {
    "id": "94",
    "siteId": 94,
    "name": "Turbo Nitro Super Team"
+  },
+  {
+   "id": "149",
+   "siteId": 149,
+   "name": "Nagyon fincsi"
   },
   {
    "id": "166",
@@ -176,30 +176,28 @@
   },
   {
    "position": 8,
-   "teamId": "149",
-   "played": 8,
+   "teamId": "94",
+   "played": 9,
    "won": 3,
    "drawn": 0,
-   "lost": 5,
-   "goalsFor": 16,
-   "goalsAgainst": 25,
-   "goalDiff": -9,
+   "lost": 6,
+   "goalsFor": 37,
+   "goalsAgainst": 49,
+   "goalDiff": -12,
    "points": 9,
-   "markers": [
-    "fewConceded"
-   ]
+   "markers": []
   },
   {
    "position": 9,
-   "teamId": "94",
-   "played": 8,
-   "won": 2,
+   "teamId": "149",
+   "played": 9,
+   "won": 3,
    "drawn": 0,
    "lost": 6,
-   "goalsFor": 28,
-   "goalsAgainst": 46,
-   "goalDiff": -18,
-   "points": 6,
+   "goalsFor": 19,
+   "goalsAgainst": 34,
+   "goalDiff": -15,
+   "points": 9,
    "markers": [
     "lossStreak",
     "relegation"
@@ -1870,7 +1868,7 @@
      "teamId": "107"
     }
    ],
-   "detailFetchedAt": "2026-11-19T11:39:20.245Z"
+   "detailFetchedAt": "2026-11-19T20:37:36.313Z"
   },
   {
    "id": "48346",
@@ -1904,7 +1902,7 @@
      "teamId": "142"
     }
    ],
-   "detailFetchedAt": "2026-11-19T11:39:20.245Z"
+   "detailFetchedAt": "2026-11-19T20:37:36.313Z"
   },
   {
    "id": "48347",
@@ -1982,7 +1980,7 @@
      "teamId": "90"
     }
    ],
-   "detailFetchedAt": "2026-11-19T11:39:20.245Z"
+   "detailFetchedAt": "2026-11-19T20:37:36.313Z"
   },
   {
    "id": "48349",
@@ -2006,7 +2004,7 @@
      "teamId": "142"
     }
    ],
-   "detailFetchedAt": "2026-11-19T11:39:20.245Z"
+   "detailFetchedAt": "2026-11-19T20:37:36.313Z"
   },
   {
    "id": "48350",
@@ -2015,10 +2013,25 @@
    "awayTeamId": "94",
    "kickoff": "2026-11-18T20:00:00.000Z",
    "venue": "Bogdánfy_1",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 3,
+   "awayGoals": 9,
+   "status": "played",
    "scorers": [
+    {
+     "name": "Vigh Balázs",
+     "goals": 1,
+     "teamId": "149"
+    },
+    {
+     "name": "Keresztes Balázs",
+     "goals": 1,
+     "teamId": "149"
+    },
+    {
+     "name": "Gyenei András",
+     "goals": 1,
+     "teamId": "149"
+    },
     {
      "name": "Sugár Soma",
      "goals": 4,
@@ -2040,20 +2053,20 @@
      "teamId": "94"
     }
    ],
-   "detailFetchedAt": "2026-11-19T11:39:20.245Z"
+   "detailFetchedAt": "2026-11-19T20:37:36.313Z"
   },
   {
-   "id": "x-55-L1-202611191800-milinte-te-szemet-club-de-football-2-zenesz",
-   "siteId": null,
+   "id": "48351",
+   "siteId": 48351,
    "homeTeamId": "93",
    "awayTeamId": "199",
    "kickoff": "2026-11-19T18:00:00.000Z",
    "venue": "Bogdánfy_1",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-19T20:37:36.313Z"
   },
   {
    "id": "x-55-L1-202611191900-borg-szia-uram",
@@ -2064,7 +2077,7 @@
    "venue": "Bogdánfy_1",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
+   "status": "unknown",
    "scorers": null,
    "detailFetchedAt": null
   },
@@ -2077,7 +2090,7 @@
    "venue": "Bogdánfy_1",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
+   "status": "unknown",
    "scorers": null,
    "detailFetchedAt": null
   },
@@ -2310,16 +2323,6 @@
    "matchesPlayed": 8
   },
   {
-   "teamId": "149",
-   "bestLeague": "L1",
-   "topScorer": {
-    "name": "Szabó Koppány",
-    "goals": 5
-   },
-   "seasonsCount": 9,
-   "matchesPlayed": 8
-  },
-  {
    "teamId": "94",
    "bestLeague": "L1",
    "topScorer": {
@@ -2327,7 +2330,17 @@
     "goals": 8
    },
    "seasonsCount": 19,
-   "matchesPlayed": 8
+   "matchesPlayed": 9
+  },
+  {
+   "teamId": "149",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Markó Péter Dániel",
+    "goals": 5
+   },
+   "seasonsCount": 9,
+   "matchesPlayed": 9
   },
   {
    "teamId": "166",

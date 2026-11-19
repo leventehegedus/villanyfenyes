@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L1",
    "finished": false,
-   "position": 9,
+   "position": 8,
    "teamsInLeague": 12,
-   "marker": "relegation",
+   "marker": null,
    "totals": {
-    "played": 8,
-    "won": 2,
+    "played": 9,
+    "won": 3,
     "drawn": 0,
     "lost": 6,
-    "goalsFor": 28,
-    "goalsAgainst": 46,
-    "points": 6
+    "goalsFor": 37,
+    "goalsAgainst": 49,
+    "points": 9
    }
   },
   {
@@ -387,13 +387,13 @@
    "teamId": "149",
    "name": "Nagyon fincsi",
    "totals": {
-    "played": 2,
-    "won": 2,
+    "played": 3,
+    "won": 3,
     "drawn": 0,
     "lost": 0,
-    "goalsFor": 9,
-    "goalsAgainst": 4,
-    "points": 6
+    "goalsFor": 18,
+    "goalsAgainst": 7,
+    "points": 9
    }
   },
   {
@@ -466,11 +466,11 @@
   "biggestWin": {
    "seasonId": 55,
    "league": "L1",
-   "matchId": "48306",
-   "kickoff": "2026-09-30T17:00:00.000Z",
-   "opponentId": "108",
-   "goalsFor": 6,
-   "goalsAgainst": 0
+   "matchId": "48350",
+   "kickoff": "2026-11-18T20:00:00.000Z",
+   "opponentId": "149",
+   "goalsFor": 9,
+   "goalsAgainst": 3
   },
   "biggestDefeat": {
    "seasonId": 55,
@@ -559,8 +559,8 @@
  "cleanSheets": 4,
  "failedToScore": 5,
  "scorers": {
-  "playedMatches": 52,
-  "coveredMatches": 52,
+  "playedMatches": 53,
+  "coveredMatches": 53,
   "rows": [
    {
     "name": "Dikasz Csanád",
@@ -576,7 +576,13 @@
    },
    {
     "name": "Benyovszki Patrik",
-    "goals": 16,
+    "goals": 17,
+    "matches": 10,
+    "hatTricks": 1
+   },
+   {
+    "name": "Csokonay László",
+    "goals": 13,
     "matches": 9,
     "hatTricks": 1
    },
@@ -587,22 +593,16 @@
     "hatTricks": 2
    },
    {
-    "name": "Csokonay László",
-    "goals": 12,
-    "matches": 8,
-    "hatTricks": 1
-   },
-   {
     "name": "Sugár Soma",
-    "goals": 9,
-    "matches": 4,
-    "hatTricks": 2
+    "goals": 13,
+    "matches": 5,
+    "hatTricks": 3
    },
    {
     "name": "Dániel Tóth",
-    "goals": 7,
-    "matches": 6,
-    "hatTricks": 0
+    "goals": 10,
+    "matches": 7,
+    "hatTricks": 1
    },
    {
     "name": "Jimoh Dániel Adenike",
