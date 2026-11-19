@@ -50,11 +50,6 @@
    "name": "Nagyon fincsi"
   },
   {
-   "id": "166",
-   "siteId": 166,
-   "name": "Borg"
-  },
-  {
    "id": "107",
    "siteId": 107,
    "name": "Banditák"
@@ -63,6 +58,11 @@
    "id": "108",
    "siteId": 108,
    "name": "Szia Uram!"
+  },
+  {
+   "id": "166",
+   "siteId": 166,
+   "name": "Borg"
   }
  ],
  "standings": [
@@ -205,6 +205,36 @@
   },
   {
    "position": 10,
+   "teamId": "107",
+   "played": 8,
+   "won": 1,
+   "drawn": 2,
+   "lost": 5,
+   "goalsFor": 28,
+   "goalsAgainst": 38,
+   "goalDiff": -10,
+   "points": 5,
+   "markers": [
+    "relegation"
+   ]
+  },
+  {
+   "position": 11,
+   "teamId": "108",
+   "played": 8,
+   "won": 1,
+   "drawn": 2,
+   "lost": 5,
+   "goalsFor": 23,
+   "goalsAgainst": 33,
+   "goalDiff": -10,
+   "points": 5,
+   "markers": [
+    "relegation"
+   ]
+  },
+  {
+   "position": 12,
    "teamId": "166",
    "played": 8,
    "won": 1,
@@ -214,38 +244,6 @@
    "goalsAgainst": 39,
    "goalDiff": -19,
    "points": 5,
-   "markers": [
-    "lossStreak",
-    "relegation"
-   ]
-  },
-  {
-   "position": 11,
-   "teamId": "107",
-   "played": 7,
-   "won": 1,
-   "drawn": 1,
-   "lost": 5,
-   "goalsFor": 24,
-   "goalsAgainst": 34,
-   "goalDiff": -10,
-   "points": 4,
-   "markers": [
-    "lossStreak",
-    "relegation"
-   ]
-  },
-  {
-   "position": 12,
-   "teamId": "108",
-   "played": 7,
-   "won": 1,
-   "drawn": 1,
-   "lost": 5,
-   "goalsFor": 19,
-   "goalsAgainst": 29,
-   "goalDiff": -10,
-   "points": 4,
    "markers": [
     "lossStreak",
     "relegation"
@@ -1848,10 +1846,25 @@
    "awayTeamId": "107",
    "kickoff": "2026-11-12T18:00:00.000Z",
    "venue": "Bogdánfy_1",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 4,
+   "awayGoals": 4,
+   "status": "played",
    "scorers": [
+    {
+     "name": "Rem Domonkos",
+     "goals": 2,
+     "teamId": "108"
+    },
+    {
+     "name": "Halász Bertalan",
+     "goals": 1,
+     "teamId": "108"
+    },
+    {
+     "name": "Madarász Áron Balázs",
+     "goals": 1,
+     "teamId": "108"
+    },
     {
      "name": "Jurák Péter",
      "goals": 2,
@@ -1868,7 +1881,7 @@
      "teamId": "107"
     }
    ],
-   "detailFetchedAt": "2026-11-19T20:37:36.313Z"
+   "detailFetchedAt": "2026-11-19T23:29:25.120Z"
   },
   {
    "id": "48346",
@@ -1902,7 +1915,7 @@
      "teamId": "142"
     }
    ],
-   "detailFetchedAt": "2026-11-19T20:37:36.313Z"
+   "detailFetchedAt": "2026-11-19T23:29:25.120Z"
   },
   {
    "id": "48347",
@@ -1980,7 +1993,7 @@
      "teamId": "90"
     }
    ],
-   "detailFetchedAt": "2026-11-19T20:37:36.313Z"
+   "detailFetchedAt": "2026-11-19T23:29:25.120Z"
   },
   {
    "id": "48349",
@@ -2004,7 +2017,7 @@
      "teamId": "142"
     }
    ],
-   "detailFetchedAt": "2026-11-19T20:37:36.313Z"
+   "detailFetchedAt": "2026-11-19T23:29:25.120Z"
   },
   {
    "id": "48350",
@@ -2019,38 +2032,38 @@
    "scorers": [
     {
      "name": "Vigh Balázs",
-     "goals": 1,
-     "teamId": "149"
+     "teamId": "149",
+     "goals": 1
     },
     {
      "name": "Keresztes Balázs",
-     "goals": 1,
-     "teamId": "149"
+     "teamId": "149",
+     "goals": 1
     },
     {
      "name": "Gyenei András",
-     "goals": 1,
-     "teamId": "149"
+     "teamId": "149",
+     "goals": 1
     },
     {
      "name": "Sugár Soma",
-     "goals": 4,
-     "teamId": "94"
+     "teamId": "94",
+     "goals": 4
     },
     {
      "name": "Dániel Tóth",
-     "goals": 3,
-     "teamId": "94"
+     "teamId": "94",
+     "goals": 3
     },
     {
      "name": "Csokonay László",
-     "goals": 1,
-     "teamId": "94"
+     "teamId": "94",
+     "goals": 1
     },
     {
      "name": "Benyovszki Patrik",
-     "goals": 1,
-     "teamId": "94"
+     "teamId": "94",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-19T20:37:36.313Z"
@@ -2066,11 +2079,11 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-19T20:37:36.313Z"
+   "detailFetchedAt": "2026-11-19T23:29:25.120Z"
   },
   {
-   "id": "x-55-L1-202611191900-borg-szia-uram",
-   "siteId": null,
+   "id": "48352",
+   "siteId": 48352,
    "homeTeamId": "166",
    "awayTeamId": "108",
    "kickoff": "2026-11-19T19:00:00.000Z",
@@ -2078,12 +2091,12 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": null,
-   "detailFetchedAt": null
+   "scorers": [],
+   "detailFetchedAt": "2026-11-19T23:29:25.120Z"
   },
   {
-   "id": "x-55-L1-202611192000-banditak-lokomotiv-mfc",
-   "siteId": null,
+   "id": "48353",
+   "siteId": 48353,
    "homeTeamId": "107",
    "awayTeamId": "69",
    "kickoff": "2026-11-19T20:00:00.000Z",
@@ -2091,8 +2104,8 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": null,
-   "detailFetchedAt": null
+   "scorers": [],
+   "detailFetchedAt": "2026-11-19T23:29:25.120Z"
   },
   {
    "id": "x-55-L1-202611251800-szia-uram-lokomotiv-mfc",
@@ -2343,16 +2356,6 @@
    "matchesPlayed": 9
   },
   {
-   "teamId": "166",
-   "bestLeague": "L1",
-   "topScorer": {
-    "name": "Szilágyi Dávid",
-    "goals": 5
-   },
-   "seasonsCount": 9,
-   "matchesPlayed": 8
-  },
-  {
    "teamId": "107",
    "bestLeague": "L1",
    "topScorer": {
@@ -2360,7 +2363,7 @@
     "goals": 13
    },
    "seasonsCount": 22,
-   "matchesPlayed": 7
+   "matchesPlayed": 8
   },
   {
    "teamId": "108",
@@ -2370,7 +2373,17 @@
     "goals": 5
    },
    "seasonsCount": 10,
-   "matchesPlayed": 7
+   "matchesPlayed": 8
+  },
+  {
+   "teamId": "166",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Szilágyi Dávid",
+    "goals": 5
+   },
+   "seasonsCount": 9,
+   "matchesPlayed": 8
   }
  ]
 }

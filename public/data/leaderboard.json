@@ -743,7 +743,7 @@
    "titles": 0,
    "l1Seasons": 3,
    "won": 7,
-   "goalsFor": 87
+   "goalsFor": 91
   },
   {
    "teamId": "158",
@@ -954,20 +954,20 @@
    "goalsFor": 28
   },
   {
+   "teamId": "108",
+   "name": "Szia Uram!",
+   "titles": 0,
+   "l1Seasons": 1,
+   "won": 1,
+   "goalsFor": 23
+  },
+  {
    "teamId": "166",
    "name": "Borg",
    "titles": 0,
    "l1Seasons": 1,
    "won": 1,
    "goalsFor": 20
-  },
-  {
-   "teamId": "108",
-   "name": "Szia Uram!",
-   "titles": 0,
-   "l1Seasons": 1,
-   "won": 1,
-   "goalsFor": 19
   }
  ]
 }

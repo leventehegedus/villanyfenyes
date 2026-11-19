@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L1",
    "finished": false,
-   "position": 12,
+   "position": 11,
    "teamsInLeague": 12,
    "marker": "relegation",
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 1,
-    "drawn": 1,
+    "drawn": 2,
     "lost": 5,
-    "goalsFor": 19,
-    "goalsAgainst": 29,
-    "points": 4
+    "goalsFor": 23,
+    "goalsAgainst": 33,
+    "points": 5
    }
   }
  ],
@@ -115,6 +115,19 @@
     "goalsAgainst": 5,
     "points": 0
    }
+  },
+  {
+   "teamId": "107",
+   "name": "Banditák",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 4,
+    "points": 1
+   }
   }
  ],
  "records": {
@@ -173,20 +186,20 @@
    "from": {
     "seasonId": 55,
     "league": "L1",
-    "matchId": "48315",
-    "kickoff": "2026-10-08T17:00:00.000Z",
-    "opponentId": "199",
+    "matchId": "48345",
+    "kickoff": "2026-11-12T18:00:00.000Z",
+    "opponentId": "107",
     "goalsFor": 4,
-    "goalsAgainst": 2
+    "goalsAgainst": 4
    },
    "to": {
     "seasonId": 55,
     "league": "L1",
-    "matchId": "48315",
-    "kickoff": "2026-10-08T17:00:00.000Z",
-    "opponentId": "199",
+    "matchId": "48345",
+    "kickoff": "2026-11-12T18:00:00.000Z",
+    "opponentId": "107",
     "goalsFor": 4,
-    "goalsAgainst": 2
+    "goalsAgainst": 4
    }
   },
   "loss": {
@@ -214,9 +227,21 @@
  "cleanSheets": 0,
  "failedToScore": 1,
  "scorers": {
-  "playedMatches": 7,
-  "coveredMatches": 7,
+  "playedMatches": 8,
+  "coveredMatches": 8,
   "rows": [
+   {
+    "name": "Rem Domonkos",
+    "goals": 5,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Halász Bertalan",
+    "goals": 4,
+    "matches": 4,
+    "hatTricks": 0
+   },
    {
     "name": "Jászai Máté",
     "goals": 4,
@@ -224,14 +249,8 @@
     "hatTricks": 0
    },
    {
-    "name": "Halász Bertalan",
-    "goals": 3,
-    "matches": 3,
-    "hatTricks": 0
-   },
-   {
-    "name": "Rem Domonkos",
-    "goals": 3,
+    "name": "Madarász Áron Balázs",
+    "goals": 2,
     "matches": 2,
     "hatTricks": 0
    },
@@ -243,12 +262,6 @@
    },
    {
     "name": "Ladányi Dániel",
-    "goals": 1,
-    "matches": 1,
-    "hatTricks": 0
-   },
-   {
-    "name": "Madarász Áron Balázs",
     "goals": 1,
     "matches": 1,
     "hatTricks": 0
