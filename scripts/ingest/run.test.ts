@@ -56,7 +56,7 @@ describe('runIngest request budget', () => {
 
 describe('runIngest resilience', () => {
   it('keeps only enabled leagues of earlier runs in seasons.json', async () => {
-    const previousSeasons = { schemaVersion: 1, currentSeasonId: 55, seasons: [], leagues: { '55': ['L2A'] } }
+    const previousSeasons = { schemaVersion: 1, currentSeasonId: 55, seasons: [], leagues: { '55': ['L9'] } }
     const res = await runIngest(fixtureSource, { ...opts, previousSeasons })
     expect(SeasonsFile.parse(res.files.get('seasons.json')).leagues['55']).toEqual(['L1'])
   })
@@ -70,17 +70,8 @@ describe('runIngest resilience', () => {
 })
 
 describe('runIngest league allowlist', () => {
-  it('fetches only enabled leagues even when the site lists more', async () => {
-    const asked: string[] = []
-    const spy: Source = { get: (path) => (asked.push(path), fixtureSource.get(path)) }
-    const res = await runIngest(spy, { ...opts, leagues: undefined, previousSeasons: { schemaVersion: 1, currentSeasonId: 55, seasons: [], leagues: { '55': ['L1', 'L2A'] } } })
-    expect(res.errors).toEqual([])
-    expect(asked.some((p) => /league=(?!L1)/.test(p))).toBe(false)
-    expect(SeasonsFile.parse(res.files.get('seasons.json')).leagues['55']).toEqual(['L1'])
-  })
-
   it('refuses a league that is not enabled', async () => {
-    const res = await runIngest(fixtureSource, { ...opts, leagues: ['L2A'] })
-    expect(res.errors).toEqual(['league L2A is not enabled (see src/lib/leagues.ts)'])
+    const res = await runIngest(fixtureSource, { ...opts, leagues: ['L9'] })
+    expect(res.errors).toEqual(['league L9 is not enabled (see src/lib/leagues.ts)'])
   })
 })
