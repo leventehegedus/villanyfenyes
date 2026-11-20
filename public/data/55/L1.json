@@ -1852,33 +1852,33 @@
    "scorers": [
     {
      "name": "Rem Domonkos",
-     "goals": 2,
-     "teamId": "108"
+     "teamId": "108",
+     "goals": 2
     },
     {
      "name": "Halász Bertalan",
-     "goals": 1,
-     "teamId": "108"
+     "teamId": "108",
+     "goals": 1
     },
     {
      "name": "Madarász Áron Balázs",
-     "goals": 1,
-     "teamId": "108"
+     "teamId": "108",
+     "goals": 1
     },
     {
      "name": "Jurák Péter",
-     "goals": 2,
-     "teamId": "107"
+     "teamId": "107",
+     "goals": 2
     },
     {
      "name": "Szabo Andras",
-     "goals": 1,
-     "teamId": "107"
+     "teamId": "107",
+     "goals": 1
     },
     {
      "name": "sikvölgyi martin",
-     "goals": 1,
-     "teamId": "107"
+     "teamId": "107",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-19T23:29:25.120Z"
@@ -1915,7 +1915,7 @@
      "teamId": "142"
     }
    ],
-   "detailFetchedAt": "2026-11-19T23:29:25.120Z"
+   "detailFetchedAt": "2026-11-20T02:19:54.466Z"
   },
   {
    "id": "48347",
@@ -1993,7 +1993,7 @@
      "teamId": "90"
     }
    ],
-   "detailFetchedAt": "2026-11-19T23:29:25.120Z"
+   "detailFetchedAt": "2026-11-20T02:19:54.466Z"
   },
   {
    "id": "48349",
@@ -2017,7 +2017,7 @@
      "teamId": "142"
     }
    ],
-   "detailFetchedAt": "2026-11-19T23:29:25.120Z"
+   "detailFetchedAt": "2026-11-20T02:19:54.466Z"
   },
   {
    "id": "48350",
@@ -2079,7 +2079,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-19T23:29:25.120Z"
+   "detailFetchedAt": "2026-11-20T02:19:54.466Z"
   },
   {
    "id": "48352",
@@ -2092,7 +2092,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-19T23:29:25.120Z"
+   "detailFetchedAt": "2026-11-20T02:19:54.466Z"
   },
   {
    "id": "48353",
@@ -2104,8 +2104,34 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-19T23:29:25.120Z"
+   "scorers": [
+    {
+     "name": "Alács Mihály",
+     "goals": 3,
+     "teamId": "69"
+    },
+    {
+     "name": "Pap Zsombor",
+     "goals": 2,
+     "teamId": "69"
+    },
+    {
+     "name": "Kele Balázs",
+     "goals": 2,
+     "teamId": "69"
+    },
+    {
+     "name": "Mándi Ferenc",
+     "goals": 1,
+     "teamId": "69"
+    },
+    {
+     "name": "Mogyorósi Zoltán",
+     "goals": 1,
+     "teamId": "69"
+    }
+   ],
+   "detailFetchedAt": "2026-11-20T02:19:54.466Z"
   },
   {
    "id": "x-55-L1-202611251800-szia-uram-lokomotiv-mfc",
