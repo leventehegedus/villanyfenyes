@@ -1896,28 +1896,28 @@
    "scorers": [
     {
      "name": "Bencze Mártom",
-     "goals": 2,
-     "teamId": "142"
+     "teamId": "142",
+     "goals": 2
     },
     {
      "name": "Kalocsay Károly",
-     "goals": 2,
-     "teamId": "142"
+     "teamId": "142",
+     "goals": 2
     },
     {
      "name": "Tóth Dávid",
-     "goals": 1,
-     "teamId": "142"
+     "teamId": "142",
+     "goals": 1
     },
     {
      "name": "Szigeti Balázs",
-     "goals": 1,
-     "teamId": "142"
+     "teamId": "142",
+     "goals": 1
     },
     {
      "name": "Horváth Olivér",
-     "goals": 5,
-     "teamId": "93"
+     "teamId": "93",
+     "goals": 5
     }
    ],
    "detailFetchedAt": "2026-11-20T20:19:27.795Z"
@@ -1998,7 +1998,7 @@
      "teamId": "90"
     }
    ],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "48349",
@@ -2022,7 +2022,7 @@
      "teamId": "142"
     }
    ],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "48350",
@@ -2037,41 +2037,41 @@
    "scorers": [
     {
      "name": "Vigh Balázs",
-     "teamId": "149",
-     "goals": 1
+     "goals": 1,
+     "teamId": "149"
     },
     {
      "name": "Keresztes Balázs",
-     "teamId": "149",
-     "goals": 1
+     "goals": 1,
+     "teamId": "149"
     },
     {
      "name": "Gyenei András",
-     "teamId": "149",
-     "goals": 1
+     "goals": 1,
+     "teamId": "149"
     },
     {
      "name": "Sugár Soma",
-     "teamId": "94",
-     "goals": 4
+     "goals": 4,
+     "teamId": "94"
     },
     {
      "name": "Dániel Tóth",
-     "teamId": "94",
-     "goals": 3
+     "goals": 3,
+     "teamId": "94"
     },
     {
      "name": "Csokonay László",
-     "teamId": "94",
-     "goals": 1
+     "goals": 1,
+     "teamId": "94"
     },
     {
      "name": "Benyovszki Patrik",
-     "teamId": "94",
-     "goals": 1
+     "goals": 1,
+     "teamId": "94"
     }
    ],
-   "detailFetchedAt": "2026-11-19T20:37:36.313Z"
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "48351",
@@ -2084,7 +2084,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "48352",
@@ -2097,7 +2097,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "48353",
@@ -2136,7 +2136,7 @@
      "teamId": "69"
     }
    ],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "x-55-L1-202611251800-szia-uram-lokomotiv-mfc",

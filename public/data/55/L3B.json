@@ -1915,7 +1915,7 @@
      "teamId": "43"
     }
    ],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "57283",
@@ -1993,7 +1993,7 @@
      "teamId": "27"
     }
    ],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "57311",
@@ -2056,7 +2056,7 @@
      "teamId": "27"
     }
    ],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "56640",
@@ -2090,7 +2090,7 @@
      "teamId": "146"
     }
    ],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "57328",
@@ -2103,11 +2103,11 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
-   "id": "x-55-L3B-202611202000-budai-bombazok-lokomotiv-akademia",
-   "siteId": null,
+   "id": "57357",
+   "siteId": 57357,
    "homeTeamId": "72",
    "awayTeamId": "146",
    "kickoff": "2026-11-20T20:00:00.000Z",
@@ -2115,8 +2115,8 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": null,
-   "detailFetchedAt": null
+   "scorers": [],
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "x-55-L3B-202611231800-no-czuczor-no-party-relazio",
@@ -2399,7 +2399,7 @@
    "teamId": "146",
    "bestLeague": "L2A",
    "topScorer": {
-    "name": "Mándi Ferenc",
+    "name": "Alács Mihály",
     "goals": 5
    },
    "seasonsCount": 12,
@@ -2419,7 +2419,7 @@
    "teamId": "72",
    "bestLeague": "L3B",
    "topScorer": {
-    "name": "Schütz Ádám",
+    "name": "Stirling Balázs",
     "goals": 5
    },
    "seasonsCount": 4,

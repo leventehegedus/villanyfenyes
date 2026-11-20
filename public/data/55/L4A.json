@@ -1966,7 +1966,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "57305",
@@ -1990,7 +1990,7 @@
      "teamId": "152"
     }
    ],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "57323",
@@ -2300,7 +2300,7 @@
    "teamId": "1471",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Szabó Tamás",
+    "name": "Papp Zsombor István",
     "goals": 3
    },
    "seasonsCount": 4,

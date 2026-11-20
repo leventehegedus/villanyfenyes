@@ -1978,7 +1978,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "57271",
@@ -2085,7 +2085,7 @@
      "teamId": "1534"
     }
    ],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "57286",
@@ -2124,7 +2124,7 @@
      "teamId": "1469"
     }
    ],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "57619",
@@ -2137,7 +2137,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "57326",
@@ -2176,7 +2176,7 @@
      "teamId": "1534"
     }
    ],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "57339",
@@ -2188,12 +2188,28 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "scorers": [
+    {
+     "name": "Máté Bajomi",
+     "goals": 2,
+     "teamId": "1567"
+    },
+    {
+     "name": "Varga Ádám",
+     "goals": 2,
+     "teamId": "1567"
+    },
+    {
+     "name": "Kopasz Gergő",
+     "goals": 1,
+     "teamId": "1567"
+    }
+   ],
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
-   "id": "x-55-L5G-202611201900-landzsas-utifu-she-said-she-was-5-1",
-   "siteId": null,
+   "id": "56905",
+   "siteId": 56905,
    "homeTeamId": "212",
    "awayTeamId": "1488",
    "kickoff": "2026-11-20T19:00:00.000Z",
@@ -2201,8 +2217,8 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": null,
-   "detailFetchedAt": null
+   "scorers": [],
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "x-55-L5G-202611232000-oso-academy-george-fc",
@@ -2448,7 +2464,7 @@
    "teamId": "1557",
    "bestLeague": "L5G",
    "topScorer": {
-    "name": "Meixner Sándor Ferenc",
+    "name": "Barnabás Baczynski",
     "goals": 3
    },
    "seasonsCount": 1,
@@ -2458,7 +2474,7 @@
    "teamId": "212",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Hámori Miklós",
+    "name": "Balogh Marcell János",
     "goals": 4
    },
    "seasonsCount": 8,

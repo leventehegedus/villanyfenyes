@@ -1949,7 +1949,7 @@
      "teamId": "54"
     }
    ],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "57017",
@@ -2032,7 +2032,7 @@
      "teamId": "54"
     }
    ],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "57350",
@@ -2071,7 +2071,7 @@
      "teamId": "1482"
     }
    ],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "57355",
@@ -2083,8 +2083,14 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "scorers": [
+    {
+     "name": "András Halasi",
+     "goals": 4,
+     "teamId": "141"
+    }
+   ],
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "x-55-L4B-202611252000-szig-stars-haver-fc",

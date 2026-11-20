@@ -2041,7 +2041,7 @@
      "teamId": "75"
     }
    ],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "57335",
@@ -2085,7 +2085,7 @@
      "teamId": "241"
     }
    ],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "57294",
@@ -2109,7 +2109,7 @@
      "teamId": "132"
     }
    ],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "57292",
@@ -2138,11 +2138,11 @@
      "teamId": "75"
     }
    ],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
-   "id": "x-55-L5C-202611202000-fc-barkalona-stoczek-wanderers-fc",
-   "siteId": null,
+   "id": "57333",
+   "siteId": 57333,
    "homeTeamId": "1531",
    "awayTeamId": "1544",
    "kickoff": "2026-11-20T20:00:00.000Z",
@@ -2150,8 +2150,8 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": null,
-   "detailFetchedAt": null
+   "scorers": [],
+   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
   },
   {
    "id": "x-55-L5C-202611232100-malaj-medve-se-ment-melle-is",
@@ -2387,7 +2387,7 @@
    "teamId": "241",
    "bestLeague": "L5A",
    "topScorer": {
-    "name": "Péntek Péter",
+    "name": "Krizsan Balazs",
     "goals": 6
    },
    "seasonsCount": 3,
@@ -2467,7 +2467,7 @@
    "teamId": "75",
    "bestLeague": "L5A",
    "topScorer": {
-    "name": "Paksi Ábel",
+    "name": "Imre-Horváth András",
     "goals": 3
    },
    "seasonsCount": 3,
