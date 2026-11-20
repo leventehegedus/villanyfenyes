@@ -1,0 +1,264 @@
+{
+ "schemaVersion": 1,
+ "teamId": "65",
+ "names": [
+  "Polak Kiddos"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L4D",
+   "finished": false,
+   "position": 2,
+   "teamsInLeague": 12,
+   "marker": "promotion",
+   "totals": {
+    "played": 7,
+    "won": 4,
+    "drawn": 2,
+    "lost": 1,
+    "goalsFor": 29,
+    "goalsAgainst": 16,
+    "points": 14
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "1494",
+   "name": "FCB",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "33",
+   "name": "hoferővonat",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1528",
+   "name": "A Focicsapat",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "189",
+   "name": "Al-Kaloida",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "71",
+   "name": "Pasaref",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 4,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "50",
+   "name": "Goats FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 3,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "221",
+   "name": "Káptalan",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L4D",
+   "matchId": "56587",
+   "kickoff": "2026-10-22T19:00:00.000Z",
+   "opponentId": "189",
+   "goalsFor": 5,
+   "goalsAgainst": 0
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L4D",
+   "matchId": "56923",
+   "kickoff": "2026-10-05T18:00:00.000Z",
+   "opponentId": "1528",
+   "goalsFor": 1,
+   "goalsAgainst": 3
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L4D",
+   "matchId": "56488",
+   "kickoff": "2026-11-04T17:00:00.000Z",
+   "opponentId": "221",
+   "goalsFor": 7,
+   "goalsAgainst": 5
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "56745",
+    "kickoff": "2026-09-24T17:00:00.000Z",
+    "opponentId": "1494",
+    "goalsFor": 4,
+    "goalsAgainst": 1
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "56808",
+    "kickoff": "2026-09-30T17:00:00.000Z",
+    "opponentId": "33",
+    "goalsFor": 5,
+    "goalsAgainst": 0
+   }
+  },
+  "unbeaten": {
+   "length": 4,
+   "from": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "56587",
+    "kickoff": "2026-10-22T19:00:00.000Z",
+    "opponentId": "189",
+    "goalsFor": 5,
+    "goalsAgainst": 0
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "56488",
+    "kickoff": "2026-11-04T17:00:00.000Z",
+    "opponentId": "221",
+    "goalsFor": 7,
+    "goalsAgainst": 5
+   }
+  },
+  "loss": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "56923",
+    "kickoff": "2026-10-05T18:00:00.000Z",
+    "opponentId": "1528",
+    "goalsFor": 1,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "56923",
+    "kickoff": "2026-10-05T18:00:00.000Z",
+    "opponentId": "1528",
+    "goalsFor": 1,
+    "goalsAgainst": 3
+   }
+  }
+ },
+ "cleanSheets": 2,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Mezei Adrián",
+    "goals": 7,
+    "matches": 3,
+    "hatTricks": 2
+   },
+   {
+    "name": "Bányai Botond",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Molnár Máté",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Hajdara Botond",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Juhász Tamás",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Takács Attila",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Verbovszky Bence",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

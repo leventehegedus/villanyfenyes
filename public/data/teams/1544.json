@@ -1,0 +1,270 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1544",
+ "names": [
+  "Stoczek Wanderers FC"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5C",
+   "finished": false,
+   "position": 4,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 5,
+    "drawn": 0,
+    "lost": 2,
+    "goalsFor": 53,
+    "goalsAgainst": 38,
+    "points": 15
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "216",
+   "name": "ESZKFC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 6,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "75",
+   "name": "Maláj medve SE",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1509",
+   "name": "PINATINAIKOS",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 6,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1565",
+   "name": "szopókás póverád",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 10,
+    "goalsAgainst": 6,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "132",
+   "name": "Ment Mellé is",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 10,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "241",
+   "name": "Bomboclaat FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "113",
+   "name": "Cőce FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 13,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5C",
+   "matchId": "57231",
+   "kickoff": "2026-11-11T19:00:00.000Z",
+   "opponentId": "113",
+   "goalsFor": 13,
+   "goalsAgainst": 5
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5C",
+   "matchId": "56874",
+   "kickoff": "2026-10-07T16:00:00.000Z",
+   "opponentId": "132",
+   "goalsFor": 5,
+   "goalsAgainst": 10
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5C",
+   "matchId": "57231",
+   "kickoff": "2026-11-11T19:00:00.000Z",
+   "opponentId": "113",
+   "goalsFor": 13,
+   "goalsAgainst": 5
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 4,
+   "from": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "56603",
+    "kickoff": "2026-09-10T18:00:00.000Z",
+    "opponentId": "216",
+    "goalsFor": 8,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "56544",
+    "kickoff": "2026-10-02T15:00:00.000Z",
+    "opponentId": "1565",
+    "goalsFor": 10,
+    "goalsAgainst": 6
+   }
+  },
+  "unbeaten": {
+   "length": 4,
+   "from": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "56603",
+    "kickoff": "2026-09-10T18:00:00.000Z",
+    "opponentId": "216",
+    "goalsFor": 8,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "56544",
+    "kickoff": "2026-10-02T15:00:00.000Z",
+    "opponentId": "1565",
+    "goalsFor": 10,
+    "goalsAgainst": 6
+   }
+  },
+  "loss": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "56874",
+    "kickoff": "2026-10-07T16:00:00.000Z",
+    "opponentId": "132",
+    "goalsFor": 5,
+    "goalsAgainst": 10
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "57038",
+    "kickoff": "2026-10-22T17:00:00.000Z",
+    "opponentId": "241",
+    "goalsFor": 1,
+    "goalsAgainst": 4
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Pálffy Tamás",
+    "goals": 19,
+    "matches": 5,
+    "hatTricks": 5
+   },
+   {
+    "name": "Nagy Vince",
+    "goals": 10,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Pados Szilárd Marcell",
+    "goals": 7,
+    "matches": 4,
+    "hatTricks": 1
+   },
+   {
+    "name": "Tóth-Milei Ábel Félix",
+    "goals": 6,
+    "matches": 4,
+    "hatTricks": 1
+   },
+   {
+    "name": "Divéki Zsombor",
+    "goals": 5,
+    "matches": 2,
+    "hatTricks": 1
+   },
+   {
+    "name": "Karsai Áron",
+    "goals": 3,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Bolyos Bence",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Hegedűs Áron",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

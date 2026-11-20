@@ -1,0 +1,288 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1557",
+ "names": [
+  "Footbalekok"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5G",
+   "finished": false,
+   "position": 4,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 5,
+    "drawn": 0,
+    "lost": 2,
+    "goalsFor": 40,
+    "goalsAgainst": 27,
+    "points": 15
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "1488",
+   "name": "she said she was 5+1",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 6,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1529",
+   "name": "ASC Legends",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "212",
+   "name": "Lándzsás útifű",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1572",
+   "name": "GÓLatanács",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "59",
+   "name": "BeCsúszók",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1469",
+   "name": "Argentinos Juniors",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "135",
+   "name": "Szakik",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5G",
+   "matchId": "56886",
+   "kickoff": "2026-10-07T18:00:00.000Z",
+   "opponentId": "59",
+   "goalsFor": 8,
+   "goalsAgainst": 2
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5G",
+   "matchId": "57099",
+   "kickoff": "2026-10-26T20:00:00.000Z",
+   "opponentId": "1469",
+   "goalsFor": 3,
+   "goalsAgainst": 6
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5G",
+   "matchId": "56602",
+   "kickoff": "2026-09-09T17:00:00.000Z",
+   "opponentId": "1488",
+   "goalsFor": 8,
+   "goalsAgainst": 6
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "56806",
+    "kickoff": "2026-09-29T17:00:00.000Z",
+    "opponentId": "1572",
+    "goalsFor": 5,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "56886",
+    "kickoff": "2026-10-07T18:00:00.000Z",
+    "opponentId": "59",
+    "goalsFor": 8,
+    "goalsAgainst": 2
+   }
+  },
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "56806",
+    "kickoff": "2026-09-29T17:00:00.000Z",
+    "opponentId": "1572",
+    "goalsFor": 5,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "56886",
+    "kickoff": "2026-10-07T18:00:00.000Z",
+    "opponentId": "59",
+    "goalsFor": 8,
+    "goalsAgainst": 2
+   }
+  },
+  "loss": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "57099",
+    "kickoff": "2026-10-26T20:00:00.000Z",
+    "opponentId": "1469",
+    "goalsFor": 3,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "57099",
+    "kickoff": "2026-10-26T20:00:00.000Z",
+    "opponentId": "1469",
+    "goalsFor": 3,
+    "goalsAgainst": 6
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Barnabás Baczynski",
+    "goals": 9,
+    "matches": 6,
+    "hatTricks": 1
+   },
+   {
+    "name": "Bódig Péter",
+    "goals": 6,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Meixner Sándor Ferenc",
+    "goals": 6,
+    "matches": 4,
+    "hatTricks": 1
+   },
+   {
+    "name": "Vörös István Andor",
+    "goals": 5,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Esztári Zsombor",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Siba Ignác",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Csépe Márton",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kállai Domokos",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Pusztay Botond",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szabó Olivér Tamás",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Telekesi Gergő",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

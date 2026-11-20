@@ -1,0 +1,302 @@
+{
+ "schemaVersion": 1,
+ "teamId": "52",
+ "names": [
+  "Húslovagok"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L3D",
+   "finished": false,
+   "position": 2,
+   "teamsInLeague": 12,
+   "marker": "promotion",
+   "totals": {
+    "played": 9,
+    "won": 4,
+    "drawn": 4,
+    "lost": 1,
+    "goalsFor": 62,
+    "goalsAgainst": 54,
+    "points": 16
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "175",
+   "name": "Nagykirályok",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "104",
+   "name": "Basket Case",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 11,
+    "goalsAgainst": 9,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "67",
+   "name": "Kráken",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 4,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "1511",
+   "name": "Élő Ige",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 9,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "1489",
+   "name": "Energ team",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 9,
+    "goalsAgainst": 14,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "194",
+   "name": "Alacsony Elvárások",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "196",
+   "name": "Koma Sutra",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 3,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "39",
+   "name": "Veresiktas FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 8,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "84",
+   "name": "Töretlen FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L3D",
+   "matchId": "56542",
+   "kickoff": "2026-08-31T17:00:00.000Z",
+   "opponentId": "175",
+   "goalsFor": 5,
+   "goalsAgainst": 0
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L3D",
+   "matchId": "56821",
+   "kickoff": "2026-09-30T17:00:00.000Z",
+   "opponentId": "1489",
+   "goalsFor": 9,
+   "goalsAgainst": 14
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L3D",
+   "matchId": "56821",
+   "kickoff": "2026-09-30T17:00:00.000Z",
+   "opponentId": "1489",
+   "goalsFor": 9,
+   "goalsAgainst": 14
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L3D",
+    "matchId": "56542",
+    "kickoff": "2026-08-31T17:00:00.000Z",
+    "opponentId": "175",
+    "goalsFor": 5,
+    "goalsAgainst": 0
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3D",
+    "matchId": "56563",
+    "kickoff": "2026-09-09T17:00:00.000Z",
+    "opponentId": "104",
+    "goalsFor": 11,
+    "goalsAgainst": 9
+   }
+  },
+  "unbeaten": {
+   "length": 4,
+   "from": {
+    "seasonId": 55,
+    "league": "L3D",
+    "matchId": "56920",
+    "kickoff": "2026-10-05T19:00:00.000Z",
+    "opponentId": "194",
+    "goalsFor": 5,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3D",
+    "matchId": "57136",
+    "kickoff": "2026-10-30T17:00:00.000Z",
+    "opponentId": "84",
+    "goalsFor": 8,
+    "goalsAgainst": 5
+   }
+  },
+  "loss": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L3D",
+    "matchId": "56821",
+    "kickoff": "2026-09-30T17:00:00.000Z",
+    "opponentId": "1489",
+    "goalsFor": 9,
+    "goalsAgainst": 14
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3D",
+    "matchId": "56821",
+    "kickoff": "2026-09-30T17:00:00.000Z",
+    "opponentId": "1489",
+    "goalsFor": 9,
+    "goalsAgainst": 14
+   }
+  }
+ },
+ "cleanSheets": 1,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 9,
+  "coveredMatches": 9,
+  "rows": [
+   {
+    "name": "Budavári Bendegúz",
+    "goals": 17,
+    "matches": 4,
+    "hatTricks": 4
+   },
+   {
+    "name": "Török Tamás",
+    "goals": 14,
+    "matches": 7,
+    "hatTricks": 2
+   },
+   {
+    "name": "Hamburger Ákos",
+    "goals": 9,
+    "matches": 5,
+    "hatTricks": 0
+   },
+   {
+    "name": "Csorba Adrián",
+    "goals": 5,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Hamburger Máté",
+    "goals": 5,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Merics Mihály",
+    "goals": 3,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Csete Patrik",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Csete Donát",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Hamburger Ádám",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

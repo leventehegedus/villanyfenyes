@@ -1,0 +1,217 @@
+{
+ "schemaVersion": 1,
+ "teamId": "54",
+ "names": [
+  "Szürkemackók"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L4B",
+   "finished": false,
+   "position": 12,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 6,
+    "won": 0,
+    "drawn": 1,
+    "lost": 5,
+    "goalsFor": 16,
+    "goalsAgainst": 27,
+    "points": 1
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "130",
+   "name": "VIKtory FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "80",
+   "name": "SZIG Stars",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "102",
+   "name": "Fröccskösök",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1482",
+   "name": "Felizgatott Makarónik",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "141",
+   "name": "Asztalon Villa",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "106",
+   "name": "Gyros FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 3,
+    "points": 1
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": null,
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L4B",
+   "matchId": "56743",
+   "kickoff": "2026-09-21T17:00:00.000Z",
+   "opponentId": "102",
+   "goalsFor": 2,
+   "goalsAgainst": 6
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L4B",
+   "matchId": "56872",
+   "kickoff": "2026-09-28T20:00:00.000Z",
+   "opponentId": "1482",
+   "goalsFor": 4,
+   "goalsAgainst": 5
+  }
+ },
+ "streaks": {
+  "win": null,
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L4B",
+    "matchId": "57148",
+    "kickoff": "2026-11-04T19:00:00.000Z",
+    "opponentId": "106",
+    "goalsFor": 3,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4B",
+    "matchId": "57148",
+    "kickoff": "2026-11-04T19:00:00.000Z",
+    "opponentId": "106",
+    "goalsFor": 3,
+    "goalsAgainst": 3
+   }
+  },
+  "loss": {
+   "length": 5,
+   "from": {
+    "seasonId": 55,
+    "league": "L4B",
+    "matchId": "56532",
+    "kickoff": "2026-09-02T19:00:00.000Z",
+    "opponentId": "130",
+    "goalsFor": 2,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4B",
+    "matchId": "56965",
+    "kickoff": "2026-10-15T17:00:00.000Z",
+    "opponentId": "141",
+    "goalsFor": 3,
+    "goalsAgainst": 4
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 6,
+  "coveredMatches": 6,
+  "rows": [
+   {
+    "name": "Morvai Gábor",
+    "goals": 5,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Szita Dávid László",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Boa Benjámin Péter",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szabó Bence",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szabó Péter",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szemes Péter",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

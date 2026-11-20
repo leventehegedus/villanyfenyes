@@ -1,0 +1,240 @@
+{
+ "schemaVersion": 1,
+ "teamId": "157",
+ "names": [
+  "Ekho"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5F",
+   "finished": false,
+   "position": 4,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 4,
+    "drawn": 0,
+    "lost": 3,
+    "goalsFor": 38,
+    "goalsAgainst": 25,
+    "points": 12
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "1552",
+   "name": "Football Fanatix",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1549",
+   "name": "Kecsap",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1568",
+   "name": "el KM Hyundai Football Club",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "55",
+   "name": "Droidhadsereg",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "203",
+   "name": "Gólvágóhíd",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 15,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1527",
+   "name": "John Pork's eleven",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "178",
+   "name": "Tottenham Hatsör",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5F",
+   "matchId": "57001",
+   "kickoff": "2026-10-16T19:00:00.000Z",
+   "opponentId": "203",
+   "goalsFor": 15,
+   "goalsAgainst": 2
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5F",
+   "matchId": "57042",
+   "kickoff": "2026-10-21T18:00:00.000Z",
+   "opponentId": "1527",
+   "goalsFor": 1,
+   "goalsAgainst": 7
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5F",
+   "matchId": "57001",
+   "kickoff": "2026-10-16T19:00:00.000Z",
+   "opponentId": "203",
+   "goalsFor": 15,
+   "goalsAgainst": 2
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5F",
+    "matchId": "56622",
+    "kickoff": "2026-09-10T20:00:00.000Z",
+    "opponentId": "1549",
+    "goalsFor": 5,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5F",
+    "matchId": "57172",
+    "kickoff": "2026-09-16T19:00:00.000Z",
+    "opponentId": "1568",
+    "goalsFor": 8,
+    "goalsAgainst": 2
+   }
+  },
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5F",
+    "matchId": "56622",
+    "kickoff": "2026-09-10T20:00:00.000Z",
+    "opponentId": "1549",
+    "goalsFor": 5,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5F",
+    "matchId": "57172",
+    "kickoff": "2026-09-16T19:00:00.000Z",
+    "opponentId": "1568",
+    "goalsFor": 8,
+    "goalsAgainst": 2
+   }
+  },
+  "loss": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5F",
+    "matchId": "57042",
+    "kickoff": "2026-10-21T18:00:00.000Z",
+    "opponentId": "1527",
+    "goalsFor": 1,
+    "goalsAgainst": 7
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5F",
+    "matchId": "57042",
+    "kickoff": "2026-10-21T18:00:00.000Z",
+    "opponentId": "1527",
+    "goalsFor": 1,
+    "goalsAgainst": 7
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 1,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Dr. Vuncs Rajmund",
+    "goals": 7,
+    "matches": 2,
+    "hatTricks": 1
+   },
+   {
+    "name": "Zsigmond Aron",
+    "goals": 4,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Zsigmond Bence",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

@@ -1,0 +1,230 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1561",
+ "names": [
+  "Team Red"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5E",
+   "finished": false,
+   "position": 11,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 0,
+    "drawn": 2,
+    "lost": 5,
+    "goalsFor": 22,
+    "goalsAgainst": 46,
+    "points": 2
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "63",
+   "name": "Balo FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 3,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "1532",
+   "name": "Team 5",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1569",
+   "name": "Stoplis tilos",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "171",
+   "name": "EKSCHÖN TÍM",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 5,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "1571",
+   "name": "FÉK FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1476",
+   "name": "Los Galacticos",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 13,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1486",
+   "name": "Oso FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": null,
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5E",
+   "matchId": "57133",
+   "kickoff": "2026-10-26T17:00:00.000Z",
+   "opponentId": "1486",
+   "goalsFor": 0,
+   "goalsAgainst": 8
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5E",
+   "matchId": "56962",
+   "kickoff": "2026-10-14T16:00:00.000Z",
+   "opponentId": "1476",
+   "goalsFor": 5,
+   "goalsAgainst": 13
+  }
+ },
+ "streaks": {
+  "win": null,
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5E",
+    "matchId": "56861",
+    "kickoff": "2026-09-28T17:00:00.000Z",
+    "opponentId": "171",
+    "goalsFor": 5,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5E",
+    "matchId": "56861",
+    "kickoff": "2026-09-28T17:00:00.000Z",
+    "opponentId": "171",
+    "goalsFor": 5,
+    "goalsAgainst": 5
+   }
+  },
+  "loss": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L5E",
+    "matchId": "56896",
+    "kickoff": "2026-10-06T18:00:00.000Z",
+    "opponentId": "1571",
+    "goalsFor": 0,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5E",
+    "matchId": "57133",
+    "kickoff": "2026-10-26T17:00:00.000Z",
+    "opponentId": "1486",
+    "goalsFor": 0,
+    "goalsAgainst": 8
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 2,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Gergely Szilárd",
+    "goals": 6,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Gergő Szebeni",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Hegedüs Ákos László",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Karcag Noel Zsombor",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kozák Márton",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Varga Zsombor",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

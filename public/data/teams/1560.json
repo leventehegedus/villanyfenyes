@@ -1,0 +1,248 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1560",
+ "names": [
+  "Barátok FC"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5D",
+   "finished": false,
+   "position": 1,
+   "teamsInLeague": 12,
+   "marker": "promotion",
+   "totals": {
+    "played": 7,
+    "won": 7,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 70,
+    "goalsAgainst": 24,
+    "points": 21
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "1495",
+   "name": "Töki Taka FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 18,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "155",
+   "name": "K FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 12,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "156",
+   "name": "AttacKing",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "195",
+   "name": "Gatya FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1522",
+   "name": "Kókány És Mókány Bt.",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 10,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1575",
+   "name": "Homárok SC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "144",
+   "name": "InfLazio",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5D",
+   "matchId": "56535",
+   "kickoff": "2026-09-02T18:00:00.000Z",
+   "opponentId": "1495",
+   "goalsFor": 18,
+   "goalsAgainst": 3
+  },
+  "biggestDefeat": null,
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5D",
+   "matchId": "56535",
+   "kickoff": "2026-09-02T18:00:00.000Z",
+   "opponentId": "1495",
+   "goalsFor": 18,
+   "goalsAgainst": 3
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 7,
+   "from": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "56535",
+    "kickoff": "2026-09-02T18:00:00.000Z",
+    "opponentId": "1495",
+    "goalsFor": 18,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "57184",
+    "kickoff": "2026-11-03T20:00:00.000Z",
+    "opponentId": "144",
+    "goalsFor": 7,
+    "goalsAgainst": 4
+   }
+  },
+  "unbeaten": {
+   "length": 7,
+   "from": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "56535",
+    "kickoff": "2026-09-02T18:00:00.000Z",
+    "opponentId": "1495",
+    "goalsFor": 18,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "57184",
+    "kickoff": "2026-11-03T20:00:00.000Z",
+    "opponentId": "144",
+    "goalsFor": 7,
+    "goalsAgainst": 4
+   }
+  },
+  "loss": null
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Galovich Máté",
+    "goals": 17,
+    "matches": 5,
+    "hatTricks": 3
+   },
+   {
+    "name": "Kiss Tibor",
+    "goals": 12,
+    "matches": 4,
+    "hatTricks": 3
+   },
+   {
+    "name": "Takács Ábel",
+    "goals": 11,
+    "matches": 5,
+    "hatTricks": 2
+   },
+   {
+    "name": "Lenti Bulcsú",
+    "goals": 9,
+    "matches": 5,
+    "hatTricks": 1
+   },
+   {
+    "name": "B. Tóth Milan",
+    "goals": 6,
+    "matches": 4,
+    "hatTricks": 1
+   },
+   {
+    "name": "Páll Donát Domonkos",
+    "goals": 5,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Nagy Máté Milán",
+    "goals": 4,
+    "matches": 2,
+    "hatTricks": 1
+   },
+   {
+    "name": "Bognár Milán",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Vigano Mario",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

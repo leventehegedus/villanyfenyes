@@ -1,0 +1,271 @@
+{
+ "schemaVersion": 1,
+ "teamId": "147",
+ "names": [
+  "GABSZK"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L4C",
+   "finished": false,
+   "position": 2,
+   "teamsInLeague": 12,
+   "marker": "promotion",
+   "totals": {
+    "played": 8,
+    "won": 6,
+    "drawn": 1,
+    "lost": 1,
+    "goalsFor": 36,
+    "goalsAgainst": 18,
+    "points": 19
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "210",
+   "name": "PITE FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "86",
+   "name": "Sörfoci",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "173",
+   "name": "Tipszmiksz",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "153",
+   "name": "Selecao",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1504",
+   "name": "Fényév FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "131",
+   "name": "Roby Bácsi Bűnbandája",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "101",
+   "name": "Squadra",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "47",
+   "name": "team miller",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 3,
+    "points": 1
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L4C",
+   "matchId": "56999",
+   "kickoff": "2026-10-14T16:00:00.000Z",
+   "opponentId": "131",
+   "goalsFor": 7,
+   "goalsAgainst": 1
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L4C",
+   "matchId": "57065",
+   "kickoff": "2026-10-20T17:00:00.000Z",
+   "opponentId": "101",
+   "goalsFor": 3,
+   "goalsAgainst": 4
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L4C",
+   "matchId": "56592",
+   "kickoff": "2026-09-10T16:00:00.000Z",
+   "opponentId": "86",
+   "goalsFor": 8,
+   "goalsAgainst": 3
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 6,
+   "from": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "56518",
+    "kickoff": "2026-09-02T16:00:00.000Z",
+    "opponentId": "210",
+    "goalsFor": 3,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "56999",
+    "kickoff": "2026-10-14T16:00:00.000Z",
+    "opponentId": "131",
+    "goalsFor": 7,
+    "goalsAgainst": 1
+   }
+  },
+  "unbeaten": {
+   "length": 6,
+   "from": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "56518",
+    "kickoff": "2026-09-02T16:00:00.000Z",
+    "opponentId": "210",
+    "goalsFor": 3,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "56999",
+    "kickoff": "2026-10-14T16:00:00.000Z",
+    "opponentId": "131",
+    "goalsFor": 7,
+    "goalsAgainst": 1
+   }
+  },
+  "loss": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "57065",
+    "kickoff": "2026-10-20T17:00:00.000Z",
+    "opponentId": "101",
+    "goalsFor": 3,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "57065",
+    "kickoff": "2026-10-20T17:00:00.000Z",
+    "opponentId": "101",
+    "goalsFor": 3,
+    "goalsAgainst": 4
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 8,
+  "coveredMatches": 8,
+  "rows": [
+   {
+    "name": "Nagy Kristóf",
+    "goals": 13,
+    "matches": 7,
+    "hatTricks": 1
+   },
+   {
+    "name": "Bányai Benjámin",
+    "goals": 7,
+    "matches": 6,
+    "hatTricks": 0
+   },
+   {
+    "name": "Denke Mátyás",
+    "goals": 6,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Nagy Gábor",
+    "goals": 6,
+    "matches": 5,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kyriakidis Vito",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Molnár Szabolcs",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

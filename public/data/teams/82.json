@@ -6,6 +6,24 @@
  ],
  "seasons": [
   {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L3A",
+   "finished": false,
+   "position": 3,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 5,
+    "drawn": 0,
+    "lost": 2,
+    "goalsFor": 45,
+    "goalsAgainst": 28,
+    "points": 15
+   }
+  },
+  {
    "seasonId": 12,
    "label": "2020 - Tavasz",
    "league": "L1",
@@ -135,13 +153,13 @@
    "teamId": "18",
    "name": "Stabilizátorok",
    "totals": {
-    "played": 3,
-    "won": 2,
+    "played": 4,
+    "won": 3,
     "drawn": 1,
     "lost": 0,
-    "goalsFor": 22,
-    "goalsAgainst": 18,
-    "points": 7
+    "goalsFor": 28,
+    "goalsAgainst": 21,
+    "points": 10
    }
   },
   {
@@ -291,13 +309,13 @@
    "teamId": "60",
    "name": "Domino Kijev",
    "totals": {
-    "played": 1,
-    "won": 0,
+    "played": 2,
+    "won": 1,
     "drawn": 0,
     "lost": 1,
-    "goalsFor": 1,
-    "goalsAgainst": 7,
-    "points": 0
+    "goalsFor": 9,
+    "goalsAgainst": 12,
+    "points": 3
    }
   },
   {
@@ -356,12 +374,12 @@
    "teamId": "161",
    "name": "more czuczor more party",
    "totals": {
-    "played": 1,
+    "played": 2,
     "won": 0,
     "drawn": 0,
-    "lost": 1,
-    "goalsFor": 3,
-    "goalsAgainst": 5,
+    "lost": 2,
+    "goalsFor": 7,
+    "goalsAgainst": 15,
     "points": 0
    }
   },
@@ -403,17 +421,69 @@
     "goalsAgainst": 2,
     "points": 3
    }
+  },
+  {
+   "teamId": "26",
+   "name": "Kópészelet",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1479",
+   "name": "Light OS",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 12,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "95",
+   "name": "fc akármi",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "165",
+   "name": "100-as odds",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 1,
+    "points": 3
+   }
   }
  ],
  "records": {
   "biggestWin": {
-   "seasonId": 25,
-   "league": "L1",
-   "matchId": "23688",
-   "kickoff": "2013-11-18T18:00:00.000Z",
-   "opponentId": "675",
-   "goalsFor": 9,
-   "goalsAgainst": 1
+   "seasonId": 55,
+   "league": "L3A",
+   "matchId": "56832",
+   "kickoff": "2026-10-01T16:00:00.000Z",
+   "opponentId": "1479",
+   "goalsFor": 12,
+   "goalsAgainst": 3
   },
   "biggestDefeat": {
    "seasonId": 12,
@@ -436,24 +506,24 @@
  },
  "streaks": {
   "win": {
-   "length": 2,
+   "length": 4,
    "from": {
-    "seasonId": 26,
-    "league": "L1",
-    "matchId": "24860",
-    "kickoff": "2013-04-15T19:00:00.000Z",
-    "opponentId": "254",
-    "goalsFor": 4,
-    "goalsAgainst": 1
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "48362",
+    "kickoff": "2026-09-21T17:00:00.000Z",
+    "opponentId": "18",
+    "goalsFor": 6,
+    "goalsAgainst": 3
    },
    "to": {
-    "seasonId": 26,
-    "league": "L1",
-    "matchId": "24867",
-    "kickoff": "2013-04-23T17:00:00.000Z",
-    "opponentId": "18",
-    "goalsFor": 9,
-    "goalsAgainst": 7
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "57056",
+    "kickoff": "2026-10-21T20:00:00.000Z",
+    "opponentId": "60",
+    "goalsFor": 8,
+    "goalsAgainst": 5
    }
   },
   "unbeaten": {
@@ -499,11 +569,72 @@
    }
   }
  },
- "cleanSheets": 0,
+ "cleanSheets": 1,
  "failedToScore": 3,
  "scorers": {
-  "playedMatches": 41,
-  "coveredMatches": 41,
-  "rows": []
+  "playedMatches": 48,
+  "coveredMatches": 48,
+  "rows": [
+   {
+    "name": "Forró Jonatán",
+    "goals": 16,
+    "matches": 4,
+    "hatTricks": 4
+   },
+   {
+    "name": "Anka Vince",
+    "goals": 5,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Rácz József",
+    "goals": 5,
+    "matches": 2,
+    "hatTricks": 1
+   },
+   {
+    "name": "Tomasovszky Péter",
+    "goals": 5,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Pasic Alija",
+    "goals": 4,
+    "matches": 2,
+    "hatTricks": 1
+   },
+   {
+    "name": "Fauszt József",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Viczián Ákos",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Komán Attila",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Dobos Imre",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Gyarmathy Ádám",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
  }
 }

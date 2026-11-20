@@ -1,0 +1,251 @@
+{
+ "schemaVersion": 1,
+ "teamId": "208",
+ "names": [
+  "PÉNISZ LAND"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L3A",
+   "finished": false,
+   "position": 12,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 6,
+    "won": 1,
+    "drawn": 0,
+    "lost": 5,
+    "goalsFor": 33,
+    "goalsAgainst": 46,
+    "points": 3
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "1479",
+   "name": "Light OS",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 6,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "198",
+   "name": "KungFuci",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "176",
+   "name": "KrumpliVanEladó",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 10,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "60",
+   "name": "Domino Kijev",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 14,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "165",
+   "name": "100-as odds",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "95",
+   "name": "fc akármi",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 7,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L3A",
+   "matchId": "56807",
+   "kickoff": "2026-09-30T18:00:00.000Z",
+   "opponentId": "176",
+   "goalsFor": 10,
+   "goalsAgainst": 3
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L3A",
+   "matchId": "57004",
+   "kickoff": "2026-10-14T20:00:00.000Z",
+   "opponentId": "60",
+   "goalsFor": 4,
+   "goalsAgainst": 14
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L3A",
+   "matchId": "57004",
+   "kickoff": "2026-10-14T20:00:00.000Z",
+   "opponentId": "60",
+   "goalsFor": 4,
+   "goalsAgainst": 14
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "56807",
+    "kickoff": "2026-09-30T18:00:00.000Z",
+    "opponentId": "176",
+    "goalsFor": 10,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "56807",
+    "kickoff": "2026-09-30T18:00:00.000Z",
+    "opponentId": "176",
+    "goalsFor": 10,
+    "goalsAgainst": 3
+   }
+  },
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "56807",
+    "kickoff": "2026-09-30T18:00:00.000Z",
+    "opponentId": "176",
+    "goalsFor": 10,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "56807",
+    "kickoff": "2026-09-30T18:00:00.000Z",
+    "opponentId": "176",
+    "goalsFor": 10,
+    "goalsAgainst": 3
+   }
+  },
+  "loss": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "57004",
+    "kickoff": "2026-10-14T20:00:00.000Z",
+    "opponentId": "60",
+    "goalsFor": 4,
+    "goalsAgainst": 14
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "57263",
+    "kickoff": "2026-11-10T17:00:00.000Z",
+    "opponentId": "95",
+    "goalsFor": 7,
+    "goalsAgainst": 9
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 6,
+  "coveredMatches": 6,
+  "rows": [
+   {
+    "name": "Szabó György Luis",
+    "goals": 7,
+    "matches": 3,
+    "hatTricks": 2
+   },
+   {
+    "name": "Hézinger István",
+    "goals": 4,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Kalmár Tamás",
+    "goals": 4,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kasnyik Bence",
+    "goals": 4,
+    "matches": 2,
+    "hatTricks": 1
+   },
+   {
+    "name": "Kocsis Gergő",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kalmár Dániel",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Molnár Tibor",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

@@ -1,0 +1,258 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1529",
+ "names": [
+  "ASC Legends"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5G",
+   "finished": false,
+   "position": 6,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 3,
+    "drawn": 1,
+    "lost": 3,
+    "goalsFor": 33,
+    "goalsAgainst": 45,
+    "points": 10
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "1572",
+   "name": "GÓLatanács",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1557",
+   "name": "Footbalekok",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1518",
+   "name": "Oso Academy",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1567",
+   "name": "Taktaharkányi Ifjúsági Fúvószenekar U-40",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1570",
+   "name": "Gugugaga gang",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 5,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "1469",
+   "name": "Argentinos Juniors",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 7,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "212",
+   "name": "Lándzsás útifű",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 6,
+    "goalsAgainst": 12,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5G",
+   "matchId": "57035",
+   "kickoff": "2026-10-20T17:00:00.000Z",
+   "opponentId": "1469",
+   "goalsFor": 9,
+   "goalsAgainst": 7
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5G",
+   "matchId": "57076",
+   "kickoff": "2026-10-28T18:00:00.000Z",
+   "opponentId": "212",
+   "goalsFor": 6,
+   "goalsAgainst": 12
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5G",
+   "matchId": "57076",
+   "kickoff": "2026-10-28T18:00:00.000Z",
+   "opponentId": "212",
+   "goalsFor": 6,
+   "goalsAgainst": 12
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "57035",
+    "kickoff": "2026-10-20T17:00:00.000Z",
+    "opponentId": "1469",
+    "goalsFor": 9,
+    "goalsAgainst": 7
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "57035",
+    "kickoff": "2026-10-20T17:00:00.000Z",
+    "opponentId": "1469",
+    "goalsFor": 9,
+    "goalsAgainst": 7
+   }
+  },
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "56950",
+    "kickoff": "2026-10-13T16:00:00.000Z",
+    "opponentId": "1570",
+    "goalsFor": 5,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "57035",
+    "kickoff": "2026-10-20T17:00:00.000Z",
+    "opponentId": "1469",
+    "goalsFor": 9,
+    "goalsAgainst": 7
+   }
+  },
+  "loss": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "57076",
+    "kickoff": "2026-10-28T18:00:00.000Z",
+    "opponentId": "212",
+    "goalsFor": 6,
+    "goalsAgainst": 12
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "57076",
+    "kickoff": "2026-10-28T18:00:00.000Z",
+    "opponentId": "212",
+    "goalsFor": 6,
+    "goalsAgainst": 12
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Fábián Barnabás",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Bagonyai Botond",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Czotter Bálint",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Csiszár Soma",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kovács Mihály",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Tar Marcell",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

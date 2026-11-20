@@ -1,0 +1,284 @@
+{
+ "schemaVersion": 1,
+ "teamId": "20",
+ "names": [
+  "Kispályások"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L4A",
+   "finished": false,
+   "position": 9,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 9,
+    "won": 2,
+    "drawn": 1,
+    "lost": 6,
+    "goalsFor": 23,
+    "goalsAgainst": 46,
+    "points": 7
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "34",
+   "name": "Semmi DADDA",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "152",
+   "name": "Nocc Kánti",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 3,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "36",
+   "name": "Gabriel Jesus",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1523",
+   "name": "Entspannter Team",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "126",
+   "name": "Havankapus6-5",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "121",
+   "name": "Kék Labdák",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "172",
+   "name": "aha",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1520",
+   "name": "Ibiza",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1471",
+   "name": "Buda Ballers",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L4A",
+   "matchId": "56822",
+   "kickoff": "2026-09-28T18:00:00.000Z",
+   "opponentId": "1523",
+   "goalsFor": 5,
+   "goalsAgainst": 2
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L4A",
+   "matchId": "57265",
+   "kickoff": "2026-11-10T20:00:00.000Z",
+   "opponentId": "1520",
+   "goalsFor": 0,
+   "goalsAgainst": 9
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L4A",
+   "matchId": "56902",
+   "kickoff": "2026-10-06T19:00:00.000Z",
+   "opponentId": "126",
+   "goalsFor": 4,
+   "goalsAgainst": 6
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L4A",
+    "matchId": "57062",
+    "kickoff": "2026-10-21T16:00:00.000Z",
+    "opponentId": "172",
+    "goalsFor": 5,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4A",
+    "matchId": "57062",
+    "kickoff": "2026-10-21T16:00:00.000Z",
+    "opponentId": "172",
+    "goalsFor": 5,
+    "goalsAgainst": 4
+   }
+  },
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L4A",
+    "matchId": "57062",
+    "kickoff": "2026-10-21T16:00:00.000Z",
+    "opponentId": "172",
+    "goalsFor": 5,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4A",
+    "matchId": "57062",
+    "kickoff": "2026-10-21T16:00:00.000Z",
+    "opponentId": "172",
+    "goalsFor": 5,
+    "goalsAgainst": 4
+   }
+  },
+  "loss": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L4A",
+    "matchId": "57265",
+    "kickoff": "2026-11-10T20:00:00.000Z",
+    "opponentId": "1520",
+    "goalsFor": 0,
+    "goalsAgainst": 9
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4A",
+    "matchId": "57323",
+    "kickoff": "2026-11-19T18:00:00.000Z",
+    "opponentId": "1471",
+    "goalsFor": 0,
+    "goalsAgainst": 6
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 2,
+ "scorers": {
+  "playedMatches": 9,
+  "coveredMatches": 9,
+  "rows": [
+   {
+    "name": "Beke Gábor",
+    "goals": 6,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Horváth Gergő",
+    "goals": 4,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Juhász Barnabás",
+    "goals": 4,
+    "matches": 2,
+    "hatTricks": 1
+   },
+   {
+    "name": "Balázsi Gáspár",
+    "goals": 3,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Kiss Ádám",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Beke PÉter",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

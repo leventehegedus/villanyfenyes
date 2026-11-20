@@ -1,0 +1,242 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1572",
+ "names": [
+  "GÓLatanács"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5G",
+   "finished": false,
+   "position": 12,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 0,
+    "drawn": 3,
+    "lost": 4,
+    "goalsFor": 28,
+    "goalsAgainst": 38,
+    "points": 3
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "1529",
+   "name": "ASC Legends",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "212",
+   "name": "Lándzsás útifű",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 3,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "1557",
+   "name": "Footbalekok",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1534",
+   "name": "George FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1469",
+   "name": "Argentinos Juniors",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 6,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "59",
+   "name": "BeCsúszók",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 6,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "1570",
+   "name": "Gugugaga gang",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 5,
+    "points": 1
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": null,
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5G",
+   "matchId": "56604",
+   "kickoff": "2026-10-01T16:00:00.000Z",
+   "opponentId": "1534",
+   "goalsFor": 2,
+   "goalsAgainst": 6
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5G",
+   "matchId": "56895",
+   "kickoff": "2026-10-07T16:00:00.000Z",
+   "opponentId": "1469",
+   "goalsFor": 6,
+   "goalsAgainst": 9
+  }
+ },
+ "streaks": {
+  "win": null,
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "57167",
+    "kickoff": "2026-11-04T18:00:00.000Z",
+    "opponentId": "59",
+    "goalsFor": 6,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "57271",
+    "kickoff": "2026-11-11T17:00:00.000Z",
+    "opponentId": "1570",
+    "goalsFor": 5,
+    "goalsAgainst": 5
+   }
+  },
+  "loss": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "56806",
+    "kickoff": "2026-09-29T17:00:00.000Z",
+    "opponentId": "1557",
+    "goalsFor": 3,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "56895",
+    "kickoff": "2026-10-07T16:00:00.000Z",
+    "opponentId": "1469",
+    "goalsFor": 6,
+    "goalsAgainst": 9
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Nádudvari Patrik",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szőcs András",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Sabáli Soma",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Buzás Luca",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Petrik Solt András",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Radics Bendegúz Ádám",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szabó Szilárd",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Hodosi Csaba Lajos",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

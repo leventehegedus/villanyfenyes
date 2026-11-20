@@ -1,0 +1,314 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1531",
+ "names": [
+  "FC Bárkalona"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5C",
+   "finished": false,
+   "position": 6,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 9,
+    "won": 5,
+    "drawn": 0,
+    "lost": 4,
+    "goalsFor": 54,
+    "goalsAgainst": 37,
+    "points": 15
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "181",
+   "name": "Brazilok",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "113",
+   "name": "Cőce FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "216",
+   "name": "ESZKFC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1473",
+   "name": "El Westham United",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 12,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "241",
+   "name": "Bomboclaat FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "75",
+   "name": "Maláj medve SE",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1565",
+   "name": "szopókás póverád",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 12,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "240",
+   "name": "DEG(eneráltak)",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1509",
+   "name": "PINATINAIKOS",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5C",
+   "matchId": "56748",
+   "kickoff": "2026-09-23T18:00:00.000Z",
+   "opponentId": "1473",
+   "goalsFor": 12,
+   "goalsAgainst": 1
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5C",
+   "matchId": "57118",
+   "kickoff": "2026-10-09T19:00:00.000Z",
+   "opponentId": "241",
+   "goalsFor": 2,
+   "goalsAgainst": 7
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5C",
+   "matchId": "56873",
+   "kickoff": "2026-10-21T15:00:00.000Z",
+   "opponentId": "1565",
+   "goalsFor": 12,
+   "goalsAgainst": 5
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "57592",
+    "kickoff": "2026-10-19T18:00:00.000Z",
+    "opponentId": "75",
+    "goalsFor": 7,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "57203",
+    "kickoff": "2026-11-06T16:00:00.000Z",
+    "opponentId": "240",
+    "goalsFor": 3,
+    "goalsAgainst": 1
+   }
+  },
+  "unbeaten": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "57592",
+    "kickoff": "2026-10-19T18:00:00.000Z",
+    "opponentId": "75",
+    "goalsFor": 7,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "57203",
+    "kickoff": "2026-11-06T16:00:00.000Z",
+    "opponentId": "240",
+    "goalsFor": 3,
+    "goalsAgainst": 1
+   }
+  },
+  "loss": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "56649",
+    "kickoff": "2026-09-09T20:00:00.000Z",
+    "opponentId": "113",
+    "goalsFor": 5,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "56708",
+    "kickoff": "2026-09-17T18:00:00.000Z",
+    "opponentId": "216",
+    "goalsFor": 4,
+    "goalsAgainst": 6
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 9,
+  "coveredMatches": 9,
+  "rows": [
+   {
+    "name": "Hajnal Ábris",
+    "goals": 13,
+    "matches": 6,
+    "hatTricks": 2
+   },
+   {
+    "name": "Krahling Illés",
+    "goals": 10,
+    "matches": 5,
+    "hatTricks": 2
+   },
+   {
+    "name": "Haraszti Barnabás Áron",
+    "goals": 8,
+    "matches": 5,
+    "hatTricks": 1
+   },
+   {
+    "name": "Gábriel András Mihály",
+    "goals": 6,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Tomor Máté",
+    "goals": 6,
+    "matches": 6,
+    "hatTricks": 0
+   },
+   {
+    "name": "Gulyás Péter",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szoboszlai Szilveszter",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Adam Fuzi",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Balogh Mátyás",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "István Pásztor",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kovács Ágoston Aba",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

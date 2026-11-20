@@ -1896,23 +1896,23 @@
    "scorers": [
     {
      "name": "Bencze Mártom",
-     "goals": 2,
-     "teamId": "142"
+     "teamId": "142",
+     "goals": 2
     },
     {
      "name": "Kalocsay Károly",
-     "goals": 2,
-     "teamId": "142"
+     "teamId": "142",
+     "goals": 2
     },
     {
      "name": "Tóth Dávid",
-     "goals": 1,
-     "teamId": "142"
+     "teamId": "142",
+     "goals": 1
     },
     {
      "name": "Szigeti Balázs",
-     "goals": 1,
-     "teamId": "142"
+     "teamId": "142",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T11:39:30.141Z"
@@ -1969,28 +1969,28 @@
    "scorers": [
     {
      "name": "Wolford Márk",
-     "goals": 2,
-     "teamId": "90"
+     "teamId": "90",
+     "goals": 2
     },
     {
      "name": "Németh Csaba",
-     "goals": 2,
-     "teamId": "90"
+     "teamId": "90",
+     "goals": 2
     },
     {
      "name": "Hegedűs Gábor",
-     "goals": 1,
-     "teamId": "90"
+     "teamId": "90",
+     "goals": 1
     },
     {
      "name": "Szilágyi Adam",
-     "goals": 1,
-     "teamId": "90"
+     "teamId": "90",
+     "goals": 1
     },
     {
      "name": "Tóth Krisztián Kristóf",
-     "goals": 1,
-     "teamId": "90"
+     "teamId": "90",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T11:39:30.141Z"
@@ -2008,13 +2008,13 @@
    "scorers": [
     {
      "name": "Szigeti Balázs",
-     "goals": 2,
-     "teamId": "142"
+     "teamId": "142",
+     "goals": 2
     },
     {
      "name": "Tóth Dávid",
-     "goals": 1,
-     "teamId": "142"
+     "teamId": "142",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T11:39:30.141Z"
@@ -2107,28 +2107,28 @@
    "scorers": [
     {
      "name": "Alács Mihály",
-     "goals": 3,
-     "teamId": "69"
+     "teamId": "69",
+     "goals": 3
     },
     {
      "name": "Pap Zsombor",
-     "goals": 2,
-     "teamId": "69"
+     "teamId": "69",
+     "goals": 2
     },
     {
      "name": "Kele Balázs",
-     "goals": 2,
-     "teamId": "69"
+     "teamId": "69",
+     "goals": 2
     },
     {
      "name": "Mándi Ferenc",
-     "goals": 1,
-     "teamId": "69"
+     "teamId": "69",
+     "goals": 1
     },
     {
      "name": "Mogyorósi Zoltán",
-     "goals": 1,
-     "teamId": "69"
+     "teamId": "69",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T11:39:30.141Z"
@@ -2375,7 +2375,7 @@
    "teamId": "149",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Szabó Koppány",
+    "name": "Markó Péter Dániel",
     "goals": 5
    },
    "seasonsCount": 9,

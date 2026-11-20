@@ -1,0 +1,245 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1528",
+ "names": [
+  "A Focicsapat"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L4D",
+   "finished": false,
+   "position": 7,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 6,
+    "won": 3,
+    "drawn": 0,
+    "lost": 3,
+    "goalsFor": 23,
+    "goalsAgainst": 32,
+    "points": 9
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "71",
+   "name": "Pasaref",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1537",
+   "name": "Közpénz FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "65",
+   "name": "Polak Kiddos",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1515",
+   "name": "Seskoffender",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "50",
+   "name": "Goats FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 13,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "221",
+   "name": "Káptalan",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L4D",
+   "matchId": "56826",
+   "kickoff": "2026-09-28T16:00:00.000Z",
+   "opponentId": "1537",
+   "goalsFor": 7,
+   "goalsAgainst": 2
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L4D",
+   "matchId": "57078",
+   "kickoff": "2026-10-26T20:00:00.000Z",
+   "opponentId": "50",
+   "goalsFor": 2,
+   "goalsAgainst": 13
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L4D",
+   "matchId": "57078",
+   "kickoff": "2026-10-26T20:00:00.000Z",
+   "opponentId": "50",
+   "goalsFor": 2,
+   "goalsAgainst": 13
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "56826",
+    "kickoff": "2026-09-28T16:00:00.000Z",
+    "opponentId": "1537",
+    "goalsFor": 7,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "57018",
+    "kickoff": "2026-10-21T16:00:00.000Z",
+    "opponentId": "1515",
+    "goalsFor": 5,
+    "goalsAgainst": 4
+   }
+  },
+  "unbeaten": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "56826",
+    "kickoff": "2026-09-28T16:00:00.000Z",
+    "opponentId": "1537",
+    "goalsFor": 7,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "57018",
+    "kickoff": "2026-10-21T16:00:00.000Z",
+    "opponentId": "1515",
+    "goalsFor": 5,
+    "goalsAgainst": 4
+   }
+  },
+  "loss": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "57078",
+    "kickoff": "2026-10-26T20:00:00.000Z",
+    "opponentId": "50",
+    "goalsFor": 2,
+    "goalsAgainst": 13
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "57208",
+    "kickoff": "2026-11-06T19:00:00.000Z",
+    "opponentId": "221",
+    "goalsFor": 2,
+    "goalsAgainst": 4
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 6,
+  "coveredMatches": 6,
+  "rows": [
+   {
+    "name": "Dancsik Barnabás",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Gerencsér Máté",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Nagy Levente",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Demeter Olivér",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Gyulai Kende",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kiss Maximilián",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

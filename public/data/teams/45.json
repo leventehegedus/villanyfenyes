@@ -1,0 +1,264 @@
+{
+ "schemaVersion": 1,
+ "teamId": "45",
+ "names": [
+  "National Sechs"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L2A",
+   "finished": false,
+   "position": 3,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 5,
+    "drawn": 1,
+    "lost": 1,
+    "goalsFor": 54,
+    "goalsAgainst": 30,
+    "points": 16
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "109",
+   "name": "Absinthe FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 10,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "139",
+   "name": "Inteam CF",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 10,
+    "goalsAgainst": 7,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "136",
+   "name": "Leverpool",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 10,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "170",
+   "name": "FC Gyulai Kolbászok powered by Vácszentlászló SC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "70",
+   "name": "Apacza FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "23",
+   "name": "CS Tanszék",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 9,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "179",
+   "name": "Drink Team",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L2A",
+   "matchId": "56723",
+   "kickoff": "2026-10-06T15:00:00.000Z",
+   "opponentId": "136",
+   "goalsFor": 10,
+   "goalsAgainst": 2
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L2A",
+   "matchId": "56963",
+   "kickoff": "2026-10-15T18:00:00.000Z",
+   "opponentId": "170",
+   "goalsFor": 1,
+   "goalsAgainst": 4
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L2A",
+   "matchId": "57193",
+   "kickoff": "2026-11-02T18:00:00.000Z",
+   "opponentId": "23",
+   "goalsFor": 9,
+   "goalsAgainst": 9
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "56507",
+    "kickoff": "2026-09-03T17:00:00.000Z",
+    "opponentId": "109",
+    "goalsFor": 10,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "56723",
+    "kickoff": "2026-10-06T15:00:00.000Z",
+    "opponentId": "136",
+    "goalsFor": 10,
+    "goalsAgainst": 2
+   }
+  },
+  "unbeaten": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "57069",
+    "kickoff": "2026-10-20T19:00:00.000Z",
+    "opponentId": "70",
+    "goalsFor": 8,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "57318",
+    "kickoff": "2026-11-19T19:00:00.000Z",
+    "opponentId": "179",
+    "goalsFor": 6,
+    "goalsAgainst": 3
+   }
+  },
+  "loss": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "56963",
+    "kickoff": "2026-10-15T18:00:00.000Z",
+    "opponentId": "170",
+    "goalsFor": 1,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "56963",
+    "kickoff": "2026-10-15T18:00:00.000Z",
+    "opponentId": "170",
+    "goalsFor": 1,
+    "goalsAgainst": 4
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Pintér Richárd",
+    "goals": 16,
+    "matches": 7,
+    "hatTricks": 3
+   },
+   {
+    "name": "Szappanos Ádám",
+    "goals": 11,
+    "matches": 5,
+    "hatTricks": 2
+   },
+   {
+    "name": "Török Tamás",
+    "goals": 9,
+    "matches": 5,
+    "hatTricks": 1
+   },
+   {
+    "name": "Bali Imre",
+    "goals": 7,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Hamburger Máté",
+    "goals": 5,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Csorba Adrián",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Dr. Zováthi Örkény",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

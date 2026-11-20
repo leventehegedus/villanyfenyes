@@ -1,0 +1,271 @@
+{
+ "schemaVersion": 1,
+ "teamId": "30",
+ "names": [
+  "no czuczor no party"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L3B",
+   "finished": false,
+   "position": 1,
+   "teamsInLeague": 12,
+   "marker": "promotion",
+   "totals": {
+    "played": 8,
+    "won": 6,
+    "drawn": 1,
+    "lost": 1,
+    "goalsFor": 43,
+    "goalsAgainst": 31,
+    "points": 19
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "146",
+   "name": "Lokomotív Akadémia",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 6,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "43",
+   "name": "FE-C FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "168",
+   "name": "Babyblue",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "162",
+   "name": "Szikla",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "119",
+   "name": "Egri Különítmény",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "98",
+   "name": "Calcio Budarossa",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 6,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "27",
+   "name": "Minden héten háború",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "190",
+   "name": "Csibészek",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 2,
+    "points": 1
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L3B",
+   "matchId": "57034",
+   "kickoff": "2026-10-20T19:00:00.000Z",
+   "opponentId": "98",
+   "goalsFor": 9,
+   "goalsAgainst": 6
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L3B",
+   "matchId": "56816",
+   "kickoff": "2026-09-30T17:00:00.000Z",
+   "opponentId": "168",
+   "goalsFor": 3,
+   "goalsAgainst": 4
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L3B",
+   "matchId": "57034",
+   "kickoff": "2026-10-20T19:00:00.000Z",
+   "opponentId": "98",
+   "goalsFor": 9,
+   "goalsAgainst": 6
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 4,
+   "from": {
+    "seasonId": 55,
+    "league": "L3B",
+    "matchId": "56908",
+    "kickoff": "2026-10-07T17:00:00.000Z",
+    "opponentId": "162",
+    "goalsFor": 6,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3B",
+    "matchId": "57160",
+    "kickoff": "2026-11-05T20:00:00.000Z",
+    "opponentId": "27",
+    "goalsFor": 6,
+    "goalsAgainst": 4
+   }
+  },
+  "unbeaten": {
+   "length": 5,
+   "from": {
+    "seasonId": 55,
+    "league": "L3B",
+    "matchId": "56908",
+    "kickoff": "2026-10-07T17:00:00.000Z",
+    "opponentId": "162",
+    "goalsFor": 6,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3B",
+    "matchId": "57311",
+    "kickoff": "2026-11-16T18:00:00.000Z",
+    "opponentId": "190",
+    "goalsFor": 2,
+    "goalsAgainst": 2
+   }
+  },
+  "loss": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L3B",
+    "matchId": "56816",
+    "kickoff": "2026-09-30T17:00:00.000Z",
+    "opponentId": "168",
+    "goalsFor": 3,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3B",
+    "matchId": "56816",
+    "kickoff": "2026-09-30T17:00:00.000Z",
+    "opponentId": "168",
+    "goalsFor": 3,
+    "goalsAgainst": 4
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 8,
+  "coveredMatches": 8,
+  "rows": [
+   {
+    "name": "Stift Máté Kálmán",
+    "goals": 8,
+    "matches": 4,
+    "hatTricks": 1
+   },
+   {
+    "name": "Méhes Levente",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Xeravits Domonkos",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Dányi Gellért",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Ruzsovits Máté",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Vasas György",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

@@ -1,0 +1,208 @@
+{
+ "schemaVersion": 1,
+ "teamId": "225",
+ "names": [
+  "Vakok és gyengénjátszók"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5H",
+   "finished": false,
+   "position": 10,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 6,
+    "won": 1,
+    "drawn": 0,
+    "lost": 5,
+    "goalsFor": 13,
+    "goalsAgainst": 30,
+    "points": 3
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "1553",
+   "name": "Szamaras SE",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "91",
+   "name": "Dorsum",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1556",
+   "name": "Nagypénz Nagyfoci",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1577",
+   "name": "Rosario Juniors",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1563",
+   "name": "Móricz All Stars",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1524",
+   "name": "Futball Pisták",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5H",
+   "matchId": "57258",
+   "kickoff": "2026-11-09T17:00:00.000Z",
+   "opponentId": "1524",
+   "goalsFor": 3,
+   "goalsAgainst": 2
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5H",
+   "matchId": "57002",
+   "kickoff": "2026-10-12T16:00:00.000Z",
+   "opponentId": "1563",
+   "goalsFor": 0,
+   "goalsAgainst": 5
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5H",
+   "matchId": "56601",
+   "kickoff": "2026-09-07T16:00:00.000Z",
+   "opponentId": "1553",
+   "goalsFor": 5,
+   "goalsAgainst": 6
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5H",
+    "matchId": "57258",
+    "kickoff": "2026-11-09T17:00:00.000Z",
+    "opponentId": "1524",
+    "goalsFor": 3,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5H",
+    "matchId": "57258",
+    "kickoff": "2026-11-09T17:00:00.000Z",
+    "opponentId": "1524",
+    "goalsFor": 3,
+    "goalsAgainst": 2
+   }
+  },
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5H",
+    "matchId": "57258",
+    "kickoff": "2026-11-09T17:00:00.000Z",
+    "opponentId": "1524",
+    "goalsFor": 3,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5H",
+    "matchId": "57258",
+    "kickoff": "2026-11-09T17:00:00.000Z",
+    "opponentId": "1524",
+    "goalsFor": 3,
+    "goalsAgainst": 2
+   }
+  },
+  "loss": {
+   "length": 5,
+   "from": {
+    "seasonId": 55,
+    "league": "L5H",
+    "matchId": "56601",
+    "kickoff": "2026-09-07T16:00:00.000Z",
+    "opponentId": "1553",
+    "goalsFor": 5,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5H",
+    "matchId": "57002",
+    "kickoff": "2026-10-12T16:00:00.000Z",
+    "opponentId": "1563",
+    "goalsFor": 0,
+    "goalsAgainst": 5
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 1,
+ "scorers": {
+  "playedMatches": 6,
+  "coveredMatches": 6,
+  "rows": []
+ }
+}

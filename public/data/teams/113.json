@@ -1,0 +1,260 @@
+{
+ "schemaVersion": 1,
+ "teamId": "113",
+ "names": [
+  "Cőce FC"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5C",
+   "finished": false,
+   "position": 12,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 10,
+    "won": 1,
+    "drawn": 0,
+    "lost": 9,
+    "goalsFor": 18,
+    "goalsAgainst": 64,
+    "points": 3
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "1473",
+   "name": "El Westham United",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1531",
+   "name": "FC Bárkalona",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "241",
+   "name": "Bomboclaat FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "132",
+   "name": "Ment Mellé is",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1509",
+   "name": "PINATINAIKOS",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1565",
+   "name": "szopókás póverád",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "75",
+   "name": "Maláj medve SE",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "240",
+   "name": "DEG(eneráltak)",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "181",
+   "name": "Brazilok",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1544",
+   "name": "Stoczek Wanderers FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 13,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5C",
+   "matchId": "56649",
+   "kickoff": "2026-09-09T20:00:00.000Z",
+   "opponentId": "1531",
+   "goalsFor": 6,
+   "goalsAgainst": 5
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5C",
+   "matchId": "57231",
+   "kickoff": "2026-11-11T19:00:00.000Z",
+   "opponentId": "1544",
+   "goalsFor": 5,
+   "goalsAgainst": 13
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5C",
+   "matchId": "57231",
+   "kickoff": "2026-11-11T19:00:00.000Z",
+   "opponentId": "1544",
+   "goalsFor": 5,
+   "goalsAgainst": 13
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "56649",
+    "kickoff": "2026-09-09T20:00:00.000Z",
+    "opponentId": "1531",
+    "goalsFor": 6,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "56649",
+    "kickoff": "2026-09-09T20:00:00.000Z",
+    "opponentId": "1531",
+    "goalsFor": 6,
+    "goalsAgainst": 5
+   }
+  },
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "56649",
+    "kickoff": "2026-09-09T20:00:00.000Z",
+    "opponentId": "1531",
+    "goalsFor": 6,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "56649",
+    "kickoff": "2026-09-09T20:00:00.000Z",
+    "opponentId": "1531",
+    "goalsFor": 6,
+    "goalsAgainst": 5
+   }
+  },
+  "loss": {
+   "length": 8,
+   "from": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "56725",
+    "kickoff": "2026-09-18T16:00:00.000Z",
+    "opponentId": "241",
+    "goalsFor": 0,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "57231",
+    "kickoff": "2026-11-11T19:00:00.000Z",
+    "opponentId": "1544",
+    "goalsFor": 5,
+    "goalsAgainst": 13
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 6,
+ "scorers": {
+  "playedMatches": 10,
+  "coveredMatches": 10,
+  "rows": []
+ }
+}

@@ -1,0 +1,251 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1488",
+ "names": [
+  "she said she was 5+1"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5G",
+   "finished": false,
+   "position": 10,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 6,
+    "won": 2,
+    "drawn": 1,
+    "lost": 3,
+    "goalsFor": 27,
+    "goalsAgainst": 41,
+    "points": 7
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "1469",
+   "name": "Argentinos Juniors",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 15,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1557",
+   "name": "Footbalekok",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 6,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "59",
+   "name": "BeCsúszók",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1534",
+   "name": "George FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1518",
+   "name": "Oso Academy",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 4,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "1567",
+   "name": "Taktaharkányi Ifjúsági Fúvószenekar U-40",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5G",
+   "matchId": "57629",
+   "kickoff": "2026-11-06T17:00:00.000Z",
+   "opponentId": "1567",
+   "goalsFor": 5,
+   "goalsAgainst": 3
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5G",
+   "matchId": "56549",
+   "kickoff": "2026-09-02T16:00:00.000Z",
+   "opponentId": "1469",
+   "goalsFor": 3,
+   "goalsAgainst": 15
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5G",
+   "matchId": "56549",
+   "kickoff": "2026-09-02T16:00:00.000Z",
+   "opponentId": "1469",
+   "goalsFor": 3,
+   "goalsAgainst": 15
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "57629",
+    "kickoff": "2026-11-06T17:00:00.000Z",
+    "opponentId": "1567",
+    "goalsFor": 5,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "57629",
+    "kickoff": "2026-11-06T17:00:00.000Z",
+    "opponentId": "1567",
+    "goalsFor": 5,
+    "goalsAgainst": 3
+   }
+  },
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "57105",
+    "kickoff": "2026-10-27T19:00:00.000Z",
+    "opponentId": "1518",
+    "goalsFor": 4,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "57629",
+    "kickoff": "2026-11-06T17:00:00.000Z",
+    "opponentId": "1567",
+    "goalsFor": 5,
+    "goalsAgainst": 3
+   }
+  },
+  "loss": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "56549",
+    "kickoff": "2026-09-02T16:00:00.000Z",
+    "opponentId": "1469",
+    "goalsFor": 3,
+    "goalsAgainst": 15
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "56602",
+    "kickoff": "2026-09-09T17:00:00.000Z",
+    "opponentId": "1557",
+    "goalsFor": 6,
+    "goalsAgainst": 8
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 6,
+  "coveredMatches": 6,
+  "rows": [
+   {
+    "name": "Lukács Ákos",
+    "goals": 8,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Vasbányai Vince",
+    "goals": 5,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Heffner Attila Hunor",
+    "goals": 4,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Lukács Ádám",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kovács Barna",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Patrik Krasznai",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Péteri Bendegúz",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

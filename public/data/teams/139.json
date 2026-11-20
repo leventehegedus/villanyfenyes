@@ -6,6 +6,24 @@
  ],
  "seasons": [
   {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L2A",
+   "finished": false,
+   "position": 2,
+   "teamsInLeague": 12,
+   "marker": "promotion",
+   "totals": {
+    "played": 7,
+    "won": 6,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 63,
+    "goalsAgainst": 39,
+    "points": 18
+   }
+  },
+  {
    "seasonId": 49,
    "label": "2001 - Ősz",
    "league": "L1",
@@ -167,17 +185,108 @@
     "goalsAgainst": 5,
     "points": 0
    }
+  },
+  {
+   "teamId": "115",
+   "name": "Botladozó Fiúk",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "179",
+   "name": "Drink Team",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "136",
+   "name": "Leverpool",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 10,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "45",
+   "name": "National Sechs",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 7,
+    "goalsAgainst": 10,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "188",
+   "name": "Al Dubai",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 12,
+    "goalsAgainst": 8,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "109",
+   "name": "Absinthe FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "48",
+   "name": "Együtt szárszóért",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 8,
+    "points": 3
+   }
   }
  ],
  "records": {
   "biggestWin": {
-   "seasonId": 49,
-   "league": "L1",
-   "matchId": "41450",
-   "kickoff": "2025-05-19T06:30:32.000Z",
-   "opponentId": "1266",
-   "goalsFor": 6,
-   "goalsAgainst": 3
+   "seasonId": 55,
+   "league": "L2A",
+   "matchId": "56527",
+   "kickoff": "2026-09-21T20:00:00.000Z",
+   "opponentId": "136",
+   "goalsFor": 10,
+   "goalsAgainst": 1
   },
   "biggestDefeat": {
    "seasonId": 49,
@@ -189,56 +298,56 @@
    "goalsAgainst": 11
   },
   "highestScoring": {
-   "seasonId": 49,
-   "league": "L1",
-   "matchId": "41453",
-   "kickoff": "2025-05-19T06:30:33.000Z",
-   "opponentId": "1390",
-   "goalsFor": 2,
-   "goalsAgainst": 11
+   "seasonId": 55,
+   "league": "L2A",
+   "matchId": "56904",
+   "kickoff": "2026-10-05T18:00:00.000Z",
+   "opponentId": "188",
+   "goalsFor": 12,
+   "goalsAgainst": 8
   }
  },
  "streaks": {
   "win": {
-   "length": 1,
+   "length": 3,
    "from": {
-    "seasonId": 49,
-    "league": "L1",
-    "matchId": "41454",
-    "kickoff": "2025-05-19T06:30:33.000Z",
-    "opponentId": "1371",
-    "goalsFor": 6,
-    "goalsAgainst": 4
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "56904",
+    "kickoff": "2026-10-05T18:00:00.000Z",
+    "opponentId": "188",
+    "goalsFor": 12,
+    "goalsAgainst": 8
    },
    "to": {
-    "seasonId": 49,
-    "league": "L1",
-    "matchId": "41454",
-    "kickoff": "2025-05-19T06:30:33.000Z",
-    "opponentId": "1371",
-    "goalsFor": 6,
-    "goalsAgainst": 4
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "57230",
+    "kickoff": "2026-11-09T18:00:00.000Z",
+    "opponentId": "48",
+    "goalsFor": 9,
+    "goalsAgainst": 8
    }
   },
   "unbeaten": {
-   "length": 1,
+   "length": 3,
    "from": {
-    "seasonId": 49,
-    "league": "L1",
-    "matchId": "41454",
-    "kickoff": "2025-05-19T06:30:33.000Z",
-    "opponentId": "1371",
-    "goalsFor": 6,
-    "goalsAgainst": 4
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "56904",
+    "kickoff": "2026-10-05T18:00:00.000Z",
+    "opponentId": "188",
+    "goalsFor": 12,
+    "goalsAgainst": 8
    },
    "to": {
-    "seasonId": 49,
-    "league": "L1",
-    "matchId": "41454",
-    "kickoff": "2025-05-19T06:30:33.000Z",
-    "opponentId": "1371",
-    "goalsFor": 6,
-    "goalsAgainst": 4
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "57230",
+    "kickoff": "2026-11-09T18:00:00.000Z",
+    "opponentId": "48",
+    "goalsFor": 9,
+    "goalsAgainst": 8
    }
   },
   "loss": {
@@ -266,8 +375,63 @@
  "cleanSheets": 0,
  "failedToScore": 1,
  "scorers": {
-  "playedMatches": 11,
-  "coveredMatches": 11,
-  "rows": []
+  "playedMatches": 18,
+  "coveredMatches": 18,
+  "rows": [
+   {
+    "name": "Békefi Bálint",
+    "goals": 23,
+    "matches": 6,
+    "hatTricks": 4
+   },
+   {
+    "name": "Bacsa Zalán Péter",
+    "goals": 8,
+    "matches": 4,
+    "hatTricks": 2
+   },
+   {
+    "name": "Kelemen Mátyás",
+    "goals": 5,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Rimóczi Gergő",
+    "goals": 5,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Haynes Aaron",
+    "goals": 4,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Sipos Andor",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szőke István",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Takács Bálint",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kéménczy Márton",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
  }
 }

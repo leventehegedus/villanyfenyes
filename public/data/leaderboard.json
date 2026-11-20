@@ -46,16 +46,16 @@
    "name": "Koma Sutra",
    "titles": 1,
    "l1Seasons": 18,
-   "won": 77,
-   "goalsFor": 639
+   "won": 80,
+   "goalsFor": 676
   },
   {
    "teamId": "77",
    "name": "Keverton",
    "titles": 1,
    "l1Seasons": 15,
-   "won": 65,
-   "goalsFor": 601
+   "won": 68,
+   "goalsFor": 625
   },
   {
    "teamId": "1442",
@@ -102,8 +102,8 @@
    "name": "Inteam CF",
    "titles": 0,
    "l1Seasons": 1,
-   "won": 2,
-   "goalsFor": 41
+   "won": 8,
+   "goalsFor": 104
   },
   {
    "teamId": "1266",
@@ -334,16 +334,16 @@
    "name": "Absinthe FC",
    "titles": 0,
    "l1Seasons": 4,
-   "won": 15,
-   "goalsFor": 192
+   "won": 18,
+   "goalsFor": 230
   },
   {
    "teamId": "230",
    "name": "EjakuLazio",
    "titles": 0,
    "l1Seasons": 13,
-   "won": 50,
-   "goalsFor": 539
+   "won": 52,
+   "goalsFor": 546
   },
   {
    "teamId": "964",
@@ -430,8 +430,8 @@
    "name": "Domino Kijev",
    "titles": 0,
    "l1Seasons": 6,
-   "won": 19,
-   "goalsFor": 210
+   "won": 22,
+   "goalsFor": 248
   },
   {
    "teamId": "760",
@@ -446,8 +446,8 @@
    "name": "Selecao",
    "titles": 0,
    "l1Seasons": 1,
-   "won": 1,
-   "goalsFor": 20
+   "won": 5,
+   "goalsFor": 60
   },
   {
    "teamId": "526",
@@ -462,8 +462,8 @@
    "name": "Stabilizátorok",
    "titles": 0,
    "l1Seasons": 7,
-   "won": 34,
-   "goalsFor": 417
+   "won": 37,
+   "goalsFor": 461
   },
   {
    "teamId": "522",
@@ -486,16 +486,16 @@
    "name": "Berúg FC",
    "titles": 0,
    "l1Seasons": 4,
-   "won": 12,
-   "goalsFor": 150
+   "won": 17,
+   "goalsFor": 195
   },
   {
    "teamId": "67",
    "name": "Kráken",
    "titles": 0,
    "l1Seasons": 7,
-   "won": 31,
-   "goalsFor": 295
+   "won": 35,
+   "goalsFor": 321
   },
   {
    "teamId": "298",
@@ -590,8 +590,8 @@
    "name": "Esélyetek SE",
    "titles": 0,
    "l1Seasons": 10,
-   "won": 38,
-   "goalsFor": 453
+   "won": 40,
+   "goalsFor": 494
   },
   {
    "teamId": "647",
@@ -622,16 +622,16 @@
    "name": "FC Gyulai Kolbászok powered by Vácszentlászló SC",
    "titles": 0,
    "l1Seasons": 5,
-   "won": 20,
-   "goalsFor": 230
+   "won": 26,
+   "goalsFor": 261
   },
   {
    "teamId": "179",
    "name": "Drink Team",
    "titles": 1,
    "l1Seasons": 7,
-   "won": 42,
-   "goalsFor": 349
+   "won": 44,
+   "goalsFor": 383
   },
   {
    "teamId": "620",
@@ -678,8 +678,8 @@
    "name": "VIKtory FC",
    "titles": 0,
    "l1Seasons": 2,
-   "won": 5,
-   "goalsFor": 51
+   "won": 7,
+   "goalsFor": 83
   },
   {
    "teamId": "468",
@@ -710,16 +710,16 @@
    "name": "more czuczor more party",
    "titles": 0,
    "l1Seasons": 3,
-   "won": 13,
-   "goalsFor": 121
+   "won": 15,
+   "goalsFor": 154
   },
   {
    "teamId": "197",
    "name": "Ridomil SC",
    "titles": 0,
    "l1Seasons": 3,
-   "won": 10,
-   "goalsFor": 129
+   "won": 13,
+   "goalsFor": 174
   },
   {
    "teamId": "100",
@@ -758,8 +758,8 @@
    "name": "Együtt szárszóért",
    "titles": 1,
    "l1Seasons": 4,
-   "won": 27,
-   "goalsFor": 201
+   "won": 31,
+   "goalsFor": 251
   },
   {
    "teamId": "88",
@@ -798,8 +798,8 @@
    "name": "Vizes Zsömle",
    "titles": 0,
    "l1Seasons": 1,
-   "won": 1,
-   "goalsFor": 39
+   "won": 4,
+   "goalsFor": 58
   },
   {
    "teamId": "142",
@@ -814,8 +814,8 @@
    "name": "CF Babinénik",
    "titles": 1,
    "l1Seasons": 4,
-   "won": 15,
-   "goalsFor": 176
+   "won": 24,
+   "goalsFor": 261
   },
   {
    "teamId": "93",
@@ -838,8 +838,8 @@
    "name": "TéSz",
    "titles": 0,
    "l1Seasons": 4,
-   "won": 18,
-   "goalsFor": 216
+   "won": 22,
+   "goalsFor": 257
   },
   {
    "teamId": "244",
@@ -854,8 +854,8 @@
    "name": "CS Tanszék",
    "titles": 0,
    "l1Seasons": 3,
-   "won": 19,
-   "goalsFor": 182
+   "won": 22,
+   "goalsFor": 226
   },
   {
    "teamId": "149",
@@ -878,8 +878,8 @@
    "name": "Tunyacsáp",
    "titles": 0,
    "l1Seasons": 2,
-   "won": 4,
-   "goalsFor": 60
+   "won": 7,
+   "goalsFor": 99
   },
   {
    "teamId": "145",
@@ -894,56 +894,56 @@
    "name": "Vergewalti GANG",
    "titles": 0,
    "l1Seasons": 1,
-   "won": 2,
-   "goalsFor": 29
+   "won": 3,
+   "goalsFor": 51
   },
   {
    "teamId": "154",
    "name": "Cefre Town",
    "titles": 0,
    "l1Seasons": 1,
-   "won": 2,
-   "goalsFor": 24
+   "won": 5,
+   "goalsFor": 52
   },
   {
    "teamId": "115",
    "name": "Botladozó Fiúk",
    "titles": 0,
    "l1Seasons": 1,
-   "won": 1,
-   "goalsFor": 37
+   "won": 4,
+   "goalsFor": 64
   },
   {
    "teamId": "220",
    "name": "Jó lövés bedobás",
    "titles": 0,
    "l1Seasons": 1,
-   "won": 4,
-   "goalsFor": 39
+   "won": 5,
+   "goalsFor": 68
   },
   {
    "teamId": "41",
    "name": "Sonkástojás",
    "titles": 0,
    "l1Seasons": 1,
-   "won": 2,
-   "goalsFor": 21
+   "won": 4,
+   "goalsFor": 51
   },
   {
    "teamId": "116",
    "name": "Toilet Time",
    "titles": 0,
    "l1Seasons": 1,
-   "won": 2,
-   "goalsFor": 18
+   "won": 8,
+   "goalsFor": 73
   },
   {
    "teamId": "73",
    "name": "Kulákok",
    "titles": 0,
    "l1Seasons": 1,
-   "won": 1,
-   "goalsFor": 23
+   "won": 3,
+   "goalsFor": 42
   },
   {
    "teamId": "238",
@@ -968,6 +968,1502 @@
    "l1Seasons": 1,
    "won": 1,
    "goalsFor": 20
+  },
+  {
+   "teamId": "45",
+   "name": "National Sechs",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 54
+  },
+  {
+   "teamId": "38",
+   "name": "Szeszpanyol",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 41
+  },
+  {
+   "teamId": "136",
+   "name": "Leverpool",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 24
+  },
+  {
+   "teamId": "188",
+   "name": "Al Dubai",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 1,
+   "goalsFor": 16
+  },
+  {
+   "teamId": "70",
+   "name": "Apacza FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 0,
+   "goalsFor": 23
+  },
+  {
+   "teamId": "123",
+   "name": "Dzsum Dzsum",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 42
+  },
+  {
+   "teamId": "81",
+   "name": "BallDogs",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 26
+  },
+  {
+   "teamId": "31",
+   "name": "SZIKértelem",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 1,
+   "goalsFor": 27
+  },
+  {
+   "teamId": "1480",
+   "name": "A Polgár Jenő",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 7,
+   "goalsFor": 52
+  },
+  {
+   "teamId": "26",
+   "name": "Kópészelet",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 43
+  },
+  {
+   "teamId": "165",
+   "name": "100-as odds",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 40
+  },
+  {
+   "teamId": "198",
+   "name": "KungFuci",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 35
+  },
+  {
+   "teamId": "1479",
+   "name": "Light OS",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 39
+  },
+  {
+   "teamId": "176",
+   "name": "KrumpliVanEladó",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 25
+  },
+  {
+   "teamId": "95",
+   "name": "fc akármi",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 47
+  },
+  {
+   "teamId": "208",
+   "name": "PÉNISZ LAND",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 1,
+   "goalsFor": 33
+  },
+  {
+   "teamId": "30",
+   "name": "no czuczor no party",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 6,
+   "goalsFor": 43
+  },
+  {
+   "teamId": "98",
+   "name": "Calcio Budarossa",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 6,
+   "goalsFor": 53
+  },
+  {
+   "teamId": "119",
+   "name": "Egri Különítmény",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 6,
+   "goalsFor": 56
+  },
+  {
+   "teamId": "190",
+   "name": "Csibészek",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 34
+  },
+  {
+   "teamId": "233",
+   "name": "ReLazio",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 47
+  },
+  {
+   "teamId": "162",
+   "name": "Szikla",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 39
+  },
+  {
+   "teamId": "43",
+   "name": "FE-C FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 27
+  },
+  {
+   "teamId": "146",
+   "name": "Lokomotív Akadémia",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 38
+  },
+  {
+   "teamId": "168",
+   "name": "Babyblue",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 39
+  },
+  {
+   "teamId": "72",
+   "name": "Budai Bombázók",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 1,
+   "goalsFor": 27
+  },
+  {
+   "teamId": "27",
+   "name": "Minden héten háború",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 0,
+   "goalsFor": 15
+  },
+  {
+   "teamId": "192",
+   "name": "SNASA 2.0",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 6,
+   "goalsFor": 48
+  },
+  {
+   "teamId": "1496",
+   "name": "Tröger Fc",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 35
+  },
+  {
+   "teamId": "110",
+   "name": "Közhely FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 56
+  },
+  {
+   "teamId": "219",
+   "name": "SÜSÜ FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 34
+  },
+  {
+   "teamId": "202",
+   "name": "Szupermegaistencsászárüber",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 44
+  },
+  {
+   "teamId": "133",
+   "name": "Crooks",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 26
+  },
+  {
+   "teamId": "118",
+   "name": "Atletico Vasutas SE",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 40
+  },
+  {
+   "teamId": "159",
+   "name": "DÉVCS",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 1,
+   "goalsFor": 24
+  },
+  {
+   "teamId": "1489",
+   "name": "Energ team",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 7,
+   "goalsFor": 64
+  },
+  {
+   "teamId": "52",
+   "name": "Húslovagok",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 62
+  },
+  {
+   "teamId": "85",
+   "name": "AFST",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 51
+  },
+  {
+   "teamId": "104",
+   "name": "Basket Case",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 60
+  },
+  {
+   "teamId": "40",
+   "name": "AS Kóma",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 30
+  },
+  {
+   "teamId": "1511",
+   "name": "Élő Ige",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 60
+  },
+  {
+   "teamId": "39",
+   "name": "Veresiktas FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 32
+  },
+  {
+   "teamId": "84",
+   "name": "Töretlen FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 34
+  },
+  {
+   "teamId": "194",
+   "name": "Alacsony Elvárások",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 1,
+   "goalsFor": 26
+  },
+  {
+   "teamId": "175",
+   "name": "Nagykirályok",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 1,
+   "goalsFor": 24
+  },
+  {
+   "teamId": "121",
+   "name": "Kék Labdák",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 6,
+   "goalsFor": 42
+  },
+  {
+   "teamId": "126",
+   "name": "Havankapus6-5",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 6,
+   "goalsFor": 46
+  },
+  {
+   "teamId": "1520",
+   "name": "Ibiza",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 43
+  },
+  {
+   "teamId": "172",
+   "name": "aha",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 50
+  },
+  {
+   "teamId": "1521",
+   "name": "JSE",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 52
+  },
+  {
+   "teamId": "36",
+   "name": "Gabriel Jesus",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 26
+  },
+  {
+   "teamId": "1471",
+   "name": "Buda Ballers",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 39
+  },
+  {
+   "teamId": "152",
+   "name": "Nocc Kánti",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 22
+  },
+  {
+   "teamId": "20",
+   "name": "Kispályások",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 23
+  },
+  {
+   "teamId": "205",
+   "name": "KFC Light",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 20
+  },
+  {
+   "teamId": "1523",
+   "name": "Entspannter Team",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 1,
+   "goalsFor": 22
+  },
+  {
+   "teamId": "34",
+   "name": "Semmi DADDA",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 1,
+   "goalsFor": 27
+  },
+  {
+   "teamId": "1482",
+   "name": "Felizgatott Makarónik",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 8,
+   "goalsFor": 38
+  },
+  {
+   "teamId": "1507",
+   "name": "Twisters",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 6,
+   "goalsFor": 55
+  },
+  {
+   "teamId": "141",
+   "name": "Asztalon Villa",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 6,
+   "goalsFor": 35
+  },
+  {
+   "teamId": "1508",
+   "name": "Haver FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 45
+  },
+  {
+   "teamId": "62",
+   "name": "Whiskey Tango Foxtrot",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 47
+  },
+  {
+   "teamId": "32",
+   "name": "Grund SE",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 34
+  },
+  {
+   "teamId": "80",
+   "name": "SZIG Stars",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 24
+  },
+  {
+   "teamId": "106",
+   "name": "Gyros FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 24
+  },
+  {
+   "teamId": "102",
+   "name": "Fröccskösök",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 35
+  },
+  {
+   "teamId": "217",
+   "name": "Délben Kocsma",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 1,
+   "goalsFor": 32
+  },
+  {
+   "teamId": "54",
+   "name": "Szürkemackók",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 0,
+   "goalsFor": 16
+  },
+  {
+   "teamId": "101",
+   "name": "Squadra",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 7,
+   "goalsFor": 49
+  },
+  {
+   "teamId": "147",
+   "name": "GABSZK",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 6,
+   "goalsFor": 36
+  },
+  {
+   "teamId": "1512",
+   "name": "Los Magos",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 38
+  },
+  {
+   "teamId": "86",
+   "name": "Sörfoci",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 33
+  },
+  {
+   "teamId": "1504",
+   "name": "Fényév FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 33
+  },
+  {
+   "teamId": "47",
+   "name": "team miller",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 40
+  },
+  {
+   "teamId": "1513",
+   "name": "Meccs Lemondva FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 49
+  },
+  {
+   "teamId": "131",
+   "name": "Roby Bácsi Bűnbandája",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 19
+  },
+  {
+   "teamId": "210",
+   "name": "PITE FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 24
+  },
+  {
+   "teamId": "173",
+   "name": "Tipszmiksz",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 24
+  },
+  {
+   "teamId": "137",
+   "name": "BCE-PhD GoalBreakers",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 0,
+   "goalsFor": 17
+  },
+  {
+   "teamId": "1515",
+   "name": "Seskoffender",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 51
+  },
+  {
+   "teamId": "65",
+   "name": "Polak Kiddos",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 29
+  },
+  {
+   "teamId": "1530",
+   "name": "FLEO RC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 45
+  },
+  {
+   "teamId": "221",
+   "name": "Káptalan",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 29
+  },
+  {
+   "teamId": "1494",
+   "name": "FCB",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 49
+  },
+  {
+   "teamId": "96",
+   "name": "Egyenlők",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 40
+  },
+  {
+   "teamId": "1528",
+   "name": "A Focicsapat",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 23
+  },
+  {
+   "teamId": "33",
+   "name": "hoferővonat",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 19
+  },
+  {
+   "teamId": "71",
+   "name": "Pasaref",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 37
+  },
+  {
+   "teamId": "50",
+   "name": "Goats FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 43
+  },
+  {
+   "teamId": "189",
+   "name": "Al-Kaloida",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 34
+  },
+  {
+   "teamId": "1537",
+   "name": "Közpénz FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 1,
+   "goalsFor": 40
+  },
+  {
+   "teamId": "42",
+   "name": "Gépgólyák",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 7,
+   "goalsFor": 64
+  },
+  {
+   "teamId": "1526",
+   "name": "FC MENNYIVANMÉG",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 7,
+   "goalsFor": 55
+  },
+  {
+   "teamId": "19",
+   "name": "A kispad legjobbjai",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 6,
+   "goalsFor": 33
+  },
+  {
+   "teamId": "1550",
+   "name": "Elmarad FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 41
+  },
+  {
+   "teamId": "44",
+   "name": "BKG",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 38
+  },
+  {
+   "teamId": "1493",
+   "name": "Keverton Klub",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 33
+  },
+  {
+   "teamId": "56",
+   "name": "ZártOsztály",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 33
+  },
+  {
+   "teamId": "120",
+   "name": "Massive attack",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 24
+  },
+  {
+   "teamId": "151",
+   "name": "Csokihiány",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 32
+  },
+  {
+   "teamId": "1562",
+   "name": "CF Calma",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 1,
+   "goalsFor": 19
+  },
+  {
+   "teamId": "169",
+   "name": "Se Villa Se Kanál",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 1,
+   "goalsFor": 28
+  },
+  {
+   "teamId": "209",
+   "name": "FC SÖR",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 0,
+   "goalsFor": 22
+  },
+  {
+   "teamId": "1533",
+   "name": "Sördögök",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 6,
+   "goalsFor": 50
+  },
+  {
+   "teamId": "228",
+   "name": "Energeng",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 6,
+   "goalsFor": 38
+  },
+  {
+   "teamId": "105",
+   "name": "Joga Bonito",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 6,
+   "goalsFor": 56
+  },
+  {
+   "teamId": "125",
+   "name": "Alibi FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 53
+  },
+  {
+   "teamId": "24",
+   "name": "A jó, a rossz és a dagadt",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 44
+  },
+  {
+   "teamId": "1483",
+   "name": "Al Kohol",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 47
+  },
+  {
+   "teamId": "143",
+   "name": "Magyi",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 27
+  },
+  {
+   "teamId": "58",
+   "name": "Jó az X",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 24
+  },
+  {
+   "teamId": "57",
+   "name": "Zomboss",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 22
+  },
+  {
+   "teamId": "1559",
+   "name": "Alíz Utca FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 1,
+   "goalsFor": 32
+  },
+  {
+   "teamId": "215",
+   "name": "Csendes FIFA",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 1,
+   "goalsFor": 15
+  },
+  {
+   "teamId": "1564",
+   "name": "Husvilla tona klubb",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 1,
+   "goalsFor": 35
+  },
+  {
+   "teamId": "132",
+   "name": "Ment Mellé is",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 6,
+   "goalsFor": 38
+  },
+  {
+   "teamId": "1509",
+   "name": "PINATINAIKOS",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 57
+  },
+  {
+   "teamId": "241",
+   "name": "Bomboclaat FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 40
+  },
+  {
+   "teamId": "1544",
+   "name": "Stoczek Wanderers FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 53
+  },
+  {
+   "teamId": "216",
+   "name": "ESZKFC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 49
+  },
+  {
+   "teamId": "1531",
+   "name": "FC Bárkalona",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 54
+  },
+  {
+   "teamId": "240",
+   "name": "DEG(eneráltak)",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 33
+  },
+  {
+   "teamId": "181",
+   "name": "Brazilok",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 30
+  },
+  {
+   "teamId": "1565",
+   "name": "szopókás póverád",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 35
+  },
+  {
+   "teamId": "1473",
+   "name": "El Westham United",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 36
+  },
+  {
+   "teamId": "75",
+   "name": "Maláj medve SE",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 1,
+   "goalsFor": 22
+  },
+  {
+   "teamId": "113",
+   "name": "Cőce FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 1,
+   "goalsFor": 18
+  },
+  {
+   "teamId": "1560",
+   "name": "Barátok FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 7,
+   "goalsFor": 70
+  },
+  {
+   "teamId": "51",
+   "name": "Beton FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 7,
+   "goalsFor": 50
+  },
+  {
+   "teamId": "1575",
+   "name": "Homárok SC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 6,
+   "goalsFor": 66
+  },
+  {
+   "teamId": "138",
+   "name": "Bozók CF",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 31
+  },
+  {
+   "teamId": "1484",
+   "name": "Lábazati hibák",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 36
+  },
+  {
+   "teamId": "156",
+   "name": "AttacKing",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 27
+  },
+  {
+   "teamId": "1522",
+   "name": "Kókány És Mókány Bt.",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 53
+  },
+  {
+   "teamId": "155",
+   "name": "K FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 33
+  },
+  {
+   "teamId": "83",
+   "name": "Csíki Sör FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 19
+  },
+  {
+   "teamId": "195",
+   "name": "Gatya FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 1,
+   "goalsFor": 26
+  },
+  {
+   "teamId": "144",
+   "name": "InfLazio",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 1,
+   "goalsFor": 21
+  },
+  {
+   "teamId": "1495",
+   "name": "Töki Taka FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 1,
+   "goalsFor": 28
+  },
+  {
+   "teamId": "1486",
+   "name": "Oso FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 6,
+   "goalsFor": 38
+  },
+  {
+   "teamId": "163",
+   "name": "Lángoló traktorok",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 6,
+   "goalsFor": 60
+  },
+  {
+   "teamId": "1569",
+   "name": "Stoplis tilos",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 42
+  },
+  {
+   "teamId": "171",
+   "name": "EKSCHÖN TÍM",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 39
+  },
+  {
+   "teamId": "1571",
+   "name": "FÉK FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 18
+  },
+  {
+   "teamId": "193",
+   "name": "Boccs-boccs",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 34
+  },
+  {
+   "teamId": "1532",
+   "name": "Team 5",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 32
+  },
+  {
+   "teamId": "21",
+   "name": "Mégnemveszíthetek",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 34
+  },
+  {
+   "teamId": "63",
+   "name": "Balo FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 28
+  },
+  {
+   "teamId": "1476",
+   "name": "Los Galacticos",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 46
+  },
+  {
+   "teamId": "1561",
+   "name": "Team Red",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 0,
+   "goalsFor": 22
+  },
+  {
+   "teamId": "1536",
+   "name": "SFAC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 0,
+   "goalsFor": 24
+  },
+  {
+   "teamId": "1527",
+   "name": "John Pork's eleven",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 6,
+   "goalsFor": 49
+  },
+  {
+   "teamId": "1552",
+   "name": "Football Fanatix",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 39
+  },
+  {
+   "teamId": "178",
+   "name": "Tottenham Hatsör",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 41
+  },
+  {
+   "teamId": "157",
+   "name": "Ekho",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 38
+  },
+  {
+   "teamId": "55",
+   "name": "Droidhadsereg",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 27
+  },
+  {
+   "teamId": "89",
+   "name": "Big bulls fc",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 18
+  },
+  {
+   "teamId": "99",
+   "name": "ASFC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 17
+  },
+  {
+   "teamId": "1568",
+   "name": "el KM Hyundai Football Club",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 17
+  },
+  {
+   "teamId": "201",
+   "name": "Fontolva Harapók",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 1,
+   "goalsFor": 24
+  },
+  {
+   "teamId": "203",
+   "name": "Gólvágóhíd",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 24
+  },
+  {
+   "teamId": "122",
+   "name": "Törtető Maszkos Búzák",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 1,
+   "goalsFor": 8
+  },
+  {
+   "teamId": "1549",
+   "name": "Kecsap",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 0,
+   "goalsFor": 12
+  },
+  {
+   "teamId": "1534",
+   "name": "George FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 6,
+   "goalsFor": 56
+  },
+  {
+   "teamId": "1567",
+   "name": "Taktaharkányi Ifjúsági Fúvószenekar U-40",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 57
+  },
+  {
+   "teamId": "1469",
+   "name": "Argentinos Juniors",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 60
+  },
+  {
+   "teamId": "1557",
+   "name": "Footbalekok",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 40
+  },
+  {
+   "teamId": "212",
+   "name": "Lándzsás útifű",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 35
+  },
+  {
+   "teamId": "1529",
+   "name": "ASC Legends",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 33
+  },
+  {
+   "teamId": "59",
+   "name": "BeCsúszók",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 36
+  },
+  {
+   "teamId": "1570",
+   "name": "Gugugaga gang",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 33
+  },
+  {
+   "teamId": "1518",
+   "name": "Oso Academy",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 34
+  },
+  {
+   "teamId": "1488",
+   "name": "she said she was 5+1",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 27
+  },
+  {
+   "teamId": "135",
+   "name": "Szakik",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 20
+  },
+  {
+   "teamId": "1572",
+   "name": "GÓLatanács",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 0,
+   "goalsFor": 28
+  },
+  {
+   "teamId": "1566",
+   "name": "Busquets serege",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 7,
+   "goalsFor": 60
+  },
+  {
+   "teamId": "1577",
+   "name": "Rosario Juniors",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 6,
+   "goalsFor": 40
+  },
+  {
+   "teamId": "91",
+   "name": "Dorsum",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 64
+  },
+  {
+   "teamId": "1556",
+   "name": "Nagypénz Nagyfoci",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 53
+  },
+  {
+   "teamId": "1563",
+   "name": "Móricz All Stars",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 44
+  },
+  {
+   "teamId": "35",
+   "name": "Csimpanzini Bananini",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 31
+  },
+  {
+   "teamId": "1553",
+   "name": "Szamaras SE",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 33
+  },
+  {
+   "teamId": "164",
+   "name": "Tokmindegy",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 42
+  },
+  {
+   "teamId": "232",
+   "name": "FC Felvidéki Brazilok",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 19
+  },
+  {
+   "teamId": "225",
+   "name": "Vakok és gyengénjátszók",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 1,
+   "goalsFor": 13
+  },
+  {
+   "teamId": "1524",
+   "name": "Futball Pisták",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 0,
+   "goalsFor": 14
+  },
+  {
+   "teamId": "227",
+   "name": "Villanyfényes Szépség Das Originals.",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 0,
+   "goalsFor": 17
   }
  ]
 }

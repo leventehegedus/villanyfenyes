@@ -1,0 +1,264 @@
+{
+ "schemaVersion": 1,
+ "teamId": "81",
+ "names": [
+  "BallDogs"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L2B",
+   "finished": false,
+   "position": 8,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 2,
+    "drawn": 1,
+    "lost": 4,
+    "goalsFor": 26,
+    "goalsAgainst": 33,
+    "points": 7
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "154",
+   "name": "Cefre Town",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "31",
+   "name": "SZIKértelem",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "182",
+   "name": "Vergewalti GANG",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "28",
+   "name": "TéSz",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "197",
+   "name": "Ridomil SC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 6,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "29",
+   "name": "Tunyacsáp",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "37",
+   "name": "CF Babinénik",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L2B",
+   "matchId": "56711",
+   "kickoff": "2026-09-15T16:00:00.000Z",
+   "opponentId": "31",
+   "goalsFor": 4,
+   "goalsAgainst": 1
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L2B",
+   "matchId": "57320",
+   "kickoff": "2026-11-17T19:00:00.000Z",
+   "opponentId": "37",
+   "goalsFor": 4,
+   "goalsAgainst": 8
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L2B",
+   "matchId": "57320",
+   "kickoff": "2026-11-17T19:00:00.000Z",
+   "opponentId": "37",
+   "goalsFor": 4,
+   "goalsAgainst": 8
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L2B",
+    "matchId": "56711",
+    "kickoff": "2026-09-15T16:00:00.000Z",
+    "opponentId": "31",
+    "goalsFor": 4,
+    "goalsAgainst": 1
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L2B",
+    "matchId": "56790",
+    "kickoff": "2026-09-22T16:00:00.000Z",
+    "opponentId": "182",
+    "goalsFor": 5,
+    "goalsAgainst": 3
+   }
+  },
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L2B",
+    "matchId": "56711",
+    "kickoff": "2026-09-15T16:00:00.000Z",
+    "opponentId": "31",
+    "goalsFor": 4,
+    "goalsAgainst": 1
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L2B",
+    "matchId": "56790",
+    "kickoff": "2026-09-22T16:00:00.000Z",
+    "opponentId": "182",
+    "goalsFor": 5,
+    "goalsAgainst": 3
+   }
+  },
+  "loss": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L2B",
+    "matchId": "57221",
+    "kickoff": "2026-11-12T20:00:00.000Z",
+    "opponentId": "29",
+    "goalsFor": 2,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L2B",
+    "matchId": "57320",
+    "kickoff": "2026-11-17T19:00:00.000Z",
+    "opponentId": "37",
+    "goalsFor": 4,
+    "goalsAgainst": 8
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Biró Botond",
+    "goals": 9,
+    "matches": 5,
+    "hatTricks": 2
+   },
+   {
+    "name": "Horváth Ákos",
+    "goals": 5,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Horváth Ádám Bence",
+    "goals": 4,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Csiha Bence",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Csiha Daniel",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kiss Bence",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szilárdi Kristóf",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

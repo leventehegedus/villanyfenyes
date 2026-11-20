@@ -6,6 +6,24 @@
  ],
  "seasons": [
   {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L2A",
+   "finished": false,
+   "position": 10,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 7,
+    "won": 2,
+    "drawn": 0,
+    "lost": 5,
+    "goalsFor": 34,
+    "goalsAgainst": 48,
+    "points": 6
+   }
+  },
+  {
    "seasonId": 6,
    "label": "2024 - Tavasz",
    "league": "L1",
@@ -436,12 +454,12 @@
    "teamId": "48",
    "name": "Együtt szárszóért",
    "totals": {
-    "played": 4,
+    "played": 5,
     "won": 2,
     "drawn": 0,
-    "lost": 2,
-    "goalsFor": 8,
-    "goalsAgainst": 10,
+    "lost": 3,
+    "goalsFor": 13,
+    "goalsAgainst": 19,
     "points": 6
    }
   },
@@ -587,6 +605,84 @@
     "goalsAgainst": 10,
     "points": 0
    }
+  },
+  {
+   "teamId": "23",
+   "name": "CS Tanszék",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "70",
+   "name": "Apacza FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "139",
+   "name": "Inteam CF",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "115",
+   "name": "Botladozó Fiúk",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "136",
+   "name": "Leverpool",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 6,
+    "goalsAgainst": 10,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "45",
+   "name": "National Sechs",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 6,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -662,23 +758,23 @@
    }
   },
   "loss": {
-   "length": 4,
+   "length": 5,
    "from": {
-    "seasonId": 19,
-    "league": "L1",
-    "matchId": "16391",
-    "kickoff": "2016-09-06T17:00:00.000Z",
-    "opponentId": "170",
-    "goalsFor": 3,
-    "goalsAgainst": 5
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "57058",
+    "kickoff": "2026-09-17T20:00:00.000Z",
+    "opponentId": "139",
+    "goalsFor": 4,
+    "goalsAgainst": 8
    },
    "to": {
-    "seasonId": 19,
-    "league": "L1",
-    "matchId": "16406",
-    "kickoff": "2016-10-04T18:00:00.000Z",
-    "opponentId": "550",
-    "goalsFor": 4,
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "57318",
+    "kickoff": "2026-11-19T19:00:00.000Z",
+    "opponentId": "45",
+    "goalsFor": 3,
     "goalsAgainst": 6
    }
   }
@@ -686,8 +782,57 @@
  "cleanSheets": 5,
  "failedToScore": 2,
  "scorers": {
-  "playedMatches": 77,
-  "coveredMatches": 77,
-  "rows": []
+  "playedMatches": 84,
+  "coveredMatches": 84,
+  "rows": [
+   {
+    "name": "Nagy Kristóf",
+    "goals": 5,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Horváth András",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Leitner Zoltán",
+    "goals": 4,
+    "matches": 2,
+    "hatTricks": 1
+   },
+   {
+    "name": "Timàk Csaba",
+    "goals": 4,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Németh Balázs",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szijártó Csongor",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Sárán Tamás",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Komlósi Patrik",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
  }
 }

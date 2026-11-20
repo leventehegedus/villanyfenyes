@@ -1,0 +1,284 @@
+{
+ "schemaVersion": 1,
+ "teamId": "192",
+ "names": [
+  "SNASA 2.0"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L3C",
+   "finished": false,
+   "position": 1,
+   "teamsInLeague": 12,
+   "marker": "promotion",
+   "totals": {
+    "played": 9,
+    "won": 6,
+    "drawn": 1,
+    "lost": 2,
+    "goalsFor": 48,
+    "goalsAgainst": 28,
+    "points": 19
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "159",
+   "name": "DÉVCS",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "230",
+   "name": "EjakuLazio",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "124",
+   "name": "Esélyetek SE",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "77",
+   "name": "Keverton",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "133",
+   "name": "Crooks",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "219",
+   "name": "SÜSÜ FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "202",
+   "name": "Szupermegaistencsászárüber",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1496",
+   "name": "Tröger Fc",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "118",
+   "name": "Atletico Vasutas SE",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 5,
+    "points": 1
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L3C",
+   "matchId": "57256",
+   "kickoff": "2026-11-10T17:00:00.000Z",
+   "opponentId": "1496",
+   "goalsFor": 5,
+   "goalsAgainst": 0
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L3C",
+   "matchId": "57050",
+   "kickoff": "2026-10-20T16:00:00.000Z",
+   "opponentId": "219",
+   "goalsFor": 2,
+   "goalsAgainst": 5
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L3C",
+   "matchId": "56945",
+   "kickoff": "2026-10-13T18:00:00.000Z",
+   "opponentId": "133",
+   "goalsFor": 9,
+   "goalsAgainst": 4
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 5,
+   "from": {
+    "seasonId": 55,
+    "league": "L3C",
+    "matchId": "56515",
+    "kickoff": "2026-09-01T18:00:00.000Z",
+    "opponentId": "159",
+    "goalsFor": 7,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3C",
+    "matchId": "56945",
+    "kickoff": "2026-10-13T18:00:00.000Z",
+    "opponentId": "133",
+    "goalsFor": 9,
+    "goalsAgainst": 4
+   }
+  },
+  "unbeaten": {
+   "length": 5,
+   "from": {
+    "seasonId": 55,
+    "league": "L3C",
+    "matchId": "56515",
+    "kickoff": "2026-09-01T18:00:00.000Z",
+    "opponentId": "159",
+    "goalsFor": 7,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3C",
+    "matchId": "56945",
+    "kickoff": "2026-10-13T18:00:00.000Z",
+    "opponentId": "133",
+    "goalsFor": 9,
+    "goalsAgainst": 4
+   }
+  },
+  "loss": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L3C",
+    "matchId": "57050",
+    "kickoff": "2026-10-20T16:00:00.000Z",
+    "opponentId": "219",
+    "goalsFor": 2,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3C",
+    "matchId": "57097",
+    "kickoff": "2026-10-30T17:00:00.000Z",
+    "opponentId": "202",
+    "goalsFor": 5,
+    "goalsAgainst": 6
+   }
+  }
+ },
+ "cleanSheets": 2,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 9,
+  "coveredMatches": 9,
+  "rows": [
+   {
+    "name": "Könyves László",
+    "goals": 16,
+    "matches": 7,
+    "hatTricks": 3
+   },
+   {
+    "name": "Bekker Norbert",
+    "goals": 7,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Takács Bálint",
+    "goals": 7,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Cserős Dávid",
+    "goals": 6,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Kaczur Péter",
+    "goals": 6,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Varga Örs",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

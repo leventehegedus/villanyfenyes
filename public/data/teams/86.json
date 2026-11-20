@@ -1,0 +1,251 @@
+{
+ "schemaVersion": 1,
+ "teamId": "86",
+ "names": [
+  "Sörfoci"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L4C",
+   "finished": false,
+   "position": 5,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 6,
+    "won": 4,
+    "drawn": 0,
+    "lost": 2,
+    "goalsFor": 33,
+    "goalsAgainst": 29,
+    "points": 12
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "147",
+   "name": "GABSZK",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "137",
+   "name": "BCE-PhD GoalBreakers",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "101",
+   "name": "Squadra",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1512",
+   "name": "Los Magos",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1513",
+   "name": "Meccs Lemondva FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 7,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "153",
+   "name": "Selecao",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L4C",
+   "matchId": "57161",
+   "kickoff": "2026-11-02T17:00:00.000Z",
+   "opponentId": "153",
+   "goalsFor": 8,
+   "goalsAgainst": 4
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L4C",
+   "matchId": "56592",
+   "kickoff": "2026-09-10T16:00:00.000Z",
+   "opponentId": "147",
+   "goalsFor": 3,
+   "goalsAgainst": 8
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L4C",
+   "matchId": "57031",
+   "kickoff": "2026-10-22T17:00:00.000Z",
+   "opponentId": "1513",
+   "goalsFor": 7,
+   "goalsAgainst": 9
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "56669",
+    "kickoff": "2026-09-15T18:00:00.000Z",
+    "opponentId": "137",
+    "goalsFor": 7,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "56946",
+    "kickoff": "2026-10-12T18:00:00.000Z",
+    "opponentId": "1512",
+    "goalsFor": 4,
+    "goalsAgainst": 2
+   }
+  },
+  "unbeaten": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "56669",
+    "kickoff": "2026-09-15T18:00:00.000Z",
+    "opponentId": "137",
+    "goalsFor": 7,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "56946",
+    "kickoff": "2026-10-12T18:00:00.000Z",
+    "opponentId": "1512",
+    "goalsFor": 4,
+    "goalsAgainst": 2
+   }
+  },
+  "loss": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "57031",
+    "kickoff": "2026-10-22T17:00:00.000Z",
+    "opponentId": "1513",
+    "goalsFor": 7,
+    "goalsAgainst": 9
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "57031",
+    "kickoff": "2026-10-22T17:00:00.000Z",
+    "opponentId": "1513",
+    "goalsFor": 7,
+    "goalsAgainst": 9
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 6,
+  "coveredMatches": 6,
+  "rows": [
+   {
+    "name": "Váradi Vince",
+    "goals": 8,
+    "matches": 2,
+    "hatTricks": 1
+   },
+   {
+    "name": "Pellet Dávid",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Ráth Béla",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szőke Péter",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kókai Bálint",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kolok István Baksa",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Varga Lukács",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

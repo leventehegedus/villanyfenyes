@@ -1,0 +1,186 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1536",
+ "names": [
+  "SFAC"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5E",
+   "finished": false,
+   "position": 12,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 8,
+    "won": 0,
+    "drawn": 0,
+    "lost": 8,
+    "goalsFor": 24,
+    "goalsAgainst": 62,
+    "points": 0
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "63",
+   "name": "Balo FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "171",
+   "name": "EKSCHÖN TÍM",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "21",
+   "name": "Mégnemveszíthetek",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1486",
+   "name": "Oso FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 10,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "193",
+   "name": "Boccs-boccs",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1569",
+   "name": "Stoplis tilos",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1532",
+   "name": "Team 5",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "163",
+   "name": "Lángoló traktorok",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 11,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": null,
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5E",
+   "matchId": "56841",
+   "kickoff": "2026-09-29T19:00:00.000Z",
+   "opponentId": "1486",
+   "goalsFor": 0,
+   "goalsAgainst": 10
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5E",
+   "matchId": "57199",
+   "kickoff": "2026-11-02T19:00:00.000Z",
+   "opponentId": "163",
+   "goalsFor": 2,
+   "goalsAgainst": 11
+  }
+ },
+ "streaks": {
+  "win": null,
+  "unbeaten": null,
+  "loss": {
+   "length": 8,
+   "from": {
+    "seasonId": 55,
+    "league": "L5E",
+    "matchId": "56487",
+    "kickoff": "2026-09-02T17:00:00.000Z",
+    "opponentId": "63",
+    "goalsFor": 5,
+    "goalsAgainst": 8
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5E",
+    "matchId": "57199",
+    "kickoff": "2026-11-02T19:00:00.000Z",
+    "opponentId": "163",
+    "goalsFor": 2,
+    "goalsAgainst": 11
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 1,
+ "scorers": {
+  "playedMatches": 8,
+  "coveredMatches": 8,
+  "rows": []
+ }
+}

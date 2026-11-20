@@ -1,0 +1,276 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1509",
+ "names": [
+  "PINATINAIKOS"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5C",
+   "finished": false,
+   "position": 2,
+   "teamsInLeague": 12,
+   "marker": "promotion",
+   "totals": {
+    "played": 7,
+    "won": 5,
+    "drawn": 0,
+    "lost": 2,
+    "goalsFor": 57,
+    "goalsAgainst": 27,
+    "points": 15
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "75",
+   "name": "Maláj medve SE",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 15,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1544",
+   "name": "Stoczek Wanderers FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 6,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "113",
+   "name": "Cőce FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "216",
+   "name": "ESZKFC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1473",
+   "name": "El Westham United",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 15,
+    "goalsAgainst": 6,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "241",
+   "name": "Bomboclaat FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1531",
+   "name": "FC Bárkalona",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5C",
+   "matchId": "56562",
+   "kickoff": "2026-09-10T19:00:00.000Z",
+   "opponentId": "75",
+   "goalsFor": 15,
+   "goalsAgainst": 1
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5C",
+   "matchId": "56881",
+   "kickoff": "2026-10-05T18:00:00.000Z",
+   "opponentId": "216",
+   "goalsFor": 3,
+   "goalsAgainst": 5
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5C",
+   "matchId": "56953",
+   "kickoff": "2026-10-13T19:00:00.000Z",
+   "opponentId": "1473",
+   "goalsFor": 15,
+   "goalsAgainst": 6
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "56953",
+    "kickoff": "2026-10-13T19:00:00.000Z",
+    "opponentId": "1473",
+    "goalsFor": 15,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "57218",
+    "kickoff": "2026-11-12T18:00:00.000Z",
+    "opponentId": "1531",
+    "goalsFor": 5,
+    "goalsAgainst": 4
+   }
+  },
+  "unbeaten": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "56953",
+    "kickoff": "2026-10-13T19:00:00.000Z",
+    "opponentId": "1473",
+    "goalsFor": 15,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "57218",
+    "kickoff": "2026-11-12T18:00:00.000Z",
+    "opponentId": "1531",
+    "goalsFor": 5,
+    "goalsAgainst": 4
+   }
+  },
+  "loss": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "56881",
+    "kickoff": "2026-10-05T18:00:00.000Z",
+    "opponentId": "216",
+    "goalsFor": 3,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "56881",
+    "kickoff": "2026-10-05T18:00:00.000Z",
+    "opponentId": "216",
+    "goalsFor": 3,
+    "goalsAgainst": 5
+   }
+  }
+ },
+ "cleanSheets": 1,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Teklits Vince",
+    "goals": 25,
+    "matches": 6,
+    "hatTricks": 5
+   },
+   {
+    "name": "Mátyás Terebesi",
+    "goals": 7,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Vass Dániel",
+    "goals": 7,
+    "matches": 4,
+    "hatTricks": 1
+   },
+   {
+    "name": "Bouska Zoltán Benjámin",
+    "goals": 4,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szakály Barnabás Csaba",
+    "goals": 3,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Márk Botond",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Nagy Nimród",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Angyal Dániel",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Gombkötő Mihály",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

@@ -1,0 +1,264 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1553",
+ "names": [
+  "Szamaras SE"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5H",
+   "finished": false,
+   "position": 7,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 3,
+    "drawn": 1,
+    "lost": 3,
+    "goalsFor": 33,
+    "goalsAgainst": 32,
+    "points": 10
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "91",
+   "name": "Dorsum",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 5,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "225",
+   "name": "Vakok és gyengénjátszók",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "227",
+   "name": "Villanyfényes Szépség Das Originals.",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1563",
+   "name": "Móricz All Stars",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "232",
+   "name": "FC Felvidéki Brazilok",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "35",
+   "name": "Csimpanzini Bananini",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1566",
+   "name": "Busquets serege",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5H",
+   "matchId": "57049",
+   "kickoff": "2026-10-19T16:00:00.000Z",
+   "opponentId": "35",
+   "goalsFor": 8,
+   "goalsAgainst": 1
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5H",
+   "matchId": "57195",
+   "kickoff": "2026-11-05T17:00:00.000Z",
+   "opponentId": "1566",
+   "goalsFor": 2,
+   "goalsAgainst": 9
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5H",
+   "matchId": "57195",
+   "kickoff": "2026-11-05T17:00:00.000Z",
+   "opponentId": "1566",
+   "goalsFor": 2,
+   "goalsAgainst": 9
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5H",
+    "matchId": "56601",
+    "kickoff": "2026-09-07T16:00:00.000Z",
+    "opponentId": "225",
+    "goalsFor": 6,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5H",
+    "matchId": "56829",
+    "kickoff": "2026-09-28T18:00:00.000Z",
+    "opponentId": "227",
+    "goalsFor": 7,
+    "goalsAgainst": 2
+   }
+  },
+  "unbeaten": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L5H",
+    "matchId": "56505",
+    "kickoff": "2026-09-02T16:00:00.000Z",
+    "opponentId": "91",
+    "goalsFor": 5,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5H",
+    "matchId": "56829",
+    "kickoff": "2026-09-28T18:00:00.000Z",
+    "opponentId": "227",
+    "goalsFor": 7,
+    "goalsAgainst": 2
+   }
+  },
+  "loss": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5H",
+    "matchId": "56917",
+    "kickoff": "2026-10-07T16:00:00.000Z",
+    "opponentId": "1563",
+    "goalsFor": 4,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5H",
+    "matchId": "56979",
+    "kickoff": "2026-10-12T19:00:00.000Z",
+    "opponentId": "232",
+    "goalsFor": 1,
+    "goalsAgainst": 4
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Ferenczi Csongor",
+    "goals": 9,
+    "matches": 4,
+    "hatTricks": 2
+   },
+   {
+    "name": "Filipánics András",
+    "goals": 9,
+    "matches": 5,
+    "hatTricks": 0
+   },
+   {
+    "name": "Ghiczy Gergő",
+    "goals": 6,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szántó Bence",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Bagyinszki Dániel",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Gyenes Márton Bendegúz",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kósa Zoárd",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

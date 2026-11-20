@@ -6,6 +6,24 @@
  ],
  "seasons": [
   {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L4C",
+   "finished": false,
+   "position": 4,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 4,
+    "drawn": 0,
+    "lost": 3,
+    "goalsFor": 40,
+    "goalsAgainst": 33,
+    "points": 12
+   }
+  },
+  {
    "seasonId": 29,
    "label": "2011 - Ősz",
    "league": "L1",
@@ -167,17 +185,108 @@
     "goalsAgainst": 5,
     "points": 0
    }
+  },
+  {
+   "teamId": "173",
+   "name": "Tipszmiksz",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "210",
+   "name": "PITE FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1504",
+   "name": "Fényév FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "147",
+   "name": "GABSZK",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "47",
+   "name": "team miller",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "101",
+   "name": "Squadra",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 6,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "86",
+   "name": "Sörfoci",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 8,
+    "points": 0
+   }
   }
  ],
  "records": {
   "biggestWin": {
-   "seasonId": 29,
-   "league": "L1",
-   "matchId": "28336",
-   "kickoff": "2025-05-19T05:58:25.000Z",
-   "opponentId": "473",
-   "goalsFor": 3,
-   "goalsAgainst": 2
+   "seasonId": 55,
+   "league": "L4C",
+   "matchId": "56771",
+   "kickoff": "2026-09-24T16:00:00.000Z",
+   "opponentId": "1504",
+   "goalsFor": 6,
+   "goalsAgainst": 1
   },
   "biggestDefeat": {
    "seasonId": 29,
@@ -189,56 +298,56 @@
    "goalsAgainst": 13
   },
   "highestScoring": {
-   "seasonId": 29,
-   "league": "L1",
-   "matchId": "28292",
-   "kickoff": "2025-05-19T05:58:20.000Z",
-   "opponentId": "817",
-   "goalsFor": 1,
-   "goalsAgainst": 13
+   "seasonId": 55,
+   "league": "L4C",
+   "matchId": "57112",
+   "kickoff": "2026-10-27T18:00:00.000Z",
+   "opponentId": "101",
+   "goalsFor": 6,
+   "goalsAgainst": 8
   }
  },
  "streaks": {
   "win": {
-   "length": 1,
+   "length": 3,
    "from": {
-    "seasonId": 29,
-    "league": "L1",
-    "matchId": "28336",
-    "kickoff": "2025-05-19T05:58:25.000Z",
-    "opponentId": "473",
-    "goalsFor": 3,
-    "goalsAgainst": 2
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "57351",
+    "kickoff": "2026-09-15T18:00:00.000Z",
+    "opponentId": "173",
+    "goalsFor": 8,
+    "goalsAgainst": 3
    },
    "to": {
-    "seasonId": 29,
-    "league": "L1",
-    "matchId": "28336",
-    "kickoff": "2025-05-19T05:58:25.000Z",
-    "opponentId": "473",
-    "goalsFor": 3,
-    "goalsAgainst": 2
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "56771",
+    "kickoff": "2026-09-24T16:00:00.000Z",
+    "opponentId": "1504",
+    "goalsFor": 6,
+    "goalsAgainst": 1
    }
   },
   "unbeaten": {
-   "length": 1,
+   "length": 3,
    "from": {
-    "seasonId": 29,
-    "league": "L1",
-    "matchId": "28336",
-    "kickoff": "2025-05-19T05:58:25.000Z",
-    "opponentId": "473",
-    "goalsFor": 3,
-    "goalsAgainst": 2
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "57351",
+    "kickoff": "2026-09-15T18:00:00.000Z",
+    "opponentId": "173",
+    "goalsFor": 8,
+    "goalsAgainst": 3
    },
    "to": {
-    "seasonId": 29,
-    "league": "L1",
-    "matchId": "28336",
-    "kickoff": "2025-05-19T05:58:25.000Z",
-    "opponentId": "473",
-    "goalsFor": 3,
-    "goalsAgainst": 2
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "56771",
+    "kickoff": "2026-09-24T16:00:00.000Z",
+    "opponentId": "1504",
+    "goalsFor": 6,
+    "goalsAgainst": 1
    }
   },
   "loss": {
@@ -266,8 +375,63 @@
  "cleanSheets": 0,
  "failedToScore": 1,
  "scorers": {
-  "playedMatches": 11,
-  "coveredMatches": 11,
-  "rows": []
+  "playedMatches": 18,
+  "coveredMatches": 18,
+  "rows": [
+   {
+    "name": "Lökkös Gergő",
+    "goals": 6,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szilágyi Péter",
+    "goals": 6,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Ürmös Zoltán",
+    "goals": 6,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Enyedi Tamás",
+    "goals": 5,
+    "matches": 2,
+    "hatTricks": 1
+   },
+   {
+    "name": "Szatmari Peter",
+    "goals": 5,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Tóth Attila",
+    "goals": 5,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Gregorich Ákos",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Gregorich Gergely",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kitzinger Tamás",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
  }
 }

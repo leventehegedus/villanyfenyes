@@ -1,0 +1,276 @@
+{
+ "schemaVersion": 1,
+ "teamId": "63",
+ "names": [
+  "Balo FC"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5E",
+   "finished": false,
+   "position": 9,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 2,
+    "drawn": 2,
+    "lost": 3,
+    "goalsFor": 28,
+    "goalsAgainst": 28,
+    "points": 8
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "1536",
+   "name": "SFAC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1561",
+   "name": "Team Red",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 3,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "1532",
+   "name": "Team 5",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "21",
+   "name": "Mégnemveszíthetek",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1569",
+   "name": "Stoplis tilos",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 5,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "171",
+   "name": "EKSCHÖN TÍM",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1571",
+   "name": "FÉK FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5E",
+   "matchId": "57213",
+   "kickoff": "2026-11-06T18:00:00.000Z",
+   "opponentId": "1571",
+   "goalsFor": 6,
+   "goalsAgainst": 2
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5E",
+   "matchId": "57088",
+   "kickoff": "2026-10-28T18:00:00.000Z",
+   "opponentId": "171",
+   "goalsFor": 1,
+   "goalsAgainst": 4
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5E",
+   "matchId": "56487",
+   "kickoff": "2026-09-02T17:00:00.000Z",
+   "opponentId": "1536",
+   "goalsFor": 8,
+   "goalsAgainst": 5
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5E",
+    "matchId": "57213",
+    "kickoff": "2026-11-06T18:00:00.000Z",
+    "opponentId": "1571",
+    "goalsFor": 6,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5E",
+    "matchId": "57213",
+    "kickoff": "2026-11-06T18:00:00.000Z",
+    "opponentId": "1571",
+    "goalsFor": 6,
+    "goalsAgainst": 2
+   }
+  },
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5E",
+    "matchId": "56487",
+    "kickoff": "2026-09-02T17:00:00.000Z",
+    "opponentId": "1536",
+    "goalsFor": 8,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5E",
+    "matchId": "56577",
+    "kickoff": "2026-09-08T19:00:00.000Z",
+    "opponentId": "1561",
+    "goalsFor": 3,
+    "goalsAgainst": 3
+   }
+  },
+  "loss": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5E",
+    "matchId": "56773",
+    "kickoff": "2026-09-22T19:00:00.000Z",
+    "opponentId": "1532",
+    "goalsFor": 4,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5E",
+    "matchId": "56860",
+    "kickoff": "2026-09-28T18:00:00.000Z",
+    "opponentId": "21",
+    "goalsFor": 1,
+    "goalsAgainst": 4
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Ezer Ádám",
+    "goals": 6,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Madár Ákos",
+    "goals": 6,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Németh Dávid",
+    "goals": 4,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Hompot Bálint",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Dr. Szendrői Dávid",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Karajz Iván",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kaszab Máté",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Csukás Máté",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Dér Brúnó",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

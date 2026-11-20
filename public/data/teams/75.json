@@ -1,0 +1,258 @@
+{
+ "schemaVersion": 1,
+ "teamId": "75",
+ "names": [
+  "Maláj medve SE"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5C",
+   "finished": false,
+   "position": 11,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 1,
+    "drawn": 0,
+    "lost": 6,
+    "goalsFor": 22,
+    "goalsAgainst": 59,
+    "points": 3
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "1509",
+   "name": "PINATINAIKOS",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 15,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1544",
+   "name": "Stoczek Wanderers FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "181",
+   "name": "Brazilok",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1473",
+   "name": "El Westham United",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "216",
+   "name": "ESZKFC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 11,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1531",
+   "name": "FC Bárkalona",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "113",
+   "name": "Cőce FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5C",
+   "matchId": "57022",
+   "kickoff": "2026-10-21T19:00:00.000Z",
+   "opponentId": "113",
+   "goalsFor": 8,
+   "goalsAgainst": 3
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5C",
+   "matchId": "56562",
+   "kickoff": "2026-09-10T19:00:00.000Z",
+   "opponentId": "1509",
+   "goalsFor": 1,
+   "goalsAgainst": 15
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5C",
+   "matchId": "56562",
+   "kickoff": "2026-09-10T19:00:00.000Z",
+   "opponentId": "1509",
+   "goalsFor": 1,
+   "goalsAgainst": 15
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "57022",
+    "kickoff": "2026-10-21T19:00:00.000Z",
+    "opponentId": "113",
+    "goalsFor": 8,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "57022",
+    "kickoff": "2026-10-21T19:00:00.000Z",
+    "opponentId": "113",
+    "goalsFor": 8,
+    "goalsAgainst": 3
+   }
+  },
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "57022",
+    "kickoff": "2026-10-21T19:00:00.000Z",
+    "opponentId": "113",
+    "goalsFor": 8,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "57022",
+    "kickoff": "2026-10-21T19:00:00.000Z",
+    "opponentId": "113",
+    "goalsFor": 8,
+    "goalsAgainst": 3
+   }
+  },
+  "loss": {
+   "length": 6,
+   "from": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "56562",
+    "kickoff": "2026-09-10T19:00:00.000Z",
+    "opponentId": "1509",
+    "goalsFor": 1,
+    "goalsAgainst": 15
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5C",
+    "matchId": "57592",
+    "kickoff": "2026-10-19T18:00:00.000Z",
+    "opponentId": "1531",
+    "goalsFor": 4,
+    "goalsAgainst": 7
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Barnabás Ilosvai",
+    "goals": 9,
+    "matches": 5,
+    "hatTricks": 1
+   },
+   {
+    "name": "Paksi Ábel",
+    "goals": 6,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Esküdt Ádám Péter",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Pásztor Ádám Vilmos",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szalay Miklós",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szedlacsek Bálint",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

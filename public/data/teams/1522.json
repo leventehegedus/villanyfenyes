@@ -1,0 +1,283 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1522",
+ "names": [
+  "Kókány És Mókány Bt."
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5D",
+   "finished": false,
+   "position": 7,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 8,
+    "won": 4,
+    "drawn": 0,
+    "lost": 4,
+    "goalsFor": 53,
+    "goalsAgainst": 62,
+    "points": 12
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "83",
+   "name": "Csíki Sör FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "51",
+   "name": "Beton FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "138",
+   "name": "Bozók CF",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 11,
+    "goalsAgainst": 8,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1560",
+   "name": "Barátok FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 10,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1484",
+   "name": "Lábazati hibák",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 7,
+    "goalsAgainst": 14,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "195",
+   "name": "Gatya FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1495",
+   "name": "Töki Taka FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 6,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "156",
+   "name": "AttacKing",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5D",
+   "matchId": "56551",
+   "kickoff": "2026-09-04T18:00:00.000Z",
+   "opponentId": "83",
+   "goalsFor": 8,
+   "goalsAgainst": 4
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5D",
+   "matchId": "56954",
+   "kickoff": "2026-10-14T18:00:00.000Z",
+   "opponentId": "1484",
+   "goalsFor": 7,
+   "goalsAgainst": 14
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5D",
+   "matchId": "56954",
+   "kickoff": "2026-10-14T18:00:00.000Z",
+   "opponentId": "1484",
+   "goalsFor": 7,
+   "goalsAgainst": 14
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "57143",
+    "kickoff": "2026-10-30T18:00:00.000Z",
+    "opponentId": "195",
+    "goalsFor": 7,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "57194",
+    "kickoff": "2026-11-06T18:00:00.000Z",
+    "opponentId": "1495",
+    "goalsFor": 7,
+    "goalsAgainst": 6
+   }
+  },
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "57143",
+    "kickoff": "2026-10-30T18:00:00.000Z",
+    "opponentId": "195",
+    "goalsFor": 7,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "57194",
+    "kickoff": "2026-11-06T18:00:00.000Z",
+    "opponentId": "1495",
+    "goalsFor": 7,
+    "goalsAgainst": 6
+   }
+  },
+  "loss": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "56844",
+    "kickoff": "2026-09-30T18:00:00.000Z",
+    "opponentId": "1560",
+    "goalsFor": 4,
+    "goalsAgainst": 10
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "56954",
+    "kickoff": "2026-10-14T18:00:00.000Z",
+    "opponentId": "1484",
+    "goalsFor": 7,
+    "goalsAgainst": 14
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 8,
+  "coveredMatches": 8,
+  "rows": [
+   {
+    "name": "Kardos Kristóf",
+    "goals": 33,
+    "matches": 8,
+    "hatTricks": 8
+   },
+   {
+    "name": "Ungvári Gergely",
+    "goals": 5,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Vinkovics Balázs",
+    "goals": 5,
+    "matches": 2,
+    "hatTricks": 1
+   },
+   {
+    "name": "Ungvári Miklós",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kovács Dénes Dezső",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Regényi Kolos Bence",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Ungvári András",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Lipták Attila",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

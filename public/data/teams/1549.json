@@ -1,0 +1,211 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1549",
+ "names": [
+  "Kecsap"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5F",
+   "finished": false,
+   "position": 12,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 6,
+    "won": 0,
+    "drawn": 1,
+    "lost": 5,
+    "goalsFor": 12,
+    "goalsAgainst": 36,
+    "points": 1
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "157",
+   "name": "Ekho",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "99",
+   "name": "ASFC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "178",
+   "name": "Tottenham Hatsör",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 10,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1568",
+   "name": "el KM Hyundai Football Club",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "201",
+   "name": "Fontolva Harapók",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 7,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "55",
+   "name": "Droidhadsereg",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": null,
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5F",
+   "matchId": "56880",
+   "kickoff": "2026-10-06T19:00:00.000Z",
+   "opponentId": "178",
+   "goalsFor": 1,
+   "goalsAgainst": 10
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5F",
+   "matchId": "57047",
+   "kickoff": "2026-10-21T19:00:00.000Z",
+   "opponentId": "201",
+   "goalsFor": 7,
+   "goalsAgainst": 7
+  }
+ },
+ "streaks": {
+  "win": null,
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5F",
+    "matchId": "57047",
+    "kickoff": "2026-10-21T19:00:00.000Z",
+    "opponentId": "201",
+    "goalsFor": 7,
+    "goalsAgainst": 7
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5F",
+    "matchId": "57047",
+    "kickoff": "2026-10-21T19:00:00.000Z",
+    "opponentId": "201",
+    "goalsFor": 7,
+    "goalsAgainst": 7
+   }
+  },
+  "loss": {
+   "length": 4,
+   "from": {
+    "seasonId": 55,
+    "league": "L5F",
+    "matchId": "56622",
+    "kickoff": "2026-09-10T20:00:00.000Z",
+    "opponentId": "157",
+    "goalsFor": 2,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5F",
+    "matchId": "56987",
+    "kickoff": "2026-10-16T19:00:00.000Z",
+    "opponentId": "1568",
+    "goalsFor": 0,
+    "goalsAgainst": 5
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 2,
+ "scorers": {
+  "playedMatches": 6,
+  "coveredMatches": 6,
+  "rows": [
+   {
+    "name": "Barabás-Kiss Zétény",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Nagy Balázs",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Pál Mihály",
+    "goals": 3,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Kis Ádám Márk",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Ladányi Dániel",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

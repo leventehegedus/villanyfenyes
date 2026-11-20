@@ -1,0 +1,308 @@
+{
+ "schemaVersion": 1,
+ "teamId": "101",
+ "names": [
+  "Squadra"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L4C",
+   "finished": false,
+   "position": 1,
+   "teamsInLeague": 12,
+   "marker": "promotion",
+   "totals": {
+    "played": 9,
+    "won": 7,
+    "drawn": 0,
+    "lost": 2,
+    "goalsFor": 49,
+    "goalsAgainst": 31,
+    "points": 21
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "47",
+   "name": "team miller",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "173",
+   "name": "Tipszmiksz",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1512",
+   "name": "Los Magos",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "86",
+   "name": "Sörfoci",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "137",
+   "name": "BCE-PhD GoalBreakers",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "210",
+   "name": "PITE FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "147",
+   "name": "GABSZK",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "153",
+   "name": "Selecao",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 6,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "131",
+   "name": "Roby Bácsi Bűnbandája",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L4C",
+   "matchId": "56664",
+   "kickoff": "2026-09-17T17:00:00.000Z",
+   "opponentId": "173",
+   "goalsFor": 9,
+   "goalsAgainst": 2
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L4C",
+   "matchId": "56581",
+   "kickoff": "2026-09-09T18:00:00.000Z",
+   "opponentId": "47",
+   "goalsFor": 5,
+   "goalsAgainst": 9
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L4C",
+   "matchId": "57112",
+   "kickoff": "2026-10-27T18:00:00.000Z",
+   "opponentId": "153",
+   "goalsFor": 8,
+   "goalsAgainst": 6
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 5,
+   "from": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "56891",
+    "kickoff": "2026-10-07T19:00:00.000Z",
+    "opponentId": "137",
+    "goalsFor": 5,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "57185",
+    "kickoff": "2026-11-03T18:00:00.000Z",
+    "opponentId": "131",
+    "goalsFor": 4,
+    "goalsAgainst": 2
+   }
+  },
+  "unbeaten": {
+   "length": 5,
+   "from": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "56891",
+    "kickoff": "2026-10-07T19:00:00.000Z",
+    "opponentId": "137",
+    "goalsFor": 5,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "57185",
+    "kickoff": "2026-11-03T18:00:00.000Z",
+    "opponentId": "131",
+    "goalsFor": 4,
+    "goalsAgainst": 2
+   }
+  },
+  "loss": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "56839",
+    "kickoff": "2026-09-29T18:00:00.000Z",
+    "opponentId": "86",
+    "goalsFor": 2,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "56839",
+    "kickoff": "2026-09-29T18:00:00.000Z",
+    "opponentId": "86",
+    "goalsFor": 2,
+    "goalsAgainst": 4
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 9,
+  "coveredMatches": 9,
+  "rows": [
+   {
+    "name": "Peres Máté",
+    "goals": 11,
+    "matches": 6,
+    "hatTricks": 1
+   },
+   {
+    "name": "Langer Attila",
+    "goals": 9,
+    "matches": 6,
+    "hatTricks": 1
+   },
+   {
+    "name": "Máté Tibor Mestyanek",
+    "goals": 9,
+    "matches": 5,
+    "hatTricks": 1
+   },
+   {
+    "name": "Glück Péter",
+    "goals": 6,
+    "matches": 5,
+    "hatTricks": 0
+   },
+   {
+    "name": "Bach Ádám",
+    "goals": 4,
+    "matches": 2,
+    "hatTricks": 1
+   },
+   {
+    "name": "Ráthonyi Tamás",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szécsényi Szilárd",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Rostás Tibor",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Tucsek Balázs",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Tucsek Dávid",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

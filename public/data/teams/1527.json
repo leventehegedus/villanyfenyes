@@ -1,0 +1,217 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1527",
+ "names": [
+  "John Pork's eleven"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5F",
+   "finished": false,
+   "position": 1,
+   "teamsInLeague": 12,
+   "marker": "promotion",
+   "totals": {
+    "played": 6,
+    "won": 6,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 49,
+    "goalsAgainst": 13,
+    "points": 18
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "122",
+   "name": "Törtető Maszkos Búzák",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "89",
+   "name": "Big bulls fc",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 10,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "55",
+   "name": "Droidhadsereg",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 11,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "157",
+   "name": "Ekho",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1568",
+   "name": "el KM Hyundai Football Club",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "203",
+   "name": "Gólvágóhíd",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 11,
+    "goalsAgainst": 6,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5F",
+   "matchId": "56867",
+   "kickoff": "2026-10-02T16:00:00.000Z",
+   "opponentId": "55",
+   "goalsFor": 11,
+   "goalsAgainst": 0
+  },
+  "biggestDefeat": null,
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5F",
+   "matchId": "57170",
+   "kickoff": "2026-11-06T19:00:00.000Z",
+   "opponentId": "203",
+   "goalsFor": 11,
+   "goalsAgainst": 6
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 6,
+   "from": {
+    "seasonId": 55,
+    "league": "L5F",
+    "matchId": "56631",
+    "kickoff": "2026-09-11T19:00:00.000Z",
+    "opponentId": "122",
+    "goalsFor": 3,
+    "goalsAgainst": 0
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5F",
+    "matchId": "57170",
+    "kickoff": "2026-11-06T19:00:00.000Z",
+    "opponentId": "203",
+    "goalsFor": 11,
+    "goalsAgainst": 6
+   }
+  },
+  "unbeaten": {
+   "length": 6,
+   "from": {
+    "seasonId": 55,
+    "league": "L5F",
+    "matchId": "56631",
+    "kickoff": "2026-09-11T19:00:00.000Z",
+    "opponentId": "122",
+    "goalsFor": 3,
+    "goalsAgainst": 0
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5F",
+    "matchId": "57170",
+    "kickoff": "2026-11-06T19:00:00.000Z",
+    "opponentId": "203",
+    "goalsFor": 11,
+    "goalsAgainst": 6
+   }
+  },
+  "loss": null
+ },
+ "cleanSheets": 2,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 6,
+  "coveredMatches": 6,
+  "rows": [
+   {
+    "name": "Erdősi Márk",
+    "goals": 13,
+    "matches": 4,
+    "hatTricks": 3
+   },
+   {
+    "name": "Szabó Dávid",
+    "goals": 11,
+    "matches": 3,
+    "hatTricks": 2
+   },
+   {
+    "name": "Fábián Bence",
+    "goals": 8,
+    "matches": 5,
+    "hatTricks": 1
+   },
+   {
+    "name": "Németh Botond Mór",
+    "goals": 5,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Fejes Olivér",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Blaskó Bálint",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

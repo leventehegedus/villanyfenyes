@@ -1,0 +1,252 @@
+{
+ "schemaVersion": 1,
+ "teamId": "57",
+ "names": [
+  "Zomboss"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5B",
+   "finished": false,
+   "position": 9,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 2,
+    "drawn": 0,
+    "lost": 5,
+    "goalsFor": 22,
+    "goalsAgainst": 43,
+    "points": 6
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "1559",
+   "name": "Alíz Utca FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "143",
+   "name": "Magyi",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 11,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1564",
+   "name": "Husvilla tona klubb",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "24",
+   "name": "A jó, a rossz és a dagadt",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "58",
+   "name": "Jó az X",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "105",
+   "name": "Joga Bonito",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1483",
+   "name": "Al Kohol",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5B",
+   "matchId": "56646",
+   "kickoff": "2026-09-11T18:00:00.000Z",
+   "opponentId": "1564",
+   "goalsFor": 5,
+   "goalsAgainst": 4
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5B",
+   "matchId": "57340",
+   "kickoff": "2026-09-08T16:00:00.000Z",
+   "opponentId": "143",
+   "goalsFor": 4,
+   "goalsAgainst": 11
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5B",
+   "matchId": "57340",
+   "kickoff": "2026-09-08T16:00:00.000Z",
+   "opponentId": "143",
+   "goalsFor": 4,
+   "goalsAgainst": 11
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5B",
+    "matchId": "56646",
+    "kickoff": "2026-09-11T18:00:00.000Z",
+    "opponentId": "1564",
+    "goalsFor": 5,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5B",
+    "matchId": "56646",
+    "kickoff": "2026-09-11T18:00:00.000Z",
+    "opponentId": "1564",
+    "goalsFor": 5,
+    "goalsAgainst": 4
+   }
+  },
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5B",
+    "matchId": "56646",
+    "kickoff": "2026-09-11T18:00:00.000Z",
+    "opponentId": "1564",
+    "goalsFor": 5,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5B",
+    "matchId": "56646",
+    "kickoff": "2026-09-11T18:00:00.000Z",
+    "opponentId": "1564",
+    "goalsFor": 5,
+    "goalsAgainst": 4
+   }
+  },
+  "loss": {
+   "length": 4,
+   "from": {
+    "seasonId": 55,
+    "league": "L5B",
+    "matchId": "56995",
+    "kickoff": "2026-10-13T18:00:00.000Z",
+    "opponentId": "24",
+    "goalsFor": 4,
+    "goalsAgainst": 7
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5B",
+    "matchId": "57268",
+    "kickoff": "2026-11-10T19:00:00.000Z",
+    "opponentId": "1483",
+    "goalsFor": 0,
+    "goalsAgainst": 5
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 1,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Lakatos Márk",
+    "goals": 4,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Tóth Gergely",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Burkovits András",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kovacsics Gábor",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Takács Dániel András",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

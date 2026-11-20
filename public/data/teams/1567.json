@@ -1,0 +1,283 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1567",
+ "names": [
+  "Taktaharkányi Ifjúsági Fúvószenekar U-40"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5G",
+   "finished": false,
+   "position": 2,
+   "teamsInLeague": 12,
+   "marker": "promotion",
+   "totals": {
+    "played": 8,
+    "won": 5,
+    "drawn": 0,
+    "lost": 3,
+    "goalsFor": 57,
+    "goalsAgainst": 37,
+    "points": 15
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "1469",
+   "name": "Argentinos Juniors",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 14,
+    "goalsAgainst": 6,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1534",
+   "name": "George FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1529",
+   "name": "ASC Legends",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1518",
+   "name": "Oso Academy",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "135",
+   "name": "Szakik",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 10,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1570",
+   "name": "Gugugaga gang",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1488",
+   "name": "she said she was 5+1",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "212",
+   "name": "Lándzsás útifű",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 10,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5G",
+   "matchId": "57266",
+   "kickoff": "2026-11-09T20:00:00.000Z",
+   "opponentId": "212",
+   "goalsFor": 10,
+   "goalsAgainst": 1
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5G",
+   "matchId": "56659",
+   "kickoff": "2026-09-14T17:00:00.000Z",
+   "opponentId": "1534",
+   "goalsFor": 3,
+   "goalsAgainst": 7
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5G",
+   "matchId": "56585",
+   "kickoff": "2026-09-07T17:00:00.000Z",
+   "opponentId": "1469",
+   "goalsFor": 14,
+   "goalsAgainst": 6
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "57164",
+    "kickoff": "2026-09-28T16:00:00.000Z",
+    "opponentId": "1529",
+    "goalsFor": 8,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "56991",
+    "kickoff": "2026-10-12T17:00:00.000Z",
+    "opponentId": "135",
+    "goalsFor": 10,
+    "goalsAgainst": 5
+   }
+  },
+  "unbeaten": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "57164",
+    "kickoff": "2026-09-28T16:00:00.000Z",
+    "opponentId": "1529",
+    "goalsFor": 8,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "56991",
+    "kickoff": "2026-10-12T17:00:00.000Z",
+    "opponentId": "135",
+    "goalsFor": 10,
+    "goalsAgainst": 5
+   }
+  },
+  "loss": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "56838",
+    "kickoff": "2026-10-30T19:00:00.000Z",
+    "opponentId": "1570",
+    "goalsFor": 3,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "57629",
+    "kickoff": "2026-11-06T17:00:00.000Z",
+    "opponentId": "1488",
+    "goalsFor": 3,
+    "goalsAgainst": 5
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 8,
+  "coveredMatches": 8,
+  "rows": [
+   {
+    "name": "Mester András",
+    "goals": 14,
+    "matches": 5,
+    "hatTricks": 2
+   },
+   {
+    "name": "Máté Bajomi",
+    "goals": 12,
+    "matches": 4,
+    "hatTricks": 3
+   },
+   {
+    "name": "Kopasz Gergő",
+    "goals": 7,
+    "matches": 5,
+    "hatTricks": 0
+   },
+   {
+    "name": "Rivasz Balázs",
+    "goals": 7,
+    "matches": 4,
+    "hatTricks": 1
+   },
+   {
+    "name": "Varga Ádám",
+    "goals": 7,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Schuckert György",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Jakab Máté",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Soma Sós",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

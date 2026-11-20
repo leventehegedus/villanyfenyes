@@ -1,0 +1,270 @@
+{
+ "schemaVersion": 1,
+ "teamId": "47",
+ "names": [
+  "team miller"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L4C",
+   "finished": false,
+   "position": 7,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 3,
+    "drawn": 1,
+    "lost": 3,
+    "goalsFor": 40,
+    "goalsAgainst": 40,
+    "points": 10
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "1504",
+   "name": "Fényév FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 6,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "101",
+   "name": "Squadra",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "173",
+   "name": "Tipszmiksz",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1513",
+   "name": "Meccs Lemondva FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 6,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "153",
+   "name": "Selecao",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "147",
+   "name": "GABSZK",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 3,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "1512",
+   "name": "Los Magos",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L4C",
+   "matchId": "56581",
+   "kickoff": "2026-09-09T18:00:00.000Z",
+   "opponentId": "101",
+   "goalsFor": 9,
+   "goalsAgainst": 5
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L4C",
+   "matchId": "57030",
+   "kickoff": "2026-10-22T16:00:00.000Z",
+   "opponentId": "153",
+   "goalsFor": 5,
+   "goalsAgainst": 9
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L4C",
+   "matchId": "57030",
+   "kickoff": "2026-10-22T16:00:00.000Z",
+   "opponentId": "153",
+   "goalsFor": 5,
+   "goalsAgainst": 9
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "56581",
+    "kickoff": "2026-09-09T18:00:00.000Z",
+    "opponentId": "101",
+    "goalsFor": 9,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "56952",
+    "kickoff": "2026-10-15T17:00:00.000Z",
+    "opponentId": "1513",
+    "goalsFor": 7,
+    "goalsAgainst": 6
+   }
+  },
+  "unbeaten": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "56581",
+    "kickoff": "2026-09-09T18:00:00.000Z",
+    "opponentId": "101",
+    "goalsFor": 9,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "56952",
+    "kickoff": "2026-10-15T17:00:00.000Z",
+    "opponentId": "1513",
+    "goalsFor": 7,
+    "goalsAgainst": 6
+   }
+  },
+  "loss": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "57322",
+    "kickoff": "2026-11-18T17:00:00.000Z",
+    "opponentId": "1512",
+    "goalsFor": 3,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "57322",
+    "kickoff": "2026-11-18T17:00:00.000Z",
+    "opponentId": "1512",
+    "goalsFor": 3,
+    "goalsAgainst": 5
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Hajdu Tibor",
+    "goals": 10,
+    "matches": 4,
+    "hatTricks": 2
+   },
+   {
+    "name": "Zsdrál Bertalan",
+    "goals": 4,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Doma Gergely",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Doma Zsolt",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Molnár Ákos",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Pallaghy József Barnabás",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Széll Sándor",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Gergely W-group Fuchs",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

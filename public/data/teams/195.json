@@ -1,0 +1,252 @@
+{
+ "schemaVersion": 1,
+ "teamId": "195",
+ "names": [
+  "Gatya FC"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5D",
+   "finished": false,
+   "position": 10,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 1,
+    "drawn": 1,
+    "lost": 5,
+    "goalsFor": 26,
+    "goalsAgainst": 38,
+    "points": 4
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "156",
+   "name": "AttacKing",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1484",
+   "name": "Lábazati hibák",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1560",
+   "name": "Barátok FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "51",
+   "name": "Beton FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "144",
+   "name": "InfLazio",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1522",
+   "name": "Kókány És Mókány Bt.",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "155",
+   "name": "K FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 4,
+    "points": 1
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5D",
+   "matchId": "56934",
+   "kickoff": "2026-10-07T18:00:00.000Z",
+   "opponentId": "144",
+   "goalsFor": 9,
+   "goalsAgainst": 3
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5D",
+   "matchId": "56810",
+   "kickoff": "2026-09-29T18:00:00.000Z",
+   "opponentId": "51",
+   "goalsFor": 3,
+   "goalsAgainst": 8
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5D",
+   "matchId": "56934",
+   "kickoff": "2026-10-07T18:00:00.000Z",
+   "opponentId": "144",
+   "goalsFor": 9,
+   "goalsAgainst": 3
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "56934",
+    "kickoff": "2026-10-07T18:00:00.000Z",
+    "opponentId": "144",
+    "goalsFor": 9,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "56934",
+    "kickoff": "2026-10-07T18:00:00.000Z",
+    "opponentId": "144",
+    "goalsFor": 9,
+    "goalsAgainst": 3
+   }
+  },
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "57192",
+    "kickoff": "2026-11-05T17:00:00.000Z",
+    "opponentId": "155",
+    "goalsFor": 4,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "57192",
+    "kickoff": "2026-11-05T17:00:00.000Z",
+    "opponentId": "155",
+    "goalsFor": 4,
+    "goalsAgainst": 4
+   }
+  },
+  "loss": {
+   "length": 4,
+   "from": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "56623",
+    "kickoff": "2026-09-07T19:00:00.000Z",
+    "opponentId": "156",
+    "goalsFor": 2,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "56810",
+    "kickoff": "2026-09-29T18:00:00.000Z",
+    "opponentId": "51",
+    "goalsFor": 3,
+    "goalsAgainst": 8
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 1,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Óváry Márton",
+    "goals": 5,
+    "matches": 2,
+    "hatTricks": 1
+   },
+   {
+    "name": "Szabó Lajos Dániel",
+    "goals": 3,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Weeber László",
+    "goals": 3,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Ákos Kertész",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Ferencz Árpád",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

@@ -1,0 +1,258 @@
+{
+ "schemaVersion": 1,
+ "teamId": "205",
+ "names": [
+  "KFC Light"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L4A",
+   "finished": false,
+   "position": 10,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 2,
+    "drawn": 0,
+    "lost": 5,
+    "goalsFor": 20,
+    "goalsAgainst": 33,
+    "points": 6
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "126",
+   "name": "Havankapus6-5",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "172",
+   "name": "aha",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1520",
+   "name": "Ibiza",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1523",
+   "name": "Entspannter Team",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "121",
+   "name": "Kék Labdák",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "152",
+   "name": "Nocc Kánti",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1471",
+   "name": "Buda Ballers",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L4A",
+   "matchId": "56911",
+   "kickoff": "2026-10-05T19:00:00.000Z",
+   "opponentId": "1523",
+   "goalsFor": 5,
+   "goalsAgainst": 4
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L4A",
+   "matchId": "56750",
+   "kickoff": "2026-09-21T18:00:00.000Z",
+   "opponentId": "1520",
+   "goalsFor": 3,
+   "goalsAgainst": 8
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L4A",
+   "matchId": "56750",
+   "kickoff": "2026-09-21T18:00:00.000Z",
+   "opponentId": "1520",
+   "goalsFor": 3,
+   "goalsAgainst": 8
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L4A",
+    "matchId": "56911",
+    "kickoff": "2026-10-05T19:00:00.000Z",
+    "opponentId": "1523",
+    "goalsFor": 5,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4A",
+    "matchId": "56911",
+    "kickoff": "2026-10-05T19:00:00.000Z",
+    "opponentId": "1523",
+    "goalsFor": 5,
+    "goalsAgainst": 4
+   }
+  },
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L4A",
+    "matchId": "56911",
+    "kickoff": "2026-10-05T19:00:00.000Z",
+    "opponentId": "1523",
+    "goalsFor": 5,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4A",
+    "matchId": "56911",
+    "kickoff": "2026-10-05T19:00:00.000Z",
+    "opponentId": "1523",
+    "goalsFor": 5,
+    "goalsAgainst": 4
+   }
+  },
+  "loss": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L4A",
+    "matchId": "57024",
+    "kickoff": "2026-10-22T19:00:00.000Z",
+    "opponentId": "121",
+    "goalsFor": 3,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4A",
+    "matchId": "57242",
+    "kickoff": "2026-11-09T17:00:00.000Z",
+    "opponentId": "1471",
+    "goalsFor": 3,
+    "goalsAgainst": 6
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 1,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Mike Dániel János",
+    "goals": 6,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szekeres Péter",
+    "goals": 5,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Dóczy Gábor",
+    "goals": 4,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Langmár István",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szemeti Gellért",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kapitány Zsolt",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

@@ -1,0 +1,284 @@
+{
+ "schemaVersion": 1,
+ "teamId": "95",
+ "names": [
+  "fc akármi"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L3A",
+   "finished": false,
+   "position": 11,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 9,
+    "won": 2,
+    "drawn": 1,
+    "lost": 6,
+    "goalsFor": 47,
+    "goalsAgainst": 78,
+    "points": 7
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "165",
+   "name": "100-as odds",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "60",
+   "name": "Domino Kijev",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "26",
+   "name": "Kópészelet",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 7,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "198",
+   "name": "KungFuci",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 12,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "161",
+   "name": "more czuczor more party",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 7,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "18",
+   "name": "Stabilizátorok",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 6,
+    "goalsAgainst": 13,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "82",
+   "name": "Berúg FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1479",
+   "name": "Light OS",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 13,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "208",
+   "name": "PÉNISZ LAND",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 7,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L3A",
+   "matchId": "57263",
+   "kickoff": "2026-11-10T17:00:00.000Z",
+   "opponentId": "208",
+   "goalsFor": 9,
+   "goalsAgainst": 7
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L3A",
+   "matchId": "56624",
+   "kickoff": "2026-09-23T16:00:00.000Z",
+   "opponentId": "198",
+   "goalsFor": 3,
+   "goalsAgainst": 12
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L3A",
+   "matchId": "48364",
+   "kickoff": "2026-10-05T17:00:00.000Z",
+   "opponentId": "18",
+   "goalsFor": 6,
+   "goalsAgainst": 13
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "57263",
+    "kickoff": "2026-11-10T17:00:00.000Z",
+    "opponentId": "208",
+    "goalsFor": 9,
+    "goalsAgainst": 7
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "57263",
+    "kickoff": "2026-11-10T17:00:00.000Z",
+    "opponentId": "208",
+    "goalsFor": 9,
+    "goalsAgainst": 7
+   }
+  },
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "57263",
+    "kickoff": "2026-11-10T17:00:00.000Z",
+    "opponentId": "208",
+    "goalsFor": 9,
+    "goalsAgainst": 7
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "57263",
+    "kickoff": "2026-11-10T17:00:00.000Z",
+    "opponentId": "208",
+    "goalsFor": 9,
+    "goalsAgainst": 7
+   }
+  },
+  "loss": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "48364",
+    "kickoff": "2026-10-05T17:00:00.000Z",
+    "opponentId": "18",
+    "goalsFor": 6,
+    "goalsAgainst": 13
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "57572",
+    "kickoff": "2026-10-27T17:00:00.000Z",
+    "opponentId": "1479",
+    "goalsFor": 5,
+    "goalsAgainst": 13
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 1,
+ "scorers": {
+  "playedMatches": 9,
+  "coveredMatches": 9,
+  "rows": [
+   {
+    "name": "Mayer Emil",
+    "goals": 11,
+    "matches": 6,
+    "hatTricks": 0
+   },
+   {
+    "name": "Bozsik Márton",
+    "goals": 9,
+    "matches": 5,
+    "hatTricks": 1
+   },
+   {
+    "name": "Kovács Bonifác",
+    "goals": 7,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Vőneki Péter",
+    "goals": 6,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szabó Balázs",
+    "goals": 5,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kiss Mátyás",
+    "goals": 4,
+    "matches": 2,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

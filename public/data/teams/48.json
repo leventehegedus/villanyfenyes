@@ -6,6 +6,24 @@
  ],
  "seasons": [
   {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L2A",
+   "finished": false,
+   "position": 5,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 8,
+    "won": 4,
+    "drawn": 0,
+    "lost": 4,
+    "goalsFor": 50,
+    "goalsAgainst": 40,
+    "points": 12
+   }
+  },
+  {
    "seasonId": 6,
    "label": "2024 - Tavasz",
    "league": "L1",
@@ -96,13 +114,13 @@
    "teamId": "179",
    "name": "Drink Team",
    "totals": {
-    "played": 4,
-    "won": 2,
+    "played": 5,
+    "won": 3,
     "drawn": 0,
     "lost": 2,
-    "goalsFor": 10,
-    "goalsAgainst": 8,
-    "points": 6
+    "goalsFor": 19,
+    "goalsAgainst": 13,
+    "points": 9
    }
   },
   {
@@ -364,35 +382,126 @@
     "goalsAgainst": 5,
     "points": 3
    }
+  },
+  {
+   "teamId": "188",
+   "name": "Al Dubai",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "38",
+   "name": "Szeszpanyol",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "136",
+   "name": "Leverpool",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "109",
+   "name": "Absinthe FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 10,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "23",
+   "name": "CS Tanszék",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "115",
+   "name": "Botladozó Fiúk",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "139",
+   "name": "Inteam CF",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 8,
+    "goalsAgainst": 9,
+    "points": 0
+   }
   }
  ],
  "records": {
   "biggestWin": {
-   "seasonId": 6,
-   "league": "L1",
-   "matchId": "1218",
-   "kickoff": "2024-03-25T20:00:00.000Z",
-   "opponentId": "69",
-   "goalsFor": 9,
-   "goalsAgainst": 1
+   "seasonId": 55,
+   "league": "L2A",
+   "matchId": "56877",
+   "kickoff": "2026-10-08T17:00:00.000Z",
+   "opponentId": "109",
+   "goalsFor": 10,
+   "goalsAgainst": 2
   },
   "biggestDefeat": {
-   "seasonId": 6,
-   "league": "L1",
-   "matchId": "1231",
-   "kickoff": "2024-04-17T17:00:00.000Z",
-   "opponentId": "244",
+   "seasonId": 55,
+   "league": "L2A",
+   "matchId": "57043",
+   "kickoff": "2026-10-20T17:00:00.000Z",
+   "opponentId": "23",
    "goalsFor": 3,
    "goalsAgainst": 8
   },
   "highestScoring": {
-   "seasonId": 10,
-   "league": "L1",
-   "matchId": "5520",
-   "kickoff": "2022-04-07T17:00:00.000Z",
-   "opponentId": "100",
+   "seasonId": 55,
+   "league": "L2A",
+   "matchId": "57230",
+   "kickoff": "2026-11-09T18:00:00.000Z",
+   "opponentId": "139",
    "goalsFor": 8,
-   "goalsAgainst": 6
+   "goalsAgainst": 9
   }
  },
  "streaks": {
@@ -463,8 +572,57 @@
  "cleanSheets": 4,
  "failedToScore": 2,
  "scorers": {
-  "playedMatches": 44,
-  "coveredMatches": 44,
-  "rows": []
+  "playedMatches": 52,
+  "coveredMatches": 52,
+  "rows": [
+   {
+    "name": "Varga Levente",
+    "goals": 5,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Mészáros Bence",
+    "goals": 4,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Zimonyi Daniel",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Sándor-Szendrényi Gergely",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Czégány Levente",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Csányi Máté",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Iffiú Lóránt",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kornél Genczler",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
  }
 }

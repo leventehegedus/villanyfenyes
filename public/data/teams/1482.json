@@ -1,0 +1,279 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1482",
+ "names": [
+  "Felizgatott Makarónik"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L4B",
+   "finished": false,
+   "position": 1,
+   "teamsInLeague": 12,
+   "marker": "promotion",
+   "totals": {
+    "played": 8,
+    "won": 8,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 38,
+    "goalsAgainst": 16,
+    "points": 24
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "106",
+   "name": "Gyros FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "80",
+   "name": "SZIG Stars",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "217",
+   "name": "Délben Kocsma",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "54",
+   "name": "Szürkemackók",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "102",
+   "name": "Fröccskösök",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "32",
+   "name": "Grund SE",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "141",
+   "name": "Asztalon Villa",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "62",
+   "name": "Whiskey Tango Foxtrot",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L4B",
+   "matchId": "57026",
+   "kickoff": "2026-10-19T17:00:00.000Z",
+   "opponentId": "32",
+   "goalsFor": 6,
+   "goalsAgainst": 1
+  },
+  "biggestDefeat": null,
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L4B",
+   "matchId": "56777",
+   "kickoff": "2026-09-22T17:00:00.000Z",
+   "opponentId": "217",
+   "goalsFor": 7,
+   "goalsAgainst": 3
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 8,
+   "from": {
+    "seasonId": 55,
+    "league": "L4B",
+    "matchId": "56632",
+    "kickoff": "2026-09-16T17:00:00.000Z",
+    "opponentId": "106",
+    "goalsFor": 6,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4B",
+    "matchId": "57216",
+    "kickoff": "2026-11-04T21:00:00.000Z",
+    "opponentId": "62",
+    "goalsFor": 4,
+    "goalsAgainst": 3
+   }
+  },
+  "unbeaten": {
+   "length": 8,
+   "from": {
+    "seasonId": 55,
+    "league": "L4B",
+    "matchId": "56632",
+    "kickoff": "2026-09-16T17:00:00.000Z",
+    "opponentId": "106",
+    "goalsFor": 6,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4B",
+    "matchId": "57216",
+    "kickoff": "2026-11-04T21:00:00.000Z",
+    "opponentId": "62",
+    "goalsFor": 4,
+    "goalsAgainst": 3
+   }
+  },
+  "loss": null
+ },
+ "cleanSheets": 1,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 8,
+  "coveredMatches": 8,
+  "rows": [
+   {
+    "name": "Pusztai Dániel",
+    "goals": 11,
+    "matches": 5,
+    "hatTricks": 2
+   },
+   {
+    "name": "Csiszár András",
+    "goals": 6,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Csupor Albert Dezső",
+    "goals": 6,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Pusztai Bertalan",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Plugor Zsombor",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Benedek Kinyó",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Nagy Attila Áron",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szögi Erik",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "András Jusztin",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Jusztin Barnabás",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kenéz Holczer",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szőllősy Tamás",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

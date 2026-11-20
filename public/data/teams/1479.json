@@ -1,0 +1,251 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1479",
+ "names": [
+  "Light OS"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L3A",
+   "finished": false,
+   "position": 8,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 6,
+    "won": 2,
+    "drawn": 2,
+    "lost": 2,
+    "goalsFor": 39,
+    "goalsAgainst": 48,
+    "points": 8
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "208",
+   "name": "PÉNISZ LAND",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 6,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "165",
+   "name": "100-as odds",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 6,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "82",
+   "name": "Berúg FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 12,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "198",
+   "name": "KungFuci",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 7,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "95",
+   "name": "fc akármi",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 13,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "18",
+   "name": "Stabilizátorok",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 12,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L3A",
+   "matchId": "57572",
+   "kickoff": "2026-10-27T17:00:00.000Z",
+   "opponentId": "95",
+   "goalsFor": 13,
+   "goalsAgainst": 5
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L3A",
+   "matchId": "48368",
+   "kickoff": "2026-11-02T18:00:00.000Z",
+   "opponentId": "18",
+   "goalsFor": 2,
+   "goalsAgainst": 12
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L3A",
+   "matchId": "57572",
+   "kickoff": "2026-10-27T17:00:00.000Z",
+   "opponentId": "95",
+   "goalsFor": 13,
+   "goalsAgainst": 5
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "57572",
+    "kickoff": "2026-10-27T17:00:00.000Z",
+    "opponentId": "95",
+    "goalsFor": 13,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "57572",
+    "kickoff": "2026-10-27T17:00:00.000Z",
+    "opponentId": "95",
+    "goalsFor": 13,
+    "goalsAgainst": 5
+   }
+  },
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "57057",
+    "kickoff": "2026-10-21T16:00:00.000Z",
+    "opponentId": "198",
+    "goalsFor": 7,
+    "goalsAgainst": 7
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "57572",
+    "kickoff": "2026-10-27T17:00:00.000Z",
+    "opponentId": "95",
+    "goalsFor": 13,
+    "goalsAgainst": 5
+   }
+  },
+  "loss": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "48368",
+    "kickoff": "2026-11-02T18:00:00.000Z",
+    "opponentId": "18",
+    "goalsFor": 2,
+    "goalsAgainst": 12
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "48368",
+    "kickoff": "2026-11-02T18:00:00.000Z",
+    "opponentId": "18",
+    "goalsFor": 2,
+    "goalsAgainst": 12
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 6,
+  "coveredMatches": 6,
+  "rows": [
+   {
+    "name": "Dari Balázs",
+    "goals": 8,
+    "matches": 3,
+    "hatTricks": 2
+   },
+   {
+    "name": "Kőszegi Kornél",
+    "goals": 6,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Szeles Márton",
+    "goals": 6,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Tátrai Brúnó",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Tasnádi Bence Gergely",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Varga Gergely",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Berlik Kristóf Rafael",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

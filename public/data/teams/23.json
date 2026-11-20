@@ -6,6 +6,24 @@
  ],
  "seasons": [
   {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L2A",
+   "finished": false,
+   "position": 7,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 8,
+    "won": 3,
+    "drawn": 1,
+    "lost": 4,
+    "goalsFor": 44,
+    "goalsAgainst": 38,
+    "points": 10
+   }
+  },
+  {
    "seasonId": 53,
    "label": "2026 - TAVASZ",
    "league": "L1",
@@ -273,6 +291,71 @@
    "teamId": "115",
    "name": "Botladozó Fiúk",
    "totals": {
+    "played": 2,
+    "won": 1,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 11,
+    "goalsAgainst": 9,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "179",
+   "name": "Drink Team",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "109",
+   "name": "Absinthe FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "70",
+   "name": "Apacza FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "188",
+   "name": "Al Dubai",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "48",
+   "name": "Együtt szárszóért",
+   "totals": {
     "played": 1,
     "won": 1,
     "drawn": 0,
@@ -280,6 +363,32 @@
     "goalsFor": 8,
     "goalsAgainst": 3,
     "points": 3
+   }
+  },
+  {
+   "teamId": "170",
+   "name": "FC Gyulai Kolbászok powered by Vácszentlászló SC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "45",
+   "name": "National Sechs",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 9,
+    "points": 1
    }
   }
  ],
@@ -358,65 +467,65 @@
   "loss": {
    "length": 4,
    "from": {
-    "seasonId": 52,
-    "league": "L1",
-    "matchId": "46286",
-    "kickoff": "2025-11-27T20:00:00.000Z",
-    "opponentId": "93",
-    "goalsFor": 2,
-    "goalsAgainst": 3
-   },
-   "to": {
     "seasonId": 53,
     "league": "L1",
-    "matchId": "47289",
-    "kickoff": "2026-03-18T20:00:00.000Z",
-    "opponentId": "100",
-    "goalsFor": 2,
-    "goalsAgainst": 5
+    "matchId": "47723",
+    "kickoff": "2026-04-29T17:00:00.000Z",
+    "opponentId": "69",
+    "goalsFor": 6,
+    "goalsAgainst": 7
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "56534",
+    "kickoff": "2026-08-31T18:00:00.000Z",
+    "opponentId": "179",
+    "goalsFor": 5,
+    "goalsAgainst": 8
    }
   }
  },
  "cleanSheets": 2,
- "failedToScore": 1,
+ "failedToScore": 2,
  "scorers": {
-  "playedMatches": 32,
-  "coveredMatches": 32,
+  "playedMatches": 40,
+  "coveredMatches": 40,
   "rows": [
    {
     "name": "Bokor Gergely",
-    "goals": 46,
-    "matches": 22,
+    "goals": 47,
+    "matches": 23,
     "hatTricks": 6
    },
    {
+    "name": "Békefi Bálint",
+    "goals": 34,
+    "matches": 19,
+    "hatTricks": 4
+   },
+   {
     "name": "Korompay Örs",
-    "goals": 28,
-    "matches": 12,
+    "goals": 34,
+    "matches": 16,
     "hatTricks": 3
    },
    {
     "name": "Skrodzki Andrzej",
-    "goals": 21,
-    "matches": 15,
-    "hatTricks": 1
-   },
-   {
-    "name": "Békefi Bálint",
-    "goals": 20,
-    "matches": 15,
-    "hatTricks": 0
+    "goals": 27,
+    "matches": 18,
+    "hatTricks": 2
    },
    {
     "name": "Vékássy Bendegúz",
-    "goals": 18,
-    "matches": 12,
+    "goals": 22,
+    "matches": 15,
     "hatTricks": 2
    },
    {
     "name": "Szalay Máté",
-    "goals": 15,
-    "matches": 10,
+    "goals": 17,
+    "matches": 11,
     "hatTricks": 2
    },
    {

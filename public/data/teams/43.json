@@ -1,0 +1,239 @@
+{
+ "schemaVersion": 1,
+ "teamId": "43",
+ "names": [
+  "FE-C FC"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L3B",
+   "finished": false,
+   "position": 7,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 6,
+    "won": 3,
+    "drawn": 0,
+    "lost": 3,
+    "goalsFor": 27,
+    "goalsAgainst": 34,
+    "points": 9
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "119",
+   "name": "Egri Különítmény",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 12,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "30",
+   "name": "no czuczor no party",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "233",
+   "name": "ReLazio",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 6,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "72",
+   "name": "Budai Bombázók",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "27",
+   "name": "Minden héten háború",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "190",
+   "name": "Csibészek",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L3B",
+   "matchId": "56971",
+   "kickoff": "2026-10-12T16:00:00.000Z",
+   "opponentId": "27",
+   "goalsFor": 5,
+   "goalsAgainst": 0
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L3B",
+   "matchId": "56503",
+   "kickoff": "2026-09-15T20:00:00.000Z",
+   "opponentId": "119",
+   "goalsFor": 2,
+   "goalsAgainst": 12
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L3B",
+   "matchId": "56774",
+   "kickoff": "2026-09-24T19:00:00.000Z",
+   "opponentId": "233",
+   "goalsFor": 8,
+   "goalsAgainst": 6
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L3B",
+    "matchId": "56774",
+    "kickoff": "2026-09-24T19:00:00.000Z",
+    "opponentId": "233",
+    "goalsFor": 8,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3B",
+    "matchId": "56971",
+    "kickoff": "2026-10-12T16:00:00.000Z",
+    "opponentId": "27",
+    "goalsFor": 5,
+    "goalsAgainst": 0
+   }
+  },
+  "unbeaten": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L3B",
+    "matchId": "56774",
+    "kickoff": "2026-09-24T19:00:00.000Z",
+    "opponentId": "233",
+    "goalsFor": 8,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3B",
+    "matchId": "56971",
+    "kickoff": "2026-10-12T16:00:00.000Z",
+    "opponentId": "27",
+    "goalsFor": 5,
+    "goalsAgainst": 0
+   }
+  },
+  "loss": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L3B",
+    "matchId": "56503",
+    "kickoff": "2026-09-15T20:00:00.000Z",
+    "opponentId": "119",
+    "goalsFor": 2,
+    "goalsAgainst": 12
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3B",
+    "matchId": "56701",
+    "kickoff": "2026-09-16T18:00:00.000Z",
+    "opponentId": "30",
+    "goalsFor": 4,
+    "goalsAgainst": 7
+   }
+  }
+ },
+ "cleanSheets": 1,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 6,
+  "coveredMatches": 6,
+  "rows": [
+   {
+    "name": "Bálint Varga",
+    "goals": 8,
+    "matches": 4,
+    "hatTricks": 2
+   },
+   {
+    "name": "Bakucz Dániel Attila",
+    "goals": 4,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Theobald Bence",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kovács Áron",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Jarzombek Jan",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

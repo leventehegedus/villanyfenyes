@@ -1,0 +1,257 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1571",
+ "names": [
+  "FÉK FC"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5E",
+   "finished": false,
+   "position": 5,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 6,
+    "won": 4,
+    "drawn": 0,
+    "lost": 2,
+    "goalsFor": 18,
+    "goalsAgainst": 16,
+    "points": 12
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "1476",
+   "name": "Los Galacticos",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "163",
+   "name": "Lángoló traktorok",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1561",
+   "name": "Team Red",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "171",
+   "name": "EKSCHÖN TÍM",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "193",
+   "name": "Boccs-boccs",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "63",
+   "name": "Balo FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5E",
+   "matchId": "57094",
+   "kickoff": "2026-10-26T17:00:00.000Z",
+   "opponentId": "193",
+   "goalsFor": 4,
+   "goalsAgainst": 0
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5E",
+   "matchId": "57213",
+   "kickoff": "2026-11-06T18:00:00.000Z",
+   "opponentId": "63",
+   "goalsFor": 2,
+   "goalsAgainst": 6
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5E",
+   "matchId": "56545",
+   "kickoff": "2026-08-31T16:00:00.000Z",
+   "opponentId": "1476",
+   "goalsFor": 5,
+   "goalsAgainst": 4
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L5E",
+    "matchId": "56545",
+    "kickoff": "2026-08-31T16:00:00.000Z",
+    "opponentId": "1476",
+    "goalsFor": 5,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5E",
+    "matchId": "56896",
+    "kickoff": "2026-10-06T18:00:00.000Z",
+    "opponentId": "1561",
+    "goalsFor": 3,
+    "goalsAgainst": 0
+   }
+  },
+  "unbeaten": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L5E",
+    "matchId": "56545",
+    "kickoff": "2026-08-31T16:00:00.000Z",
+    "opponentId": "1476",
+    "goalsFor": 5,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5E",
+    "matchId": "56896",
+    "kickoff": "2026-10-06T18:00:00.000Z",
+    "opponentId": "1561",
+    "goalsFor": 3,
+    "goalsAgainst": 0
+   }
+  },
+  "loss": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5E",
+    "matchId": "57213",
+    "kickoff": "2026-11-06T18:00:00.000Z",
+    "opponentId": "63",
+    "goalsFor": 2,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5E",
+    "matchId": "57213",
+    "kickoff": "2026-11-06T18:00:00.000Z",
+    "opponentId": "63",
+    "goalsFor": 2,
+    "goalsAgainst": 6
+   }
+  }
+ },
+ "cleanSheets": 2,
+ "failedToScore": 1,
+ "scorers": {
+  "playedMatches": 6,
+  "coveredMatches": 6,
+  "rows": [
+   {
+    "name": "Németh Keve Marcell",
+    "goals": 5,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Benczik-Hrncsár Áron",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Paulik Barnabás",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Nemes Gáspár József",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Sárdi Ádám",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Iker Előd Sebestyén",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kis Hunor",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Varga Áron Gábor",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

@@ -1,0 +1,240 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1484",
+ "names": [
+  "Lábazati hibák"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5D",
+   "finished": false,
+   "position": 5,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 4,
+    "drawn": 0,
+    "lost": 3,
+    "goalsFor": 36,
+    "goalsAgainst": 24,
+    "points": 12
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "83",
+   "name": "Csíki Sör FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "195",
+   "name": "Gatya FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "51",
+   "name": "Beton FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "156",
+   "name": "AttacKing",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1522",
+   "name": "Kókány És Mókány Bt.",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 14,
+    "goalsAgainst": 7,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1575",
+   "name": "Homárok SC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1495",
+   "name": "Töki Taka FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5D",
+   "matchId": "56954",
+   "kickoff": "2026-10-14T18:00:00.000Z",
+   "opponentId": "1522",
+   "goalsFor": 14,
+   "goalsAgainst": 7
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5D",
+   "matchId": "57068",
+   "kickoff": "2026-10-20T16:00:00.000Z",
+   "opponentId": "1575",
+   "goalsFor": 2,
+   "goalsAgainst": 5
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5D",
+   "matchId": "56954",
+   "kickoff": "2026-10-14T18:00:00.000Z",
+   "opponentId": "1522",
+   "goalsFor": 14,
+   "goalsAgainst": 7
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "56887",
+    "kickoff": "2026-10-05T19:00:00.000Z",
+    "opponentId": "156",
+    "goalsFor": 6,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "56954",
+    "kickoff": "2026-10-14T18:00:00.000Z",
+    "opponentId": "1522",
+    "goalsFor": 14,
+    "goalsAgainst": 7
+   }
+  },
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "56887",
+    "kickoff": "2026-10-05T19:00:00.000Z",
+    "opponentId": "156",
+    "goalsFor": 6,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "56954",
+    "kickoff": "2026-10-14T18:00:00.000Z",
+    "opponentId": "1522",
+    "goalsFor": 14,
+    "goalsAgainst": 7
+   }
+  },
+  "loss": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "57068",
+    "kickoff": "2026-10-20T16:00:00.000Z",
+    "opponentId": "1575",
+    "goalsFor": 2,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "57259",
+    "kickoff": "2026-11-11T20:00:00.000Z",
+    "opponentId": "1495",
+    "goalsFor": 1,
+    "goalsAgainst": 3
+   }
+  }
+ },
+ "cleanSheets": 2,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Mező István",
+    "goals": 32,
+    "matches": 6,
+    "hatTricks": 4
+   },
+   {
+    "name": "Törőcsik Árpád",
+    "goals": 3,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Fülöp Benedek",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

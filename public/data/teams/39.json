@@ -1,0 +1,276 @@
+{
+ "schemaVersion": 1,
+ "teamId": "39",
+ "names": [
+  "Veresiktas FC"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L3D",
+   "finished": false,
+   "position": 9,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 2,
+    "drawn": 3,
+    "lost": 2,
+    "goalsFor": 32,
+    "goalsAgainst": 38,
+    "points": 9
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "85",
+   "name": "AFST",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1489",
+   "name": "Energ team",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "196",
+   "name": "Koma Sutra",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "194",
+   "name": "Alacsony Elvárások",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "52",
+   "name": "Húslovagok",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 8,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "1511",
+   "name": "Élő Ige",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 5,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "84",
+   "name": "Töretlen FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 3,
+    "points": 1
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L3D",
+   "matchId": "56741",
+   "kickoff": "2026-09-24T17:00:00.000Z",
+   "opponentId": "196",
+   "goalsFor": 5,
+   "goalsAgainst": 2
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L3D",
+   "matchId": "56673",
+   "kickoff": "2026-09-18T18:00:00.000Z",
+   "opponentId": "1489",
+   "goalsFor": 4,
+   "goalsAgainst": 9
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L3D",
+   "matchId": "57051",
+   "kickoff": "2026-10-22T18:00:00.000Z",
+   "opponentId": "52",
+   "goalsFor": 8,
+   "goalsAgainst": 8
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L3D",
+    "matchId": "56741",
+    "kickoff": "2026-09-24T17:00:00.000Z",
+    "opponentId": "196",
+    "goalsFor": 5,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3D",
+    "matchId": "56811",
+    "kickoff": "2026-09-30T20:00:00.000Z",
+    "opponentId": "194",
+    "goalsFor": 4,
+    "goalsAgainst": 3
+   }
+  },
+  "unbeaten": {
+   "length": 5,
+   "from": {
+    "seasonId": 55,
+    "league": "L3D",
+    "matchId": "56741",
+    "kickoff": "2026-09-24T17:00:00.000Z",
+    "opponentId": "196",
+    "goalsFor": 5,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3D",
+    "matchId": "57175",
+    "kickoff": "2026-11-05T19:00:00.000Z",
+    "opponentId": "84",
+    "goalsFor": 3,
+    "goalsAgainst": 3
+   }
+  },
+  "loss": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L3D",
+    "matchId": "56595",
+    "kickoff": "2026-09-11T19:00:00.000Z",
+    "opponentId": "85",
+    "goalsFor": 3,
+    "goalsAgainst": 8
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3D",
+    "matchId": "56673",
+    "kickoff": "2026-09-18T18:00:00.000Z",
+    "opponentId": "1489",
+    "goalsFor": 4,
+    "goalsAgainst": 9
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Tóth Ádám",
+    "goals": 9,
+    "matches": 5,
+    "hatTricks": 1
+   },
+   {
+    "name": "Bányay Csongor",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Skarka Kaspar András",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Dénes Magor",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Fekete Balázs Imre",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Fodor Barnabás Gyula",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Stremeny Benedek Dénes",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Budai Bence",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Maurer Kristóf",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

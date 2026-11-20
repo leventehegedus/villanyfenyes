@@ -6,6 +6,24 @@
  ],
  "seasons": [
   {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L2B",
+   "finished": false,
+   "position": 6,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 9,
+    "won": 3,
+    "drawn": 2,
+    "lost": 4,
+    "goalsFor": 39,
+    "goalsAgainst": 43,
+    "points": 11
+   }
+  },
+  {
    "seasonId": 54,
    "label": "2026 - Nyár",
    "league": "L1",
@@ -47,12 +65,12 @@
    "teamId": "28",
    "name": "TéSz",
    "totals": {
-    "played": 1,
+    "played": 2,
     "won": 0,
     "drawn": 0,
-    "lost": 1,
-    "goalsFor": 1,
-    "goalsAgainst": 6,
+    "lost": 2,
+    "goalsFor": 6,
+    "goalsAgainst": 12,
     "points": 0
    }
   },
@@ -125,13 +143,13 @@
    "teamId": "37",
    "name": "CF Babinénik",
    "totals": {
-    "played": 2,
-    "won": 0,
+    "played": 3,
+    "won": 1,
     "drawn": 0,
     "lost": 2,
-    "goalsFor": 13,
-    "goalsAgainst": 20,
-    "points": 0
+    "goalsFor": 18,
+    "goalsAgainst": 24,
+    "points": 3
    }
   },
   {
@@ -203,13 +221,13 @@
    "teamId": "220",
    "name": "Jó lövés bedobás",
    "totals": {
-    "played": 1,
+    "played": 2,
     "won": 0,
-    "drawn": 0,
+    "drawn": 1,
     "lost": 1,
-    "goalsFor": 4,
-    "goalsAgainst": 6,
-    "points": 0
+    "goalsFor": 7,
+    "goalsAgainst": 9,
+    "points": 1
    }
   },
   {
@@ -229,23 +247,88 @@
    "teamId": "116",
    "name": "Toilet Time",
    "totals": {
+    "played": 2,
+    "won": 0,
+    "drawn": 0,
+    "lost": 2,
+    "goalsFor": 5,
+    "goalsAgainst": 12,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "123",
+   "name": "Dzsum Dzsum",
+   "totals": {
     "played": 1,
     "won": 0,
     "drawn": 0,
     "lost": 1,
     "goalsFor": 3,
-    "goalsAgainst": 4,
+    "goalsAgainst": 7,
     "points": 0
+   }
+  },
+  {
+   "teamId": "182",
+   "name": "Vergewalti GANG",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 4,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "197",
+   "name": "Ridomil SC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 7,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "31",
+   "name": "SZIKértelem",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "81",
+   "name": "BallDogs",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 2,
+    "points": 3
    }
   }
  ],
  "records": {
   "biggestWin": {
-   "seasonId": 54,
-   "league": "L1",
-   "matchId": "48178",
-   "kickoff": "2026-07-28T18:00:00.000Z",
-   "opponentId": "41",
+   "seasonId": 55,
+   "league": "L2B",
+   "matchId": "57221",
+   "kickoff": "2026-11-12T20:00:00.000Z",
+   "opponentId": "81",
    "goalsFor": 6,
    "goalsAgainst": 2
   },
@@ -270,43 +353,43 @@
  },
  "streaks": {
   "win": {
-   "length": 1,
+   "length": 3,
    "from": {
-    "seasonId": 54,
-    "league": "L1",
-    "matchId": "48178",
-    "kickoff": "2026-07-28T18:00:00.000Z",
-    "opponentId": "41",
-    "goalsFor": 6,
-    "goalsAgainst": 2
+    "seasonId": 55,
+    "league": "L2B",
+    "matchId": "57176",
+    "kickoff": "2026-11-05T18:00:00.000Z",
+    "opponentId": "31",
+    "goalsFor": 4,
+    "goalsAgainst": 1
    },
    "to": {
-    "seasonId": 54,
-    "league": "L1",
-    "matchId": "48178",
-    "kickoff": "2026-07-28T18:00:00.000Z",
-    "opponentId": "41",
+    "seasonId": 55,
+    "league": "L2B",
+    "matchId": "57221",
+    "kickoff": "2026-11-12T20:00:00.000Z",
+    "opponentId": "81",
     "goalsFor": 6,
     "goalsAgainst": 2
    }
   },
   "unbeaten": {
-   "length": 1,
+   "length": 3,
    "from": {
-    "seasonId": 54,
-    "league": "L1",
-    "matchId": "48178",
-    "kickoff": "2026-07-28T18:00:00.000Z",
-    "opponentId": "41",
-    "goalsFor": 6,
-    "goalsAgainst": 2
+    "seasonId": 55,
+    "league": "L2B",
+    "matchId": "57176",
+    "kickoff": "2026-11-05T18:00:00.000Z",
+    "opponentId": "31",
+    "goalsFor": 4,
+    "goalsAgainst": 1
    },
    "to": {
-    "seasonId": 54,
-    "league": "L1",
-    "matchId": "48178",
-    "kickoff": "2026-07-28T18:00:00.000Z",
-    "opponentId": "41",
+    "seasonId": 55,
+    "league": "L2B",
+    "matchId": "57221",
+    "kickoff": "2026-11-12T20:00:00.000Z",
+    "opponentId": "81",
     "goalsFor": 6,
     "goalsAgainst": 2
    }
@@ -336,31 +419,37 @@
  "cleanSheets": 0,
  "failedToScore": 1,
  "scorers": {
-  "playedMatches": 16,
-  "coveredMatches": 16,
+  "playedMatches": 25,
+  "coveredMatches": 25,
   "rows": [
    {
     "name": "Reményi Balázs",
-    "goals": 13,
-    "matches": 10,
+    "goals": 21,
+    "matches": 15,
+    "hatTricks": 0
+   },
+   {
+    "name": "Tompa Kristóf",
+    "goals": 16,
+    "matches": 12,
     "hatTricks": 0
    },
    {
     "name": "Dékány Szabolcs",
-    "goals": 11,
-    "matches": 4,
-    "hatTricks": 1
-   },
-   {
-    "name": "Tompa Kristóf",
-    "goals": 8,
-    "matches": 7,
-    "hatTricks": 0
+    "goals": 15,
+    "matches": 6,
+    "hatTricks": 2
    },
    {
     "name": "Horváth Bence",
-    "goals": 5,
-    "matches": 4,
+    "goals": 10,
+    "matches": 9,
+    "hatTricks": 0
+   },
+   {
+    "name": "Horváth Máté",
+    "goals": 7,
+    "matches": 5,
     "hatTricks": 0
    },
    {
@@ -370,25 +459,31 @@
     "hatTricks": 1
    },
    {
+    "name": "Leon Schneider",
+    "goals": 5,
+    "matches": 5,
+    "hatTricks": 0
+   },
+   {
     "name": "Madarász Zsolt",
     "goals": 5,
     "matches": 3,
     "hatTricks": 0
    },
    {
-    "name": "Horváth Máté",
-    "goals": 4,
-    "matches": 2,
-    "hatTricks": 0
-   },
-   {
-    "name": "Leon Schneider",
-    "goals": 1,
-    "matches": 1,
+    "name": "Zax Norbert",
+    "goals": 3,
+    "matches": 3,
     "hatTricks": 0
    },
    {
     "name": "Paksa Tamás",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Bubits László",
     "goals": 1,
     "matches": 1,
     "hatTricks": 0

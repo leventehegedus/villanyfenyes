@@ -1,0 +1,302 @@
+{
+ "schemaVersion": 1,
+ "teamId": "119",
+ "names": [
+  "Egri Különítmény"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L3B",
+   "finished": false,
+   "position": 3,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 9,
+    "won": 6,
+    "drawn": 0,
+    "lost": 3,
+    "goalsFor": 56,
+    "goalsAgainst": 32,
+    "points": 18
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "27",
+   "name": "Minden héten háború",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "168",
+   "name": "Babyblue",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 6,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "233",
+   "name": "ReLazio",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "43",
+   "name": "FE-C FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 12,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "162",
+   "name": "Szikla",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "64",
+   "name": "Vizes Zsömle",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "30",
+   "name": "no czuczor no party",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "98",
+   "name": "Calcio Budarossa",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "146",
+   "name": "Lokomotív Akadémia",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 10,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L3B",
+   "matchId": "56503",
+   "kickoff": "2026-09-15T20:00:00.000Z",
+   "opponentId": "43",
+   "goalsFor": 12,
+   "goalsAgainst": 2
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L3B",
+   "matchId": "56767",
+   "kickoff": "2026-09-21T19:00:00.000Z",
+   "opponentId": "162",
+   "goalsFor": 3,
+   "goalsAgainst": 8
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L3B",
+   "matchId": "57201",
+   "kickoff": "2026-11-04T17:00:00.000Z",
+   "opponentId": "146",
+   "goalsFor": 10,
+   "goalsAgainst": 5
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 4,
+   "from": {
+    "seasonId": 55,
+    "league": "L3B",
+    "matchId": "56613",
+    "kickoff": "2026-09-08T18:00:00.000Z",
+    "opponentId": "27",
+    "goalsFor": 7,
+    "goalsAgainst": 1
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3B",
+    "matchId": "56503",
+    "kickoff": "2026-09-15T20:00:00.000Z",
+    "opponentId": "43",
+    "goalsFor": 12,
+    "goalsAgainst": 2
+   }
+  },
+  "unbeaten": {
+   "length": 4,
+   "from": {
+    "seasonId": 55,
+    "league": "L3B",
+    "matchId": "56613",
+    "kickoff": "2026-09-08T18:00:00.000Z",
+    "opponentId": "27",
+    "goalsFor": 7,
+    "goalsAgainst": 1
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3B",
+    "matchId": "56503",
+    "kickoff": "2026-09-15T20:00:00.000Z",
+    "opponentId": "43",
+    "goalsFor": 12,
+    "goalsAgainst": 2
+   }
+  },
+  "loss": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L3B",
+    "matchId": "56974",
+    "kickoff": "2026-10-13T18:00:00.000Z",
+    "opponentId": "30",
+    "goalsFor": 2,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3B",
+    "matchId": "57135",
+    "kickoff": "2026-10-30T20:00:00.000Z",
+    "opponentId": "98",
+    "goalsFor": 3,
+    "goalsAgainst": 4
+   }
+  }
+ },
+ "cleanSheets": 1,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 9,
+  "coveredMatches": 9,
+  "rows": [
+   {
+    "name": "Halász Dominik",
+    "goals": 13,
+    "matches": 7,
+    "hatTricks": 1
+   },
+   {
+    "name": "Botond Rottenstein",
+    "goals": 10,
+    "matches": 6,
+    "hatTricks": 0
+   },
+   {
+    "name": "Krinszki Benedek",
+    "goals": 10,
+    "matches": 5,
+    "hatTricks": 2
+   },
+   {
+    "name": "Gergely Tamás",
+    "goals": 6,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Krinszki Mátyás",
+    "goals": 6,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Stumpf Ádám",
+    "goals": 5,
+    "matches": 5,
+    "hatTricks": 0
+   },
+   {
+    "name": "Gergely Péter",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Stumpf Előd Botond",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Magyar Domonkos",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

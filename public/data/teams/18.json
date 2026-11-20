@@ -6,6 +6,24 @@
  ],
  "seasons": [
   {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L3A",
+   "finished": false,
+   "position": 6,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 9,
+    "won": 3,
+    "drawn": 1,
+    "lost": 5,
+    "goalsFor": 44,
+    "goalsAgainst": 41,
+    "points": 10
+   }
+  },
+  {
    "seasonId": 20,
    "label": "2016 - Tavasz",
    "league": "L1",
@@ -176,12 +194,12 @@
    "teamId": "82",
    "name": "Berúg FC",
    "totals": {
-    "played": 3,
+    "played": 4,
     "won": 0,
     "drawn": 1,
-    "lost": 2,
-    "goalsFor": 18,
-    "goalsAgainst": 22,
+    "lost": 3,
+    "goalsFor": 21,
+    "goalsAgainst": 28,
     "points": 1
    }
   },
@@ -522,6 +540,110 @@
     "goalsAgainst": 2,
     "points": 3
    }
+  },
+  {
+   "teamId": "165",
+   "name": "100-as odds",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1480",
+   "name": "A Polgár Jenő",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "95",
+   "name": "fc akármi",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 13,
+    "goalsAgainst": 6,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "26",
+   "name": "Kópészelet",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "176",
+   "name": "KrumpliVanEladó",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 1,
+    "goalsAgainst": 1,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "198",
+   "name": "KungFuci",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1479",
+   "name": "Light OS",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 12,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "161",
+   "name": "more czuczor more party",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 7,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -619,10 +741,53 @@
   }
  },
  "cleanSheets": 0,
- "failedToScore": 0,
+ "failedToScore": 1,
  "scorers": {
-  "playedMatches": 74,
-  "coveredMatches": 74,
-  "rows": []
+  "playedMatches": 83,
+  "coveredMatches": 83,
+  "rows": [
+   {
+    "name": "Lehoczki Patrik",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Maroda Péter",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Mészáros László",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Mészáros Sándor Máté",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Nagy Balázs",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Tóth Dominik",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Imreh Balázs",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
  }
 }

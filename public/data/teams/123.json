@@ -1,0 +1,251 @@
+{
+ "schemaVersion": 1,
+ "teamId": "123",
+ "names": [
+  "Dzsum Dzsum"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L2B",
+   "finished": false,
+   "position": 3,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 6,
+    "won": 4,
+    "drawn": 1,
+    "lost": 1,
+    "goalsFor": 42,
+    "goalsAgainst": 27,
+    "points": 13
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "29",
+   "name": "Tunyacsáp",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "220",
+   "name": "Jó lövés bedobás",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "37",
+   "name": "CF Babinénik",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 11,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "28",
+   "name": "TéSz",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "31",
+   "name": "SZIKértelem",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 7,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "197",
+   "name": "Ridomil SC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L2B",
+   "matchId": "57048",
+   "kickoff": "2026-10-20T18:00:00.000Z",
+   "opponentId": "28",
+   "goalsFor": 8,
+   "goalsAgainst": 2
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L2B",
+   "matchId": "56824",
+   "kickoff": "2026-10-01T18:00:00.000Z",
+   "opponentId": "37",
+   "goalsFor": 5,
+   "goalsAgainst": 11
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L2B",
+   "matchId": "56824",
+   "kickoff": "2026-10-01T18:00:00.000Z",
+   "opponentId": "37",
+   "goalsFor": 5,
+   "goalsAgainst": 11
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L2B",
+    "matchId": "56514",
+    "kickoff": "2026-09-01T16:00:00.000Z",
+    "opponentId": "29",
+    "goalsFor": 7,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L2B",
+    "matchId": "56582",
+    "kickoff": "2026-09-09T16:00:00.000Z",
+    "opponentId": "220",
+    "goalsFor": 8,
+    "goalsAgainst": 2
+   }
+  },
+  "unbeaten": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L2B",
+    "matchId": "57048",
+    "kickoff": "2026-10-20T18:00:00.000Z",
+    "opponentId": "28",
+    "goalsFor": 8,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L2B",
+    "matchId": "57239",
+    "kickoff": "2026-11-11T17:00:00.000Z",
+    "opponentId": "197",
+    "goalsFor": 7,
+    "goalsAgainst": 2
+   }
+  },
+  "loss": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L2B",
+    "matchId": "56824",
+    "kickoff": "2026-10-01T18:00:00.000Z",
+    "opponentId": "37",
+    "goalsFor": 5,
+    "goalsAgainst": 11
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L2B",
+    "matchId": "56824",
+    "kickoff": "2026-10-01T18:00:00.000Z",
+    "opponentId": "37",
+    "goalsFor": 5,
+    "goalsAgainst": 11
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 6,
+  "coveredMatches": 6,
+  "rows": [
+   {
+    "name": "Mendebaba Szásá",
+    "goals": 7,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Albrecht Armand",
+    "goals": 5,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kecskeméti Róbert Zoltán",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Dr. Kincses András",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Dudás Zoltán",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Mucsi Mihály",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Bolyós Erik",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

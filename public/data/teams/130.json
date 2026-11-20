@@ -6,6 +6,24 @@
  ],
  "seasons": [
   {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L4B",
+   "finished": false,
+   "position": 10,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 8,
+    "won": 2,
+    "drawn": 0,
+    "lost": 6,
+    "goalsFor": 32,
+    "goalsAgainst": 56,
+    "points": 6
+   }
+  },
+  {
    "seasonId": 16,
    "label": "2018 - Tavasz",
    "league": "L1",
@@ -224,6 +242,110 @@
     "goalsAgainst": 0,
     "points": 1
    }
+  },
+  {
+   "teamId": "54",
+   "name": "Szürkemackók",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "32",
+   "name": "Grund SE",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "62",
+   "name": "Whiskey Tango Foxtrot",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "102",
+   "name": "Fröccskösök",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 6,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1508",
+   "name": "Haver FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 15,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1507",
+   "name": "Twisters",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 10,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "217",
+   "name": "Délben Kocsma",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "106",
+   "name": "Gyros FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 6,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -237,22 +359,22 @@
    "goalsAgainst": 2
   },
   "biggestDefeat": {
-   "seasonId": 17,
-   "league": "L1",
-   "matchId": "13963",
-   "kickoff": "2017-11-20T19:00:00.000Z",
-   "opponentId": "298",
+   "seasonId": 55,
+   "league": "L4B",
+   "matchId": "56937",
+   "kickoff": "2026-10-09T18:00:00.000Z",
+   "opponentId": "1508",
    "goalsFor": 1,
-   "goalsAgainst": 8
+   "goalsAgainst": 15
   },
   "highestScoring": {
-   "seasonId": 17,
-   "league": "L1",
-   "matchId": "13961",
-   "kickoff": "2017-11-14T20:00:00.000Z",
-   "opponentId": "395",
-   "goalsFor": 4,
-   "goalsAgainst": 10
+   "seasonId": 55,
+   "league": "L4B",
+   "matchId": "56937",
+   "kickoff": "2026-10-09T18:00:00.000Z",
+   "opponentId": "1508",
+   "goalsFor": 1,
+   "goalsAgainst": 15
   }
  },
  "streaks": {
@@ -278,7 +400,7 @@
    }
   },
   "unbeaten": {
-   "length": 11,
+   "length": 12,
    "from": {
     "seasonId": 17,
     "league": "L1",
@@ -289,42 +411,79 @@
     "goalsAgainst": 3
    },
    "to": {
-    "seasonId": 16,
-    "league": "L1",
-    "matchId": "12719",
-    "kickoff": "2018-06-04T17:00:00.000Z",
-    "opponentId": "74",
-    "goalsFor": 0,
-    "goalsAgainst": 0
+    "seasonId": 55,
+    "league": "L4B",
+    "matchId": "56532",
+    "kickoff": "2026-09-02T19:00:00.000Z",
+    "opponentId": "54",
+    "goalsFor": 3,
+    "goalsAgainst": 2
    }
   },
   "loss": {
-   "length": 2,
+   "length": 5,
    "from": {
-    "seasonId": 17,
-    "league": "L1",
-    "matchId": "13961",
-    "kickoff": "2017-11-14T20:00:00.000Z",
-    "opponentId": "395",
-    "goalsFor": 4,
-    "goalsAgainst": 10
+    "seasonId": 55,
+    "league": "L4B",
+    "matchId": "56568",
+    "kickoff": "2026-09-07T18:00:00.000Z",
+    "opponentId": "32",
+    "goalsFor": 2,
+    "goalsAgainst": 3
    },
    "to": {
-    "seasonId": 17,
-    "league": "L1",
-    "matchId": "13963",
-    "kickoff": "2017-11-20T19:00:00.000Z",
-    "opponentId": "298",
-    "goalsFor": 1,
-    "goalsAgainst": 8
+    "seasonId": 55,
+    "league": "L4B",
+    "matchId": "57006",
+    "kickoff": "2026-10-16T17:00:00.000Z",
+    "opponentId": "1507",
+    "goalsFor": 4,
+    "goalsAgainst": 10
    }
   }
  },
  "cleanSheets": 9,
  "failedToScore": 9,
  "scorers": {
-  "playedMatches": 20,
-  "coveredMatches": 20,
-  "rows": []
+  "playedMatches": 28,
+  "coveredMatches": 28,
+  "rows": [
+   {
+    "name": "Iván Efraim Balázs",
+    "goals": 3,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Kelemen Mátyás",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kovács Gergő Péter",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Virágh Dávid",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Botond Meláth",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Gergely Tihamér",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
  }
 }

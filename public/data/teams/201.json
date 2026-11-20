@@ -1,0 +1,208 @@
+{
+ "schemaVersion": 1,
+ "teamId": "201",
+ "names": [
+  "Fontolva Harapók"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5F",
+   "finished": false,
+   "position": 9,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 6,
+    "won": 1,
+    "drawn": 3,
+    "lost": 2,
+    "goalsFor": 24,
+    "goalsAgainst": 34,
+    "points": 6
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "1568",
+   "name": "el KM Hyundai Football Club",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 1,
+    "goalsAgainst": 1,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "99",
+   "name": "ASFC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 4,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "178",
+   "name": "Tottenham Hatsör",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 14,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1552",
+   "name": "Football Fanatix",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1549",
+   "name": "Kecsap",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 7,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "89",
+   "name": "Big bulls fc",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5F",
+   "matchId": "56948",
+   "kickoff": "2026-10-13T17:00:00.000Z",
+   "opponentId": "1552",
+   "goalsFor": 4,
+   "goalsAgainst": 3
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5F",
+   "matchId": "56819",
+   "kickoff": "2026-09-30T19:00:00.000Z",
+   "opponentId": "178",
+   "goalsFor": 5,
+   "goalsAgainst": 14
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5F",
+   "matchId": "56819",
+   "kickoff": "2026-09-30T19:00:00.000Z",
+   "opponentId": "178",
+   "goalsFor": 5,
+   "goalsAgainst": 14
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5F",
+    "matchId": "56948",
+    "kickoff": "2026-10-13T17:00:00.000Z",
+    "opponentId": "1552",
+    "goalsFor": 4,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5F",
+    "matchId": "56948",
+    "kickoff": "2026-10-13T17:00:00.000Z",
+    "opponentId": "1552",
+    "goalsFor": 4,
+    "goalsAgainst": 3
+   }
+  },
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5F",
+    "matchId": "56948",
+    "kickoff": "2026-10-13T17:00:00.000Z",
+    "opponentId": "1552",
+    "goalsFor": 4,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5F",
+    "matchId": "57047",
+    "kickoff": "2026-10-21T19:00:00.000Z",
+    "opponentId": "1549",
+    "goalsFor": 7,
+    "goalsAgainst": 7
+   }
+  },
+  "loss": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5F",
+    "matchId": "57087",
+    "kickoff": "2026-10-27T20:00:00.000Z",
+    "opponentId": "89",
+    "goalsFor": 3,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5F",
+    "matchId": "57087",
+    "kickoff": "2026-10-27T20:00:00.000Z",
+    "opponentId": "89",
+    "goalsFor": 3,
+    "goalsAgainst": 5
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 6,
+  "coveredMatches": 6,
+  "rows": []
+ }
+}

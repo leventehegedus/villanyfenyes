@@ -1,0 +1,178 @@
+{
+ "schemaVersion": 1,
+ "teamId": "227",
+ "names": [
+  "Villanyfényes Szépség Das Originals."
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5H",
+   "finished": false,
+   "position": 12,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 5,
+    "won": 0,
+    "drawn": 0,
+    "lost": 5,
+    "goalsFor": 17,
+    "goalsAgainst": 42,
+    "points": 0
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "91",
+   "name": "Dorsum",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 7,
+    "goalsAgainst": 12,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "164",
+   "name": "Tokmindegy",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 11,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1553",
+   "name": "Szamaras SE",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1577",
+   "name": "Rosario Juniors",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "35",
+   "name": "Csimpanzini Bananini",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": null,
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5H",
+   "matchId": "56770",
+   "kickoff": "2026-09-21T18:00:00.000Z",
+   "opponentId": "164",
+   "goalsFor": 3,
+   "goalsAgainst": 11
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5H",
+   "matchId": "56610",
+   "kickoff": "2026-09-09T19:00:00.000Z",
+   "opponentId": "91",
+   "goalsFor": 7,
+   "goalsAgainst": 12
+  }
+ },
+ "streaks": {
+  "win": null,
+  "unbeaten": null,
+  "loss": {
+   "length": 5,
+   "from": {
+    "seasonId": 55,
+    "league": "L5H",
+    "matchId": "56610",
+    "kickoff": "2026-09-09T19:00:00.000Z",
+    "opponentId": "91",
+    "goalsFor": 7,
+    "goalsAgainst": 12
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5H",
+    "matchId": "57114",
+    "kickoff": "2026-10-26T18:00:00.000Z",
+    "opponentId": "35",
+    "goalsFor": 1,
+    "goalsAgainst": 6
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 5,
+  "coveredMatches": 5,
+  "rows": [
+   {
+    "name": "Németh Bence",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Telek András",
+    "goals": 4,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Karvázy Ábel",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kiss Benedek",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Vadas Gellért",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

@@ -1,13 +1,17 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-20T11:39:30.141Z",
+ "generatedAt": "2026-11-20T12:38:28.503Z",
  "sourceBase": "https://villanyfenyesbajnoksag.hu",
- "requests": 7,
+ "requests": 898,
  "skippedRows": {
   "count": 0,
   "reasons": []
  },
- "warnings": [],
+ "warnings": [
+  "55/L3A: site order differs from the tie-break rules",
+  "55/L4C: site order differs from the tie-break rules",
+  "55/L5C: site order differs from the tie-break rules"
+ ],
  "mismatches": [],
  "pendingMatchDetails": 0
 }

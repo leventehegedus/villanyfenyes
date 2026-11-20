@@ -1,0 +1,248 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1480",
+ "names": [
+  "A Polgár Jenő"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L3A",
+   "finished": false,
+   "position": 1,
+   "teamsInLeague": 12,
+   "marker": "promotion",
+   "totals": {
+    "played": 7,
+    "won": 7,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 52,
+    "goalsAgainst": 26,
+    "points": 21
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "18",
+   "name": "Stabilizátorok",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "60",
+   "name": "Domino Kijev",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "198",
+   "name": "KungFuci",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "26",
+   "name": "Kópészelet",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "165",
+   "name": "100-as odds",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 14,
+    "goalsAgainst": 6,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "161",
+   "name": "more czuczor more party",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "176",
+   "name": "KrumpliVanEladó",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L3A",
+   "matchId": "56958",
+   "kickoff": "2026-10-14T17:00:00.000Z",
+   "opponentId": "165",
+   "goalsFor": 14,
+   "goalsAgainst": 6
+  },
+  "biggestDefeat": null,
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L3A",
+   "matchId": "56958",
+   "kickoff": "2026-10-14T17:00:00.000Z",
+   "opponentId": "165",
+   "goalsFor": 14,
+   "goalsAgainst": 6
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 7,
+   "from": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "48361",
+    "kickoff": "2026-09-14T17:00:00.000Z",
+    "opponentId": "18",
+    "goalsFor": 5,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "57183",
+    "kickoff": "2026-11-02T20:00:00.000Z",
+    "opponentId": "176",
+    "goalsFor": 5,
+    "goalsAgainst": 4
+   }
+  },
+  "unbeaten": {
+   "length": 7,
+   "from": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "48361",
+    "kickoff": "2026-09-14T17:00:00.000Z",
+    "opponentId": "18",
+    "goalsFor": 5,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "57183",
+    "kickoff": "2026-11-02T20:00:00.000Z",
+    "opponentId": "176",
+    "goalsFor": 5,
+    "goalsAgainst": 4
+   }
+  },
+  "loss": null
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Vizkeleti Alex",
+    "goals": 15,
+    "matches": 6,
+    "hatTricks": 2
+   },
+   {
+    "name": "Molnár Martin",
+    "goals": 10,
+    "matches": 6,
+    "hatTricks": 1
+   },
+   {
+    "name": "Kovács Kristóf",
+    "goals": 7,
+    "matches": 3,
+    "hatTricks": 2
+   },
+   {
+    "name": "Nagy Patrik",
+    "goals": 5,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Popucza Mihály",
+    "goals": 5,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Vozár Ákos",
+    "goals": 5,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Varga Roland",
+    "goals": 4,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Dudaszeg Tamás",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szabó Simon",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

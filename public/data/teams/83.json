@@ -1,0 +1,266 @@
+{
+ "schemaVersion": 1,
+ "teamId": "83",
+ "names": [
+  "Csíki Sör FC"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5D",
+   "finished": false,
+   "position": 9,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 9,
+    "won": 2,
+    "drawn": 0,
+    "lost": 7,
+    "goalsFor": 19,
+    "goalsAgainst": 37,
+    "points": 6
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "1522",
+   "name": "Kókány És Mókány Bt.",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1484",
+   "name": "Lábazati hibák",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "156",
+   "name": "AttacKing",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 2,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "155",
+   "name": "K FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1495",
+   "name": "Töki Taka FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1575",
+   "name": "Homárok SC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "144",
+   "name": "InfLazio",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 2,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "138",
+   "name": "Bozók CF",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 1,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "51",
+   "name": "Beton FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5D",
+   "matchId": "56914",
+   "kickoff": "2026-10-08T16:00:00.000Z",
+   "opponentId": "1495",
+   "goalsFor": 6,
+   "goalsAgainst": 3
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5D",
+   "matchId": "57010",
+   "kickoff": "2026-10-16T17:00:00.000Z",
+   "opponentId": "1575",
+   "goalsFor": 0,
+   "goalsAgainst": 8
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5D",
+   "matchId": "56551",
+   "kickoff": "2026-09-04T18:00:00.000Z",
+   "opponentId": "1522",
+   "goalsFor": 4,
+   "goalsAgainst": 8
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "56836",
+    "kickoff": "2026-09-29T16:00:00.000Z",
+    "opponentId": "155",
+    "goalsFor": 5,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "56914",
+    "kickoff": "2026-10-08T16:00:00.000Z",
+    "opponentId": "1495",
+    "goalsFor": 6,
+    "goalsAgainst": 3
+   }
+  },
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "56836",
+    "kickoff": "2026-09-29T16:00:00.000Z",
+    "opponentId": "155",
+    "goalsFor": 5,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "56914",
+    "kickoff": "2026-10-08T16:00:00.000Z",
+    "opponentId": "1495",
+    "goalsFor": 6,
+    "goalsAgainst": 3
+   }
+  },
+  "loss": {
+   "length": 4,
+   "from": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "57010",
+    "kickoff": "2026-10-16T17:00:00.000Z",
+    "opponentId": "1575",
+    "goalsFor": 0,
+    "goalsAgainst": 8
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5D",
+    "matchId": "57278",
+    "kickoff": "2026-11-10T17:00:00.000Z",
+    "opponentId": "51",
+    "goalsFor": 2,
+    "goalsAgainst": 6
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 3,
+ "scorers": {
+  "playedMatches": 9,
+  "coveredMatches": 9,
+  "rows": [
+   {
+    "name": "Farkas Krisztián",
+    "goals": 8,
+    "matches": 3,
+    "hatTricks": 2
+   },
+   {
+    "name": "Schmidt Olivér",
+    "goals": 5,
+    "matches": 2,
+    "hatTricks": 1
+   },
+   {
+    "name": "Király Dániel",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

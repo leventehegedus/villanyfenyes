@@ -6,6 +6,24 @@
  ],
  "seasons": [
   {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L2A",
+   "finished": false,
+   "position": 1,
+   "teamsInLeague": 12,
+   "marker": "promotion",
+   "totals": {
+    "played": 7,
+    "won": 6,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 31,
+    "goalsAgainst": 12,
+    "points": 19
+   }
+  },
+  {
    "seasonId": 6,
    "label": "2024 - Tavasz",
    "league": "L1",
@@ -270,13 +288,13 @@
    "teamId": "109",
    "name": "Absinthe FC",
    "totals": {
-    "played": 1,
+    "played": 2,
     "won": 1,
-    "drawn": 0,
+    "drawn": 1,
     "lost": 0,
-    "goalsFor": 5,
-    "goalsAgainst": 0,
-    "points": 3
+    "goalsFor": 10,
+    "goalsAgainst": 5,
+    "points": 4
    }
   },
   {
@@ -525,6 +543,84 @@
     "goalsAgainst": 6,
     "points": 3
    }
+  },
+  {
+   "teamId": "136",
+   "name": "Leverpool",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "188",
+   "name": "Al Dubai",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "70",
+   "name": "Apacza FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "45",
+   "name": "National Sechs",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "23",
+   "name": "CS Tanszék",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "115",
+   "name": "Botladozó Fiúk",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 1,
+    "points": 3
+   }
   }
  ],
  "records": {
@@ -558,24 +654,24 @@
  },
  "streaks": {
   "win": {
-   "length": 3,
+   "length": 4,
    "from": {
-    "seasonId": 6,
-    "league": "L1",
-    "matchId": "1232",
-    "kickoff": "2024-04-17T18:00:00.000Z",
-    "opponentId": "197",
-    "goalsFor": 17,
-    "goalsAgainst": 1
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "56916",
+    "kickoff": "2026-09-30T16:00:00.000Z",
+    "opponentId": "70",
+    "goalsFor": 5,
+    "goalsAgainst": 0
    },
    "to": {
-    "seasonId": 6,
-    "league": "L1",
-    "matchId": "1242",
-    "kickoff": "2024-04-29T19:00:00.000Z",
-    "opponentId": "48",
-    "goalsFor": 7,
-    "goalsAgainst": 5
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "57200",
+    "kickoff": "2026-11-03T19:00:00.000Z",
+    "opponentId": "115",
+    "goalsFor": 4,
+    "goalsAgainst": 1
    }
   },
   "unbeaten": {
@@ -621,11 +717,72 @@
    }
   }
  },
- "cleanSheets": 2,
+ "cleanSheets": 3,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 54,
-  "coveredMatches": 54,
-  "rows": []
+  "playedMatches": 61,
+  "coveredMatches": 61,
+  "rows": [
+   {
+    "name": "Kecskeméti Balázs",
+    "goals": 6,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kiss Szabolcs",
+    "goals": 6,
+    "matches": 5,
+    "hatTricks": 0
+   },
+   {
+    "name": "Nagy Dániel",
+    "goals": 4,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Sebestény János",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Jimoh Dániel Adenike",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Marczis Máté",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Stift Máté Kálmán",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Fertig Dávid",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Mészáros Sándor Máté",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Széplaky Zsolt",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
  }
 }

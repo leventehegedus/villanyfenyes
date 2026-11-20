@@ -6,6 +6,24 @@
  ],
  "seasons": [
   {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L2B",
+   "finished": false,
+   "position": 10,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 6,
+    "won": 2,
+    "drawn": 0,
+    "lost": 4,
+    "goalsFor": 19,
+    "goalsAgainst": 49,
+    "points": 6
+   }
+  },
+  {
    "seasonId": 54,
    "label": "2026 - Nyár",
    "league": "L1",
@@ -42,12 +60,12 @@
    "teamId": "220",
    "name": "Jó lövés bedobás",
    "totals": {
-    "played": 1,
+    "played": 2,
     "won": 0,
     "drawn": 0,
-    "lost": 1,
-    "goalsFor": 5,
-    "goalsAgainst": 11,
+    "lost": 2,
+    "goalsFor": 8,
+    "goalsAgainst": 17,
     "points": 0
    }
   },
@@ -55,12 +73,12 @@
    "teamId": "37",
    "name": "CF Babinénik",
    "totals": {
-    "played": 1,
+    "played": 2,
     "won": 0,
     "drawn": 0,
-    "lost": 1,
-    "goalsFor": 8,
-    "goalsAgainst": 12,
+    "lost": 2,
+    "goalsFor": 11,
+    "goalsAgainst": 26,
     "points": 0
    }
   },
@@ -76,6 +94,58 @@
     "goalsAgainst": 5,
     "points": 3
    }
+  },
+  {
+   "teamId": "31",
+   "name": "SZIKértelem",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "197",
+   "name": "Ridomil SC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "182",
+   "name": "Vergewalti GANG",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "116",
+   "name": "Toilet Time",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 15,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -89,13 +159,13 @@
    "goalsAgainst": 5
   },
   "biggestDefeat": {
-   "seasonId": 54,
-   "league": "L1",
-   "matchId": "48108",
-   "kickoff": "2026-06-15T18:00:00.000Z",
-   "opponentId": "41",
-   "goalsFor": 1,
-   "goalsAgainst": 8
+   "seasonId": 55,
+   "league": "L2B",
+   "matchId": "56993",
+   "kickoff": "2026-10-15T16:00:00.000Z",
+   "opponentId": "116",
+   "goalsFor": 3,
+   "goalsAgainst": 15
   },
   "highestScoring": {
    "seasonId": 54,
@@ -109,45 +179,45 @@
  },
  "streaks": {
   "win": {
-   "length": 1,
+   "length": 2,
    "from": {
-    "seasonId": 54,
-    "league": "L1",
-    "matchId": "48243",
-    "kickoff": "2026-08-13T19:00:00.000Z",
-    "opponentId": "107",
-    "goalsFor": 9,
-    "goalsAgainst": 5
+    "seasonId": 55,
+    "league": "L2B",
+    "matchId": "56742",
+    "kickoff": "2026-09-24T19:00:00.000Z",
+    "opponentId": "197",
+    "goalsFor": 4,
+    "goalsAgainst": 3
    },
    "to": {
-    "seasonId": 54,
-    "league": "L1",
-    "matchId": "48243",
-    "kickoff": "2026-08-13T19:00:00.000Z",
-    "opponentId": "107",
-    "goalsFor": 9,
-    "goalsAgainst": 5
+    "seasonId": 55,
+    "league": "L2B",
+    "matchId": "56939",
+    "kickoff": "2026-10-09T18:00:00.000Z",
+    "opponentId": "182",
+    "goalsFor": 3,
+    "goalsAgainst": 2
    }
   },
   "unbeaten": {
-   "length": 1,
+   "length": 2,
    "from": {
-    "seasonId": 54,
-    "league": "L1",
-    "matchId": "48243",
-    "kickoff": "2026-08-13T19:00:00.000Z",
-    "opponentId": "107",
-    "goalsFor": 9,
-    "goalsAgainst": 5
+    "seasonId": 55,
+    "league": "L2B",
+    "matchId": "56742",
+    "kickoff": "2026-09-24T19:00:00.000Z",
+    "opponentId": "197",
+    "goalsFor": 4,
+    "goalsAgainst": 3
    },
    "to": {
-    "seasonId": 54,
-    "league": "L1",
-    "matchId": "48243",
-    "kickoff": "2026-08-13T19:00:00.000Z",
-    "opponentId": "107",
-    "goalsFor": 9,
-    "goalsAgainst": 5
+    "seasonId": 55,
+    "league": "L2B",
+    "matchId": "56939",
+    "kickoff": "2026-10-09T18:00:00.000Z",
+    "opponentId": "182",
+    "goalsFor": 3,
+    "goalsAgainst": 2
    }
   },
   "loss": {
@@ -175,8 +245,21 @@
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 4,
-  "coveredMatches": 4,
-  "rows": []
+  "playedMatches": 10,
+  "coveredMatches": 10,
+  "rows": [
+   {
+    "name": "Hanák Zoltán",
+    "goals": 4,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Korompay Zsombor",
+    "goals": 3,
+    "matches": 1,
+    "hatTricks": 1
+   }
+  ]
  }
 }

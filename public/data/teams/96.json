@@ -1,0 +1,276 @@
+{
+ "schemaVersion": 1,
+ "teamId": "96",
+ "names": [
+  "Egyenlők"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L4D",
+   "finished": false,
+   "position": 6,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 2,
+    "drawn": 3,
+    "lost": 2,
+    "goalsFor": 40,
+    "goalsAgainst": 30,
+    "points": 9
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "1530",
+   "name": "FLEO RC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 3,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "221",
+   "name": "Káptalan",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 3,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "1537",
+   "name": "Közpénz FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "50",
+   "name": "Goats FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 15,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1494",
+   "name": "FCB",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 7,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "189",
+   "name": "Al-Kaloida",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1515",
+   "name": "Seskoffender",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L4D",
+   "matchId": "57028",
+   "kickoff": "2026-10-21T18:00:00.000Z",
+   "opponentId": "50",
+   "goalsFor": 15,
+   "goalsAgainst": 5
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L4D",
+   "matchId": "56830",
+   "kickoff": "2026-11-10T19:00:00.000Z",
+   "opponentId": "1515",
+   "goalsFor": 3,
+   "goalsAgainst": 4
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L4D",
+   "matchId": "57028",
+   "kickoff": "2026-10-21T18:00:00.000Z",
+   "opponentId": "50",
+   "goalsFor": 15,
+   "goalsAgainst": 5
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "57165",
+    "kickoff": "2026-11-03T17:00:00.000Z",
+    "opponentId": "189",
+    "goalsFor": 5,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "57165",
+    "kickoff": "2026-11-03T17:00:00.000Z",
+    "opponentId": "189",
+    "goalsFor": 5,
+    "goalsAgainst": 3
+   }
+  },
+  "unbeaten": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "57028",
+    "kickoff": "2026-10-21T18:00:00.000Z",
+    "opponentId": "50",
+    "goalsFor": 15,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "57165",
+    "kickoff": "2026-11-03T17:00:00.000Z",
+    "opponentId": "189",
+    "goalsFor": 5,
+    "goalsAgainst": 3
+   }
+  },
+  "loss": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "56830",
+    "kickoff": "2026-11-10T19:00:00.000Z",
+    "opponentId": "1515",
+    "goalsFor": 3,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "56830",
+    "kickoff": "2026-11-10T19:00:00.000Z",
+    "opponentId": "1515",
+    "goalsFor": 3,
+    "goalsAgainst": 4
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Lukács Zénó",
+    "goals": 10,
+    "matches": 4,
+    "hatTricks": 2
+   },
+   {
+    "name": "Dr. Csokonay Gergő",
+    "goals": 7,
+    "matches": 5,
+    "hatTricks": 1
+   },
+   {
+    "name": "Jakab Máté",
+    "goals": 5,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Pap Ervin",
+    "goals": 5,
+    "matches": 5,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kovács Ronald",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Schuckert György",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Lukács Krisztián",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Dr. Sárai Bálint Zsombor",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Rideg Viktor",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

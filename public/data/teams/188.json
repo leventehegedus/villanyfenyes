@@ -1,0 +1,257 @@
+{
+ "schemaVersion": 1,
+ "teamId": "188",
+ "names": [
+  "Al Dubai"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L2A",
+   "finished": false,
+   "position": 11,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 6,
+    "won": 1,
+    "drawn": 0,
+    "lost": 5,
+    "goalsFor": 16,
+    "goalsAgainst": 40,
+    "points": 3
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "48",
+   "name": "Együtt szárszóért",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "170",
+   "name": "FC Gyulai Kolbászok powered by Vácszentlászló SC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "23",
+   "name": "CS Tanszék",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "139",
+   "name": "Inteam CF",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 8,
+    "goalsAgainst": 12,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "38",
+   "name": "Szeszpanyol",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 11,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "109",
+   "name": "Absinthe FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L2A",
+   "matchId": "56762",
+   "kickoff": "2026-09-23T16:00:00.000Z",
+   "opponentId": "23",
+   "goalsFor": 3,
+   "goalsAgainst": 0
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L2A",
+   "matchId": "57036",
+   "kickoff": "2026-10-19T19:00:00.000Z",
+   "opponentId": "38",
+   "goalsFor": 1,
+   "goalsAgainst": 11
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L2A",
+   "matchId": "56904",
+   "kickoff": "2026-10-05T18:00:00.000Z",
+   "opponentId": "139",
+   "goalsFor": 8,
+   "goalsAgainst": 12
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "56762",
+    "kickoff": "2026-09-23T16:00:00.000Z",
+    "opponentId": "23",
+    "goalsFor": 3,
+    "goalsAgainst": 0
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "56762",
+    "kickoff": "2026-09-23T16:00:00.000Z",
+    "opponentId": "23",
+    "goalsFor": 3,
+    "goalsAgainst": 0
+   }
+  },
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "56762",
+    "kickoff": "2026-09-23T16:00:00.000Z",
+    "opponentId": "23",
+    "goalsFor": 3,
+    "goalsAgainst": 0
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "56762",
+    "kickoff": "2026-09-23T16:00:00.000Z",
+    "opponentId": "23",
+    "goalsFor": 3,
+    "goalsAgainst": 0
+   }
+  },
+  "loss": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "56904",
+    "kickoff": "2026-10-05T18:00:00.000Z",
+    "opponentId": "139",
+    "goalsFor": 8,
+    "goalsAgainst": 12
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "57124",
+    "kickoff": "2026-10-27T20:00:00.000Z",
+    "opponentId": "109",
+    "goalsFor": 0,
+    "goalsAgainst": 5
+   }
+  }
+ },
+ "cleanSheets": 1,
+ "failedToScore": 1,
+ "scorers": {
+  "playedMatches": 6,
+  "coveredMatches": 6,
+  "rows": [
+   {
+    "name": "Nagy Balázs Ákos",
+    "goals": 3,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Nagy-Varga Géza Péter",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Temesi András",
+    "goals": 3,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Sali Roland",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Varga Olivér",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Gáncs Márton István",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Papp Péter",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Till Márton",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

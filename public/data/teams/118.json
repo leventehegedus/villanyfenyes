@@ -1,0 +1,283 @@
+{
+ "schemaVersion": 1,
+ "teamId": "118",
+ "names": [
+  "Atletico Vasutas SE"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L3C",
+   "finished": false,
+   "position": 9,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 8,
+    "won": 2,
+    "drawn": 2,
+    "lost": 4,
+    "goalsFor": 40,
+    "goalsAgainst": 46,
+    "points": 8
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "133",
+   "name": "Crooks",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "219",
+   "name": "SÜSÜ FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "202",
+   "name": "Szupermegaistencsászárüber",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 10,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "124",
+   "name": "Esélyetek SE",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 6,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1496",
+   "name": "Tröger Fc",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "41",
+   "name": "Sonkástojás",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 6,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "110",
+   "name": "Közhely FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "192",
+   "name": "SNASA 2.0",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 5,
+    "points": 1
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L3C",
+   "matchId": "56710",
+   "kickoff": "2026-09-24T16:00:00.000Z",
+   "opponentId": "202",
+   "goalsFor": 10,
+   "goalsAgainst": 5
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L3C",
+   "matchId": "56751",
+   "kickoff": "2026-09-21T16:00:00.000Z",
+   "opponentId": "219",
+   "goalsFor": 3,
+   "goalsAgainst": 8
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L3C",
+   "matchId": "56710",
+   "kickoff": "2026-09-24T16:00:00.000Z",
+   "opponentId": "202",
+   "goalsFor": 10,
+   "goalsAgainst": 5
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L3C",
+    "matchId": "56710",
+    "kickoff": "2026-09-24T16:00:00.000Z",
+    "opponentId": "202",
+    "goalsFor": 10,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3C",
+    "matchId": "56919",
+    "kickoff": "2026-10-05T16:00:00.000Z",
+    "opponentId": "124",
+    "goalsFor": 7,
+    "goalsAgainst": 6
+   }
+  },
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L3C",
+    "matchId": "56710",
+    "kickoff": "2026-09-24T16:00:00.000Z",
+    "opponentId": "202",
+    "goalsFor": 10,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3C",
+    "matchId": "56919",
+    "kickoff": "2026-10-05T16:00:00.000Z",
+    "opponentId": "124",
+    "goalsFor": 7,
+    "goalsAgainst": 6
+   }
+  },
+  "loss": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L3C",
+    "matchId": "56598",
+    "kickoff": "2026-09-07T19:00:00.000Z",
+    "opponentId": "133",
+    "goalsFor": 3,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3C",
+    "matchId": "56751",
+    "kickoff": "2026-09-21T16:00:00.000Z",
+    "opponentId": "219",
+    "goalsFor": 3,
+    "goalsAgainst": 8
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 8,
+  "coveredMatches": 8,
+  "rows": [
+   {
+    "name": "Szabó Fülöp",
+    "goals": 10,
+    "matches": 5,
+    "hatTricks": 2
+   },
+   {
+    "name": "Fehér András",
+    "goals": 6,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Szabó Árpád",
+    "goals": 6,
+    "matches": 2,
+    "hatTricks": 1
+   },
+   {
+    "name": "Tóth Gergő",
+    "goals": 5,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Balogh Ádám József",
+    "goals": 4,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Fehér Dávid",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Molnár Levente",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Németh Máté",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

@@ -1,0 +1,276 @@
+{
+ "schemaVersion": 1,
+ "teamId": "71",
+ "names": [
+  "Pasaref"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L4D",
+   "finished": false,
+   "position": 9,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 2,
+    "drawn": 2,
+    "lost": 3,
+    "goalsFor": 37,
+    "goalsAgainst": 33,
+    "points": 8
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "33",
+   "name": "hoferővonat",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1528",
+   "name": "A Focicsapat",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "50",
+   "name": "Goats FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 4,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "221",
+   "name": "Káptalan",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "189",
+   "name": "Al-Kaloida",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 11,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "65",
+   "name": "Polak Kiddos",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 4,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "1515",
+   "name": "Seskoffender",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L4D",
+   "matchId": "57033",
+   "kickoff": "2026-10-20T16:00:00.000Z",
+   "opponentId": "189",
+   "goalsFor": 11,
+   "goalsAgainst": 3
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L4D",
+   "matchId": "56556",
+   "kickoff": "2026-11-06T20:00:00.000Z",
+   "opponentId": "1515",
+   "goalsFor": 5,
+   "goalsAgainst": 8
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L4D",
+   "matchId": "57033",
+   "kickoff": "2026-10-20T16:00:00.000Z",
+   "opponentId": "189",
+   "goalsFor": 11,
+   "goalsAgainst": 3
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "57033",
+    "kickoff": "2026-10-20T16:00:00.000Z",
+    "opponentId": "189",
+    "goalsFor": 11,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "57033",
+    "kickoff": "2026-10-20T16:00:00.000Z",
+    "opponentId": "189",
+    "goalsFor": 11,
+    "goalsAgainst": 3
+   }
+  },
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "57033",
+    "kickoff": "2026-10-20T16:00:00.000Z",
+    "opponentId": "189",
+    "goalsFor": 11,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "57121",
+    "kickoff": "2026-10-27T20:00:00.000Z",
+    "opponentId": "65",
+    "goalsFor": 4,
+    "goalsAgainst": 4
+   }
+  },
+  "loss": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "56556",
+    "kickoff": "2026-11-06T20:00:00.000Z",
+    "opponentId": "1515",
+    "goalsFor": 5,
+    "goalsAgainst": 8
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "56556",
+    "kickoff": "2026-11-06T20:00:00.000Z",
+    "opponentId": "1515",
+    "goalsFor": 5,
+    "goalsAgainst": 8
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 1,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Madas Balázs Gergely",
+    "goals": 7,
+    "matches": 4,
+    "hatTricks": 1
+   },
+   {
+    "name": "Papp Zsombor",
+    "goals": 7,
+    "matches": 2,
+    "hatTricks": 1
+   },
+   {
+    "name": "Varga Dávid",
+    "goals": 6,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Dr Mitcsenkov Attila",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Gábriel András Mihály",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Mitcsenkov Domonkos",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Varga Matyas",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szemkeő Gábor",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szoboszlai Szilveszter",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

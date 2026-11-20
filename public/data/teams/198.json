@@ -1,0 +1,270 @@
+{
+ "schemaVersion": 1,
+ "teamId": "198",
+ "names": [
+  "KungFuci"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L3A",
+   "finished": false,
+   "position": 7,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 2,
+    "drawn": 2,
+    "lost": 3,
+    "goalsFor": 35,
+    "goalsAgainst": 33,
+    "points": 8
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "208",
+   "name": "PÉNISZ LAND",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "176",
+   "name": "KrumpliVanEladó",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "95",
+   "name": "fc akármi",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 12,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1480",
+   "name": "A Polgár Jenő",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1479",
+   "name": "Light OS",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 7,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "18",
+   "name": "Stabilizátorok",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "60",
+   "name": "Domino Kijev",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 2,
+    "points": 1
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L3A",
+   "matchId": "56624",
+   "kickoff": "2026-09-23T16:00:00.000Z",
+   "opponentId": "95",
+   "goalsFor": 12,
+   "goalsAgainst": 3
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L3A",
+   "matchId": "56780",
+   "kickoff": "2026-09-21T18:00:00.000Z",
+   "opponentId": "176",
+   "goalsFor": 1,
+   "goalsAgainst": 6
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L3A",
+   "matchId": "56624",
+   "kickoff": "2026-09-23T16:00:00.000Z",
+   "opponentId": "95",
+   "goalsFor": 12,
+   "goalsAgainst": 3
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "56624",
+    "kickoff": "2026-09-23T16:00:00.000Z",
+    "opponentId": "95",
+    "goalsFor": 12,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "56624",
+    "kickoff": "2026-09-23T16:00:00.000Z",
+    "opponentId": "95",
+    "goalsFor": 12,
+    "goalsAgainst": 3
+   }
+  },
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "57220",
+    "kickoff": "2026-11-11T18:00:00.000Z",
+    "opponentId": "60",
+    "goalsFor": 2,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "57220",
+    "kickoff": "2026-11-11T18:00:00.000Z",
+    "opponentId": "60",
+    "goalsFor": 2,
+    "goalsAgainst": 2
+   }
+  },
+  "loss": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "48367",
+    "kickoff": "2026-10-26T18:00:00.000Z",
+    "opponentId": "18",
+    "goalsFor": 3,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "48367",
+    "kickoff": "2026-10-26T18:00:00.000Z",
+    "opponentId": "18",
+    "goalsFor": 3,
+    "goalsAgainst": 4
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Stift Máté Kálmán",
+    "goals": 11,
+    "matches": 4,
+    "hatTricks": 2
+   },
+   {
+    "name": "Tihanyi Márton",
+    "goals": 11,
+    "matches": 4,
+    "hatTricks": 2
+   },
+   {
+    "name": "Bertalan Bence",
+    "goals": 3,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Kovács Dominik",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Tóth Patrik Levente",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Rékasy Zoltán",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Polyik Péter",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Richlik Róbert Kristóf",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

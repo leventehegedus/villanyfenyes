@@ -6,6 +6,24 @@
  ],
  "seasons": [
   {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L3A",
+   "finished": false,
+   "position": 10,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 6,
+    "won": 2,
+    "drawn": 1,
+    "lost": 3,
+    "goalsFor": 33,
+    "goalsAgainst": 35,
+    "points": 7
+   }
+  },
+  {
    "seasonId": 10,
    "label": "2022 - Tavasz",
    "league": "L1",
@@ -117,13 +135,13 @@
    "teamId": "82",
    "name": "Berúg FC",
    "totals": {
-    "played": 1,
-    "won": 1,
+    "played": 2,
+    "won": 2,
     "drawn": 0,
     "lost": 0,
-    "goalsFor": 5,
-    "goalsAgainst": 3,
-    "points": 3
+    "goalsFor": 15,
+    "goalsAgainst": 7,
+    "points": 6
    }
   },
   {
@@ -307,17 +325,82 @@
     "goalsAgainst": 1,
     "points": 3
    }
+  },
+  {
+   "teamId": "176",
+   "name": "KrumpliVanEladó",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "95",
+   "name": "fc akármi",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 7,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "165",
+   "name": "100-as odds",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1480",
+   "name": "A Polgár Jenő",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "18",
+   "name": "Stabilizátorok",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 5,
+    "points": 3
+   }
   }
  ],
  "records": {
   "biggestWin": {
-   "seasonId": 11,
-   "league": "L1",
-   "matchId": "6627",
-   "kickoff": "2021-11-17T18:00:00.000Z",
-   "opponentId": "368",
-   "goalsFor": 5,
-   "goalsAgainst": 0
+   "seasonId": 55,
+   "league": "L3A",
+   "matchId": "57091",
+   "kickoff": "2026-10-27T17:00:00.000Z",
+   "opponentId": "82",
+   "goalsFor": 10,
+   "goalsAgainst": 4
   },
   "biggestDefeat": {
    "seasonId": 10,
@@ -406,8 +489,51 @@
  "cleanSheets": 1,
  "failedToScore": 1,
  "scorers": {
-  "playedMatches": 32,
-  "coveredMatches": 32,
-  "rows": []
+  "playedMatches": 38,
+  "coveredMatches": 38,
+  "rows": [
+   {
+    "name": "Kovács Kristóf",
+    "goals": 7,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Maschek Bálint",
+    "goals": 5,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Méhes Levente",
+    "goals": 5,
+    "matches": 2,
+    "hatTricks": 1
+   },
+   {
+    "name": "Xeravits Domonkos",
+    "goals": 4,
+    "matches": 2,
+    "hatTricks": 1
+   },
+   {
+    "name": "Dányi Gellért",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Vasas Balázs Barna",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Zimányi Huba",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
  }
 }

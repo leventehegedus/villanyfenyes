@@ -1,0 +1,265 @@
+{
+ "schemaVersion": 1,
+ "teamId": "194",
+ "names": [
+  "Alacsony Elvárások"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L3D",
+   "finished": false,
+   "position": 11,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 8,
+    "won": 1,
+    "drawn": 0,
+    "lost": 7,
+    "goalsFor": 26,
+    "goalsAgainst": 38,
+    "points": 3
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "84",
+   "name": "Töretlen FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "40",
+   "name": "AS Kóma",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "39",
+   "name": "Veresiktas FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "52",
+   "name": "Húslovagok",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "104",
+   "name": "Basket Case",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1489",
+   "name": "Energ team",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "67",
+   "name": "Kráken",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "196",
+   "name": "Koma Sutra",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L3D",
+   "matchId": "56559",
+   "kickoff": "2026-09-04T16:00:00.000Z",
+   "opponentId": "84",
+   "goalsFor": 5,
+   "goalsAgainst": 0
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L3D",
+   "matchId": "57098",
+   "kickoff": "2026-10-26T19:00:00.000Z",
+   "opponentId": "67",
+   "goalsFor": 1,
+   "goalsAgainst": 4
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L3D",
+   "matchId": "57202",
+   "kickoff": "2026-11-02T20:00:00.000Z",
+   "opponentId": "196",
+   "goalsFor": 5,
+   "goalsAgainst": 6
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L3D",
+    "matchId": "56559",
+    "kickoff": "2026-09-04T16:00:00.000Z",
+    "opponentId": "84",
+    "goalsFor": 5,
+    "goalsAgainst": 0
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3D",
+    "matchId": "56559",
+    "kickoff": "2026-09-04T16:00:00.000Z",
+    "opponentId": "84",
+    "goalsFor": 5,
+    "goalsAgainst": 0
+   }
+  },
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L3D",
+    "matchId": "56559",
+    "kickoff": "2026-09-04T16:00:00.000Z",
+    "opponentId": "84",
+    "goalsFor": 5,
+    "goalsAgainst": 0
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3D",
+    "matchId": "56559",
+    "kickoff": "2026-09-04T16:00:00.000Z",
+    "opponentId": "84",
+    "goalsFor": 5,
+    "goalsAgainst": 0
+   }
+  },
+  "loss": {
+   "length": 7,
+   "from": {
+    "seasonId": 55,
+    "league": "L3D",
+    "matchId": "56633",
+    "kickoff": "2026-09-23T20:00:00.000Z",
+    "opponentId": "40",
+    "goalsFor": 3,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3D",
+    "matchId": "57202",
+    "kickoff": "2026-11-02T20:00:00.000Z",
+    "opponentId": "196",
+    "goalsFor": 5,
+    "goalsAgainst": 6
+   }
+  }
+ },
+ "cleanSheets": 1,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 8,
+  "coveredMatches": 8,
+  "rows": [
+   {
+    "name": "Kapros Konrád",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Mihály Ádám",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Németh Kristóf Boldizsár",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Takács András",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Torday sólyom",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

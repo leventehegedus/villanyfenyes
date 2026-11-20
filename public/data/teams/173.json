@@ -1,0 +1,265 @@
+{
+ "schemaVersion": 1,
+ "teamId": "173",
+ "names": [
+  "Tipszmiksz"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L4C",
+   "finished": false,
+   "position": 11,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 8,
+    "won": 2,
+    "drawn": 0,
+    "lost": 6,
+    "goalsFor": 24,
+    "goalsAgainst": 42,
+    "points": 6
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "131",
+   "name": "Roby Bácsi Bűnbandája",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 1,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "137",
+   "name": "BCE-PhD GoalBreakers",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "153",
+   "name": "Selecao",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "101",
+   "name": "Squadra",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "147",
+   "name": "GABSZK",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "47",
+   "name": "team miller",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1512",
+   "name": "Los Magos",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1513",
+   "name": "Meccs Lemondva FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 6,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L4C",
+   "matchId": "56565",
+   "kickoff": "2026-09-08T19:00:00.000Z",
+   "opponentId": "137",
+   "goalsFor": 7,
+   "goalsAgainst": 2
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L4C",
+   "matchId": "56664",
+   "kickoff": "2026-09-17T17:00:00.000Z",
+   "opponentId": "101",
+   "goalsFor": 2,
+   "goalsAgainst": 9
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L4C",
+   "matchId": "57083",
+   "kickoff": "2026-10-28T20:00:00.000Z",
+   "opponentId": "1513",
+   "goalsFor": 7,
+   "goalsAgainst": 6
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "57083",
+    "kickoff": "2026-10-28T20:00:00.000Z",
+    "opponentId": "1513",
+    "goalsFor": 7,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "57083",
+    "kickoff": "2026-10-28T20:00:00.000Z",
+    "opponentId": "1513",
+    "goalsFor": 7,
+    "goalsAgainst": 6
+   }
+  },
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "57083",
+    "kickoff": "2026-10-28T20:00:00.000Z",
+    "opponentId": "1513",
+    "goalsFor": 7,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "57083",
+    "kickoff": "2026-10-28T20:00:00.000Z",
+    "opponentId": "1513",
+    "goalsFor": 7,
+    "goalsAgainst": 6
+   }
+  },
+  "loss": {
+   "length": 5,
+   "from": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "57351",
+    "kickoff": "2026-09-15T18:00:00.000Z",
+    "opponentId": "153",
+    "goalsFor": 3,
+    "goalsAgainst": 8
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "57054",
+    "kickoff": "2026-10-19T19:00:00.000Z",
+    "opponentId": "1512",
+    "goalsFor": 0,
+    "goalsAgainst": 6
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 2,
+ "scorers": {
+  "playedMatches": 8,
+  "coveredMatches": 8,
+  "rows": [
+   {
+    "name": "Lovas Zoltán",
+    "goals": 11,
+    "matches": 4,
+    "hatTricks": 1
+   },
+   {
+    "name": "Somogyi Bence",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Mongyi Zoltán",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Rideg Máté",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Katona Márton",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

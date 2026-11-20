@@ -1,0 +1,264 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1520",
+ "names": [
+  "Ibiza"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L4A",
+   "finished": false,
+   "position": 3,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 5,
+    "drawn": 1,
+    "lost": 1,
+    "goalsFor": 43,
+    "goalsAgainst": 28,
+    "points": 16
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "1521",
+   "name": "JSE",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "34",
+   "name": "Semmi DADDA",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "205",
+   "name": "KFC Light",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "172",
+   "name": "aha",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "36",
+   "name": "Gabriel Jesus",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "121",
+   "name": "Kék Labdák",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 6,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "20",
+   "name": "Kispályások",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L4A",
+   "matchId": "57265",
+   "kickoff": "2026-11-10T20:00:00.000Z",
+   "opponentId": "20",
+   "goalsFor": 9,
+   "goalsAgainst": 0
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L4A",
+   "matchId": "56498",
+   "kickoff": "2026-09-02T19:00:00.000Z",
+   "opponentId": "1521",
+   "goalsFor": 3,
+   "goalsAgainst": 9
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L4A",
+   "matchId": "57119",
+   "kickoff": "2026-10-28T17:00:00.000Z",
+   "opponentId": "121",
+   "goalsFor": 6,
+   "goalsAgainst": 6
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 4,
+   "from": {
+    "seasonId": 55,
+    "league": "L4A",
+    "matchId": "56654",
+    "kickoff": "2026-09-11T20:00:00.000Z",
+    "opponentId": "34",
+    "goalsFor": 5,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4A",
+    "matchId": "56994",
+    "kickoff": "2026-10-12T19:00:00.000Z",
+    "opponentId": "36",
+    "goalsFor": 5,
+    "goalsAgainst": 3
+   }
+  },
+  "unbeaten": {
+   "length": 6,
+   "from": {
+    "seasonId": 55,
+    "league": "L4A",
+    "matchId": "56654",
+    "kickoff": "2026-09-11T20:00:00.000Z",
+    "opponentId": "34",
+    "goalsFor": 5,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4A",
+    "matchId": "57265",
+    "kickoff": "2026-11-10T20:00:00.000Z",
+    "opponentId": "20",
+    "goalsFor": 9,
+    "goalsAgainst": 0
+   }
+  },
+  "loss": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L4A",
+    "matchId": "56498",
+    "kickoff": "2026-09-02T19:00:00.000Z",
+    "opponentId": "1521",
+    "goalsFor": 3,
+    "goalsAgainst": 9
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4A",
+    "matchId": "56498",
+    "kickoff": "2026-09-02T19:00:00.000Z",
+    "opponentId": "1521",
+    "goalsFor": 3,
+    "goalsAgainst": 9
+   }
+  }
+ },
+ "cleanSheets": 1,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Németh Csaba",
+    "goals": 17,
+    "matches": 6,
+    "hatTricks": 3
+   },
+   {
+    "name": "Fatuska Benedek",
+    "goals": 7,
+    "matches": 5,
+    "hatTricks": 1
+   },
+   {
+    "name": "Dr. Simon Zsombor",
+    "goals": 6,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Klein Patrik",
+    "goals": 6,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Prohászka Kristóf",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Lupu-Maár Endre",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Pikács Patrik",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

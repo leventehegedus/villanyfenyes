@@ -6,6 +6,24 @@
  ],
  "seasons": [
   {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L2A",
+   "finished": false,
+   "position": 6,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 9,
+    "won": 3,
+    "drawn": 2,
+    "lost": 4,
+    "goalsFor": 38,
+    "goalsAgainst": 54,
+    "points": 11
+   }
+  },
+  {
    "seasonId": 14,
    "label": "2019 - Tavasz",
    "league": "L1",
@@ -226,13 +244,13 @@
    "teamId": "170",
    "name": "FC Gyulai Kolbászok powered by Vácszentlászló SC",
    "totals": {
-    "played": 1,
+    "played": 2,
     "won": 0,
-    "drawn": 0,
+    "drawn": 1,
     "lost": 1,
-    "goalsFor": 0,
-    "goalsAgainst": 5,
-    "points": 0
+    "goalsFor": 5,
+    "goalsAgainst": 10,
+    "points": 1
    }
   },
   {
@@ -442,15 +460,119 @@
     "goalsAgainst": 6,
     "points": 3
    }
+  },
+  {
+   "teamId": "45",
+   "name": "National Sechs",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 10,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "23",
+   "name": "CS Tanszék",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "115",
+   "name": "Botladozó Fiúk",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "70",
+   "name": "Apacza FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 3,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "48",
+   "name": "Együtt szárszóért",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 10,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "139",
+   "name": "Inteam CF",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "188",
+   "name": "Al Dubai",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "38",
+   "name": "Szeszpanyol",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 8,
+    "points": 3
+   }
   }
  ],
  "records": {
   "biggestWin": {
-   "seasonId": 35,
-   "league": "L1",
-   "matchId": "33929",
-   "kickoff": "2025-05-19T06:10:47.000Z",
-   "opponentId": "550",
+   "seasonId": 55,
+   "league": "L2A",
+   "matchId": "57124",
+   "kickoff": "2026-10-27T20:00:00.000Z",
+   "opponentId": "188",
    "goalsFor": 5,
    "goalsAgainst": 0
   },
@@ -464,13 +586,13 @@
    "goalsAgainst": 15
   },
   "highestScoring": {
-   "seasonId": 34,
-   "league": "L1",
-   "matchId": "33094",
-   "kickoff": "2025-05-19T06:08:50.000Z",
-   "opponentId": "853",
-   "goalsFor": 2,
-   "goalsAgainst": 15
+   "seasonId": 55,
+   "league": "L2A",
+   "matchId": "57206",
+   "kickoff": "2026-11-06T20:00:00.000Z",
+   "opponentId": "38",
+   "goalsFor": 9,
+   "goalsAgainst": 8
   }
  },
  "streaks": {
@@ -498,22 +620,22 @@
   "unbeaten": {
    "length": 3,
    "from": {
-    "seasonId": 35,
-    "league": "L1",
-    "matchId": "33934",
-    "kickoff": "2025-05-19T06:10:48.000Z",
-    "opponentId": "473",
-    "goalsFor": 4,
-    "goalsAgainst": 3
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "56694",
+    "kickoff": "2026-09-15T18:00:00.000Z",
+    "opponentId": "115",
+    "goalsFor": 7,
+    "goalsAgainst": 2
    },
    "to": {
-    "seasonId": 35,
-    "league": "L1",
-    "matchId": "33932",
-    "kickoff": "2025-05-19T06:10:48.000Z",
-    "opponentId": "77",
-    "goalsFor": 8,
-    "goalsAgainst": 6
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "56850",
+    "kickoff": "2026-10-02T19:00:00.000Z",
+    "opponentId": "70",
+    "goalsFor": 3,
+    "goalsAgainst": 3
    }
   },
   "loss": {
@@ -538,11 +660,60 @@
    }
   }
  },
- "cleanSheets": 1,
+ "cleanSheets": 2,
  "failedToScore": 2,
  "scorers": {
-  "playedMatches": 43,
-  "coveredMatches": 43,
-  "rows": []
+  "playedMatches": 52,
+  "coveredMatches": 52,
+  "rows": [
+   {
+    "name": "Szabó Roland",
+    "goals": 9,
+    "matches": 3,
+    "hatTricks": 2
+   },
+   {
+    "name": "Széll István",
+    "goals": 6,
+    "matches": 5,
+    "hatTricks": 0
+   },
+   {
+    "name": "Horváth Barnabás",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Rusvai László",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szabó Patrik",
+    "goals": 4,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Vámos Krisztián",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Máté Márton",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Peter Salamon",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
  }
 }

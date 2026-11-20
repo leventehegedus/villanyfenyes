@@ -1,0 +1,284 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1483",
+ "names": [
+  "Al Kohol"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5B",
+   "finished": false,
+   "position": 6,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 9,
+    "won": 3,
+    "drawn": 2,
+    "lost": 4,
+    "goalsFor": 47,
+    "goalsAgainst": 48,
+    "points": 11
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "143",
+   "name": "Magyi",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "24",
+   "name": "A jó, a rossz és a dagadt",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 6,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1559",
+   "name": "Alíz Utca FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 6,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "1533",
+   "name": "Sördögök",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 10,
+    "goalsAgainst": 8,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "125",
+   "name": "Alibi FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 7,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "215",
+   "name": "Csendes FIFA",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1564",
+   "name": "Husvilla tona klubb",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "228",
+   "name": "Energeng",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "57",
+   "name": "Zomboss",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5B",
+   "matchId": "57268",
+   "kickoff": "2026-11-10T19:00:00.000Z",
+   "opponentId": "57",
+   "goalsFor": 5,
+   "goalsAgainst": 0
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5B",
+   "matchId": "57149",
+   "kickoff": "2026-11-05T19:00:00.000Z",
+   "opponentId": "228",
+   "goalsFor": 3,
+   "goalsAgainst": 8
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5B",
+   "matchId": "56864",
+   "kickoff": "2026-09-28T16:00:00.000Z",
+   "opponentId": "1533",
+   "goalsFor": 10,
+   "goalsAgainst": 8
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5B",
+    "matchId": "57268",
+    "kickoff": "2026-11-10T19:00:00.000Z",
+    "opponentId": "57",
+    "goalsFor": 5,
+    "goalsAgainst": 0
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5B",
+    "matchId": "57268",
+    "kickoff": "2026-11-10T19:00:00.000Z",
+    "opponentId": "57",
+    "goalsFor": 5,
+    "goalsAgainst": 0
+   }
+  },
+  "unbeaten": {
+   "length": 4,
+   "from": {
+    "seasonId": 55,
+    "league": "L5B",
+    "matchId": "56713",
+    "kickoff": "2026-09-11T15:00:00.000Z",
+    "opponentId": "1559",
+    "goalsFor": 6,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5B",
+    "matchId": "57008",
+    "kickoff": "2026-10-16T18:00:00.000Z",
+    "opponentId": "215",
+    "goalsFor": 4,
+    "goalsAgainst": 3
+   }
+  },
+  "loss": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5B",
+    "matchId": "57129",
+    "kickoff": "2026-10-27T17:00:00.000Z",
+    "opponentId": "1564",
+    "goalsFor": 5,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5B",
+    "matchId": "57149",
+    "kickoff": "2026-11-05T19:00:00.000Z",
+    "opponentId": "228",
+    "goalsFor": 3,
+    "goalsAgainst": 8
+   }
+  }
+ },
+ "cleanSheets": 1,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 9,
+  "coveredMatches": 9,
+  "rows": [
+   {
+    "name": "Schrick Benjámin",
+    "goals": 13,
+    "matches": 5,
+    "hatTricks": 2
+   },
+   {
+    "name": "Kemecsei Kristóf Ákos",
+    "goals": 6,
+    "matches": 2,
+    "hatTricks": 1
+   },
+   {
+    "name": "Bogdán Zalán Attila",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Göndör Dávid",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Olajos Sámuel",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Mészáros Péter",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

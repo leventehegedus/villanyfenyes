@@ -6,6 +6,24 @@
  ],
  "seasons": [
   {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L3B",
+   "finished": false,
+   "position": 8,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 6,
+    "won": 3,
+    "drawn": 0,
+    "lost": 3,
+    "goalsFor": 19,
+    "goalsAgainst": 27,
+    "points": 9
+   }
+  },
+  {
    "seasonId": 9,
    "label": "2022 - Ősz",
    "league": "L1",
@@ -154,15 +172,93 @@
     "goalsAgainst": 8,
     "points": 0
    }
+  },
+  {
+   "teamId": "162",
+   "name": "Szikla",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "146",
+   "name": "Lokomotív Akadémia",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "119",
+   "name": "Egri Különítmény",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "27",
+   "name": "Minden héten háború",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "168",
+   "name": "Babyblue",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "190",
+   "name": "Csibészek",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 4,
+    "points": 3
+   }
   }
  ],
  "records": {
   "biggestWin": {
-   "seasonId": 9,
-   "league": "L1",
-   "matchId": "4402",
-   "kickoff": "2022-10-12T17:00:00.000Z",
-   "opponentId": "320",
+   "seasonId": 55,
+   "league": "L3B",
+   "matchId": "56508",
+   "kickoff": "2026-10-19T18:00:00.000Z",
+   "opponentId": "168",
    "goalsFor": 6,
    "goalsAgainst": 3
   },
@@ -187,49 +283,49 @@
  },
  "streaks": {
   "win": {
-   "length": 1,
+   "length": 3,
    "from": {
-    "seasonId": 9,
-    "league": "L1",
-    "matchId": "4402",
-    "kickoff": "2022-10-12T17:00:00.000Z",
-    "opponentId": "320",
-    "goalsFor": 6,
-    "goalsAgainst": 3
+    "seasonId": 55,
+    "league": "L3B",
+    "matchId": "56927",
+    "kickoff": "2026-10-07T16:00:00.000Z",
+    "opponentId": "27",
+    "goalsFor": 4,
+    "goalsAgainst": 2
    },
    "to": {
-    "seasonId": 9,
-    "league": "L1",
-    "matchId": "4402",
-    "kickoff": "2022-10-12T17:00:00.000Z",
-    "opponentId": "320",
+    "seasonId": 55,
+    "league": "L3B",
+    "matchId": "57074",
+    "kickoff": "2026-10-28T17:00:00.000Z",
+    "opponentId": "190",
     "goalsFor": 6,
-    "goalsAgainst": 3
+    "goalsAgainst": 4
    }
   },
   "unbeaten": {
-   "length": 1,
+   "length": 3,
    "from": {
-    "seasonId": 9,
-    "league": "L1",
-    "matchId": "4402",
-    "kickoff": "2022-10-12T17:00:00.000Z",
-    "opponentId": "320",
-    "goalsFor": 6,
-    "goalsAgainst": 3
+    "seasonId": 55,
+    "league": "L3B",
+    "matchId": "56927",
+    "kickoff": "2026-10-07T16:00:00.000Z",
+    "opponentId": "27",
+    "goalsFor": 4,
+    "goalsAgainst": 2
    },
    "to": {
-    "seasonId": 9,
-    "league": "L1",
-    "matchId": "4402",
-    "kickoff": "2022-10-12T17:00:00.000Z",
-    "opponentId": "320",
+    "seasonId": 55,
+    "league": "L3B",
+    "matchId": "57074",
+    "kickoff": "2026-10-28T17:00:00.000Z",
+    "opponentId": "190",
     "goalsFor": 6,
-    "goalsAgainst": 3
+    "goalsAgainst": 4
    }
   },
   "loss": {
-   "length": 5,
+   "length": 8,
    "from": {
     "seasonId": 9,
     "league": "L1",
@@ -240,21 +336,46 @@
     "goalsAgainst": 3
    },
    "to": {
-    "seasonId": 9,
-    "league": "L1",
-    "matchId": "4433",
-    "kickoff": "2022-11-23T18:00:00.000Z",
-    "opponentId": "48",
-    "goalsFor": 4,
-    "goalsAgainst": 8
+    "seasonId": 55,
+    "league": "L3B",
+    "matchId": "56859",
+    "kickoff": "2026-09-30T16:00:00.000Z",
+    "opponentId": "119",
+    "goalsFor": 0,
+    "goalsAgainst": 5
    }
   }
  },
  "cleanSheets": 0,
- "failedToScore": 0,
+ "failedToScore": 1,
  "scorers": {
-  "playedMatches": 10,
-  "coveredMatches": 10,
-  "rows": []
+  "playedMatches": 16,
+  "coveredMatches": 16,
+  "rows": [
+   {
+    "name": "Csonka Máté",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Dávid Szujkó",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Juhász Tamás",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Verbovszky Bence",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
  }
 }

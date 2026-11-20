@@ -6,6 +6,24 @@
  ],
  "seasons": [
   {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L3A",
+   "finished": false,
+   "position": 5,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 3,
+    "drawn": 1,
+    "lost": 3,
+    "goalsFor": 38,
+    "goalsAgainst": 28,
+    "points": 10
+   }
+  },
+  {
    "seasonId": 15,
    "label": "2018 - Ősz",
    "league": "L1",
@@ -236,12 +254,12 @@
    "teamId": "82",
    "name": "Berúg FC",
    "totals": {
-    "played": 1,
+    "played": 2,
     "won": 1,
     "drawn": 0,
-    "lost": 0,
-    "goalsFor": 7,
-    "goalsAgainst": 1,
+    "lost": 1,
+    "goalsFor": 12,
+    "goalsAgainst": 9,
     "points": 3
    }
   },
@@ -543,17 +561,95 @@
     "goalsAgainst": 0,
     "points": 3
    }
+  },
+  {
+   "teamId": "95",
+   "name": "fc akármi",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1480",
+   "name": "A Polgár Jenő",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "176",
+   "name": "KrumpliVanEladó",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "208",
+   "name": "PÉNISZ LAND",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 14,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "26",
+   "name": "Kópészelet",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "198",
+   "name": "KungFuci",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 2,
+    "points": 1
+   }
   }
  ],
  "records": {
   "biggestWin": {
-   "seasonId": 24,
-   "league": "L1",
-   "matchId": "22515",
-   "kickoff": "2014-05-19T17:00:00.000Z",
-   "opponentId": "82",
-   "goalsFor": 7,
-   "goalsAgainst": 1
+   "seasonId": 55,
+   "league": "L3A",
+   "matchId": "57004",
+   "kickoff": "2026-10-14T20:00:00.000Z",
+   "opponentId": "208",
+   "goalsFor": 14,
+   "goalsAgainst": 4
   },
   "biggestDefeat": {
    "seasonId": 29,
@@ -565,13 +661,13 @@
    "goalsAgainst": 10
   },
   "highestScoring": {
-   "seasonId": 29,
-   "league": "L1",
-   "matchId": "28310",
-   "kickoff": "2025-05-19T05:58:22.000Z",
-   "opponentId": "395",
-   "goalsFor": 3,
-   "goalsAgainst": 10
+   "seasonId": 55,
+   "league": "L3A",
+   "matchId": "57004",
+   "kickoff": "2026-10-14T20:00:00.000Z",
+   "opponentId": "208",
+   "goalsFor": 14,
+   "goalsAgainst": 4
   }
  },
  "streaks": {
@@ -642,8 +738,57 @@
  "cleanSheets": 2,
  "failedToScore": 1,
  "scorers": {
-  "playedMatches": 66,
-  "coveredMatches": 66,
-  "rows": []
+  "playedMatches": 73,
+  "coveredMatches": 73,
+  "rows": [
+   {
+    "name": "Bitay Zsolt",
+    "goals": 7,
+    "matches": 4,
+    "hatTricks": 1
+   },
+   {
+    "name": "Makai Kristóf",
+    "goals": 6,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Molnár Tamás",
+    "goals": 5,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Nagy Márton",
+    "goals": 5,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Pavlics László",
+    "goals": 5,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Takács Máté",
+    "goals": 5,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "György Dániel",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Krányecz Csaba",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
  }
 }

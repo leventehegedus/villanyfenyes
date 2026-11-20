@@ -1,0 +1,257 @@
+{
+ "schemaVersion": 1,
+ "teamId": "219",
+ "names": [
+  "SÜSÜ FC"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L3C",
+   "finished": false,
+   "position": 4,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 6,
+    "won": 5,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 34,
+    "goalsAgainst": 15,
+    "points": 15
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "1496",
+   "name": "Tröger Fc",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "133",
+   "name": "Crooks",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "118",
+   "name": "Atletico Vasutas SE",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "77",
+   "name": "Keverton",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 11,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "124",
+   "name": "Esélyetek SE",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "192",
+   "name": "SNASA 2.0",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L3C",
+   "matchId": "56882",
+   "kickoff": "2026-10-07T17:00:00.000Z",
+   "opponentId": "77",
+   "goalsFor": 11,
+   "goalsAgainst": 1
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L3C",
+   "matchId": "57007",
+   "kickoff": "2026-10-12T16:00:00.000Z",
+   "opponentId": "124",
+   "goalsFor": 4,
+   "goalsAgainst": 6
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L3C",
+   "matchId": "56882",
+   "kickoff": "2026-10-07T17:00:00.000Z",
+   "opponentId": "77",
+   "goalsFor": 11,
+   "goalsAgainst": 1
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 4,
+   "from": {
+    "seasonId": 55,
+    "league": "L3C",
+    "matchId": "56583",
+    "kickoff": "2026-09-08T18:00:00.000Z",
+    "opponentId": "1496",
+    "goalsFor": 4,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3C",
+    "matchId": "56882",
+    "kickoff": "2026-10-07T17:00:00.000Z",
+    "opponentId": "77",
+    "goalsFor": 11,
+    "goalsAgainst": 1
+   }
+  },
+  "unbeaten": {
+   "length": 4,
+   "from": {
+    "seasonId": 55,
+    "league": "L3C",
+    "matchId": "56583",
+    "kickoff": "2026-09-08T18:00:00.000Z",
+    "opponentId": "1496",
+    "goalsFor": 4,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3C",
+    "matchId": "56882",
+    "kickoff": "2026-10-07T17:00:00.000Z",
+    "opponentId": "77",
+    "goalsFor": 11,
+    "goalsAgainst": 1
+   }
+  },
+  "loss": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L3C",
+    "matchId": "57007",
+    "kickoff": "2026-10-12T16:00:00.000Z",
+    "opponentId": "124",
+    "goalsFor": 4,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3C",
+    "matchId": "57007",
+    "kickoff": "2026-10-12T16:00:00.000Z",
+    "opponentId": "124",
+    "goalsFor": 4,
+    "goalsAgainst": 6
+   }
+  }
+ },
+ "cleanSheets": 1,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 6,
+  "coveredMatches": 6,
+  "rows": [
+   {
+    "name": "Füzesi Vince",
+    "goals": 10,
+    "matches": 5,
+    "hatTricks": 2
+   },
+   {
+    "name": "Lippai Gergely",
+    "goals": 5,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Németh Konrád János",
+    "goals": 5,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Tábori Péter",
+    "goals": 5,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Leleszi Márton",
+    "goals": 3,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Molnár Csaba",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "LOBMAYER BENDEGÚZ",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Zsigmond Boldizsár",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

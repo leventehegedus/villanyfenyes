@@ -1,0 +1,252 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1523",
+ "names": [
+  "Entspannter Team"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L4A",
+   "finished": false,
+   "position": 11,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 7,
+    "won": 1,
+    "drawn": 0,
+    "lost": 6,
+    "goalsFor": 22,
+    "goalsAgainst": 40,
+    "points": 3
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "126",
+   "name": "Havankapus6-5",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1521",
+   "name": "JSE",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "36",
+   "name": "Gabriel Jesus",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "20",
+   "name": "Kispályások",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "205",
+   "name": "KFC Light",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "34",
+   "name": "Semmi DADDA",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 6,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "172",
+   "name": "aha",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L4A",
+   "matchId": "57128",
+   "kickoff": "2026-10-26T18:00:00.000Z",
+   "opponentId": "34",
+   "goalsFor": 8,
+   "goalsAgainst": 6
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L4A",
+   "matchId": "57234",
+   "kickoff": "2026-11-11T18:00:00.000Z",
+   "opponentId": "172",
+   "goalsFor": 0,
+   "goalsAgainst": 5
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L4A",
+   "matchId": "57128",
+   "kickoff": "2026-10-26T18:00:00.000Z",
+   "opponentId": "34",
+   "goalsFor": 8,
+   "goalsAgainst": 6
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L4A",
+    "matchId": "57128",
+    "kickoff": "2026-10-26T18:00:00.000Z",
+    "opponentId": "34",
+    "goalsFor": 8,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4A",
+    "matchId": "57128",
+    "kickoff": "2026-10-26T18:00:00.000Z",
+    "opponentId": "34",
+    "goalsFor": 8,
+    "goalsAgainst": 6
+   }
+  },
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L4A",
+    "matchId": "57128",
+    "kickoff": "2026-10-26T18:00:00.000Z",
+    "opponentId": "34",
+    "goalsFor": 8,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4A",
+    "matchId": "57128",
+    "kickoff": "2026-10-26T18:00:00.000Z",
+    "opponentId": "34",
+    "goalsFor": 8,
+    "goalsAgainst": 6
+   }
+  },
+  "loss": {
+   "length": 5,
+   "from": {
+    "seasonId": 55,
+    "league": "L4A",
+    "matchId": "56630",
+    "kickoff": "2026-09-08T16:00:00.000Z",
+    "opponentId": "126",
+    "goalsFor": 5,
+    "goalsAgainst": 9
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4A",
+    "matchId": "56911",
+    "kickoff": "2026-10-05T19:00:00.000Z",
+    "opponentId": "205",
+    "goalsFor": 4,
+    "goalsAgainst": 5
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 1,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Kocsis Gellért",
+    "goals": 8,
+    "matches": 4,
+    "hatTricks": 2
+   },
+   {
+    "name": "Csordás Kevin",
+    "goals": 7,
+    "matches": 4,
+    "hatTricks": 1
+   },
+   {
+    "name": "Jánosi Imre Hunor",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Bíró Dávid",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Cseresznye Zalán",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

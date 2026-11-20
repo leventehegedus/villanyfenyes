@@ -1,0 +1,236 @@
+{
+ "schemaVersion": 1,
+ "teamId": "209",
+ "names": [
+  "FC SÖR"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5A",
+   "finished": false,
+   "position": 12,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 0,
+    "drawn": 2,
+    "lost": 5,
+    "goalsFor": 22,
+    "goalsAgainst": 31,
+    "points": 2
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "1550",
+   "name": "Elmarad FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "44",
+   "name": "BKG",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1526",
+   "name": "FC MENNYIVANMÉG",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1493",
+   "name": "Keverton Klub",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "19",
+   "name": "A kispad legjobbjai",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1562",
+   "name": "CF Calma",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 2,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "151",
+   "name": "Csokihiány",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 4,
+    "points": 1
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": null,
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5A",
+   "matchId": "56857",
+   "kickoff": "2026-10-02T19:00:00.000Z",
+   "opponentId": "1493",
+   "goalsFor": 2,
+   "goalsAgainst": 6
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5A",
+   "matchId": "56789",
+   "kickoff": "2026-09-28T20:00:00.000Z",
+   "opponentId": "1526",
+   "goalsFor": 5,
+   "goalsAgainst": 6
+  }
+ },
+ "streaks": {
+  "win": null,
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5A",
+    "matchId": "57003",
+    "kickoff": "2026-10-16T18:00:00.000Z",
+    "opponentId": "1562",
+    "goalsFor": 2,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5A",
+    "matchId": "57235",
+    "kickoff": "2026-11-12T18:00:00.000Z",
+    "opponentId": "151",
+    "goalsFor": 4,
+    "goalsAgainst": 4
+   }
+  },
+  "loss": {
+   "length": 5,
+   "from": {
+    "seasonId": 55,
+    "league": "L5A",
+    "matchId": "56521",
+    "kickoff": "2026-08-31T18:00:00.000Z",
+    "opponentId": "1550",
+    "goalsFor": 4,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5A",
+    "matchId": "56925",
+    "kickoff": "2026-10-08T16:00:00.000Z",
+    "opponentId": "19",
+    "goalsFor": 2,
+    "goalsAgainst": 3
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Medgyesy Csongor",
+    "goals": 6,
+    "matches": 5,
+    "hatTricks": 0
+   },
+   {
+    "name": "Czencz Gábor",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Ágoston Tatár",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Havasi Róbert Dániel",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Ander Leon",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Musitz Bendegúz",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Pflanzner Ákos",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

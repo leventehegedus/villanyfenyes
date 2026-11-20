@@ -6,6 +6,24 @@
  ],
  "seasons": [
   {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L2A",
+   "finished": false,
+   "position": 8,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 3,
+    "drawn": 0,
+    "lost": 4,
+    "goalsFor": 27,
+    "goalsAgainst": 39,
+    "points": 9
+   }
+  },
+  {
    "seasonId": 53,
    "label": "2026 - TAVASZ",
    "league": "L1",
@@ -94,13 +112,13 @@
    "teamId": "23",
    "name": "CS Tanszék",
    "totals": {
-    "played": 1,
-    "won": 0,
+    "played": 2,
+    "won": 1,
     "drawn": 0,
     "lost": 1,
-    "goalsFor": 3,
-    "goalsAgainst": 8,
-    "points": 0
+    "goalsFor": 9,
+    "goalsAgainst": 11,
+    "points": 3
    }
   },
   {
@@ -167,26 +185,104 @@
     "goalsAgainst": 6,
     "points": 0
    }
+  },
+  {
+   "teamId": "139",
+   "name": "Inteam CF",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "109",
+   "name": "Absinthe FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "38",
+   "name": "Szeszpanyol",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 10,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "179",
+   "name": "Drink Team",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "48",
+   "name": "Együtt szárszóért",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "170",
+   "name": "FC Gyulai Kolbászok powered by Vácszentlászló SC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 4,
+    "points": 0
+   }
   }
  ],
  "records": {
   "biggestWin": {
-   "seasonId": 53,
-   "league": "L1",
-   "matchId": "47731",
-   "kickoff": "2026-04-29T19:00:00.000Z",
-   "opponentId": "100",
-   "goalsFor": 8,
-   "goalsAgainst": 6
+   "seasonId": 55,
+   "league": "L2A",
+   "matchId": "56932",
+   "kickoff": "2026-10-06T19:00:00.000Z",
+   "opponentId": "179",
+   "goalsFor": 6,
+   "goalsAgainst": 2
   },
   "biggestDefeat": {
-   "seasonId": 53,
-   "league": "L1",
-   "matchId": "47578",
-   "kickoff": "2026-04-15T19:00:00.000Z",
-   "opponentId": "23",
-   "goalsFor": 3,
-   "goalsAgainst": 8
+   "seasonId": 55,
+   "league": "L2A",
+   "matchId": "56759",
+   "kickoff": "2026-09-21T19:00:00.000Z",
+   "opponentId": "38",
+   "goalsFor": 2,
+   "goalsAgainst": 10
   },
   "highestScoring": {
    "seasonId": 53,
@@ -200,107 +296,107 @@
  },
  "streaks": {
   "win": {
-   "length": 1,
+   "length": 3,
    "from": {
-    "seasonId": 53,
-    "league": "L1",
-    "matchId": "47731",
-    "kickoff": "2026-04-29T19:00:00.000Z",
-    "opponentId": "100",
-    "goalsFor": 8,
-    "goalsAgainst": 6
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "56843",
+    "kickoff": "2026-09-28T19:00:00.000Z",
+    "opponentId": "23",
+    "goalsFor": 6,
+    "goalsAgainst": 3
    },
    "to": {
-    "seasonId": 53,
-    "league": "L1",
-    "matchId": "47731",
-    "kickoff": "2026-04-29T19:00:00.000Z",
-    "opponentId": "100",
-    "goalsFor": 8,
-    "goalsAgainst": 6
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "57140",
+    "kickoff": "2026-10-30T18:00:00.000Z",
+    "opponentId": "48",
+    "goalsFor": 6,
+    "goalsAgainst": 4
    }
   },
   "unbeaten": {
-   "length": 1,
+   "length": 3,
    "from": {
-    "seasonId": 53,
-    "league": "L1",
-    "matchId": "47731",
-    "kickoff": "2026-04-29T19:00:00.000Z",
-    "opponentId": "100",
-    "goalsFor": 8,
-    "goalsAgainst": 6
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "56843",
+    "kickoff": "2026-09-28T19:00:00.000Z",
+    "opponentId": "23",
+    "goalsFor": 6,
+    "goalsAgainst": 3
    },
    "to": {
-    "seasonId": 53,
-    "league": "L1",
-    "matchId": "47731",
-    "kickoff": "2026-04-29T19:00:00.000Z",
-    "opponentId": "100",
-    "goalsFor": 8,
-    "goalsAgainst": 6
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "57140",
+    "kickoff": "2026-10-30T18:00:00.000Z",
+    "opponentId": "48",
+    "goalsFor": 6,
+    "goalsAgainst": 4
    }
   },
   "loss": {
-   "length": 4,
+   "length": 6,
    "from": {
     "seasonId": 53,
     "league": "L1",
-    "matchId": "47438",
-    "kickoff": "2026-04-01T17:00:00.000Z",
-    "opponentId": "69",
-    "goalsFor": 2,
-    "goalsAgainst": 6
-   },
-   "to": {
-    "seasonId": 53,
-    "league": "L1",
-    "matchId": "47647",
-    "kickoff": "2026-04-21T17:00:00.000Z",
-    "opponentId": "142",
+    "matchId": "47786",
+    "kickoff": "2026-05-05T17:00:00.000Z",
+    "opponentId": "149",
     "goalsFor": 1,
     "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "56759",
+    "kickoff": "2026-09-21T19:00:00.000Z",
+    "opponentId": "38",
+    "goalsFor": 2,
+    "goalsAgainst": 10
    }
   }
  },
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 11,
-  "coveredMatches": 11,
+  "playedMatches": 18,
+  "coveredMatches": 18,
   "rows": [
    {
     "name": "Tüttő Olivér",
-    "goals": 14,
-    "matches": 7,
-    "hatTricks": 2
-   },
-   {
-    "name": "Balogh Bálint",
-    "goals": 4,
-    "matches": 4,
-    "hatTricks": 0
+    "goals": 20,
+    "matches": 10,
+    "hatTricks": 3
    },
    {
     "name": "Vigh Balázs",
+    "goals": 8,
+    "matches": 6,
+    "hatTricks": 0
+   },
+   {
+    "name": "Balogh Bálint",
+    "goals": 7,
+    "matches": 7,
+    "hatTricks": 0
+   },
+   {
+    "name": "Zoltán Prantner",
+    "goals": 7,
+    "matches": 6,
+    "hatTricks": 0
+   },
+   {
+    "name": "Koch Bernát",
     "goals": 4,
     "matches": 3,
     "hatTricks": 0
    },
    {
     "name": "Gecsei Mátyás",
-    "goals": 3,
-    "matches": 3,
-    "hatTricks": 0
-   },
-   {
-    "name": "Koch Bernát",
-    "goals": 3,
-    "matches": 2,
-    "hatTricks": 0
-   },
-   {
-    "name": "Zoltán Prantner",
     "goals": 3,
     "matches": 3,
     "hatTricks": 0

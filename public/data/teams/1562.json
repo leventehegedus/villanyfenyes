@@ -1,0 +1,270 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1562",
+ "names": [
+  "CF Calma"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5A",
+   "finished": false,
+   "position": 10,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 7,
+    "won": 1,
+    "drawn": 3,
+    "lost": 3,
+    "goalsFor": 19,
+    "goalsAgainst": 36,
+    "points": 6
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "44",
+   "name": "BKG",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "151",
+   "name": "Csokihiány",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1493",
+   "name": "Keverton Klub",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 13,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "56",
+   "name": "ZártOsztály",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "209",
+   "name": "FC SÖR",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 2,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "42",
+   "name": "Gépgólyák",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 5,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "120",
+   "name": "Massive attack",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 2,
+    "points": 1
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5A",
+   "matchId": "56693",
+   "kickoff": "2026-09-18T18:00:00.000Z",
+   "opponentId": "151",
+   "goalsFor": 6,
+   "goalsAgainst": 5
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5A",
+   "matchId": "56792",
+   "kickoff": "2026-09-25T19:00:00.000Z",
+   "opponentId": "1493",
+   "goalsFor": 1,
+   "goalsAgainst": 13
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5A",
+   "matchId": "56792",
+   "kickoff": "2026-09-25T19:00:00.000Z",
+   "opponentId": "1493",
+   "goalsFor": 1,
+   "goalsAgainst": 13
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5A",
+    "matchId": "56693",
+    "kickoff": "2026-09-18T18:00:00.000Z",
+    "opponentId": "151",
+    "goalsFor": 6,
+    "goalsAgainst": 5
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5A",
+    "matchId": "56693",
+    "kickoff": "2026-09-18T18:00:00.000Z",
+    "opponentId": "151",
+    "goalsFor": 6,
+    "goalsAgainst": 5
+   }
+  },
+  "unbeaten": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L5A",
+    "matchId": "57003",
+    "kickoff": "2026-10-16T18:00:00.000Z",
+    "opponentId": "209",
+    "goalsFor": 2,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5A",
+    "matchId": "57182",
+    "kickoff": "2026-11-06T20:00:00.000Z",
+    "opponentId": "120",
+    "goalsFor": 2,
+    "goalsAgainst": 2
+   }
+  },
+  "loss": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5A",
+    "matchId": "56792",
+    "kickoff": "2026-09-25T19:00:00.000Z",
+    "opponentId": "1493",
+    "goalsFor": 1,
+    "goalsAgainst": 13
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5A",
+    "matchId": "56853",
+    "kickoff": "2026-10-02T18:00:00.000Z",
+    "opponentId": "56",
+    "goalsFor": 0,
+    "goalsAgainst": 3
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 1,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Dovák Csaba",
+    "goals": 4,
+    "matches": 2,
+    "hatTricks": 1
+   },
+   {
+    "name": "Draviczky Ádám",
+    "goals": 4,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Levente Simko",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Tőkés Bálint",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Molnár Balázs",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Bónizs Balázs",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Csatári Péter",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Oroszvári Zsombor",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

@@ -1,0 +1,251 @@
+{
+ "schemaVersion": 1,
+ "teamId": "80",
+ "names": [
+  "SZIG Stars"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L4B",
+   "finished": false,
+   "position": 7,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 6,
+    "won": 3,
+    "drawn": 1,
+    "lost": 2,
+    "goalsFor": 24,
+    "goalsAgainst": 28,
+    "points": 10
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "54",
+   "name": "Szürkemackók",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1482",
+   "name": "Felizgatott Makarónik",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "32",
+   "name": "Grund SE",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "106",
+   "name": "Gyros FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1507",
+   "name": "Twisters",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 15,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "62",
+   "name": "Whiskey Tango Foxtrot",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 4,
+    "points": 1
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L4B",
+   "matchId": "56529",
+   "kickoff": "2026-10-16T16:00:00.000Z",
+   "opponentId": "106",
+   "goalsFor": 5,
+   "goalsAgainst": 0
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L4B",
+   "matchId": "57158",
+   "kickoff": "2026-11-04T20:00:00.000Z",
+   "opponentId": "1507",
+   "goalsFor": 5,
+   "goalsAgainst": 15
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L4B",
+   "matchId": "57158",
+   "kickoff": "2026-11-04T20:00:00.000Z",
+   "opponentId": "1507",
+   "goalsFor": 5,
+   "goalsAgainst": 15
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L4B",
+    "matchId": "56804",
+    "kickoff": "2026-10-01T18:00:00.000Z",
+    "opponentId": "32",
+    "goalsFor": 3,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4B",
+    "matchId": "56529",
+    "kickoff": "2026-10-16T16:00:00.000Z",
+    "opponentId": "106",
+    "goalsFor": 5,
+    "goalsAgainst": 0
+   }
+  },
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L4B",
+    "matchId": "56804",
+    "kickoff": "2026-10-01T18:00:00.000Z",
+    "opponentId": "32",
+    "goalsFor": 3,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4B",
+    "matchId": "56529",
+    "kickoff": "2026-10-16T16:00:00.000Z",
+    "opponentId": "106",
+    "goalsFor": 5,
+    "goalsAgainst": 0
+   }
+  },
+  "loss": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L4B",
+    "matchId": "57158",
+    "kickoff": "2026-11-04T20:00:00.000Z",
+    "opponentId": "1507",
+    "goalsFor": 5,
+    "goalsAgainst": 15
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4B",
+    "matchId": "57158",
+    "kickoff": "2026-11-04T20:00:00.000Z",
+    "opponentId": "1507",
+    "goalsFor": 5,
+    "goalsAgainst": 15
+   }
+  }
+ },
+ "cleanSheets": 1,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 6,
+  "coveredMatches": 6,
+  "rows": [
+   {
+    "name": "Szöllősi Bálint",
+    "goals": 8,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Barna Kristóf",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Juhász Zoltán",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Király Kristóf",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Béres Oliver",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Révész Roland",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Varga Márk",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

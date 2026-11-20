@@ -6,6 +6,24 @@
  ],
  "seasons": [
   {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L2B",
+   "finished": false,
+   "position": 4,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 8,
+    "won": 4,
+    "drawn": 0,
+    "lost": 4,
+    "goalsFor": 41,
+    "goalsAgainst": 36,
+    "points": 12
+   }
+  },
+  {
    "seasonId": 53,
    "label": "2026 - TAVASZ",
    "league": "L1",
@@ -83,12 +101,12 @@
    "teamId": "37",
    "name": "CF Babinénik",
    "totals": {
-    "played": 2,
+    "played": 3,
     "won": 2,
     "drawn": 0,
-    "lost": 0,
-    "goalsFor": 21,
-    "goalsAgainst": 5,
+    "lost": 1,
+    "goalsFor": 28,
+    "goalsAgainst": 13,
     "points": 6
    }
   },
@@ -96,12 +114,12 @@
    "teamId": "197",
    "name": "Ridomil SC",
    "totals": {
-    "played": 1,
+    "played": 2,
     "won": 1,
     "drawn": 0,
-    "lost": 0,
-    "goalsFor": 10,
-    "goalsAgainst": 5,
+    "lost": 1,
+    "goalsFor": 11,
+    "goalsAgainst": 10,
     "points": 3
    }
   },
@@ -226,13 +244,13 @@
    "teamId": "29",
    "name": "Tunyacsáp",
    "totals": {
-    "played": 1,
-    "won": 1,
+    "played": 2,
+    "won": 2,
     "drawn": 0,
     "lost": 0,
-    "goalsFor": 6,
-    "goalsAgainst": 1,
-    "points": 3
+    "goalsFor": 12,
+    "goalsAgainst": 6,
+    "points": 6
    }
   },
   {
@@ -330,13 +348,13 @@
    "teamId": "182",
    "name": "Vergewalti GANG",
    "totals": {
-    "played": 1,
-    "won": 1,
+    "played": 2,
+    "won": 2,
     "drawn": 0,
     "lost": 0,
-    "goalsFor": 7,
-    "goalsAgainst": 2,
-    "points": 3
+    "goalsFor": 22,
+    "goalsAgainst": 4,
+    "points": 6
    }
   },
   {
@@ -364,26 +382,78 @@
     "goalsAgainst": 4,
     "points": 3
    }
+  },
+  {
+   "teamId": "116",
+   "name": "Toilet Time",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "31",
+   "name": "SZIKértelem",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "81",
+   "name": "BallDogs",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "123",
+   "name": "Dzsum Dzsum",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 8,
+    "points": 0
+   }
   }
  ],
  "records": {
   "biggestWin": {
-   "seasonId": 5,
-   "league": "L1",
-   "matchId": "1068",
-   "kickoff": "2025-05-21T19:00:00.000Z",
-   "opponentId": "37",
-   "goalsFor": 14,
-   "goalsAgainst": 3
+   "seasonId": 55,
+   "league": "L2B",
+   "matchId": "57151",
+   "kickoff": "2026-11-03T20:00:00.000Z",
+   "opponentId": "182",
+   "goalsFor": 15,
+   "goalsAgainst": 2
   },
   "biggestDefeat": {
-   "seasonId": 53,
-   "league": "L1",
-   "matchId": "47726",
-   "kickoff": "2026-04-28T18:00:00.000Z",
-   "opponentId": "199",
-   "goalsFor": 1,
-   "goalsAgainst": 6
+   "seasonId": 55,
+   "league": "L2B",
+   "matchId": "57048",
+   "kickoff": "2026-10-20T18:00:00.000Z",
+   "opponentId": "123",
+   "goalsFor": 2,
+   "goalsAgainst": 8
   },
   "highestScoring": {
    "seasonId": 6,
@@ -439,7 +509,7 @@
    }
   },
   "loss": {
-   "length": 3,
+   "length": 4,
    "from": {
     "seasonId": 53,
     "league": "L1",
@@ -450,45 +520,45 @@
     "goalsAgainst": 5
    },
    "to": {
-    "seasonId": 53,
-    "league": "L1",
-    "matchId": "47865",
-    "kickoff": "2026-05-13T17:00:00.000Z",
-    "opponentId": "69",
-    "goalsFor": 3,
-    "goalsAgainst": 5
+    "seasonId": 55,
+    "league": "L2B",
+    "matchId": "56552",
+    "kickoff": "2026-09-02T18:00:00.000Z",
+    "opponentId": "116",
+    "goalsFor": 2,
+    "goalsAgainst": 4
    }
   }
  },
  "cleanSheets": 1,
  "failedToScore": 2,
  "scorers": {
-  "playedMatches": 42,
-  "coveredMatches": 42,
+  "playedMatches": 50,
+  "coveredMatches": 50,
   "rows": [
    {
     "name": "Horváth Ádám",
-    "goals": 24,
-    "matches": 13,
-    "hatTricks": 2
+    "goals": 41,
+    "matches": 18,
+    "hatTricks": 4
    },
    {
     "name": "Györkös Bence",
-    "goals": 17,
-    "matches": 10,
-    "hatTricks": 2
+    "goals": 21,
+    "matches": 12,
+    "hatTricks": 3
    },
    {
     "name": "Bálint Varga",
-    "goals": 11,
-    "matches": 6,
-    "hatTricks": 1
+    "goals": 16,
+    "matches": 9,
+    "hatTricks": 2
    },
    {
     "name": "Reichardt Gábor",
-    "goals": 11,
-    "matches": 9,
-    "hatTricks": 0
+    "goals": 16,
+    "matches": 11,
+    "hatTricks": 1
    },
    {
     "name": "Csanálosi Patrik",
@@ -498,14 +568,14 @@
    },
    {
     "name": "Köntés Balázs",
-    "goals": 3,
-    "matches": 2,
+    "goals": 5,
+    "matches": 4,
     "hatTricks": 0
    },
    {
     "name": "Venczel Bálint",
-    "goals": 3,
-    "matches": 3,
+    "goals": 5,
+    "matches": 5,
     "hatTricks": 0
    },
    {

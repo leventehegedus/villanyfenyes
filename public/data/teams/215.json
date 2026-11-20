@@ -1,0 +1,239 @@
+{
+ "schemaVersion": 1,
+ "teamId": "215",
+ "names": [
+  "Csendes FIFA"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5B",
+   "finished": false,
+   "position": 11,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 6,
+    "won": 1,
+    "drawn": 1,
+    "lost": 4,
+    "goalsFor": 15,
+    "goalsAgainst": 21,
+    "points": 4
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "105",
+   "name": "Joga Bonito",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "24",
+   "name": "A jó, a rossz és a dagadt",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 3,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "58",
+   "name": "Jó az X",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1483",
+   "name": "Al Kohol",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 4,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "143",
+   "name": "Magyi",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "125",
+   "name": "Alibi FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5B",
+   "matchId": "56907",
+   "kickoff": "2026-10-06T18:00:00.000Z",
+   "opponentId": "58",
+   "goalsFor": 4,
+   "goalsAgainst": 3
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5B",
+   "matchId": "57232",
+   "kickoff": "2026-11-11T18:00:00.000Z",
+   "opponentId": "125",
+   "goalsFor": 2,
+   "goalsAgainst": 5
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5B",
+   "matchId": "57232",
+   "kickoff": "2026-11-11T18:00:00.000Z",
+   "opponentId": "125",
+   "goalsFor": 2,
+   "goalsAgainst": 5
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5B",
+    "matchId": "56907",
+    "kickoff": "2026-10-06T18:00:00.000Z",
+    "opponentId": "58",
+    "goalsFor": 4,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5B",
+    "matchId": "56907",
+    "kickoff": "2026-10-06T18:00:00.000Z",
+    "opponentId": "58",
+    "goalsFor": 4,
+    "goalsAgainst": 3
+   }
+  },
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5B",
+    "matchId": "56794",
+    "kickoff": "2026-09-25T17:00:00.000Z",
+    "opponentId": "24",
+    "goalsFor": 3,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5B",
+    "matchId": "56907",
+    "kickoff": "2026-10-06T18:00:00.000Z",
+    "opponentId": "58",
+    "goalsFor": 4,
+    "goalsAgainst": 3
+   }
+  },
+  "loss": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L5B",
+    "matchId": "57008",
+    "kickoff": "2026-10-16T18:00:00.000Z",
+    "opponentId": "1483",
+    "goalsFor": 3,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5B",
+    "matchId": "57232",
+    "kickoff": "2026-11-11T18:00:00.000Z",
+    "opponentId": "125",
+    "goalsFor": 2,
+    "goalsAgainst": 5
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 6,
+  "coveredMatches": 6,
+  "rows": [
+   {
+    "name": "Matyi Bálint",
+    "goals": 5,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Zsoldi Ádám",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Adrien Morin",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Hódi Péter",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Molnár Csaba Gábor",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

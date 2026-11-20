@@ -1,0 +1,257 @@
+{
+ "schemaVersion": 1,
+ "teamId": "136",
+ "names": [
+  "Leverpool"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L2A",
+   "finished": false,
+   "position": 9,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 6,
+    "won": 2,
+    "drawn": 0,
+    "lost": 4,
+    "goalsFor": 24,
+    "goalsAgainst": 39,
+    "points": 6
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "170",
+   "name": "FC Gyulai Kolbászok powered by Vácszentlászló SC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "139",
+   "name": "Inteam CF",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 10,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "48",
+   "name": "Együtt szárszóért",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "45",
+   "name": "National Sechs",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 10,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "70",
+   "name": "Apacza FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "179",
+   "name": "Drink Team",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 10,
+    "goalsAgainst": 6,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L2A",
+   "matchId": "57079",
+   "kickoff": "2026-10-28T19:00:00.000Z",
+   "opponentId": "179",
+   "goalsFor": 10,
+   "goalsAgainst": 6
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L2A",
+   "matchId": "56527",
+   "kickoff": "2026-09-21T20:00:00.000Z",
+   "opponentId": "139",
+   "goalsFor": 1,
+   "goalsAgainst": 10
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L2A",
+   "matchId": "57079",
+   "kickoff": "2026-10-28T19:00:00.000Z",
+   "opponentId": "179",
+   "goalsFor": 10,
+   "goalsAgainst": 6
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "57014",
+    "kickoff": "2026-10-16T19:00:00.000Z",
+    "opponentId": "70",
+    "goalsFor": 7,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "57079",
+    "kickoff": "2026-10-28T19:00:00.000Z",
+    "opponentId": "179",
+    "goalsFor": 10,
+    "goalsAgainst": 6
+   }
+  },
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "57014",
+    "kickoff": "2026-10-16T19:00:00.000Z",
+    "opponentId": "70",
+    "goalsFor": 7,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "57079",
+    "kickoff": "2026-10-28T19:00:00.000Z",
+    "opponentId": "179",
+    "goalsFor": 10,
+    "goalsAgainst": 6
+   }
+  },
+  "loss": {
+   "length": 4,
+   "from": {
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "56655",
+    "kickoff": "2026-09-09T17:00:00.000Z",
+    "opponentId": "170",
+    "goalsFor": 1,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L2A",
+    "matchId": "56723",
+    "kickoff": "2026-10-06T15:00:00.000Z",
+    "opponentId": "45",
+    "goalsFor": 2,
+    "goalsAgainst": 10
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 6,
+  "coveredMatches": 6,
+  "rows": [
+   {
+    "name": "Lisku Andor Rafael",
+    "goals": 5,
+    "matches": 2,
+    "hatTricks": 1
+   },
+   {
+    "name": "Badinszki Bálint",
+    "goals": 4,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kiss Dániel",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Reznák Zsolt",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Acsai Botond",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Keindl Jakab Mátyás",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kőrösi Dániel",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Radeczki Gábor",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

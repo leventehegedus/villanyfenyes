@@ -1,0 +1,245 @@
+{
+ "schemaVersion": 1,
+ "teamId": "203",
+ "names": [
+  "Gólvágóhíd"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5F",
+   "finished": false,
+   "position": 10,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 6,
+    "won": 2,
+    "drawn": 0,
+    "lost": 4,
+    "goalsFor": 24,
+    "goalsAgainst": 49,
+    "points": 6
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "122",
+   "name": "Törtető Maszkos Búzák",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "89",
+   "name": "Big bulls fc",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "55",
+   "name": "Droidhadsereg",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 6,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1552",
+   "name": "Football Fanatix",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 11,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "157",
+   "name": "Ekho",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 15,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1527",
+   "name": "John Pork's eleven",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 6,
+    "goalsAgainst": 11,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5F",
+   "matchId": "56558",
+   "kickoff": "2026-09-04T18:00:00.000Z",
+   "opponentId": "122",
+   "goalsFor": 3,
+   "goalsAgainst": 0
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5F",
+   "matchId": "57001",
+   "kickoff": "2026-10-16T19:00:00.000Z",
+   "opponentId": "157",
+   "goalsFor": 2,
+   "goalsAgainst": 15
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5F",
+   "matchId": "57170",
+   "kickoff": "2026-11-06T19:00:00.000Z",
+   "opponentId": "1527",
+   "goalsFor": 6,
+   "goalsAgainst": 11
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5F",
+    "matchId": "57659",
+    "kickoff": "2026-09-15T16:00:00.000Z",
+    "opponentId": "55",
+    "goalsFor": 7,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5F",
+    "matchId": "57659",
+    "kickoff": "2026-09-15T16:00:00.000Z",
+    "opponentId": "55",
+    "goalsFor": 7,
+    "goalsAgainst": 6
+   }
+  },
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5F",
+    "matchId": "57659",
+    "kickoff": "2026-09-15T16:00:00.000Z",
+    "opponentId": "55",
+    "goalsFor": 7,
+    "goalsAgainst": 6
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5F",
+    "matchId": "57659",
+    "kickoff": "2026-09-15T16:00:00.000Z",
+    "opponentId": "55",
+    "goalsFor": 7,
+    "goalsAgainst": 6
+   }
+  },
+  "loss": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L5F",
+    "matchId": "56782",
+    "kickoff": "2026-09-22T18:00:00.000Z",
+    "opponentId": "1552",
+    "goalsFor": 1,
+    "goalsAgainst": 11
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5F",
+    "matchId": "57170",
+    "kickoff": "2026-11-06T19:00:00.000Z",
+    "opponentId": "1527",
+    "goalsFor": 6,
+    "goalsAgainst": 11
+   }
+  }
+ },
+ "cleanSheets": 1,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 6,
+  "coveredMatches": 6,
+  "rows": [
+   {
+    "name": "Oszlányi Zsolt",
+    "goals": 8,
+    "matches": 4,
+    "hatTricks": 1
+   },
+   {
+    "name": "Fülöp Bence",
+    "goals": 4,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Fodor András",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Prezsnyák Péter",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Román Dávid",
+    "goals": 3,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Kovács Gergely",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

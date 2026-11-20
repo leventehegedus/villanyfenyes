@@ -1,0 +1,247 @@
+{
+ "schemaVersion": 1,
+ "teamId": "164",
+ "names": [
+  "Tokmindegy"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5H",
+   "finished": false,
+   "position": 8,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 9,
+    "won": 2,
+    "drawn": 1,
+    "lost": 6,
+    "goalsFor": 42,
+    "goalsAgainst": 68,
+    "points": 7
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "1563",
+   "name": "Móricz All Stars",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "232",
+   "name": "FC Felvidéki Brazilok",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "227",
+   "name": "Villanyfényes Szépség Das Originals.",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 11,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1577",
+   "name": "Rosario Juniors",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1556",
+   "name": "Nagypénz Nagyfoci",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 14,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "91",
+   "name": "Dorsum",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 6,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1524",
+   "name": "Futball Pisták",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 3,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "1566",
+   "name": "Busquets serege",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 13,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "35",
+   "name": "Csimpanzini Bananini",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5H",
+   "matchId": "56770",
+   "kickoff": "2026-09-21T18:00:00.000Z",
+   "opponentId": "227",
+   "goalsFor": 11,
+   "goalsAgainst": 3
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5H",
+   "matchId": "57109",
+   "kickoff": "2026-10-29T18:00:00.000Z",
+   "opponentId": "1566",
+   "goalsFor": 3,
+   "goalsAgainst": 13
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5H",
+   "matchId": "56912",
+   "kickoff": "2026-10-08T17:00:00.000Z",
+   "opponentId": "1556",
+   "goalsFor": 4,
+   "goalsAgainst": 14
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5H",
+    "matchId": "56770",
+    "kickoff": "2026-09-21T18:00:00.000Z",
+    "opponentId": "227",
+    "goalsFor": 11,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5H",
+    "matchId": "56852",
+    "kickoff": "2026-09-29T16:00:00.000Z",
+    "opponentId": "1577",
+    "goalsFor": 7,
+    "goalsAgainst": 5
+   }
+  },
+  "unbeaten": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5H",
+    "matchId": "56770",
+    "kickoff": "2026-09-21T18:00:00.000Z",
+    "opponentId": "227",
+    "goalsFor": 11,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5H",
+    "matchId": "56852",
+    "kickoff": "2026-09-29T16:00:00.000Z",
+    "opponentId": "1577",
+    "goalsFor": 7,
+    "goalsAgainst": 5
+   }
+  },
+  "loss": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L5H",
+    "matchId": "57109",
+    "kickoff": "2026-10-29T18:00:00.000Z",
+    "opponentId": "1566",
+    "goalsFor": 3,
+    "goalsAgainst": 13
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5H",
+    "matchId": "57233",
+    "kickoff": "2026-11-10T17:00:00.000Z",
+    "opponentId": "35",
+    "goalsFor": 2,
+    "goalsAgainst": 5
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 9,
+  "coveredMatches": 9,
+  "rows": []
+ }
+}

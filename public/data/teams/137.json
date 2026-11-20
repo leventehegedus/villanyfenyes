@@ -1,0 +1,160 @@
+{
+ "schemaVersion": 1,
+ "teamId": "137",
+ "names": [
+  "BCE-PhD GoalBreakers"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L4C",
+   "finished": false,
+   "position": 12,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 6,
+    "won": 0,
+    "drawn": 0,
+    "lost": 6,
+    "goalsFor": 17,
+    "goalsAgainst": 36,
+    "points": 0
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "173",
+   "name": "Tipszmiksz",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "86",
+   "name": "Sörfoci",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1512",
+   "name": "Los Magos",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "101",
+   "name": "Squadra",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1504",
+   "name": "Fényév FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "210",
+   "name": "PITE FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": null,
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L4C",
+   "matchId": "56565",
+   "kickoff": "2026-09-08T19:00:00.000Z",
+   "opponentId": "173",
+   "goalsFor": 2,
+   "goalsAgainst": 7
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L4C",
+   "matchId": "56669",
+   "kickoff": "2026-09-15T18:00:00.000Z",
+   "opponentId": "86",
+   "goalsFor": 4,
+   "goalsAgainst": 7
+  }
+ },
+ "streaks": {
+  "win": null,
+  "unbeaten": null,
+  "loss": {
+   "length": 6,
+   "from": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "56565",
+    "kickoff": "2026-09-08T19:00:00.000Z",
+    "opponentId": "173",
+    "goalsFor": 2,
+    "goalsAgainst": 7
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4C",
+    "matchId": "57145",
+    "kickoff": "2026-11-03T19:00:00.000Z",
+    "opponentId": "210",
+    "goalsFor": 3,
+    "goalsAgainst": 5
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 6,
+  "coveredMatches": 6,
+  "rows": []
+ }
+}

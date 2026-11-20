@@ -1,0 +1,233 @@
+{
+ "schemaVersion": 1,
+ "teamId": "135",
+ "names": [
+  "Szakik"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5G",
+   "finished": false,
+   "position": 11,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 6,
+    "won": 2,
+    "drawn": 0,
+    "lost": 4,
+    "goalsFor": 20,
+    "goalsAgainst": 37,
+    "points": 6
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "1570",
+   "name": "Gugugaga gang",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1518",
+   "name": "Oso Academy",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 6,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "59",
+   "name": "BeCsúszók",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1534",
+   "name": "George FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 10,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1567",
+   "name": "Taktaharkányi Ifjúsági Fúvószenekar U-40",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 10,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1557",
+   "name": "Footbalekok",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5G",
+   "matchId": "56734",
+   "kickoff": "2026-09-23T17:00:00.000Z",
+   "opponentId": "59",
+   "goalsFor": 7,
+   "goalsAgainst": 4
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5G",
+   "matchId": "56893",
+   "kickoff": "2026-10-05T17:00:00.000Z",
+   "opponentId": "1534",
+   "goalsFor": 0,
+   "goalsAgainst": 10
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5G",
+   "matchId": "56991",
+   "kickoff": "2026-10-12T17:00:00.000Z",
+   "opponentId": "1567",
+   "goalsFor": 5,
+   "goalsAgainst": 10
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "56734",
+    "kickoff": "2026-09-23T17:00:00.000Z",
+    "opponentId": "59",
+    "goalsFor": 7,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "56734",
+    "kickoff": "2026-09-23T17:00:00.000Z",
+    "opponentId": "59",
+    "goalsFor": 7,
+    "goalsAgainst": 4
+   }
+  },
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "56734",
+    "kickoff": "2026-09-23T17:00:00.000Z",
+    "opponentId": "59",
+    "goalsFor": 7,
+    "goalsAgainst": 4
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "56734",
+    "kickoff": "2026-09-23T17:00:00.000Z",
+    "opponentId": "59",
+    "goalsFor": 7,
+    "goalsAgainst": 4
+   }
+  },
+  "loss": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "56893",
+    "kickoff": "2026-10-05T17:00:00.000Z",
+    "opponentId": "1534",
+    "goalsFor": 0,
+    "goalsAgainst": 10
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5G",
+    "matchId": "57171",
+    "kickoff": "2026-11-03T18:00:00.000Z",
+    "opponentId": "1557",
+    "goalsFor": 3,
+    "goalsAgainst": 5
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 1,
+ "scorers": {
+  "playedMatches": 6,
+  "coveredMatches": 6,
+  "rows": [
+   {
+    "name": "Fekete Levente",
+    "goals": 7,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Bertók Dániel",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Magyar Robert Attila",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szőcei Dániel",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

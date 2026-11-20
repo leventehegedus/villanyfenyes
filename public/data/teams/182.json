@@ -6,6 +6,24 @@
  ],
  "seasons": [
   {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L2B",
+   "finished": false,
+   "position": 11,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 7,
+    "won": 1,
+    "drawn": 1,
+    "lost": 5,
+    "goalsFor": 22,
+    "goalsAgainst": 42,
+    "points": 4
+   }
+  },
+  {
    "seasonId": 52,
    "label": "2025 - Ősz",
    "league": "L1",
@@ -120,12 +138,12 @@
    "teamId": "28",
    "name": "TéSz",
    "totals": {
-    "played": 1,
+    "played": 2,
     "won": 0,
     "drawn": 0,
-    "lost": 1,
-    "goalsFor": 2,
-    "goalsAgainst": 7,
+    "lost": 2,
+    "goalsFor": 4,
+    "goalsAgainst": 22,
     "points": 0
    }
   },
@@ -167,16 +185,94 @@
     "goalsAgainst": 19,
     "points": 0
    }
+  },
+  {
+   "teamId": "37",
+   "name": "CF Babinénik",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 10,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "29",
+   "name": "Tunyacsáp",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 4,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "81",
+   "name": "BallDogs",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "73",
+   "name": "Kulákok",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "31",
+   "name": "SZIKértelem",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 1,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "154",
+   "name": "Cefre Town",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 4,
+    "points": 0
+   }
   }
  ],
  "records": {
   "biggestWin": {
-   "seasonId": 52,
-   "league": "L1",
-   "matchId": "45975",
-   "kickoff": "2025-10-29T19:00:00.000Z",
-   "opponentId": "149",
-   "goalsFor": 4,
+   "seasonId": 55,
+   "league": "L2B",
+   "matchId": "56966",
+   "kickoff": "2026-10-14T19:00:00.000Z",
+   "opponentId": "31",
+   "goalsFor": 5,
    "goalsAgainst": 1
   },
   "biggestDefeat": {
@@ -242,7 +338,7 @@
    }
   },
   "loss": {
-   "length": 5,
+   "length": 6,
    "from": {
     "seasonId": 52,
     "league": "L1",
@@ -253,32 +349,32 @@
     "goalsAgainst": 5
    },
    "to": {
-    "seasonId": 52,
-    "league": "L1",
-    "matchId": "46351",
-    "kickoff": "2025-12-04T18:00:00.000Z",
-    "opponentId": "69",
+    "seasonId": 55,
+    "league": "L2B",
+    "matchId": "56490",
+    "kickoff": "2026-09-03T19:00:00.000Z",
+    "opponentId": "37",
     "goalsFor": 3,
-    "goalsAgainst": 19
+    "goalsAgainst": 10
    }
   }
  },
  "cleanSheets": 1,
  "failedToScore": 1,
  "scorers": {
-  "playedMatches": 11,
-  "coveredMatches": 11,
+  "playedMatches": 18,
+  "coveredMatches": 18,
   "rows": [
    {
     "name": "Dányi Péter",
-    "goals": 7,
-    "matches": 3,
+    "goals": 10,
+    "matches": 6,
     "hatTricks": 1
    },
    {
     "name": "Horvath Abel Benjamin",
-    "goals": 7,
-    "matches": 5,
+    "goals": 9,
+    "matches": 7,
     "hatTricks": 1
    },
    {
@@ -288,27 +384,33 @@
     "hatTricks": 0
    },
    {
-    "name": "Németh Milán",
-    "goals": 5,
+    "name": "Csikós Áron",
+    "goals": 6,
     "matches": 5,
     "hatTricks": 0
    },
    {
-    "name": "Csikós Áron",
-    "goals": 2,
-    "matches": 2,
-    "hatTricks": 0
-   },
-   {
-    "name": "Udvardi Róbert",
-    "goals": 2,
-    "matches": 2,
+    "name": "Németh Milán",
+    "goals": 6,
+    "matches": 6,
     "hatTricks": 0
    },
    {
     "name": "Rádi Kristóf",
-    "goals": 1,
-    "matches": 1,
+    "goals": 5,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Rádi József Róbert",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Udvardi Róbert",
+    "goals": 3,
+    "matches": 3,
     "hatTricks": 0
    }
   ]

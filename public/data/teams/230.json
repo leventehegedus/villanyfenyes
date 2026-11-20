@@ -6,6 +6,24 @@
  ],
  "seasons": [
   {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L3C",
+   "finished": false,
+   "position": 11,
+   "teamsInLeague": 12,
+   "marker": "relegation",
+   "totals": {
+    "played": 5,
+    "won": 2,
+    "drawn": 0,
+    "lost": 3,
+    "goalsFor": 7,
+    "goalsAgainst": 20,
+    "points": 6
+   }
+  },
+  {
    "seasonId": 52,
    "label": "2025 - Ősz",
    "league": "L1",
@@ -544,13 +562,13 @@
    "teamId": "124",
    "name": "Esélyetek SE",
    "totals": {
-    "played": 2,
-    "won": 1,
+    "played": 3,
+    "won": 2,
     "drawn": 1,
     "lost": 0,
-    "goalsFor": 6,
-    "goalsAgainst": 5,
-    "points": 4
+    "goalsFor": 10,
+    "goalsAgainst": 8,
+    "points": 7
    }
   },
   {
@@ -968,6 +986,58 @@
     "goalsAgainst": 3,
     "points": 0
    }
+  },
+  {
+   "teamId": "192",
+   "name": "SNASA 2.0",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "77",
+   "name": "Keverton",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "159",
+   "name": "DÉVCS",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "133",
+   "name": "Crooks",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 2,
+    "points": 3
+   }
   }
  ],
  "records": {
@@ -1065,15 +1135,27 @@
   }
  },
  "cleanSheets": 10,
- "failedToScore": 14,
+ "failedToScore": 17,
  "scorers": {
-  "playedMatches": 136,
-  "coveredMatches": 136,
+  "playedMatches": 141,
+  "coveredMatches": 141,
   "rows": [
+   {
+    "name": "Lehel Péter András",
+    "goals": 6,
+    "matches": 5,
+    "hatTricks": 0
+   },
    {
     "name": "Kulcsár Dávid",
     "goals": 5,
     "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Meszlényi Márk",
+    "goals": 4,
+    "matches": 4,
     "hatTricks": 0
    },
    {
@@ -1083,15 +1165,15 @@
     "hatTricks": 1
    },
    {
-    "name": "Lehel Péter András",
+    "name": "Péter Hoffmann",
     "goals": 3,
-    "matches": 3,
+    "matches": 2,
     "hatTricks": 0
    },
    {
-    "name": "Meszlényi Márk",
-    "goals": 3,
-    "matches": 3,
+    "name": "Kállai Gábor",
+    "goals": 2,
+    "matches": 2,
     "hatTricks": 0
    },
    {
@@ -1107,19 +1189,7 @@
     "hatTricks": 0
    },
    {
-    "name": "Kállai Gábor",
-    "goals": 1,
-    "matches": 1,
-    "hatTricks": 0
-   },
-   {
     "name": "Miklós Martin",
-    "goals": 1,
-    "matches": 1,
-    "hatTricks": 0
-   },
-   {
-    "name": "Péter Hoffmann",
     "goals": 1,
     "matches": 1,
     "hatTricks": 0

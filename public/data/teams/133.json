@@ -1,0 +1,234 @@
+{
+ "schemaVersion": 1,
+ "teamId": "133",
+ "names": [
+  "Crooks"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L3C",
+   "finished": false,
+   "position": 8,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 8,
+    "won": 3,
+    "drawn": 0,
+    "lost": 5,
+    "goalsFor": 26,
+    "goalsAgainst": 39,
+    "points": 9
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "110",
+   "name": "Közhely FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 11,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "118",
+   "name": "Atletico Vasutas SE",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "219",
+   "name": "SÜSÜ FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 2,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "77",
+   "name": "Keverton",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "41",
+   "name": "Sonkástojás",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "192",
+   "name": "SNASA 2.0",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 9,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "230",
+   "name": "EjakuLazio",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "159",
+   "name": "DÉVCS",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L3C",
+   "matchId": "57217",
+   "kickoff": "2026-11-10T20:00:00.000Z",
+   "opponentId": "159",
+   "goalsFor": 6,
+   "goalsAgainst": 3
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L3C",
+   "matchId": "56539",
+   "kickoff": "2026-09-01T18:00:00.000Z",
+   "opponentId": "110",
+   "goalsFor": 5,
+   "goalsAgainst": 11
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L3C",
+   "matchId": "56539",
+   "kickoff": "2026-09-01T18:00:00.000Z",
+   "opponentId": "110",
+   "goalsFor": 5,
+   "goalsAgainst": 11
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L3C",
+    "matchId": "57217",
+    "kickoff": "2026-11-10T20:00:00.000Z",
+    "opponentId": "159",
+    "goalsFor": 6,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3C",
+    "matchId": "57217",
+    "kickoff": "2026-11-10T20:00:00.000Z",
+    "opponentId": "159",
+    "goalsFor": 6,
+    "goalsAgainst": 3
+   }
+  },
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L3C",
+    "matchId": "57217",
+    "kickoff": "2026-11-10T20:00:00.000Z",
+    "opponentId": "159",
+    "goalsFor": 6,
+    "goalsAgainst": 3
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3C",
+    "matchId": "57217",
+    "kickoff": "2026-11-10T20:00:00.000Z",
+    "opponentId": "159",
+    "goalsFor": 6,
+    "goalsAgainst": 3
+   }
+  },
+  "loss": {
+   "length": 2,
+   "from": {
+    "seasonId": 55,
+    "league": "L3C",
+    "matchId": "56945",
+    "kickoff": "2026-10-13T18:00:00.000Z",
+    "opponentId": "192",
+    "goalsFor": 4,
+    "goalsAgainst": 9
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L3C",
+    "matchId": "57153",
+    "kickoff": "2026-11-03T20:00:00.000Z",
+    "opponentId": "230",
+    "goalsFor": 2,
+    "goalsAgainst": 3
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 2,
+ "scorers": {
+  "playedMatches": 8,
+  "coveredMatches": 8,
+  "rows": []
+ }
+}

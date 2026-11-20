@@ -6,6 +6,24 @@
  ],
  "seasons": [
   {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L3C",
+   "finished": false,
+   "position": 7,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 9,
+    "won": 2,
+    "drawn": 3,
+    "lost": 4,
+    "goalsFor": 41,
+    "goalsAgainst": 43,
+    "points": 9
+   }
+  },
+  {
    "seasonId": 11,
    "label": "2021 - Ősz",
    "league": "L1",
@@ -529,12 +547,12 @@
    "teamId": "230",
    "name": "EjakuLazio",
    "totals": {
-    "played": 2,
+    "played": 3,
     "won": 0,
     "drawn": 1,
-    "lost": 1,
-    "goalsFor": 5,
-    "goalsAgainst": 6,
+    "lost": 2,
+    "goalsFor": 8,
+    "goalsAgainst": 10,
     "points": 1
    }
   },
@@ -667,6 +685,110 @@
     "goalsAgainst": 7,
     "points": 0
    }
+  },
+  {
+   "teamId": "202",
+   "name": "Szupermegaistencsászárüber",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 5,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "41",
+   "name": "Sonkástojás",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1496",
+   "name": "Tröger Fc",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 6,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "192",
+   "name": "SNASA 2.0",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 3,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "118",
+   "name": "Atletico Vasutas SE",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 6,
+    "goalsAgainst": 7,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "219",
+   "name": "SÜSÜ FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "110",
+   "name": "Közhely FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 6,
+    "points": 1
+   }
+  },
+  {
+   "teamId": "77",
+   "name": "Keverton",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 4,
+    "points": 1
+   }
   }
  ],
  "records": {
@@ -766,8 +888,63 @@
  "cleanSheets": 13,
  "failedToScore": 13,
  "scorers": {
-  "playedMatches": 107,
-  "coveredMatches": 107,
-  "rows": []
+  "playedMatches": 116,
+  "coveredMatches": 116,
+  "rows": [
+   {
+    "name": "Németh Krisztofer",
+    "goals": 12,
+    "matches": 7,
+    "hatTricks": 1
+   },
+   {
+    "name": "Langer Ákos",
+    "goals": 8,
+    "matches": 5,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kovács Márk",
+    "goals": 5,
+    "matches": 5,
+    "hatTricks": 0
+   },
+   {
+    "name": "Nagy Levedi István",
+    "goals": 5,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Varga Dávid",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Dallos Ádám",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kiss Nimród",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Lovász Attila Bence",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Seres Gergő",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
  }
 }

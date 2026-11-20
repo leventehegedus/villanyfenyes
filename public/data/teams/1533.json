@@ -1,0 +1,270 @@
+{
+ "schemaVersion": 1,
+ "teamId": "1533",
+ "names": [
+  "Sördögök"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L5B",
+   "finished": false,
+   "position": 1,
+   "teamsInLeague": 12,
+   "marker": "promotion",
+   "totals": {
+    "played": 7,
+    "won": 6,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 50,
+    "goalsAgainst": 31,
+    "points": 18
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "1564",
+   "name": "Husvilla tona klubb",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "58",
+   "name": "Jó az X",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "105",
+   "name": "Joga Bonito",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 4,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1483",
+   "name": "Al Kohol",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 8,
+    "goalsAgainst": 10,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "228",
+   "name": "Energeng",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 1,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "24",
+   "name": "A jó, a rossz és a dagadt",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 13,
+    "goalsAgainst": 7,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "143",
+   "name": "Magyi",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L5B",
+   "matchId": "56614",
+   "kickoff": "2026-09-10T17:00:00.000Z",
+   "opponentId": "58",
+   "goalsFor": 9,
+   "goalsAgainst": 2
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L5B",
+   "matchId": "56864",
+   "kickoff": "2026-09-28T16:00:00.000Z",
+   "opponentId": "1483",
+   "goalsFor": 8,
+   "goalsAgainst": 10
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L5B",
+   "matchId": "57159",
+   "kickoff": "2026-11-02T20:00:00.000Z",
+   "opponentId": "24",
+   "goalsFor": 13,
+   "goalsAgainst": 7
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L5B",
+    "matchId": "56977",
+    "kickoff": "2026-10-12T19:00:00.000Z",
+    "opponentId": "228",
+    "goalsFor": 1,
+    "goalsAgainst": 0
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5B",
+    "matchId": "57246",
+    "kickoff": "2026-11-12T18:00:00.000Z",
+    "opponentId": "143",
+    "goalsFor": 6,
+    "goalsAgainst": 5
+   }
+  },
+  "unbeaten": {
+   "length": 3,
+   "from": {
+    "seasonId": 55,
+    "league": "L5B",
+    "matchId": "56977",
+    "kickoff": "2026-10-12T19:00:00.000Z",
+    "opponentId": "228",
+    "goalsFor": 1,
+    "goalsAgainst": 0
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5B",
+    "matchId": "57246",
+    "kickoff": "2026-11-12T18:00:00.000Z",
+    "opponentId": "143",
+    "goalsFor": 6,
+    "goalsAgainst": 5
+   }
+  },
+  "loss": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L5B",
+    "matchId": "56864",
+    "kickoff": "2026-09-28T16:00:00.000Z",
+    "opponentId": "1483",
+    "goalsFor": 8,
+    "goalsAgainst": 10
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L5B",
+    "matchId": "56864",
+    "kickoff": "2026-09-28T16:00:00.000Z",
+    "opponentId": "1483",
+    "goalsFor": 8,
+    "goalsAgainst": 10
+   }
+  }
+ },
+ "cleanSheets": 1,
+ "failedToScore": 0,
+ "scorers": {
+  "playedMatches": 7,
+  "coveredMatches": 7,
+  "rows": [
+   {
+    "name": "Czibula Márk Milán",
+    "goals": 19,
+    "matches": 6,
+    "hatTricks": 4
+   },
+   {
+    "name": "Rittlinger Boldizsár",
+    "goals": 7,
+    "matches": 4,
+    "hatTricks": 1
+   },
+   {
+    "name": "Felszner Márk",
+    "goals": 6,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
+    "name": "Pankucsi Tamás",
+    "goals": 6,
+    "matches": 2,
+    "hatTricks": 1
+   },
+   {
+    "name": "Susán Henrik",
+    "goals": 5,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szász Gergely Gábor",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Turcsik Szabolcs István",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Angyal Szilárd Péter",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}

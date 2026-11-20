@@ -6,6 +6,24 @@
  ],
  "seasons": [
   {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L2B",
+   "finished": false,
+   "position": 7,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 5,
+    "won": 3,
+    "drawn": 0,
+    "lost": 2,
+    "goalsFor": 28,
+    "goalsAgainst": 33,
+    "points": 9
+   }
+  },
+  {
    "seasonId": 53,
    "label": "2026 - TAVASZ",
    "league": "L1",
@@ -167,17 +185,82 @@
     "goalsAgainst": 5,
     "points": 0
    }
+  },
+  {
+   "teamId": "81",
+   "name": "BallDogs",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 3,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "197",
+   "name": "Ridomil SC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "220",
+   "name": "Jó lövés bedobás",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 11,
+    "goalsAgainst": 9,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "116",
+   "name": "Toilet Time",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 10,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "182",
+   "name": "Vergewalti GANG",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 3,
+    "points": 3
+   }
   }
  ],
  "records": {
   "biggestWin": {
-   "seasonId": 53,
-   "league": "L1",
-   "matchId": "47203",
-   "kickoff": "2026-03-10T19:00:00.000Z",
-   "opponentId": "28",
-   "goalsFor": 5,
-   "goalsAgainst": 2
+   "seasonId": 55,
+   "league": "L2B",
+   "matchId": "56486",
+   "kickoff": "2026-09-04T19:00:00.000Z",
+   "opponentId": "81",
+   "goalsFor": 6,
+   "goalsAgainst": 3
   },
   "biggestDefeat": {
    "seasonId": 53,
@@ -189,13 +272,13 @@
    "goalsAgainst": 10
   },
   "highestScoring": {
-   "seasonId": 53,
-   "league": "L1",
-   "matchId": "47437",
-   "kickoff": "2026-03-31T17:00:00.000Z",
-   "opponentId": "199",
-   "goalsFor": 3,
-   "goalsAgainst": 12
+   "seasonId": 55,
+   "league": "L2B",
+   "matchId": "56786",
+   "kickoff": "2026-09-23T16:00:00.000Z",
+   "opponentId": "220",
+   "goalsFor": 11,
+   "goalsAgainst": 9
   }
  },
  "streaks": {
@@ -266,25 +349,49 @@
  "cleanSheets": 0,
  "failedToScore": 4,
  "scorers": {
-  "playedMatches": 11,
-  "coveredMatches": 11,
+  "playedMatches": 16,
+  "coveredMatches": 16,
   "rows": [
    {
-    "name": "Hornyák Krisztofer",
-    "goals": 3,
-    "matches": 2,
-    "hatTricks": 0
+    "name": "Hegedüs Dániel",
+    "goals": 9,
+    "matches": 6,
+    "hatTricks": 1
    },
    {
     "name": "Juhász Csongor",
+    "goals": 8,
+    "matches": 4,
+    "hatTricks": 1
+   },
+   {
+    "name": "Hornyák Krisztofer",
+    "goals": 7,
+    "matches": 5,
+    "hatTricks": 0
+   },
+   {
+    "name": "Pallaghy József Barnabás",
     "goals": 3,
     "matches": 2,
     "hatTricks": 0
    },
    {
-    "name": "Hegedüs Dániel",
+    "name": "Kovács Bence Gábor",
     "goals": 2,
-    "matches": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Hegedüs Balázs",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Spacsek Márton",
+    "goals": 1,
+    "matches": 1,
     "hatTricks": 0
    }
   ]

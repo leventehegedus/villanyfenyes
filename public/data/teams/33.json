@@ -1,0 +1,238 @@
+{
+ "schemaVersion": 1,
+ "teamId": "33",
+ "names": [
+  "hoferővonat"
+ ],
+ "seasons": [
+  {
+   "seasonId": 55,
+   "label": "2026 - Ősz",
+   "league": "L4D",
+   "finished": false,
+   "position": 8,
+   "teamsInLeague": 12,
+   "marker": null,
+   "totals": {
+    "played": 5,
+    "won": 3,
+    "drawn": 0,
+    "lost": 2,
+    "goalsFor": 19,
+    "goalsAgainst": 33,
+    "points": 9
+   }
+  }
+ ],
+ "opponents": [
+  {
+   "teamId": "71",
+   "name": "Pasaref",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 5,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "65",
+   "name": "Polak Kiddos",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1537",
+   "name": "Közpénz FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 8,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1530",
+   "name": "FLEO RC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 13,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1494",
+   "name": "FCB",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 2,
+    "points": 3
+   }
+  }
+ ],
+ "records": {
+  "biggestWin": {
+   "seasonId": 55,
+   "league": "L4D",
+   "matchId": "56599",
+   "kickoff": "2026-09-09T16:00:00.000Z",
+   "opponentId": "71",
+   "goalsFor": 7,
+   "goalsAgainst": 5
+  },
+  "biggestDefeat": {
+   "seasonId": 55,
+   "league": "L4D",
+   "matchId": "56960",
+   "kickoff": "2026-10-13T17:00:00.000Z",
+   "opponentId": "1530",
+   "goalsFor": 0,
+   "goalsAgainst": 13
+  },
+  "highestScoring": {
+   "seasonId": 55,
+   "league": "L4D",
+   "matchId": "56926",
+   "kickoff": "2026-10-05T16:00:00.000Z",
+   "opponentId": "1537",
+   "goalsFor": 9,
+   "goalsAgainst": 8
+  }
+ },
+ "streaks": {
+  "win": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "57150",
+    "kickoff": "2026-11-05T17:00:00.000Z",
+    "opponentId": "1494",
+    "goalsFor": 3,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "57150",
+    "kickoff": "2026-11-05T17:00:00.000Z",
+    "opponentId": "1494",
+    "goalsFor": 3,
+    "goalsAgainst": 2
+   }
+  },
+  "unbeaten": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "57150",
+    "kickoff": "2026-11-05T17:00:00.000Z",
+    "opponentId": "1494",
+    "goalsFor": 3,
+    "goalsAgainst": 2
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "57150",
+    "kickoff": "2026-11-05T17:00:00.000Z",
+    "opponentId": "1494",
+    "goalsFor": 3,
+    "goalsAgainst": 2
+   }
+  },
+  "loss": {
+   "length": 1,
+   "from": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "56960",
+    "kickoff": "2026-10-13T17:00:00.000Z",
+    "opponentId": "1530",
+    "goalsFor": 0,
+    "goalsAgainst": 13
+   },
+   "to": {
+    "seasonId": 55,
+    "league": "L4D",
+    "matchId": "56960",
+    "kickoff": "2026-10-13T17:00:00.000Z",
+    "opponentId": "1530",
+    "goalsFor": 0,
+    "goalsAgainst": 13
+   }
+  }
+ },
+ "cleanSheets": 0,
+ "failedToScore": 2,
+ "scorers": {
+  "playedMatches": 5,
+  "coveredMatches": 5,
+  "rows": [
+   {
+    "name": "Bacsó Krisztián",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Breier Péter",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Csávás Bálint",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Stranyóczky László",
+    "goals": 3,
+    "matches": 1,
+    "hatTricks": 1
+   },
+   {
+    "name": "Marosi Marcell",
+    "goals": 2,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Dupák Gábor",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Kónya Benedek",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   }
+  ]
+ }
+}
