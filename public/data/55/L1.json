@@ -1915,7 +1915,7 @@
      "teamId": "142"
     }
    ],
-   "detailFetchedAt": "2026-11-20T02:19:54.466Z"
+   "detailFetchedAt": "2026-11-20T11:39:30.141Z"
   },
   {
    "id": "48347",
@@ -1993,7 +1993,7 @@
      "teamId": "90"
     }
    ],
-   "detailFetchedAt": "2026-11-20T02:19:54.466Z"
+   "detailFetchedAt": "2026-11-20T11:39:30.141Z"
   },
   {
    "id": "48349",
@@ -2017,7 +2017,7 @@
      "teamId": "142"
     }
    ],
-   "detailFetchedAt": "2026-11-20T02:19:54.466Z"
+   "detailFetchedAt": "2026-11-20T11:39:30.141Z"
   },
   {
    "id": "48350",
@@ -2079,7 +2079,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-20T02:19:54.466Z"
+   "detailFetchedAt": "2026-11-20T11:39:30.141Z"
   },
   {
    "id": "48352",
@@ -2092,7 +2092,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-20T02:19:54.466Z"
+   "detailFetchedAt": "2026-11-20T11:39:30.141Z"
   },
   {
    "id": "48353",
@@ -2131,7 +2131,7 @@
      "teamId": "69"
     }
    ],
-   "detailFetchedAt": "2026-11-20T02:19:54.466Z"
+   "detailFetchedAt": "2026-11-20T11:39:30.141Z"
   },
   {
    "id": "x-55-L1-202611251800-szia-uram-lokomotiv-mfc",
@@ -2375,7 +2375,7 @@
    "teamId": "149",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Markó Péter Dániel",
+    "name": "Szabó Koppány",
     "goals": 5
    },
    "seasonsCount": 9,
