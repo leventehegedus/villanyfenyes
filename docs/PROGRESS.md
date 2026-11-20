@@ -46,3 +46,7 @@ Team page: "Összesítés" button next to the name; league table under the chart
 ## 2026-11-20 odds merged into what-if (done)
 
 Statisztika: the "Esélyek" tab is merged into "Mi lenne, ha · esélyek". The position-odds heatmap sits under the what-if calculator and simulates with the entered scores counted as played (`?w=`), so it updates as results are typed. Old `?v=odds` links open the merged tab.
+
+## 2026-11-20 all leagues (done)
+
+`ENABLED_LEAGUES` now lists all 19 leagues. Season 55 (2026 Ősz) ingested for all of them (898 requests, 0 pending match pages); the scheduled ingest keeps them current. Site order differs from the tie-break rules in 55/L3A, 55/L4C, 55/L5C (warning only). Next: browser check of the league picker and leaderboard with 19 leagues; optional backfill of earlier seasons for the lower leagues.
