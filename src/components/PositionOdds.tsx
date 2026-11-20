@@ -1,21 +1,25 @@
-import { useMemo } from 'react'
+import { useDeferredValue, useMemo } from 'react'
 import { Link } from 'react-router'
 import { usePrefs, useT } from '@/hooks/prefs'
 import type { LeagueData } from '@/lib/data'
 import { positionBounds, simulateFinish } from '@/lib/projection'
 import { cn } from '@/lib/utils'
+import { applyWhatIf, parseWhatIf } from '@/lib/whatif'
 
 const SIMS = 5000
 
-/** Heatmap: rows are teams (site order), columns final positions; one hue, darker = likelier. */
-export default function PositionOdds({ data, keep }: { data: LeagueData; keep: string }) {
+/** Heatmap: rows are teams (site order), columns final positions; one hue, darker = likelier.
+ *  `whatIf` is the raw `?w=` value: entered scores count as played before simulating. */
+export default function PositionOdds({ data, keep, whatIf }: { data: LeagueData; keep: string; whatIf: string | null }) {
   const t = useT()
   const { prefs } = usePrefs()
   const order = useMemo(() => [...data.standings].sort((a, b) => a.position - b.position).map((r) => r.teamId), [data.standings])
-  const { sim, bounds } = useMemo(
-    () => ({ sim: simulateFinish(order, data.matches, { sims: SIMS, seed: 1 }), bounds: positionBounds(order, data.matches) }),
-    [order, data.matches],
-  )
+  // deferred so typing a score stays responsive while the simulation reruns
+  const deferred = useDeferredValue(whatIf)
+  const { sim, bounds } = useMemo(() => {
+    const matches = applyWhatIf(data.matches, parseWhatIf(deferred))
+    return { sim: simulateFinish(order, matches, { sims: SIMS, seed: 1 }), bounds: positionBounds(order, matches) }
+  }, [order, data.matches, deferred])
   const name = new Map(data.teams.map((x) => [x.id, x.name]))
   const pct = new Intl.NumberFormat(prefs.locale, { style: 'percent', maximumFractionDigits: 0 })
   const positions = order.map((_, i) => i + 1)

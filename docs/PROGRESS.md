@@ -42,3 +42,7 @@ Team page: "Összesítés" button next to the name; league table under the chart
 
 - Removed the header "Refresh" button: it only re-fetched deployed JSON (already covered by `staleTime` + `refetchOnWindowFocus`) and suggested live results.
 - GitHub drops most scheduled ingest runs (~5-6 of ~20 per day ran). Decision: an external scheduler (cron-job.org) triggers `workflow_dispatch` on `ingest.yml` every 3 h with a fine-grained token (this repo only, Actions: read and write). The GitHub crons stay as a fallback; the `ingest` concurrency group queues overlapping runs.
+
+## 2026-11-20 odds merged into what-if (done)
+
+Statisztika: the "Esélyek" tab is merged into "Mi lenne, ha · esélyek". The position-odds heatmap sits under the what-if calculator and simulates with the entered scores counted as played (`?w=`), so it updates as results are typed. Old `?v=odds` links open the merged tab.

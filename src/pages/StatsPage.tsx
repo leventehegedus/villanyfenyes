@@ -19,7 +19,8 @@ export default function StatsPage() {
   const { query, keep, teamName, params, setSelection, seasonId, league, noData } = useLeagueData()
   const week = readWeek(params.get('w'))
   const rawView = params.get('v')
-  const view = rawView === 'cross' || rawView === 'odds' || rawView === 'whatif' ? rawView : 'progress'
+  // 'odds' is the old separate tab; links to it land on the merged one
+  const view = rawView === 'cross' ? rawView : rawView === 'odds' || rawView === 'whatif' ? 'whatif' : 'progress'
 
   return (
     <div className="space-y-4">
@@ -38,7 +39,6 @@ export default function StatsPage() {
               <TabsList className="max-w-full overflow-x-auto">
                 <TabsTrigger value="progress">{t('tabProgress')}</TabsTrigger>
                 <TabsTrigger value="cross">{t('tabCross')}</TabsTrigger>
-                <TabsTrigger value="odds">{t('tabOdds')}</TabsTrigger>
                 <TabsTrigger value="whatif">{t('whatIfTab')}</TabsTrigger>
               </TabsList>
               <TabsContent value="progress" className="space-y-2 pt-2">
@@ -63,12 +63,6 @@ export default function StatsPage() {
                 <p className="text-sm text-muted-foreground">{t('crossTableHint')}</p>
                 <CrossTable data={data} keep={keep} />
               </TabsContent>
-              <TabsContent value="odds" className="space-y-2 pt-2">
-                <h2 className="text-lg font-semibold">{t('oddsTitle')}</h2>
-                <Suspense fallback={<ListSkeleton rows={6} />}>
-                  <PositionOdds data={data} keep={keep} />
-                </Suspense>
-              </TabsContent>
               <TabsContent value="whatif" className="space-y-2 pt-2">
                 <h2 className="text-lg font-semibold">{t('whatIfTitle')}</h2>
                 <p className="text-sm text-muted-foreground">{t('whatIfHint')}</p>
@@ -79,6 +73,10 @@ export default function StatsPage() {
                     value={parseWhatIf(params.get('w'))}
                     onChange={(w) => setSelection({ extra: { w: serialiseWhatIf(w) || null } })}
                   />
+                </Suspense>
+                <h2 className="pt-4 text-lg font-semibold">{t('oddsTitle')}</h2>
+                <Suspense fallback={<ListSkeleton rows={6} />}>
+                  <PositionOdds data={data} keep={keep} whatIf={params.get('w')} />
                 </Suspense>
               </TabsContent>
             </Tabs>
