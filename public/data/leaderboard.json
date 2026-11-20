@@ -430,8 +430,8 @@
    "name": "Domino Kijev",
    "titles": 0,
    "l1Seasons": 6,
-   "won": 22,
-   "goalsFor": 248
+   "won": 23,
+   "goalsFor": 254
   },
   {
    "teamId": "760",
@@ -806,8 +806,8 @@
    "name": "Szponzorok helye:_____",
    "titles": 3,
    "l1Seasons": 6,
-   "won": 46,
-   "goalsFor": 272
+   "won": 47,
+   "goalsFor": 278
   },
   {
    "teamId": "37",
@@ -823,7 +823,7 @@
    "titles": 0,
    "l1Seasons": 5,
    "won": 25,
-   "goalsFor": 247
+   "goalsFor": 252
   },
   {
    "teamId": "246",
@@ -1055,7 +1055,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 4,
-   "goalsFor": 40
+   "goalsFor": 45
   },
   {
    "teamId": "198",

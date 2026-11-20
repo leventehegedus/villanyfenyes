@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L3A",
    "finished": false,
-   "position": 5,
+   "position": 4,
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 7,
-    "won": 3,
+    "played": 8,
+    "won": 4,
     "drawn": 1,
     "lost": 3,
-    "goalsFor": 38,
-    "goalsAgainst": 28,
-    "points": 10
+    "goalsFor": 44,
+    "goalsAgainst": 33,
+    "points": 13
    }
   },
   {
@@ -639,6 +639,19 @@
     "goalsAgainst": 2,
     "points": 1
    }
+  },
+  {
+   "teamId": "165",
+   "name": "100-as odds",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 5,
+    "points": 3
+   }
   }
  ],
  "records": {
@@ -695,22 +708,22 @@
   "unbeaten": {
    "length": 3,
    "from": {
-    "seasonId": 29,
-    "league": "L1",
-    "matchId": "28323",
-    "kickoff": "2025-05-19T05:58:24.000Z",
-    "opponentId": "621",
-    "goalsFor": 2,
-    "goalsAgainst": 1
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "57179",
+    "kickoff": "2026-11-05T20:00:00.000Z",
+    "opponentId": "26",
+    "goalsFor": 5,
+    "goalsAgainst": 2
    },
    "to": {
-    "seasonId": 29,
-    "league": "L1",
-    "matchId": "28335",
-    "kickoff": "2025-05-19T05:58:25.000Z",
-    "opponentId": "153",
-    "goalsFor": 4,
-    "goalsAgainst": 2
+    "seasonId": 55,
+    "league": "L3A",
+    "matchId": "57627",
+    "kickoff": "2026-11-19T21:00:00.000Z",
+    "opponentId": "165",
+    "goalsFor": 6,
+    "goalsAgainst": 5
    }
   },
   "loss": {
@@ -738,9 +751,15 @@
  "cleanSheets": 2,
  "failedToScore": 1,
  "scorers": {
-  "playedMatches": 73,
-  "coveredMatches": 73,
+  "playedMatches": 74,
+  "coveredMatches": 74,
   "rows": [
+   {
+    "name": "Nagy Márton",
+    "goals": 8,
+    "matches": 4,
+    "hatTricks": 1
+   },
    {
     "name": "Bitay Zsolt",
     "goals": 7,
@@ -749,9 +768,15 @@
    },
    {
     "name": "Makai Kristóf",
-    "goals": 6,
-    "matches": 3,
+    "goals": 7,
+    "matches": 4,
     "hatTricks": 1
+   },
+   {
+    "name": "Takács Máté",
+    "goals": 6,
+    "matches": 4,
+    "hatTricks": 0
    },
    {
     "name": "Molnár Tamás",
@@ -760,19 +785,7 @@
     "hatTricks": 0
    },
    {
-    "name": "Nagy Márton",
-    "goals": 5,
-    "matches": 3,
-    "hatTricks": 0
-   },
-   {
     "name": "Pavlics László",
-    "goals": 5,
-    "matches": 3,
-    "hatTricks": 0
-   },
-   {
-    "name": "Takács Máté",
     "goals": 5,
     "matches": 3,
     "hatTricks": 0
@@ -785,8 +798,8 @@
    },
    {
     "name": "Krányecz Csaba",
-    "goals": 1,
-    "matches": 1,
+    "goals": 2,
+    "matches": 2,
     "hatTricks": 0
    }
   ]

@@ -10,14 +10,14 @@
    "name": "Lokomotív MFC"
   },
   {
-   "id": "100",
-   "siteId": 100,
-   "name": "Gyermekláncfűrész"
-  },
-  {
    "id": "142",
    "siteId": 142,
    "name": "Szponzorok helye:_____"
+  },
+  {
+   "id": "100",
+   "siteId": 100,
+   "name": "Gyermekláncfűrész"
   },
   {
    "id": "199",
@@ -85,6 +85,22 @@
   },
   {
    "position": 2,
+   "teamId": "142",
+   "played": 8,
+   "won": 6,
+   "drawn": 1,
+   "lost": 1,
+   "goalsFor": 37,
+   "goalsAgainst": 19,
+   "goalDiff": 18,
+   "points": 19,
+   "markers": [
+    "winStreak",
+    "fewConceded"
+   ]
+  },
+  {
+   "position": 3,
    "teamId": "100",
    "played": 8,
    "won": 6,
@@ -95,22 +111,6 @@
    "goalDiff": 11,
    "points": 18,
    "markers": [
-    "fewConceded"
-   ]
-  },
-  {
-   "position": 3,
-   "teamId": "142",
-   "played": 7,
-   "won": 5,
-   "drawn": 1,
-   "lost": 1,
-   "goalsFor": 31,
-   "goalsAgainst": 14,
-   "goalDiff": 17,
-   "points": 16,
-   "markers": [
-    "winStreak",
     "fewConceded"
    ]
   },
@@ -132,16 +132,16 @@
   {
    "position": 5,
    "teamId": "93",
-   "played": 7,
+   "played": 8,
    "won": 4,
    "drawn": 1,
-   "lost": 2,
-   "goalsFor": 27,
-   "goalsAgainst": 26,
-   "goalDiff": 1,
+   "lost": 3,
+   "goalsFor": 32,
+   "goalsAgainst": 32,
+   "goalDiff": 0,
    "points": 13,
    "markers": [
-    "fewConceded"
+    "lossStreak"
    ]
   },
   {
@@ -1890,32 +1890,37 @@
    "awayTeamId": "93",
    "kickoff": "2026-11-12T19:00:00.000Z",
    "venue": "Bogdánfy_1",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 6,
+   "awayGoals": 5,
+   "status": "played",
    "scorers": [
     {
      "name": "Bencze Mártom",
-     "teamId": "142",
-     "goals": 2
+     "goals": 2,
+     "teamId": "142"
     },
     {
      "name": "Kalocsay Károly",
-     "teamId": "142",
-     "goals": 2
+     "goals": 2,
+     "teamId": "142"
     },
     {
      "name": "Tóth Dávid",
-     "teamId": "142",
-     "goals": 1
+     "goals": 1,
+     "teamId": "142"
     },
     {
      "name": "Szigeti Balázs",
-     "teamId": "142",
-     "goals": 1
+     "goals": 1,
+     "teamId": "142"
+    },
+    {
+     "name": "Horváth Olivér",
+     "goals": 5,
+     "teamId": "93"
     }
    ],
-   "detailFetchedAt": "2026-11-20T11:39:30.141Z"
+   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
   },
   {
    "id": "48347",
@@ -1969,31 +1974,31 @@
    "scorers": [
     {
      "name": "Wolford Márk",
-     "teamId": "90",
-     "goals": 2
+     "goals": 2,
+     "teamId": "90"
     },
     {
      "name": "Németh Csaba",
-     "teamId": "90",
-     "goals": 2
+     "goals": 2,
+     "teamId": "90"
     },
     {
      "name": "Hegedűs Gábor",
-     "teamId": "90",
-     "goals": 1
+     "goals": 1,
+     "teamId": "90"
     },
     {
      "name": "Szilágyi Adam",
-     "teamId": "90",
-     "goals": 1
+     "goals": 1,
+     "teamId": "90"
     },
     {
      "name": "Tóth Krisztián Kristóf",
-     "teamId": "90",
-     "goals": 1
+     "goals": 1,
+     "teamId": "90"
     }
    ],
-   "detailFetchedAt": "2026-11-20T11:39:30.141Z"
+   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
   },
   {
    "id": "48349",
@@ -2008,16 +2013,16 @@
    "scorers": [
     {
      "name": "Szigeti Balázs",
-     "teamId": "142",
-     "goals": 2
+     "goals": 2,
+     "teamId": "142"
     },
     {
      "name": "Tóth Dávid",
-     "teamId": "142",
-     "goals": 1
+     "goals": 1,
+     "teamId": "142"
     }
    ],
-   "detailFetchedAt": "2026-11-20T11:39:30.141Z"
+   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
   },
   {
    "id": "48350",
@@ -2079,7 +2084,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-20T11:39:30.141Z"
+   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
   },
   {
    "id": "48352",
@@ -2092,7 +2097,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-20T11:39:30.141Z"
+   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
   },
   {
    "id": "48353",
@@ -2107,31 +2112,31 @@
    "scorers": [
     {
      "name": "Alács Mihály",
-     "teamId": "69",
-     "goals": 3
+     "goals": 3,
+     "teamId": "69"
     },
     {
      "name": "Pap Zsombor",
-     "teamId": "69",
-     "goals": 2
+     "goals": 2,
+     "teamId": "69"
     },
     {
      "name": "Kele Balázs",
-     "teamId": "69",
-     "goals": 2
+     "goals": 2,
+     "teamId": "69"
     },
     {
      "name": "Mándi Ferenc",
-     "teamId": "69",
-     "goals": 1
+     "goals": 1,
+     "teamId": "69"
     },
     {
      "name": "Mogyorósi Zoltán",
-     "teamId": "69",
-     "goals": 1
+     "goals": 1,
+     "teamId": "69"
     }
    ],
-   "detailFetchedAt": "2026-11-20T11:39:30.141Z"
+   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
   },
   {
    "id": "x-55-L1-202611251800-szia-uram-lokomotiv-mfc",
@@ -2302,6 +2307,16 @@
    "matchesPlayed": 8
   },
   {
+   "teamId": "142",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Andorka Kristóf",
+    "goals": 4
+   },
+   "seasonsCount": 8,
+   "matchesPlayed": 8
+  },
+  {
    "teamId": "100",
    "bestLeague": "L1",
    "topScorer": {
@@ -2310,16 +2325,6 @@
    },
    "seasonsCount": 21,
    "matchesPlayed": 8
-  },
-  {
-   "teamId": "142",
-   "bestLeague": "L1",
-   "topScorer": {
-    "name": "Andorka Kristóf",
-    "goals": 4
-   },
-   "seasonsCount": 8,
-   "matchesPlayed": 7
   },
   {
    "teamId": "199",
@@ -2339,7 +2344,7 @@
     "goals": 10
    },
    "seasonsCount": 24,
-   "matchesPlayed": 7
+   "matchesPlayed": 8
   },
   {
    "teamId": "90",

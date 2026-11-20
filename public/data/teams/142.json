@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L1",
    "finished": false,
-   "position": 3,
+   "position": 2,
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 7,
-    "won": 5,
+    "played": 8,
+    "won": 6,
     "drawn": 1,
     "lost": 1,
-    "goalsFor": 31,
-    "goalsAgainst": 14,
-    "points": 16
+    "goalsFor": 37,
+    "goalsAgainst": 19,
+    "points": 19
    }
   },
   {
@@ -249,13 +249,13 @@
    "teamId": "93",
    "name": "Milinte te szemét Club de Football",
    "totals": {
-    "played": 4,
-    "won": 1,
+    "played": 5,
+    "won": 2,
     "drawn": 1,
     "lost": 2,
-    "goalsFor": 12,
-    "goalsAgainst": 18,
-    "points": 4
+    "goalsFor": 18,
+    "goalsAgainst": 23,
+    "points": 7
    }
   },
   {
@@ -577,19 +577,19 @@
  "cleanSheets": 8,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 62,
-  "coveredMatches": 62,
+  "playedMatches": 63,
+  "coveredMatches": 63,
   "rows": [
    {
     "name": "Szigeti Balázs",
-    "goals": 32,
-    "matches": 19,
+    "goals": 33,
+    "matches": 20,
     "hatTricks": 3
    },
    {
     "name": "Kalocsay Károly",
-    "goals": 15,
-    "matches": 12,
+    "goals": 17,
+    "matches": 13,
     "hatTricks": 0
    },
    {
@@ -624,8 +624,14 @@
    },
    {
     "name": "Tóth Dávid",
-    "goals": 8,
-    "matches": 6,
+    "goals": 9,
+    "matches": 7,
+    "hatTricks": 0
+   },
+   {
+    "name": "Bencze Mártom",
+    "goals": 7,
+    "matches": 5,
     "hatTricks": 0
    },
    {
@@ -638,12 +644,6 @@
     "name": "Palásthy István",
     "goals": 6,
     "matches": 5,
-    "hatTricks": 0
-   },
-   {
-    "name": "Bencze Mártom",
-    "goals": 5,
-    "matches": 4,
     "hatTricks": 0
    },
    {

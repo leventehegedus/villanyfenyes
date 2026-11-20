@@ -261,23 +261,23 @@
    "scorers": [
     {
      "name": "Hamburger Ákos",
-     "goals": 2,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 2
     },
     {
      "name": "Török Tamás",
-     "goals": 1,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 1
     },
     {
      "name": "Csorba Adrián",
-     "goals": 1,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 1
     },
     {
      "name": "Csete Patrik",
-     "goals": 1,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -295,28 +295,28 @@
    "scorers": [
     {
      "name": "Bankó Balázs",
-     "goals": 2,
-     "teamId": "67"
+     "teamId": "67",
+     "goals": 2
     },
     {
      "name": "toth dani",
-     "goals": 2,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 2
     },
     {
      "name": "Szabolcs Szepesi",
-     "goals": 2,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 2
     },
     {
      "name": "Schneider Dávid",
-     "goals": 1,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 1
     },
     {
      "name": "Csanaki Péter",
-     "goals": 1,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -334,28 +334,28 @@
    "scorers": [
     {
      "name": "Takács András",
-     "goals": 1,
-     "teamId": "194"
+     "teamId": "194",
+     "goals": 1
     },
     {
      "name": "Mihály Ádám",
-     "goals": 1,
-     "teamId": "194"
+     "teamId": "194",
+     "goals": 1
     },
     {
      "name": "Kapros Konrád",
-     "goals": 1,
-     "teamId": "194"
+     "teamId": "194",
+     "goals": 1
     },
     {
      "name": "Németh Kristóf Boldizsár",
-     "goals": 1,
-     "teamId": "194"
+     "teamId": "194",
+     "goals": 1
     },
     {
      "name": "Torday sólyom",
-     "goals": 1,
-     "teamId": "194"
+     "teamId": "194",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -373,28 +373,28 @@
    "scorers": [
     {
      "name": "Horváth Péter",
-     "goals": 2,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 2
     },
     {
      "name": "dr. Nyulasi Dániel Martin",
-     "goals": 2,
-     "teamId": "175"
+     "teamId": "175",
+     "goals": 2
     },
     {
      "name": "Zsida László",
-     "goals": 1,
-     "teamId": "175"
+     "teamId": "175",
+     "goals": 1
     },
     {
      "name": "Ullrich Dénes",
-     "goals": 1,
-     "teamId": "175"
+     "teamId": "175",
+     "goals": 1
     },
     {
      "name": "Harsányi Ádám",
-     "goals": 1,
-     "teamId": "175"
+     "teamId": "175",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -412,68 +412,68 @@
    "scorers": [
     {
      "name": "Budavári Bendegúz",
-     "goals": 6,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 6
     },
     {
      "name": "Török Tamás",
-     "goals": 2,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 2
     },
     {
      "name": "Hamburger Ákos",
-     "goals": 2,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 2
     },
     {
      "name": "Hamburger Ádám",
-     "goals": 1,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 1
     },
     {
      "name": "Bence Szabó",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     },
     {
      "name": "Krix Miklós András",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     },
     {
      "name": "Kováts Donát",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     },
     {
      "name": "Levente Warta",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     },
     {
      "name": "Mangó Levente",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     },
     {
      "name": "Réti Márton",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     },
     {
      "name": "Zoltay Marcell",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     },
     {
      "name": "Bozóky Gergo",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     },
     {
      "name": "Andrónyi Tamás",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -491,18 +491,18 @@
    "scorers": [
     {
      "name": "Hegyi József Gergely",
-     "goals": 3,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 3
     },
     {
      "name": "Szatmári Attila",
-     "goals": 2,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 2
     },
     {
      "name": "Balázs Vincze",
-     "goals": 1,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -520,28 +520,28 @@
    "scorers": [
     {
      "name": "Sugár Soma",
-     "goals": 2,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 2
     },
     {
      "name": "Kiss László Bende",
-     "goals": 2,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 2
     },
     {
      "name": "Horváth Máté",
-     "goals": 1,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 1
     },
     {
      "name": "Bús Bertalan Patrik",
-     "goals": 1,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 1
     },
     {
      "name": "Szmodics Levente",
-     "goals": 1,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -559,18 +559,18 @@
    "scorers": [
     {
      "name": "Horváth Péter",
-     "goals": 5,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 5
     },
     {
      "name": "András Bálint",
-     "goals": 2,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 2
     },
     {
      "name": "Bordás Máté Vilmos",
-     "goals": 1,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -588,18 +588,18 @@
    "scorers": [
     {
      "name": "Bankó Balázs",
-     "goals": 2,
-     "teamId": "67"
+     "teamId": "67",
+     "goals": 2
     },
     {
      "name": "Fodor Kristóf",
-     "goals": 1,
-     "teamId": "67"
+     "teamId": "67",
+     "goals": 1
     },
     {
      "name": "Szalai Ádám",
-     "goals": 1,
-     "teamId": "67"
+     "teamId": "67",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -617,38 +617,38 @@
    "scorers": [
     {
      "name": "Novozánszki Zsombor",
-     "goals": 5,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 5
     },
     {
      "name": "Kristof Ludanyi",
-     "goals": 2,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 2
     },
     {
      "name": "Horváth Péter",
-     "goals": 1,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 1
     },
     {
      "name": "Hegyi József Gergely",
-     "goals": 2,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 2
     },
     {
      "name": "Peter Salamon",
-     "goals": 1,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 1
     },
     {
      "name": "Szatmári Attila",
-     "goals": 1,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 1
     },
     {
      "name": "Hegyi Barna Péter",
-     "goals": 1,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -666,33 +666,33 @@
    "scorers": [
     {
      "name": "Varga Lénárd Zsombor",
-     "goals": 2,
-     "teamId": "40"
+     "teamId": "40",
+     "goals": 2
     },
     {
      "name": "Márk Bartók",
-     "goals": 1,
-     "teamId": "40"
+     "teamId": "40",
+     "goals": 1
     },
     {
      "name": "Düh Richárd",
-     "goals": 1,
-     "teamId": "40"
+     "teamId": "40",
+     "goals": 1
     },
     {
      "name": "Sziffer Bence",
-     "goals": 1,
-     "teamId": "40"
+     "teamId": "40",
+     "goals": 1
     },
     {
      "name": "Sziffer Balázs",
-     "goals": 1,
-     "teamId": "40"
+     "teamId": "40",
+     "goals": 1
     },
     {
      "name": "Schneider Dávid",
-     "goals": 1,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -710,8 +710,8 @@
    "scorers": [
     {
      "name": "Rieger Ádám",
-     "goals": 5,
-     "teamId": "84"
+     "teamId": "84",
+     "goals": 5
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -729,28 +729,28 @@
    "scorers": [
     {
      "name": "Áprily Gergő",
-     "goals": 3,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 3
     },
     {
      "name": "Sugár Soma",
-     "goals": 2,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 2
     },
     {
      "name": "Balázs Sugár",
-     "goals": 2,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 2
     },
     {
      "name": "Horváth Máté",
-     "goals": 1,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 1
     },
     {
      "name": "Kiss László Bende",
-     "goals": 1,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -768,43 +768,43 @@
    "scorers": [
     {
      "name": "Török Tamás",
-     "goals": 4,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 4
     },
     {
      "name": "Budavári Bendegúz",
-     "goals": 3,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 3
     },
     {
      "name": "Csorba Adrián",
-     "goals": 2,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 2
     },
     {
      "name": "Hegyi József Gergely",
-     "goals": 4,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 4
     },
     {
      "name": "Bereznai Miklós",
-     "goals": 2,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 2
     },
     {
      "name": "Peter Salamon",
-     "goals": 1,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 1
     },
     {
      "name": "Bereznai Sámuel",
-     "goals": 1,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 1
     },
     {
      "name": "Szatmári Attila",
-     "goals": 1,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -822,18 +822,18 @@
    "scorers": [
     {
      "name": "Szalai Belián",
-     "goals": 2,
-     "teamId": "40"
+     "teamId": "40",
+     "goals": 2
     },
     {
      "name": "Varga Lénárd Zsombor",
-     "goals": 2,
-     "teamId": "40"
+     "teamId": "40",
+     "goals": 2
     },
     {
      "name": "Sziffer Balázs",
-     "goals": 2,
-     "teamId": "40"
+     "teamId": "40",
+     "goals": 2
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -851,8 +851,8 @@
    "scorers": [
     {
      "name": "Krix Miklós András",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -870,38 +870,38 @@
    "scorers": [
     {
      "name": "Maurer Kristóf",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     },
     {
      "name": "Tóth Ádám",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     },
     {
      "name": "Stremeny Benedek Dénes",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     },
     {
      "name": "Skarka Kaspar András",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     },
     {
      "name": "Bányay Csongor",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     },
     {
      "name": "Schneider Dávid",
-     "goals": 1,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 1
     },
     {
      "name": "toth dani",
-     "goals": 1,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -919,43 +919,43 @@
    "scorers": [
     {
      "name": "Budavári Bendegúz",
-     "goals": 4,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 4
     },
     {
      "name": "Hamburger Ákos",
-     "goals": 2,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 2
     },
     {
      "name": "Hamburger Máté",
-     "goals": 1,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 1
     },
     {
      "name": "Török Tamás",
-     "goals": 1,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 1
     },
     {
      "name": "Csorba Adrián",
-     "goals": 1,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 1
     },
     {
      "name": "Sugár Soma",
-     "goals": 6,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 6
     },
     {
      "name": "Áprily Gergő",
-     "goals": 4,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 4
     },
     {
      "name": "Kiss László Bende",
-     "goals": 4,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 4
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -973,23 +973,23 @@
    "scorers": [
     {
      "name": "Tóth Ádám",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     },
     {
      "name": "Stremeny Benedek Dénes",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     },
     {
      "name": "Skarka Kaspar András",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     },
     {
      "name": "Fekete Balázs Imre",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -1007,18 +1007,18 @@
    "scorers": [
     {
      "name": "Török Tamás",
-     "goals": 3,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 3
     },
     {
      "name": "Hamburger Ákos",
-     "goals": 1,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 1
     },
     {
      "name": "Csete Donát",
-     "goals": 1,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -1036,38 +1036,38 @@
    "scorers": [
     {
      "name": "Sugár Soma",
-     "goals": 2,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 2
     },
     {
      "name": "Áprily Gergő",
-     "goals": 2,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 2
     },
     {
      "name": "Kuruczleki Dénes",
-     "goals": 1,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 1
     },
     {
      "name": "Peter Salamon",
-     "goals": 6,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 6
     },
     {
      "name": "Horváth Barnabás",
-     "goals": 2,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 2
     },
     {
      "name": "Hegyi József Gergely",
-     "goals": 2,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 2
     },
     {
      "name": "Szatmári Attila",
-     "goals": 1,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -1085,48 +1085,48 @@
    "scorers": [
     {
      "name": "Levente Warta",
-     "goals": 3,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 3
     },
     {
      "name": "Mangó Levente",
-     "goals": 2,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 2
     },
     {
      "name": "Bence Szabó",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     },
     {
      "name": "Krix Miklós András",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     },
     {
      "name": "Réti Márton",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     },
     {
      "name": "Schneider Dávid",
-     "goals": 1,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 1
     },
     {
      "name": "toth dani",
-     "goals": 1,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 1
     },
     {
      "name": "Gáspár Attila",
-     "goals": 1,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 1
     },
     {
      "name": "Tóth Ferenc",
-     "goals": 1,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -1144,13 +1144,13 @@
    "scorers": [
     {
      "name": "Sziffer Balázs",
-     "goals": 2,
-     "teamId": "40"
+     "teamId": "40",
+     "goals": 2
     },
     {
      "name": "Márk Bartók",
-     "goals": 1,
-     "teamId": "40"
+     "teamId": "40",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -1168,43 +1168,43 @@
    "scorers": [
     {
      "name": "Rieger Ádám",
-     "goals": 4,
-     "teamId": "84"
+     "teamId": "84",
+     "goals": 4
     },
     {
      "name": "Tóth Artúr Benedek",
-     "goals": 2,
-     "teamId": "84"
+     "teamId": "84",
+     "goals": 2
     },
     {
      "name": "Pálfay András",
-     "goals": 1,
-     "teamId": "84"
+     "teamId": "84",
+     "goals": 1
     },
     {
      "name": "András Bálint",
-     "goals": 3,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 3
     },
     {
      "name": "Bordás Máté Vilmos",
-     "goals": 2,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 2
     },
     {
      "name": "Molnár Péter",
-     "goals": 1,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 1
     },
     {
      "name": "Wochna András",
-     "goals": 1,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 1
     },
     {
      "name": "Novozánszki Zsombor",
-     "goals": 1,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -1222,48 +1222,48 @@
    "scorers": [
     {
      "name": "Bankó Balázs",
-     "goals": 1,
-     "teamId": "67"
+     "teamId": "67",
+     "goals": 1
     },
     {
      "name": "Dr. Csillag Gergely",
-     "goals": 1,
-     "teamId": "67"
+     "teamId": "67",
+     "goals": 1
     },
     {
      "name": "Laposa Sándor",
-     "goals": 1,
-     "teamId": "67"
+     "teamId": "67",
+     "goals": 1
     },
     {
      "name": "Kovács Olivér",
-     "goals": 1,
-     "teamId": "67"
+     "teamId": "67",
+     "goals": 1
     },
     {
      "name": "Hegyi József Gergely",
-     "goals": 4,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 4
     },
     {
      "name": "Horváth Barnabás",
-     "goals": 2,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 2
     },
     {
      "name": "Peter Salamon",
-     "goals": 2,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 2
     },
     {
      "name": "Farkas Olivér",
-     "goals": 2,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 2
     },
     {
      "name": "Jónás Barnabás",
-     "goals": 1,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -1281,28 +1281,28 @@
    "scorers": [
     {
      "name": "Mangó Levente",
-     "goals": 2,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 2
     },
     {
      "name": "Krix Miklós András",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     },
     {
      "name": "Kováts Donát",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     },
     {
      "name": "Levente Warta",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     },
     {
      "name": "Réti Márton",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -1320,28 +1320,28 @@
    "scorers": [
     {
      "name": "Hamburger Ákos",
-     "goals": 2,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 2
     },
     {
      "name": "Török Tamás",
-     "goals": 1,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 1
     },
     {
      "name": "Schneider Dávid",
-     "goals": 1,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 1
     },
     {
      "name": "Tóth Ferenc",
-     "goals": 1,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 1
     },
     {
      "name": "Szabolcs Szepesi",
-     "goals": 1,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -1359,43 +1359,43 @@
    "scorers": [
     {
      "name": "Márk Bartók",
-     "goals": 1,
-     "teamId": "40"
+     "teamId": "40",
+     "goals": 1
     },
     {
      "name": "Szalai Belián",
-     "goals": 1,
-     "teamId": "40"
+     "teamId": "40",
+     "goals": 1
     },
     {
      "name": "Varga Lénárd Zsombor",
-     "goals": 1,
-     "teamId": "40"
+     "teamId": "40",
+     "goals": 1
     },
     {
      "name": "Fehér Ákos",
-     "goals": 1,
-     "teamId": "40"
+     "teamId": "40",
+     "goals": 1
     },
     {
      "name": "Bús Bertalan Patrik",
-     "goals": 3,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 3
     },
     {
      "name": "Sugár Soma",
-     "goals": 1,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 1
     },
     {
      "name": "Szmodics Levente",
-     "goals": 1,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 1
     },
     {
      "name": "Kiss László Bende",
-     "goals": 1,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -1413,23 +1413,23 @@
    "scorers": [
     {
      "name": "Járai Gergely",
-     "goals": 2,
-     "teamId": "84"
+     "teamId": "84",
+     "goals": 2
     },
     {
      "name": "Endrekovics Kristóf",
-     "goals": 2,
-     "teamId": "84"
+     "teamId": "84",
+     "goals": 2
     },
     {
      "name": "Pálfay András",
-     "goals": 2,
-     "teamId": "84"
+     "teamId": "84",
+     "goals": 2
     },
     {
      "name": "Grósz Bence",
-     "goals": 2,
-     "teamId": "84"
+     "teamId": "84",
+     "goals": 2
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -1447,23 +1447,23 @@
    "scorers": [
     {
      "name": "Schneider Dávid",
-     "goals": 4,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 4
     },
     {
      "name": "Szabolcs Szepesi",
-     "goals": 3,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 3
     },
     {
      "name": "Telek Zoltán",
-     "goals": 1,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 1
     },
     {
      "name": "Balogh János",
-     "goals": 1,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -1481,23 +1481,23 @@
    "scorers": [
     {
      "name": "Kiss László Bende",
-     "goals": 3,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 3
     },
     {
      "name": "Sugár Soma",
-     "goals": 2,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 2
     },
     {
      "name": "Bús Bertalan Patrik",
-     "goals": 1,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 1
     },
     {
      "name": "Balázs Sugár",
-     "goals": 1,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -1515,33 +1515,33 @@
    "scorers": [
     {
      "name": "Horváth Soma",
-     "goals": 2,
-     "teamId": "67"
+     "teamId": "67",
+     "goals": 2
     },
     {
      "name": "Bankó Balázs",
-     "goals": 1,
-     "teamId": "67"
+     "teamId": "67",
+     "goals": 1
     },
     {
      "name": "Szalai Ádám",
-     "goals": 1,
-     "teamId": "67"
+     "teamId": "67",
+     "goals": 1
     },
     {
      "name": "Horvath Karoly Zamanbek",
-     "goals": 1,
-     "teamId": "67"
+     "teamId": "67",
+     "goals": 1
     },
     {
      "name": "Horváth Péter",
-     "goals": 2,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 2
     },
     {
      "name": "Slenker Balázs",
-     "goals": 1,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -1559,38 +1559,38 @@
    "scorers": [
     {
      "name": "Tóth Ádám",
-     "goals": 5,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 5
     },
     {
      "name": "Dénes Magor",
-     "goals": 2,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 2
     },
     {
      "name": "Fekete Balázs Imre",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     },
     {
      "name": "Merics Mihály",
-     "goals": 3,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 3
     },
     {
      "name": "Török Tamás",
-     "goals": 2,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 2
     },
     {
      "name": "Hamburger Máté",
-     "goals": 1,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 1
     },
     {
      "name": "Csorba Adrián",
-     "goals": 1,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -1608,23 +1608,23 @@
    "scorers": [
     {
      "name": "Fodor Kristóf",
-     "goals": 1,
-     "teamId": "67"
+     "teamId": "67",
+     "goals": 1
     },
     {
      "name": "Bankó Balázs",
-     "goals": 1,
-     "teamId": "67"
+     "teamId": "67",
+     "goals": 1
     },
     {
      "name": "Dr. Csillag Gergely",
-     "goals": 1,
-     "teamId": "67"
+     "teamId": "67",
+     "goals": 1
     },
     {
      "name": "Horvath Karoly Zamanbek",
-     "goals": 1,
-     "teamId": "67"
+     "teamId": "67",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -1642,38 +1642,38 @@
    "scorers": [
     {
      "name": "Bányay Csongor",
-     "goals": 2,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 2
     },
     {
      "name": "Fodor Barnabás Gyula",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     },
     {
      "name": "Tóth Ádám",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     },
     {
      "name": "Skarka Kaspar András",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     },
     {
      "name": "Hegyi József Gergely",
-     "goals": 3,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 3
     },
     {
      "name": "Peter Salamon",
-     "goals": 1,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 1
     },
     {
      "name": "Hegyi Barna Péter",
-     "goals": 1,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -1691,28 +1691,28 @@
    "scorers": [
     {
      "name": "Horváth Péter",
-     "goals": 2,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 2
     },
     {
      "name": "Őze Sándor",
-     "goals": 1,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 1
     },
     {
      "name": "Kristof Ludanyi",
-     "goals": 1,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 1
     },
     {
      "name": "Schneider Dávid",
-     "goals": 1,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 1
     },
     {
      "name": "Valler Imre",
-     "goals": 1,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -1730,23 +1730,23 @@
    "scorers": [
     {
      "name": "Krix Miklós András",
-     "goals": 2,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 2
     },
     {
      "name": "Kováts Donát",
-     "goals": 2,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 2
     },
     {
      "name": "Levente Warta",
-     "goals": 2,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 2
     },
     {
      "name": "Bence Szabó",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -1764,28 +1764,28 @@
    "scorers": [
     {
      "name": "Budavári Bendegúz",
-     "goals": 4,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 4
     },
     {
      "name": "Hamburger Máté",
-     "goals": 3,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 3
     },
     {
      "name": "Csete Patrik",
-     "goals": 1,
-     "teamId": "52"
+     "teamId": "52",
+     "goals": 1
     },
     {
      "name": "Tóth Artúr Benedek",
-     "goals": 3,
-     "teamId": "84"
+     "teamId": "84",
+     "goals": 3
     },
     {
      "name": "Rieger Ádám",
-     "goals": 2,
-     "teamId": "84"
+     "teamId": "84",
+     "goals": 2
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -1803,38 +1803,38 @@
    "scorers": [
     {
      "name": "Varga Lénárd Zsombor",
-     "goals": 2,
-     "teamId": "40"
+     "teamId": "40",
+     "goals": 2
     },
     {
      "name": "Sziffer Bence",
-     "goals": 2,
-     "teamId": "40"
+     "teamId": "40",
+     "goals": 2
     },
     {
      "name": "Düh Richárd",
-     "goals": 1,
-     "teamId": "40"
+     "teamId": "40",
+     "goals": 1
     },
     {
      "name": "Horváth Péter",
-     "goals": 2,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 2
     },
     {
      "name": "Bordás Máté Vilmos",
-     "goals": 2,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 2
     },
     {
      "name": "Dr. Ékes Ágoston",
-     "goals": 1,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 1
     },
     {
      "name": "Miksa Tordai",
-     "goals": 1,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -1852,23 +1852,23 @@
    "scorers": [
     {
      "name": "Schneider Dávid",
-     "goals": 2,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 2
     },
     {
      "name": "toth dani",
-     "goals": 2,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 2
     },
     {
      "name": "Telek Zoltán",
-     "goals": 1,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 1
     },
     {
      "name": "Valler Imre",
-     "goals": 1,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -1886,33 +1886,33 @@
    "scorers": [
     {
      "name": "Varga Lénárd Zsombor",
-     "goals": 1,
-     "teamId": "40"
+     "teamId": "40",
+     "goals": 1
     },
     {
      "name": "Andrónyi Tamás",
-     "goals": 3,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 3
     },
     {
      "name": "Bence Szabó",
-     "goals": 2,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 2
     },
     {
      "name": "Levente Warta",
-     "goals": 2,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 2
     },
     {
      "name": "Magyar Balázs",
-     "goals": 2,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 2
     },
     {
      "name": "Zoltay Marcell",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -1930,33 +1930,33 @@
    "scorers": [
     {
      "name": "Fodor Barnabás Gyula",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     },
     {
      "name": "Tóth Ádám",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     },
     {
      "name": "Budai Bence",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     },
     {
      "name": "Rieger Ádám",
-     "goals": 1,
-     "teamId": "84"
+     "teamId": "84",
+     "goals": 1
     },
     {
      "name": "Pálfay András",
-     "goals": 1,
-     "teamId": "84"
+     "teamId": "84",
+     "goals": 1
     },
     {
      "name": "Gönczi László",
-     "goals": 1,
-     "teamId": "84"
+     "teamId": "84",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -1974,33 +1974,33 @@
    "scorers": [
     {
      "name": "Slenker Balázs",
-     "goals": 2,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 2
     },
     {
      "name": "Őze Sándor",
-     "goals": 2,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 2
     },
     {
      "name": "Bordás Máté Vilmos",
-     "goals": 1,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 1
     },
     {
      "name": "Kiss László Bende",
-     "goals": 4,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 4
     },
     {
      "name": "Horváth Máté",
-     "goals": 2,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 2
     },
     {
      "name": "Áprily Gergő",
-     "goals": 1,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -2018,28 +2018,28 @@
    "scorers": [
     {
      "name": "Horváth Soma",
-     "goals": 1,
-     "teamId": "67"
+     "teamId": "67",
+     "goals": 1
     },
     {
      "name": "Bankó Balázs",
-     "goals": 1,
-     "teamId": "67"
+     "teamId": "67",
+     "goals": 1
     },
     {
      "name": "Szalai Ádám",
-     "goals": 1,
-     "teamId": "67"
+     "teamId": "67",
+     "goals": 1
     },
     {
      "name": "Dr. Csillag Gergely",
-     "goals": 1,
-     "teamId": "67"
+     "teamId": "67",
+     "goals": 1
     },
     {
      "name": "Kovács Olivér",
-     "goals": 1,
-     "teamId": "67"
+     "teamId": "67",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -2057,53 +2057,53 @@
    "scorers": [
     {
      "name": "Horváth Péter",
-     "goals": 3,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 3
     },
     {
      "name": "Novozánszki Zsombor",
-     "goals": 2,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 2
     },
     {
      "name": "Bordás Máté Vilmos",
-     "goals": 1,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 1
     },
     {
      "name": "Őze Sándor",
-     "goals": 1,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 1
     },
     {
      "name": "Bence Szabó",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     },
     {
      "name": "Krix Miklós András",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     },
     {
      "name": "Kováts Donát",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     },
     {
      "name": "Levente Warta",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     },
     {
      "name": "Mangó Levente",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     },
     {
      "name": "Réti Márton",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -2121,28 +2121,28 @@
    "scorers": [
     {
      "name": "Schneider Dávid",
-     "goals": 1,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 1
     },
     {
      "name": "toth dani",
-     "goals": 1,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 1
     },
     {
      "name": "Gáspár Attila",
-     "goals": 1,
-     "teamId": "196"
+     "teamId": "196",
+     "goals": 1
     },
     {
      "name": "Sugár Soma",
-     "goals": 6,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 6
     },
     {
      "name": "Kiss László Bende",
-     "goals": 3,
-     "teamId": "1489"
+     "teamId": "1489",
+     "goals": 3
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -2192,7 +2192,7 @@
      "teamId": "85"
     }
    ],
-   "detailFetchedAt": "2026-11-20T12:38:28.503Z"
+   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
   },
   {
    "id": "57304",
@@ -2207,43 +2207,43 @@
    "scorers": [
     {
      "name": "Magyar Balázs",
-     "goals": 5,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 5
     },
     {
      "name": "Zoltay Marcell",
-     "goals": 3,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 3
     },
     {
      "name": "Levente Warta",
-     "goals": 2,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 2
     },
     {
      "name": "Réti Márton",
-     "goals": 2,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 2
     },
     {
      "name": "Mangó Levente",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     },
     {
      "name": "Hegyi József Gergely",
-     "goals": 4,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 4
     },
     {
      "name": "Farkas Olivér",
-     "goals": 1,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 1
     },
     {
      "name": "Hegyi Barna Péter",
-     "goals": 1,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
@@ -2280,7 +2280,7 @@
      "teamId": "39"
     }
    ],
-   "detailFetchedAt": "2026-11-20T12:38:28.503Z"
+   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
   },
   {
    "id": "x-55-L3D-202611241700-basket-case-energ-team",
@@ -2586,7 +2586,7 @@
    "teamId": "84",
    "bestLeague": "L3C",
    "topScorer": {
-    "name": "Tóth Artúr Benedek",
+    "name": "Grósz Bence",
     "goals": 5
    },
    "seasonsCount": 7,

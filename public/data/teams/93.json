@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 4,
     "drawn": 1,
-    "lost": 2,
-    "goalsFor": 27,
-    "goalsAgainst": 26,
+    "lost": 3,
+    "goalsFor": 32,
+    "goalsAgainst": 32,
     "points": 13
    }
   },
@@ -231,12 +231,12 @@
    "teamId": "142",
    "name": "Szponzorok helye:_____",
    "totals": {
-    "played": 4,
+    "played": 5,
     "won": 2,
     "drawn": 1,
-    "lost": 1,
-    "goalsFor": 18,
-    "goalsAgainst": 12,
+    "lost": 2,
+    "goalsFor": 23,
+    "goalsAgainst": 18,
     "points": 7
    }
   },
@@ -533,20 +533,20 @@
  "cleanSheets": 2,
  "failedToScore": 1,
  "scorers": {
-  "playedMatches": 50,
-  "coveredMatches": 50,
+  "playedMatches": 51,
+  "coveredMatches": 51,
   "rows": [
+   {
+    "name": "Horváth Olivér",
+    "goals": 27,
+    "matches": 14,
+    "hatTricks": 3
+   },
    {
     "name": "Porst Bálint Máté",
     "goals": 26,
     "matches": 13,
     "hatTricks": 3
-   },
-   {
-    "name": "Horváth Olivér",
-    "goals": 22,
-    "matches": 13,
-    "hatTricks": 2
    },
    {
     "name": "Erős Máté",
