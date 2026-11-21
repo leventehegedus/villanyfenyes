@@ -1819,7 +1819,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
+   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
   },
   {
    "id": "57656",
@@ -1868,7 +1868,7 @@
      "teamId": "219"
     }
    ],
-   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
+   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
   },
   {
    "id": "57325",
@@ -1897,7 +1897,7 @@
      "teamId": "230"
     }
    ],
-   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
+   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
   },
   {
    "id": "57296",
@@ -1912,28 +1912,28 @@
    "scorers": [
     {
      "name": "Szabó Fülöp",
-     "goals": 3,
-     "teamId": "118"
+     "teamId": "118",
+     "goals": 3
     },
     {
      "name": "Fehér Dávid",
-     "goals": 1,
-     "teamId": "118"
+     "teamId": "118",
+     "goals": 1
     },
     {
      "name": "Balogh Ádám József",
-     "goals": 1,
-     "teamId": "118"
+     "teamId": "118",
+     "goals": 1
     },
     {
      "name": "Könyves László",
-     "goals": 3,
-     "teamId": "192"
+     "teamId": "192",
+     "goals": 3
     },
     {
      "name": "Kaczur Péter",
-     "goals": 2,
-     "teamId": "192"
+     "teamId": "192",
+     "goals": 2
     }
    ],
    "detailFetchedAt": "2026-11-21T19:15:31.937Z"
@@ -1949,7 +1949,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
+   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
   },
   {
    "id": "x-55-L3C-202611231800-devcs-susu-fc",

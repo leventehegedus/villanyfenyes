@@ -2192,7 +2192,7 @@
      "teamId": "85"
     }
    ],
-   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
+   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
   },
   {
    "id": "57304",
@@ -2207,43 +2207,43 @@
    "scorers": [
     {
      "name": "Magyar Balázs",
-     "goals": 5,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 5
     },
     {
      "name": "Zoltay Marcell",
-     "goals": 3,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 3
     },
     {
      "name": "Levente Warta",
-     "goals": 2,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 2
     },
     {
      "name": "Réti Márton",
-     "goals": 2,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 2
     },
     {
      "name": "Mangó Levente",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     },
     {
      "name": "Hegyi József Gergely",
-     "goals": 4,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 4
     },
     {
      "name": "Farkas Olivér",
-     "goals": 1,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 1
     },
     {
      "name": "Hegyi Barna Péter",
-     "goals": 1,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-21T19:15:31.937Z"
@@ -2280,7 +2280,7 @@
      "teamId": "39"
     }
    ],
-   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
+   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
   },
   {
    "id": "x-55-L3D-202611241700-basket-case-energ-team",
@@ -2586,7 +2586,7 @@
    "teamId": "84",
    "bestLeague": "L3C",
    "topScorer": {
-    "name": "Pálfay András",
+    "name": "Grósz Bence",
     "goals": 5
    },
    "seasonsCount": 7,

@@ -1870,7 +1870,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
+   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
   },
   {
    "id": "57342",
@@ -1909,7 +1909,7 @@
      "teamId": "170"
     }
    ],
-   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
+   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
   },
   {
    "id": "57300",
@@ -1948,7 +1948,7 @@
      "teamId": "38"
     }
    ],
-   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
+   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
   },
   {
    "id": "57332",
@@ -1961,7 +1961,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
+   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
   },
   {
    "id": "57318",
@@ -1976,43 +1976,43 @@
    "scorers": [
     {
      "name": "Hamburger Máté",
-     "goals": 2,
-     "teamId": "45"
+     "teamId": "45",
+     "goals": 2
     },
     {
      "name": "Török Tamás",
-     "goals": 1,
-     "teamId": "45"
+     "teamId": "45",
+     "goals": 1
     },
     {
      "name": "Csorba Adrián",
-     "goals": 1,
-     "teamId": "45"
+     "teamId": "45",
+     "goals": 1
     },
     {
      "name": "Pintér Richárd",
-     "goals": 1,
-     "teamId": "45"
+     "teamId": "45",
+     "goals": 1
     },
     {
      "name": "Szappanos Ádám",
-     "goals": 1,
-     "teamId": "45"
+     "teamId": "45",
+     "goals": 1
     },
     {
      "name": "Németh Balázs",
-     "goals": 1,
-     "teamId": "179"
+     "teamId": "179",
+     "goals": 1
     },
     {
      "name": "Szijártó Csongor",
-     "goals": 1,
-     "teamId": "179"
+     "teamId": "179",
+     "goals": 1
     },
     {
      "name": "Leitner Zoltán",
-     "goals": 1,
-     "teamId": "179"
+     "teamId": "179",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-21T19:15:31.937Z"

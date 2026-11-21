@@ -14,13 +14,13 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 8,
-    "won": 7,
+    "played": 9,
+    "won": 8,
     "drawn": 0,
     "lost": 1,
-    "goalsFor": 44,
-    "goalsAgainst": 20,
-    "points": 21
+    "goalsFor": 53,
+    "goalsAgainst": 23,
+    "points": 24
    }
   },
   {
@@ -303,13 +303,13 @@
    "teamId": "107",
    "name": "Banditák",
    "totals": {
-    "played": 1,
-    "won": 1,
+    "played": 2,
+    "won": 2,
     "drawn": 0,
     "lost": 0,
-    "goalsFor": 4,
-    "goalsAgainst": 1,
-    "points": 3
+    "goalsFor": 13,
+    "goalsAgainst": 4,
+    "points": 6
    }
   },
   {
@@ -748,37 +748,37 @@
  "cleanSheets": 9,
  "failedToScore": 1,
  "scorers": {
-  "playedMatches": 96,
-  "coveredMatches": 96,
+  "playedMatches": 97,
+  "coveredMatches": 97,
   "rows": [
    {
     "name": "Kele Balázs",
-    "goals": 60,
-    "matches": 30,
+    "goals": 62,
+    "matches": 31,
     "hatTricks": 8
    },
    {
     "name": "Pap Zsombor",
-    "goals": 47,
-    "matches": 27,
+    "goals": 49,
+    "matches": 28,
     "hatTricks": 5
    },
    {
     "name": "Mogyorósi Zoltán",
-    "goals": 38,
-    "matches": 17,
+    "goals": 39,
+    "matches": 18,
     "hatTricks": 3
    },
    {
     "name": "Alács Mihály",
-    "goals": 31,
-    "matches": 21,
-    "hatTricks": 1
+    "goals": 34,
+    "matches": 22,
+    "hatTricks": 2
    },
    {
     "name": "Mándi Ferenc",
-    "goals": 26,
-    "matches": 19,
+    "goals": 27,
+    "matches": 20,
     "hatTricks": 1
    },
    {

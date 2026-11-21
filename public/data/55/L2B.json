@@ -2025,7 +2025,7 @@
      "teamId": "220"
     }
    ],
-   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
+   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
   },
   {
    "id": "57313",
@@ -2040,43 +2040,43 @@
    "scorers": [
     {
      "name": "Pusztai Dániel",
-     "goals": 2,
-     "teamId": "116"
+     "teamId": "116",
+     "goals": 2
     },
     {
      "name": "Mészáros László",
-     "goals": 1,
-     "teamId": "116"
+     "teamId": "116",
+     "goals": 1
     },
     {
      "name": "Luk Féreg",
-     "goals": 1,
-     "teamId": "116"
+     "teamId": "116",
+     "goals": 1
     },
     {
      "name": "Fábián Imre",
-     "goals": 1,
-     "teamId": "116"
+     "teamId": "116",
+     "goals": 1
     },
     {
      "name": "Zelman Dávid",
-     "goals": 1,
-     "teamId": "116"
+     "teamId": "116",
+     "goals": 1
     },
     {
      "name": "Rideg Tamás",
-     "goals": 3,
-     "teamId": "197"
+     "teamId": "197",
+     "goals": 3
     },
     {
      "name": "Demeter Dávid",
-     "goals": 1,
-     "teamId": "197"
+     "teamId": "197",
+     "goals": 1
     },
     {
      "name": "Gyurián Gábor",
-     "goals": 1,
-     "teamId": "197"
+     "teamId": "197",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-21T19:15:31.937Z"
@@ -2108,7 +2108,7 @@
      "teamId": "29"
     }
    ],
-   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
+   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
   },
   {
    "id": "57320",
@@ -2123,23 +2123,23 @@
    "scorers": [
     {
      "name": "Fülöp Csongor",
-     "goals": 4,
-     "teamId": "37"
+     "teamId": "37",
+     "goals": 4
     },
     {
      "name": "Reizinger Bence",
-     "goals": 3,
-     "teamId": "37"
+     "teamId": "37",
+     "goals": 3
     },
     {
      "name": "Horváth Ákos",
-     "goals": 3,
-     "teamId": "81"
+     "teamId": "81",
+     "goals": 3
     },
     {
      "name": "Horváth Ádám Bence",
-     "goals": 1,
-     "teamId": "81"
+     "teamId": "81",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-21T19:15:31.937Z"
@@ -2157,28 +2157,28 @@
    "scorers": [
     {
      "name": "Hencsei Zsombor",
-     "goals": 2,
-     "teamId": "31"
+     "teamId": "31",
+     "goals": 2
     },
     {
      "name": "Káplár Bazil Benedek",
-     "goals": 1,
-     "teamId": "31"
+     "teamId": "31",
+     "goals": 1
     },
     {
      "name": "Pallaghy József Barnabás",
-     "goals": 2,
-     "teamId": "154"
+     "teamId": "154",
+     "goals": 2
     },
     {
      "name": "Juhász Csongor",
-     "goals": 2,
-     "teamId": "154"
+     "teamId": "154",
+     "goals": 2
     },
     {
      "name": "Hegedüs Dániel",
-     "goals": 1,
-     "teamId": "154"
+     "teamId": "154",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-21T19:15:31.937Z"
@@ -2210,7 +2210,7 @@
      "teamId": "154"
     }
    ],
-   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
+   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
   },
   {
    "id": "57353",
@@ -2223,7 +2223,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
+   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
   },
   {
    "id": "x-55-L2B-202611231700-balldogs-jo-loves-bedobas",
@@ -2506,7 +2506,7 @@
    "teamId": "220",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Bertold Pék",
+    "name": "Lontai Bendegúz",
     "goals": 5
    },
    "seasonsCount": 16,
@@ -2536,7 +2536,7 @@
    "teamId": "31",
    "bestLeague": "L2B",
    "topScorer": {
-    "name": "Szabó Gergely",
+    "name": "Husznai Albert József",
     "goals": 3
    },
    "seasonsCount": 16,

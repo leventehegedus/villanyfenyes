@@ -1944,7 +1944,7 @@
      "teamId": "26"
     }
    ],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
   },
   {
    "id": "57220",
@@ -1991,7 +1991,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
   },
   {
    "id": "57324",
@@ -2030,7 +2030,7 @@
      "teamId": "26"
     }
    ],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
   },
   {
    "id": "57288",
@@ -2064,7 +2064,7 @@
      "teamId": "161"
     }
    ],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
   },
   {
    "id": "57627",
@@ -2079,46 +2079,46 @@
    "scorers": [
     {
      "name": "Nagy Márton",
-     "teamId": "60",
-     "goals": 3
+     "goals": 3,
+     "teamId": "60"
     },
     {
      "name": "Makai Kristóf",
-     "teamId": "60",
-     "goals": 1
+     "goals": 1,
+     "teamId": "60"
     },
     {
      "name": "Takács Máté",
-     "teamId": "60",
-     "goals": 1
+     "goals": 1,
+     "teamId": "60"
     },
     {
      "name": "Krányecz Csaba",
-     "teamId": "60",
-     "goals": 1
+     "goals": 1,
+     "teamId": "60"
     },
     {
      "name": "Pap Zsombor",
-     "teamId": "165",
-     "goals": 2
+     "goals": 2,
+     "teamId": "165"
     },
     {
      "name": "Krisztián Dávid",
-     "teamId": "165",
-     "goals": 1
+     "goals": 1,
+     "teamId": "165"
     },
     {
      "name": "Czakó Tamás László",
-     "teamId": "165",
-     "goals": 1
+     "goals": 1,
+     "teamId": "165"
     },
     {
      "name": "Németh Norbert",
-     "teamId": "165",
-     "goals": 1
+     "goals": 1,
+     "teamId": "165"
     }
    ],
-   "detailFetchedAt": "2026-11-20T20:19:27.795Z"
+   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
   },
   {
    "id": "57352",
@@ -2137,7 +2137,7 @@
      "teamId": "1480"
     }
    ],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
   },
   {
    "id": "x-55-L3A-202611231800-stabilizatorok-penisz-land",

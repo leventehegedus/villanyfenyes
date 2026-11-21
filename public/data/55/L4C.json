@@ -1910,7 +1910,7 @@
      "teamId": "131"
     }
    ],
-   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
+   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
   },
   {
    "id": "57229",
@@ -1944,7 +1944,7 @@
      "teamId": "47"
     }
    ],
-   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
+   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
   },
   {
    "id": "57244",
@@ -1983,7 +1983,7 @@
      "teamId": "153"
     }
    ],
-   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
+   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
   },
   {
    "id": "57267",
@@ -2012,7 +2012,7 @@
      "teamId": "1504"
     }
    ],
-   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
+   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
   },
   {
    "id": "57322",
@@ -2027,18 +2027,18 @@
    "scorers": [
     {
      "name": "Kis Ádám",
-     "goals": 2,
-     "teamId": "1512"
+     "teamId": "1512",
+     "goals": 2
     },
     {
      "name": "Péter Adrián",
-     "goals": 2,
-     "teamId": "1512"
+     "teamId": "1512",
+     "goals": 2
     },
     {
      "name": "Kurucz Dániel",
-     "goals": 1,
-     "teamId": "1512"
+     "teamId": "1512",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-21T19:15:31.937Z"
@@ -2060,7 +2060,7 @@
      "teamId": "131"
     }
    ],
-   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
+   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
   },
   {
    "id": "57346",
@@ -2104,7 +2104,7 @@
      "teamId": "101"
     }
    ],
-   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
+   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
   },
   {
    "id": "x-55-L4C-202611231600-selecao-los-magos",
@@ -2340,7 +2340,7 @@
    "teamId": "1512",
    "bestLeague": "L4C",
    "topScorer": {
-    "name": "Tóth Domonkos",
+    "name": "Péter Adrián",
     "goals": 4
    },
    "seasonsCount": 2,
@@ -2370,7 +2370,7 @@
    "teamId": "1504",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Purosz Leonidasz",
+    "name": "Pothóczki Ábel",
     "goals": 5
    },
    "seasonsCount": 3,
