@@ -2041,7 +2041,7 @@
      "teamId": "75"
     }
    ],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
   },
   {
    "id": "57335",
@@ -2085,7 +2085,7 @@
      "teamId": "241"
     }
    ],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
   },
   {
    "id": "57294",
@@ -2109,7 +2109,7 @@
      "teamId": "132"
     }
    ],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
   },
   {
    "id": "57292",
@@ -2138,7 +2138,7 @@
      "teamId": "75"
     }
    ],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
   },
   {
    "id": "57333",
@@ -2151,7 +2151,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
   },
   {
    "id": "x-55-L5C-202611232100-malaj-medve-se-ment-melle-is",
@@ -2387,7 +2387,7 @@
    "teamId": "241",
    "bestLeague": "L5A",
    "topScorer": {
-    "name": "Krizsan Balazs",
+    "name": "Elekes Dániel",
     "goals": 6
    },
    "seasonsCount": 3,
@@ -2457,7 +2457,7 @@
    "teamId": "1473",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Szekeres Kornél",
+    "name": "Tóth Martin",
     "goals": 3
    },
    "seasonsCount": 4,
@@ -2467,7 +2467,7 @@
    "teamId": "75",
    "bestLeague": "L5A",
    "topScorer": {
-    "name": "Imre-Horváth András",
+    "name": "Barnabás Ilosvai",
     "goals": 3
    },
    "seasonsCount": 3,

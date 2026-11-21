@@ -1978,7 +1978,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
   },
   {
    "id": "57271",
@@ -2085,7 +2085,7 @@
      "teamId": "1534"
     }
    ],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
   },
   {
    "id": "57286",
@@ -2124,7 +2124,7 @@
      "teamId": "1469"
     }
    ],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
   },
   {
    "id": "57619",
@@ -2137,7 +2137,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
   },
   {
    "id": "57326",
@@ -2176,7 +2176,7 @@
      "teamId": "1534"
     }
    ],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
   },
   {
    "id": "57339",
@@ -2205,7 +2205,7 @@
      "teamId": "1567"
     }
    ],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
   },
   {
    "id": "56905",
@@ -2218,7 +2218,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
   },
   {
    "id": "x-55-L5G-202611232000-oso-academy-george-fc",
@@ -2474,7 +2474,7 @@
    "teamId": "212",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Balogh Marcell János",
+    "name": "Hámori Miklós",
     "goals": 4
    },
    "seasonsCount": 8,

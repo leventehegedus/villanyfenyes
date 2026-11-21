@@ -1870,7 +1870,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
   },
   {
    "id": "57342",
@@ -1909,7 +1909,7 @@
      "teamId": "170"
     }
    ],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
   },
   {
    "id": "57300",
@@ -1948,7 +1948,7 @@
      "teamId": "38"
     }
    ],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
   },
   {
    "id": "57332",
@@ -1961,7 +1961,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
   },
   {
    "id": "57318",
@@ -2357,7 +2357,7 @@
    "teamId": "188",
    "bestLeague": "L2A",
    "topScorer": {
-    "name": "Nagy Balázs Ákos",
+    "name": "Kovács Patrik",
     "goals": 4
    },
    "seasonsCount": 4,
@@ -2367,7 +2367,7 @@
    "teamId": "70",
    "bestLeague": "L2A",
    "topScorer": {
-    "name": "Schütz Ádám",
+    "name": "Markóczy Márk",
     "goals": 6
    },
    "seasonsCount": 5,

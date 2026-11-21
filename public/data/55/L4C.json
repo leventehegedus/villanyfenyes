@@ -1910,7 +1910,7 @@
      "teamId": "131"
     }
    ],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
   },
   {
    "id": "57229",
@@ -1944,7 +1944,7 @@
      "teamId": "47"
     }
    ],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
   },
   {
    "id": "57244",
@@ -1983,7 +1983,7 @@
      "teamId": "153"
     }
    ],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
   },
   {
    "id": "57267",
@@ -2012,7 +2012,7 @@
      "teamId": "1504"
     }
    ],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
   },
   {
    "id": "57322",
@@ -2060,7 +2060,7 @@
      "teamId": "131"
     }
    ],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
   },
   {
    "id": "57346",
@@ -2072,8 +2072,39 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "scorers": [
+    {
+     "name": "Szécsényi Szilárd",
+     "goals": 3,
+     "teamId": "101"
+    },
+    {
+     "name": "Glück Péter",
+     "goals": 2,
+     "teamId": "101"
+    },
+    {
+     "name": "Rostás Tibor",
+     "goals": 1,
+     "teamId": "101"
+    },
+    {
+     "name": "Tucsek Balázs",
+     "goals": 1,
+     "teamId": "101"
+    },
+    {
+     "name": "Langer Attila",
+     "goals": 1,
+     "teamId": "101"
+    },
+    {
+     "name": "Máté Tibor Mestyanek",
+     "goals": 1,
+     "teamId": "101"
+    }
+   ],
+   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
   },
   {
    "id": "x-55-L4C-202611231600-selecao-los-magos",
@@ -2309,7 +2340,7 @@
    "teamId": "1512",
    "bestLeague": "L4C",
    "topScorer": {
-    "name": "Péter Adrián",
+    "name": "Kis Ádám",
     "goals": 4
    },
    "seasonsCount": 2,
@@ -2339,7 +2370,7 @@
    "teamId": "1504",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Purosz Leonidasz",
+    "name": "Pothóczki Ábel",
     "goals": 5
    },
    "seasonsCount": 3,
