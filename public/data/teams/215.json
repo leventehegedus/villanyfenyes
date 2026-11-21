@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L5B",
    "finished": false,
-   "position": 11,
+   "position": 8,
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 6,
-    "won": 1,
+    "played": 7,
+    "won": 2,
     "drawn": 1,
     "lost": 4,
-    "goalsFor": 15,
-    "goalsAgainst": 21,
-    "points": 4
+    "goalsFor": 21,
+    "goalsAgainst": 23,
+    "points": 7
    }
   }
  ],
@@ -102,17 +102,30 @@
     "goalsAgainst": 5,
     "points": 0
    }
+  },
+  {
+   "teamId": "1533",
+   "name": "Sördögök",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 2,
+    "points": 3
+   }
   }
  ],
  "records": {
   "biggestWin": {
    "seasonId": 55,
    "league": "L5B",
-   "matchId": "56907",
-   "kickoff": "2026-10-06T18:00:00.000Z",
-   "opponentId": "58",
-   "goalsFor": 4,
-   "goalsAgainst": 3
+   "matchId": "57297",
+   "kickoff": "2026-11-19T19:00:00.000Z",
+   "opponentId": "1533",
+   "goalsFor": 6,
+   "goalsAgainst": 2
   },
   "biggestDefeat": {
    "seasonId": 55,
@@ -126,11 +139,11 @@
   "highestScoring": {
    "seasonId": 55,
    "league": "L5B",
-   "matchId": "57232",
-   "kickoff": "2026-11-11T18:00:00.000Z",
-   "opponentId": "125",
-   "goalsFor": 2,
-   "goalsAgainst": 5
+   "matchId": "57297",
+   "kickoff": "2026-11-19T19:00:00.000Z",
+   "opponentId": "1533",
+   "goalsFor": 6,
+   "goalsAgainst": 2
   }
  },
  "streaks": {
@@ -139,20 +152,20 @@
    "from": {
     "seasonId": 55,
     "league": "L5B",
-    "matchId": "56907",
-    "kickoff": "2026-10-06T18:00:00.000Z",
-    "opponentId": "58",
-    "goalsFor": 4,
-    "goalsAgainst": 3
+    "matchId": "57297",
+    "kickoff": "2026-11-19T19:00:00.000Z",
+    "opponentId": "1533",
+    "goalsFor": 6,
+    "goalsAgainst": 2
    },
    "to": {
     "seasonId": 55,
     "league": "L5B",
-    "matchId": "56907",
-    "kickoff": "2026-10-06T18:00:00.000Z",
-    "opponentId": "58",
-    "goalsFor": 4,
-    "goalsAgainst": 3
+    "matchId": "57297",
+    "kickoff": "2026-11-19T19:00:00.000Z",
+    "opponentId": "1533",
+    "goalsFor": 6,
+    "goalsAgainst": 2
    }
   },
   "unbeaten": {
@@ -201,13 +214,25 @@
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 6,
-  "coveredMatches": 6,
+  "playedMatches": 7,
+  "coveredMatches": 7,
   "rows": [
    {
     "name": "Matyi Bálint",
-    "goals": 5,
-    "matches": 4,
+    "goals": 7,
+    "matches": 5,
+    "hatTricks": 0
+   },
+   {
+    "name": "Adrien Morin",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Hódi Péter",
+    "goals": 2,
+    "matches": 2,
     "hatTricks": 0
    },
    {
@@ -217,19 +242,19 @@
     "hatTricks": 0
    },
    {
-    "name": "Adrien Morin",
-    "goals": 1,
-    "matches": 1,
-    "hatTricks": 0
-   },
-   {
-    "name": "Hódi Péter",
+    "name": "Kovács Soma",
     "goals": 1,
     "matches": 1,
     "hatTricks": 0
    },
    {
     "name": "Molnár Csaba Gábor",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Nagy Ferenc",
     "goals": 1,
     "matches": 1,
     "hatTricks": 0

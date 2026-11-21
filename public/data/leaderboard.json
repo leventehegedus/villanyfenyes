@@ -902,8 +902,8 @@
    "name": "Cefre Town",
    "titles": 0,
    "l1Seasons": 1,
-   "won": 5,
-   "goalsFor": 52
+   "won": 6,
+   "goalsFor": 57
   },
   {
    "teamId": "115",
@@ -1031,7 +1031,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 1,
-   "goalsFor": 27
+   "goalsFor": 30
   },
   {
    "teamId": "1480",
@@ -1346,6 +1346,14 @@
    "goalsFor": 46
   },
   {
+   "teamId": "1521",
+   "name": "JSE",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 6,
+   "goalsFor": 59
+  },
+  {
    "teamId": "1520",
    "name": "Ibiza",
    "titles": 0,
@@ -1360,14 +1368,6 @@
    "l1Seasons": 0,
    "won": 5,
    "goalsFor": 50
-  },
-  {
-   "teamId": "1521",
-   "name": "JSE",
-   "titles": 0,
-   "l1Seasons": 0,
-   "won": 5,
-   "goalsFor": 52
   },
   {
    "teamId": "36",
@@ -1391,7 +1391,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 3,
-   "goalsFor": 22
+   "goalsFor": 28
   },
   {
    "teamId": "20",
@@ -1799,7 +1799,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 6,
-   "goalsFor": 50
+   "goalsFor": 52
   },
   {
    "teamId": "228",
@@ -1850,6 +1850,14 @@
    "goalsFor": 27
   },
   {
+   "teamId": "215",
+   "name": "Csendes FIFA",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 21
+  },
+  {
    "teamId": "58",
    "name": "Jó az X",
    "titles": 0,
@@ -1872,14 +1880,6 @@
    "l1Seasons": 0,
    "won": 1,
    "goalsFor": 32
-  },
-  {
-   "teamId": "215",
-   "name": "Csendes FIFA",
-   "titles": 0,
-   "l1Seasons": 0,
-   "won": 1,
-   "goalsFor": 15
   },
   {
    "teamId": "1564",

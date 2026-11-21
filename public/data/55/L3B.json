@@ -1915,7 +1915,7 @@
      "teamId": "43"
     }
    ],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "57283",
@@ -1993,7 +1993,7 @@
      "teamId": "27"
     }
    ],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "57311",
@@ -2008,26 +2008,26 @@
    "scorers": [
     {
      "name": "Stift Máté Kálmán",
-     "teamId": "30",
-     "goals": 1
+     "goals": 1,
+     "teamId": "30"
     },
     {
      "name": "Méhes Levente",
-     "teamId": "30",
-     "goals": 1
+     "goals": 1,
+     "teamId": "30"
     },
     {
      "name": "Dr. Kádár István",
-     "teamId": "190",
-     "goals": 1
+     "goals": 1,
+     "teamId": "190"
     },
     {
      "name": "Zsidai László",
-     "teamId": "190",
-     "goals": 1
+     "goals": 1,
+     "teamId": "190"
     }
    ],
-   "detailFetchedAt": "2026-11-20T12:38:28.503Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "57301",
@@ -2056,7 +2056,7 @@
      "teamId": "27"
     }
    ],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "56640",
@@ -2090,7 +2090,7 @@
      "teamId": "146"
     }
    ],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "57328",
@@ -2102,8 +2102,14 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "scorers": [
+    {
+     "name": "Kálnai Máté",
+     "goals": 3,
+     "teamId": "98"
+    }
+   ],
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "57357",
@@ -2137,7 +2143,7 @@
      "teamId": "146"
     }
    ],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "x-55-L3B-202611231800-no-czuczor-no-party-relazio",
@@ -2440,7 +2446,7 @@
    "teamId": "72",
    "bestLeague": "L3B",
    "topScorer": {
-    "name": "Zsinka László István",
+    "name": "Stirling Balázs",
     "goals": 5
    },
    "seasonsCount": 4,

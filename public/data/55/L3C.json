@@ -1819,7 +1819,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "57656",
@@ -1868,7 +1868,7 @@
      "teamId": "219"
     }
    ],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "57325",
@@ -1897,7 +1897,7 @@
      "teamId": "230"
     }
    ],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "57296",
@@ -1912,31 +1912,31 @@
    "scorers": [
     {
      "name": "Szabó Fülöp",
-     "teamId": "118",
-     "goals": 3
+     "goals": 3,
+     "teamId": "118"
     },
     {
      "name": "Fehér Dávid",
-     "teamId": "118",
-     "goals": 1
+     "goals": 1,
+     "teamId": "118"
     },
     {
      "name": "Balogh Ádám József",
-     "teamId": "118",
-     "goals": 1
+     "goals": 1,
+     "teamId": "118"
     },
     {
      "name": "Könyves László",
-     "teamId": "192",
-     "goals": 3
+     "goals": 3,
+     "teamId": "192"
     },
     {
      "name": "Kaczur Péter",
-     "teamId": "192",
-     "goals": 2
+     "goals": 2,
+     "teamId": "192"
     }
    ],
-   "detailFetchedAt": "2026-11-20T12:38:28.503Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "56683",
@@ -1949,7 +1949,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "x-55-L3C-202611231800-devcs-susu-fc",
@@ -2178,7 +2178,7 @@
    "teamId": "192",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Könyves László",
+    "name": "Varga Örs",
     "goals": 6
    },
    "seasonsCount": 5,

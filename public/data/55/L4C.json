@@ -1910,7 +1910,7 @@
      "teamId": "131"
     }
    ],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "57229",
@@ -1944,7 +1944,7 @@
      "teamId": "47"
     }
    ],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "57244",
@@ -1983,7 +1983,7 @@
      "teamId": "153"
     }
    ],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "57267",
@@ -2012,7 +2012,7 @@
      "teamId": "1504"
     }
    ],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "57322",
@@ -2027,21 +2027,21 @@
    "scorers": [
     {
      "name": "Kis Ádám",
-     "teamId": "1512",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1512"
     },
     {
      "name": "Péter Adrián",
-     "teamId": "1512",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1512"
     },
     {
      "name": "Kurucz Dániel",
-     "teamId": "1512",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1512"
     }
    ],
-   "detailFetchedAt": "2026-11-20T12:38:28.503Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "57341",
@@ -2060,7 +2060,7 @@
      "teamId": "131"
     }
    ],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "57346",
@@ -2104,7 +2104,7 @@
      "teamId": "101"
     }
    ],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "x-55-L4C-202611231600-selecao-los-magos",
@@ -2340,7 +2340,7 @@
    "teamId": "1512",
    "bestLeague": "L4C",
    "topScorer": {
-    "name": "Péter Adrián",
+    "name": "Tóth Domonkos",
     "goals": 4
    },
    "seasonsCount": 2,
@@ -2370,7 +2370,7 @@
    "teamId": "1504",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Pothóczki Ábel",
+    "name": "Purosz Leonidasz",
     "goals": 5
    },
    "seasonsCount": 3,
@@ -2380,7 +2380,7 @@
    "teamId": "47",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Molnár Ákos",
+    "name": "Hajdu Tibor",
     "goals": 5
    },
    "seasonsCount": 26,

@@ -15,6 +15,11 @@
    "name": "Havankapus6-5"
   },
   {
+   "id": "1521",
+   "siteId": 1521,
+   "name": "JSE"
+  },
+  {
    "id": "1520",
    "siteId": 1520,
    "name": "Ibiza"
@@ -23,11 +28,6 @@
    "id": "172",
    "siteId": 172,
    "name": "aha"
-  },
-  {
-   "id": "1521",
-   "siteId": 1521,
-   "name": "JSE"
   },
   {
    "id": "36",
@@ -100,6 +100,21 @@
   },
   {
    "position": 3,
+   "teamId": "1521",
+   "played": 8,
+   "won": 6,
+   "drawn": 0,
+   "lost": 2,
+   "goalsFor": 59,
+   "goalsAgainst": 38,
+   "goalDiff": 21,
+   "points": 18,
+   "markers": [
+    "manyGoals"
+   ]
+  },
+  {
+   "position": 4,
    "teamId": "1520",
    "played": 7,
    "won": 5,
@@ -114,7 +129,7 @@
    ]
   },
   {
-   "position": 4,
+   "position": 5,
    "teamId": "172",
    "played": 10,
    "won": 5,
@@ -126,21 +141,6 @@
    "points": 15,
    "markers": [
     "winStreak",
-    "manyGoals"
-   ]
-  },
-  {
-   "position": 5,
-   "teamId": "1521",
-   "played": 7,
-   "won": 5,
-   "drawn": 0,
-   "lost": 2,
-   "goalsFor": 52,
-   "goalsAgainst": 32,
-   "goalDiff": 20,
-   "points": 15,
-   "markers": [
     "manyGoals"
    ]
   },
@@ -178,16 +178,16 @@
   {
    "position": 8,
    "teamId": "152",
-   "played": 7,
+   "played": 8,
    "won": 3,
    "drawn": 2,
-   "lost": 2,
-   "goalsFor": 22,
-   "goalsAgainst": 24,
-   "goalDiff": -2,
+   "lost": 3,
+   "goalsFor": 28,
+   "goalsAgainst": 31,
+   "goalDiff": -3,
    "points": 11,
    "markers": [
-    "fewConceded"
+    "lossStreak"
    ]
   },
   {
@@ -1956,28 +1956,15 @@
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
   },
   {
-   "id": "57337",
-   "siteId": 57337,
-   "homeTeamId": "1520",
-   "awayTeamId": "1523",
-   "kickoff": "2026-11-16T17:00:00.000Z",
-   "venue": "Bogdánfy_3",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
-  },
-  {
    "id": "57305",
    "siteId": 57305,
    "homeTeamId": "152",
    "awayTeamId": "1521",
    "kickoff": "2026-11-16T17:00:00.000Z",
    "venue": "Bogdánfy_4",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 6,
+   "awayGoals": 7,
+   "status": "played",
    "scorers": [
     {
      "name": "Kalenda Mihály",
@@ -1988,9 +1975,37 @@
      "name": "Ilyés József",
      "goals": 3,
      "teamId": "152"
+    },
+    {
+     "name": "Mátyás Szívós",
+     "goals": 5,
+     "teamId": "1521"
+    },
+    {
+     "name": "Szelei Lóránt",
+     "goals": 1,
+     "teamId": "1521"
+    },
+    {
+     "name": "Prága Kristóf",
+     "goals": 1,
+     "teamId": "1521"
     }
    ],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
+  },
+  {
+   "id": "57337",
+   "siteId": 57337,
+   "homeTeamId": "1520",
+   "awayTeamId": "1523",
+   "kickoff": "2026-11-16T17:00:00.000Z",
+   "venue": "Bogdánfy_3",
+   "homeGoals": null,
+   "awayGoals": null,
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "57323",
@@ -2005,26 +2020,26 @@
    "scorers": [
     {
      "name": "Papp Zsombor István",
-     "teamId": "1471",
-     "goals": 3
+     "goals": 3,
+     "teamId": "1471"
     },
     {
      "name": "Brandt Péter Benedek",
-     "teamId": "1471",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1471"
     },
     {
      "name": "Hasanbegovic Sasa",
-     "teamId": "1471",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1471"
     },
     {
      "name": "Helmes Vilmos",
-     "teamId": "1471",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1471"
     }
    ],
-   "detailFetchedAt": "2026-11-20T12:38:28.503Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "x-55-L4A-202611241700-kek-labdak-entspannter-team",
@@ -2250,10 +2265,20 @@
    "teamId": "126",
    "bestLeague": "L2B",
    "topScorer": {
-    "name": "Nagy Ádám",
+    "name": "Himics Dávid",
     "goals": 6
    },
    "seasonsCount": 10,
+   "matchesPlayed": 8
+  },
+  {
+   "teamId": "1521",
+   "bestLeague": "L3A",
+   "topScorer": {
+    "name": "Mátyás Szívós",
+    "goals": 10
+   },
+   "seasonsCount": 3,
    "matchesPlayed": 8
   },
   {
@@ -2275,16 +2300,6 @@
    },
    "seasonsCount": 8,
    "matchesPlayed": 10
-  },
-  {
-   "teamId": "1521",
-   "bestLeague": "L3A",
-   "topScorer": {
-    "name": "Mátyás Szívós",
-    "goals": 10
-   },
-   "seasonsCount": 3,
-   "matchesPlayed": 7
   },
   {
    "teamId": "36",
@@ -2314,7 +2329,7 @@
     "goals": 5
    },
    "seasonsCount": 22,
-   "matchesPlayed": 7
+   "matchesPlayed": 8
   },
   {
    "teamId": "20",

@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L2B",
    "finished": false,
-   "position": 7,
+   "position": 5,
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 5,
-    "won": 3,
+    "played": 6,
+    "won": 4,
     "drawn": 0,
     "lost": 2,
-    "goalsFor": 28,
-    "goalsAgainst": 33,
-    "points": 9
+    "goalsFor": 33,
+    "goalsAgainst": 36,
+    "points": 12
    }
   },
   {
@@ -250,6 +250,19 @@
     "goalsAgainst": 3,
     "points": 3
    }
+  },
+  {
+   "teamId": "31",
+   "name": "SZIKértelem",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 3,
+    "points": 3
+   }
   }
  ],
  "records": {
@@ -285,43 +298,43 @@
   "win": {
    "length": 2,
    "from": {
-    "seasonId": 53,
-    "league": "L1",
-    "matchId": "47203",
-    "kickoff": "2026-03-10T19:00:00.000Z",
-    "opponentId": "28",
-    "goalsFor": 5,
-    "goalsAgainst": 2
+    "seasonId": 55,
+    "league": "L2B",
+    "matchId": "57245",
+    "kickoff": "2026-11-10T18:00:00.000Z",
+    "opponentId": "182",
+    "goalsFor": 4,
+    "goalsAgainst": 3
    },
    "to": {
-    "seasonId": 53,
-    "league": "L1",
-    "matchId": "47288",
-    "kickoff": "2026-03-17T20:00:00.000Z",
-    "opponentId": "115",
-    "goalsFor": 7,
-    "goalsAgainst": 5
+    "seasonId": 55,
+    "league": "L2B",
+    "matchId": "57321",
+    "kickoff": "2026-11-18T20:00:00.000Z",
+    "opponentId": "31",
+    "goalsFor": 5,
+    "goalsAgainst": 3
    }
   },
   "unbeaten": {
    "length": 2,
    "from": {
-    "seasonId": 53,
-    "league": "L1",
-    "matchId": "47203",
-    "kickoff": "2026-03-10T19:00:00.000Z",
-    "opponentId": "28",
-    "goalsFor": 5,
-    "goalsAgainst": 2
+    "seasonId": 55,
+    "league": "L2B",
+    "matchId": "57245",
+    "kickoff": "2026-11-10T18:00:00.000Z",
+    "opponentId": "182",
+    "goalsFor": 4,
+    "goalsAgainst": 3
    },
    "to": {
-    "seasonId": 53,
-    "league": "L1",
-    "matchId": "47288",
-    "kickoff": "2026-03-17T20:00:00.000Z",
-    "opponentId": "115",
-    "goalsFor": 7,
-    "goalsAgainst": 5
+    "seasonId": 55,
+    "league": "L2B",
+    "matchId": "57321",
+    "kickoff": "2026-11-18T20:00:00.000Z",
+    "opponentId": "31",
+    "goalsFor": 5,
+    "goalsAgainst": 3
    }
   },
   "loss": {
@@ -349,19 +362,19 @@
  "cleanSheets": 0,
  "failedToScore": 4,
  "scorers": {
-  "playedMatches": 16,
-  "coveredMatches": 16,
+  "playedMatches": 17,
+  "coveredMatches": 17,
   "rows": [
    {
     "name": "Hegedüs Dániel",
-    "goals": 9,
-    "matches": 6,
+    "goals": 10,
+    "matches": 7,
     "hatTricks": 1
    },
    {
     "name": "Juhász Csongor",
-    "goals": 8,
-    "matches": 4,
+    "goals": 10,
+    "matches": 5,
     "hatTricks": 1
    },
    {
@@ -372,8 +385,8 @@
    },
    {
     "name": "Pallaghy József Barnabás",
-    "goals": 3,
-    "matches": 2,
+    "goals": 5,
+    "matches": 3,
     "hatTricks": 0
    },
    {

@@ -2043,7 +2043,7 @@
      "teamId": "75"
     }
    ],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "57335",
@@ -2087,7 +2087,7 @@
      "teamId": "241"
     }
    ],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "57294",
@@ -2111,7 +2111,7 @@
      "teamId": "132"
     }
    ],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "57292",
@@ -2140,7 +2140,7 @@
      "teamId": "75"
     }
    ],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "57333",
@@ -2155,23 +2155,23 @@
    "scorers": [
     {
      "name": "Hajnal Ábris",
-     "goals": 1,
-     "teamId": "1531"
+     "teamId": "1531",
+     "goals": 1
     },
     {
      "name": "István Pásztor",
-     "goals": 1,
-     "teamId": "1531"
+     "teamId": "1531",
+     "goals": 1
     },
     {
      "name": "Pálffy Tamás",
-     "goals": 7,
-     "teamId": "1544"
+     "teamId": "1544",
+     "goals": 7
     },
     {
      "name": "Pados Szilárd Marcell",
-     "goals": 2,
-     "teamId": "1544"
+     "teamId": "1544",
+     "goals": 2
     }
    ],
    "detailFetchedAt": "2026-11-21T11:00:29.729Z"
@@ -2430,7 +2430,7 @@
    "teamId": "241",
    "bestLeague": "L5A",
    "topScorer": {
-    "name": "Péntek Péter",
+    "name": "Elekes Dániel",
     "goals": 6
    },
    "seasonsCount": 3,
@@ -2480,7 +2480,7 @@
    "teamId": "1473",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Szekeres Kornél",
+    "name": "Tóth Martin",
     "goals": 3
    },
    "seasonsCount": 4,
@@ -2490,7 +2490,7 @@
    "teamId": "75",
    "bestLeague": "L5A",
    "topScorer": {
-    "name": "Paksi Ábel",
+    "name": "Barnabás Ilosvai",
     "goals": 3
    },
    "seasonsCount": 3,

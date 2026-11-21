@@ -40,6 +40,11 @@
    "name": "Magyi"
   },
   {
+   "id": "215",
+   "siteId": 215,
+   "name": "Csendes FIFA"
+  },
+  {
    "id": "58",
    "siteId": 58,
    "name": "Jó az X"
@@ -55,11 +60,6 @@
    "name": "Alíz Utca FC"
   },
   {
-   "id": "215",
-   "siteId": 215,
-   "name": "Csendes FIFA"
-  },
-  {
    "id": "1564",
    "siteId": 1564,
    "name": "Husvilla tona klubb"
@@ -69,16 +69,15 @@
   {
    "position": 1,
    "teamId": "1533",
-   "played": 7,
+   "played": 8,
    "won": 6,
    "drawn": 0,
-   "lost": 1,
-   "goalsFor": 50,
-   "goalsAgainst": 31,
-   "goalDiff": 19,
+   "lost": 2,
+   "goalsFor": 52,
+   "goalsAgainst": 37,
+   "goalDiff": 15,
    "points": 18,
    "markers": [
-    "winStreak",
     "manyGoals",
     "promotion"
    ]
@@ -177,6 +176,21 @@
   },
   {
    "position": 8,
+   "teamId": "215",
+   "played": 7,
+   "won": 2,
+   "drawn": 1,
+   "lost": 4,
+   "goalsFor": 21,
+   "goalsAgainst": 23,
+   "goalDiff": -2,
+   "points": 7,
+   "markers": [
+    "fewConceded"
+   ]
+  },
+  {
+   "position": 9,
    "teamId": "58",
    "played": 6,
    "won": 2,
@@ -191,7 +205,7 @@
    ]
   },
   {
-   "position": 9,
+   "position": 10,
    "teamId": "57",
    "played": 7,
    "won": 2,
@@ -206,7 +220,7 @@
    ]
   },
   {
-   "position": 10,
+   "position": 11,
    "teamId": "1559",
    "played": 8,
    "won": 1,
@@ -217,22 +231,6 @@
    "goalDiff": -12,
    "points": 5,
    "markers": []
-  },
-  {
-   "position": 11,
-   "teamId": "215",
-   "played": 6,
-   "won": 1,
-   "drawn": 1,
-   "lost": 4,
-   "goalsFor": 15,
-   "goalsAgainst": 21,
-   "goalDiff": -6,
-   "points": 4,
-   "markers": [
-    "lossStreak",
-    "fewConceded"
-   ]
   },
   {
    "position": 12,
@@ -1925,16 +1923,16 @@
    "scorers": [
     {
      "name": "Hoós Marcell",
-     "teamId": "228",
-     "goals": 1
+     "goals": 1,
+     "teamId": "228"
     },
     {
      "name": "Vámosi Márk",
-     "teamId": "1559",
-     "goals": 3
+     "goals": 3,
+     "teamId": "1559"
     }
    ],
-   "detailFetchedAt": "2026-11-20T12:38:28.503Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "57307",
@@ -1947,7 +1945,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "57297",
@@ -1956,9 +1954,9 @@
    "awayTeamId": "1533",
    "kickoff": "2026-11-19T19:00:00.000Z",
    "venue": "Bogdánfy_3",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "status": "played",
    "scorers": [
     {
      "name": "Matyi Bálint",
@@ -1984,9 +1982,14 @@
      "name": "Adrien Morin",
      "goals": 1,
      "teamId": "215"
+    },
+    {
+     "name": "Felszner Márk",
+     "goals": 2,
+     "teamId": "1533"
     }
    ],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "x-55-L5B-202611232000-a-jo-a-rossz-es-a-dagadt-alibi-fc",
@@ -2232,7 +2235,7 @@
     "goals": 6
    },
    "seasonsCount": 2,
-   "matchesPlayed": 7
+   "matchesPlayed": 8
   },
   {
    "teamId": "228",
@@ -2295,6 +2298,16 @@
    "matchesPlayed": 9
   },
   {
+   "teamId": "215",
+   "bestLeague": "L3A",
+   "topScorer": {
+    "name": "Adrien Morin",
+    "goals": 3
+   },
+   "seasonsCount": 30,
+   "matchesPlayed": 7
+  },
+  {
    "teamId": "58",
    "bestLeague": "L2A",
    "topScorer": {
@@ -2318,21 +2331,11 @@
    "teamId": "1559",
    "bestLeague": "L5B",
    "topScorer": {
-    "name": "Hudi Martin",
+    "name": "Loósz Benedek",
     "goals": 3
    },
    "seasonsCount": 1,
    "matchesPlayed": 8
-  },
-  {
-   "teamId": "215",
-   "bestLeague": "L3A",
-   "topScorer": {
-    "name": "Adrien Morin",
-    "goals": 3
-   },
-   "seasonsCount": 30,
-   "matchesPlayed": 6
   },
   {
    "teamId": "1564",

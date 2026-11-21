@@ -1933,28 +1933,28 @@
    "scorers": [
     {
      "name": "Bakos Balázs",
-     "goals": 2,
-     "teamId": "138"
+     "teamId": "138",
+     "goals": 2
     },
     {
      "name": "Gehér Koppány",
-     "goals": 1,
-     "teamId": "138"
+     "teamId": "138",
+     "goals": 1
     },
     {
      "name": "Juhász Gábor",
-     "goals": 1,
-     "teamId": "138"
+     "teamId": "138",
+     "goals": 1
     },
     {
      "name": "Szabó Lajos Dániel",
-     "goals": 2,
-     "teamId": "195"
+     "teamId": "195",
+     "goals": 2
     },
     {
      "name": "Ferencz Árpád",
-     "goals": 2,
-     "teamId": "195"
+     "teamId": "195",
+     "goals": 2
     }
    ],
    "detailFetchedAt": "2026-11-21T11:00:29.729Z"
@@ -1996,7 +1996,7 @@
      "teamId": "1560"
     }
    ],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "57354",
@@ -2009,7 +2009,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "57306",
@@ -2022,7 +2022,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
   },
   {
    "id": "x-55-L5D-202611231900-gatya-fc-homarok-sc",
@@ -2348,7 +2348,7 @@
    "teamId": "1495",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Erdős Péter Zsombot",
+    "name": "Szücs Máté",
     "goals": 2
    },
    "seasonsCount": 3,

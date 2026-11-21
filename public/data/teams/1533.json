@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": "promotion",
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 6,
     "drawn": 0,
-    "lost": 1,
-    "goalsFor": 50,
-    "goalsAgainst": 31,
+    "lost": 2,
+    "goalsFor": 52,
+    "goalsAgainst": 37,
     "points": 18
    }
   }
@@ -115,6 +115,19 @@
     "goalsAgainst": 5,
     "points": 3
    }
+  },
+  {
+   "teamId": "215",
+   "name": "Csendes FIFA",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 6,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -130,11 +143,11 @@
   "biggestDefeat": {
    "seasonId": 55,
    "league": "L5B",
-   "matchId": "56864",
-   "kickoff": "2026-09-28T16:00:00.000Z",
-   "opponentId": "1483",
-   "goalsFor": 8,
-   "goalsAgainst": 10
+   "matchId": "57297",
+   "kickoff": "2026-11-19T19:00:00.000Z",
+   "opponentId": "215",
+   "goalsFor": 2,
+   "goalsAgainst": 6
   },
   "highestScoring": {
    "seasonId": 55,
@@ -194,28 +207,28 @@
    "from": {
     "seasonId": 55,
     "league": "L5B",
-    "matchId": "56864",
-    "kickoff": "2026-09-28T16:00:00.000Z",
-    "opponentId": "1483",
-    "goalsFor": 8,
-    "goalsAgainst": 10
+    "matchId": "57297",
+    "kickoff": "2026-11-19T19:00:00.000Z",
+    "opponentId": "215",
+    "goalsFor": 2,
+    "goalsAgainst": 6
    },
    "to": {
     "seasonId": 55,
     "league": "L5B",
-    "matchId": "56864",
-    "kickoff": "2026-09-28T16:00:00.000Z",
-    "opponentId": "1483",
-    "goalsFor": 8,
-    "goalsAgainst": 10
+    "matchId": "57297",
+    "kickoff": "2026-11-19T19:00:00.000Z",
+    "opponentId": "215",
+    "goalsFor": 2,
+    "goalsAgainst": 6
    }
   }
  },
  "cleanSheets": 1,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 7,
-  "coveredMatches": 7,
+  "playedMatches": 8,
+  "coveredMatches": 8,
   "rows": [
    {
     "name": "Czibula Márk Milán",
@@ -224,15 +237,15 @@
     "hatTricks": 4
    },
    {
-    "name": "Rittlinger Boldizsár",
-    "goals": 7,
+    "name": "Felszner Márk",
+    "goals": 8,
     "matches": 4,
     "hatTricks": 1
    },
    {
-    "name": "Felszner Márk",
-    "goals": 6,
-    "matches": 3,
+    "name": "Rittlinger Boldizsár",
+    "goals": 7,
+    "matches": 4,
     "hatTricks": 1
    },
    {

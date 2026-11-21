@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 3,
     "drawn": 2,
-    "lost": 2,
-    "goalsFor": 22,
-    "goalsAgainst": 24,
+    "lost": 3,
+    "goalsFor": 28,
+    "goalsAgainst": 31,
     "points": 11
    }
   }
@@ -115,6 +115,19 @@
     "goalsAgainst": 4,
     "points": 0
    }
+  },
+  {
+   "teamId": "1521",
+   "name": "JSE",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 6,
+    "goalsAgainst": 7,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -139,11 +152,11 @@
   "highestScoring": {
    "seasonId": 55,
    "league": "L4A",
-   "matchId": "56553",
-   "kickoff": "2026-09-03T16:00:00.000Z",
-   "opponentId": "172",
-   "goalsFor": 5,
-   "goalsAgainst": 4
+   "matchId": "57305",
+   "kickoff": "2026-11-16T17:00:00.000Z",
+   "opponentId": "1521",
+   "goalsFor": 6,
+   "goalsAgainst": 7
   }
  },
  "streaks": {
@@ -190,7 +203,7 @@
    }
   },
   "loss": {
-   "length": 1,
+   "length": 2,
    "from": {
     "seasonId": 55,
     "league": "L4A",
@@ -203,31 +216,31 @@
    "to": {
     "seasonId": 55,
     "league": "L4A",
-    "matchId": "57166",
-    "kickoff": "2026-11-04T18:00:00.000Z",
-    "opponentId": "1471",
-    "goalsFor": 2,
-    "goalsAgainst": 4
+    "matchId": "57305",
+    "kickoff": "2026-11-16T17:00:00.000Z",
+    "opponentId": "1521",
+    "goalsFor": 6,
+    "goalsAgainst": 7
    }
   }
  },
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 7,
-  "coveredMatches": 7,
+  "playedMatches": 8,
+  "coveredMatches": 8,
   "rows": [
    {
     "name": "Kalenda Mihály",
-    "goals": 8,
-    "matches": 3,
-    "hatTricks": 1
+    "goals": 11,
+    "matches": 4,
+    "hatTricks": 2
    },
    {
     "name": "Ilyés József",
-    "goals": 7,
-    "matches": 2,
-    "hatTricks": 1
+    "goals": 10,
+    "matches": 3,
+    "hatTricks": 2
    },
    {
     "name": "Szabó Bence",

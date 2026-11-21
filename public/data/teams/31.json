@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": "relegation",
    "totals": {
-    "played": 8,
+    "played": 9,
     "won": 1,
     "drawn": 1,
-    "lost": 6,
-    "goalsFor": 27,
-    "goalsAgainst": 43,
+    "lost": 7,
+    "goalsFor": 30,
+    "goalsAgainst": 48,
     "points": 4
    }
   }
@@ -128,6 +128,19 @@
     "goalsAgainst": 4,
     "points": 0
    }
+  },
+  {
+   "teamId": "154",
+   "name": "Cefre Town",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 5,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -227,13 +240,13 @@
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 8,
-  "coveredMatches": 8,
+  "playedMatches": 9,
+  "coveredMatches": 9,
   "rows": [
    {
     "name": "Hencsei Zsombor",
-    "goals": 6,
-    "matches": 4,
+    "goals": 8,
+    "matches": 5,
     "hatTricks": 1
    },
    {
@@ -255,14 +268,14 @@
     "hatTricks": 1
    },
    {
-    "name": "Kovács Bence",
+    "name": "Káplár Bazil Benedek",
     "goals": 2,
-    "matches": 1,
+    "matches": 2,
     "hatTricks": 0
    },
    {
-    "name": "Káplár Bazil Benedek",
-    "goals": 1,
+    "name": "Kovács Bence",
+    "goals": 2,
     "matches": 1,
     "hatTricks": 0
    },

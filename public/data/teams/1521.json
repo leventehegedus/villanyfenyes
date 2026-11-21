@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L4A",
    "finished": false,
-   "position": 5,
+   "position": 3,
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 7,
-    "won": 5,
+    "played": 8,
+    "won": 6,
     "drawn": 0,
     "lost": 2,
-    "goalsFor": 52,
-    "goalsAgainst": 32,
-    "points": 15
+    "goalsFor": 59,
+    "goalsAgainst": 38,
+    "points": 18
    }
   }
  ],
@@ -114,6 +114,19 @@
     "goalsFor": 7,
     "goalsAgainst": 9,
     "points": 0
+   }
+  },
+  {
+   "teamId": "152",
+   "name": "Nocc Kánti",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 6,
+    "points": 3
    }
   }
  ],
@@ -214,14 +227,14 @@
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 7,
-  "coveredMatches": 7,
+  "playedMatches": 8,
+  "coveredMatches": 8,
   "rows": [
    {
     "name": "Mátyás Szívós",
-    "goals": 14,
-    "matches": 4,
-    "hatTricks": 3
+    "goals": 19,
+    "matches": 5,
+    "hatTricks": 4
    },
    {
     "name": "Némedi Balázs",
@@ -231,8 +244,8 @@
    },
    {
     "name": "Prága Kristóf",
-    "goals": 8,
-    "matches": 4,
+    "goals": 9,
+    "matches": 5,
     "hatTricks": 1
    },
    {
@@ -260,13 +273,13 @@
     "hatTricks": 0
    },
    {
-    "name": "Halgat Dávid",
-    "goals": 1,
-    "matches": 1,
+    "name": "Szelei Lóránt",
+    "goals": 2,
+    "matches": 2,
     "hatTricks": 0
    },
    {
-    "name": "Szelei Lóránt",
+    "name": "Halgat Dávid",
     "goals": 1,
     "matches": 1,
     "hatTricks": 0
