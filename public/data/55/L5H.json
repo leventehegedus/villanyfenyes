@@ -1815,7 +1815,7 @@
      "teamId": "1556"
     }
    ],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "57331",
@@ -1844,7 +1844,7 @@
      "teamId": "232"
     }
    ],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "57298",
@@ -1856,8 +1856,29 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "scorers": [
+    {
+     "name": "Nagy Mihály Gyula",
+     "goals": 8,
+     "teamId": "1566"
+    },
+    {
+     "name": "Daróczi Donát",
+     "goals": 5,
+     "teamId": "1566"
+    },
+    {
+     "name": "Fodor Kornél",
+     "goals": 2,
+     "teamId": "1566"
+    },
+    {
+     "name": "Jordán Bertalan",
+     "goals": 2,
+     "teamId": "1566"
+    }
+   ],
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "57327",
@@ -1891,7 +1912,7 @@
      "teamId": "1556"
     }
    ],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "57310",
@@ -1904,7 +1925,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "x-55-L5H-202611242000-busquets-serege-rosario-juniors",
@@ -2133,8 +2154,8 @@
    "teamId": "1566",
    "bestLeague": "L5H",
    "topScorer": {
-    "name": "Fodor Kornél",
-    "goals": 5
+    "name": "Nagy Mihály Gyula",
+    "goals": 8
    },
    "seasonsCount": 1,
    "matchesPlayed": 7

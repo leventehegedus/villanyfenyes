@@ -2192,7 +2192,7 @@
      "teamId": "85"
     }
    ],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "57304",
@@ -2280,7 +2280,7 @@
      "teamId": "39"
     }
    ],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "x-55-L3D-202611241700-basket-case-energ-team",
@@ -2516,7 +2516,7 @@
    "teamId": "85",
    "bestLeague": "L3B",
    "topScorer": {
-    "name": "Novozánszki Zsombor",
+    "name": "Horváth Péter",
     "goals": 6
    },
    "seasonsCount": 14,
@@ -2576,7 +2576,7 @@
    "teamId": "39",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Frcska Döme Ákos",
+    "name": "Tóth Ádám",
     "goals": 5
    },
    "seasonsCount": 10,
@@ -2586,7 +2586,7 @@
    "teamId": "84",
    "bestLeague": "L3C",
    "topScorer": {
-    "name": "Grósz Bence",
+    "name": "Tóth Artúr Benedek",
     "goals": 5
    },
    "seasonsCount": 7,

@@ -1966,7 +1966,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "57305",
@@ -1990,7 +1990,7 @@
      "teamId": "152"
     }
    ],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "57323",
@@ -2250,7 +2250,7 @@
    "teamId": "126",
    "bestLeague": "L2B",
    "topScorer": {
-    "name": "Himics Dávid",
+    "name": "Nagy Ádám",
     "goals": 6
    },
    "seasonsCount": 10,
@@ -2350,7 +2350,7 @@
    "teamId": "34",
    "bestLeague": "L2B",
    "topScorer": {
-    "name": "Farkas Márton",
+    "name": "Rajnai Gábor",
     "goals": 5
    },
    "seasonsCount": 13,

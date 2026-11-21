@@ -14,13 +14,13 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 1,
-    "drawn": 1,
+    "drawn": 2,
     "lost": 5,
-    "goalsFor": 26,
-    "goalsAgainst": 38,
-    "points": 4
+    "goalsFor": 30,
+    "goalsAgainst": 42,
+    "points": 5
    }
   }
  ],
@@ -115,6 +115,19 @@
     "goalsAgainst": 4,
     "points": 1
    }
+  },
+  {
+   "teamId": "138",
+   "name": "Bozók CF",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 4,
+    "points": 1
+   }
   }
  ],
  "records": {
@@ -169,7 +182,7 @@
    }
   },
   "unbeaten": {
-   "length": 1,
+   "length": 2,
    "from": {
     "seasonId": 55,
     "league": "L5D",
@@ -182,9 +195,9 @@
    "to": {
     "seasonId": 55,
     "league": "L5D",
-    "matchId": "57192",
-    "kickoff": "2026-11-05T17:00:00.000Z",
-    "opponentId": "155",
+    "matchId": "57277",
+    "kickoff": "2026-11-13T19:00:00.000Z",
+    "opponentId": "138",
     "goalsFor": 4,
     "goalsAgainst": 4
    }
@@ -214,8 +227,8 @@
  "cleanSheets": 0,
  "failedToScore": 1,
  "scorers": {
-  "playedMatches": 7,
-  "coveredMatches": 7,
+  "playedMatches": 8,
+  "coveredMatches": 8,
   "rows": [
    {
     "name": "Óváry Márton",
@@ -225,9 +238,15 @@
    },
    {
     "name": "Szabó Lajos Dániel",
-    "goals": 3,
-    "matches": 1,
+    "goals": 5,
+    "matches": 2,
     "hatTricks": 1
+   },
+   {
+    "name": "Ferencz Árpád",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
    },
    {
     "name": "Weeber László",
@@ -237,12 +256,6 @@
    },
    {
     "name": "Ákos Kertész",
-    "goals": 1,
-    "matches": 1,
-    "hatTricks": 0
-   },
-   {
-    "name": "Ferencz Árpád",
     "goals": 1,
     "matches": 1,
     "hatTricks": 0

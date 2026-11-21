@@ -10,9 +10,9 @@
    "label": "2026 - Ősz",
    "league": "L5C",
    "finished": false,
-   "position": 2,
+   "position": 3,
    "teamsInLeague": 12,
-   "marker": "promotion",
+   "marker": null,
    "totals": {
     "played": 7,
     "won": 5,

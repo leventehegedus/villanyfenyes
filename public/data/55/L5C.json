@@ -10,24 +10,24 @@
    "name": "Ment Mellé is"
   },
   {
-   "id": "1509",
-   "siteId": 1509,
-   "name": "PINATINAIKOS"
-  },
-  {
-   "id": "241",
-   "siteId": 241,
-   "name": "Bomboclaat FC"
-  },
-  {
    "id": "1544",
    "siteId": 1544,
    "name": "Stoczek Wanderers FC"
   },
   {
+   "id": "1509",
+   "siteId": 1509,
+   "name": "PINATINAIKOS"
+  },
+  {
    "id": "216",
    "siteId": 216,
    "name": "ESZKFC"
+  },
+  {
+   "id": "241",
+   "siteId": 241,
+   "name": "Bomboclaat FC"
   },
   {
    "id": "1531",
@@ -85,6 +85,23 @@
   },
   {
    "position": 2,
+   "teamId": "1544",
+   "played": 8,
+   "won": 6,
+   "drawn": 0,
+   "lost": 2,
+   "goalsFor": 62,
+   "goalsAgainst": 40,
+   "goalDiff": 22,
+   "points": 18,
+   "markers": [
+    "winStreak",
+    "manyGoals",
+    "promotion"
+   ]
+  },
+  {
+   "position": 3,
    "teamId": "1509",
    "played": 7,
    "won": 5,
@@ -97,42 +114,11 @@
    "markers": [
     "winStreak",
     "manyGoals",
-    "fewConceded",
-    "promotion"
-   ]
-  },
-  {
-   "position": 3,
-   "teamId": "241",
-   "played": 7,
-   "won": 5,
-   "drawn": 0,
-   "lost": 2,
-   "goalsFor": 40,
-   "goalsAgainst": 23,
-   "goalDiff": 17,
-   "points": 15,
-   "markers": [
     "fewConceded"
    ]
   },
   {
    "position": 4,
-   "teamId": "1544",
-   "played": 7,
-   "won": 5,
-   "drawn": 0,
-   "lost": 2,
-   "goalsFor": 53,
-   "goalsAgainst": 38,
-   "goalDiff": 15,
-   "points": 15,
-   "markers": [
-    "manyGoals"
-   ]
-  },
-  {
-   "position": 5,
    "teamId": "216",
    "played": 8,
    "won": 5,
@@ -148,17 +134,33 @@
    ]
   },
   {
-   "position": 6,
-   "teamId": "1531",
-   "played": 9,
+   "position": 5,
+   "teamId": "241",
+   "played": 7,
    "won": 5,
    "drawn": 0,
-   "lost": 4,
-   "goalsFor": 54,
-   "goalsAgainst": 37,
+   "lost": 2,
+   "goalsFor": 40,
+   "goalsAgainst": 23,
    "goalDiff": 17,
    "points": 15,
    "markers": [
+    "fewConceded"
+   ]
+  },
+  {
+   "position": 6,
+   "teamId": "1531",
+   "played": 10,
+   "won": 5,
+   "drawn": 0,
+   "lost": 5,
+   "goalsFor": 56,
+   "goalsAgainst": 46,
+   "goalDiff": 10,
+   "points": 15,
+   "markers": [
+    "lossStreak",
     "manyGoals"
    ]
   },
@@ -2041,7 +2043,7 @@
      "teamId": "75"
     }
    ],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "57335",
@@ -2085,7 +2087,7 @@
      "teamId": "241"
     }
    ],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "57294",
@@ -2109,7 +2111,7 @@
      "teamId": "132"
     }
    ],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "57292",
@@ -2138,7 +2140,7 @@
      "teamId": "75"
     }
    ],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "57333",
@@ -2147,11 +2149,32 @@
    "awayTeamId": "1544",
    "kickoff": "2026-11-20T20:00:00.000Z",
    "venue": "Bogdánfy_4",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "homeGoals": 2,
+   "awayGoals": 9,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Hajnal Ábris",
+     "goals": 1,
+     "teamId": "1531"
+    },
+    {
+     "name": "István Pásztor",
+     "goals": 1,
+     "teamId": "1531"
+    },
+    {
+     "name": "Pálffy Tamás",
+     "goals": 7,
+     "teamId": "1544"
+    },
+    {
+     "name": "Pados Szilárd Marcell",
+     "goals": 2,
+     "teamId": "1544"
+    }
+   ],
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "x-55-L5C-202611232100-malaj-medve-se-ment-melle-is",
@@ -2374,30 +2397,20 @@
    "matchesPlayed": 6
   },
   {
+   "teamId": "1544",
+   "bestLeague": "L3D",
+   "topScorer": {
+    "name": "Pálffy Tamás",
+    "goals": 7
+   },
+   "seasonsCount": 2,
+   "matchesPlayed": 8
+  },
+  {
    "teamId": "1509",
    "bestLeague": "L5C",
    "topScorer": {
     "name": "Teklits Vince",
-    "goals": 6
-   },
-   "seasonsCount": 2,
-   "matchesPlayed": 7
-  },
-  {
-   "teamId": "241",
-   "bestLeague": "L5A",
-   "topScorer": {
-    "name": "Elekes Dániel",
-    "goals": 6
-   },
-   "seasonsCount": 3,
-   "matchesPlayed": 7
-  },
-  {
-   "teamId": "1544",
-   "bestLeague": "L3D",
-   "topScorer": {
-    "name": "Nagy Vince",
     "goals": 6
    },
    "seasonsCount": 2,
@@ -2414,6 +2427,16 @@
    "matchesPlayed": 8
   },
   {
+   "teamId": "241",
+   "bestLeague": "L5A",
+   "topScorer": {
+    "name": "Péntek Péter",
+    "goals": 6
+   },
+   "seasonsCount": 3,
+   "matchesPlayed": 7
+  },
+  {
    "teamId": "1531",
    "bestLeague": "L5B",
    "topScorer": {
@@ -2421,7 +2444,7 @@
     "goals": 6
    },
    "seasonsCount": 2,
-   "matchesPlayed": 9
+   "matchesPlayed": 10
   },
   {
    "teamId": "240",
@@ -2457,7 +2480,7 @@
    "teamId": "1473",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Tóth Martin",
+    "name": "Szekeres Kornél",
     "goals": 3
    },
    "seasonsCount": 4,
@@ -2467,7 +2490,7 @@
    "teamId": "75",
    "bestLeague": "L5A",
    "topScorer": {
-    "name": "Barnabás Ilosvai",
+    "name": "Paksi Ábel",
     "goals": 3
    },
    "seasonsCount": 3,

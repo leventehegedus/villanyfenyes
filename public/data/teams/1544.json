@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L5C",
    "finished": false,
-   "position": 4,
+   "position": 2,
    "teamsInLeague": 12,
-   "marker": null,
+   "marker": "promotion",
    "totals": {
-    "played": 7,
-    "won": 5,
+    "played": 8,
+    "won": 6,
     "drawn": 0,
     "lost": 2,
-    "goalsFor": 53,
-    "goalsAgainst": 38,
-    "points": 15
+    "goalsFor": 62,
+    "goalsAgainst": 40,
+    "points": 18
    }
   }
  ],
@@ -113,6 +113,19 @@
     "lost": 0,
     "goalsFor": 13,
     "goalsAgainst": 5,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1531",
+   "name": "FC Bárkalona",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 2,
     "points": 3
    }
   }
@@ -214,14 +227,14 @@
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 7,
-  "coveredMatches": 7,
+  "playedMatches": 8,
+  "coveredMatches": 8,
   "rows": [
    {
     "name": "Pálffy Tamás",
-    "goals": 19,
-    "matches": 5,
-    "hatTricks": 5
+    "goals": 26,
+    "matches": 6,
+    "hatTricks": 6
    },
    {
     "name": "Nagy Vince",
@@ -231,8 +244,8 @@
    },
    {
     "name": "Pados Szilárd Marcell",
-    "goals": 7,
-    "matches": 4,
+    "goals": 9,
+    "matches": 5,
     "hatTricks": 1
    },
    {

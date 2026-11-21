@@ -1978,7 +1978,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "57271",
@@ -2085,7 +2085,7 @@
      "teamId": "1534"
     }
    ],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "57286",
@@ -2124,7 +2124,7 @@
      "teamId": "1469"
     }
    ],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "57619",
@@ -2137,7 +2137,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "57326",
@@ -2176,7 +2176,7 @@
      "teamId": "1534"
     }
    ],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "57339",
@@ -2205,7 +2205,7 @@
      "teamId": "1567"
     }
    ],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "56905",
@@ -2217,8 +2217,44 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "scorers": [
+    {
+     "name": "Vasbányai Vince",
+     "goals": 3,
+     "teamId": "1488"
+    },
+    {
+     "name": "Heffner Attila Hunor",
+     "goals": 2,
+     "teamId": "1488"
+    },
+    {
+     "name": "Dékány Péter",
+     "goals": 2,
+     "teamId": "1488"
+    },
+    {
+     "name": "Lukács Ákos",
+     "goals": 2,
+     "teamId": "1488"
+    },
+    {
+     "name": "Kovács Barna",
+     "goals": 1,
+     "teamId": "1488"
+    },
+    {
+     "name": "Péteri Bendegúz",
+     "goals": 1,
+     "teamId": "1488"
+    },
+    {
+     "name": "Lukács Ádám",
+     "goals": 1,
+     "teamId": "1488"
+    }
+   ],
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "x-55-L5G-202611232000-oso-academy-george-fc",
@@ -2474,7 +2510,7 @@
    "teamId": "212",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Hámori Miklós",
+    "name": "Németh Norbert",
     "goals": 4
    },
    "seasonsCount": 8,
@@ -2514,7 +2550,7 @@
    "teamId": "1518",
    "bestLeague": "L5G",
    "topScorer": {
-    "name": "Hegedűs András",
+    "name": "Székács Kristóf",
     "goals": 4
    },
    "seasonsCount": 2,
@@ -2544,7 +2580,7 @@
    "teamId": "1572",
    "bestLeague": "L5G",
    "topScorer": {
-    "name": "Sabáli Soma",
+    "name": "Nádudvari Patrik",
     "goals": 2
    },
    "seasonsCount": 1,

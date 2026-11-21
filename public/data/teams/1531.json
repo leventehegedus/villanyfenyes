@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 9,
+    "played": 10,
     "won": 5,
     "drawn": 0,
-    "lost": 4,
-    "goalsFor": 54,
-    "goalsAgainst": 37,
+    "lost": 5,
+    "goalsFor": 56,
+    "goalsAgainst": 46,
     "points": 15
    }
   }
@@ -141,6 +141,19 @@
     "goalsAgainst": 5,
     "points": 0
    }
+  },
+  {
+   "teamId": "1544",
+   "name": "Stoczek Wanderers FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 9,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -156,11 +169,11 @@
   "biggestDefeat": {
    "seasonId": 55,
    "league": "L5C",
-   "matchId": "57118",
-   "kickoff": "2026-10-09T19:00:00.000Z",
-   "opponentId": "241",
+   "matchId": "57333",
+   "kickoff": "2026-11-20T20:00:00.000Z",
+   "opponentId": "1544",
    "goalsFor": 2,
-   "goalsAgainst": 7
+   "goalsAgainst": 9
   },
   "highestScoring": {
    "seasonId": 55,
@@ -220,33 +233,33 @@
    "from": {
     "seasonId": 55,
     "league": "L5C",
-    "matchId": "56649",
-    "kickoff": "2026-09-09T20:00:00.000Z",
-    "opponentId": "113",
-    "goalsFor": 5,
-    "goalsAgainst": 6
+    "matchId": "57218",
+    "kickoff": "2026-11-12T18:00:00.000Z",
+    "opponentId": "1509",
+    "goalsFor": 4,
+    "goalsAgainst": 5
    },
    "to": {
     "seasonId": 55,
     "league": "L5C",
-    "matchId": "56708",
-    "kickoff": "2026-09-17T18:00:00.000Z",
-    "opponentId": "216",
-    "goalsFor": 4,
-    "goalsAgainst": 6
+    "matchId": "57333",
+    "kickoff": "2026-11-20T20:00:00.000Z",
+    "opponentId": "1544",
+    "goalsFor": 2,
+    "goalsAgainst": 9
    }
   }
  },
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 9,
-  "coveredMatches": 9,
+  "playedMatches": 10,
+  "coveredMatches": 10,
   "rows": [
    {
     "name": "Hajnal Ábris",
-    "goals": 13,
-    "matches": 6,
+    "goals": 14,
+    "matches": 7,
     "hatTricks": 2
    },
    {
@@ -292,13 +305,13 @@
     "hatTricks": 0
    },
    {
-    "name": "Balogh Mátyás",
-    "goals": 1,
-    "matches": 1,
+    "name": "István Pásztor",
+    "goals": 2,
+    "matches": 2,
     "hatTricks": 0
    },
    {
-    "name": "István Pásztor",
+    "name": "Balogh Mátyás",
     "goals": 1,
     "matches": 1,
     "hatTricks": 0

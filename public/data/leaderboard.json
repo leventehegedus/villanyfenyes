@@ -1434,20 +1434,20 @@
    "goalsFor": 38
   },
   {
+   "teamId": "141",
+   "name": "Asztalon Villa",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 7,
+   "goalsFor": 39
+  },
+  {
    "teamId": "1507",
    "name": "Twisters",
    "titles": 0,
    "l1Seasons": 0,
    "won": 6,
    "goalsFor": 55
-  },
-  {
-   "teamId": "141",
-   "name": "Asztalon Villa",
-   "titles": 0,
-   "l1Seasons": 0,
-   "won": 6,
-   "goalsFor": 35
   },
   {
    "teamId": "1508",
@@ -1479,7 +1479,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 3,
-   "goalsFor": 24
+   "goalsFor": 25
   },
   {
    "teamId": "106",
@@ -1898,28 +1898,20 @@
    "goalsFor": 38
   },
   {
+   "teamId": "1544",
+   "name": "Stoczek Wanderers FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 6,
+   "goalsFor": 62
+  },
+  {
    "teamId": "1509",
    "name": "PINATINAIKOS",
    "titles": 0,
    "l1Seasons": 0,
    "won": 5,
    "goalsFor": 57
-  },
-  {
-   "teamId": "241",
-   "name": "Bomboclaat FC",
-   "titles": 0,
-   "l1Seasons": 0,
-   "won": 5,
-   "goalsFor": 40
-  },
-  {
-   "teamId": "1544",
-   "name": "Stoczek Wanderers FC",
-   "titles": 0,
-   "l1Seasons": 0,
-   "won": 5,
-   "goalsFor": 53
   },
   {
    "teamId": "216",
@@ -1930,12 +1922,20 @@
    "goalsFor": 49
   },
   {
+   "teamId": "241",
+   "name": "Bomboclaat FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 5,
+   "goalsFor": 40
+  },
+  {
    "teamId": "1531",
    "name": "FC Bárkalona",
    "titles": 0,
    "l1Seasons": 0,
    "won": 5,
-   "goalsFor": 54
+   "goalsFor": 56
   },
   {
    "teamId": "240",
@@ -2015,7 +2015,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 5,
-   "goalsFor": 31
+   "goalsFor": 35
   },
   {
    "teamId": "1484",
@@ -2063,7 +2063,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 1,
-   "goalsFor": 26
+   "goalsFor": 30
   },
   {
    "teamId": "144",

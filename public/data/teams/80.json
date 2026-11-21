@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 6,
+    "played": 7,
     "won": 3,
     "drawn": 1,
-    "lost": 2,
-    "goalsFor": 24,
-    "goalsAgainst": 28,
+    "lost": 3,
+    "goalsFor": 25,
+    "goalsAgainst": 32,
     "points": 10
    }
   }
@@ -102,6 +102,19 @@
     "goalsAgainst": 4,
     "points": 1
    }
+  },
+  {
+   "teamId": "141",
+   "name": "Asztalon Villa",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 4,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -181,33 +194,33 @@
    "from": {
     "seasonId": 55,
     "league": "L4B",
-    "matchId": "57158",
-    "kickoff": "2026-11-04T20:00:00.000Z",
-    "opponentId": "1507",
-    "goalsFor": 5,
-    "goalsAgainst": 15
+    "matchId": "57355",
+    "kickoff": "2026-11-20T18:00:00.000Z",
+    "opponentId": "141",
+    "goalsFor": 1,
+    "goalsAgainst": 4
    },
    "to": {
     "seasonId": 55,
     "league": "L4B",
-    "matchId": "57158",
-    "kickoff": "2026-11-04T20:00:00.000Z",
-    "opponentId": "1507",
-    "goalsFor": 5,
-    "goalsAgainst": 15
+    "matchId": "57355",
+    "kickoff": "2026-11-20T18:00:00.000Z",
+    "opponentId": "141",
+    "goalsFor": 1,
+    "goalsAgainst": 4
    }
   }
  },
  "cleanSheets": 1,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 6,
-  "coveredMatches": 6,
+  "playedMatches": 7,
+  "coveredMatches": 7,
   "rows": [
    {
     "name": "Szöllősi Bálint",
-    "goals": 8,
-    "matches": 3,
+    "goals": 9,
+    "matches": 4,
     "hatTricks": 1
    },
    {

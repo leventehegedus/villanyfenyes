@@ -10,14 +10,14 @@
    "name": "Felizgatott Makarónik"
   },
   {
-   "id": "1507",
-   "siteId": 1507,
-   "name": "Twisters"
-  },
-  {
    "id": "141",
    "siteId": 141,
    "name": "Asztalon Villa"
+  },
+  {
+   "id": "1507",
+   "siteId": 1507,
+   "name": "Twisters"
   },
   {
    "id": "1508",
@@ -85,6 +85,23 @@
   },
   {
    "position": 2,
+   "teamId": "141",
+   "played": 9,
+   "won": 7,
+   "drawn": 0,
+   "lost": 2,
+   "goalsFor": 39,
+   "goalsAgainst": 23,
+   "goalDiff": 16,
+   "points": 21,
+   "markers": [
+    "winStreak",
+    "fewConceded",
+    "promotion"
+   ]
+  },
+  {
+   "position": 3,
    "teamId": "1507",
    "played": 8,
    "won": 6,
@@ -97,22 +114,6 @@
    "markers": [
     "winStreak",
     "manyGoals",
-    "fewConceded",
-    "promotion"
-   ]
-  },
-  {
-   "position": 3,
-   "teamId": "141",
-   "played": 8,
-   "won": 6,
-   "drawn": 0,
-   "lost": 2,
-   "goalsFor": 35,
-   "goalsAgainst": 22,
-   "goalDiff": 13,
-   "points": 18,
-   "markers": [
     "fewConceded"
    ]
   },
@@ -164,17 +165,15 @@
   {
    "position": 7,
    "teamId": "80",
-   "played": 6,
+   "played": 7,
    "won": 3,
    "drawn": 1,
-   "lost": 2,
-   "goalsFor": 24,
-   "goalsAgainst": 28,
-   "goalDiff": -4,
+   "lost": 3,
+   "goalsFor": 25,
+   "goalsAgainst": 32,
+   "goalDiff": -7,
    "points": 10,
-   "markers": [
-    "fewConceded"
-   ]
+   "markers": []
   },
   {
    "position": 8,
@@ -1949,7 +1948,7 @@
      "teamId": "54"
     }
    ],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "57017",
@@ -2032,7 +2031,7 @@
      "teamId": "54"
     }
    ],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "57350",
@@ -2071,7 +2070,7 @@
      "teamId": "1482"
     }
    ],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "57355",
@@ -2080,17 +2079,22 @@
    "awayTeamId": "141",
    "kickoff": "2026-11-20T18:00:00.000Z",
    "venue": "Bogdánfy_1",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "status": "played",
    "scorers": [
+    {
+     "name": "Szöllősi Bálint",
+     "goals": 1,
+     "teamId": "80"
+    },
     {
      "name": "András Halasi",
      "goals": 4,
      "teamId": "141"
     }
    ],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "x-55-L4B-202611252000-szig-stars-haver-fc",
@@ -2236,12 +2240,12 @@
    "detailFetchedAt": null
   },
   {
-   "id": "x-55-L4B-202612162000-twisters-haver-fc",
+   "id": "x-55-L4B-202612162000-viktory-fc-asztalon-villa",
    "siteId": null,
-   "homeTeamId": "1507",
-   "awayTeamId": "1508",
+   "homeTeamId": "130",
+   "awayTeamId": "141",
    "kickoff": "2026-12-16T20:00:00.000Z",
-   "venue": "Bogdánfy_4",
+   "venue": "Bogdánfy_1",
    "homeGoals": null,
    "awayGoals": null,
    "status": "scheduled",
@@ -2249,12 +2253,12 @@
    "detailFetchedAt": null
   },
   {
-   "id": "x-55-L4B-202612162000-viktory-fc-asztalon-villa",
+   "id": "x-55-L4B-202612162000-twisters-haver-fc",
    "siteId": null,
-   "homeTeamId": "130",
-   "awayTeamId": "141",
+   "homeTeamId": "1507",
+   "awayTeamId": "1508",
    "kickoff": "2026-12-16T20:00:00.000Z",
-   "venue": "Bogdánfy_1",
+   "venue": "Bogdánfy_4",
    "homeGoals": null,
    "awayGoals": null,
    "status": "scheduled",
@@ -2300,16 +2304,6 @@
    "matchesPlayed": 8
   },
   {
-   "teamId": "1507",
-   "bestLeague": "L4B",
-   "topScorer": {
-    "name": "Nagy Dominik Zoltán",
-    "goals": 6
-   },
-   "seasonsCount": 2,
-   "matchesPlayed": 8
-  },
-  {
    "teamId": "141",
    "bestLeague": "L3A",
    "topScorer": {
@@ -2317,6 +2311,16 @@
     "goals": 7
    },
    "seasonsCount": 22,
+   "matchesPlayed": 9
+  },
+  {
+   "teamId": "1507",
+   "bestLeague": "L4B",
+   "topScorer": {
+    "name": "Nagy Dominik Zoltán",
+    "goals": 6
+   },
+   "seasonsCount": 2,
    "matchesPlayed": 8
   },
   {
@@ -2357,7 +2361,7 @@
     "goals": 5
    },
    "seasonsCount": 9,
-   "matchesPlayed": 6
+   "matchesPlayed": 7
   },
   {
    "teamId": "106",

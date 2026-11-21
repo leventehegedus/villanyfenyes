@@ -1910,7 +1910,7 @@
      "teamId": "131"
     }
    ],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "57229",
@@ -1944,7 +1944,7 @@
      "teamId": "47"
     }
    ],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "57244",
@@ -1983,7 +1983,7 @@
      "teamId": "153"
     }
    ],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "57267",
@@ -2012,7 +2012,7 @@
      "teamId": "1504"
     }
    ],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "57322",
@@ -2060,7 +2060,7 @@
      "teamId": "131"
     }
    ],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "57346",
@@ -2104,7 +2104,7 @@
      "teamId": "101"
     }
    ],
-   "detailFetchedAt": "2026-11-21T02:14:24.916Z"
+   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
   },
   {
    "id": "x-55-L4C-202611231600-selecao-los-magos",
@@ -2340,7 +2340,7 @@
    "teamId": "1512",
    "bestLeague": "L4C",
    "topScorer": {
-    "name": "Kis Ádám",
+    "name": "Péter Adrián",
     "goals": 4
    },
    "seasonsCount": 2,

@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L4B",
    "finished": false,
-   "position": 3,
+   "position": 2,
    "teamsInLeague": 12,
-   "marker": null,
+   "marker": "promotion",
    "totals": {
-    "played": 8,
-    "won": 6,
+    "played": 9,
+    "won": 7,
     "drawn": 0,
     "lost": 2,
-    "goalsFor": 35,
-    "goalsAgainst": 22,
-    "points": 18
+    "goalsFor": 39,
+    "goalsAgainst": 23,
+    "points": 21
    }
   }
  ],
@@ -128,6 +128,19 @@
     "goalsAgainst": 3,
     "points": 3
    }
+  },
+  {
+   "teamId": "80",
+   "name": "SZIG Stars",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 1,
+    "points": 3
+   }
   }
  ],
  "records": {
@@ -227,20 +240,20 @@
  "cleanSheets": 0,
  "failedToScore": 1,
  "scorers": {
-  "playedMatches": 8,
-  "coveredMatches": 8,
+  "playedMatches": 9,
+  "coveredMatches": 9,
   "rows": [
+   {
+    "name": "András Halasi",
+    "goals": 11,
+    "matches": 6,
+    "hatTricks": 2
+   },
    {
     "name": "Takács Gábor",
     "goals": 11,
     "matches": 4,
     "hatTricks": 2
-   },
-   {
-    "name": "András Halasi",
-    "goals": 7,
-    "matches": 5,
-    "hatTricks": 1
    },
    {
     "name": "Vizi Zsolt",

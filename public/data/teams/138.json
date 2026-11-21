@@ -14,13 +14,13 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 5,
-    "drawn": 1,
+    "drawn": 2,
     "lost": 1,
-    "goalsFor": 31,
-    "goalsAgainst": 24,
-    "points": 16
+    "goalsFor": 35,
+    "goalsAgainst": 28,
+    "points": 17
    }
   }
  ],
@@ -115,6 +115,19 @@
     "goalsAgainst": 0,
     "points": 3
    }
+  },
+  {
+   "teamId": "195",
+   "name": "Gatya FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 4,
+    "points": 1
+   }
   }
  ],
  "records": {
@@ -169,7 +182,7 @@
    }
   },
   "unbeaten": {
-   "length": 5,
+   "length": 6,
    "from": {
     "seasonId": 55,
     "league": "L5D",
@@ -182,11 +195,11 @@
    "to": {
     "seasonId": 55,
     "league": "L5D",
-    "matchId": "57189",
-    "kickoff": "2026-11-05T17:00:00.000Z",
-    "opponentId": "83",
-    "goalsFor": 1,
-    "goalsAgainst": 0
+    "matchId": "57277",
+    "kickoff": "2026-11-13T19:00:00.000Z",
+    "opponentId": "195",
+    "goalsFor": 4,
+    "goalsAgainst": 4
    }
   },
   "loss": {
@@ -214,8 +227,8 @@
  "cleanSheets": 1,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 7,
-  "coveredMatches": 7,
+  "playedMatches": 8,
+  "coveredMatches": 8,
   "rows": [
    {
     "name": "Fodor Kornél",
@@ -225,20 +238,20 @@
    },
    {
     "name": "Juhász Gábor",
-    "goals": 7,
-    "matches": 4,
+    "goals": 8,
+    "matches": 5,
     "hatTricks": 1
    },
    {
     "name": "Bakos Balázs",
-    "goals": 4,
-    "matches": 3,
+    "goals": 6,
+    "matches": 4,
     "hatTricks": 0
    },
    {
     "name": "Gehér Koppány",
-    "goals": 3,
-    "matches": 1,
+    "goals": 4,
+    "matches": 2,
     "hatTricks": 1
    },
    {
