@@ -1948,7 +1948,7 @@
      "teamId": "54"
     }
    ],
-   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
+   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
   },
   {
    "id": "57017",
@@ -2031,7 +2031,7 @@
      "teamId": "54"
     }
    ],
-   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
+   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
   },
   {
    "id": "57350",
@@ -2070,7 +2070,7 @@
      "teamId": "1482"
     }
    ],
-   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
+   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
   },
   {
    "id": "57355",
@@ -2337,7 +2337,7 @@
    "teamId": "62",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Pusztai Bertalan",
+    "name": "Rafael Moreira de Souza",
     "goals": 5
    },
    "seasonsCount": 5,

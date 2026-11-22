@@ -1945,7 +1945,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
+   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
   },
   {
    "id": "57297",
@@ -2331,7 +2331,7 @@
    "teamId": "1559",
    "bestLeague": "L5B",
    "topScorer": {
-    "name": "Loósz Benedek",
+    "name": "Hudi Martin",
     "goals": 3
    },
    "seasonsCount": 1,

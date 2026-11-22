@@ -1996,7 +1996,7 @@
      "teamId": "1560"
     }
    ],
-   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
+   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
   },
   {
    "id": "57354",
@@ -2009,7 +2009,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
+   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
   },
   {
    "id": "57306",
@@ -2022,7 +2022,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
+   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
   },
   {
    "id": "x-55-L5D-202611231900-gatya-fc-homarok-sc",
@@ -2338,7 +2338,7 @@
    "teamId": "144",
    "bestLeague": "L3B",
    "topScorer": {
-    "name": "Lovász Benjámin",
+    "name": "Gégény Bálint",
     "goals": 4
    },
    "seasonsCount": 6,
@@ -2348,7 +2348,7 @@
    "teamId": "1495",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Tóth Ábel Csongor",
+    "name": "Tóth Botond",
     "goals": 2
    },
    "seasonsCount": 3,
