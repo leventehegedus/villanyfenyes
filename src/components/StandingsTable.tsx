@@ -9,6 +9,7 @@ import { useT } from '@/hooks/prefs'
 import type { MessageKey } from '@/i18n/dict'
 import { sortRows } from '@/lib/filters'
 import type { Match, StandingRow } from '@/lib/schema'
+import { nextMatch } from '@/lib/schedule'
 import { teamResults } from '@/lib/stats'
 import type { StandingsSort, StandingsSortKey } from '@/lib/url-state'
 import { cn } from '@/lib/utils'
@@ -117,7 +118,7 @@ export function StandingsTable({ rows, matches, teamName, keep, sort, onSort, hi
                   </TableCell>
                 ))}
                 <TableCell className="px-2 [&_ol]:justify-end">
-                  <FormStrip teamId={r.teamId} results={teamResults(r.teamId, matches).slice(-5)} teamName={teamName} keep={keep} />
+                  <FormStrip teamId={r.teamId} results={teamResults(r.teamId, matches).slice(-5)} next={nextMatch(r.teamId, matches)} teamName={teamName} keep={keep} />
                 </TableCell>
               </TableRow>
             )

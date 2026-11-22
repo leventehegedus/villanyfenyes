@@ -16,7 +16,7 @@ import { useLeagueData } from '@/hooks/useLeagueData'
 import { useSelection } from '@/hooks/useSelection'
 import type { LeagueData } from '@/lib/data'
 import { formatDecimal } from '@/lib/format'
-import { filterMatches } from '@/lib/schedule'
+import { filterMatches, nextMatch } from '@/lib/schedule'
 import { playerPath } from '@/lib/paths'
 import { aggregateScorers } from '@/lib/scorers'
 import { teamStats } from '@/lib/stats'
@@ -60,7 +60,7 @@ function TeamView({ teamId, data, keep, teamName }: { teamId: string; data: Leag
         </div>
         <div title={t('formHint')}>
           <p className="mb-1 text-xs text-muted-foreground">{t('form')}</p>
-          <FormStrip teamId={teamId} results={s.results.slice(-5)} teamName={teamName} keep={keep} />
+          <FormStrip teamId={teamId} results={s.results.slice(-5)} next={nextMatch(teamId, data.matches)} teamName={teamName} keep={keep} />
         </div>
       </header>
 
