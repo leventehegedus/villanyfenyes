@@ -2190,7 +2190,7 @@
      "teamId": "85"
     }
    ],
-   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
+   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
   },
   {
    "id": "57304",
@@ -2205,43 +2205,43 @@
    "scorers": [
     {
      "name": "Magyar Balázs",
-     "goals": 5,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 5
     },
     {
      "name": "Zoltay Marcell",
-     "goals": 3,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 3
     },
     {
      "name": "Levente Warta",
-     "goals": 2,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 2
     },
     {
      "name": "Réti Márton",
-     "goals": 2,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 2
     },
     {
      "name": "Mangó Levente",
-     "goals": 1,
-     "teamId": "104"
+     "teamId": "104",
+     "goals": 1
     },
     {
      "name": "Hegyi József Gergely",
-     "goals": 4,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 4
     },
     {
      "name": "Farkas Olivér",
-     "goals": 1,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 1
     },
     {
      "name": "Hegyi Barna Péter",
-     "goals": 1,
-     "teamId": "1511"
+     "teamId": "1511",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-22T19:39:39.355Z"
@@ -2259,28 +2259,28 @@
    "scorers": [
     {
      "name": "Dénes Magor",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     },
     {
      "name": "Tóth Ádám",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     },
     {
      "name": "Skarka Kaspar András",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     },
     {
      "name": "Bányay Csongor",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     },
     {
      "name": "Sziffer Bence",
-     "goals": 1,
-     "teamId": "40"
+     "teamId": "40",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-22T19:39:39.355Z"

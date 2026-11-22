@@ -1912,7 +1912,7 @@
      "teamId": "131"
     }
    ],
-   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
+   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
   },
   {
    "id": "57229",
@@ -1946,7 +1946,7 @@
      "teamId": "47"
     }
    ],
-   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
+   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
   },
   {
    "id": "57244",
@@ -1985,7 +1985,7 @@
      "teamId": "153"
     }
    ],
-   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
+   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
   },
   {
    "id": "57267",
@@ -2014,7 +2014,7 @@
      "teamId": "1504"
     }
    ],
-   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
+   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
   },
   {
    "id": "57322",
@@ -2029,18 +2029,18 @@
    "scorers": [
     {
      "name": "Kis Ádám",
-     "goals": 2,
-     "teamId": "1512"
+     "teamId": "1512",
+     "goals": 2
     },
     {
      "name": "Péter Adrián",
-     "goals": 2,
-     "teamId": "1512"
+     "teamId": "1512",
+     "goals": 2
     },
     {
      "name": "Kurucz Dániel",
-     "goals": 1,
-     "teamId": "1512"
+     "teamId": "1512",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-22T19:39:39.355Z"
@@ -2062,7 +2062,7 @@
      "teamId": "131"
     }
    ],
-   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
+   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
   },
   {
    "id": "57346",
@@ -2106,7 +2106,7 @@
      "teamId": "101"
     }
    ],
-   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
+   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
   },
   {
    "id": "x-55-L4C-202611231600-selecao-los-magos",

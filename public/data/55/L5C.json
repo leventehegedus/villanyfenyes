@@ -2043,7 +2043,7 @@
      "teamId": "75"
     }
    ],
-   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
+   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
   },
   {
    "id": "57335",
@@ -2087,7 +2087,7 @@
      "teamId": "241"
     }
    ],
-   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
+   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
   },
   {
    "id": "57294",
@@ -2121,7 +2121,7 @@
      "teamId": "181"
     }
    ],
-   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
+   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
   },
   {
    "id": "57292",
@@ -2150,7 +2150,7 @@
      "teamId": "75"
     }
    ],
-   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
+   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
   },
   {
    "id": "57333",
@@ -2500,7 +2500,7 @@
    "teamId": "75",
    "bestLeague": "L5A",
    "topScorer": {
-    "name": "Barnabás Ilosvai",
+    "name": "Imre-Horváth András",
     "goals": 3
    },
    "seasonsCount": 3,

@@ -1820,7 +1820,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
+   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
   },
   {
    "id": "57656",
@@ -1869,7 +1869,7 @@
      "teamId": "219"
     }
    ],
-   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
+   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
   },
   {
    "id": "57325",
@@ -1898,7 +1898,7 @@
      "teamId": "230"
     }
    ],
-   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
+   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
   },
   {
    "id": "57296",
@@ -1966,7 +1966,7 @@
      "teamId": "41"
     }
    ],
-   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
+   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
   },
   {
    "id": "x-55-L3C-202611231800-devcs-susu-fc",
@@ -2195,7 +2195,7 @@
    "teamId": "192",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Varga Örs",
+    "name": "Könyves László",
     "goals": 6
    },
    "seasonsCount": 5,

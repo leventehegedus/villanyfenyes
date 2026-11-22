@@ -1979,7 +1979,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
+   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
   },
   {
    "id": "57271",
@@ -2130,7 +2130,7 @@
      "teamId": "1469"
     }
    ],
-   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
+   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
   },
   {
    "id": "57619",
@@ -2143,7 +2143,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
+   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
   },
   {
    "id": "57326",
@@ -2182,7 +2182,7 @@
      "teamId": "1534"
     }
    ],
-   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
+   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
   },
   {
    "id": "57339",
@@ -2211,7 +2211,7 @@
      "teamId": "1567"
     }
    ],
-   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
+   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
   },
   {
    "id": "56905",
@@ -2260,7 +2260,7 @@
      "teamId": "1488"
     }
    ],
-   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
+   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
   },
   {
    "id": "x-55-L5G-202611232000-oso-academy-george-fc",
@@ -2516,7 +2516,7 @@
    "teamId": "212",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Németh Norbert",
+    "name": "Hámori Miklós",
     "goals": 4
    },
    "seasonsCount": 8,
@@ -2556,7 +2556,7 @@
    "teamId": "1518",
    "bestLeague": "L5G",
    "topScorer": {
-    "name": "Székács Kristóf",
+    "name": "Hegedűs András",
     "goals": 4
    },
    "seasonsCount": 2,
@@ -2586,7 +2586,7 @@
    "teamId": "1572",
    "bestLeague": "L5G",
    "topScorer": {
-    "name": "Nádudvari Patrik",
+    "name": "Sabáli Soma",
     "goals": 2
    },
    "seasonsCount": 1,

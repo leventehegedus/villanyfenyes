@@ -1973,38 +1973,38 @@
    "scorers": [
     {
      "name": "Wolford Márk",
-     "goals": 2,
-     "teamId": "90"
+     "teamId": "90",
+     "goals": 2
     },
     {
      "name": "Németh Csaba",
-     "goals": 2,
-     "teamId": "90"
+     "teamId": "90",
+     "goals": 2
     },
     {
      "name": "Hegedűs Gábor",
-     "goals": 1,
-     "teamId": "90"
+     "teamId": "90",
+     "goals": 1
     },
     {
      "name": "Szilágyi Adam",
-     "goals": 1,
-     "teamId": "90"
+     "teamId": "90",
+     "goals": 1
     },
     {
      "name": "Tóth Krisztián Kristóf",
-     "goals": 1,
-     "teamId": "90"
+     "teamId": "90",
+     "goals": 1
     },
     {
      "name": "Gauzer Levente",
-     "goals": 2,
-     "teamId": "238"
+     "teamId": "238",
+     "goals": 2
     },
     {
      "name": "Szűcs Balázs",
-     "goals": 1,
-     "teamId": "238"
+     "teamId": "238",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-22T19:39:39.355Z"
@@ -2031,7 +2031,7 @@
      "teamId": "142"
     }
    ],
-   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
+   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
   },
   {
    "id": "48350",
@@ -2114,7 +2114,7 @@
      "teamId": "199"
     }
    ],
-   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
+   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
   },
   {
    "id": "48352",
@@ -2133,7 +2133,7 @@
      "teamId": "166"
     }
    ],
-   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
+   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
   },
   {
    "id": "48353",
@@ -2148,41 +2148,41 @@
    "scorers": [
     {
      "name": "Deák Máté",
-     "teamId": "107",
-     "goals": 2
+     "goals": 2,
+     "teamId": "107"
     },
     {
      "name": "Horváth-Almaski Ádám",
-     "teamId": "107",
-     "goals": 1
+     "goals": 1,
+     "teamId": "107"
     },
     {
      "name": "Alács Mihály",
-     "teamId": "69",
-     "goals": 3
+     "goals": 3,
+     "teamId": "69"
     },
     {
      "name": "Pap Zsombor",
-     "teamId": "69",
-     "goals": 2
+     "goals": 2,
+     "teamId": "69"
     },
     {
      "name": "Kele Balázs",
-     "teamId": "69",
-     "goals": 2
+     "goals": 2,
+     "teamId": "69"
     },
     {
      "name": "Mándi Ferenc",
-     "teamId": "69",
-     "goals": 1
+     "goals": 1,
+     "teamId": "69"
     },
     {
      "name": "Mogyorósi Zoltán",
-     "teamId": "69",
-     "goals": 1
+     "goals": 1,
+     "teamId": "69"
     }
    ],
-   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
+   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
   },
   {
    "id": "x-55-L1-202611251800-szia-uram-lokomotiv-mfc",

@@ -1945,7 +1945,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
+   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
   },
   {
    "id": "57297",
@@ -1960,33 +1960,33 @@
    "scorers": [
     {
      "name": "Matyi Bálint",
-     "goals": 2,
-     "teamId": "215"
+     "teamId": "215",
+     "goals": 2
     },
     {
      "name": "Nagy Ferenc",
-     "goals": 1,
-     "teamId": "215"
+     "teamId": "215",
+     "goals": 1
     },
     {
      "name": "Kovács Soma",
-     "goals": 1,
-     "teamId": "215"
+     "teamId": "215",
+     "goals": 1
     },
     {
      "name": "Hódi Péter",
-     "goals": 1,
-     "teamId": "215"
+     "teamId": "215",
+     "goals": 1
     },
     {
      "name": "Adrien Morin",
-     "goals": 1,
-     "teamId": "215"
+     "teamId": "215",
+     "goals": 1
     },
     {
      "name": "Felszner Márk",
-     "goals": 2,
-     "teamId": "1533"
+     "teamId": "1533",
+     "goals": 2
     }
    ],
    "detailFetchedAt": "2026-11-22T19:39:39.355Z"
