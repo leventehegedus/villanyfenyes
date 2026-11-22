@@ -69,14 +69,14 @@
   {
    "position": 1,
    "teamId": "1534",
-   "played": 6,
-   "won": 6,
+   "played": 7,
+   "won": 7,
    "drawn": 0,
    "lost": 0,
-   "goalsFor": 56,
-   "goalsAgainst": 14,
-   "goalDiff": 42,
-   "points": 18,
+   "goalsFor": 59,
+   "goalsAgainst": 16,
+   "goalDiff": 43,
+   "points": 21,
    "markers": [
     "winStreak",
     "manyGoals",
@@ -103,15 +103,16 @@
   {
    "position": 3,
    "teamId": "1469",
-   "played": 8,
+   "played": 9,
    "won": 5,
    "drawn": 0,
-   "lost": 3,
-   "goalsFor": 60,
-   "goalsAgainst": 44,
-   "goalDiff": 16,
+   "lost": 4,
+   "goalsFor": 62,
+   "goalsAgainst": 47,
+   "goalDiff": 15,
    "points": 15,
    "markers": [
+    "lossStreak",
     "manyGoals"
    ]
   },
@@ -1978,7 +1979,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "57271",
@@ -2065,27 +2066,32 @@
    "awayTeamId": "1534",
    "kickoff": "2026-11-13T18:00:00.000Z",
    "venue": "Bogdánfy_3",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "status": "played",
    "scorers": [
     {
+     "name": "Kristóf Noel Garami",
+     "goals": 2,
+     "teamId": "1469"
+    },
+    {
      "name": "Gajzágó Márk",
-     "teamId": "1534",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1534"
     },
     {
      "name": "Unyi Dániel",
-     "teamId": "1534",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1534"
     },
     {
      "name": "Virosztkó József",
-     "teamId": "1534",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1534"
     }
    ],
-   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "57286",
@@ -2100,31 +2106,31 @@
    "scorers": [
     {
      "name": "Kunkli László",
-     "teamId": "1469",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1469"
     },
     {
      "name": "Novozánszki Zsombor",
-     "teamId": "1469",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1469"
     },
     {
      "name": "Vágó Ádám",
-     "teamId": "1469",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1469"
     },
     {
      "name": "Fülöp Máté",
-     "teamId": "1469",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1469"
     },
     {
      "name": "Kristóf Noel Garami",
-     "teamId": "1469",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1469"
     }
    ],
-   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "57619",
@@ -2137,7 +2143,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "57326",
@@ -2152,31 +2158,31 @@
    "scorers": [
     {
      "name": "Unyi Dániel",
-     "teamId": "1534",
-     "goals": 3
+     "goals": 3,
+     "teamId": "1534"
     },
     {
      "name": "Fuszonecker Tamás",
-     "teamId": "1534",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1534"
     },
     {
      "name": "Horváth Dominik",
-     "teamId": "1534",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1534"
     },
     {
      "name": "Böröcz Bence",
-     "teamId": "1534",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1534"
     },
     {
      "name": "Virosztkó József",
-     "teamId": "1534",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1534"
     }
    ],
-   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "57339",
@@ -2191,21 +2197,21 @@
    "scorers": [
     {
      "name": "Máté Bajomi",
-     "teamId": "1567",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1567"
     },
     {
      "name": "Varga Ádám",
-     "teamId": "1567",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1567"
     },
     {
      "name": "Kopasz Gergő",
-     "teamId": "1567",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1567"
     }
    ],
-   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "56905",
@@ -2220,41 +2226,41 @@
    "scorers": [
     {
      "name": "Vasbányai Vince",
-     "teamId": "1488",
-     "goals": 3
+     "goals": 3,
+     "teamId": "1488"
     },
     {
      "name": "Heffner Attila Hunor",
-     "teamId": "1488",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1488"
     },
     {
      "name": "Dékány Péter",
-     "teamId": "1488",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1488"
     },
     {
      "name": "Lukács Ákos",
-     "teamId": "1488",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1488"
     },
     {
      "name": "Kovács Barna",
-     "teamId": "1488",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1488"
     },
     {
      "name": "Péteri Bendegúz",
-     "teamId": "1488",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1488"
     },
     {
      "name": "Lukács Ádám",
-     "teamId": "1488",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1488"
     }
    ],
-   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "x-55-L5G-202611232000-oso-academy-george-fc",
@@ -2474,7 +2480,7 @@
     "goals": 6
    },
    "seasonsCount": 2,
-   "matchesPlayed": 6
+   "matchesPlayed": 7
   },
   {
    "teamId": "1567",
@@ -2494,7 +2500,7 @@
     "goals": 8
    },
    "seasonsCount": 5,
-   "matchesPlayed": 8
+   "matchesPlayed": 9
   },
   {
    "teamId": "1557",
@@ -2510,7 +2516,7 @@
    "teamId": "212",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Németh Norbert",
+    "name": "Hámori Miklós",
     "goals": 4
    },
    "seasonsCount": 8,
@@ -2550,7 +2556,7 @@
    "teamId": "1518",
    "bestLeague": "L5G",
    "topScorer": {
-    "name": "Székács Kristóf",
+    "name": "Hegedűs András",
     "goals": 4
    },
    "seasonsCount": 2,
@@ -2580,7 +2586,7 @@
    "teamId": "1572",
    "bestLeague": "L5G",
    "topScorer": {
-    "name": "Nádudvari Patrik",
+    "name": "Sabáli Soma",
     "goals": 2
    },
    "seasonsCount": 1,

@@ -1974,31 +1974,31 @@
    "scorers": [
     {
      "name": "Wolford Márk",
-     "teamId": "90",
-     "goals": 2
+     "goals": 2,
+     "teamId": "90"
     },
     {
      "name": "Németh Csaba",
-     "teamId": "90",
-     "goals": 2
+     "goals": 2,
+     "teamId": "90"
     },
     {
      "name": "Hegedűs Gábor",
-     "teamId": "90",
-     "goals": 1
+     "goals": 1,
+     "teamId": "90"
     },
     {
      "name": "Szilágyi Adam",
-     "teamId": "90",
-     "goals": 1
+     "goals": 1,
+     "teamId": "90"
     },
     {
      "name": "Tóth Krisztián Kristóf",
-     "teamId": "90",
-     "goals": 1
+     "goals": 1,
+     "teamId": "90"
     }
    ],
-   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "48349",
@@ -2013,16 +2013,16 @@
    "scorers": [
     {
      "name": "Szigeti Balázs",
-     "teamId": "142",
-     "goals": 2
+     "goals": 2,
+     "teamId": "142"
     },
     {
      "name": "Tóth Dávid",
-     "teamId": "142",
-     "goals": 1
+     "goals": 1,
+     "teamId": "142"
     }
    ],
-   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "48350",
@@ -2086,26 +2086,26 @@
    "scorers": [
     {
      "name": "Fröhlich Tamás",
-     "teamId": "199",
-     "goals": 2
+     "goals": 2,
+     "teamId": "199"
     },
     {
      "name": "Siket Máté",
-     "teamId": "199",
-     "goals": 2
+     "goals": 2,
+     "teamId": "199"
     },
     {
      "name": "Alt Ákos",
-     "teamId": "199",
-     "goals": 2
+     "goals": 2,
+     "teamId": "199"
     },
     {
      "name": "Gondos Andor",
-     "teamId": "199",
-     "goals": 2
+     "goals": 2,
+     "teamId": "199"
     }
    ],
-   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "48352",
@@ -2118,7 +2118,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "48353",

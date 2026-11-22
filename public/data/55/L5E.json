@@ -1835,26 +1835,26 @@
    "scorers": [
     {
      "name": "Iker Előd Sebestyén",
-     "teamId": "1571",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1571"
     },
     {
      "name": "Kis Hunor",
-     "teamId": "1571",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1571"
     },
     {
      "name": "Varga Áron Gábor",
-     "teamId": "1571",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1571"
     },
     {
      "name": "Benczik-Hrncsár Áron",
-     "teamId": "1571",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1571"
     }
    ],
-   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "57336",
@@ -1869,16 +1869,16 @@
    "scorers": [
     {
      "name": "Józsa István Roland",
-     "teamId": "1486",
-     "goals": 3
+     "goals": 3,
+     "teamId": "1486"
     },
     {
      "name": "Farkas Zsombor",
-     "teamId": "1486",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1486"
     }
    ],
-   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "57317",
@@ -1891,7 +1891,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "57343",
@@ -1906,31 +1906,31 @@
    "scorers": [
     {
      "name": "Nagy Balázs",
-     "teamId": "193",
-     "goals": 5
+     "goals": 5,
+     "teamId": "193"
     },
     {
      "name": "Dominek Márk",
-     "teamId": "193",
-     "goals": 1
+     "goals": 1,
+     "teamId": "193"
     },
     {
      "name": "Dr. Nagy Balázs",
-     "teamId": "193",
-     "goals": 1
+     "goals": 1,
+     "teamId": "193"
     },
     {
      "name": "Polka András",
-     "teamId": "193",
-     "goals": 1
+     "goals": 1,
+     "teamId": "193"
     },
     {
      "name": "Szerencsi Dániel",
-     "teamId": "193",
-     "goals": 1
+     "goals": 1,
+     "teamId": "193"
     }
    ],
-   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "56764",
@@ -1943,7 +1943,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "x-55-L5E-202611231900-megnemveszithetek-team-5",

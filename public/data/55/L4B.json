@@ -1934,21 +1934,21 @@
    "scorers": [
     {
      "name": "Turóczi Viktor",
-     "teamId": "54",
-     "goals": 2
+     "goals": 2,
+     "teamId": "54"
     },
     {
      "name": "Boa Benjámin Péter",
-     "teamId": "54",
-     "goals": 1
+     "goals": 1,
+     "teamId": "54"
     },
     {
      "name": "Szita Dávid László",
-     "teamId": "54",
-     "goals": 1
+     "goals": 1,
+     "teamId": "54"
     }
    ],
-   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "57017",
@@ -2002,36 +2002,36 @@
    "scorers": [
     {
      "name": "Morvai Gábor",
-     "teamId": "54",
-     "goals": 3
+     "goals": 3,
+     "teamId": "54"
     },
     {
      "name": "Izsak Jeno Adam",
-     "teamId": "54",
-     "goals": 3
+     "goals": 3,
+     "teamId": "54"
     },
     {
      "name": "Turóczi Viktor",
-     "teamId": "54",
-     "goals": 3
+     "goals": 3,
+     "teamId": "54"
     },
     {
      "name": "Szemes Péter",
-     "teamId": "54",
-     "goals": 3
+     "goals": 3,
+     "teamId": "54"
     },
     {
      "name": "Szita Dávid László",
-     "teamId": "54",
-     "goals": 3
+     "goals": 3,
+     "teamId": "54"
     },
     {
      "name": "Boa Benjámin Péter",
-     "teamId": "54",
-     "goals": 1
+     "goals": 1,
+     "teamId": "54"
     }
    ],
-   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "57350",
@@ -2046,31 +2046,31 @@
    "scorers": [
     {
      "name": "Pusztai Bertalan",
-     "teamId": "1482",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1482"
     },
     {
      "name": "Nagy Attila Áron",
-     "teamId": "1482",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1482"
     },
     {
      "name": "Jusztin Barnabás",
-     "teamId": "1482",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1482"
     },
     {
      "name": "Csiszár András",
-     "teamId": "1482",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1482"
     },
     {
      "name": "Szőllősy Tamás",
-     "teamId": "1482",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1482"
     }
    ],
-   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "57355",
@@ -2085,16 +2085,16 @@
    "scorers": [
     {
      "name": "Szöllősi Bálint",
-     "teamId": "80",
-     "goals": 1
+     "goals": 1,
+     "teamId": "80"
     },
     {
      "name": "András Halasi",
-     "teamId": "141",
-     "goals": 4
+     "goals": 4,
+     "teamId": "141"
     }
    ],
-   "detailFetchedAt": "2026-11-21T11:00:29.729Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "x-55-L4B-202611252000-szig-stars-haver-fc",

@@ -2173,26 +2173,26 @@
    "scorers": [
     {
      "name": "Novozánszki Zsombor",
-     "teamId": "85",
-     "goals": 4
+     "goals": 4,
+     "teamId": "85"
     },
     {
      "name": "Horváth Péter",
-     "teamId": "85",
-     "goals": 3
+     "goals": 3,
+     "teamId": "85"
     },
     {
      "name": "Bordás Máté Vilmos",
-     "teamId": "85",
-     "goals": 1
+     "goals": 1,
+     "teamId": "85"
     },
     {
      "name": "Őze Sándor",
-     "teamId": "85",
-     "goals": 1
+     "goals": 1,
+     "teamId": "85"
     }
    ],
-   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "57304",
@@ -2261,26 +2261,26 @@
    "scorers": [
     {
      "name": "Dénes Magor",
-     "teamId": "39",
-     "goals": 1
+     "goals": 1,
+     "teamId": "39"
     },
     {
      "name": "Tóth Ádám",
-     "teamId": "39",
-     "goals": 1
+     "goals": 1,
+     "teamId": "39"
     },
     {
      "name": "Skarka Kaspar András",
-     "teamId": "39",
-     "goals": 1
+     "goals": 1,
+     "teamId": "39"
     },
     {
      "name": "Bányay Csongor",
-     "teamId": "39",
-     "goals": 1
+     "goals": 1,
+     "teamId": "39"
     }
    ],
-   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "x-55-L3D-202611241700-basket-case-energ-team",
@@ -2576,7 +2576,7 @@
    "teamId": "39",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Frcska Döme Ákos",
+    "name": "Tóth Ádám",
     "goals": 5
    },
    "seasonsCount": 10,

@@ -1389,7 +1389,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T02:35:54.172Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "57250",
@@ -1436,7 +1436,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T02:35:54.172Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "57282",
@@ -1449,7 +1449,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T02:35:54.172Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "57227",
@@ -1488,7 +1488,7 @@
      "teamId": "1568"
     }
    ],
-   "detailFetchedAt": "2026-11-22T02:35:54.172Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "57312",
@@ -1501,7 +1501,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T02:35:54.172Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "57308",
@@ -1514,7 +1514,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T02:35:54.172Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "57287",
@@ -1543,7 +1543,7 @@
      "teamId": "55"
     }
    ],
-   "detailFetchedAt": "2026-11-22T02:35:54.172Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "57356",
@@ -1556,7 +1556,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T02:35:54.172Z"
+   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
   },
   {
    "id": "x-55-L5F-202611231700-asfc-el-km-hyundai-football-club",
@@ -1808,7 +1808,7 @@
    "teamId": "1552",
    "bestLeague": "L5F",
    "topScorer": {
-    "name": "Kocsis Mátyás",
+    "name": "Varga Bálint",
     "goals": 4
    },
    "seasonsCount": 1,

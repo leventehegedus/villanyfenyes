@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 8,
+    "played": 9,
     "won": 5,
     "drawn": 0,
-    "lost": 3,
-    "goalsFor": 60,
-    "goalsAgainst": 44,
+    "lost": 4,
+    "goalsFor": 62,
+    "goalsAgainst": 47,
     "points": 15
    }
   }
@@ -128,6 +128,19 @@
     "goalsAgainst": 6,
     "points": 0
    }
+  },
+  {
+   "teamId": "1534",
+   "name": "George FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 3,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -203,7 +216,7 @@
    }
   },
   "loss": {
-   "length": 1,
+   "length": 2,
    "from": {
     "seasonId": 55,
     "league": "L5G",
@@ -216,19 +229,19 @@
    "to": {
     "seasonId": 55,
     "league": "L5G",
-    "matchId": "57228",
-    "kickoff": "2026-11-10T19:00:00.000Z",
-    "opponentId": "1518",
-    "goalsFor": 5,
-    "goalsAgainst": 6
+    "matchId": "57543",
+    "kickoff": "2026-11-13T18:00:00.000Z",
+    "opponentId": "1534",
+    "goalsFor": 2,
+    "goalsAgainst": 3
    }
   }
  },
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 8,
-  "coveredMatches": 8,
+  "playedMatches": 9,
+  "coveredMatches": 9,
   "rows": [
    {
     "name": "Novozánszki Zsombor",
@@ -250,8 +263,8 @@
    },
    {
     "name": "Kristóf Noel Garami",
-    "goals": 8,
-    "matches": 4,
+    "goals": 10,
+    "matches": 5,
     "hatTricks": 1
    },
    {
