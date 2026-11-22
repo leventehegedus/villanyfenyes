@@ -1891,28 +1891,28 @@
    "scorers": [
     {
      "name": "Szász Viktor",
-     "goals": 2,
-     "teamId": "43"
+     "teamId": "43",
+     "goals": 2
     },
     {
      "name": "Kovács Áron",
-     "goals": 2,
-     "teamId": "43"
+     "teamId": "43",
+     "goals": 2
     },
     {
      "name": "Bakucz Dániel Attila",
-     "goals": 1,
-     "teamId": "43"
+     "teamId": "43",
+     "goals": 1
     },
     {
      "name": "Theobald Bence",
-     "goals": 1,
-     "teamId": "43"
+     "teamId": "43",
+     "goals": 1
     },
     {
      "name": "Bálint Varga",
-     "goals": 1,
-     "teamId": "43"
+     "teamId": "43",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-22T01:19:10.473Z"
@@ -1984,13 +1984,13 @@
    "scorers": [
     {
      "name": "Tóth Gellért",
-     "goals": 2,
-     "teamId": "27"
+     "teamId": "27",
+     "goals": 2
     },
     {
      "name": "Szabó Mátyás",
-     "goals": 2,
-     "teamId": "27"
+     "teamId": "27",
+     "goals": 2
     }
    ],
    "detailFetchedAt": "2026-11-22T01:19:10.473Z"
@@ -2042,18 +2042,18 @@
    "scorers": [
     {
      "name": "Tóth Gellért",
-     "goals": 2,
-     "teamId": "27"
+     "teamId": "27",
+     "goals": 2
     },
     {
      "name": "Csvila Péter",
-     "goals": 2,
-     "teamId": "27"
+     "teamId": "27",
+     "goals": 2
     },
     {
      "name": "Tárai Dániel",
-     "goals": 1,
-     "teamId": "27"
+     "teamId": "27",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-22T01:19:10.473Z"
@@ -2071,23 +2071,23 @@
    "scorers": [
     {
      "name": "Mándi Ferenc",
-     "goals": 5,
-     "teamId": "146"
+     "teamId": "146",
+     "goals": 5
     },
     {
      "name": "Göncz Levente",
-     "goals": 3,
-     "teamId": "146"
+     "teamId": "146",
+     "goals": 3
     },
     {
      "name": "Alács Mihály",
-     "goals": 1,
-     "teamId": "146"
+     "teamId": "146",
+     "goals": 1
     },
     {
      "name": "Glück Péter",
-     "goals": 1,
-     "teamId": "146"
+     "teamId": "146",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-22T01:19:10.473Z"
@@ -2105,8 +2105,8 @@
    "scorers": [
     {
      "name": "Kálnai Máté",
-     "goals": 3,
-     "teamId": "98"
+     "teamId": "98",
+     "goals": 3
     }
    ],
    "detailFetchedAt": "2026-11-22T01:19:10.473Z"
@@ -2124,23 +2124,23 @@
    "scorers": [
     {
      "name": "Mándi Ferenc",
-     "goals": 3,
-     "teamId": "146"
+     "teamId": "146",
+     "goals": 3
     },
     {
      "name": "Alács Mihály",
-     "goals": 2,
-     "teamId": "146"
+     "teamId": "146",
+     "goals": 2
     },
     {
      "name": "Glück Péter",
-     "goals": 2,
-     "teamId": "146"
+     "teamId": "146",
+     "goals": 2
     },
     {
      "name": "Szikszay András Viktor",
-     "goals": 1,
-     "teamId": "146"
+     "teamId": "146",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-22T01:19:10.473Z"
@@ -2426,7 +2426,7 @@
    "teamId": "146",
    "bestLeague": "L2A",
    "topScorer": {
-    "name": "Mándi Ferenc",
+    "name": "Alács Mihály",
     "goals": 5
    },
    "seasonsCount": 12,

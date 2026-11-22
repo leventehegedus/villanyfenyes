@@ -1972,28 +1972,28 @@
    "scorers": [
     {
      "name": "Vigano Mario",
-     "goals": 2,
-     "teamId": "1560"
+     "teamId": "1560",
+     "goals": 2
     },
     {
      "name": "Páll Donát Domonkos",
-     "goals": 2,
-     "teamId": "1560"
+     "teamId": "1560",
+     "goals": 2
     },
     {
      "name": "Takács Ábel",
-     "goals": 1,
-     "teamId": "1560"
+     "teamId": "1560",
+     "goals": 1
     },
     {
      "name": "Bognár Milán",
-     "goals": 1,
-     "teamId": "1560"
+     "teamId": "1560",
+     "goals": 1
     },
     {
      "name": "B. Tóth Milan",
-     "goals": 1,
-     "teamId": "1560"
+     "teamId": "1560",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-22T01:19:10.473Z"
@@ -2348,7 +2348,7 @@
    "teamId": "1495",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Tóth Botond",
+    "name": "Tóth Ábel Csongor",
     "goals": 2
    },
    "seasonsCount": 3,

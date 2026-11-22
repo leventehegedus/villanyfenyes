@@ -2001,28 +2001,28 @@
    "scorers": [
     {
      "name": "Dudás Zoltán",
-     "goals": 2,
-     "teamId": "220"
+     "teamId": "220",
+     "goals": 2
     },
     {
      "name": "Sári Márk",
-     "goals": 2,
-     "teamId": "220"
+     "teamId": "220",
+     "goals": 2
     },
     {
      "name": "Lontai Bendegúz",
-     "goals": 1,
-     "teamId": "220"
+     "teamId": "220",
+     "goals": 1
     },
     {
      "name": "Somogyi Kristóf",
-     "goals": 1,
-     "teamId": "220"
+     "teamId": "220",
+     "goals": 1
     },
     {
      "name": "Tuska József",
-     "goals": 1,
-     "teamId": "220"
+     "teamId": "220",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-22T01:19:10.473Z"
@@ -2094,18 +2094,18 @@
    "scorers": [
     {
      "name": "Reményi Balázs",
-     "goals": 3,
-     "teamId": "29"
+     "teamId": "29",
+     "goals": 3
     },
     {
      "name": "Horváth Bence",
-     "goals": 2,
-     "teamId": "29"
+     "teamId": "29",
+     "goals": 2
     },
     {
      "name": "Tompa Kristóf",
-     "goals": 1,
-     "teamId": "29"
+     "teamId": "29",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-22T01:19:10.473Z"
@@ -2196,18 +2196,18 @@
    "scorers": [
     {
      "name": "Hornyák Krisztofer",
-     "goals": 1,
-     "teamId": "154"
+     "teamId": "154",
+     "goals": 1
     },
     {
      "name": "Hegedüs Dániel",
-     "goals": 1,
-     "teamId": "154"
+     "teamId": "154",
+     "goals": 1
     },
     {
      "name": "Juhász Csongor",
-     "goals": 1,
-     "teamId": "154"
+     "teamId": "154",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-22T01:19:10.473Z"

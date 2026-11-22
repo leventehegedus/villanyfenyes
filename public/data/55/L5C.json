@@ -2034,13 +2034,13 @@
    "scorers": [
     {
      "name": "Barnabás Ilosvai",
-     "goals": 3,
-     "teamId": "75"
+     "teamId": "75",
+     "goals": 3
     },
     {
      "name": "Theisz Aurél Levente",
-     "goals": 1,
-     "teamId": "75"
+     "teamId": "75",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-22T01:19:10.473Z"
@@ -2058,33 +2058,33 @@
    "scorers": [
     {
      "name": "Péntek Péter",
-     "goals": 6,
-     "teamId": "241"
+     "teamId": "241",
+     "goals": 6
     },
     {
      "name": "Elekes Dániel",
-     "goals": 6,
-     "teamId": "241"
+     "teamId": "241",
+     "goals": 6
     },
     {
      "name": "Centgraf András",
-     "goals": 2,
-     "teamId": "241"
+     "teamId": "241",
+     "goals": 2
     },
     {
      "name": "Horog Zalán",
-     "goals": 2,
-     "teamId": "241"
+     "teamId": "241",
+     "goals": 2
     },
     {
      "name": "Alvári Botond Zétény",
-     "goals": 1,
-     "teamId": "241"
+     "teamId": "241",
+     "goals": 1
     },
     {
      "name": "Szerencsi Márton",
-     "goals": 1,
-     "teamId": "241"
+     "teamId": "241",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-22T01:19:10.473Z"
@@ -2102,13 +2102,13 @@
    "scorers": [
     {
      "name": "Varga Bálint",
-     "goals": 1,
-     "teamId": "132"
+     "teamId": "132",
+     "goals": 1
     },
     {
      "name": "Kelemen Ábel",
-     "goals": 1,
-     "teamId": "132"
+     "teamId": "132",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-22T01:19:10.473Z"
@@ -2126,18 +2126,18 @@
    "scorers": [
     {
      "name": "Barnabás Ilosvai",
-     "goals": 3,
-     "teamId": "75"
+     "teamId": "75",
+     "goals": 3
     },
     {
      "name": "Szedlacsek Bálint",
-     "goals": 2,
-     "teamId": "75"
+     "teamId": "75",
+     "goals": 2
     },
     {
      "name": "Szalay Miklós",
-     "goals": 1,
-     "teamId": "75"
+     "teamId": "75",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-22T01:19:10.473Z"
@@ -2430,7 +2430,7 @@
    "teamId": "241",
    "bestLeague": "L5A",
    "topScorer": {
-    "name": "Elekes Dániel",
+    "name": "Krizsan Balazs",
     "goals": 6
    },
    "seasonsCount": 3,
@@ -2480,7 +2480,7 @@
    "teamId": "1473",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Tóth Martin",
+    "name": "Szekeres Kornél",
     "goals": 3
    },
    "seasonsCount": 4,
@@ -2490,7 +2490,7 @@
    "teamId": "75",
    "bestLeague": "L5A",
    "topScorer": {
-    "name": "Nagy Álmos Sámuel",
+    "name": "Imre-Horváth András",
     "goals": 3
    },
    "seasonsCount": 3,

@@ -2018,23 +2018,23 @@
    "scorers": [
     {
      "name": "Maukner Botond",
-     "goals": 2,
-     "teamId": "1537"
+     "teamId": "1537",
+     "goals": 2
     },
     {
      "name": "Lukács Gergő",
-     "goals": 2,
-     "teamId": "1537"
+     "teamId": "1537",
+     "goals": 2
     },
     {
      "name": "Tóth András Kevin",
-     "goals": 1,
-     "teamId": "1537"
+     "teamId": "1537",
+     "goals": 1
     },
     {
      "name": "Pótz-Nagy Ábel",
-     "goals": 1,
-     "teamId": "1537"
+     "teamId": "1537",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-22T01:19:10.473Z"
@@ -2052,28 +2052,28 @@
    "scorers": [
     {
      "name": "Haag Domonkos",
-     "goals": 4,
-     "teamId": "1530"
+     "teamId": "1530",
+     "goals": 4
     },
     {
      "name": "Vigh Balázs",
-     "goals": 3,
-     "teamId": "1530"
+     "teamId": "1530",
+     "goals": 3
     },
     {
      "name": "Szabó Bence Péter",
-     "goals": 2,
-     "teamId": "1530"
+     "teamId": "1530",
+     "goals": 2
     },
     {
      "name": "Dudás Viktor",
-     "goals": 1,
-     "teamId": "1530"
+     "teamId": "1530",
+     "goals": 1
     },
     {
      "name": "Gecsei Márton",
-     "goals": 1,
-     "teamId": "1530"
+     "teamId": "1530",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-22T01:19:10.473Z"
@@ -2091,38 +2091,38 @@
    "scorers": [
     {
      "name": "Bayer Ákos",
-     "goals": 4,
-     "teamId": "1494"
+     "teamId": "1494",
+     "goals": 4
     },
     {
      "name": "Schön Boldizsár",
-     "goals": 3,
-     "teamId": "1494"
+     "teamId": "1494",
+     "goals": 3
     },
     {
      "name": "Vigh Balázs",
-     "goals": 5,
-     "teamId": "1530"
+     "teamId": "1530",
+     "goals": 5
     },
     {
      "name": "Szabó Bence Péter",
-     "goals": 4,
-     "teamId": "1530"
+     "teamId": "1530",
+     "goals": 4
     },
     {
      "name": "Szabó Barnabás",
-     "goals": 2,
-     "teamId": "1530"
+     "teamId": "1530",
+     "goals": 2
     },
     {
      "name": "Haag Domonkos",
-     "goals": 2,
-     "teamId": "1530"
+     "teamId": "1530",
+     "goals": 2
     },
     {
      "name": "Dudás Viktor",
-     "goals": 1,
-     "teamId": "1530"
+     "teamId": "1530",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-22T01:19:10.473Z"
@@ -2140,33 +2140,33 @@
    "scorers": [
     {
      "name": "Lukács Zénó",
-     "goals": 3,
-     "teamId": "96"
+     "teamId": "96",
+     "goals": 3
     },
     {
      "name": "Rideg Viktor",
-     "goals": 2,
-     "teamId": "96"
+     "teamId": "96",
+     "goals": 2
     },
     {
      "name": "Pap Ervin",
-     "goals": 1,
-     "teamId": "96"
+     "teamId": "96",
+     "goals": 1
     },
     {
      "name": "Dr. Csokonay Gergő",
-     "goals": 1,
-     "teamId": "96"
+     "teamId": "96",
+     "goals": 1
     },
     {
      "name": "Lukács Krisztián",
-     "goals": 1,
-     "teamId": "96"
+     "teamId": "96",
+     "goals": 1
     },
     {
      "name": "Schuckert György",
-     "goals": 1,
-     "teamId": "96"
+     "teamId": "96",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-22T01:19:10.473Z"
@@ -2454,7 +2454,7 @@
    "teamId": "221",
    "bestLeague": "L4D",
    "topScorer": {
-    "name": "Marton Lázár",
+    "name": "Bangó-Fi Domonkos",
     "goals": 6
    },
    "seasonsCount": 4,
@@ -2534,7 +2534,7 @@
    "teamId": "1537",
    "bestLeague": "L4D",
    "topScorer": {
-    "name": "Szilágyi Bálint Zsolt",
+    "name": "Lukács Gergő",
     "goals": 5
    },
    "seasonsCount": 2,

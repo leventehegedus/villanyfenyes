@@ -2173,23 +2173,23 @@
    "scorers": [
     {
      "name": "Novozánszki Zsombor",
-     "goals": 4,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 4
     },
     {
      "name": "Horváth Péter",
-     "goals": 3,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 3
     },
     {
      "name": "Bordás Máté Vilmos",
-     "goals": 1,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 1
     },
     {
      "name": "Őze Sándor",
-     "goals": 1,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-22T01:19:10.473Z"
@@ -2261,23 +2261,23 @@
    "scorers": [
     {
      "name": "Dénes Magor",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     },
     {
      "name": "Tóth Ádám",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     },
     {
      "name": "Skarka Kaspar András",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     },
     {
      "name": "Bányay Csongor",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-22T01:19:10.473Z"
@@ -2576,7 +2576,7 @@
    "teamId": "39",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Tóth Ádám",
+    "name": "Frcska Döme Ákos",
     "goals": 5
    },
    "seasonsCount": 10,
@@ -2586,7 +2586,7 @@
    "teamId": "84",
    "bestLeague": "L3C",
    "topScorer": {
-    "name": "Pálfay András",
+    "name": "Grósz Bence",
     "goals": 5
    },
    "seasonsCount": 7,
