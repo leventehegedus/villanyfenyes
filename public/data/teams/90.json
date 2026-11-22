@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L1",
    "finished": false,
-   "position": 6,
+   "position": 4,
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 8,
-    "won": 4,
+    "played": 9,
+    "won": 5,
     "drawn": 0,
     "lost": 4,
-    "goalsFor": 37,
-    "goalsAgainst": 33,
-    "points": 12
+    "goalsFor": 44,
+    "goalsAgainst": 36,
+    "points": 15
    }
   },
   {
@@ -255,6 +255,19 @@
     "goalsAgainst": 5,
     "points": 3
    }
+  },
+  {
+   "teamId": "238",
+   "name": "Jézus tanítványai",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 3,
+    "points": 3
+   }
   }
  ],
  "records": {
@@ -288,7 +301,7 @@
  },
  "streaks": {
   "win": {
-   "length": 2,
+   "length": 3,
    "from": {
     "seasonId": 55,
     "league": "L1",
@@ -301,11 +314,11 @@
    "to": {
     "seasonId": 55,
     "league": "L1",
-    "matchId": "48342",
-    "kickoff": "2026-11-11T18:00:00.000Z",
-    "opponentId": "149",
-    "goalsFor": 5,
-    "goalsAgainst": 0
+    "matchId": "48348",
+    "kickoff": "2026-11-18T18:00:00.000Z",
+    "opponentId": "238",
+    "goalsFor": 7,
+    "goalsAgainst": 3
    }
   },
   "unbeaten": {
@@ -354,13 +367,13 @@
  "cleanSheets": 4,
  "failedToScore": 1,
  "scorers": {
-  "playedMatches": 30,
-  "coveredMatches": 30,
+  "playedMatches": 31,
+  "coveredMatches": 31,
   "rows": [
    {
     "name": "Németh Csaba",
-    "goals": 41,
-    "matches": 18,
+    "goals": 43,
+    "matches": 19,
     "hatTricks": 5
    },
    {
@@ -371,8 +384,8 @@
    },
    {
     "name": "Wolford Márk",
-    "goals": 16,
-    "matches": 13,
+    "goals": 18,
+    "matches": 14,
     "hatTricks": 0
    },
    {
@@ -383,14 +396,14 @@
    },
    {
     "name": "Tóth Krisztián Kristóf",
-    "goals": 11,
-    "matches": 9,
+    "goals": 12,
+    "matches": 10,
     "hatTricks": 0
    },
    {
     "name": "Szilágyi Adam",
-    "goals": 10,
-    "matches": 8,
+    "goals": 11,
+    "matches": 9,
     "hatTricks": 1
    },
    {
@@ -401,8 +414,8 @@
    },
    {
     "name": "Hegedűs Gábor",
-    "goals": 6,
-    "matches": 6,
+    "goals": 7,
+    "matches": 7,
     "hatTricks": 0
    },
    {

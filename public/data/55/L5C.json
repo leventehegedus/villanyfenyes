@@ -2043,7 +2043,7 @@
      "teamId": "75"
     }
    ],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57335",
@@ -2087,7 +2087,7 @@
      "teamId": "241"
     }
    ],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57294",
@@ -2109,9 +2109,19 @@
      "name": "Kelemen Ábel",
      "goals": 1,
      "teamId": "132"
+    },
+    {
+     "name": "dr. Filipszki Gábor",
+     "goals": 5,
+     "teamId": "181"
+    },
+    {
+     "name": "Dr. Bebesi Ákos László",
+     "goals": 3,
+     "teamId": "181"
     }
    ],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57292",
@@ -2140,7 +2150,7 @@
      "teamId": "75"
     }
    ],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57333",
@@ -2155,23 +2165,23 @@
    "scorers": [
     {
      "name": "Hajnal Ábris",
-     "goals": 1,
-     "teamId": "1531"
+     "teamId": "1531",
+     "goals": 1
     },
     {
      "name": "István Pásztor",
-     "goals": 1,
-     "teamId": "1531"
+     "teamId": "1531",
+     "goals": 1
     },
     {
      "name": "Pálffy Tamás",
-     "goals": 7,
-     "teamId": "1544"
+     "teamId": "1544",
+     "goals": 7
     },
     {
      "name": "Pados Szilárd Marcell",
-     "goals": 2,
-     "teamId": "1544"
+     "teamId": "1544",
+     "goals": 2
     }
    ],
    "detailFetchedAt": "2026-11-22T11:24:31.047Z"

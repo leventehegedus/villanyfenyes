@@ -2003,7 +2003,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57316",
@@ -2037,7 +2037,7 @@
      "teamId": "1537"
     }
    ],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "56572",
@@ -2076,7 +2076,7 @@
      "teamId": "1530"
     }
    ],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57289",
@@ -2125,7 +2125,7 @@
      "teamId": "1530"
     }
    ],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57330",
@@ -2169,7 +2169,7 @@
      "teamId": "96"
     }
    ],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57319",
@@ -2182,7 +2182,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "x-55-L4D-202611231700-goats-fc-kozpenz-fc",
@@ -2454,7 +2454,7 @@
    "teamId": "221",
    "bestLeague": "L4D",
    "topScorer": {
-    "name": "Bangó-Fi Domonkos",
+    "name": "Marton Lázár",
     "goals": 6
    },
    "seasonsCount": 4,
@@ -2534,7 +2534,7 @@
    "teamId": "1537",
    "bestLeague": "L4D",
    "topScorer": {
-    "name": "Lukács Gergő",
+    "name": "Szilágyi Bálint Zsolt",
     "goals": 5
    },
    "seasonsCount": 2,

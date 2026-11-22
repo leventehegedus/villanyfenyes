@@ -1979,7 +1979,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57271",
@@ -2072,23 +2072,23 @@
    "scorers": [
     {
      "name": "Kristóf Noel Garami",
-     "goals": 2,
-     "teamId": "1469"
+     "teamId": "1469",
+     "goals": 2
     },
     {
      "name": "Gajzágó Márk",
-     "goals": 1,
-     "teamId": "1534"
+     "teamId": "1534",
+     "goals": 1
     },
     {
      "name": "Unyi Dániel",
-     "goals": 1,
-     "teamId": "1534"
+     "teamId": "1534",
+     "goals": 1
     },
     {
      "name": "Virosztkó József",
-     "goals": 1,
-     "teamId": "1534"
+     "teamId": "1534",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-22T11:24:31.047Z"
@@ -2130,7 +2130,7 @@
      "teamId": "1469"
     }
    ],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57619",
@@ -2143,7 +2143,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57326",
@@ -2182,7 +2182,7 @@
      "teamId": "1534"
     }
    ],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57339",
@@ -2211,7 +2211,7 @@
      "teamId": "1567"
     }
    ],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "56905",
@@ -2260,7 +2260,7 @@
      "teamId": "1488"
     }
    ],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "x-55-L5G-202611232000-oso-academy-george-fc",
@@ -2516,7 +2516,7 @@
    "teamId": "212",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Hámori Miklós",
+    "name": "Németh Norbert",
     "goals": 4
    },
    "seasonsCount": 8,
@@ -2556,7 +2556,7 @@
    "teamId": "1518",
    "bestLeague": "L5G",
    "topScorer": {
-    "name": "Hegedűs András",
+    "name": "Székács Kristóf",
     "goals": 4
    },
    "seasonsCount": 2,
@@ -2586,7 +2586,7 @@
    "teamId": "1572",
    "bestLeague": "L5G",
    "topScorer": {
-    "name": "Sabáli Soma",
+    "name": "Nádudvari Patrik",
     "goals": 2
    },
    "seasonsCount": 1,

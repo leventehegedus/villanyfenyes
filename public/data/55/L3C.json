@@ -95,6 +95,7 @@
    "goalDiff": 6,
    "points": 16,
    "markers": [
+    "fewConceded",
     "promotion"
    ]
   },
@@ -1819,7 +1820,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57656",
@@ -1868,7 +1869,7 @@
      "teamId": "219"
     }
    ],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57325",
@@ -1897,7 +1898,7 @@
      "teamId": "230"
     }
    ],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57296",
@@ -1948,8 +1949,24 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "scorers": [
+    {
+     "name": "Dr. Lukács Dávid",
+     "goals": 2,
+     "teamId": "41"
+    },
+    {
+     "name": "Szabó Ákos Márton",
+     "goals": 2,
+     "teamId": "41"
+    },
+    {
+     "name": "Ferincz Ákos",
+     "goals": 1,
+     "teamId": "41"
+    }
+   ],
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "x-55-L3C-202611231800-devcs-susu-fc",
@@ -2178,7 +2195,7 @@
    "teamId": "192",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Könyves László",
+    "name": "Varga Örs",
     "goals": 6
    },
    "seasonsCount": 5,

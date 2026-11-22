@@ -1854,7 +1854,7 @@
      "teamId": "1571"
     }
    ],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57336",
@@ -1878,7 +1878,7 @@
      "teamId": "1486"
     }
    ],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57317",
@@ -1891,7 +1891,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57343",
@@ -1930,7 +1930,7 @@
      "teamId": "193"
     }
    ],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "56764",
@@ -1942,8 +1942,24 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "scorers": [
+    {
+     "name": "Veréb Balázs",
+     "goals": 3,
+     "teamId": "21"
+    },
+    {
+     "name": "Pákozdi Máté Márk",
+     "goals": 1,
+     "teamId": "21"
+    },
+    {
+     "name": "Limbek Soma",
+     "goals": 1,
+     "teamId": "21"
+    }
+   ],
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "x-55-L5E-202611231900-megnemveszithetek-team-5",

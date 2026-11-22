@@ -1945,7 +1945,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T01:19:10.473Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57297",
@@ -1960,36 +1960,36 @@
    "scorers": [
     {
      "name": "Matyi Bálint",
-     "teamId": "215",
-     "goals": 2
+     "goals": 2,
+     "teamId": "215"
     },
     {
      "name": "Nagy Ferenc",
-     "teamId": "215",
-     "goals": 1
+     "goals": 1,
+     "teamId": "215"
     },
     {
      "name": "Kovács Soma",
-     "teamId": "215",
-     "goals": 1
+     "goals": 1,
+     "teamId": "215"
     },
     {
      "name": "Hódi Péter",
-     "teamId": "215",
-     "goals": 1
+     "goals": 1,
+     "teamId": "215"
     },
     {
      "name": "Adrien Morin",
-     "teamId": "215",
-     "goals": 1
+     "goals": 1,
+     "teamId": "215"
     },
     {
      "name": "Felszner Márk",
-     "teamId": "1533",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1533"
     }
    ],
-   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "x-55-L5B-202611232000-a-jo-a-rossz-es-a-dagadt-alibi-fc",

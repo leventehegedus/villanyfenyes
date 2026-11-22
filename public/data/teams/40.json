@@ -10,16 +10,16 @@
    "label": "2026 - Ősz",
    "league": "L3D",
    "finished": false,
-   "position": 6,
+   "position": 7,
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 4,
     "drawn": 0,
-    "lost": 3,
-    "goalsFor": 30,
-    "goalsAgainst": 28,
+    "lost": 4,
+    "goalsFor": 31,
+    "goalsAgainst": 33,
     "points": 12
    }
   }
@@ -114,6 +114,19 @@
     "goalsFor": 5,
     "goalsAgainst": 0,
     "points": 3
+   }
+  },
+  {
+   "teamId": "39",
+   "name": "Veresiktas FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 5,
+    "points": 0
    }
   }
  ],
@@ -214,8 +227,8 @@
  "cleanSheets": 1,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 7,
-  "coveredMatches": 7,
+  "playedMatches": 8,
+  "coveredMatches": 8,
   "rows": [
    {
     "name": "Varga Lénárd Zsombor",
@@ -230,6 +243,12 @@
     "hatTricks": 0
    },
    {
+    "name": "Sziffer Bence",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
     "name": "Márk Bartók",
     "goals": 3,
     "matches": 3,
@@ -237,12 +256,6 @@
    },
    {
     "name": "Szalai Belián",
-    "goals": 3,
-    "matches": 2,
-    "hatTricks": 0
-   },
-   {
-    "name": "Sziffer Bence",
     "goals": 3,
     "matches": 2,
     "hatTricks": 0

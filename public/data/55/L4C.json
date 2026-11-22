@@ -138,7 +138,9 @@
    "goalsAgainst": 29,
    "goalDiff": 4,
    "points": 12,
-   "markers": []
+   "markers": [
+    "fewConceded"
+   ]
   },
   {
    "position": 6,
@@ -1910,7 +1912,7 @@
      "teamId": "131"
     }
    ],
-   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57229",
@@ -1944,7 +1946,7 @@
      "teamId": "47"
     }
    ],
-   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57244",
@@ -1983,7 +1985,7 @@
      "teamId": "153"
     }
    ],
-   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57267",
@@ -2012,7 +2014,7 @@
      "teamId": "1504"
     }
    ],
-   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57322",
@@ -2027,21 +2029,21 @@
    "scorers": [
     {
      "name": "Kis Ádám",
-     "teamId": "1512",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1512"
     },
     {
      "name": "Péter Adrián",
-     "teamId": "1512",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1512"
     },
     {
      "name": "Kurucz Dániel",
-     "teamId": "1512",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1512"
     }
    ],
-   "detailFetchedAt": "2026-11-21T19:15:31.937Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57341",
@@ -2060,7 +2062,7 @@
      "teamId": "131"
     }
    ],
-   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57346",
@@ -2104,7 +2106,7 @@
      "teamId": "101"
     }
    ],
-   "detailFetchedAt": "2026-11-21T22:08:19.669Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "x-55-L4C-202611231600-selecao-los-magos",

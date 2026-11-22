@@ -870,8 +870,8 @@
    "name": "Invincibles",
    "titles": 0,
    "l1Seasons": 3,
-   "won": 12,
-   "goalsFor": 139
+   "won": 13,
+   "goalsFor": 146
   },
   {
    "teamId": "29",
@@ -951,7 +951,7 @@
    "titles": 0,
    "l1Seasons": 1,
    "won": 4,
-   "goalsFor": 28
+   "goalsFor": 31
   },
   {
    "teamId": "108",
@@ -1282,12 +1282,20 @@
    "goalsFor": 60
   },
   {
+   "teamId": "39",
+   "name": "Veresiktas FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 37
+  },
+  {
    "teamId": "40",
    "name": "AS Kóma",
    "titles": 0,
    "l1Seasons": 0,
    "won": 4,
-   "goalsFor": 30
+   "goalsFor": 31
   },
   {
    "teamId": "1511",
@@ -1296,14 +1304,6 @@
    "l1Seasons": 0,
    "won": 3,
    "goalsFor": 60
-  },
-  {
-   "teamId": "39",
-   "name": "Veresiktas FC",
-   "titles": 0,
-   "l1Seasons": 0,
-   "won": 2,
-   "goalsFor": 32
   },
   {
    "teamId": "84",

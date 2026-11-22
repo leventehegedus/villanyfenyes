@@ -96,6 +96,7 @@
    "goalDiff": 14,
    "points": 15,
    "markers": [
+    "fewConceded",
     "promotion"
    ]
   },
@@ -1944,7 +1945,7 @@
      "teamId": "26"
     }
    ],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57220",
@@ -1991,7 +1992,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57324",
@@ -2030,7 +2031,7 @@
      "teamId": "26"
     }
    ],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57288",
@@ -2064,7 +2065,7 @@
      "teamId": "161"
     }
    ],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "57627",
@@ -2137,7 +2138,7 @@
      "teamId": "1480"
     }
    ],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
   },
   {
    "id": "x-55-L3A-202611231800-stabilizatorok-penisz-land",
@@ -2363,7 +2364,7 @@
    "teamId": "26",
    "bestLeague": "L2A",
    "topScorer": {
-    "name": "Orosz Dávid",
+    "name": "Zsoldos Áron",
     "goals": 5
    },
    "seasonsCount": 9,

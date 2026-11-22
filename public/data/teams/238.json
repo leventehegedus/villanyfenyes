@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 8,
+    "played": 9,
     "won": 4,
     "drawn": 0,
-    "lost": 4,
-    "goalsFor": 28,
-    "goalsAgainst": 33,
+    "lost": 5,
+    "goalsFor": 31,
+    "goalsAgainst": 40,
     "points": 12
    }
   }
@@ -128,6 +128,19 @@
     "goalsAgainst": 4,
     "points": 3
    }
+  },
+  {
+   "teamId": "90",
+   "name": "Invincibles",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 7,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -227,9 +240,15 @@
  "cleanSheets": 0,
  "failedToScore": 1,
  "scorers": {
-  "playedMatches": 8,
-  "coveredMatches": 8,
+  "playedMatches": 9,
+  "coveredMatches": 9,
   "rows": [
+   {
+    "name": "Gauzer Levente",
+    "goals": 7,
+    "matches": 5,
+    "hatTricks": 0
+   },
    {
     "name": "Gedó Lóránt",
     "goals": 7,
@@ -240,12 +259,6 @@
     "name": "Gelics Márton",
     "goals": 6,
     "matches": 5,
-    "hatTricks": 0
-   },
-   {
-    "name": "Gauzer Levente",
-    "goals": 5,
-    "matches": 4,
     "hatTricks": 0
    },
    {
@@ -268,8 +281,8 @@
    },
    {
     "name": "Szűcs Balázs",
-    "goals": 1,
-    "matches": 1,
+    "goals": 2,
+    "matches": 2,
     "hatTricks": 0
    }
   ]
