@@ -108,7 +108,6 @@ export function Layout() {
             <span className="font-heading text-xl font-bold whitespace-nowrap">
               <span className="text-emerald-300">●</span> {t('appName')}
             </span>
-            <span className="hidden text-xs whitespace-nowrap text-white/60 sm:inline md:hidden xl:inline">{t('appTagline')}</span>
           </NavLink>
           <nav aria-label={t('menu')} className="hidden items-center gap-0.5 md:flex">
             <NavItems items={[...PRIMARY, ...SECONDARY]} keep={keep} className={ON_DARK} activeClassName={ON_DARK_ACTIVE} />
