@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L4C",
    "finished": false,
-   "position": 6,
+   "position": 3,
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 4,
-    "drawn": 0,
+    "drawn": 1,
     "lost": 3,
-    "goalsFor": 33,
-    "goalsAgainst": 35,
-    "points": 12
+    "goalsFor": 37,
+    "goalsAgainst": 39,
+    "points": 13
    }
   }
  ],
@@ -115,6 +115,19 @@
     "goalsAgainst": 2,
     "points": 3
    }
+  },
+  {
+   "teamId": "173",
+   "name": "Tipszmiksz",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 4,
+    "points": 1
+   }
   }
  ],
  "records": {
@@ -169,7 +182,7 @@
    }
   },
   "unbeaten": {
-   "length": 2,
+   "length": 3,
    "from": {
     "seasonId": 55,
     "league": "L4C",
@@ -182,11 +195,11 @@
    "to": {
     "seasonId": 55,
     "league": "L4C",
-    "matchId": "57126",
-    "kickoff": "2026-10-28T17:00:00.000Z",
-    "opponentId": "131",
-    "goalsFor": 3,
-    "goalsAgainst": 2
+    "matchId": "57267",
+    "kickoff": "2026-11-13T19:00:00.000Z",
+    "opponentId": "173",
+    "goalsFor": 4,
+    "goalsAgainst": 4
    }
   },
   "loss": {
@@ -214,13 +227,13 @@
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 7,
-  "coveredMatches": 7,
+  "playedMatches": 8,
+  "coveredMatches": 8,
   "rows": [
    {
     "name": "Nádasdi Péter",
-    "goals": 9,
-    "matches": 4,
+    "goals": 10,
+    "matches": 5,
     "hatTricks": 1
    },
    {
@@ -230,21 +243,21 @@
     "hatTricks": 1
    },
    {
-    "name": "Demény Zoltán",
-    "goals": 5,
-    "matches": 4,
-    "hatTricks": 0
-   },
-   {
     "name": "Vranik Krisztian",
-    "goals": 5,
-    "matches": 4,
+    "goals": 6,
+    "matches": 5,
     "hatTricks": 0
    },
    {
     "name": "Bantó Csaba Szabolcs",
-    "goals": 3,
-    "matches": 2,
+    "goals": 5,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Demény Zoltán",
+    "goals": 5,
+    "matches": 4,
     "hatTricks": 0
    },
    {

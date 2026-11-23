@@ -14,13 +14,13 @@
    "teamsInLeague": 12,
    "marker": "promotion",
    "totals": {
-    "played": 9,
-    "won": 7,
+    "played": 10,
+    "won": 8,
     "drawn": 0,
     "lost": 2,
-    "goalsFor": 49,
-    "goalsAgainst": 31,
-    "points": 21
+    "goalsFor": 58,
+    "goalsAgainst": 36,
+    "points": 24
    }
   }
  ],
@@ -141,6 +141,19 @@
     "goalsAgainst": 2,
     "points": 3
    }
+  },
+  {
+   "teamId": "1513",
+   "name": "Meccs Lemondva FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 5,
+    "points": 3
+   }
   }
  ],
  "records": {
@@ -165,16 +178,16 @@
   "highestScoring": {
    "seasonId": 55,
    "league": "L4C",
-   "matchId": "57112",
-   "kickoff": "2026-10-27T18:00:00.000Z",
-   "opponentId": "153",
-   "goalsFor": 8,
-   "goalsAgainst": 6
+   "matchId": "57346",
+   "kickoff": "2026-11-20T18:00:00.000Z",
+   "opponentId": "1513",
+   "goalsFor": 9,
+   "goalsAgainst": 5
   }
  },
  "streaks": {
   "win": {
-   "length": 5,
+   "length": 6,
    "from": {
     "seasonId": 55,
     "league": "L4C",
@@ -187,15 +200,15 @@
    "to": {
     "seasonId": 55,
     "league": "L4C",
-    "matchId": "57185",
-    "kickoff": "2026-11-03T18:00:00.000Z",
-    "opponentId": "131",
-    "goalsFor": 4,
-    "goalsAgainst": 2
+    "matchId": "57346",
+    "kickoff": "2026-11-20T18:00:00.000Z",
+    "opponentId": "1513",
+    "goalsFor": 9,
+    "goalsAgainst": 5
    }
   },
   "unbeaten": {
-   "length": 5,
+   "length": 6,
    "from": {
     "seasonId": 55,
     "league": "L4C",
@@ -208,11 +221,11 @@
    "to": {
     "seasonId": 55,
     "league": "L4C",
-    "matchId": "57185",
-    "kickoff": "2026-11-03T18:00:00.000Z",
-    "opponentId": "131",
-    "goalsFor": 4,
-    "goalsAgainst": 2
+    "matchId": "57346",
+    "kickoff": "2026-11-20T18:00:00.000Z",
+    "opponentId": "1513",
+    "goalsFor": 9,
+    "goalsAgainst": 5
    }
   },
   "loss": {
@@ -240,8 +253,8 @@
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 9,
-  "coveredMatches": 9,
+  "playedMatches": 10,
+  "coveredMatches": 10,
   "rows": [
    {
     "name": "Peres Máté",
@@ -251,21 +264,27 @@
    },
    {
     "name": "Langer Attila",
-    "goals": 9,
-    "matches": 6,
+    "goals": 10,
+    "matches": 7,
     "hatTricks": 1
    },
    {
     "name": "Máté Tibor Mestyanek",
-    "goals": 9,
-    "matches": 5,
+    "goals": 10,
+    "matches": 6,
     "hatTricks": 1
    },
    {
     "name": "Glück Péter",
-    "goals": 6,
-    "matches": 5,
+    "goals": 8,
+    "matches": 6,
     "hatTricks": 0
+   },
+   {
+    "name": "Szécsényi Szilárd",
+    "goals": 6,
+    "matches": 3,
+    "hatTricks": 1
    },
    {
     "name": "Bach Ádám",
@@ -280,21 +299,15 @@
     "hatTricks": 0
    },
    {
-    "name": "Szécsényi Szilárd",
-    "goals": 3,
+    "name": "Rostás Tibor",
+    "goals": 2,
     "matches": 2,
     "hatTricks": 0
    },
    {
-    "name": "Rostás Tibor",
-    "goals": 1,
-    "matches": 1,
-    "hatTricks": 0
-   },
-   {
     "name": "Tucsek Balázs",
-    "goals": 1,
-    "matches": 1,
+    "goals": 2,
+    "matches": 2,
     "hatTricks": 0
    },
    {

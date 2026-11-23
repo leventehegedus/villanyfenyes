@@ -25,6 +25,11 @@
    "name": "SÜSÜ FC"
   },
   {
+   "id": "41",
+   "siteId": 41,
+   "name": "Sonkástojás"
+  },
+  {
    "id": "202",
    "siteId": 202,
    "name": "Szupermegaistencsászárüber"
@@ -48,11 +53,6 @@
    "id": "118",
    "siteId": 118,
    "name": "Atletico Vasutas SE"
-  },
-  {
-   "id": "41",
-   "siteId": 41,
-   "name": "Sonkástojás"
   },
   {
    "id": "230",
@@ -133,6 +133,19 @@
   },
   {
    "position": 5,
+   "teamId": "41",
+   "played": 7,
+   "won": 3,
+   "drawn": 1,
+   "lost": 3,
+   "goalsFor": 35,
+   "goalsAgainst": 33,
+   "goalDiff": 2,
+   "points": 10,
+   "markers": []
+  },
+  {
+   "position": 6,
    "teamId": "202",
    "played": 8,
    "won": 3,
@@ -147,20 +160,20 @@
    ]
   },
   {
-   "position": 6,
+   "position": 7,
    "teamId": "77",
-   "played": 8,
+   "played": 9,
    "won": 3,
    "drawn": 1,
-   "lost": 4,
-   "goalsFor": 24,
-   "goalsAgainst": 39,
-   "goalDiff": -15,
+   "lost": 5,
+   "goalsFor": 27,
+   "goalsAgainst": 44,
+   "goalDiff": -17,
    "points": 10,
    "markers": []
   },
   {
-   "position": 7,
+   "position": 8,
    "teamId": "124",
    "played": 9,
    "won": 2,
@@ -173,7 +186,7 @@
    "markers": []
   },
   {
-   "position": 8,
+   "position": 9,
    "teamId": "133",
    "played": 8,
    "won": 3,
@@ -186,7 +199,7 @@
    "markers": []
   },
   {
-   "position": 9,
+   "position": 10,
    "teamId": "118",
    "played": 8,
    "won": 2,
@@ -196,19 +209,6 @@
    "goalsAgainst": 46,
    "goalDiff": -6,
    "points": 8,
-   "markers": []
-  },
-  {
-   "position": 10,
-   "teamId": "41",
-   "played": 6,
-   "won": 2,
-   "drawn": 1,
-   "lost": 3,
-   "goalsFor": 30,
-   "goalsAgainst": 30,
-   "goalDiff": 0,
-   "points": 7,
    "markers": []
   },
   {
@@ -1820,7 +1820,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57656",
@@ -1835,41 +1835,41 @@
    "scorers": [
     {
      "name": "Veres András",
-     "teamId": "110",
-     "goals": 3
+     "goals": 3,
+     "teamId": "110"
     },
     {
      "name": "Németh Csaba",
-     "teamId": "110",
-     "goals": 2
+     "goals": 2,
+     "teamId": "110"
     },
     {
      "name": "Szűcs Tamás",
-     "teamId": "110",
-     "goals": 2
+     "goals": 2,
+     "teamId": "110"
     },
     {
      "name": "Szilágyi Bálint Zsolt",
-     "teamId": "110",
-     "goals": 1
+     "goals": 1,
+     "teamId": "110"
     },
     {
      "name": "Illyés Péter",
-     "teamId": "110",
-     "goals": 1
+     "goals": 1,
+     "teamId": "110"
     },
     {
      "name": "Füzesi Vince",
-     "teamId": "219",
-     "goals": 1
+     "goals": 1,
+     "teamId": "219"
     },
     {
      "name": "Tábori Péter",
-     "teamId": "219",
-     "goals": 1
+     "goals": 1,
+     "teamId": "219"
     }
    ],
-   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57325",
@@ -1884,21 +1884,21 @@
    "scorers": [
     {
      "name": "Veres László Dávid",
-     "teamId": "230",
-     "goals": 4
+     "goals": 4,
+     "teamId": "230"
     },
     {
      "name": "Meszlényi Márk",
-     "teamId": "230",
-     "goals": 2
+     "goals": 2,
+     "teamId": "230"
     },
     {
      "name": "Balla Dávid",
-     "teamId": "230",
-     "goals": 1
+     "goals": 1,
+     "teamId": "230"
     }
    ],
-   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57296",
@@ -1946,27 +1946,37 @@
    "awayTeamId": "77",
    "kickoff": "2026-11-19T20:00:00.000Z",
    "venue": "Bogdánfy_3",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 5,
+   "awayGoals": 3,
+   "status": "played",
    "scorers": [
     {
      "name": "Dr. Lukács Dávid",
-     "teamId": "41",
-     "goals": 2
+     "goals": 2,
+     "teamId": "41"
     },
     {
      "name": "Szabó Ákos Márton",
-     "teamId": "41",
-     "goals": 2
+     "goals": 2,
+     "teamId": "41"
     },
     {
      "name": "Ferincz Ákos",
-     "teamId": "41",
-     "goals": 1
+     "goals": 1,
+     "teamId": "41"
+    },
+    {
+     "name": "Kovács Dorián",
+     "goals": 1,
+     "teamId": "77"
+    },
+    {
+     "name": "Bagyinszki Dániel",
+     "goals": 1,
+     "teamId": "77"
     }
    ],
-   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "x-55-L3C-202611231800-devcs-susu-fc",
@@ -2232,6 +2242,16 @@
    "matchesPlayed": 6
   },
   {
+   "teamId": "41",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Vasas Peter",
+    "goals": 5
+   },
+   "seasonsCount": 22,
+   "matchesPlayed": 7
+  },
+  {
    "teamId": "202",
    "bestLeague": "L2A",
    "topScorer": {
@@ -2249,7 +2269,7 @@
     "goals": 7
    },
    "seasonsCount": 43,
-   "matchesPlayed": 8
+   "matchesPlayed": 9
   },
   {
    "teamId": "124",
@@ -2280,16 +2300,6 @@
    },
    "seasonsCount": 8,
    "matchesPlayed": 8
-  },
-  {
-   "teamId": "41",
-   "bestLeague": "L1",
-   "topScorer": {
-    "name": "Vasas Peter",
-    "goals": 5
-   },
-   "seasonsCount": 22,
-   "matchesPlayed": 6
   },
   {
    "teamId": "230",

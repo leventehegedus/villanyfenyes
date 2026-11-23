@@ -55,7 +55,7 @@
    "titles": 1,
    "l1Seasons": 15,
    "won": 68,
-   "goalsFor": 625
+   "goalsFor": 628
   },
   {
    "teamId": "1442",
@@ -806,8 +806,8 @@
    "name": "Szponzorok helye:_____",
    "titles": 3,
    "l1Seasons": 6,
-   "won": 47,
-   "goalsFor": 278
+   "won": 48,
+   "goalsFor": 281
   },
   {
    "teamId": "37",
@@ -926,8 +926,8 @@
    "name": "Sonkástojás",
    "titles": 0,
    "l1Seasons": 1,
-   "won": 4,
-   "goalsFor": 51
+   "won": 5,
+   "goalsFor": 56
   },
   {
    "teamId": "116",
@@ -1146,20 +1146,20 @@
    "goalsFor": 39
   },
   {
+   "teamId": "146",
+   "name": "Lokomotív Akadémia",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 46
+  },
+  {
    "teamId": "43",
    "name": "FE-C FC",
    "titles": 0,
    "l1Seasons": 0,
    "won": 3,
    "goalsFor": 27
-  },
-  {
-   "teamId": "146",
-   "name": "Lokomotív Akadémia",
-   "titles": 0,
-   "l1Seasons": 0,
-   "won": 2,
-   "goalsFor": 38
   },
   {
    "teamId": "168",
@@ -1175,7 +1175,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 1,
-   "goalsFor": 27
+   "goalsFor": 32
   },
   {
    "teamId": "27",
@@ -1518,8 +1518,8 @@
    "name": "Squadra",
    "titles": 0,
    "l1Seasons": 0,
-   "won": 7,
-   "goalsFor": 49
+   "won": 8,
+   "goalsFor": 58
   },
   {
    "teamId": "147",
@@ -1528,6 +1528,14 @@
    "l1Seasons": 0,
    "won": 6,
    "goalsFor": 36
+  },
+  {
+   "teamId": "1504",
+   "name": "Fényév FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 37
   },
   {
    "teamId": "1512",
@@ -1540,14 +1548,6 @@
   {
    "teamId": "86",
    "name": "Sörfoci",
-   "titles": 0,
-   "l1Seasons": 0,
-   "won": 4,
-   "goalsFor": 33
-  },
-  {
-   "teamId": "1504",
-   "name": "Fényév FC",
    "titles": 0,
    "l1Seasons": 0,
    "won": 4,
@@ -1567,7 +1567,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 3,
-   "goalsFor": 49
+   "goalsFor": 54
   },
   {
    "teamId": "131",
@@ -1591,7 +1591,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 2,
-   "goalsFor": 24
+   "goalsFor": 28
   },
   {
    "teamId": "137",

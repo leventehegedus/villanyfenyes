@@ -1390,7 +1390,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57250",
@@ -1437,7 +1437,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57282",
@@ -1450,7 +1450,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57227",
@@ -1465,31 +1465,31 @@
    "scorers": [
     {
      "name": "Fodor András",
-     "teamId": "203",
-     "goals": 2
+     "goals": 2,
+     "teamId": "203"
     },
     {
      "name": "Fülöp Bence",
-     "teamId": "203",
-     "goals": 1
+     "goals": 1,
+     "teamId": "203"
     },
     {
      "name": "Prezsnyák Péter",
-     "teamId": "203",
-     "goals": 1
+     "goals": 1,
+     "teamId": "203"
     },
     {
      "name": "Vichnalek Dávid",
-     "teamId": "1568",
-     "goals": 3
+     "goals": 3,
+     "teamId": "1568"
     },
     {
      "name": "Tomojzer Péter",
-     "teamId": "1568",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1568"
     }
    ],
-   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57312",
@@ -1502,7 +1502,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57308",
@@ -1515,7 +1515,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57287",
@@ -1530,21 +1530,21 @@
    "scorers": [
     {
      "name": "Fábián Hunor",
-     "teamId": "55",
-     "goals": 1
+     "goals": 1,
+     "teamId": "55"
     },
     {
      "name": "Ignátkó Bence",
-     "teamId": "55",
-     "goals": 1
+     "goals": 1,
+     "teamId": "55"
     },
     {
      "name": "Dániel Jaczkó",
-     "teamId": "55",
-     "goals": 1
+     "goals": 1,
+     "teamId": "55"
     }
    ],
-   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57356",
@@ -1557,7 +1557,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "x-55-L5F-202611231700-asfc-el-km-hyundai-football-club",
@@ -1809,7 +1809,7 @@
    "teamId": "1552",
    "bestLeague": "L5F",
    "topScorer": {
-    "name": "Kocsis Mátyás",
+    "name": "Varga Bálint",
     "goals": 4
    },
    "seasonsCount": 1,

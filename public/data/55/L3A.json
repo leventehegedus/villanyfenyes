@@ -1941,11 +1941,11 @@
    "scorers": [
     {
      "name": "Orosz Dávid",
-     "teamId": "26",
-     "goals": 5
+     "goals": 5,
+     "teamId": "26"
     }
    ],
-   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57220",
@@ -1992,7 +1992,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57324",
@@ -2007,31 +2007,31 @@
    "scorers": [
     {
      "name": "Németh Richárd",
-     "teamId": "26",
-     "goals": 2
+     "goals": 2,
+     "teamId": "26"
     },
     {
      "name": "Mikesy Tamás",
-     "teamId": "26",
-     "goals": 1
+     "goals": 1,
+     "teamId": "26"
     },
     {
      "name": "Kiss János",
-     "teamId": "26",
-     "goals": 1
+     "goals": 1,
+     "teamId": "26"
     },
     {
      "name": "Csipor Előd",
-     "teamId": "26",
-     "goals": 1
+     "goals": 1,
+     "teamId": "26"
     },
     {
      "name": "Selmeczi Péter",
-     "teamId": "26",
-     "goals": 1
+     "goals": 1,
+     "teamId": "26"
     }
    ],
-   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57288",
@@ -2046,26 +2046,26 @@
    "scorers": [
     {
      "name": "Xeravits Domonkos",
-     "teamId": "161",
-     "goals": 7
+     "goals": 7,
+     "teamId": "161"
     },
     {
      "name": "Kovács Kristóf",
-     "teamId": "161",
-     "goals": 3
+     "goals": 3,
+     "teamId": "161"
     },
     {
      "name": "Dányi Gellért",
-     "teamId": "161",
-     "goals": 2
+     "goals": 2,
+     "teamId": "161"
     },
     {
      "name": "Méhes Levente",
-     "teamId": "161",
-     "goals": 1
+     "goals": 1,
+     "teamId": "161"
     }
    ],
-   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57627",
@@ -2134,11 +2134,11 @@
    "scorers": [
     {
      "name": "Vizkeleti Alex",
-     "teamId": "1480",
-     "goals": 5
+     "goals": 5,
+     "teamId": "1480"
     }
    ],
-   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "x-55-L3A-202611231800-stabilizatorok-penisz-land",
@@ -2364,7 +2364,7 @@
    "teamId": "26",
    "bestLeague": "L2A",
    "topScorer": {
-    "name": "Zsoldos Áron",
+    "name": "Németh Richárd",
     "goals": 5
    },
    "seasonsCount": 9,
@@ -2414,7 +2414,7 @@
    "teamId": "198",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Kovács Dominik",
+    "name": "Tihanyi Márton",
     "goals": 5
    },
    "seasonsCount": 11,

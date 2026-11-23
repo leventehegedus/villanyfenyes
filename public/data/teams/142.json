@@ -14,13 +14,13 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 8,
-    "won": 6,
+    "played": 9,
+    "won": 7,
     "drawn": 1,
     "lost": 1,
-    "goalsFor": 37,
+    "goalsFor": 40,
     "goalsAgainst": 19,
-    "points": 19
+    "points": 22
    }
   },
   {
@@ -197,13 +197,13 @@
    "teamId": "100",
    "name": "Gyermekláncfűrész",
    "totals": {
-    "played": 5,
-    "won": 5,
+    "played": 6,
+    "won": 6,
     "drawn": 0,
     "lost": 0,
-    "goalsFor": 24,
+    "goalsFor": 27,
     "goalsAgainst": 13,
-    "points": 15
+    "points": 18
    }
   },
   {
@@ -574,16 +574,16 @@
    }
   }
  },
- "cleanSheets": 8,
+ "cleanSheets": 9,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 63,
-  "coveredMatches": 63,
+  "playedMatches": 64,
+  "coveredMatches": 64,
   "rows": [
    {
     "name": "Szigeti Balázs",
-    "goals": 33,
-    "matches": 20,
+    "goals": 35,
+    "matches": 21,
     "hatTricks": 3
    },
    {
@@ -617,13 +617,13 @@
     "hatTricks": 0
    },
    {
-    "name": "Barna Zsombor Bence",
-    "goals": 9,
-    "matches": 7,
+    "name": "Tóth Dávid",
+    "goals": 10,
+    "matches": 8,
     "hatTricks": 0
    },
    {
-    "name": "Tóth Dávid",
+    "name": "Barna Zsombor Bence",
     "goals": 9,
     "matches": 7,
     "hatTricks": 0

@@ -10,16 +10,16 @@
    "label": "2026 - Ősz",
    "league": "L3C",
    "finished": false,
-   "position": 6,
+   "position": 7,
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 8,
+    "played": 9,
     "won": 3,
     "drawn": 1,
-    "lost": 4,
-    "goalsFor": 24,
-    "goalsAgainst": 39,
+    "lost": 5,
+    "goalsFor": 27,
+    "goalsAgainst": 44,
     "points": 10
    }
   },
@@ -918,6 +918,19 @@
     "goalsAgainst": 4,
     "points": 1
    }
+  },
+  {
+   "teamId": "41",
+   "name": "Sonkástojás",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 5,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -1017,8 +1030,8 @@
  "cleanSheets": 7,
  "failedToScore": 7,
  "scorers": {
-  "playedMatches": 165,
-  "coveredMatches": 165,
+  "playedMatches": 166,
+  "coveredMatches": 166,
   "rows": [
    {
     "name": "Bakó Milán",
@@ -1028,8 +1041,8 @@
    },
    {
     "name": "Kovács Dorián",
-    "goals": 5,
-    "matches": 3,
+    "goals": 6,
+    "matches": 4,
     "hatTricks": 0
    },
    {
@@ -1045,15 +1058,15 @@
     "hatTricks": 0
    },
    {
-    "name": "Szabó Mátyás",
+    "name": "Bagyinszki Dániel",
     "goals": 2,
     "matches": 2,
     "hatTricks": 0
    },
    {
-    "name": "Bagyinszki Dániel",
-    "goals": 1,
-    "matches": 1,
+    "name": "Szabó Mátyás",
+    "goals": 2,
+    "matches": 2,
     "hatTricks": 0
    },
    {

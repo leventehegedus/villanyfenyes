@@ -15,14 +15,14 @@
    "name": "GABSZK"
   },
   {
+   "id": "1504",
+   "siteId": 1504,
+   "name": "Fényév FC"
+  },
+  {
    "id": "1512",
    "siteId": 1512,
    "name": "Los Magos"
-  },
-  {
-   "id": "153",
-   "siteId": 153,
-   "name": "Selecao"
   },
   {
    "id": "86",
@@ -30,9 +30,9 @@
    "name": "Sörfoci"
   },
   {
-   "id": "1504",
-   "siteId": 1504,
-   "name": "Fényév FC"
+   "id": "153",
+   "siteId": 153,
+   "name": "Selecao"
   },
   {
    "id": "47",
@@ -69,14 +69,14 @@
   {
    "position": 1,
    "teamId": "101",
-   "played": 9,
-   "won": 7,
+   "played": 10,
+   "won": 8,
    "drawn": 0,
    "lost": 2,
-   "goalsFor": 49,
-   "goalsAgainst": 31,
-   "goalDiff": 18,
-   "points": 21,
+   "goalsFor": 58,
+   "goalsAgainst": 36,
+   "goalDiff": 22,
+   "points": 24,
    "markers": [
     "winStreak",
     "manyGoals",
@@ -101,6 +101,19 @@
   },
   {
    "position": 3,
+   "teamId": "1504",
+   "played": 8,
+   "won": 4,
+   "drawn": 1,
+   "lost": 3,
+   "goalsFor": 37,
+   "goalsAgainst": 39,
+   "goalDiff": -2,
+   "points": 13,
+   "markers": []
+  },
+  {
+   "position": 4,
    "teamId": "1512",
    "played": 9,
    "won": 4,
@@ -111,21 +124,6 @@
    "goalDiff": 0,
    "points": 13,
    "markers": []
-  },
-  {
-   "position": 4,
-   "teamId": "153",
-   "played": 7,
-   "won": 4,
-   "drawn": 0,
-   "lost": 3,
-   "goalsFor": 40,
-   "goalsAgainst": 33,
-   "goalDiff": 7,
-   "points": 12,
-   "markers": [
-    "lossStreak"
-   ]
   },
   {
    "position": 5,
@@ -144,17 +142,17 @@
   },
   {
    "position": 6,
-   "teamId": "1504",
+   "teamId": "153",
    "played": 7,
    "won": 4,
    "drawn": 0,
    "lost": 3,
-   "goalsFor": 33,
-   "goalsAgainst": 35,
-   "goalDiff": -2,
+   "goalsFor": 40,
+   "goalsAgainst": 33,
+   "goalDiff": 7,
    "points": 12,
    "markers": [
-    "winStreak"
+    "lossStreak"
    ]
   },
   {
@@ -173,15 +171,16 @@
   {
    "position": 8,
    "teamId": "1513",
-   "played": 7,
+   "played": 8,
    "won": 3,
    "drawn": 1,
-   "lost": 3,
-   "goalsFor": 49,
-   "goalsAgainst": 46,
-   "goalDiff": 3,
+   "lost": 4,
+   "goalsFor": 54,
+   "goalsAgainst": 55,
+   "goalDiff": -1,
    "points": 10,
    "markers": [
+    "lossStreak",
     "manyGoals"
    ]
   },
@@ -219,14 +218,14 @@
   {
    "position": 11,
    "teamId": "173",
-   "played": 8,
+   "played": 9,
    "won": 2,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 6,
-   "goalsFor": 24,
-   "goalsAgainst": 42,
+   "goalsFor": 28,
+   "goalsAgainst": 46,
    "goalDiff": -18,
-   "points": 6,
+   "points": 7,
    "markers": [
     "relegation"
    ]
@@ -565,6 +564,40 @@
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
   },
   {
+   "id": "56669",
+   "siteId": 56669,
+   "homeTeamId": "86",
+   "awayTeamId": "137",
+   "kickoff": "2026-09-15T18:00:00.000Z",
+   "venue": "Bogdánfy_4",
+   "homeGoals": 7,
+   "awayGoals": 4,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Szőke Péter",
+     "teamId": "86",
+     "goals": 2
+    },
+    {
+     "name": "Váradi Vince",
+     "teamId": "86",
+     "goals": 2
+    },
+    {
+     "name": "Pellet Dávid",
+     "teamId": "86",
+     "goals": 2
+    },
+    {
+     "name": "Kókai Bálint",
+     "teamId": "86",
+     "goals": 1
+    }
+   ],
+   "detailFetchedAt": "2026-11-20T12:38:28.503Z"
+  },
+  {
    "id": "57351",
    "siteId": 57351,
    "homeTeamId": "153",
@@ -613,40 +646,6 @@
     {
      "name": "Katona Márton",
      "teamId": "173",
-     "goals": 1
-    }
-   ],
-   "detailFetchedAt": "2026-11-20T12:38:28.503Z"
-  },
-  {
-   "id": "56669",
-   "siteId": 56669,
-   "homeTeamId": "86",
-   "awayTeamId": "137",
-   "kickoff": "2026-09-15T18:00:00.000Z",
-   "venue": "Bogdánfy_4",
-   "homeGoals": 7,
-   "awayGoals": 4,
-   "status": "played",
-   "scorers": [
-    {
-     "name": "Szőke Péter",
-     "teamId": "86",
-     "goals": 2
-    },
-    {
-     "name": "Váradi Vince",
-     "teamId": "86",
-     "goals": 2
-    },
-    {
-     "name": "Pellet Dávid",
-     "teamId": "86",
-     "goals": 2
-    },
-    {
-     "name": "Kókai Bálint",
-     "teamId": "86",
      "goals": 1
     }
    ],
@@ -1912,7 +1911,7 @@
      "teamId": "131"
     }
    ],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57229",
@@ -1946,7 +1945,7 @@
      "teamId": "47"
     }
    ],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57244",
@@ -1985,7 +1984,7 @@
      "teamId": "153"
     }
    ],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57267",
@@ -1994,10 +1993,20 @@
    "awayTeamId": "1504",
    "kickoff": "2026-11-13T19:00:00.000Z",
    "venue": "Bogdánfy_3",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 4,
+   "awayGoals": 4,
+   "status": "played",
    "scorers": [
+    {
+     "name": "Lovas Zoltán",
+     "goals": 2,
+     "teamId": "173"
+    },
+    {
+     "name": "Mongyi Zoltán",
+     "goals": 2,
+     "teamId": "173"
+    },
     {
      "name": "Bantó Csaba Szabolcs",
      "goals": 2,
@@ -2014,7 +2023,7 @@
      "teamId": "1504"
     }
    ],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57322",
@@ -2062,7 +2071,7 @@
      "teamId": "131"
     }
    ],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57346",
@@ -2071,9 +2080,9 @@
    "awayTeamId": "1513",
    "kickoff": "2026-11-20T18:00:00.000Z",
    "venue": "Bogdánfy_2",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 9,
+   "awayGoals": 5,
+   "status": "played",
    "scorers": [
     {
      "name": "Szécsényi Szilárd",
@@ -2104,9 +2113,19 @@
      "name": "Máté Tibor Mestyanek",
      "goals": 1,
      "teamId": "101"
+    },
+    {
+     "name": "Péter Németh",
+     "goals": 4,
+     "teamId": "1513"
+    },
+    {
+     "name": "Szabó Szilárd",
+     "goals": 1,
+     "teamId": "1513"
     }
    ],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "x-55-L4C-202611231600-selecao-los-magos",
@@ -2326,7 +2345,7 @@
     "goals": 6
    },
    "seasonsCount": 5,
-   "matchesPlayed": 9
+   "matchesPlayed": 10
   },
   {
    "teamId": "147",
@@ -2336,6 +2355,16 @@
     "goals": 5
    },
    "seasonsCount": 5,
+   "matchesPlayed": 8
+  },
+  {
+   "teamId": "1504",
+   "bestLeague": "L3A",
+   "topScorer": {
+    "name": "Pothóczki Ábel",
+    "goals": 5
+   },
+   "seasonsCount": 3,
    "matchesPlayed": 8
   },
   {
@@ -2349,16 +2378,6 @@
    "matchesPlayed": 9
   },
   {
-   "teamId": "153",
-   "bestLeague": null,
-   "topScorer": {
-    "name": "Ürmös Zoltán",
-    "goals": 4
-   },
-   "seasonsCount": 35,
-   "matchesPlayed": 7
-  },
-  {
    "teamId": "86",
    "bestLeague": "L3A",
    "topScorer": {
@@ -2369,13 +2388,13 @@
    "matchesPlayed": 6
   },
   {
-   "teamId": "1504",
-   "bestLeague": "L3A",
+   "teamId": "153",
+   "bestLeague": null,
    "topScorer": {
-    "name": "Purosz Leonidasz",
-    "goals": 5
+    "name": "Ürmös Zoltán",
+    "goals": 4
    },
-   "seasonsCount": 3,
+   "seasonsCount": 35,
    "matchesPlayed": 7
   },
   {
@@ -2396,7 +2415,7 @@
     "goals": 5
    },
    "seasonsCount": 2,
-   "matchesPlayed": 7
+   "matchesPlayed": 8
   },
   {
    "teamId": "131",
@@ -2426,7 +2445,7 @@
     "goals": 7
    },
    "seasonsCount": 23,
-   "matchesPlayed": 8
+   "matchesPlayed": 9
   },
   {
    "teamId": "137",

@@ -86,14 +86,14 @@
   {
    "position": 2,
    "teamId": "142",
-   "played": 8,
-   "won": 6,
+   "played": 9,
+   "won": 7,
    "drawn": 1,
    "lost": 1,
-   "goalsFor": 37,
+   "goalsFor": 40,
    "goalsAgainst": 19,
-   "goalDiff": 18,
-   "points": 19,
+   "goalDiff": 21,
+   "points": 22,
    "markers": [
     "winStreak",
     "fewConceded"
@@ -102,15 +102,16 @@
   {
    "position": 3,
    "teamId": "100",
-   "played": 8,
+   "played": 9,
    "won": 6,
    "drawn": 0,
-   "lost": 2,
+   "lost": 3,
    "goalsFor": 33,
-   "goalsAgainst": 22,
-   "goalDiff": 11,
+   "goalsAgainst": 25,
+   "goalDiff": 8,
    "points": 18,
    "markers": [
+    "lossStreak",
     "fewConceded"
    ]
   },
@@ -2016,22 +2017,22 @@
    "awayTeamId": "142",
    "kickoff": "2026-11-18T19:00:00.000Z",
    "venue": "Bogdánfy_1",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "status": "played",
    "scorers": [
     {
      "name": "Szigeti Balázs",
-     "teamId": "142",
-     "goals": 2
+     "goals": 2,
+     "teamId": "142"
     },
     {
      "name": "Tóth Dávid",
-     "teamId": "142",
-     "goals": 1
+     "goals": 1,
+     "teamId": "142"
     }
    ],
-   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "48350",
@@ -2095,26 +2096,26 @@
    "scorers": [
     {
      "name": "Fröhlich Tamás",
-     "teamId": "199",
-     "goals": 2
+     "goals": 2,
+     "teamId": "199"
     },
     {
      "name": "Siket Máté",
-     "teamId": "199",
-     "goals": 2
+     "goals": 2,
+     "teamId": "199"
     },
     {
      "name": "Alt Ákos",
-     "teamId": "199",
-     "goals": 2
+     "goals": 2,
+     "teamId": "199"
     },
     {
      "name": "Gondos Andor",
-     "teamId": "199",
-     "goals": 2
+     "goals": 2,
+     "teamId": "199"
     }
    ],
-   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "48352",
@@ -2129,11 +2130,11 @@
    "scorers": [
     {
      "name": "Szilágyi Dávid",
-     "teamId": "166",
-     "goals": 2
+     "goals": 2,
+     "teamId": "166"
     }
    ],
-   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "48353",
@@ -2360,7 +2361,7 @@
     "goals": 4
    },
    "seasonsCount": 8,
-   "matchesPlayed": 8
+   "matchesPlayed": 9
   },
   {
    "teamId": "100",
@@ -2370,7 +2371,7 @@
     "goals": 8
    },
    "seasonsCount": 21,
-   "matchesPlayed": 8
+   "matchesPlayed": 9
   },
   {
    "teamId": "90",

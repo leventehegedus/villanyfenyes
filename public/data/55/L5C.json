@@ -2043,7 +2043,7 @@
      "teamId": "75"
     }
    ],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57335",
@@ -2087,7 +2087,7 @@
      "teamId": "241"
     }
    ],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57294",
@@ -2121,7 +2121,7 @@
      "teamId": "181"
     }
    ],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57292",
@@ -2150,7 +2150,7 @@
      "teamId": "75"
     }
    ],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57333",
@@ -2165,26 +2165,26 @@
    "scorers": [
     {
      "name": "Hajnal Ábris",
-     "teamId": "1531",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1531"
     },
     {
      "name": "István Pásztor",
-     "teamId": "1531",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1531"
     },
     {
      "name": "Pálffy Tamás",
-     "teamId": "1544",
-     "goals": 7
+     "goals": 7,
+     "teamId": "1544"
     },
     {
      "name": "Pados Szilárd Marcell",
-     "teamId": "1544",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1544"
     }
    ],
-   "detailFetchedAt": "2026-11-22T11:24:31.047Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "x-55-L5C-202611232100-malaj-medve-se-ment-melle-is",

@@ -1972,31 +1972,31 @@
    "scorers": [
     {
      "name": "Vigano Mario",
-     "teamId": "1560",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1560"
     },
     {
      "name": "Páll Donát Domonkos",
-     "teamId": "1560",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1560"
     },
     {
      "name": "Takács Ábel",
-     "teamId": "1560",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1560"
     },
     {
      "name": "Bognár Milán",
-     "teamId": "1560",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1560"
     },
     {
      "name": "B. Tóth Milan",
-     "teamId": "1560",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1560"
     }
    ],
-   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57354",
@@ -2008,8 +2008,39 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
+   "scorers": [
+    {
+     "name": "Szilágyi Péter",
+     "goals": 4,
+     "teamId": "156"
+    },
+    {
+     "name": "Horváth Attila",
+     "goals": 2,
+     "teamId": "156"
+    },
+    {
+     "name": "Szemesi Tamás",
+     "goals": 1,
+     "teamId": "156"
+    },
+    {
+     "name": "Szemesi Péter",
+     "goals": 1,
+     "teamId": "156"
+    },
+    {
+     "name": "Jerjomina-Kramarics Miklós",
+     "goals": 1,
+     "teamId": "156"
+    },
+    {
+     "name": "Becsei Erik",
+     "goals": 1,
+     "teamId": "156"
+    }
+   ],
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57306",
@@ -2024,21 +2055,21 @@
    "scorers": [
     {
      "name": "Bakos Balázs",
-     "teamId": "138",
-     "goals": 2
+     "goals": 2,
+     "teamId": "138"
     },
     {
      "name": "Zagyva Mátyás",
-     "teamId": "138",
-     "goals": 1
+     "goals": 1,
+     "teamId": "138"
     },
     {
      "name": "Juhász Gábor",
-     "teamId": "138",
-     "goals": 1
+     "goals": 1,
+     "teamId": "138"
     }
    ],
-   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "x-55-L5D-202611231900-gatya-fc-homarok-sc",

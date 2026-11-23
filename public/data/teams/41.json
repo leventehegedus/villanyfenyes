@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L3C",
    "finished": false,
-   "position": 10,
+   "position": 5,
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 6,
-    "won": 2,
+    "played": 7,
+    "won": 3,
     "drawn": 1,
     "lost": 3,
-    "goalsFor": 30,
-    "goalsAgainst": 30,
-    "points": 7
+    "goalsFor": 35,
+    "goalsAgainst": 33,
+    "points": 10
    }
   },
   {
@@ -198,6 +198,19 @@
     "goalsAgainst": 6,
     "points": 1
    }
+  },
+  {
+   "teamId": "77",
+   "name": "Keverton",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 3,
+    "points": 3
+   }
   }
  ],
  "records": {
@@ -235,24 +248,24 @@
    "from": {
     "seasonId": 55,
     "league": "L3C",
-    "matchId": "57025",
-    "kickoff": "2026-10-21T17:00:00.000Z",
-    "opponentId": "159",
-    "goalsFor": 7,
+    "matchId": "56683",
+    "kickoff": "2026-11-19T20:00:00.000Z",
+    "opponentId": "77",
+    "goalsFor": 5,
     "goalsAgainst": 3
    },
    "to": {
     "seasonId": 55,
     "league": "L3C",
-    "matchId": "57025",
-    "kickoff": "2026-10-21T17:00:00.000Z",
-    "opponentId": "159",
-    "goalsFor": 7,
+    "matchId": "56683",
+    "kickoff": "2026-11-19T20:00:00.000Z",
+    "opponentId": "77",
+    "goalsFor": 5,
     "goalsAgainst": 3
    }
   },
   "unbeaten": {
-   "length": 2,
+   "length": 3,
    "from": {
     "seasonId": 55,
     "league": "L3C",
@@ -265,11 +278,11 @@
    "to": {
     "seasonId": 55,
     "league": "L3C",
-    "matchId": "57157",
-    "kickoff": "2026-11-03T18:00:00.000Z",
-    "opponentId": "118",
-    "goalsFor": 6,
-    "goalsAgainst": 6
+    "matchId": "56683",
+    "kickoff": "2026-11-19T20:00:00.000Z",
+    "opponentId": "77",
+    "goalsFor": 5,
+    "goalsAgainst": 3
    }
   },
   "loss": {
@@ -297,23 +310,29 @@
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 12,
-  "coveredMatches": 12,
+  "playedMatches": 13,
+  "coveredMatches": 13,
   "rows": [
    {
     "name": "Dr. Lukács Dávid",
-    "goals": 9,
-    "matches": 3,
+    "goals": 11,
+    "matches": 4,
     "hatTricks": 2
    },
    {
     "name": "Ferincz Ákos",
-    "goals": 6,
-    "matches": 4,
+    "goals": 7,
+    "matches": 5,
     "hatTricks": 0
    },
    {
     "name": "Kovács-Kacsur Kristóf",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szabó Ákos Márton",
     "goals": 3,
     "matches": 2,
     "hatTricks": 0
@@ -333,12 +352,6 @@
    {
     "name": "Tornyos Szilárd",
     "goals": 2,
-    "matches": 1,
-    "hatTricks": 0
-   },
-   {
-    "name": "Szabó Ákos Márton",
-    "goals": 1,
     "matches": 1,
     "hatTricks": 0
    }

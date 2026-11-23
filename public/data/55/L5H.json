@@ -1815,7 +1815,7 @@
      "teamId": "1556"
     }
    ],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57331",
@@ -1844,7 +1844,7 @@
      "teamId": "232"
     }
    ],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57298",
@@ -1878,7 +1878,7 @@
      "teamId": "1566"
     }
    ],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57327",
@@ -1891,6 +1891,21 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [
+    {
+     "name": "Filipánics András",
+     "goals": 1,
+     "teamId": "1553"
+    },
+    {
+     "name": "Ghiczy Gergő",
+     "goals": 1,
+     "teamId": "1553"
+    },
+    {
+     "name": "Kósa Zoárd",
+     "goals": 1,
+     "teamId": "1553"
+    },
     {
      "name": "Takács Benedek",
      "goals": 4,
@@ -1912,7 +1927,7 @@
      "teamId": "1556"
     }
    ],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57310",
@@ -1925,7 +1940,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "x-55-L5H-202611242000-busquets-serege-rosario-juniors",

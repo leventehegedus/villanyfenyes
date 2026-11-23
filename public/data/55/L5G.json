@@ -1979,7 +1979,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57271",
@@ -2130,7 +2130,7 @@
      "teamId": "1469"
     }
    ],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57619",
@@ -2143,7 +2143,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57326",
@@ -2182,7 +2182,7 @@
      "teamId": "1534"
     }
    ],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57339",
@@ -2211,7 +2211,7 @@
      "teamId": "1567"
     }
    ],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "56905",
@@ -2260,7 +2260,7 @@
      "teamId": "1488"
     }
    ],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "x-55-L5G-202611232000-oso-academy-george-fc",
@@ -2506,7 +2506,7 @@
    "teamId": "1557",
    "bestLeague": "L5G",
    "topScorer": {
-    "name": "Barnabás Baczynski",
+    "name": "Meixner Sándor Ferenc",
     "goals": 3
    },
    "seasonsCount": 1,
@@ -2516,7 +2516,7 @@
    "teamId": "212",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Balogh Marcell János",
+    "name": "Németh Norbert",
     "goals": 4
    },
    "seasonsCount": 8,
@@ -2586,7 +2586,7 @@
    "teamId": "1572",
    "bestLeague": "L5G",
    "topScorer": {
-    "name": "Nádudvari Patrik",
+    "name": "Radics Bendegúz Ádám",
     "goals": 2
    },
    "seasonsCount": 1,

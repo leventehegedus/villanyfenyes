@@ -2003,7 +2003,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57316",
@@ -2037,7 +2037,7 @@
      "teamId": "1537"
     }
    ],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "56572",
@@ -2076,7 +2076,7 @@
      "teamId": "1530"
     }
    ],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57289",
@@ -2125,7 +2125,7 @@
      "teamId": "1530"
     }
    ],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57330",
@@ -2169,7 +2169,7 @@
      "teamId": "96"
     }
    ],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57319",
@@ -2181,8 +2181,39 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
+   "scorers": [
+    {
+     "name": "Stranyóczky László",
+     "goals": 2,
+     "teamId": "33"
+    },
+    {
+     "name": "Csávás Bálint",
+     "goals": 1,
+     "teamId": "33"
+    },
+    {
+     "name": "Dupák Gábor",
+     "goals": 1,
+     "teamId": "33"
+    },
+    {
+     "name": "Marosi Marcell",
+     "goals": 1,
+     "teamId": "33"
+    },
+    {
+     "name": "Bacsó Krisztián",
+     "goals": 1,
+     "teamId": "33"
+    },
+    {
+     "name": "Breier Péter",
+     "goals": 1,
+     "teamId": "33"
+    }
+   ],
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "x-55-L4D-202611231700-goats-fc-kozpenz-fc",
@@ -2454,7 +2485,7 @@
    "teamId": "221",
    "bestLeague": "L4D",
    "topScorer": {
-    "name": "Bangó-Fi Domonkos",
+    "name": "Marton Lázár",
     "goals": 6
    },
    "seasonsCount": 4,
@@ -2534,7 +2565,7 @@
    "teamId": "1537",
    "bestLeague": "L4D",
    "topScorer": {
-    "name": "Lukács Gergő",
+    "name": "Szilágyi Bálint Zsolt",
     "goals": 5
    },
    "seasonsCount": 2,

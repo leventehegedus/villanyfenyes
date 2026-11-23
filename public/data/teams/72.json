@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": "relegation",
    "totals": {
-    "played": 6,
+    "played": 7,
     "won": 1,
     "drawn": 1,
-    "lost": 4,
-    "goalsFor": 27,
-    "goalsAgainst": 35,
+    "lost": 5,
+    "goalsFor": 32,
+    "goalsAgainst": 43,
     "points": 4
    }
   }
@@ -102,6 +102,19 @@
     "goalsAgainst": 6,
     "points": 1
    }
+  },
+  {
+   "teamId": "146",
+   "name": "Lokomotív Akadémia",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 8,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -126,11 +139,11 @@
   "highestScoring": {
    "seasonId": 55,
    "league": "L3B",
-   "matchId": "56973",
-   "kickoff": "2026-10-14T19:00:00.000Z",
-   "opponentId": "233",
-   "goalsFor": 6,
-   "goalsAgainst": 6
+   "matchId": "57357",
+   "kickoff": "2026-11-20T20:00:00.000Z",
+   "opponentId": "146",
+   "goalsFor": 5,
+   "goalsAgainst": 8
   }
  },
  "streaks": {
@@ -201,8 +214,8 @@
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 6,
-  "coveredMatches": 6,
+  "playedMatches": 7,
+  "coveredMatches": 7,
   "rows": [
    {
     "name": "Zsinka László István",
@@ -212,14 +225,14 @@
    },
    {
     "name": "Balázs Ádám Makk",
-    "goals": 4,
-    "matches": 4,
+    "goals": 5,
+    "matches": 5,
     "hatTricks": 0
    },
    {
     "name": "Stirling Balázs",
-    "goals": 4,
-    "matches": 3,
+    "goals": 5,
+    "matches": 4,
     "hatTricks": 0
    },
    {
@@ -235,9 +248,15 @@
     "hatTricks": 0
    },
    {
-    "name": "Schütz Máté",
-    "goals": 1,
+    "name": "Lengyel Attila",
+    "goals": 2,
     "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Schütz Máté",
+    "goals": 2,
+    "matches": 2,
     "hatTricks": 0
    },
    {

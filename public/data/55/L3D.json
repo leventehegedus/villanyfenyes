@@ -2171,26 +2171,26 @@
    "scorers": [
     {
      "name": "Novozánszki Zsombor",
-     "teamId": "85",
-     "goals": 4
+     "goals": 4,
+     "teamId": "85"
     },
     {
      "name": "Horváth Péter",
-     "teamId": "85",
-     "goals": 3
+     "goals": 3,
+     "teamId": "85"
     },
     {
      "name": "Bordás Máté Vilmos",
-     "teamId": "85",
-     "goals": 1
+     "goals": 1,
+     "teamId": "85"
     },
     {
      "name": "Őze Sándor",
-     "teamId": "85",
-     "goals": 1
+     "goals": 1,
+     "teamId": "85"
     }
    ],
-   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
+   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
    "id": "57304",

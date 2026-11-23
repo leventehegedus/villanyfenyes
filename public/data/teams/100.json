@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 8,
+    "played": 9,
     "won": 6,
     "drawn": 0,
-    "lost": 2,
+    "lost": 3,
     "goalsFor": 33,
-    "goalsAgainst": 22,
+    "goalsAgainst": 25,
     "points": 18
    }
   },
@@ -433,12 +433,12 @@
    "teamId": "142",
    "name": "Szponzorok helye:_____",
    "totals": {
-    "played": 5,
+    "played": 6,
     "won": 0,
     "drawn": 0,
-    "lost": 5,
+    "lost": 6,
     "goalsFor": 13,
-    "goalsAgainst": 24,
+    "goalsAgainst": 27,
     "points": 0
    }
   },
@@ -739,30 +739,30 @@
   "loss": {
    "length": 2,
    "from": {
-    "seasonId": 53,
+    "seasonId": 55,
     "league": "L1",
-    "matchId": "47658",
-    "kickoff": "2026-04-22T19:00:00.000Z",
-    "opponentId": "149",
+    "matchId": "48343",
+    "kickoff": "2026-11-11T19:00:00.000Z",
+    "opponentId": "69",
     "goalsFor": 2,
     "goalsAgainst": 3
    },
    "to": {
-    "seasonId": 53,
+    "seasonId": 55,
     "league": "L1",
-    "matchId": "47731",
-    "kickoff": "2026-04-29T19:00:00.000Z",
-    "opponentId": "115",
-    "goalsFor": 6,
-    "goalsAgainst": 8
+    "matchId": "48349",
+    "kickoff": "2026-11-18T19:00:00.000Z",
+    "opponentId": "142",
+    "goalsFor": 0,
+    "goalsAgainst": 3
    }
   }
  },
  "cleanSheets": 2,
- "failedToScore": 1,
+ "failedToScore": 2,
  "scorers": {
-  "playedMatches": 96,
-  "coveredMatches": 96,
+  "playedMatches": 97,
+  "coveredMatches": 97,
   "rows": [
    {
     "name": "Füle András",

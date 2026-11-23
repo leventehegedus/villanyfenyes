@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L3B",
    "finished": false,
-   "position": 9,
+   "position": 7,
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 7,
-    "won": 2,
+    "played": 8,
+    "won": 3,
     "drawn": 0,
     "lost": 5,
-    "goalsFor": 38,
-    "goalsAgainst": 45,
-    "points": 6
+    "goalsFor": 46,
+    "goalsAgainst": 50,
+    "points": 9
    }
   }
  ],
@@ -114,6 +114,19 @@
     "goalsFor": 5,
     "goalsAgainst": 10,
     "points": 0
+   }
+  },
+  {
+   "teamId": "72",
+   "name": "Budai Bombázók",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 5,
+    "points": 3
    }
   }
  ],
@@ -214,19 +227,19 @@
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 7,
-  "coveredMatches": 7,
+  "playedMatches": 8,
+  "coveredMatches": 8,
   "rows": [
    {
     "name": "Alács Mihály",
-    "goals": 9,
-    "matches": 4,
+    "goals": 11,
+    "matches": 5,
     "hatTricks": 1
    },
    {
     "name": "Szikszay András Viktor",
-    "goals": 8,
-    "matches": 4,
+    "goals": 9,
+    "matches": 5,
     "hatTricks": 1
    },
    {
@@ -237,8 +250,14 @@
    },
    {
     "name": "Mándi Ferenc",
-    "goals": 3,
-    "matches": 3,
+    "goals": 6,
+    "matches": 4,
+    "hatTricks": 1
+   },
+   {
+    "name": "Glück Péter",
+    "goals": 2,
+    "matches": 1,
     "hatTricks": 0
    },
    {
