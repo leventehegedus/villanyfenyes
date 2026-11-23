@@ -6,7 +6,7 @@ export function PageHeader({ title, picker = true, children }: { title: string; 
   return (
     <div className="flex flex-wrap items-end justify-between gap-3">
       <div>
-        <h1 className="font-heading text-2xl font-bold tracking-tight">{title}</h1>
+        <h1 className="font-heading text-3xl leading-none font-bold md:text-5xl">{title}</h1>
         {children}
       </div>
       {picker && <SeasonLeaguePicker />}
