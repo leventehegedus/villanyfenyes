@@ -2003,7 +2003,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
   },
   {
    "id": "57316",
@@ -2037,7 +2037,7 @@
      "teamId": "1537"
     }
    ],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
   },
   {
    "id": "56572",
@@ -2076,7 +2076,7 @@
      "teamId": "1530"
     }
    ],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
   },
   {
    "id": "57289",
@@ -2125,7 +2125,7 @@
      "teamId": "1530"
     }
    ],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
   },
   {
    "id": "57330",
@@ -2169,7 +2169,7 @@
      "teamId": "96"
     }
    ],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
   },
   {
    "id": "57319",
@@ -2182,7 +2182,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T03:02:19.592Z"
   },
   {
    "id": "x-55-L4D-202611231700-goats-fc-kozpenz-fc",
@@ -2424,7 +2424,7 @@
    "teamId": "1515",
    "bestLeague": "L4D",
    "topScorer": {
-    "name": "Scheibert Márton",
+    "name": "Makkos Gergely",
     "goals": 5
    },
    "seasonsCount": 2,

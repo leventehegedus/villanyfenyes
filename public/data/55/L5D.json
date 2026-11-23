@@ -1972,28 +1972,28 @@
    "scorers": [
     {
      "name": "Vigano Mario",
-     "goals": 2,
-     "teamId": "1560"
+     "teamId": "1560",
+     "goals": 2
     },
     {
      "name": "Páll Donát Domonkos",
-     "goals": 2,
-     "teamId": "1560"
+     "teamId": "1560",
+     "goals": 2
     },
     {
      "name": "Takács Ábel",
-     "goals": 1,
-     "teamId": "1560"
+     "teamId": "1560",
+     "goals": 1
     },
     {
      "name": "Bognár Milán",
-     "goals": 1,
-     "teamId": "1560"
+     "teamId": "1560",
+     "goals": 1
     },
     {
      "name": "B. Tóth Milan",
-     "goals": 1,
-     "teamId": "1560"
+     "teamId": "1560",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-23T01:43:16.053Z"
@@ -2024,18 +2024,18 @@
    "scorers": [
     {
      "name": "Bakos Balázs",
-     "goals": 2,
-     "teamId": "138"
+     "teamId": "138",
+     "goals": 2
     },
     {
      "name": "Zagyva Mátyás",
-     "goals": 1,
-     "teamId": "138"
+     "teamId": "138",
+     "goals": 1
     },
     {
      "name": "Juhász Gábor",
-     "goals": 1,
-     "teamId": "138"
+     "teamId": "138",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-23T01:43:16.053Z"
@@ -2364,7 +2364,7 @@
    "teamId": "1495",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Tóth Ábel Csongor",
+    "name": "Szücs Máté",
     "goals": 2
    },
    "seasonsCount": 3,
