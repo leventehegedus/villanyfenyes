@@ -105,7 +105,7 @@
     --win: oklch(0.5 0.13 152);
     --draw: oklch(0.55 0.02 258);
     --loss: oklch(0.55 0.19 27);
-    --seq: #2a78d6;
+    --seq: oklch(0.5 0.17 150);
     --medal-1: #c9a227;
     --medal-2: #8e98a3;
     --medal-3: #9a4f1f;
@@ -156,7 +156,7 @@
     --win: oklch(0.74 0.15 152);
     --draw: oklch(0.72 0.02 258);
     --loss: oklch(0.72 0.16 25);
-    --seq: #3987e5;
+    --seq: oklch(0.66 0.17 150);
     --medal-1: #d6aa2e;
     --medal-2: #8f9aa6;
     --medal-3: #b8642e;
