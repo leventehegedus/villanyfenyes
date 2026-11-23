@@ -69,16 +69,15 @@
   {
    "position": 1,
    "teamId": "1482",
-   "played": 8,
+   "played": 9,
    "won": 8,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 0,
-   "goalsFor": 38,
-   "goalsAgainst": 16,
+   "goalsFor": 43,
+   "goalsAgainst": 21,
    "goalDiff": 22,
-   "points": 24,
+   "points": 25,
    "markers": [
-    "winStreak",
     "fewConceded",
     "promotion"
    ]
@@ -120,14 +119,14 @@
   {
    "position": 4,
    "teamId": "1508",
-   "played": 7,
+   "played": 8,
    "won": 5,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 2,
-   "goalsFor": 45,
-   "goalsAgainst": 33,
+   "goalsFor": 50,
+   "goalsAgainst": 38,
    "goalDiff": 12,
-   "points": 15,
+   "points": 16,
    "markers": [
     "manyGoals"
    ]
@@ -1948,7 +1947,7 @@
      "teamId": "54"
     }
    ],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
   },
   {
    "id": "57017",
@@ -2031,7 +2030,7 @@
      "teamId": "54"
     }
    ],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
   },
   {
    "id": "57350",
@@ -2040,9 +2039,9 @@
    "awayTeamId": "1508",
    "kickoff": "2026-11-18T17:00:00.000Z",
    "venue": "Bogdánfy_1",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 5,
+   "awayGoals": 5,
+   "status": "played",
    "scorers": [
     {
      "name": "Pusztai Bertalan",
@@ -2068,9 +2067,29 @@
      "name": "Szőllősy Tamás",
      "goals": 1,
      "teamId": "1482"
+    },
+    {
+     "name": "Tóth Marcell",
+     "goals": 2,
+     "teamId": "1508"
+    },
+    {
+     "name": "Olgyay Benjámin",
+     "goals": 1,
+     "teamId": "1508"
+    },
+    {
+     "name": "Révész Levente",
+     "goals": 1,
+     "teamId": "1508"
+    },
+    {
+     "name": "Mocsári Zétény",
+     "goals": 1,
+     "teamId": "1508"
     }
    ],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
   },
   {
    "id": "57355",
@@ -2301,7 +2320,7 @@
     "goals": 5
    },
    "seasonsCount": 3,
-   "matchesPlayed": 8
+   "matchesPlayed": 9
   },
   {
    "teamId": "141",
@@ -2331,7 +2350,7 @@
     "goals": 7
    },
    "seasonsCount": 3,
-   "matchesPlayed": 7
+   "matchesPlayed": 8
   },
   {
    "teamId": "62",

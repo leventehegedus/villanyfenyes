@@ -1945,7 +1945,7 @@
      "teamId": "26"
     }
    ],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
   },
   {
    "id": "57220",
@@ -1992,7 +1992,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
   },
   {
    "id": "57324",
@@ -2031,7 +2031,7 @@
      "teamId": "26"
     }
    ],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
   },
   {
    "id": "57288",
@@ -2065,7 +2065,7 @@
      "teamId": "161"
     }
    ],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
   },
   {
    "id": "57627",
@@ -2080,43 +2080,43 @@
    "scorers": [
     {
      "name": "Nagy Márton",
-     "goals": 3,
-     "teamId": "60"
+     "teamId": "60",
+     "goals": 3
     },
     {
      "name": "Makai Kristóf",
-     "goals": 1,
-     "teamId": "60"
+     "teamId": "60",
+     "goals": 1
     },
     {
      "name": "Takács Máté",
-     "goals": 1,
-     "teamId": "60"
+     "teamId": "60",
+     "goals": 1
     },
     {
      "name": "Krányecz Csaba",
-     "goals": 1,
-     "teamId": "60"
+     "teamId": "60",
+     "goals": 1
     },
     {
      "name": "Pap Zsombor",
-     "goals": 2,
-     "teamId": "165"
+     "teamId": "165",
+     "goals": 2
     },
     {
      "name": "Krisztián Dávid",
-     "goals": 1,
-     "teamId": "165"
+     "teamId": "165",
+     "goals": 1
     },
     {
      "name": "Czakó Tamás László",
-     "goals": 1,
-     "teamId": "165"
+     "teamId": "165",
+     "goals": 1
     },
     {
      "name": "Németh Norbert",
-     "goals": 1,
-     "teamId": "165"
+     "teamId": "165",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-22T22:23:42.395Z"
@@ -2138,7 +2138,7 @@
      "teamId": "1480"
     }
    ],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
   },
   {
    "id": "x-55-L3A-202611231800-stabilizatorok-penisz-land",
@@ -2364,7 +2364,7 @@
    "teamId": "26",
    "bestLeague": "L2A",
    "topScorer": {
-    "name": "Dávid Bence",
+    "name": "Zsoldos Áron",
     "goals": 5
    },
    "seasonsCount": 9,
@@ -2414,7 +2414,7 @@
    "teamId": "198",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Stift Máté Kálmán",
+    "name": "Tihanyi Márton",
     "goals": 5
    },
    "seasonsCount": 11,

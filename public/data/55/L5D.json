@@ -1996,7 +1996,7 @@
      "teamId": "1560"
     }
    ],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
   },
   {
    "id": "57354",
@@ -2009,7 +2009,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
   },
   {
    "id": "57306",
@@ -2038,7 +2038,7 @@
      "teamId": "138"
     }
    ],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
   },
   {
    "id": "x-55-L5D-202611231900-gatya-fc-homarok-sc",
@@ -2364,7 +2364,7 @@
    "teamId": "1495",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Erdős Péter Zsombot",
+    "name": "Tóth Ábel Csongor",
     "goals": 2
    },
    "seasonsCount": 3,

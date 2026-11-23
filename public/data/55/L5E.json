@@ -1854,7 +1854,7 @@
      "teamId": "1571"
     }
    ],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
   },
   {
    "id": "57336",
@@ -1878,7 +1878,7 @@
      "teamId": "1486"
     }
    ],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
   },
   {
    "id": "57317",
@@ -1891,7 +1891,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
   },
   {
    "id": "57343",
@@ -1930,7 +1930,7 @@
      "teamId": "193"
     }
    ],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
   },
   {
    "id": "56764",
@@ -1959,7 +1959,7 @@
      "teamId": "21"
     }
    ],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
   },
   {
    "id": "x-55-L5E-202611231900-megnemveszithetek-team-5",
@@ -2201,7 +2201,7 @@
    "teamId": "1486",
    "bestLeague": "L5B",
    "topScorer": {
-    "name": "Farkas Zsombor",
+    "name": "Juth Benedek",
     "goals": 6
    },
    "seasonsCount": 3,
@@ -2241,7 +2241,7 @@
    "teamId": "1571",
    "bestLeague": "L5E",
    "topScorer": {
-    "name": "Németh Keve Marcell",
+    "name": "Benczik-Hrncsár Áron",
     "goals": 2
    },
    "seasonsCount": 1,

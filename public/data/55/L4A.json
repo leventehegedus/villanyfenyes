@@ -2005,7 +2005,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
   },
   {
    "id": "57323",
@@ -2265,7 +2265,7 @@
    "teamId": "126",
    "bestLeague": "L2B",
    "topScorer": {
-    "name": "Ádám Zsuga",
+    "name": "Himics Dávid",
     "goals": 6
    },
    "seasonsCount": 10,
@@ -2305,7 +2305,7 @@
    "teamId": "36",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Sziráki Tamás",
+    "name": "Fazakas Csaba",
     "goals": 5
    },
    "seasonsCount": 5,
@@ -2315,7 +2315,7 @@
    "teamId": "1471",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Szabó Tamás",
+    "name": "Daróczi Péter",
     "goals": 3
    },
    "seasonsCount": 4,
@@ -2365,7 +2365,7 @@
    "teamId": "34",
    "bestLeague": "L2B",
    "topScorer": {
-    "name": "Farkas Márton",
+    "name": "Rajnai Gábor",
     "goals": 5
    },
    "seasonsCount": 13,

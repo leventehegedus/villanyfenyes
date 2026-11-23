@@ -14,13 +14,13 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 5,
-    "drawn": 0,
+    "drawn": 1,
     "lost": 2,
-    "goalsFor": 45,
-    "goalsAgainst": 33,
-    "points": 15
+    "goalsFor": 50,
+    "goalsAgainst": 38,
+    "points": 16
    }
   }
  ],
@@ -114,6 +114,19 @@
     "goalsFor": 5,
     "goalsAgainst": 3,
     "points": 3
+   }
+  },
+  {
+   "teamId": "1482",
+   "name": "Felizgatott Makarónik",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 5,
+    "points": 1
    }
   }
  ],
@@ -214,13 +227,13 @@
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 7,
-  "coveredMatches": 7,
+  "playedMatches": 8,
+  "coveredMatches": 8,
   "rows": [
    {
     "name": "Olgyay Benjámin",
-    "goals": 21,
-    "matches": 7,
+    "goals": 22,
+    "matches": 8,
     "hatTricks": 4
    },
    {
@@ -230,14 +243,20 @@
     "hatTricks": 1
    },
    {
+    "name": "Tóth Marcell",
+    "goals": 6,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
     "name": "Révész Levente",
-    "goals": 4,
-    "matches": 2,
+    "goals": 5,
+    "matches": 3,
     "hatTricks": 1
    },
    {
-    "name": "Tóth Marcell",
-    "goals": 4,
+    "name": "Mocsári Zétény",
+    "goals": 3,
     "matches": 3,
     "hatTricks": 0
    },
@@ -245,12 +264,6 @@
     "name": "Olgyay Barnabás",
     "goals": 3,
     "matches": 3,
-    "hatTricks": 0
-   },
-   {
-    "name": "Mocsári Zétény",
-    "goals": 2,
-    "matches": 2,
     "hatTricks": 0
    },
    {

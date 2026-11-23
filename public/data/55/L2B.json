@@ -2026,7 +2026,7 @@
      "teamId": "220"
     }
    ],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
   },
   {
    "id": "57313",
@@ -2109,7 +2109,7 @@
      "teamId": "29"
     }
    ],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
   },
   {
    "id": "57320",
@@ -2211,7 +2211,7 @@
      "teamId": "154"
     }
    ],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
   },
   {
    "id": "57353",
@@ -2224,7 +2224,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-23T01:43:16.053Z"
   },
   {
    "id": "x-55-L2B-202611231700-balldogs-jo-loves-bedobas",
@@ -2437,7 +2437,7 @@
    "teamId": "116",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Luk Féreg",
+    "name": "Pusztai Bertalan",
     "goals": 6
    },
    "seasonsCount": 9,
@@ -2507,7 +2507,7 @@
    "teamId": "220",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Bertold Pék",
+    "name": "Dudás Zoltán",
     "goals": 5
    },
    "seasonsCount": 16,
