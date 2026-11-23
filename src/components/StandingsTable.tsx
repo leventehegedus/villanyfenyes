@@ -112,8 +112,8 @@ export function StandingsTable({ rows, matches, teamName, keep, sort, onSort, hi
                 key={r.teamId}
                 style={{ '--row-base': base } as CSSProperties}
                 className={cn(
-                  'bg-(--row-bg) [--row-bg:var(--row-base)] hover:bg-(--row-bg) hover:[--row-bg:color-mix(in_oklab,var(--foreground)_8%,var(--row-base))]',
-                  cutoff && 'border-b-2 border-b-foreground/30',
+                  'bg-(--row-bg) transition-none [--row-bg:var(--row-base)] hover:bg-(--row-bg) hover:[--row-bg:color-mix(in_oklab,var(--foreground)_8%,var(--row-base))]',
+                  cutoff && 'border-b-foreground/45',
                   mine && 'font-semibold',
                 )}
                 aria-current={mine || undefined}
@@ -125,7 +125,10 @@ export function StandingsTable({ rows, matches, teamName, keep, sort, onSort, hi
                       <Link to={`/t/${encodeURIComponent(r.teamId)}${keep}`} className="block truncate hover:underline">
                         {name}
                       </Link>
-                      <Markers markers={r.markers} />
+                      {/* Fixed-height slot so rows with and without markers line up. */}
+                      <div className="flex h-5 items-center">
+                        <Markers markers={r.markers} />
+                      </div>
                     </div>
                   </div>
                 </TableCell>
