@@ -5,6 +5,7 @@ import { formatDay, formatKickoffShort } from '@/lib/format'
 import { groupByWeek, weekStart } from '@/lib/schedule'
 import type { Match } from '@/lib/schema'
 import { isPlayed } from '@/lib/standings'
+import { STRIPED_LIST } from '@/components/row-style'
 import { cn } from '@/lib/utils'
 
 type RowProps = { match: Match; teamName: (id: string) => string; keep: string; now: Date }
@@ -72,7 +73,7 @@ export function MatchList({
           <h3 className="mb-1 px-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
             {g.week ? t('weekOf', { date: formatDay(`${g.week}T12:00:00Z`, prefs.locale, 'UTC') }) : t('noKickoff')}
           </h3>
-          <ul className="divide-y divide-border/60">
+          <ul className={cn('divide-y divide-border/60', STRIPED_LIST)}>
             {(newestFirst ? [...g.matches].reverse() : g.matches).map((m) => (
               <MatchRow key={m.id} match={m} teamName={teamName} keep={keep} now={now} />
             ))}
