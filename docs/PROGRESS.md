@@ -54,3 +54,7 @@ Statisztika: the "Esélyek" tab is merged into "Mi lenne, ha · esélyek". The p
 ## Restyle: Sporta-inspired look (branch `design/sporta`)
 
 Visual language taken from sporta.framer.ai: Clash Display (self-hosted woff2 in `src/assets/fonts`, Fontshare ITF Free Font License, Hungarian glyphs checked) set in caps for `font-heading`, Geist body; black/white base, `#F5F5F5`-style cards without ring, mint accent with green text, cream footer (`--cream`), `--radius: 0`; dark theme derived (near-black green, mint accent). Black sticky header with white active tab, floating dark bottom nav on mobile, larger page titles. Done on tokens and primitives only (`index.css`, `button`, `badge`, `card`, `Layout`, `PageHeader`); no page-level changes, no photography. Checked in the browser: desktop light, mobile dark. Next: review on the remaining pages, decide whether to merge.
+
+## 2026-11-24 scorers table styling (done)
+
+Scorers list rows use the standings colouring: gold, silver, bronze for ranks 1-3 (ties share the colour), then alternating stripes, full-row hover. Shared in `src/components/row-style.ts`. The scorer-coverage note above the list was removed (key `scorersCoverage` dropped). Checked in the browser: desktop dark, mobile light.

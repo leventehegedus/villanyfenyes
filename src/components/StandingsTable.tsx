@@ -3,6 +3,7 @@ import type { CSSProperties } from 'react'
 import { Link } from 'react-router'
 import { ArrowDownUp } from 'lucide-react'
 import { FormStrip } from '@/components/FormStrip'
+import { ROW_CLASS, rowBase } from '@/components/row-style'
 import { Markers } from '@/components/Markers'
 import { TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table'
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip'
@@ -41,8 +42,6 @@ type Props = {
 
 const signed = (n: number) => (n > 0 ? `+${n}` : String(n))
 
-const MEDAL_BG = ['--medal-1', '--medal-2', '--medal-3'].map((v) => `color-mix(in oklab, var(${v}) 16%, var(--card))`)
-const STRIPE_BG = 'color-mix(in oklab, var(--foreground) 2.5%, var(--card))'
 const isRelegated = (r: StandingRow | undefined) => r?.markers.includes('relegation') ?? false
 
 export function StandingsTable({ rows, matches, teamName, keep, sort, onSort, highlight }: Props) {
@@ -102,7 +101,7 @@ export function StandingsTable({ rows, matches, teamName, keep, sort, onSort, hi
           {sorted.map((r, i) => {
             const name = teamName(r.teamId)
             const mine = highlight?.includes(r.teamId) ?? false
-            const base = mine ? 'var(--muted)' : (MEDAL_BG[r.position - 1] ?? (i % 2 === 1 ? STRIPE_BG : 'var(--card)'))
+            const base = mine ? 'var(--muted)' : rowBase(r.position, i)
             // Last safe row before the relegation zone; only meaningful in table order.
             const cutoff = key === 'position' && !isRelegated(r) && isRelegated(sorted[i + 1])
             // Sticky cells need their own opaque background, so the row colour (and its hover) lives in --row-bg.
@@ -112,7 +111,7 @@ export function StandingsTable({ rows, matches, teamName, keep, sort, onSort, hi
                 key={r.teamId}
                 style={{ '--row-base': base } as CSSProperties}
                 className={cn(
-                  'bg-(--row-bg) transition-none [--row-bg:var(--row-base)] hover:bg-(--row-bg) hover:[--row-bg:color-mix(in_oklab,var(--foreground)_8%,var(--row-base))]',
+                  ROW_CLASS,
                   cutoff && 'border-b-foreground/45',
                   mine && 'font-semibold',
                 )}
