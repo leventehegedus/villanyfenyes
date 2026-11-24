@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": "relegation",
    "totals": {
-    "played": 6,
+    "played": 7,
     "won": 1,
     "drawn": 0,
-    "lost": 5,
-    "goalsFor": 33,
-    "goalsAgainst": 46,
+    "lost": 6,
+    "goalsFor": 35,
+    "goalsAgainst": 49,
     "points": 3
    }
   }
@@ -102,6 +102,19 @@
     "goalsAgainst": 9,
     "points": 0
    }
+  },
+  {
+   "teamId": "18",
+   "name": "Stabilizátorok",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 3,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -177,7 +190,7 @@
    }
   },
   "loss": {
-   "length": 3,
+   "length": 4,
    "from": {
     "seasonId": 55,
     "league": "L3A",
@@ -190,19 +203,19 @@
    "to": {
     "seasonId": 55,
     "league": "L3A",
-    "matchId": "57263",
-    "kickoff": "2026-11-10T17:00:00.000Z",
-    "opponentId": "95",
-    "goalsFor": 7,
-    "goalsAgainst": 9
+    "matchId": "48370",
+    "kickoff": "2026-11-23T18:00:00.000Z",
+    "opponentId": "18",
+    "goalsFor": 2,
+    "goalsAgainst": 3
    }
   }
  },
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 6,
-  "coveredMatches": 6,
+  "playedMatches": 7,
+  "coveredMatches": 7,
   "rows": [
    {
     "name": "Szabó György Luis",

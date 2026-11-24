@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L5E",
    "finished": false,
-   "position": 8,
+   "position": 6,
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 7,
-    "won": 2,
+    "played": 8,
+    "won": 3,
     "drawn": 2,
     "lost": 3,
-    "goalsFor": 34,
-    "goalsAgainst": 43,
-    "points": 8
+    "goalsFor": 38,
+    "goalsAgainst": 45,
+    "points": 11
    }
   }
  ],
@@ -115,6 +115,19 @@
     "goalsAgainst": 5,
     "points": 1
    }
+  },
+  {
+   "teamId": "1571",
+   "name": "FÉK FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 2,
+    "points": 3
+   }
   }
  ],
  "records": {
@@ -152,20 +165,20 @@
    "from": {
     "seasonId": 55,
     "league": "L5E",
-    "matchId": "56860",
-    "kickoff": "2026-09-28T18:00:00.000Z",
-    "opponentId": "63",
+    "matchId": "56764",
+    "kickoff": "2026-11-20T17:00:00.000Z",
+    "opponentId": "1571",
     "goalsFor": 4,
-    "goalsAgainst": 1
+    "goalsAgainst": 2
    },
    "to": {
     "seasonId": 55,
     "league": "L5E",
-    "matchId": "56860",
-    "kickoff": "2026-09-28T18:00:00.000Z",
-    "opponentId": "63",
+    "matchId": "56764",
+    "kickoff": "2026-11-20T17:00:00.000Z",
+    "opponentId": "1571",
     "goalsFor": 4,
-    "goalsAgainst": 1
+    "goalsAgainst": 2
    }
   },
   "unbeaten": {
@@ -173,20 +186,20 @@
    "from": {
     "seasonId": 55,
     "league": "L5E",
-    "matchId": "57349",
-    "kickoff": "2026-09-01T16:00:00.000Z",
-    "opponentId": "171",
-    "goalsFor": 3,
-    "goalsAgainst": 3
+    "matchId": "57177",
+    "kickoff": "2026-11-05T18:00:00.000Z",
+    "opponentId": "193",
+    "goalsFor": 5,
+    "goalsAgainst": 5
    },
    "to": {
     "seasonId": 55,
     "league": "L5E",
-    "matchId": "56712",
-    "kickoff": "2026-09-14T18:00:00.000Z",
-    "opponentId": "1536",
-    "goalsFor": 6,
-    "goalsAgainst": 4
+    "matchId": "56764",
+    "kickoff": "2026-11-20T17:00:00.000Z",
+    "opponentId": "1571",
+    "goalsFor": 4,
+    "goalsAgainst": 2
    }
   },
   "loss": {
@@ -214,9 +227,15 @@
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 7,
-  "coveredMatches": 7,
+  "playedMatches": 8,
+  "coveredMatches": 8,
   "rows": [
+   {
+    "name": "Veréb Balázs",
+    "goals": 9,
+    "matches": 4,
+    "hatTricks": 2
+   },
    {
     "name": "Gedeon András",
     "goals": 8,
@@ -230,12 +249,6 @@
     "hatTricks": 0
    },
    {
-    "name": "Veréb Balázs",
-    "goals": 6,
-    "matches": 3,
-    "hatTricks": 1
-   },
-   {
     "name": "Oravecz Fábián",
     "goals": 3,
     "matches": 2,
@@ -243,8 +256,8 @@
    },
    {
     "name": "Pákozdi Máté Márk",
-    "goals": 2,
-    "matches": 2,
+    "goals": 3,
+    "matches": 3,
     "hatTricks": 0
    },
    {

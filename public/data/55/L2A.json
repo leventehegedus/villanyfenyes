@@ -171,9 +171,7 @@
    "goalsAgainst": 38,
    "goalDiff": 6,
    "points": 10,
-   "markers": [
-    "manyGoals"
-   ]
+   "markers": []
   },
   {
    "position": 8,
@@ -1870,7 +1868,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57342",
@@ -1909,7 +1907,7 @@
      "teamId": "170"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57300",
@@ -1948,7 +1946,7 @@
      "teamId": "38"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57332",
@@ -1961,7 +1959,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57318",
@@ -2049,7 +2047,7 @@
      "teamId": "45"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57380",
@@ -2108,46 +2106,46 @@
      "teamId": "170"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
-   "id": "x-55-L2A-202611241700-absinthe-fc-leverpool",
-   "siteId": null,
+   "id": "57411",
+   "siteId": 57411,
    "homeTeamId": "109",
    "awayTeamId": "136",
    "kickoff": "2026-11-24T17:00:00.000Z",
    "venue": "Bogdánfy_2",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
-   "id": "x-55-L2A-202611242000-cs-tanszek-inteam-cf",
-   "siteId": null,
+   "id": "57386",
+   "siteId": 57386,
    "homeTeamId": "23",
    "awayTeamId": "139",
    "kickoff": "2026-11-24T20:00:00.000Z",
    "venue": "Bogdánfy_2",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
-   "id": "x-55-L2A-202611242000-botladozo-fiuk-al-dubai",
-   "siteId": null,
+   "id": "57372",
+   "siteId": 57372,
    "homeTeamId": "115",
    "awayTeamId": "188",
    "kickoff": "2026-11-24T20:00:00.000Z",
    "venue": "Bogdánfy_3",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "x-55-L2A-202611301900-national-sechs-al-dubai",
@@ -2394,7 +2392,7 @@
    "teamId": "115",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Koch Bernát",
+    "name": "Tüttő Olivér",
     "goals": 4
    },
    "seasonsCount": 8,

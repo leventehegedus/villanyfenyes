@@ -2190,7 +2190,7 @@
      "teamId": "85"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57304",
@@ -2286,30 +2286,46 @@
    "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
-   "id": "x-55-L3D-202611241700-basket-case-energ-team",
-   "siteId": null,
+   "id": "57424",
+   "siteId": 57424,
    "homeTeamId": "104",
    "awayTeamId": "1489",
    "kickoff": "2026-11-24T17:00:00.000Z",
    "venue": "Bogdánfy_3",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [
+    {
+     "name": "Kiss László Bende",
+     "goals": 3,
+     "teamId": "1489"
+    },
+    {
+     "name": "Bús Bertalan Patrik",
+     "goals": 2,
+     "teamId": "1489"
+    },
+    {
+     "name": "Horváth Máté",
+     "goals": 1,
+     "teamId": "1489"
+    }
+   ],
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
-   "id": "x-55-L3D-202611241900-alacsony-elvarasok-elo-ige",
-   "siteId": null,
+   "id": "57404",
+   "siteId": 57404,
    "homeTeamId": "194",
    "awayTeamId": "1511",
    "kickoff": "2026-11-24T19:00:00.000Z",
    "venue": "Bogdánfy_3",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "x-55-L3D-202611261900-huslovagok-afst",
@@ -2549,7 +2565,7 @@
    "teamId": "39",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Tóth Ádám",
+    "name": "Frcska Döme Ákos",
     "goals": 5
    },
    "seasonsCount": 10,

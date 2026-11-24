@@ -14,13 +14,13 @@
    "teamsInLeague": 12,
    "marker": "promotion",
    "totals": {
-    "played": 7,
-    "won": 7,
+    "played": 8,
+    "won": 8,
     "drawn": 0,
     "lost": 0,
-    "goalsFor": 59,
-    "goalsAgainst": 16,
-    "points": 21
+    "goalsFor": 67,
+    "goalsAgainst": 18,
+    "points": 24
    }
   }
  ],
@@ -115,6 +115,19 @@
     "goalsAgainst": 2,
     "points": 3
    }
+  },
+  {
+   "teamId": "1518",
+   "name": "Oso Academy",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 2,
+    "points": 3
+   }
   }
  ],
  "records": {
@@ -140,7 +153,7 @@
  },
  "streaks": {
   "win": {
-   "length": 7,
+   "length": 8,
    "from": {
     "seasonId": 55,
     "league": "L5G",
@@ -153,15 +166,15 @@
    "to": {
     "seasonId": 55,
     "league": "L5G",
-    "matchId": "57543",
-    "kickoff": "2026-11-13T18:00:00.000Z",
-    "opponentId": "1469",
-    "goalsFor": 3,
+    "matchId": "57415",
+    "kickoff": "2026-11-23T20:00:00.000Z",
+    "opponentId": "1518",
+    "goalsFor": 8,
     "goalsAgainst": 2
    }
   },
   "unbeaten": {
-   "length": 7,
+   "length": 8,
    "from": {
     "seasonId": 55,
     "league": "L5G",
@@ -174,10 +187,10 @@
    "to": {
     "seasonId": 55,
     "league": "L5G",
-    "matchId": "57543",
-    "kickoff": "2026-11-13T18:00:00.000Z",
-    "opponentId": "1469",
-    "goalsFor": 3,
+    "matchId": "57415",
+    "kickoff": "2026-11-23T20:00:00.000Z",
+    "opponentId": "1518",
+    "goalsFor": 8,
     "goalsAgainst": 2
    }
   },
@@ -186,14 +199,14 @@
  "cleanSheets": 1,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 7,
-  "coveredMatches": 7,
+  "playedMatches": 8,
+  "coveredMatches": 8,
   "rows": [
    {
     "name": "Unyi Dániel",
-    "goals": 22,
-    "matches": 7,
-    "hatTricks": 4
+    "goals": 26,
+    "matches": 8,
+    "hatTricks": 5
    },
    {
     "name": "Böröcz Bence",
@@ -214,25 +227,31 @@
     "hatTricks": 1
    },
    {
+    "name": "Gajzágó Márk",
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
     "name": "Fuszonecker Tamás",
     "goals": 3,
     "matches": 2,
     "hatTricks": 0
    },
    {
-    "name": "Gajzágó Márk",
-    "goals": 2,
-    "matches": 2,
-    "hatTricks": 0
-   },
-   {
     "name": "Horváth Dominik",
-    "goals": 2,
-    "matches": 2,
+    "goals": 3,
+    "matches": 3,
     "hatTricks": 0
    },
    {
     "name": "Frank Ádám",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szemán Balázs",
     "goals": 1,
     "matches": 1,
     "hatTricks": 0

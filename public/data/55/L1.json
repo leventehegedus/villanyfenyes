@@ -127,8 +127,7 @@
    "goalDiff": 8,
    "points": 15,
    "markers": [
-    "winStreak",
-    "manyGoals"
+    "winStreak"
    ]
   },
   {
@@ -2115,7 +2114,7 @@
      "teamId": "199"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "48352",
@@ -2134,7 +2133,7 @@
      "teamId": "166"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "48353",
@@ -2357,7 +2356,7 @@
    "teamId": "142",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Bencze Mártom",
+    "name": "Andorka Kristóf",
     "goals": 4
    },
    "seasonsCount": 8,
@@ -2427,7 +2426,7 @@
    "teamId": "149",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Szabó Koppány",
+    "name": "Markó Péter Dániel",
     "goals": 5
    },
    "seasonsCount": 9,

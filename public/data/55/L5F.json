@@ -146,32 +146,30 @@
   {
    "position": 6,
    "teamId": "55",
-   "played": 7,
+   "played": 8,
    "won": 3,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 4,
-   "goalsFor": 27,
-   "goalsAgainst": 26,
+   "goalsFor": 30,
+   "goalsAgainst": 29,
    "goalDiff": 1,
-   "points": 9,
+   "points": 10,
    "markers": [
-    "winStreak",
     "fewConceded"
    ]
   },
   {
    "position": 7,
    "teamId": "89",
-   "played": 4,
+   "played": 5,
    "won": 3,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 1,
-   "goalsFor": 18,
-   "goalsAgainst": 19,
+   "goalsFor": 21,
+   "goalsAgainst": 22,
    "goalDiff": -1,
-   "points": 9,
+   "points": 10,
    "markers": [
-    "winStreak",
     "fewConceded"
    ]
   },
@@ -1434,7 +1432,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57282",
@@ -1447,7 +1445,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57227",
@@ -1486,7 +1484,7 @@
      "teamId": "1568"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57312",
@@ -1499,7 +1497,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57308",
@@ -1512,7 +1510,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57287",
@@ -1521,9 +1519,9 @@
    "awayTeamId": "89",
    "kickoff": "2026-11-19T20:00:00.000Z",
    "venue": "Bogdánfy_4",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "status": "played",
    "scorers": [
     {
      "name": "Fábián Hunor",
@@ -1539,9 +1537,19 @@
      "name": "Dániel Jaczkó",
      "goals": 1,
      "teamId": "55"
+    },
+    {
+     "name": "Holló Balázs",
+     "goals": 2,
+     "teamId": "89"
+    },
+    {
+     "name": "Lipcsey Levente",
+     "goals": 1,
+     "teamId": "89"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57356",
@@ -1554,7 +1562,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57377",
@@ -1569,49 +1577,49 @@
    "scorers": [
     {
      "name": "Rátkai Ádám",
-     "goals": 2,
-     "teamId": "99"
+     "teamId": "99",
+     "goals": 2
     },
     {
      "name": "Döbrönte Zoltán",
-     "goals": 2,
-     "teamId": "99"
+     "teamId": "99",
+     "goals": 2
     },
     {
      "name": "Szép Arnold",
-     "goals": 1,
-     "teamId": "99"
+     "teamId": "99",
+     "goals": 1
     },
     {
      "name": "Kőszegi Gábor",
-     "goals": 1,
-     "teamId": "99"
+     "teamId": "99",
+     "goals": 1
     },
     {
      "name": "Vichnalek Dávid",
-     "goals": 2,
-     "teamId": "1568"
+     "teamId": "1568",
+     "goals": 2
     },
     {
      "name": "Ispánki Máté Márk",
-     "goals": 1,
-     "teamId": "1568"
+     "teamId": "1568",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
-   "id": "x-55-L5F-202611242100-john-pork-s-eleven-kecsap",
-   "siteId": null,
+   "id": "56528",
+   "siteId": 56528,
    "homeTeamId": "1527",
    "awayTeamId": "1549",
    "kickoff": "2026-11-24T21:00:00.000Z",
    "venue": "Bogdánfy_1",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "x-55-L5F-202611251900-droidhadsereg-fontolva-harapok",
@@ -1837,7 +1845,7 @@
    "teamId": "1552",
    "bestLeague": "L5F",
    "topScorer": {
-    "name": "Kocsis Mátyás",
+    "name": "Varga Bálint",
     "goals": 4
    },
    "seasonsCount": 1,
@@ -1881,7 +1889,7 @@
     "goals": 5
    },
    "seasonsCount": 10,
-   "matchesPlayed": 7
+   "matchesPlayed": 8
   },
   {
    "teamId": "89",
@@ -1891,7 +1899,7 @@
     "goals": 6
    },
    "seasonsCount": 23,
-   "matchesPlayed": 4
+   "matchesPlayed": 5
   },
   {
    "teamId": "1568",

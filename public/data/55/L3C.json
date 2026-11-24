@@ -155,9 +155,7 @@
    "goalsAgainst": 51,
    "goalDiff": -7,
    "points": 10,
-   "markers": [
-    "manyGoals"
-   ]
+   "markers": []
   },
   {
    "position": 7,
@@ -1820,7 +1818,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57656",
@@ -1869,7 +1867,7 @@
      "teamId": "219"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57325",
@@ -1898,7 +1896,7 @@
      "teamId": "230"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57296",
@@ -1952,28 +1950,28 @@
    "scorers": [
     {
      "name": "Dr. Lukács Dávid",
-     "goals": 2,
-     "teamId": "41"
+     "teamId": "41",
+     "goals": 2
     },
     {
      "name": "Szabó Ákos Márton",
-     "goals": 2,
-     "teamId": "41"
+     "teamId": "41",
+     "goals": 2
     },
     {
      "name": "Ferincz Ákos",
-     "goals": 1,
-     "teamId": "41"
+     "teamId": "41",
+     "goals": 1
     },
     {
      "name": "Kovács Dorián",
-     "goals": 1,
-     "teamId": "77"
+     "teamId": "77",
+     "goals": 1
     },
     {
      "name": "Bagyinszki Dániel",
-     "goals": 1,
-     "teamId": "77"
+     "teamId": "77",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T13:43:15.877Z"
@@ -2005,33 +2003,33 @@
      "teamId": "219"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
-   "id": "x-55-L3C-202611241800-sonkastojas-troger-fc",
-   "siteId": null,
+   "id": "57403",
+   "siteId": 57403,
    "homeTeamId": "41",
    "awayTeamId": "1496",
    "kickoff": "2026-11-24T18:00:00.000Z",
    "venue": "Bogdánfy_1",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
-   "id": "x-55-L3C-202611241800-crooks-szupermegaistencsaszaruber",
-   "siteId": null,
+   "id": "57383",
+   "siteId": 57383,
    "homeTeamId": "133",
    "awayTeamId": "202",
    "kickoff": "2026-11-24T18:00:00.000Z",
    "venue": "Bogdánfy_2",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "x-55-L3C-202611261700-kozhely-fc-ejakulazio",

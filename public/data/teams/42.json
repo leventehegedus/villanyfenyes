@@ -14,13 +14,13 @@
    "teamsInLeague": 12,
    "marker": "promotion",
    "totals": {
-    "played": 9,
-    "won": 7,
+    "played": 10,
+    "won": 8,
     "drawn": 1,
     "lost": 1,
-    "goalsFor": 64,
-    "goalsAgainst": 37,
-    "points": 22
+    "goalsFor": 71,
+    "goalsAgainst": 39,
+    "points": 25
    }
   }
  ],
@@ -141,6 +141,19 @@
     "goalsAgainst": 5,
     "points": 3
    }
+  },
+  {
+   "teamId": "209",
+   "name": "FC SÖR",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 2,
+    "points": 3
+   }
   }
  ],
  "records": {
@@ -174,7 +187,7 @@
  },
  "streaks": {
   "win": {
-   "length": 4,
+   "length": 5,
    "from": {
     "seasonId": 55,
     "league": "L5A",
@@ -187,15 +200,15 @@
    "to": {
     "seasonId": 55,
     "league": "L5A",
-    "matchId": "57281",
-    "kickoff": "2026-11-09T17:00:00.000Z",
-    "opponentId": "44",
-    "goalsFor": 6,
-    "goalsAgainst": 5
+    "matchId": "57648",
+    "kickoff": "2026-11-23T20:00:00.000Z",
+    "opponentId": "209",
+    "goalsFor": 7,
+    "goalsAgainst": 2
    }
   },
   "unbeaten": {
-   "length": 7,
+   "length": 8,
    "from": {
     "seasonId": 55,
     "league": "L5A",
@@ -208,11 +221,11 @@
    "to": {
     "seasonId": 55,
     "league": "L5A",
-    "matchId": "57281",
-    "kickoff": "2026-11-09T17:00:00.000Z",
-    "opponentId": "44",
-    "goalsFor": 6,
-    "goalsAgainst": 5
+    "matchId": "57648",
+    "kickoff": "2026-11-23T20:00:00.000Z",
+    "opponentId": "209",
+    "goalsFor": 7,
+    "goalsAgainst": 2
    }
   },
   "loss": {
@@ -240,25 +253,25 @@
  "cleanSheets": 1,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 9,
-  "coveredMatches": 9,
+  "playedMatches": 10,
+  "coveredMatches": 10,
   "rows": [
    {
     "name": "Takács Ábel",
-    "goals": 25,
-    "matches": 8,
-    "hatTricks": 7
+    "goals": 29,
+    "matches": 9,
+    "hatTricks": 8
    },
    {
     "name": "Tordasi Bálint",
-    "goals": 14,
-    "matches": 5,
+    "goals": 15,
+    "matches": 6,
     "hatTricks": 3
    },
    {
     "name": "Lenner András",
-    "goals": 8,
-    "matches": 5,
+    "goals": 10,
+    "matches": 6,
     "hatTricks": 0
    },
    {

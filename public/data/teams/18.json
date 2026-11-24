@@ -14,13 +14,13 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 9,
-    "won": 3,
+    "played": 10,
+    "won": 4,
     "drawn": 1,
     "lost": 5,
-    "goalsFor": 44,
-    "goalsAgainst": 41,
-    "points": 10
+    "goalsFor": 47,
+    "goalsAgainst": 43,
+    "points": 13
    }
   },
   {
@@ -644,6 +644,19 @@
     "goalsAgainst": 7,
     "points": 0
    }
+  },
+  {
+   "teamId": "208",
+   "name": "PÉNISZ LAND",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 2,
+    "points": 3
+   }
   }
  ],
  "records": {
@@ -743,8 +756,8 @@
  "cleanSheets": 0,
  "failedToScore": 1,
  "scorers": {
-  "playedMatches": 83,
-  "coveredMatches": 83,
+  "playedMatches": 84,
+  "coveredMatches": 84,
   "rows": [
    {
     "name": "Lehoczki Patrik",

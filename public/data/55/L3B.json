@@ -1915,7 +1915,7 @@
      "teamId": "43"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57283",
@@ -2003,7 +2003,7 @@
      "teamId": "72"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57311",
@@ -2066,7 +2066,7 @@
      "teamId": "27"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "56640",
@@ -2120,7 +2120,7 @@
      "teamId": "146"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57328",
@@ -2139,7 +2139,7 @@
      "teamId": "98"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57357",
@@ -2154,43 +2154,43 @@
    "scorers": [
     {
      "name": "Lengyel Attila",
-     "goals": 2,
-     "teamId": "72"
+     "teamId": "72",
+     "goals": 2
     },
     {
      "name": "Schütz Máté",
-     "goals": 1,
-     "teamId": "72"
+     "teamId": "72",
+     "goals": 1
     },
     {
      "name": "Stirling Balázs",
-     "goals": 1,
-     "teamId": "72"
+     "teamId": "72",
+     "goals": 1
     },
     {
      "name": "Balázs Ádám Makk",
-     "goals": 1,
-     "teamId": "72"
+     "teamId": "72",
+     "goals": 1
     },
     {
      "name": "Mándi Ferenc",
-     "goals": 3,
-     "teamId": "146"
+     "teamId": "146",
+     "goals": 3
     },
     {
      "name": "Alács Mihály",
-     "goals": 2,
-     "teamId": "146"
+     "teamId": "146",
+     "goals": 2
     },
     {
      "name": "Glück Péter",
-     "goals": 2,
-     "teamId": "146"
+     "teamId": "146",
+     "goals": 2
     },
     {
      "name": "Szikszay András Viktor",
-     "goals": 1,
-     "teamId": "146"
+     "teamId": "146",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T13:43:15.877Z"
@@ -2205,21 +2205,37 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "scorers": [
+    {
+     "name": "Veres András",
+     "goals": 3,
+     "teamId": "233"
+    },
+    {
+     "name": "Kovács Dorián",
+     "goals": 2,
+     "teamId": "233"
+    },
+    {
+     "name": "Bagyinszki Dániel",
+     "goals": 1,
+     "teamId": "233"
+    }
+   ],
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
-   "id": "x-55-L3B-202611241700-fe-c-fc-calcio-budarossa",
-   "siteId": null,
+   "id": "57389",
+   "siteId": 57389,
    "homeTeamId": "43",
    "awayTeamId": "98",
    "kickoff": "2026-11-24T17:00:00.000Z",
    "venue": "Bogdánfy_4",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "x-55-L3B-202611251700-vizes-zsomle-budai-bombazok",

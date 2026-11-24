@@ -144,8 +144,7 @@
    "goalDiff": -7,
    "points": 15,
    "markers": [
-    "lossStreak",
-    "manyGoals"
+    "lossStreak"
    ]
   },
   {
@@ -1815,7 +1814,7 @@
      "teamId": "1556"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57331",
@@ -1844,7 +1843,7 @@
      "teamId": "232"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57298",
@@ -1878,7 +1877,7 @@
      "teamId": "1566"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57327",
@@ -1927,7 +1926,7 @@
      "teamId": "1556"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57310",
@@ -1940,20 +1939,20 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
-   "id": "x-55-L5H-202611242000-busquets-serege-rosario-juniors",
-   "siteId": null,
+   "id": "57358",
+   "siteId": 57358,
    "homeTeamId": "1566",
    "awayTeamId": "1577",
    "kickoff": "2026-11-24T20:00:00.000Z",
    "venue": "Bogdánfy_4",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "x-55-L5H-202611251700-futball-pistak-szamaras-se",

@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 0,
     "drawn": 2,
-    "lost": 5,
-    "goalsFor": 22,
-    "goalsAgainst": 31,
+    "lost": 6,
+    "goalsFor": 24,
+    "goalsAgainst": 38,
     "points": 2
    }
   }
@@ -115,6 +115,19 @@
     "goalsAgainst": 4,
     "points": 1
    }
+  },
+  {
+   "teamId": "42",
+   "name": "Gépgólyák",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 7,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -122,11 +135,11 @@
   "biggestDefeat": {
    "seasonId": 55,
    "league": "L5A",
-   "matchId": "56857",
-   "kickoff": "2026-10-02T19:00:00.000Z",
-   "opponentId": "1493",
+   "matchId": "57648",
+   "kickoff": "2026-11-23T20:00:00.000Z",
+   "opponentId": "42",
    "goalsFor": 2,
-   "goalsAgainst": 6
+   "goalsAgainst": 7
   },
   "highestScoring": {
    "seasonId": 55,
@@ -186,13 +199,13 @@
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 7,
-  "coveredMatches": 7,
+  "playedMatches": 8,
+  "coveredMatches": 8,
   "rows": [
    {
     "name": "Medgyesy Csongor",
-    "goals": 6,
-    "matches": 5,
+    "goals": 7,
+    "matches": 6,
     "hatTricks": 0
    },
    {
@@ -202,15 +215,15 @@
     "hatTricks": 0
    },
    {
-    "name": "Ágoston Tatár",
-    "goals": 3,
+    "name": "Havasi Róbert Dániel",
+    "goals": 4,
     "matches": 3,
     "hatTricks": 0
    },
    {
-    "name": "Havasi Róbert Dániel",
+    "name": "Ágoston Tatár",
     "goals": 3,
-    "matches": 2,
+    "matches": 3,
     "hatTricks": 0
    },
    {

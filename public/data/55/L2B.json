@@ -40,14 +40,14 @@
    "name": "Tunyacsáp"
   },
   {
-   "id": "81",
-   "siteId": 81,
-   "name": "BallDogs"
-  },
-  {
    "id": "220",
    "siteId": 220,
    "name": "Jó lövés bedobás"
+  },
+  {
+   "id": "81",
+   "siteId": 81,
+   "name": "BallDogs"
   },
   {
    "id": "73",
@@ -176,31 +176,30 @@
   },
   {
    "position": 8,
-   "teamId": "81",
-   "played": 7,
+   "teamId": "220",
+   "played": 8,
    "won": 2,
-   "drawn": 1,
-   "lost": 4,
-   "goalsFor": 26,
-   "goalsAgainst": 33,
-   "goalDiff": -7,
-   "points": 7,
-   "markers": [
-    "lossStreak"
-   ]
+   "drawn": 3,
+   "lost": 3,
+   "goalsFor": 34,
+   "goalsAgainst": 47,
+   "goalDiff": -13,
+   "points": 9,
+   "markers": []
   },
   {
    "position": 9,
-   "teamId": "220",
-   "played": 7,
-   "won": 1,
-   "drawn": 3,
-   "lost": 3,
-   "goalsFor": 29,
-   "goalsAgainst": 43,
-   "goalDiff": -14,
-   "points": 6,
+   "teamId": "81",
+   "played": 8,
+   "won": 2,
+   "drawn": 1,
+   "lost": 5,
+   "goalsFor": 30,
+   "goalsAgainst": 38,
+   "goalDiff": -8,
+   "points": 7,
    "markers": [
+    "lossStreak",
     "relegation"
    ]
   },
@@ -2026,7 +2025,7 @@
      "teamId": "220"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57313",
@@ -2109,7 +2108,7 @@
      "teamId": "29"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57320",
@@ -2211,7 +2210,7 @@
      "teamId": "154"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57353",
@@ -2224,7 +2223,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57413",
@@ -2233,9 +2232,9 @@
    "awayTeamId": "220",
    "kickoff": "2026-11-23T17:00:00.000Z",
    "venue": "Bogdánfy_2",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 4,
+   "awayGoals": 5,
+   "status": "played",
    "scorers": [
     {
      "name": "Kiss Bence",
@@ -2246,22 +2245,32 @@
      "name": "Csiha Bence",
      "goals": 1,
      "teamId": "81"
+    },
+    {
+     "name": "Bertold Pék",
+     "goals": 3,
+     "teamId": "220"
+    },
+    {
+     "name": "Dudás Zoltán",
+     "goals": 1,
+     "teamId": "220"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
-   "id": "x-55-L2B-202611241900-cf-babinenik-cefre-town",
-   "siteId": null,
+   "id": "57397",
+   "siteId": 57397,
    "homeTeamId": "37",
    "awayTeamId": "154",
    "kickoff": "2026-11-24T19:00:00.000Z",
    "venue": "Bogdánfy_1",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "x-55-L2B-202611251700-kulakok-dzsum-dzsum",
@@ -2505,6 +2514,16 @@
    "matchesPlayed": 9
   },
   {
+   "teamId": "220",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Vörös László",
+    "goals": 5
+   },
+   "seasonsCount": 16,
+   "matchesPlayed": 8
+  },
+  {
    "teamId": "81",
    "bestLeague": "L2A",
    "topScorer": {
@@ -2512,17 +2531,7 @@
     "goals": 5
    },
    "seasonsCount": 5,
-   "matchesPlayed": 7
-  },
-  {
-   "teamId": "220",
-   "bestLeague": "L1",
-   "topScorer": {
-    "name": "Bertold Pék",
-    "goals": 5
-   },
-   "seasonsCount": 16,
-   "matchesPlayed": 7
+   "matchesPlayed": 8
   },
   {
    "teamId": "73",
@@ -2548,7 +2557,7 @@
    "teamId": "31",
    "bestLeague": "L2B",
    "topScorer": {
-    "name": "Szabó Gergely",
+    "name": "Hencsei Zsombor",
     "goals": 3
    },
    "seasonsCount": 16,

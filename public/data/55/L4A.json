@@ -2005,7 +2005,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57323",
@@ -2042,30 +2042,56 @@
    "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
-   "id": "x-55-L4A-202611241700-kek-labdak-entspannter-team",
-   "siteId": null,
+   "id": "57393",
+   "siteId": 57393,
    "homeTeamId": "121",
    "awayTeamId": "1523",
    "kickoff": "2026-11-24T17:00:00.000Z",
    "venue": "Bogdánfy_1",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
-   "id": "x-55-L4A-202611241800-havankapus6-5-aha",
-   "siteId": null,
+   "id": "57378",
+   "siteId": 57378,
    "homeTeamId": "126",
    "awayTeamId": "172",
    "kickoff": "2026-11-24T18:00:00.000Z",
    "venue": "Bogdánfy_3",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [
+    {
+     "name": "Ádám Zsuga",
+     "goals": 3,
+     "teamId": "126"
+    },
+    {
+     "name": "Hollósi Gergely",
+     "goals": 2,
+     "teamId": "126"
+    },
+    {
+     "name": "Ficzere Dániel",
+     "goals": 2,
+     "teamId": "126"
+    },
+    {
+     "name": "Kántor Tibor",
+     "goals": 1,
+     "teamId": "126"
+    },
+    {
+     "name": "Nagy Ádám",
+     "goals": 1,
+     "teamId": "126"
+    }
+   ],
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "x-55-L4A-202611252000-gabriel-jesus-jse",

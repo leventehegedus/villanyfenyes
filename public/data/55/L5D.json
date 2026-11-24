@@ -1996,7 +1996,7 @@
      "teamId": "1560"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57354",
@@ -2040,7 +2040,7 @@
      "teamId": "156"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57306",
@@ -2069,7 +2069,7 @@
      "teamId": "138"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57409",
@@ -2108,7 +2108,7 @@
      "teamId": "1575"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "x-55-L5D-202611261800-k-fc-attacking",
@@ -2421,7 +2421,7 @@
    "teamId": "1495",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Erdős Péter Zsombot",
+    "name": "Szücs Máté",
     "goals": 2
    },
    "seasonsCount": 3,

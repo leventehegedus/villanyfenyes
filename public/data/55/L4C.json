@@ -1945,7 +1945,7 @@
      "teamId": "47"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57244",
@@ -1984,7 +1984,7 @@
      "teamId": "153"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57267",
@@ -2071,7 +2071,7 @@
      "teamId": "131"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57346",
@@ -2086,43 +2086,43 @@
    "scorers": [
     {
      "name": "Szécsényi Szilárd",
-     "goals": 3,
-     "teamId": "101"
+     "teamId": "101",
+     "goals": 3
     },
     {
      "name": "Glück Péter",
-     "goals": 2,
-     "teamId": "101"
+     "teamId": "101",
+     "goals": 2
     },
     {
      "name": "Rostás Tibor",
-     "goals": 1,
-     "teamId": "101"
+     "teamId": "101",
+     "goals": 1
     },
     {
      "name": "Tucsek Balázs",
-     "goals": 1,
-     "teamId": "101"
+     "teamId": "101",
+     "goals": 1
     },
     {
      "name": "Langer Attila",
-     "goals": 1,
-     "teamId": "101"
+     "teamId": "101",
+     "goals": 1
     },
     {
      "name": "Máté Tibor Mestyanek",
-     "goals": 1,
-     "teamId": "101"
+     "teamId": "101",
+     "goals": 1
     },
     {
      "name": "Péter Németh",
-     "goals": 4,
-     "teamId": "1513"
+     "teamId": "1513",
+     "goals": 4
     },
     {
      "name": "Szabó Szilárd",
-     "goals": 1,
-     "teamId": "1513"
+     "teamId": "1513",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T13:43:15.877Z"
@@ -2144,7 +2144,7 @@
      "teamId": "1512"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "x-55-L4C-202611251800-gabszk-meccs-lemondva-fc",
@@ -2377,7 +2377,7 @@
    "teamId": "1512",
    "bestLeague": "L4C",
    "topScorer": {
-    "name": "Tóth Domonkos",
+    "name": "Péter Adrián",
     "goals": 4
    },
    "seasonsCount": 2,

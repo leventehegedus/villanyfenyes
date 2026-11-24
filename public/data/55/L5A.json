@@ -69,14 +69,14 @@
   {
    "position": 1,
    "teamId": "42",
-   "played": 9,
-   "won": 7,
+   "played": 10,
+   "won": 8,
    "drawn": 1,
    "lost": 1,
-   "goalsFor": 64,
-   "goalsAgainst": 37,
-   "goalDiff": 27,
-   "points": 22,
+   "goalsFor": 71,
+   "goalsAgainst": 39,
+   "goalDiff": 32,
+   "points": 25,
    "markers": [
     "winStreak",
     "manyGoals",
@@ -232,13 +232,13 @@
   {
    "position": 12,
    "teamId": "209",
-   "played": 7,
+   "played": 8,
    "won": 0,
    "drawn": 2,
-   "lost": 5,
-   "goalsFor": 22,
-   "goalsAgainst": 31,
-   "goalDiff": -9,
+   "lost": 6,
+   "goalsFor": 24,
+   "goalsAgainst": 38,
+   "goalDiff": -14,
    "points": 2,
    "markers": []
   }
@@ -2045,7 +2045,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57344",
@@ -2069,7 +2069,7 @@
      "teamId": "1562"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57303",
@@ -2093,7 +2093,7 @@
      "teamId": "19"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57315",
@@ -2132,7 +2132,7 @@
      "teamId": "1526"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57345",
@@ -2145,7 +2145,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57412",
@@ -2160,43 +2160,43 @@
    "scorers": [
     {
      "name": "Szita Dániel",
-     "goals": 3,
-     "teamId": "19"
+     "teamId": "19",
+     "goals": 3
     },
     {
      "name": "Karancs Iván",
-     "goals": 3,
-     "teamId": "19"
+     "teamId": "19",
+     "goals": 3
     },
     {
      "name": "Kelemen Zoltán",
-     "goals": 1,
-     "teamId": "19"
+     "teamId": "19",
+     "goals": 1
     },
     {
      "name": "Jenő Gyökeres",
-     "goals": 1,
-     "teamId": "19"
+     "teamId": "19",
+     "goals": 1
     },
     {
      "name": "Draviczky Ádám",
-     "goals": 2,
-     "teamId": "1562"
+     "teamId": "1562",
+     "goals": 2
     },
     {
      "name": "Levente Simko",
-     "goals": 1,
-     "teamId": "1562"
+     "teamId": "1562",
+     "goals": 1
     },
     {
      "name": "Bónizs Balázs",
-     "goals": 1,
-     "teamId": "1562"
+     "teamId": "1562",
+     "goals": 1
     },
     {
      "name": "Tőkés Bálint",
-     "goals": 1,
-     "teamId": "1562"
+     "teamId": "1562",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T13:43:15.877Z"
@@ -2208,9 +2208,9 @@
    "awayTeamId": "209",
    "kickoff": "2026-11-23T20:00:00.000Z",
    "venue": "Bogdánfy_2",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 7,
+   "awayGoals": 2,
+   "status": "played",
    "scorers": [
     {
      "name": "Takács Ábel",
@@ -2226,22 +2226,63 @@
      "name": "Tordasi Bálint",
      "goals": 1,
      "teamId": "42"
+    },
+    {
+     "name": "Medgyesy Csongor",
+     "goals": 1,
+     "teamId": "209"
+    },
+    {
+     "name": "Havasi Róbert Dániel",
+     "goals": 1,
+     "teamId": "209"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
-   "id": "x-55-L5A-202611241900-csokihiany-fc-mennyivanmeg",
-   "siteId": null,
+   "id": "57407",
+   "siteId": 57407,
    "homeTeamId": "151",
    "awayTeamId": "1526",
    "kickoff": "2026-11-24T19:00:00.000Z",
    "venue": "Bogdánfy_2",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [
+    {
+     "name": "Andor Levente",
+     "goals": 3,
+     "teamId": "1526"
+    },
+    {
+     "name": "Szakály Máté",
+     "goals": 2,
+     "teamId": "1526"
+    },
+    {
+     "name": "Ujfaludi Gábor",
+     "goals": 1,
+     "teamId": "1526"
+    },
+    {
+     "name": "Szakonyi Bence Csongor",
+     "goals": 1,
+     "teamId": "1526"
+    },
+    {
+     "name": "Ötvös Zsombor Kálmán",
+     "goals": 1,
+     "teamId": "1526"
+    },
+    {
+     "name": "Beke Dániel",
+     "goals": 1,
+     "teamId": "1526"
+    }
+   ],
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "x-55-L5A-202611251900-keverton-klub-elmarad-fc",
@@ -2422,7 +2463,7 @@
     "goals": 6
    },
    "seasonsCount": 8,
-   "matchesPlayed": 9
+   "matchesPlayed": 10
   },
   {
    "teamId": "19",
@@ -2532,7 +2573,7 @@
     "goals": 5
    },
    "seasonsCount": 5,
-   "matchesPlayed": 7
+   "matchesPlayed": 8
   }
  ]
 }

@@ -14,13 +14,13 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 4,
+    "played": 5,
     "won": 3,
-    "drawn": 0,
+    "drawn": 1,
     "lost": 1,
-    "goalsFor": 18,
-    "goalsAgainst": 19,
-    "points": 9
+    "goalsFor": 21,
+    "goalsAgainst": 22,
+    "points": 10
    }
   }
  ],
@@ -76,6 +76,19 @@
     "goalsAgainst": 3,
     "points": 3
    }
+  },
+  {
+   "teamId": "55",
+   "name": "Droidhadsereg",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 3,
+    "points": 1
+   }
   }
  ],
  "records": {
@@ -130,7 +143,7 @@
    }
   },
   "unbeaten": {
-   "length": 2,
+   "length": 3,
    "from": {
     "seasonId": 55,
     "league": "L5F",
@@ -143,10 +156,10 @@
    "to": {
     "seasonId": 55,
     "league": "L5F",
-    "matchId": "57087",
-    "kickoff": "2026-10-27T20:00:00.000Z",
-    "opponentId": "201",
-    "goalsFor": 5,
+    "matchId": "57287",
+    "kickoff": "2026-11-19T20:00:00.000Z",
+    "opponentId": "55",
+    "goalsFor": 3,
     "goalsAgainst": 3
    }
   },
@@ -175,19 +188,19 @@
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 4,
-  "coveredMatches": 4,
+  "playedMatches": 5,
+  "coveredMatches": 5,
   "rows": [
    {
     "name": "Holló Balázs",
-    "goals": 6,
-    "matches": 2,
+    "goals": 8,
+    "matches": 3,
     "hatTricks": 2
    },
    {
     "name": "Lipcsey Levente",
-    "goals": 3,
-    "matches": 2,
+    "goals": 4,
+    "matches": 3,
     "hatTricks": 0
    },
    {

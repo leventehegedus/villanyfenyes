@@ -10,16 +10,16 @@
    "label": "2026 - Ősz",
    "league": "L2B",
    "finished": false,
-   "position": 8,
+   "position": 9,
    "teamsInLeague": 12,
-   "marker": null,
+   "marker": "relegation",
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 2,
     "drawn": 1,
-    "lost": 4,
-    "goalsFor": 26,
-    "goalsAgainst": 33,
+    "lost": 5,
+    "goalsFor": 30,
+    "goalsAgainst": 38,
     "points": 7
    }
   }
@@ -115,6 +115,19 @@
     "goalsAgainst": 8,
     "points": 0
    }
+  },
+  {
+   "teamId": "220",
+   "name": "Jó lövés bedobás",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 5,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -190,7 +203,7 @@
    }
   },
   "loss": {
-   "length": 2,
+   "length": 3,
    "from": {
     "seasonId": 55,
     "league": "L2B",
@@ -203,19 +216,19 @@
    "to": {
     "seasonId": 55,
     "league": "L2B",
-    "matchId": "57320",
-    "kickoff": "2026-11-17T19:00:00.000Z",
-    "opponentId": "37",
+    "matchId": "57413",
+    "kickoff": "2026-11-23T17:00:00.000Z",
+    "opponentId": "220",
     "goalsFor": 4,
-    "goalsAgainst": 8
+    "goalsAgainst": 5
    }
   }
  },
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 7,
-  "coveredMatches": 7,
+  "playedMatches": 8,
+  "coveredMatches": 8,
   "rows": [
    {
     "name": "Biró Botond",
@@ -230,6 +243,12 @@
     "hatTricks": 1
    },
    {
+    "name": "Kiss Bence",
+    "goals": 5,
+    "matches": 3,
+    "hatTricks": 1
+   },
+   {
     "name": "Horváth Ádám Bence",
     "goals": 4,
     "matches": 4,
@@ -237,20 +256,14 @@
    },
    {
     "name": "Csiha Bence",
-    "goals": 2,
-    "matches": 2,
+    "goals": 3,
+    "matches": 3,
     "hatTricks": 0
    },
    {
     "name": "Csiha Daniel",
     "goals": 2,
     "matches": 1,
-    "hatTricks": 0
-   },
-   {
-    "name": "Kiss Bence",
-    "goals": 2,
-    "matches": 2,
     "hatTricks": 0
    },
    {

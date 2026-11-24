@@ -1945,9 +1945,29 @@
      "name": "Szita Dávid László",
      "goals": 1,
      "teamId": "54"
+    },
+    {
+     "name": "Hurubás Kende",
+     "goals": 3,
+     "teamId": "1507"
+    },
+    {
+     "name": "Nagy Szabolcs",
+     "goals": 2,
+     "teamId": "1507"
+    },
+    {
+     "name": "Nagy Dominik Zoltán",
+     "goals": 2,
+     "teamId": "1507"
+    },
+    {
+     "name": "Lőrincz Gergely Attila",
+     "goals": 2,
+     "teamId": "1507"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57017",
@@ -2030,7 +2050,7 @@
      "teamId": "54"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57350",
@@ -2104,13 +2124,13 @@
    "scorers": [
     {
      "name": "Szöllősi Bálint",
-     "goals": 1,
-     "teamId": "80"
+     "teamId": "80",
+     "goals": 1
     },
     {
      "name": "András Halasi",
-     "goals": 4,
-     "teamId": "141"
+     "teamId": "141",
+     "goals": 4
     }
    ],
    "detailFetchedAt": "2026-11-24T13:43:15.877Z"

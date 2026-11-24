@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 6,
+    "played": 7,
     "won": 4,
     "drawn": 0,
-    "lost": 2,
-    "goalsFor": 18,
-    "goalsAgainst": 16,
+    "lost": 3,
+    "goalsFor": 20,
+    "goalsAgainst": 20,
     "points": 12
    }
   }
@@ -102,6 +102,19 @@
     "goalsAgainst": 6,
     "points": 0
    }
+  },
+  {
+   "teamId": "21",
+   "name": "Mégnemveszíthetek",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 4,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -177,7 +190,7 @@
    }
   },
   "loss": {
-   "length": 1,
+   "length": 2,
    "from": {
     "seasonId": 55,
     "league": "L5E",
@@ -190,19 +203,19 @@
    "to": {
     "seasonId": 55,
     "league": "L5E",
-    "matchId": "57213",
-    "kickoff": "2026-11-06T18:00:00.000Z",
-    "opponentId": "63",
+    "matchId": "56764",
+    "kickoff": "2026-11-20T17:00:00.000Z",
+    "opponentId": "21",
     "goalsFor": 2,
-    "goalsAgainst": 6
+    "goalsAgainst": 4
    }
   }
  },
  "cleanSheets": 2,
  "failedToScore": 1,
  "scorers": {
-  "playedMatches": 6,
-  "coveredMatches": 6,
+  "playedMatches": 7,
+  "coveredMatches": 7,
   "rows": [
    {
     "name": "Németh Keve Marcell",

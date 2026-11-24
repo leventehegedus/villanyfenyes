@@ -2003,7 +2003,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57316",
@@ -2037,7 +2037,7 @@
      "teamId": "1537"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "56572",
@@ -2076,7 +2076,7 @@
      "teamId": "1530"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57289",
@@ -2125,7 +2125,7 @@
      "teamId": "1530"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57330",
@@ -2169,7 +2169,7 @@
      "teamId": "96"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57319",
@@ -2213,7 +2213,7 @@
      "teamId": "33"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57421",
@@ -2247,7 +2247,7 @@
      "teamId": "50"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "x-55-L4D-202611251800-hoferovonat-a-focicsapat",
@@ -2566,7 +2566,7 @@
    "teamId": "50",
    "bestLeague": "L2A",
    "topScorer": {
-    "name": "Kálóczi István",
+    "name": "Bakó Dávid",
     "goals": 7
    },
    "seasonsCount": 7,
@@ -2586,7 +2586,7 @@
    "teamId": "1537",
    "bestLeague": "L4D",
    "topScorer": {
-    "name": "Szilágyi Bálint Zsolt",
+    "name": "Lukács Gergő",
     "goals": 5
    },
    "seasonsCount": 2,

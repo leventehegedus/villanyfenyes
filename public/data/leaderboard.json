@@ -462,8 +462,8 @@
    "name": "Stabilizátorok",
    "titles": 0,
    "l1Seasons": 7,
-   "won": 37,
-   "goalsFor": 461
+   "won": 38,
+   "goalsFor": 464
   },
   {
    "teamId": "522",
@@ -918,8 +918,8 @@
    "name": "Jó lövés bedobás",
    "titles": 0,
    "l1Seasons": 1,
-   "won": 5,
-   "goalsFor": 68
+   "won": 6,
+   "goalsFor": 73
   },
   {
    "teamId": "41",
@@ -1023,7 +1023,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 2,
-   "goalsFor": 26
+   "goalsFor": 30
   },
   {
    "teamId": "31",
@@ -1095,7 +1095,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 1,
-   "goalsFor": 33
+   "goalsFor": 35
   },
   {
    "teamId": "30",
@@ -1702,8 +1702,8 @@
    "name": "Gépgólyák",
    "titles": 0,
    "l1Seasons": 0,
-   "won": 7,
-   "goalsFor": 64
+   "won": 8,
+   "goalsFor": 71
   },
   {
    "teamId": "19",
@@ -1791,7 +1791,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 0,
-   "goalsFor": 22
+   "goalsFor": 24
   },
   {
    "teamId": "1533",
@@ -2119,7 +2119,15 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 4,
-   "goalsFor": 18
+   "goalsFor": 20
+  },
+  {
+   "teamId": "21",
+   "name": "Mégnemveszíthetek",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 38
   },
   {
    "teamId": "193",
@@ -2136,14 +2144,6 @@
    "l1Seasons": 0,
    "won": 3,
    "goalsFor": 32
-  },
-  {
-   "teamId": "21",
-   "name": "Mégnemveszíthetek",
-   "titles": 0,
-   "l1Seasons": 0,
-   "won": 2,
-   "goalsFor": 34
   },
   {
    "teamId": "63",
@@ -2223,7 +2223,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 3,
-   "goalsFor": 27
+   "goalsFor": 30
   },
   {
    "teamId": "89",
@@ -2231,7 +2231,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 3,
-   "goalsFor": 18
+   "goalsFor": 21
   },
   {
    "teamId": "1568",
@@ -2278,8 +2278,8 @@
    "name": "George FC",
    "titles": 0,
    "l1Seasons": 0,
-   "won": 7,
-   "goalsFor": 59
+   "won": 8,
+   "goalsFor": 67
   },
   {
    "teamId": "1567",
@@ -2343,7 +2343,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 2,
-   "goalsFor": 34
+   "goalsFor": 36
   },
   {
    "teamId": "1488",

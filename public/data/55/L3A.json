@@ -128,9 +128,7 @@
    "goalsAgainst": 33,
    "goalDiff": 11,
    "points": 13,
-   "markers": [
-    "manyGoals"
-   ]
+   "markers": []
   },
   {
    "position": 5,
@@ -151,14 +149,14 @@
   {
    "position": 6,
    "teamId": "18",
-   "played": 9,
-   "won": 3,
+   "played": 10,
+   "won": 4,
    "drawn": 1,
    "lost": 5,
-   "goalsFor": 44,
-   "goalsAgainst": 41,
-   "goalDiff": 3,
-   "points": 10,
+   "goalsFor": 47,
+   "goalsAgainst": 43,
+   "goalDiff": 4,
+   "points": 13,
    "markers": [
     "manyGoals"
    ]
@@ -240,13 +238,13 @@
   {
    "position": 12,
    "teamId": "208",
-   "played": 6,
+   "played": 7,
    "won": 1,
    "drawn": 0,
-   "lost": 5,
-   "goalsFor": 33,
-   "goalsAgainst": 46,
-   "goalDiff": -13,
+   "lost": 6,
+   "goalsFor": 35,
+   "goalsAgainst": 49,
+   "goalDiff": -14,
    "points": 3,
    "markers": [
     "lossStreak",
@@ -1944,8 +1942,8 @@
    "scorers": [
     {
      "name": "Orosz Dávid",
-     "goals": 5,
-     "teamId": "26"
+     "teamId": "26",
+     "goals": 5
     }
    ],
    "detailFetchedAt": "2026-11-24T13:43:15.877Z"
@@ -2001,7 +1999,7 @@
      "teamId": "1479"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57324",
@@ -2040,7 +2038,7 @@
      "teamId": "26"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57288",
@@ -2094,7 +2092,7 @@
      "teamId": "198"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57627",
@@ -2167,7 +2165,7 @@
      "teamId": "1480"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "48370",
@@ -2176,11 +2174,11 @@
    "awayTeamId": "208",
    "kickoff": "2026-11-23T18:00:00.000Z",
    "venue": "Bogdánfy_2",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "status": "played",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57365",
@@ -2214,20 +2212,20 @@
      "teamId": "198"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
-   "id": "x-55-L3A-202611241900-more-czuczor-more-party-light-os",
-   "siteId": null,
+   "id": "57361",
+   "siteId": 57361,
    "homeTeamId": "161",
    "awayTeamId": "1479",
    "kickoff": "2026-11-24T19:00:00.000Z",
    "venue": "Bogdánfy_4",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "x-55-L3A-202611301800-berug-fc-penisz-land",
@@ -2414,7 +2412,7 @@
    "teamId": "26",
    "bestLeague": "L2A",
    "topScorer": {
-    "name": "Orosz Dávid",
+    "name": "Zsoldos Áron",
     "goals": 5
    },
    "seasonsCount": 9,
@@ -2458,7 +2456,7 @@
     "goals": 4
    },
    "seasonsCount": 33,
-   "matchesPlayed": 9
+   "matchesPlayed": 10
   },
   {
    "teamId": "198",
@@ -2518,7 +2516,7 @@
     "goals": 6
    },
    "seasonsCount": 24,
-   "matchesPlayed": 6
+   "matchesPlayed": 7
   }
  ]
 }

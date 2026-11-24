@@ -69,14 +69,14 @@
   {
    "position": 1,
    "teamId": "1534",
-   "played": 7,
-   "won": 7,
+   "played": 8,
+   "won": 8,
    "drawn": 0,
    "lost": 0,
-   "goalsFor": 59,
-   "goalsAgainst": 16,
-   "goalDiff": 43,
-   "points": 21,
+   "goalsFor": 67,
+   "goalsAgainst": 18,
+   "goalDiff": 49,
+   "points": 24,
    "markers": [
     "winStreak",
     "manyGoals",
@@ -186,13 +186,13 @@
   {
    "position": 9,
    "teamId": "1518",
-   "played": 8,
+   "played": 9,
    "won": 2,
    "drawn": 1,
-   "lost": 5,
-   "goalsFor": 34,
-   "goalsAgainst": 37,
-   "goalDiff": -3,
+   "lost": 6,
+   "goalsFor": 36,
+   "goalsAgainst": 45,
+   "goalDiff": -9,
    "points": 7,
    "markers": []
   },
@@ -1979,7 +1979,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57271",
@@ -2130,7 +2130,7 @@
      "teamId": "1469"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57619",
@@ -2142,8 +2142,29 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "scorers": [
+    {
+     "name": "Kékegyi Márk",
+     "goals": 2,
+     "teamId": "1518"
+    },
+    {
+     "name": "Hegedűs András",
+     "goals": 2,
+     "teamId": "1518"
+    },
+    {
+     "name": "Székács Kristóf",
+     "goals": 2,
+     "teamId": "1518"
+    },
+    {
+     "name": "Kis Sándor",
+     "goals": 1,
+     "teamId": "1518"
+    }
+   ],
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57326",
@@ -2182,7 +2203,7 @@
      "teamId": "1534"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57339",
@@ -2211,7 +2232,7 @@
      "teamId": "1567"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "56905",
@@ -2260,7 +2281,7 @@
      "teamId": "1488"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57415",
@@ -2269,10 +2290,15 @@
    "awayTeamId": "1534",
    "kickoff": "2026-11-23T20:00:00.000Z",
    "venue": "Bogdánfy_1",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 2,
+   "awayGoals": 8,
+   "status": "played",
    "scorers": [
+    {
+     "name": "Adorján Domonkos",
+     "goals": 2,
+     "teamId": "1518"
+    },
     {
      "name": "Unyi Dániel",
      "goals": 4,
@@ -2294,7 +2320,7 @@
      "teamId": "1534"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57363",
@@ -2307,7 +2333,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "x-55-L5G-202611251700-she-said-she-was-5-1-golatanacs",
@@ -2501,7 +2527,7 @@
     "goals": 6
    },
    "seasonsCount": 2,
-   "matchesPlayed": 7
+   "matchesPlayed": 8
   },
   {
    "teamId": "1567",
@@ -2527,7 +2553,7 @@
    "teamId": "1557",
    "bestLeague": "L5G",
    "topScorer": {
-    "name": "Barnabás Baczynski",
+    "name": "Meixner Sándor Ferenc",
     "goals": 3
    },
    "seasonsCount": 1,
@@ -2537,7 +2563,7 @@
    "teamId": "212",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Németh Norbert",
+    "name": "Hámori Miklós",
     "goals": 4
    },
    "seasonsCount": 8,
@@ -2577,11 +2603,11 @@
    "teamId": "1518",
    "bestLeague": "L5G",
    "topScorer": {
-    "name": "Székács Kristóf",
+    "name": "Hegedűs András",
     "goals": 4
    },
    "seasonsCount": 2,
-   "matchesPlayed": 8
+   "matchesPlayed": 9
   },
   {
    "teamId": "1488",
@@ -2607,7 +2633,7 @@
    "teamId": "1572",
    "bestLeague": "L5G",
    "topScorer": {
-    "name": "Nádudvari Patrik",
+    "name": "Sabáli Soma",
     "goals": 2
    },
    "seasonsCount": 1,

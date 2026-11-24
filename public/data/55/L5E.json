@@ -30,6 +30,11 @@
    "name": "FÉK FC"
   },
   {
+   "id": "21",
+   "siteId": 21,
+   "name": "Mégnemveszíthetek"
+  },
+  {
    "id": "193",
    "siteId": 193,
    "name": "Boccs-boccs"
@@ -38,11 +43,6 @@
    "id": "1532",
    "siteId": 1532,
    "name": "Team 5"
-  },
-  {
-   "id": "21",
-   "siteId": 21,
-   "name": "Mégnemveszíthetek"
   },
   {
    "id": "63",
@@ -132,20 +132,34 @@
   {
    "position": 5,
    "teamId": "1571",
-   "played": 6,
+   "played": 7,
    "won": 4,
    "drawn": 0,
-   "lost": 2,
-   "goalsFor": 18,
-   "goalsAgainst": 16,
-   "goalDiff": 2,
+   "lost": 3,
+   "goalsFor": 20,
+   "goalsAgainst": 20,
+   "goalDiff": 0,
    "points": 12,
    "markers": [
+    "lossStreak",
     "fewConceded"
    ]
   },
   {
    "position": 6,
+   "teamId": "21",
+   "played": 8,
+   "won": 3,
+   "drawn": 2,
+   "lost": 3,
+   "goalsFor": 38,
+   "goalsAgainst": 45,
+   "goalDiff": -7,
+   "points": 11,
+   "markers": []
+  },
+  {
+   "position": 7,
    "teamId": "193",
    "played": 8,
    "won": 3,
@@ -158,7 +172,7 @@
    "markers": []
   },
   {
-   "position": 7,
+   "position": 8,
    "teamId": "1532",
    "played": 7,
    "won": 3,
@@ -168,19 +182,6 @@
    "goalsAgainst": 37,
    "goalDiff": -5,
    "points": 10,
-   "markers": []
-  },
-  {
-   "position": 8,
-   "teamId": "21",
-   "played": 7,
-   "won": 2,
-   "drawn": 2,
-   "lost": 3,
-   "goalsFor": 34,
-   "goalsAgainst": 43,
-   "goalDiff": -9,
-   "points": 8,
    "markers": []
   },
   {
@@ -1854,7 +1855,7 @@
      "teamId": "1571"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57336",
@@ -1878,7 +1879,7 @@
      "teamId": "1486"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57317",
@@ -1891,7 +1892,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57343",
@@ -1930,7 +1931,7 @@
      "teamId": "193"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "56764",
@@ -1939,9 +1940,9 @@
    "awayTeamId": "1571",
    "kickoff": "2026-11-20T17:00:00.000Z",
    "venue": "Bogdánfy_3",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "status": "played",
    "scorers": [
     {
      "name": "Veréb Balázs",
@@ -1952,14 +1953,9 @@
      "name": "Pákozdi Máté Márk",
      "goals": 1,
      "teamId": "21"
-    },
-    {
-     "name": "Limbek Soma",
-     "goals": 1,
-     "teamId": "21"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "57388",
@@ -1998,33 +1994,33 @@
      "teamId": "21"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
-   "id": "x-55-L5E-202611241800-balo-fc-los-galacticos",
-   "siteId": null,
+   "id": "57364",
+   "siteId": 57364,
    "homeTeamId": "63",
    "awayTeamId": "1476",
    "kickoff": "2026-11-24T18:00:00.000Z",
    "venue": "Bogdánfy_4",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
-   "id": "x-55-L5E-202611242000-sfac-team-red",
-   "siteId": null,
+   "id": "57410",
+   "siteId": 57410,
    "homeTeamId": "1536",
    "awayTeamId": "1561",
    "kickoff": "2026-11-24T20:00:00.000Z",
    "venue": "Bogdánfy_1",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
   },
   {
    "id": "x-55-L5E-202611301700-los-galacticos-oso-fc",
@@ -2227,7 +2223,7 @@
    "teamId": "1486",
    "bestLeague": "L5B",
    "topScorer": {
-    "name": "Juth Benedek",
+    "name": "Farkas Zsombor",
     "goals": 6
    },
    "seasonsCount": 3,
@@ -2271,7 +2267,17 @@
     "goals": 2
    },
    "seasonsCount": 1,
-   "matchesPlayed": 6
+   "matchesPlayed": 7
+  },
+  {
+   "teamId": "21",
+   "bestLeague": "L5C",
+   "topScorer": {
+    "name": "Veréb Balázs",
+    "goals": 7
+   },
+   "seasonsCount": 7,
+   "matchesPlayed": 8
   },
   {
    "teamId": "193",
@@ -2287,20 +2293,10 @@
    "teamId": "1532",
    "bestLeague": "L5A",
    "topScorer": {
-    "name": "Czibula Márk Milán",
+    "name": "Kalapos Titusz",
     "goals": 3
    },
    "seasonsCount": 2,
-   "matchesPlayed": 7
-  },
-  {
-   "teamId": "21",
-   "bestLeague": "L5C",
-   "topScorer": {
-    "name": "Veréb Balázs",
-    "goals": 7
-   },
-   "seasonsCount": 7,
    "matchesPlayed": 7
   },
   {
@@ -2317,7 +2313,7 @@
    "teamId": "1476",
    "bestLeague": "L5C",
    "topScorer": {
-    "name": "Simon Brúnó",
+    "name": "Vitényi Dávid",
     "goals": 4
    },
    "seasonsCount": 2,
