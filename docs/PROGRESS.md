@@ -65,3 +65,7 @@ Scorers list rows use the standings colouring: gold, silver, bronze for ranks 1-
 Leaderboard: teams of the current season's L1 are set in bold (read from that league file; nothing bold if it fails), with a one-line legend under the page note.
 Match lists (schedule, team page, what-if inputs, player log) are striped too (`STRIPED_LIST` / `rowProps(null, i)`). Hover/focus accent (`--accent`, `--ring`) and the odds heatmap hue (`--seq`) are yellow instead of green in both themes; win/loss colours (`--win`) stay green.
 Rankings and match lists share two row colours: page background and `--stripe` (foreground 3 % light, 5 % dark, over the background); medal tints mix over the background too.
+
+## 2026-11-24 matches by day (branch `feat/daily-matches`)
+
+New page `/nap` ("Napi meccsek", desktop header and mobile menu): every league of the selected season on one Budapest day (`?d=YYYY-MM-DD`), grouped by league, results and fixtures via `MatchRow`. Opens on today if it has matches, else the next match day, else the last; arrows jump to the previous/next day that has matches (`siteDay`, `matchDays`, `pickDay`, `stepDay` in `src/lib/schedule.ts`). League files load in parallel with `useQueries` and the shared `leagueQuery` options (same cache as other pages); leagues that fail are named in a note. `PageHeader picker="season"` shows only the season picker. Match links open the dialog over the schedule page (existing route). Checked: desktop dark, mobile light.

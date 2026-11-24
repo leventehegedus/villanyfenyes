@@ -64,3 +64,26 @@ export function groupByWeek(matches: readonly Match[]): WeekGroup[] {
   }
   return [...groups].map(([week, ms]) => ({ week, matches: ms }))
 }
+
+/** Budapest calendar day (YYYY-MM-DD) of the instant. */
+export function siteDay(iso: string): string {
+  const parts = dayFormat.formatToParts(new Date(iso))
+  const get = (t: Intl.DateTimeFormatPartTypes) => parts.find((p) => p.type === t)?.value ?? ''
+  return `${get('year')}-${get('month')}-${get('day')}`
+}
+
+/** Sorted distinct Budapest days with at least one kickoff. */
+export const matchDays = (matches: readonly Match[]): string[] =>
+  [...new Set(matches.flatMap((m) => (m.kickoff ? [siteDay(m.kickoff)] : [])))].sort()
+
+const DAY = /^\d{4}-\d{2}-\d{2}$/
+
+/** Day to show: a valid wanted day as is, else today if it has matches, else the next match day, else the last one. */
+export function pickDay(days: readonly string[], wanted: string | null, today: string): string | null {
+  if (wanted && DAY.test(wanted)) return wanted
+  return days.find((d) => d >= today) ?? days.at(-1) ?? null
+}
+
+/** Nearest match day strictly before (-1) or after (1) `day`. */
+export const stepDay = (days: readonly string[], day: string, dir: -1 | 1): string | null =>
+  (dir === 1 ? days.find((d) => d > day) : days.findLast((d) => d < day)) ?? null

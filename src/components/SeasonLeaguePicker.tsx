@@ -4,8 +4,8 @@ import { useSelection } from '@/hooks/useSelection'
 
 type SeasonLeague = { seasonId: number; league: string }
 
-/** `only` limits the choices, e.g. to the seasons and leagues one team played in. */
-export function SeasonLeaguePicker({ only }: { only?: readonly SeasonLeague[] }) {
+/** `only` limits the choices, e.g. to the seasons and leagues one team played in; `seasonOnly` hides the league. */
+export function SeasonLeaguePicker({ only, seasonOnly = false }: { only?: readonly SeasonLeague[]; seasonOnly?: boolean }) {
   const t = useT()
   const { seasons, seasonId, league, leagues: all, setSelection } = useSelection()
   const withData = seasons.data?.leagues ?? {}
@@ -29,6 +29,7 @@ export function SeasonLeaguePicker({ only }: { only?: readonly SeasonLeague[] })
           ))}
         </SelectContent>
       </Select>
+      {!seasonOnly && (
       <Select value={league ?? ''} onValueChange={(v) => setSelection({ l: v })}>
         <SelectTrigger aria-label={t('league')} className="min-w-24">
           <SelectValue placeholder={t('league')} />
@@ -41,6 +42,7 @@ export function SeasonLeaguePicker({ only }: { only?: readonly SeasonLeague[] })
           ))}
         </SelectContent>
       </Select>
+      )}
     </div>
   )
 }

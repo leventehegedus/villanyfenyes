@@ -1,6 +1,6 @@
 import { Suspense, useState } from 'react'
 import { NavLink, Outlet } from 'react-router'
-import { BarChart3, CalendarDays, ListOrdered, Menu, Moon, Settings, Sun, SunMoon, Target, Trophy } from 'lucide-react'
+import { BarChart3, CalendarCheck, CalendarDays, ListOrdered, Menu, Moon, Settings, Sun, SunMoon, Target, Trophy } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { DropdownMenu, DropdownMenuContent, DropdownMenuRadioGroup, DropdownMenuRadioItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu'
@@ -22,6 +22,7 @@ const PRIMARY: NavItem[] = [
   { to: '/golok', label: 'navScorers', icon: Target },
 ]
 const MORE: NavItem[] = [
+  { to: '/nap', label: 'navDay', icon: CalendarCheck },
   { to: '/statisztika', label: 'navStats', icon: BarChart3 },
   { to: '/orokranglista', label: 'navLeaderboard', icon: Trophy },
 ]
