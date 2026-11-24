@@ -58,3 +58,10 @@ Visual language taken from sporta.framer.ai: Clash Display (self-hosted woff2 in
 ## 2026-11-24 scorers table styling (done)
 
 Scorers list rows use the standings colouring: gold, silver, bronze for ranks 1-3 (ties share the colour), then alternating stripes, full-row hover. Shared in `src/components/row-style.ts`. The scorer-coverage note above the list was removed (key `scorersCoverage` dropped). Checked in the browser: desktop dark, mobile light.
+
+## 2026-11-24 podium colouring on every ranked table (branch `style/table-podium-everywhere`)
+
+`rowProps(rank, index)` in `src/components/row-style.ts` colours rows gold/silver/bronze for ranks 1-3, then stripes. Used by the standings (also on Stats and Team pages, where highlighted teams now keep their medal colour and get a left accent bar instead of a grey fill), the what-if table, the scorers list, the leaderboard boards, the team all-time seasons table (by final position) and the team all-time scorers. Not applied to non-ranked tables (cross table, odds heatmap, opponents, league totals, player match log). Progression chart team toggles are square now. Checked: stats desktop dark, leaderboard desktop light, team all-time mobile dark.
+Leaderboard: teams of the current season's L1 are set in bold (read from that league file; nothing bold if it fails), with a one-line legend under the page note.
+Match lists (schedule, team page, what-if inputs, player log) are striped too (`STRIPED_LIST` / `rowProps(null, i)`). Hover/focus accent (`--accent`, `--ring`) and the odds heatmap hue (`--seq`) are yellow instead of green in both themes; win/loss colours (`--win`) stay green.
+Rankings and match lists share two row colours: page background and `--stripe` (foreground 3 % light, 5 % dark, over the background); medal tints mix over the background too.

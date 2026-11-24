@@ -2,6 +2,7 @@ import { ArrowDown, ArrowUp, Minus, RotateCcw } from 'lucide-react'
 import { Link } from 'react-router'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
+import { STRIPED_LIST, rowProps } from '@/components/row-style'
 import { TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table'
 import { usePrefs, useT } from '@/hooks/prefs'
 import type { LeagueData } from '@/lib/data'
@@ -70,8 +71,8 @@ export default function WhatIfCalculator({ data, keep, value, onChange }: Props)
             </TableRow>
           </TableHeader>
           <TableBody>
-            {table.map((r) => (
-              <TableRow key={r.teamId}>
+            {table.map((r, i) => (
+              <TableRow key={r.teamId} {...rowProps(r.position, i)}>
                 <TableCell className="tabular text-center font-medium">{r.position}</TableCell>
                 <TableCell className="text-center">
                   <Change n={r.change} />
@@ -99,13 +100,13 @@ export default function WhatIfCalculator({ data, keep, value, onChange }: Props)
           </Button>
         </div>
         {open.length === 0 && <p className="text-sm text-muted-foreground">{t('whatIfNone')}</p>}
-        <ul className="divide-y rounded-xl border bg-card">
+        <ul className={cn('divide-y divide-border/60', STRIPED_LIST)}>
           {open.map((m) => {
             const score = value.get(m.id)
             const home = name.get(m.homeTeamId) ?? m.homeTeamId
             const away = name.get(m.awayTeamId) ?? m.awayTeamId
             return (
-              <li key={m.id} className={cn('space-y-1.5 px-3 py-2', score && 'bg-primary/5')}>
+              <li key={m.id} className={cn('space-y-1.5 px-3 py-2', score && 'bg-primary/5!')}>
                 <p className="text-center text-[11px] text-muted-foreground">
                   {formatKickoffShort(m.kickoff, prefs.locale, prefs.timeZone) ?? t('noKickoff')}
                   {m.status === 'unknown' && ` · ${t('noResult')}`}

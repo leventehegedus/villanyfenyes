@@ -55,7 +55,7 @@ export default function LeagueProgressionChart({ teams, matches, podium, highlig
             aria-pressed={s.color !== null}
             onClick={() => onToggle(s.key)}
             className={cn(
-              'inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs transition-colors hover:bg-accent',
+              'inline-flex items-center gap-1.5 border px-2.5 py-1 text-xs transition-colors hover:bg-accent',
               s.color ? 'border-foreground/40 font-semibold' : 'text-muted-foreground',
             )}
           >

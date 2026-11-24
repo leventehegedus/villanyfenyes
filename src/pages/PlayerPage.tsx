@@ -2,6 +2,7 @@ import { Link, useParams } from 'react-router'
 import { PageHeader } from '@/components/PageHeader'
 import { EmptyState, QueryBoundary } from '@/components/QueryBoundary'
 import { Stat } from '@/components/Stat'
+import { rowProps } from '@/components/row-style'
 import { TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table'
 import { usePrefs, useT } from '@/hooks/prefs'
 import { useLeagueData } from '@/hooks/useLeagueData'
@@ -50,8 +51,8 @@ export default function PlayerPage() {
                       </TableRow>
                     </TableHeader>
                     <TableBody>
-                      {[...log.entries].reverse().map((e) => (
-                        <TableRow key={e.matchId}>
+                      {[...log.entries].reverse().map((e, i) => (
+                        <TableRow key={e.matchId} {...rowProps(null, i)}>
                           <TableCell className="whitespace-nowrap text-muted-foreground">
                             {formatKickoffShort(e.kickoff, prefs.locale, prefs.timeZone) ?? missing}
                           </TableCell>

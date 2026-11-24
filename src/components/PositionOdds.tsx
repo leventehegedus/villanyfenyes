@@ -70,7 +70,7 @@ export default function PositionOdds({ data, keep, whatIf }: { data: LeagueData;
                           className={cn(
                             'tabular grid h-7 place-items-center rounded-sm',
                             !inside && 'bg-muted/60',
-                            p > 0.45 ? 'font-semibold text-white' : 'text-foreground',
+                            p > 0.45 ? 'font-semibold text-black' : 'text-foreground',
                             p > 0 && counts[n - 1] === top && 'ring-1 ring-foreground/40',
                           )}
                           style={inside && p > 0 ? { background: `color-mix(in oklab, var(--seq) ${Math.round(12 + p * 88)}%, var(--card))` } : undefined}

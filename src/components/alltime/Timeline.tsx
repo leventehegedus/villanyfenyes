@@ -1,5 +1,6 @@
 import { Badge } from '@/components/ui/badge'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { rowProps } from '@/components/row-style'
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table'
 import { usePrefs, useT } from '@/hooks/prefs'
 import { bestWorstSeason, rates } from '@/lib/alltime'
@@ -31,8 +32,8 @@ export function Timeline({ file }: { file: TeamAllTimeData }) {
             </TableRow>
           </TableHeader>
           <TableBody>
-            {file.seasons.map((s) => (
-              <TableRow key={`${s.seasonId}-${s.league}`}>
+            {file.seasons.map((s, i) => (
+              <TableRow key={`${s.seasonId}-${s.league}`} {...rowProps(s.position, i)}>
                 <TableCell className="font-medium">
                   <span className="flex flex-wrap items-center gap-1.5">
                     {s.label}
