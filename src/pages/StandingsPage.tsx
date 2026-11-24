@@ -3,7 +3,8 @@ import { MatchList } from '@/components/MatchList'
 import { PageHeader } from '@/components/PageHeader'
 import { EmptyState, QueryBoundary } from '@/components/QueryBoundary'
 import { StandingsTable } from '@/components/StandingsTable'
-import { Card, CardAction, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { Card, CardContent } from '@/components/ui/card'
+import { CardHeading } from '@/components/CardHeading'
 import { useT } from '@/hooks/prefs'
 import { useLeagueData } from '@/hooks/useLeagueData'
 import { filterMatches } from '@/lib/schedule'
@@ -34,23 +35,13 @@ export default function StandingsPage() {
               />
               <div className="grid gap-4 md:grid-cols-2">
                 <Card>
-                  <CardHeader>
-                    <CardTitle>{t('latestResults')}</CardTitle>
-                    <CardAction>
-                      <Link to={`/menetrend${keep}${keep ? '&' : '?'}st=past`} className="text-sm underline-offset-2 hover:underline">{t('seeAll')}</Link>
-                    </CardAction>
-                  </CardHeader>
+                  <CardHeading title={t('latestResults')} action={<Link to={`/menetrend${keep}${keep ? '&' : '?'}st=past`} className="text-sm underline-offset-2 hover:underline">{t('seeAll')}</Link>} />
                   <CardContent>
                     <MatchList matches={filterMatches(data.matches, { status: 'played' }).slice(-6)} teamName={teamName} keep={keep} newestFirst />
                   </CardContent>
                 </Card>
                 <Card>
-                  <CardHeader>
-                    <CardTitle>{t('nextFixtures')}</CardTitle>
-                    <CardAction>
-                      <Link to={`/menetrend${keep}`} className="text-sm underline-offset-2 hover:underline">{t('seeAll')}</Link>
-                    </CardAction>
-                  </CardHeader>
+                  <CardHeading title={t('nextFixtures')} action={<Link to={`/menetrend${keep}`} className="text-sm underline-offset-2 hover:underline">{t('seeAll')}</Link>} />
                   <CardContent>
                     {filterMatches(data.matches, { status: 'upcoming' }, now).length === 0 ? (
                       <EmptyState>{t('emptyFilter')}</EmptyState>

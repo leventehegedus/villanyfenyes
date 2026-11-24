@@ -1,3 +1,4 @@
+import { fold } from '../../src/lib/filters.ts'
 /** Collapses whitespace and trims. */
 export const clean = (s: string | undefined | null): string => (s ?? '').replace(/\s+/g, ' ').trim()
 
@@ -9,9 +10,6 @@ export function toInt(s: string | undefined | null): number | null {
 
 /** Lowercase ASCII slug, accents removed. */
 export const slug = (s: string): string =>
-  s
-    .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
-    .toLowerCase()
+  fold(s)
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '')

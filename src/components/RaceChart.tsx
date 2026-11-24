@@ -2,7 +2,7 @@ import { CartesianGrid, Line, LineChart, ReferenceLine, Tooltip, XAxis, YAxis } 
 import type { TooltipContentProps } from 'recharts'
 import type { NameType, ValueType } from 'recharts/types/component/DefaultTooltipContent'
 import { ChartContainer } from '@/components/ui/chart'
-import { CLICKABLE_CHART, clickedIndex } from '@/lib/charts'
+import { CLICKABLE_CHART, clickedIndex, AXIS } from '@/lib/charts'
 import { stepTicks } from '@/lib/format'
 import { cn } from '@/lib/utils'
 
@@ -83,8 +83,8 @@ export function RaceChart({ rows, series, tickStep, title, selected = null, onSe
         }}
       >
         <CartesianGrid vertical={false} strokeOpacity={0.5} />
-        <XAxis dataKey="label" tickLine={false} axisLine={false} fontSize={11} />
-        <YAxis domain={[0, ticks.at(-1) ?? tickStep]} ticks={ticks} interval={0} tickLine={false} axisLine={false} fontSize={11} />
+        <XAxis dataKey="label" {...AXIS} />
+        <YAxis domain={[0, ticks.at(-1) ?? tickStep]} ticks={ticks} interval={0} {...AXIS} />
         <Tooltip content={TooltipBody} cursor={{ strokeOpacity: 0.4 }} />
         {selected !== null && rows[selected] && <ReferenceLine x={rows[selected].label} stroke="var(--primary)" strokeDasharray="4 3" />}
         {order.map((s) => (
