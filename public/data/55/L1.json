@@ -2023,13 +2023,13 @@
    "scorers": [
     {
      "name": "Szigeti Balázs",
-     "goals": 2,
-     "teamId": "142"
+     "teamId": "142",
+     "goals": 2
     },
     {
      "name": "Tóth Dávid",
-     "goals": 1,
-     "teamId": "142"
+     "teamId": "142",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-23T12:39:36.663Z"
@@ -2115,7 +2115,7 @@
      "teamId": "199"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "48352",
@@ -2134,7 +2134,7 @@
      "teamId": "166"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "48353",
@@ -2149,41 +2149,41 @@
    "scorers": [
     {
      "name": "Deák Máté",
-     "teamId": "107",
-     "goals": 2
+     "goals": 2,
+     "teamId": "107"
     },
     {
      "name": "Horváth-Almaski Ádám",
-     "teamId": "107",
-     "goals": 1
+     "goals": 1,
+     "teamId": "107"
     },
     {
      "name": "Alács Mihály",
-     "teamId": "69",
-     "goals": 3
+     "goals": 3,
+     "teamId": "69"
     },
     {
      "name": "Pap Zsombor",
-     "teamId": "69",
-     "goals": 2
+     "goals": 2,
+     "teamId": "69"
     },
     {
      "name": "Kele Balázs",
-     "teamId": "69",
-     "goals": 2
+     "goals": 2,
+     "teamId": "69"
     },
     {
      "name": "Mándi Ferenc",
-     "teamId": "69",
-     "goals": 1
+     "goals": 1,
+     "teamId": "69"
     },
     {
      "name": "Mogyorósi Zoltán",
-     "teamId": "69",
-     "goals": 1
+     "goals": 1,
+     "teamId": "69"
     }
    ],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "x-55-L1-202611251800-szia-uram-lokomotiv-mfc",

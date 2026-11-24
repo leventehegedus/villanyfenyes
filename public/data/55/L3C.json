@@ -1820,7 +1820,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57656",
@@ -1869,7 +1869,7 @@
      "teamId": "219"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57325",
@@ -1898,7 +1898,7 @@
      "teamId": "230"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57296",
@@ -1952,44 +1952,60 @@
    "scorers": [
     {
      "name": "Dr. Lukács Dávid",
-     "goals": 2,
-     "teamId": "41"
+     "teamId": "41",
+     "goals": 2
     },
     {
      "name": "Szabó Ákos Márton",
-     "goals": 2,
-     "teamId": "41"
+     "teamId": "41",
+     "goals": 2
     },
     {
      "name": "Ferincz Ákos",
-     "goals": 1,
-     "teamId": "41"
+     "teamId": "41",
+     "goals": 1
     },
     {
      "name": "Kovács Dorián",
-     "goals": 1,
-     "teamId": "77"
+     "teamId": "77",
+     "goals": 1
     },
     {
      "name": "Bagyinszki Dániel",
-     "goals": 1,
-     "teamId": "77"
+     "teamId": "77",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
-   "id": "x-55-L3C-202611231800-devcs-susu-fc",
-   "siteId": null,
+   "id": "57371",
+   "siteId": 57371,
    "homeTeamId": "159",
    "awayTeamId": "219",
    "kickoff": "2026-11-23T18:00:00.000Z",
    "venue": "Bogdánfy_4",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [
+    {
+     "name": "Füzesi Vince",
+     "goals": 2,
+     "teamId": "219"
+    },
+    {
+     "name": "Zsigmond Boldizsár",
+     "goals": 2,
+     "teamId": "219"
+    },
+    {
+     "name": "Molnár Csaba",
+     "goals": 2,
+     "teamId": "219"
+    }
+   ],
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "x-55-L3C-202611241800-sonkastojas-troger-fc",

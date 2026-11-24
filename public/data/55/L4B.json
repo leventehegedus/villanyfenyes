@@ -1947,7 +1947,7 @@
      "teamId": "54"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57017",
@@ -2030,7 +2030,7 @@
      "teamId": "54"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57350",
@@ -2104,13 +2104,13 @@
    "scorers": [
     {
      "name": "Szöllősi Bálint",
-     "goals": 1,
-     "teamId": "80"
+     "teamId": "80",
+     "goals": 1
     },
     {
      "name": "András Halasi",
-     "goals": 4,
-     "teamId": "141"
+     "teamId": "141",
+     "goals": 4
     }
    ],
    "detailFetchedAt": "2026-11-23T12:39:36.663Z"

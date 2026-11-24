@@ -2045,7 +2045,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57344",
@@ -2069,7 +2069,7 @@
      "teamId": "1562"
     }
    ],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57315",
@@ -2108,7 +2108,7 @@
      "teamId": "1526"
     }
    ],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57303",
@@ -2132,7 +2132,7 @@
      "teamId": "19"
     }
    ],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57345",
@@ -2145,33 +2145,54 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-20T23:02:03.389Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
-   "id": "x-55-L5A-202611231800-a-kispad-legjobbjai-cf-calma",
-   "siteId": null,
+   "id": "57412",
+   "siteId": 57412,
    "homeTeamId": "19",
    "awayTeamId": "1562",
    "kickoff": "2026-11-23T18:00:00.000Z",
    "venue": "Bogdánfy_3",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [
+    {
+     "name": "Draviczky Ádám",
+     "goals": 2,
+     "teamId": "1562"
+    },
+    {
+     "name": "Levente Simko",
+     "goals": 1,
+     "teamId": "1562"
+    },
+    {
+     "name": "Bónizs Balázs",
+     "goals": 1,
+     "teamId": "1562"
+    },
+    {
+     "name": "Tőkés Bálint",
+     "goals": 1,
+     "teamId": "1562"
+    }
+   ],
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
-   "id": "x-55-L5A-202611232000-gepgolyak-fc-sor",
-   "siteId": null,
+   "id": "57648",
+   "siteId": 57648,
    "homeTeamId": "42",
    "awayTeamId": "209",
    "kickoff": "2026-11-23T20:00:00.000Z",
    "venue": "Bogdánfy_2",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "x-55-L5A-202611241900-csokihiany-fc-mennyivanmeg",

@@ -1979,7 +1979,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57271",
@@ -2130,7 +2130,7 @@
      "teamId": "1469"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57619",
@@ -2143,7 +2143,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57326",
@@ -2182,7 +2182,7 @@
      "teamId": "1534"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57339",
@@ -2211,7 +2211,7 @@
      "teamId": "1567"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "56905",
@@ -2260,33 +2260,54 @@
      "teamId": "1488"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
-   "id": "x-55-L5G-202611232000-oso-academy-george-fc",
-   "siteId": null,
+   "id": "57415",
+   "siteId": 57415,
    "homeTeamId": "1518",
    "awayTeamId": "1534",
    "kickoff": "2026-11-23T20:00:00.000Z",
    "venue": "Bogdánfy_1",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [
+    {
+     "name": "Unyi Dániel",
+     "goals": 4,
+     "teamId": "1534"
+    },
+    {
+     "name": "Gajzágó Márk",
+     "goals": 2,
+     "teamId": "1534"
+    },
+    {
+     "name": "Szemán Balázs",
+     "goals": 1,
+     "teamId": "1534"
+    },
+    {
+     "name": "Horváth Dominik",
+     "goals": 1,
+     "teamId": "1534"
+    }
+   ],
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
-   "id": "x-55-L5G-202611232000-szakik-landzsas-utifu",
-   "siteId": null,
+   "id": "57363",
+   "siteId": 57363,
    "homeTeamId": "135",
    "awayTeamId": "212",
    "kickoff": "2026-11-23T20:00:00.000Z",
    "venue": "Bogdánfy_4",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "x-55-L5G-202611251700-she-said-she-was-5-1-golatanacs",
@@ -2506,7 +2527,7 @@
    "teamId": "1557",
    "bestLeague": "L5G",
    "topScorer": {
-    "name": "Meixner Sándor Ferenc",
+    "name": "Barnabás Baczynski",
     "goals": 3
    },
    "seasonsCount": 1,
@@ -2556,7 +2577,7 @@
    "teamId": "1518",
    "bestLeague": "L5G",
    "topScorer": {
-    "name": "Hegedűs András",
+    "name": "Székács Kristóf",
     "goals": 4
    },
    "seasonsCount": 2,
@@ -2586,7 +2607,7 @@
    "teamId": "1572",
    "bestLeague": "L5G",
    "topScorer": {
-    "name": "Radics Bendegúz Ádám",
+    "name": "Nádudvari Patrik",
     "goals": 2
    },
    "seasonsCount": 1,

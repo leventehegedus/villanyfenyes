@@ -2003,7 +2003,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57316",
@@ -2037,7 +2037,7 @@
      "teamId": "1537"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "56572",
@@ -2076,7 +2076,7 @@
      "teamId": "1530"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57289",
@@ -2125,7 +2125,7 @@
      "teamId": "1530"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57330",
@@ -2169,7 +2169,7 @@
      "teamId": "96"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57319",
@@ -2213,20 +2213,41 @@
      "teamId": "33"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
-   "id": "x-55-L4D-202611231700-goats-fc-kozpenz-fc",
-   "siteId": null,
+   "id": "57421",
+   "siteId": 57421,
    "homeTeamId": "50",
    "awayTeamId": "1537",
    "kickoff": "2026-11-23T17:00:00.000Z",
    "venue": "Bogdánfy_1",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [
+    {
+     "name": "Bakó Dávid",
+     "goals": 7,
+     "teamId": "50"
+    },
+    {
+     "name": "Szabó Bátor László",
+     "goals": 5,
+     "teamId": "50"
+    },
+    {
+     "name": "Szabó Fülöp",
+     "goals": 3,
+     "teamId": "50"
+    },
+    {
+     "name": "Márkus Bence",
+     "goals": 1,
+     "teamId": "50"
+    }
+   ],
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "x-55-L4D-202611251800-hoferovonat-a-focicsapat",

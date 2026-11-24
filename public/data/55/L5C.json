@@ -2041,9 +2041,34 @@
      "name": "Theisz Aurél Levente",
      "goals": 1,
      "teamId": "75"
+    },
+    {
+     "name": "Balás Áron",
+     "goals": 3,
+     "teamId": "240"
+    },
+    {
+     "name": "Viktor Szabó",
+     "goals": 3,
+     "teamId": "240"
+    },
+    {
+     "name": "Fedor István",
+     "goals": 1,
+     "teamId": "240"
+    },
+    {
+     "name": "Szőke Tamás János",
+     "goals": 1,
+     "teamId": "240"
+    },
+    {
+     "name": "Bedő Sebestyén",
+     "goals": 1,
+     "teamId": "240"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57335",
@@ -2087,7 +2112,7 @@
      "teamId": "241"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57294",
@@ -2121,7 +2146,7 @@
      "teamId": "181"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57292",
@@ -2150,7 +2175,7 @@
      "teamId": "75"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57333",
@@ -2165,39 +2190,39 @@
    "scorers": [
     {
      "name": "Hajnal Ábris",
-     "goals": 1,
-     "teamId": "1531"
+     "teamId": "1531",
+     "goals": 1
     },
     {
      "name": "István Pásztor",
-     "goals": 1,
-     "teamId": "1531"
+     "teamId": "1531",
+     "goals": 1
     },
     {
      "name": "Pálffy Tamás",
-     "goals": 7,
-     "teamId": "1544"
+     "teamId": "1544",
+     "goals": 7
     },
     {
      "name": "Pados Szilárd Marcell",
-     "goals": 2,
-     "teamId": "1544"
+     "teamId": "1544",
+     "goals": 2
     }
    ],
    "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
-   "id": "x-55-L5C-202611232100-malaj-medve-se-ment-melle-is",
-   "siteId": null,
+   "id": "57137",
+   "siteId": 57137,
    "homeTeamId": "75",
    "awayTeamId": "132",
    "kickoff": "2026-11-23T21:00:00.000Z",
    "venue": "Bogdánfy_1",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "x-55-L5C-202611252100-ment-melle-is-pinatinaikos",
@@ -2440,7 +2465,7 @@
    "teamId": "241",
    "bestLeague": "L5A",
    "topScorer": {
-    "name": "Péntek Péter",
+    "name": "Elekes Dániel",
     "goals": 6
    },
    "seasonsCount": 3,
@@ -2490,7 +2515,7 @@
    "teamId": "1473",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Szekeres Kornél",
+    "name": "Tóth Martin",
     "goals": 3
    },
    "seasonsCount": 4,

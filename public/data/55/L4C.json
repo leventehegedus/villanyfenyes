@@ -1907,8 +1907,8 @@
    "scorers": [
     {
      "name": "Lukács Gergely",
-     "goals": 4,
-     "teamId": "131"
+     "teamId": "131",
+     "goals": 4
     }
    ],
    "detailFetchedAt": "2026-11-23T12:39:36.663Z"
@@ -1945,7 +1945,7 @@
      "teamId": "47"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57244",
@@ -1984,7 +1984,7 @@
      "teamId": "153"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57267",
@@ -1999,28 +1999,28 @@
    "scorers": [
     {
      "name": "Lovas Zoltán",
-     "goals": 2,
-     "teamId": "173"
+     "teamId": "173",
+     "goals": 2
     },
     {
      "name": "Mongyi Zoltán",
-     "goals": 2,
-     "teamId": "173"
+     "teamId": "173",
+     "goals": 2
     },
     {
      "name": "Bantó Csaba Szabolcs",
-     "goals": 2,
-     "teamId": "1504"
+     "teamId": "1504",
+     "goals": 2
     },
     {
      "name": "Vranik Krisztian",
-     "goals": 1,
-     "teamId": "1504"
+     "teamId": "1504",
+     "goals": 1
     },
     {
      "name": "Nádasdi Péter",
-     "goals": 1,
-     "teamId": "1504"
+     "teamId": "1504",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-23T12:39:36.663Z"
@@ -2071,7 +2071,7 @@
      "teamId": "131"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57346",
@@ -2086,59 +2086,59 @@
    "scorers": [
     {
      "name": "Szécsényi Szilárd",
-     "goals": 3,
-     "teamId": "101"
+     "teamId": "101",
+     "goals": 3
     },
     {
      "name": "Glück Péter",
-     "goals": 2,
-     "teamId": "101"
+     "teamId": "101",
+     "goals": 2
     },
     {
      "name": "Rostás Tibor",
-     "goals": 1,
-     "teamId": "101"
+     "teamId": "101",
+     "goals": 1
     },
     {
      "name": "Tucsek Balázs",
-     "goals": 1,
-     "teamId": "101"
+     "teamId": "101",
+     "goals": 1
     },
     {
      "name": "Langer Attila",
-     "goals": 1,
-     "teamId": "101"
+     "teamId": "101",
+     "goals": 1
     },
     {
      "name": "Máté Tibor Mestyanek",
-     "goals": 1,
-     "teamId": "101"
+     "teamId": "101",
+     "goals": 1
     },
     {
      "name": "Péter Németh",
-     "goals": 4,
-     "teamId": "1513"
+     "teamId": "1513",
+     "goals": 4
     },
     {
      "name": "Szabó Szilárd",
-     "goals": 1,
-     "teamId": "1513"
+     "teamId": "1513",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-23T12:39:36.663Z"
   },
   {
-   "id": "x-55-L4C-202611231600-selecao-los-magos",
-   "siteId": null,
+   "id": "56550",
+   "siteId": 56550,
    "homeTeamId": "153",
    "awayTeamId": "1512",
    "kickoff": "2026-11-23T16:00:00.000Z",
    "venue": "Bogdánfy_1",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "x-55-L4C-202611251800-gabszk-meccs-lemondva-fc",
@@ -2361,7 +2361,7 @@
    "teamId": "1504",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Pothóczki Ábel",
+    "name": "Purosz Leonidasz",
     "goals": 5
    },
    "seasonsCount": 3,
@@ -2371,7 +2371,7 @@
    "teamId": "1512",
    "bestLeague": "L4C",
    "topScorer": {
-    "name": "Péter Adrián",
+    "name": "Tóth Domonkos",
     "goals": 4
    },
    "seasonsCount": 2,

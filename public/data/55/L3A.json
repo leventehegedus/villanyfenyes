@@ -1945,7 +1945,7 @@
      "teamId": "26"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57220",
@@ -1992,7 +1992,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57324",
@@ -2031,7 +2031,7 @@
      "teamId": "26"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57288",
@@ -2063,9 +2063,29 @@
      "name": "Méhes Levente",
      "goals": 1,
      "teamId": "161"
+    },
+    {
+     "name": "Richlik Róbert Kristóf",
+     "goals": 3,
+     "teamId": "198"
+    },
+    {
+     "name": "Tihanyi Márton",
+     "goals": 3,
+     "teamId": "198"
+    },
+    {
+     "name": "Kovács Dominik",
+     "goals": 3,
+     "teamId": "198"
+    },
+    {
+     "name": "Rékasy Zoltán",
+     "goals": 2,
+     "teamId": "198"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57627",
@@ -2080,46 +2100,46 @@
    "scorers": [
     {
      "name": "Nagy Márton",
-     "teamId": "60",
-     "goals": 3
+     "goals": 3,
+     "teamId": "60"
     },
     {
      "name": "Makai Kristóf",
-     "teamId": "60",
-     "goals": 1
+     "goals": 1,
+     "teamId": "60"
     },
     {
      "name": "Takács Máté",
-     "teamId": "60",
-     "goals": 1
+     "goals": 1,
+     "teamId": "60"
     },
     {
      "name": "Krányecz Csaba",
-     "teamId": "60",
-     "goals": 1
+     "goals": 1,
+     "teamId": "60"
     },
     {
      "name": "Pap Zsombor",
-     "teamId": "165",
-     "goals": 2
+     "goals": 2,
+     "teamId": "165"
     },
     {
      "name": "Krisztián Dávid",
-     "teamId": "165",
-     "goals": 1
+     "goals": 1,
+     "teamId": "165"
     },
     {
      "name": "Czakó Tamás László",
-     "teamId": "165",
-     "goals": 1
+     "goals": 1,
+     "teamId": "165"
     },
     {
      "name": "Németh Norbert",
-     "teamId": "165",
-     "goals": 1
+     "goals": 1,
+     "teamId": "165"
     }
    ],
-   "detailFetchedAt": "2026-11-22T22:23:42.395Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57352",
@@ -2138,33 +2158,54 @@
      "teamId": "1480"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
-   "id": "x-55-L3A-202611231800-stabilizatorok-penisz-land",
-   "siteId": null,
+   "id": "48370",
+   "siteId": 48370,
    "homeTeamId": "18",
    "awayTeamId": "208",
    "kickoff": "2026-11-23T18:00:00.000Z",
    "venue": "Bogdánfy_2",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
-   "id": "x-55-L3A-202611231900-berug-fc-kungfuci",
-   "siteId": null,
+   "id": "57365",
+   "siteId": 57365,
    "homeTeamId": "82",
    "awayTeamId": "198",
    "kickoff": "2026-11-23T19:00:00.000Z",
    "venue": "Bogdánfy_4",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [
+    {
+     "name": "Rékasy Zoltán",
+     "goals": 3,
+     "teamId": "198"
+    },
+    {
+     "name": "Tihanyi Márton",
+     "goals": 3,
+     "teamId": "198"
+    },
+    {
+     "name": "Richlik Róbert Kristóf",
+     "goals": 2,
+     "teamId": "198"
+    },
+    {
+     "name": "Kovács Dominik",
+     "goals": 1,
+     "teamId": "198"
+    }
+   ],
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "x-55-L3A-202611241900-more-czuczor-more-party-light-os",
@@ -2364,7 +2405,7 @@
    "teamId": "26",
    "bestLeague": "L2A",
    "topScorer": {
-    "name": "Németh Richárd",
+    "name": "Orosz Dávid",
     "goals": 5
    },
    "seasonsCount": 9,

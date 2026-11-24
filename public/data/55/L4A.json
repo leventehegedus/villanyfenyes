@@ -2005,7 +2005,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57323",
@@ -2020,26 +2020,26 @@
    "scorers": [
     {
      "name": "Papp Zsombor István",
-     "teamId": "1471",
-     "goals": 3
+     "goals": 3,
+     "teamId": "1471"
     },
     {
      "name": "Brandt Péter Benedek",
-     "teamId": "1471",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1471"
     },
     {
      "name": "Hasanbegovic Sasa",
-     "teamId": "1471",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1471"
     },
     {
      "name": "Helmes Vilmos",
-     "teamId": "1471",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1471"
     }
    ],
-   "detailFetchedAt": "2026-11-22T19:39:39.355Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "x-55-L4A-202611241700-kek-labdak-entspannter-team",

@@ -1815,7 +1815,7 @@
      "teamId": "1556"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57331",
@@ -1844,7 +1844,7 @@
      "teamId": "232"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57298",
@@ -1878,7 +1878,7 @@
      "teamId": "1566"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57327",
@@ -1927,7 +1927,7 @@
      "teamId": "1556"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "57310",
@@ -1940,7 +1940,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
   },
   {
    "id": "x-55-L5H-202611242000-busquets-serege-rosario-juniors",
@@ -2219,7 +2219,7 @@
    "teamId": "35",
    "bestLeague": "L3C",
    "topScorer": {
-    "name": "Mórocz Bence",
+    "name": "Kész Roland",
     "goals": 6
    },
    "seasonsCount": 6,
@@ -2259,7 +2259,7 @@
    "teamId": "225",
    "bestLeague": "L5C",
    "topScorer": {
-    "name": "Kozma Boldizsár",
+    "name": "Komáromy Áron",
     "goals": 2
    },
    "seasonsCount": 4,
