@@ -100,7 +100,7 @@ export default function WhatIfCalculator({ data, keep, value, onChange }: Props)
           </Button>
         </div>
         {open.length === 0 && <p className="text-sm text-muted-foreground">{t('whatIfNone')}</p>}
-        <ul className={cn('divide-y rounded-xl border bg-card', STRIPED_LIST)}>
+        <ul className={cn('divide-y divide-border/60', STRIPED_LIST)}>
           {open.map((m) => {
             const score = value.get(m.id)
             const home = name.get(m.homeTeamId) ?? m.homeTeamId
