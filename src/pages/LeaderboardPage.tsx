@@ -6,8 +6,9 @@ import { EmptyState, QueryBoundary } from '@/components/QueryBoundary'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { useT } from '@/hooks/prefs'
-import { useLeaderboard } from '@/hooks/queries'
+import { useLeaderboard, useLeague, useSeasons } from '@/hooks/queries'
 import type { MessageKey } from '@/i18n/dict'
+import { cn } from '@/lib/utils'
 import { rankBy } from '@/lib/alltime'
 import type { LeaderboardKey } from '@/lib/alltime'
 import { DataError } from '@/lib/data'
@@ -23,7 +24,7 @@ const BOARDS: { key: LeaderboardKey; title: MessageKey; note: MessageKey }[] = [
 ]
 
 /** One ranking: top ten, the rest behind a toggle; teams link to their all-time page. */
-function Board({ rows, board }: { rows: readonly LeaderboardRow[]; board: (typeof BOARDS)[number] }) {
+function Board({ rows, board, current }: { rows: readonly LeaderboardRow[]; board: (typeof BOARDS)[number]; current: ReadonlySet<string> }) {
   const t = useT()
   const [open, setOpen] = useState(false)
   const ranked = rankBy(rows, board.key)
@@ -45,7 +46,7 @@ function Board({ rows, board }: { rows: readonly LeaderboardRow[]; board: (typeo
               <li key={r.teamId} {...rowProps(r.rank, i)}>
                 <div className="flex items-baseline gap-2 px-2 py-1.5">
                 <span className="tabular w-6 shrink-0 text-right text-muted-foreground">{r.rank}.</span>
-                <Link to={`/t/${encodeURIComponent(r.teamId)}/osszes`} className="min-w-0 flex-1 truncate hover:underline">
+                <Link to={`/t/${encodeURIComponent(r.teamId)}/osszes`} className={cn('min-w-0 flex-1 truncate hover:underline', current.has(r.teamId) && 'font-bold')}>
                   {r.name}
                 </Link>
                 <span className="tabular font-semibold">{r.value}</span>
@@ -68,10 +69,14 @@ export default function LeaderboardPage() {
   const t = useT()
   const query = useLeaderboard()
   const missing = query.error instanceof DataError && query.error.missing
+  const currentSeason = useSeasons().data?.currentSeasonId ?? null
+  // Teams of the current L1 are set in bold; if that file fails to load, nothing is bold.
+  const current = new Set(useLeague(currentSeason, 'L1', true).data?.teams.map((x) => x.id))
   return (
     <div className="space-y-4">
       <PageHeader title={t('leaderboardTitle')} picker={false}>
         <p className="text-sm text-muted-foreground">{t('leaderboardNote')}</p>
+        <p className="text-sm text-muted-foreground">{t('leaderboardCurrentL1')}</p>
       </PageHeader>
       {missing ? (
         <EmptyState>{t('noData')}</EmptyState>
@@ -80,7 +85,7 @@ export default function LeaderboardPage() {
           {(data) => (
             <div className="grid gap-4 md:grid-cols-2">
               {BOARDS.map((b) => (
-                <Board key={b.key} rows={data.rows} board={b} />
+                <Board key={b.key} rows={data.rows} board={b} current={current} />
               ))}
             </div>
           )}
