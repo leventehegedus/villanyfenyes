@@ -60,7 +60,7 @@ export function DayMatches() {
       {groups.length > 0 ? (
         groups.map((g) => (
           <section key={g.league} aria-labelledby={`day-${g.league}`}>
-            <h3 id={`day-${g.league}`} className="mb-1 px-2 text-xs font-semibold tracking-wide text-muted-foreground uppercase">
+            <h3 id={`day-${g.league}`} className="mb-1 px-2 text-center text-xs font-semibold tracking-wide text-muted-foreground uppercase">
               <Link to={`/?s=${seasonId ?? ''}&l=${g.league}`} className="hover:underline">
                 {g.league}
               </Link>

@@ -70,7 +70,7 @@ export function MatchList({
           className="scroll-mt-32"
           aria-label={g.week ?? t('noKickoff')}
         >
-          <h3 className="mb-1 px-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+          <h3 className="mb-1 px-2 text-center text-xs font-semibold uppercase tracking-wide text-muted-foreground">
             {g.week ? t('weekOf', { date: formatDay(`${g.week}T12:00:00Z`, prefs.locale, 'UTC') }) : t('noKickoff')}
           </h3>
           <ul className={cn('divide-y divide-border/60', STRIPED_LIST)}>
