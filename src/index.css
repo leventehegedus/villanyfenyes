@@ -106,6 +106,8 @@
     --draw: oklch(0.55 0.02 258);
     --loss: oklch(0.55 0.19 27);
     --seq: oklch(0.82 0.17 90);
+    /* Alternating row background for lists and rankings. */
+    --stripe: color-mix(in oklab, var(--foreground) 3%, var(--background));
     --medal-1: #c9a227;
     --medal-2: #8e98a3;
     --medal-3: #9a4f1f;
@@ -157,6 +159,7 @@
     --draw: oklch(0.72 0.02 258);
     --loss: oklch(0.72 0.16 25);
     --seq: oklch(0.86 0.17 95);
+    --stripe: color-mix(in oklab, var(--foreground) 5%, var(--background));
     --medal-1: #d6aa2e;
     --medal-2: #8f9aa6;
     --medal-3: #b8642e;
