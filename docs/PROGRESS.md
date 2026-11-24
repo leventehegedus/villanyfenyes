@@ -50,3 +50,7 @@ Statisztika: the "Esélyek" tab is merged into "Mi lenne, ha · esélyek". The p
 ## 2026-11-20 all leagues (done)
 
 `ENABLED_LEAGUES` now lists all 19 leagues. Season 55 (2026 Ősz) ingested for all of them (898 requests, 0 pending match pages); the scheduled ingest keeps them current. Site order differs from the tie-break rules in 55/L3A, 55/L4C, 55/L5C (warning only). Next: browser check of the league picker and leaderboard with 19 leagues; optional backfill of earlier seasons for the lower leagues.
+
+## Restyle: Sporta-inspired look (branch `design/sporta`)
+
+Visual language taken from sporta.framer.ai: Clash Display (self-hosted woff2 in `src/assets/fonts`, Fontshare ITF Free Font License, Hungarian glyphs checked) set in caps for `font-heading`, Geist body; black/white base, `#F5F5F5`-style cards without ring, mint accent with green text, cream footer (`--cream`), `--radius: 0`; dark theme derived (near-black green, mint accent). Black sticky header with white active tab, floating dark bottom nav on mobile, larger page titles. Done on tokens and primitives only (`index.css`, `button`, `badge`, `card`, `Layout`, `PageHeader`); no page-level changes, no photography. Checked in the browser: desktop light, mobile dark. Next: review on the remaining pages, decide whether to merge.

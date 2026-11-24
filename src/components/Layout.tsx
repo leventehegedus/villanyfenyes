@@ -21,15 +21,32 @@ const PRIMARY: NavItem[] = [
   { to: '/menetrend', label: 'navSchedule', icon: CalendarDays },
   { to: '/golok', label: 'navScorers', icon: Target },
 ]
-const SECONDARY: NavItem[] = [
+const MORE: NavItem[] = [
   { to: '/statisztika', label: 'navStats', icon: BarChart3 },
   { to: '/orokranglista', label: 'navLeaderboard', icon: Trophy },
-  { to: '/beallitasok', label: 'navSettings', icon: Settings },
 ]
+const SETTINGS: NavItem = { to: '/beallitasok', label: 'navSettings', icon: Settings }
+const SECONDARY: NavItem[] = [...MORE, SETTINGS]
 
 const THEME_ICON: Record<Prefs['theme'], LucideIcon> = { system: SunMoon, light: Sun, dark: Moon }
 
-function NavItems({ items, keep, className, onNavigate }: { items: NavItem[]; keep: string; className?: string; onNavigate?: () => void }) {
+// The bars are dark in both themes, so their links use fixed light-on-dark colours.
+const ON_DARK = 'text-white/70 hover:bg-white/10 hover:text-white'
+const ON_DARK_ACTIVE = 'bg-white text-neutral-950 hover:bg-white hover:text-neutral-950'
+
+function NavItems({
+  items,
+  keep,
+  className,
+  activeClassName = 'bg-accent text-accent-foreground',
+  onNavigate,
+}: {
+  items: NavItem[]
+  keep: string
+  className?: string
+  activeClassName?: string
+  onNavigate?: () => void
+}) {
   const t = useT()
   return items.map(({ to, label, icon: Icon }) => (
     <NavLink
@@ -38,7 +55,7 @@ function NavItems({ items, keep, className, onNavigate }: { items: NavItem[]; ke
       end={to === '/'}
       onClick={onNavigate}
       className={({ isActive }) =>
-        cn('flex items-center gap-1.5 rounded-md px-2 py-1.5 text-sm transition-colors hover:bg-accent', isActive && 'bg-accent font-semibold', className)
+        cn('flex items-center gap-1.5 px-2 py-1.5 font-heading text-[13px] font-semibold transition-colors hover:bg-accent', className, isActive && activeClassName)
       }
     >
       <Icon className="size-4" aria-hidden />
@@ -47,19 +64,27 @@ function NavItems({ items, keep, className, onNavigate }: { items: NavItem[]; ke
   ))
 }
 
-function HeaderControls() {
+function HeaderControls({ keep }: { keep: string }) {
   const t = useT()
   const { prefs, update } = usePrefs()
   const ThemeIcon = THEME_ICON[prefs.theme]
   return (
     <div className="flex items-center gap-1">
-      <Button variant="ghost" size="sm" onClick={() => update({ locale: prefs.locale === 'hu' ? 'en' : 'hu' })} lang={prefs.locale === 'hu' ? 'en' : 'hu'}>
+      <NavLink
+        to={`${SETTINGS.to}${keep}`}
+        aria-label={t(SETTINGS.label)}
+        title={t(SETTINGS.label)}
+        className={({ isActive }) => cn('hidden size-8 items-center justify-center lg:flex', isActive ? ON_DARK_ACTIVE : ON_DARK)}
+      >
+        <Settings className="size-4" aria-hidden />
+      </NavLink>
+      <Button variant="ghost" size="sm" className={ON_DARK} onClick={() => update({ locale: prefs.locale === 'hu' ? 'en' : 'hu' })} lang={prefs.locale === 'hu' ? 'en' : 'hu'}>
         {prefs.locale === 'hu' ? 'EN' : 'HU'}
         <span className="sr-only">{t('toggleLanguage')}</span>
       </Button>
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
-          <Button variant="ghost" size="icon" aria-label={t('toggleTheme')}>
+          <Button variant="ghost" size="icon" className={ON_DARK} aria-label={t('toggleTheme')}>
             <ThemeIcon aria-hidden />
           </Button>
         </DropdownMenuTrigger>
@@ -86,30 +111,27 @@ export function Layout() {
       <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:z-50 focus:bg-background focus:p-2">
         {t('skipToContent')}
       </a>
-      <header className="sticky top-0 z-30 border-b bg-background/85 backdrop-blur supports-[backdrop-filter]:bg-background/70">
-        <div className="pointer-events-none absolute inset-x-0 -top-10 h-24 bg-[radial-gradient(ellipse_at_top,var(--glow),transparent_70%)]" aria-hidden />
-        <div className="relative mx-auto flex max-w-5xl items-center justify-between gap-2 px-3 py-2">
-          <NavLink to={`/${keep}`} className="flex items-baseline gap-2">
-            <span className="font-heading text-lg font-bold tracking-tight">
-              <span className="text-primary">●</span> {t('appName')}
-            </span>
-            <span className="hidden text-xs text-muted-foreground sm:inline">{t('appTagline')}</span>
+      <header className="sticky top-0 z-30 bg-neutral-950 text-white">
+        <div className="mx-auto flex max-w-5xl items-center justify-between gap-2 px-3 py-2.5">
+          <NavLink to={`/${keep}`} className="flex shrink-0 items-center gap-2">
+            <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="" className="size-7" />
+            <span className="font-heading text-xl font-bold whitespace-nowrap">{t('appName')}</span>
           </NavLink>
-          <nav aria-label={t('menu')} className="hidden items-center gap-0.5 md:flex">
-            <NavItems items={[...PRIMARY, ...SECONDARY]} keep={keep} />
+          <nav aria-label={t('menu')} className="hidden items-center gap-0.5 lg:flex [&_svg]:hidden 2xl:[&_svg]:block">
+            <NavItems items={[...PRIMARY, ...MORE]} keep={keep} className={ON_DARK} activeClassName={ON_DARK_ACTIVE} />
           </nav>
-          <HeaderControls />
+          <HeaderControls keep={keep} />
         </div>
       </header>
       <DataStatus />
 
-      <main id="main" className="mx-auto w-full max-w-5xl flex-1 px-3 pt-4 pb-24 md:pb-8">
+      <main id="main" className="mx-auto w-full max-w-5xl flex-1 px-3 pt-6 pb-28 lg:pb-10">
         <Suspense fallback={<ListSkeleton />}>
           <Outlet />
         </Suspense>
       </main>
 
-      <footer className="border-t px-3 pt-4 pb-24 text-xs text-muted-foreground md:pb-6">
+      <footer className="bg-cream px-3 pt-8 pb-28 text-xs text-muted-foreground lg:pb-8">
         <div className="mx-auto max-w-5xl space-y-1">
           <p lang="hu">{t('disclaimer')}</p>
           <a href={sourceUrl} target="_blank" rel="noreferrer" className="underline underline-offset-2">
@@ -118,9 +140,12 @@ export function Layout() {
         </div>
       </footer>
 
-      <nav aria-label={t('menu')} className="fixed inset-x-0 bottom-0 z-30 grid grid-cols-4 border-t bg-background/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden">
-        <NavItems items={PRIMARY} keep={keep} className="flex-col gap-0.5 rounded-none py-2 text-[11px]" />
-        <button type="button" onClick={() => setMoreOpen(true)} className="flex flex-col items-center gap-0.5 py-2 text-[11px] hover:bg-accent">
+      <nav
+        aria-label={t('menu')}
+        className="fixed inset-x-3 bottom-[max(0.75rem,env(safe-area-inset-bottom))] z-30 grid grid-cols-4 gap-1 bg-neutral-950/90 p-1 text-white shadow-lg backdrop-blur lg:hidden"
+      >
+        <NavItems items={PRIMARY} keep={keep} className={cn(ON_DARK, 'flex-col gap-0.5 py-2 text-[10px]')} activeClassName={ON_DARK_ACTIVE} />
+        <button type="button" onClick={() => setMoreOpen(true)} className={cn(ON_DARK, 'flex flex-col items-center gap-0.5 py-2 font-heading text-[10px] font-semibold')}>
           <Menu className="size-4" aria-hidden />
           {t('menu')}
         </button>

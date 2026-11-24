@@ -1,7 +1,7 @@
 import { Link } from 'react-router'
 import { MatchList } from '@/components/MatchList'
+import { PageHeader } from '@/components/PageHeader'
 import { EmptyState, QueryBoundary } from '@/components/QueryBoundary'
-import { SeasonLeaguePicker } from '@/components/SeasonLeaguePicker'
 import { StandingsTable } from '@/components/StandingsTable'
 import { Card, CardAction, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { useT } from '@/hooks/prefs'
@@ -17,10 +17,7 @@ export default function StandingsPage() {
 
   return (
     <div className="space-y-5">
-      <div className="flex flex-wrap items-end justify-between gap-3">
-        <h1 className="font-heading text-2xl font-bold tracking-tight">{t('navStandings')}</h1>
-        <SeasonLeaguePicker />
-      </div>
+      <PageHeader title={t('navStandings')} />
       <QueryBoundary query={query} idle={noData || seasonId === null || league === null}>
         {(data) =>
           data.standings.length === 0 ? (
