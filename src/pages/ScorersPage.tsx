@@ -1,7 +1,6 @@
-import type { CSSProperties } from 'react'
 import { Link } from 'react-router'
 import { Search } from 'lucide-react'
-import { ROW_CLASS, rowBase } from '@/components/row-style'
+import { rowProps } from '@/components/row-style'
 import { PageHeader } from '@/components/PageHeader'
 import { EmptyState, QueryBoundary } from '@/components/QueryBoundary'
 import { TeamMultiSelect } from '@/components/TeamMultiSelect'
@@ -61,7 +60,7 @@ export default function ScorersPage() {
                     </TableHeader>
                     <TableBody>
                       {shown.map((r, i) => (
-                        <TableRow key={`${r.teamId}-${r.name}`} style={{ '--row-base': rowBase(r.rank, i) } as CSSProperties} className={ROW_CLASS}>
+                        <TableRow key={`${r.teamId}-${r.name}`} {...rowProps(r.rank, i)}>
                           <TableCell className="tabular text-center">{r.rank}</TableCell>
                           <TableCell className="font-medium">
                             <Link to={playerPath(r.teamId, r.name, keep)} className="hover:underline">

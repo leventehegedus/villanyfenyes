@@ -101,7 +101,7 @@ export function StandingsTable({ rows, matches, teamName, keep, sort, onSort, hi
           {sorted.map((r, i) => {
             const name = teamName(r.teamId)
             const mine = highlight?.includes(r.teamId) ?? false
-            const base = mine ? 'var(--muted)' : rowBase(r.position, i)
+            const base = rowBase(r.position, i)
             // Last safe row before the relegation zone; only meaningful in table order.
             const cutoff = key === 'position' && !isRelegated(r) && isRelegated(sorted[i + 1])
             // Sticky cells need their own opaque background, so the row colour (and its hover) lives in --row-bg.
@@ -117,7 +117,7 @@ export function StandingsTable({ rows, matches, teamName, keep, sort, onSort, hi
                 )}
                 aria-current={mine || undefined}
               >
-                <TableCell className={cn('tabular sticky left-0 z-10 px-1 text-center font-medium', stickyBg)}>{r.position}</TableCell>
+                <TableCell className={cn('tabular sticky left-0 z-10 px-1 text-center font-medium', stickyBg, mine && 'shadow-[inset_3px_0_0_var(--primary)]')}>{r.position}</TableCell>
                 <TableCell className={cn('sticky left-7 z-10 w-full max-w-28 px-1 py-1.5 sm:max-w-none', stickyBg)}>
                   <div className="flex items-center gap-1">
                     <div className="min-w-0">

@@ -1,6 +1,7 @@
 import { Link } from 'react-router'
 import { Stat } from '@/components/Stat'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { rowProps } from '@/components/row-style'
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table'
 import { usePrefs, useT } from '@/hooks/prefs'
 import { opponentHighlights, rates } from '@/lib/alltime'
@@ -108,7 +109,7 @@ export function AllTimeScorers({ file }: { file: TeamAllTimeData }) {
                 </TableHeader>
                 <TableBody>
                   {rows.map((r, i) => (
-                    <TableRow key={r.name}>
+                    <TableRow key={r.name} {...rowProps(i + 1, i)}>
                       <TableCell className="tabular text-muted-foreground">{i + 1}</TableCell>
                       <TableCell>{r.name}</TableCell>
                       <TableCell className="tabular text-right font-semibold">{r.goals}</TableCell>

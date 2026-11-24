@@ -2,6 +2,7 @@ import { ArrowDown, ArrowUp, Minus, RotateCcw } from 'lucide-react'
 import { Link } from 'react-router'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
+import { rowProps } from '@/components/row-style'
 import { TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table'
 import { usePrefs, useT } from '@/hooks/prefs'
 import type { LeagueData } from '@/lib/data'
@@ -70,8 +71,8 @@ export default function WhatIfCalculator({ data, keep, value, onChange }: Props)
             </TableRow>
           </TableHeader>
           <TableBody>
-            {table.map((r) => (
-              <TableRow key={r.teamId}>
+            {table.map((r, i) => (
+              <TableRow key={r.teamId} {...rowProps(r.position, i)}>
                 <TableCell className="tabular text-center font-medium">{r.position}</TableCell>
                 <TableCell className="text-center">
                   <Change n={r.change} />

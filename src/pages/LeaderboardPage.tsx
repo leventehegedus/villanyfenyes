@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router'
+import { rowProps } from '@/components/row-style'
 import { PageHeader } from '@/components/PageHeader'
 import { EmptyState, QueryBoundary } from '@/components/QueryBoundary'
 import { Button } from '@/components/ui/button'
@@ -39,14 +40,16 @@ function Board({ rows, board }: { rows: readonly LeaderboardRow[]; board: (typeo
         {ranked.length === 0 ? (
           <p className="text-sm text-muted-foreground">{t('noData')}</p>
         ) : (
-          <ol className="space-y-1 text-sm">
-            {shown.map((r) => (
-              <li key={r.teamId} className="flex items-baseline gap-2">
+          <ol className="text-sm">
+            {shown.map((r, i) => (
+              <li key={r.teamId} {...rowProps(r.rank, i)}>
+                <div className="flex items-baseline gap-2 px-2 py-1.5">
                 <span className="tabular w-6 shrink-0 text-right text-muted-foreground">{r.rank}.</span>
                 <Link to={`/t/${encodeURIComponent(r.teamId)}/osszes`} className="min-w-0 flex-1 truncate hover:underline">
                   {r.name}
                 </Link>
                 <span className="tabular font-semibold">{r.value}</span>
+                </div>
               </li>
             ))}
           </ol>
