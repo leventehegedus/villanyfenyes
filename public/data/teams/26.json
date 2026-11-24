@@ -14,13 +14,13 @@
    "teamsInLeague": 12,
    "marker": "promotion",
    "totals": {
-    "played": 7,
-    "won": 5,
+    "played": 8,
+    "won": 6,
     "drawn": 0,
     "lost": 2,
-    "goalsFor": 43,
+    "goalsFor": 48,
     "goalsAgainst": 29,
-    "points": 15
+    "points": 18
    }
   }
  ],
@@ -114,6 +114,19 @@
     "goalsFor": 2,
     "goalsAgainst": 5,
     "points": 0
+   }
+  },
+  {
+   "teamId": "1479",
+   "name": "Light OS",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 0,
+    "points": 3
    }
   }
  ],
@@ -211,12 +224,18 @@
    }
   }
  },
- "cleanSheets": 1,
+ "cleanSheets": 2,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 7,
-  "coveredMatches": 7,
+  "playedMatches": 8,
+  "coveredMatches": 8,
   "rows": [
+   {
+    "name": "Orosz Dávid",
+    "goals": 11,
+    "matches": 3,
+    "hatTricks": 2
+   },
    {
     "name": "Zsoldos Áron",
     "goals": 10,
@@ -227,12 +246,6 @@
     "name": "Csipor Előd",
     "goals": 6,
     "matches": 3,
-    "hatTricks": 1
-   },
-   {
-    "name": "Orosz Dávid",
-    "goals": 6,
-    "matches": 2,
     "hatTricks": 1
    },
    {

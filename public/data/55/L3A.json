@@ -87,15 +87,16 @@
   {
    "position": 2,
    "teamId": "26",
-   "played": 7,
-   "won": 5,
+   "played": 8,
+   "won": 6,
    "drawn": 0,
    "lost": 2,
-   "goalsFor": 43,
+   "goalsFor": 48,
    "goalsAgainst": 29,
-   "goalDiff": 14,
-   "points": 15,
+   "goalDiff": 19,
+   "points": 18,
    "markers": [
+    "manyGoals",
     "fewConceded",
     "promotion"
    ]
@@ -178,15 +179,17 @@
   {
    "position": 8,
    "teamId": "1479",
-   "played": 6,
+   "played": 7,
    "won": 2,
    "drawn": 2,
-   "lost": 2,
+   "lost": 3,
    "goalsFor": 39,
-   "goalsAgainst": 48,
-   "goalDiff": -9,
+   "goalsAgainst": 53,
+   "goalDiff": -14,
    "points": 8,
-   "markers": []
+   "markers": [
+    "lossStreak"
+   ]
   },
   {
    "position": 9,
@@ -1935,17 +1938,17 @@
    "awayTeamId": "1479",
    "kickoff": "2026-11-10T20:00:00.000Z",
    "venue": "Bogdánfy_3",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "status": "played",
    "scorers": [
     {
      "name": "Orosz Dávid",
-     "teamId": "26",
-     "goals": 5
+     "goals": 5,
+     "teamId": "26"
     }
    ],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "57220",
@@ -1991,8 +1994,14 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "scorers": [
+    {
+     "name": "Tátrai Brúnó",
+     "goals": 4,
+     "teamId": "1479"
+    }
+   ],
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "57324",
@@ -2007,31 +2016,31 @@
    "scorers": [
     {
      "name": "Németh Richárd",
-     "teamId": "26",
-     "goals": 2
+     "goals": 2,
+     "teamId": "26"
     },
     {
      "name": "Mikesy Tamás",
-     "teamId": "26",
-     "goals": 1
+     "goals": 1,
+     "teamId": "26"
     },
     {
      "name": "Kiss János",
-     "teamId": "26",
-     "goals": 1
+     "goals": 1,
+     "teamId": "26"
     },
     {
      "name": "Csipor Előd",
-     "teamId": "26",
-     "goals": 1
+     "goals": 1,
+     "teamId": "26"
     },
     {
      "name": "Selmeczi Péter",
-     "teamId": "26",
-     "goals": 1
+     "goals": 1,
+     "teamId": "26"
     }
    ],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "57288",
@@ -2046,46 +2055,46 @@
    "scorers": [
     {
      "name": "Xeravits Domonkos",
-     "teamId": "161",
-     "goals": 7
+     "goals": 7,
+     "teamId": "161"
     },
     {
      "name": "Kovács Kristóf",
-     "teamId": "161",
-     "goals": 3
+     "goals": 3,
+     "teamId": "161"
     },
     {
      "name": "Dányi Gellért",
-     "teamId": "161",
-     "goals": 2
+     "goals": 2,
+     "teamId": "161"
     },
     {
      "name": "Méhes Levente",
-     "teamId": "161",
-     "goals": 1
+     "goals": 1,
+     "teamId": "161"
     },
     {
      "name": "Richlik Róbert Kristóf",
-     "teamId": "198",
-     "goals": 3
+     "goals": 3,
+     "teamId": "198"
     },
     {
      "name": "Tihanyi Márton",
-     "teamId": "198",
-     "goals": 3
+     "goals": 3,
+     "teamId": "198"
     },
     {
      "name": "Kovács Dominik",
-     "teamId": "198",
-     "goals": 3
+     "goals": 3,
+     "teamId": "198"
     },
     {
      "name": "Rékasy Zoltán",
-     "teamId": "198",
-     "goals": 2
+     "goals": 2,
+     "teamId": "198"
     }
    ],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "57627",
@@ -2154,11 +2163,11 @@
    "scorers": [
     {
      "name": "Vizkeleti Alex",
-     "teamId": "1480",
-     "goals": 5
+     "goals": 5,
+     "teamId": "1480"
     }
    ],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "48370",
@@ -2171,7 +2180,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "57365",
@@ -2186,26 +2195,26 @@
    "scorers": [
     {
      "name": "Rékasy Zoltán",
-     "teamId": "198",
-     "goals": 3
+     "goals": 3,
+     "teamId": "198"
     },
     {
      "name": "Tihanyi Márton",
-     "teamId": "198",
-     "goals": 3
+     "goals": 3,
+     "teamId": "198"
     },
     {
      "name": "Richlik Róbert Kristóf",
-     "teamId": "198",
-     "goals": 2
+     "goals": 2,
+     "teamId": "198"
     },
     {
      "name": "Kovács Dominik",
-     "teamId": "198",
-     "goals": 1
+     "goals": 1,
+     "teamId": "198"
     }
    ],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "x-55-L3A-202611241900-more-czuczor-more-party-light-os",
@@ -2409,7 +2418,7 @@
     "goals": 5
    },
    "seasonsCount": 9,
-   "matchesPlayed": 7
+   "matchesPlayed": 8
   },
   {
    "teamId": "82",
@@ -2469,7 +2478,7 @@
     "goals": 8
    },
    "seasonsCount": 3,
-   "matchesPlayed": 6
+   "matchesPlayed": 7
   },
   {
    "teamId": "176",

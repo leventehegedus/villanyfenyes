@@ -1870,7 +1870,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "57342",
@@ -1885,31 +1885,31 @@
    "scorers": [
     {
      "name": "Mészáros Sándor Máté",
-     "teamId": "170",
-     "goals": 4
+     "goals": 4,
+     "teamId": "170"
     },
     {
      "name": "Fertig Dávid",
-     "teamId": "170",
-     "goals": 3
+     "goals": 3,
+     "teamId": "170"
     },
     {
      "name": "Kecskeméti Balázs",
-     "teamId": "170",
-     "goals": 2
+     "goals": 2,
+     "teamId": "170"
     },
     {
      "name": "Kosztyu Ádám",
-     "teamId": "170",
-     "goals": 1
+     "goals": 1,
+     "teamId": "170"
     },
     {
      "name": "Nagy Dániel",
-     "teamId": "170",
-     "goals": 1
+     "goals": 1,
+     "teamId": "170"
     }
    ],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "57300",
@@ -1924,31 +1924,31 @@
    "scorers": [
     {
      "name": "Erdei Krisztián",
-     "teamId": "38",
-     "goals": 5
+     "goals": 5,
+     "teamId": "38"
     },
     {
      "name": "Lakatos István Levente",
-     "teamId": "38",
-     "goals": 3
+     "goals": 3,
+     "teamId": "38"
     },
     {
      "name": "Romsics Péter",
-     "teamId": "38",
-     "goals": 2
+     "goals": 2,
+     "teamId": "38"
     },
     {
      "name": "Szabadi Zalán",
-     "teamId": "38",
-     "goals": 2
+     "goals": 2,
+     "teamId": "38"
     },
     {
      "name": "Hajas Ádám",
-     "teamId": "38",
-     "goals": 1
+     "goals": 1,
+     "teamId": "38"
     }
    ],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "57332",
@@ -1961,7 +1961,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "57318",
@@ -2027,8 +2027,29 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "scorers": [
+    {
+     "name": "Csorba Adrián",
+     "goals": 3,
+     "teamId": "45"
+    },
+    {
+     "name": "Pintér Richárd",
+     "goals": 2,
+     "teamId": "45"
+    },
+    {
+     "name": "Török Tamás",
+     "goals": 1,
+     "teamId": "45"
+    },
+    {
+     "name": "Dr. Zováthi Örkény",
+     "goals": 1,
+     "teamId": "45"
+    }
+   ],
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "57380",
@@ -2043,51 +2064,51 @@
    "scorers": [
     {
      "name": "Erdei Krisztián",
-     "teamId": "38",
-     "goals": 2
+     "goals": 2,
+     "teamId": "38"
     },
     {
      "name": "Szabadi Zalán",
-     "teamId": "38",
-     "goals": 2
+     "goals": 2,
+     "teamId": "38"
     },
     {
      "name": "Romsics Péter",
-     "teamId": "38",
-     "goals": 1
+     "goals": 1,
+     "teamId": "38"
     },
     {
      "name": "Tálas Artúr",
-     "teamId": "38",
-     "goals": 1
+     "goals": 1,
+     "teamId": "38"
     },
     {
      "name": "Pesti Ádám",
-     "teamId": "38",
-     "goals": 1
+     "goals": 1,
+     "teamId": "38"
     },
     {
      "name": "Hajas Ádám",
-     "teamId": "38",
-     "goals": 1
+     "goals": 1,
+     "teamId": "38"
     },
     {
      "name": "Lakatos István Levente",
-     "teamId": "38",
-     "goals": 1
+     "goals": 1,
+     "teamId": "38"
     },
     {
      "name": "Kosztyu Ádám",
-     "teamId": "170",
-     "goals": 1
+     "goals": 1,
+     "teamId": "170"
     },
     {
      "name": "Kecskeméti Balázs",
-     "teamId": "170",
-     "goals": 1
+     "goals": 1,
+     "teamId": "170"
     }
    ],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "x-55-L2A-202611241700-absinthe-fc-leverpool",
@@ -2373,7 +2394,7 @@
    "teamId": "115",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Tüttő Olivér",
+    "name": "Koch Bernát",
     "goals": 4
    },
    "seasonsCount": 8,

@@ -1972,31 +1972,31 @@
    "scorers": [
     {
      "name": "Vigano Mario",
-     "teamId": "1560",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1560"
     },
     {
      "name": "Páll Donát Domonkos",
-     "teamId": "1560",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1560"
     },
     {
      "name": "Takács Ábel",
-     "teamId": "1560",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1560"
     },
     {
      "name": "Bognár Milán",
-     "teamId": "1560",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1560"
     },
     {
      "name": "B. Tóth Milan",
-     "teamId": "1560",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1560"
     }
    ],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "57354",
@@ -2011,36 +2011,36 @@
    "scorers": [
     {
      "name": "Szilágyi Péter",
-     "teamId": "156",
-     "goals": 4
+     "goals": 4,
+     "teamId": "156"
     },
     {
      "name": "Horváth Attila",
-     "teamId": "156",
-     "goals": 2
+     "goals": 2,
+     "teamId": "156"
     },
     {
      "name": "Szemesi Tamás",
-     "teamId": "156",
-     "goals": 1
+     "goals": 1,
+     "teamId": "156"
     },
     {
      "name": "Szemesi Péter",
-     "teamId": "156",
-     "goals": 1
+     "goals": 1,
+     "teamId": "156"
     },
     {
      "name": "Jerjomina-Kramarics Miklós",
-     "teamId": "156",
-     "goals": 1
+     "goals": 1,
+     "teamId": "156"
     },
     {
      "name": "Becsei Erik",
-     "teamId": "156",
-     "goals": 1
+     "goals": 1,
+     "teamId": "156"
     }
    ],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "57306",
@@ -2055,21 +2055,21 @@
    "scorers": [
     {
      "name": "Bakos Balázs",
-     "teamId": "138",
-     "goals": 2
+     "goals": 2,
+     "teamId": "138"
     },
     {
      "name": "Zagyva Mátyás",
-     "teamId": "138",
-     "goals": 1
+     "goals": 1,
+     "teamId": "138"
     },
     {
      "name": "Juhász Gábor",
-     "teamId": "138",
-     "goals": 1
+     "goals": 1,
+     "teamId": "138"
     }
    ],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "57409",
@@ -2084,31 +2084,31 @@
    "scorers": [
     {
      "name": "Varga Domonkos",
-     "teamId": "1575",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1575"
     },
     {
      "name": "Tóth Sebestyén",
-     "teamId": "1575",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1575"
     },
     {
      "name": "Nahum Dominik",
-     "teamId": "1575",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1575"
     },
     {
      "name": "Virág András Bence",
-     "teamId": "1575",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1575"
     },
     {
      "name": "Speer Bálint Bence",
-     "teamId": "1575",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1575"
     }
    ],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "x-55-L5D-202611261800-k-fc-attacking",

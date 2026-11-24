@@ -2171,26 +2171,26 @@
    "scorers": [
     {
      "name": "Novozánszki Zsombor",
-     "teamId": "85",
-     "goals": 4
+     "goals": 4,
+     "teamId": "85"
     },
     {
      "name": "Horváth Péter",
-     "teamId": "85",
-     "goals": 3
+     "goals": 3,
+     "teamId": "85"
     },
     {
      "name": "Bordás Máté Vilmos",
-     "teamId": "85",
-     "goals": 1
+     "goals": 1,
+     "teamId": "85"
     },
     {
      "name": "Őze Sándor",
-     "teamId": "85",
-     "goals": 1
+     "goals": 1,
+     "teamId": "85"
     }
    ],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "57304",
@@ -2589,7 +2589,7 @@
    "teamId": "84",
    "bestLeague": "L3C",
    "topScorer": {
-    "name": "Grósz Bence",
+    "name": "Tóth Artúr Benedek",
     "goals": 5
    },
    "seasonsCount": 7,

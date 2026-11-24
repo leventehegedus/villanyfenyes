@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 1,
     "drawn": 3,
-    "lost": 3,
-    "goalsFor": 19,
-    "goalsAgainst": 36,
+    "lost": 4,
+    "goalsFor": 24,
+    "goalsAgainst": 44,
     "points": 6
    }
   }
@@ -114,6 +114,19 @@
     "goalsFor": 2,
     "goalsAgainst": 2,
     "points": 1
+   }
+  },
+  {
+   "teamId": "19",
+   "name": "A kispad legjobbjai",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 8,
+    "points": 0
    }
   }
  ],
@@ -214,9 +227,15 @@
  "cleanSheets": 0,
  "failedToScore": 1,
  "scorers": {
-  "playedMatches": 7,
-  "coveredMatches": 7,
+  "playedMatches": 8,
+  "coveredMatches": 8,
   "rows": [
+   {
+    "name": "Draviczky Ádám",
+    "goals": 6,
+    "matches": 2,
+    "hatTricks": 1
+   },
    {
     "name": "Dovák Csaba",
     "goals": 4,
@@ -224,20 +243,20 @@
     "hatTricks": 1
    },
    {
-    "name": "Draviczky Ádám",
-    "goals": 4,
-    "matches": 1,
-    "hatTricks": 1
-   },
-   {
     "name": "Levente Simko",
-    "goals": 3,
-    "matches": 3,
+    "goals": 4,
+    "matches": 4,
     "hatTricks": 0
    },
    {
     "name": "Tőkés Bálint",
-    "goals": 3,
+    "goals": 4,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Bónizs Balázs",
+    "goals": 2,
     "matches": 2,
     "hatTricks": 0
    },
@@ -245,12 +264,6 @@
     "name": "Molnár Balázs",
     "goals": 2,
     "matches": 2,
-    "hatTricks": 0
-   },
-   {
-    "name": "Bónizs Balázs",
-    "goals": 1,
-    "matches": 1,
     "hatTricks": 0
    },
    {

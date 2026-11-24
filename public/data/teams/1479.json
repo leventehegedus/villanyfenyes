@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 6,
+    "played": 7,
     "won": 2,
     "drawn": 2,
-    "lost": 2,
+    "lost": 3,
     "goalsFor": 39,
-    "goalsAgainst": 48,
+    "goalsAgainst": 53,
     "points": 8
    }
   }
@@ -102,6 +102,19 @@
     "goalsAgainst": 12,
     "points": 0
    }
+  },
+  {
+   "teamId": "26",
+   "name": "Kópészelet",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -177,7 +190,7 @@
    }
   },
   "loss": {
-   "length": 1,
+   "length": 2,
    "from": {
     "seasonId": 55,
     "league": "L3A",
@@ -190,19 +203,19 @@
    "to": {
     "seasonId": 55,
     "league": "L3A",
-    "matchId": "48368",
-    "kickoff": "2026-11-02T18:00:00.000Z",
-    "opponentId": "18",
-    "goalsFor": 2,
-    "goalsAgainst": 12
+    "matchId": "57243",
+    "kickoff": "2026-11-10T20:00:00.000Z",
+    "opponentId": "26",
+    "goalsFor": 0,
+    "goalsAgainst": 5
    }
   }
  },
  "cleanSheets": 0,
- "failedToScore": 0,
+ "failedToScore": 1,
  "scorers": {
-  "playedMatches": 6,
-  "coveredMatches": 6,
+  "playedMatches": 7,
+  "coveredMatches": 7,
   "rows": [
    {
     "name": "Dari Balázs",

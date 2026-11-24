@@ -2096,26 +2096,26 @@
    "scorers": [
     {
      "name": "Fröhlich Tamás",
-     "teamId": "199",
-     "goals": 2
+     "goals": 2,
+     "teamId": "199"
     },
     {
      "name": "Siket Máté",
-     "teamId": "199",
-     "goals": 2
+     "goals": 2,
+     "teamId": "199"
     },
     {
      "name": "Alt Ákos",
-     "teamId": "199",
-     "goals": 2
+     "goals": 2,
+     "teamId": "199"
     },
     {
      "name": "Gondos Andor",
-     "teamId": "199",
-     "goals": 2
+     "goals": 2,
+     "teamId": "199"
     }
    ],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "48352",
@@ -2130,11 +2130,11 @@
    "scorers": [
     {
      "name": "Szilágyi Dávid",
-     "teamId": "166",
-     "goals": 2
+     "goals": 2,
+     "teamId": "166"
     }
    ],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "48353",
@@ -2357,7 +2357,7 @@
    "teamId": "142",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Andorka Kristóf",
+    "name": "Bencze Mártom",
     "goals": 4
    },
    "seasonsCount": 8,
@@ -2427,7 +2427,7 @@
    "teamId": "149",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Markó Péter Dániel",
+    "name": "Szabó Koppány",
     "goals": 5
    },
    "seasonsCount": 9,

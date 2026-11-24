@@ -1933,21 +1933,21 @@
    "scorers": [
     {
      "name": "Turóczi Viktor",
-     "teamId": "54",
-     "goals": 2
+     "goals": 2,
+     "teamId": "54"
     },
     {
      "name": "Boa Benjámin Péter",
-     "teamId": "54",
-     "goals": 1
+     "goals": 1,
+     "teamId": "54"
     },
     {
      "name": "Szita Dávid László",
-     "teamId": "54",
-     "goals": 1
+     "goals": 1,
+     "teamId": "54"
     }
    ],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "57017",
@@ -2001,36 +2001,36 @@
    "scorers": [
     {
      "name": "Morvai Gábor",
-     "teamId": "54",
-     "goals": 3
+     "goals": 3,
+     "teamId": "54"
     },
     {
      "name": "Izsak Jeno Adam",
-     "teamId": "54",
-     "goals": 3
+     "goals": 3,
+     "teamId": "54"
     },
     {
      "name": "Turóczi Viktor",
-     "teamId": "54",
-     "goals": 3
+     "goals": 3,
+     "teamId": "54"
     },
     {
      "name": "Szemes Péter",
-     "teamId": "54",
-     "goals": 3
+     "goals": 3,
+     "teamId": "54"
     },
     {
      "name": "Szita Dávid László",
-     "teamId": "54",
-     "goals": 3
+     "goals": 3,
+     "teamId": "54"
     },
     {
      "name": "Boa Benjámin Péter",
-     "teamId": "54",
-     "goals": 1
+     "goals": 1,
+     "teamId": "54"
     }
    ],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "57350",
@@ -2104,16 +2104,16 @@
    "scorers": [
     {
      "name": "Szöllősi Bálint",
-     "teamId": "80",
-     "goals": 1
+     "goals": 1,
+     "teamId": "80"
     },
     {
      "name": "András Halasi",
-     "teamId": "141",
-     "goals": 4
+     "goals": 4,
+     "teamId": "141"
     }
    ],
-   "detailFetchedAt": "2026-11-23T12:39:36.663Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "x-55-L4B-202611252000-szig-stars-haver-fc",
@@ -2356,7 +2356,7 @@
    "teamId": "62",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Rafael Moreira de Souza",
+    "name": "Pusztai Bertalan",
     "goals": 5
    },
    "seasonsCount": 5,
@@ -2426,7 +2426,7 @@
    "teamId": "54",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Turóczi Viktor",
+    "name": "Izsak Jeno Adam",
     "goals": 3
    },
    "seasonsCount": 27,

@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L5A",
    "finished": false,
-   "position": 3,
+   "position": 2,
    "teamsInLeague": 12,
-   "marker": null,
+   "marker": "promotion",
    "totals": {
-    "played": 7,
-    "won": 6,
+    "played": 8,
+    "won": 7,
     "drawn": 0,
     "lost": 1,
-    "goalsFor": 33,
-    "goalsAgainst": 18,
-    "points": 18
+    "goalsFor": 41,
+    "goalsAgainst": 23,
+    "points": 21
    }
   }
  ],
@@ -115,6 +115,19 @@
     "goalsAgainst": 2,
     "points": 3
    }
+  },
+  {
+   "teamId": "1562",
+   "name": "CF Calma",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 5,
+    "points": 3
+   }
   }
  ],
  "records": {
@@ -139,16 +152,16 @@
   "highestScoring": {
    "seasonId": 55,
    "league": "L5A",
-   "matchId": "56976",
-   "kickoff": "2026-10-15T18:00:00.000Z",
-   "opponentId": "169",
-   "goalsFor": 9,
-   "goalsAgainst": 3
+   "matchId": "57412",
+   "kickoff": "2026-11-23T18:00:00.000Z",
+   "opponentId": "1562",
+   "goalsFor": 8,
+   "goalsAgainst": 5
   }
  },
  "streaks": {
   "win": {
-   "length": 6,
+   "length": 7,
    "from": {
     "seasonId": 55,
     "league": "L5A",
@@ -161,15 +174,15 @@
    "to": {
     "seasonId": 55,
     "league": "L5A",
-    "matchId": "57260",
-    "kickoff": "2026-11-09T20:00:00.000Z",
-    "opponentId": "56",
-    "goalsFor": 5,
-    "goalsAgainst": 2
+    "matchId": "57412",
+    "kickoff": "2026-11-23T18:00:00.000Z",
+    "opponentId": "1562",
+    "goalsFor": 8,
+    "goalsAgainst": 5
    }
   },
   "unbeaten": {
-   "length": 6,
+   "length": 7,
    "from": {
     "seasonId": 55,
     "league": "L5A",
@@ -182,11 +195,11 @@
    "to": {
     "seasonId": 55,
     "league": "L5A",
-    "matchId": "57260",
-    "kickoff": "2026-11-09T20:00:00.000Z",
-    "opponentId": "56",
-    "goalsFor": 5,
-    "goalsAgainst": 2
+    "matchId": "57412",
+    "kickoff": "2026-11-23T18:00:00.000Z",
+    "opponentId": "1562",
+    "goalsFor": 8,
+    "goalsAgainst": 5
    }
   },
   "loss": {
@@ -214,9 +227,21 @@
  "cleanSheets": 1,
  "failedToScore": 1,
  "scorers": {
-  "playedMatches": 7,
-  "coveredMatches": 7,
+  "playedMatches": 8,
+  "coveredMatches": 8,
   "rows": [
+   {
+    "name": "Karancs Iván",
+    "goals": 11,
+    "matches": 6,
+    "hatTricks": 1
+   },
+   {
+    "name": "Jenő Gyökeres",
+    "goals": 10,
+    "matches": 7,
+    "hatTricks": 1
+   },
    {
     "name": "Fiktusz Botond",
     "goals": 9,
@@ -224,21 +249,9 @@
     "hatTricks": 1
    },
    {
-    "name": "Jenő Gyökeres",
-    "goals": 9,
-    "matches": 6,
-    "hatTricks": 1
-   },
-   {
-    "name": "Karancs Iván",
-    "goals": 8,
-    "matches": 5,
-    "hatTricks": 0
-   },
-   {
     "name": "Kelemen Zoltán",
-    "goals": 5,
-    "matches": 4,
+    "goals": 6,
+    "matches": 5,
     "hatTricks": 0
    },
    {
@@ -246,6 +259,12 @@
     "goals": 4,
     "matches": 3,
     "hatTricks": 0
+   },
+   {
+    "name": "Szita Dániel",
+    "goals": 3,
+    "matches": 1,
+    "hatTricks": 1
    }
   ]
  }

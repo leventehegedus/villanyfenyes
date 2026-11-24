@@ -25,6 +25,11 @@
    "name": "Ekho"
   },
   {
+   "id": "99",
+   "siteId": 99,
+   "name": "ASFC"
+  },
+  {
    "id": "55",
    "siteId": 55,
    "name": "Droidhadsereg"
@@ -33,11 +38,6 @@
    "id": "89",
    "siteId": 89,
    "name": "Big bulls fc"
-  },
-  {
-   "id": "99",
-   "siteId": 99,
-   "name": "ASFC"
   },
   {
    "id": "1568",
@@ -132,6 +132,19 @@
   },
   {
    "position": 5,
+   "teamId": "99",
+   "played": 7,
+   "won": 3,
+   "drawn": 1,
+   "lost": 3,
+   "goalsFor": 23,
+   "goalsAgainst": 32,
+   "goalDiff": -9,
+   "points": 10,
+   "markers": []
+  },
+  {
+   "position": 6,
    "teamId": "55",
    "played": 7,
    "won": 3,
@@ -147,7 +160,7 @@
    ]
   },
   {
-   "position": 6,
+   "position": 7,
    "teamId": "89",
    "played": 4,
    "won": 3,
@@ -163,31 +176,15 @@
    ]
   },
   {
-   "position": 7,
-   "teamId": "99",
-   "played": 6,
-   "won": 2,
-   "drawn": 1,
-   "lost": 3,
-   "goalsFor": 17,
-   "goalsAgainst": 29,
-   "goalDiff": -12,
-   "points": 7,
-   "markers": [
-    "lossStreak",
-    "fewConceded"
-   ]
-  },
-  {
    "position": 8,
    "teamId": "1568",
-   "played": 8,
+   "played": 9,
    "won": 2,
    "drawn": 1,
-   "lost": 5,
-   "goalsFor": 17,
-   "goalsAgainst": 32,
-   "goalDiff": -15,
+   "lost": 6,
+   "goalsFor": 20,
+   "goalsAgainst": 38,
+   "goalDiff": -18,
    "points": 7,
    "markers": [
     "lossStreak"
@@ -1390,7 +1387,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "57250",
@@ -1437,7 +1434,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "57282",
@@ -1450,7 +1447,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "57227",
@@ -1465,31 +1462,31 @@
    "scorers": [
     {
      "name": "Fodor András",
-     "teamId": "203",
-     "goals": 2
+     "goals": 2,
+     "teamId": "203"
     },
     {
      "name": "Fülöp Bence",
-     "teamId": "203",
-     "goals": 1
+     "goals": 1,
+     "teamId": "203"
     },
     {
      "name": "Prezsnyák Péter",
-     "teamId": "203",
-     "goals": 1
+     "goals": 1,
+     "teamId": "203"
     },
     {
      "name": "Vichnalek Dávid",
-     "teamId": "1568",
-     "goals": 3
+     "goals": 3,
+     "teamId": "1568"
     },
     {
      "name": "Tomojzer Péter",
-     "teamId": "1568",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1568"
     }
    ],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "57312",
@@ -1502,7 +1499,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "57308",
@@ -1515,7 +1512,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "57287",
@@ -1530,21 +1527,21 @@
    "scorers": [
     {
      "name": "Fábián Hunor",
-     "teamId": "55",
-     "goals": 1
+     "goals": 1,
+     "teamId": "55"
     },
     {
      "name": "Ignátkó Bence",
-     "teamId": "55",
-     "goals": 1
+     "goals": 1,
+     "teamId": "55"
     },
     {
      "name": "Dániel Jaczkó",
-     "teamId": "55",
-     "goals": 1
+     "goals": 1,
+     "teamId": "55"
     }
    ],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "57356",
@@ -1557,7 +1554,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "57377",
@@ -1566,22 +1563,42 @@
    "awayTeamId": "1568",
    "kickoff": "2026-11-23T17:00:00.000Z",
    "venue": "Bogdánfy_4",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 6,
+   "awayGoals": 3,
+   "status": "played",
    "scorers": [
     {
+     "name": "Rátkai Ádám",
+     "goals": 2,
+     "teamId": "99"
+    },
+    {
+     "name": "Döbrönte Zoltán",
+     "goals": 2,
+     "teamId": "99"
+    },
+    {
+     "name": "Szép Arnold",
+     "goals": 1,
+     "teamId": "99"
+    },
+    {
+     "name": "Kőszegi Gábor",
+     "goals": 1,
+     "teamId": "99"
+    },
+    {
      "name": "Vichnalek Dávid",
-     "teamId": "1568",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1568"
     },
     {
      "name": "Ispánki Máté Márk",
-     "teamId": "1568",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1568"
     }
    ],
-   "detailFetchedAt": "2026-11-24T02:12:59.669Z"
+   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
   },
   {
    "id": "x-55-L5F-202611242100-john-pork-s-eleven-kecsap",
@@ -1847,6 +1864,16 @@
    "matchesPlayed": 7
   },
   {
+   "teamId": "99",
+   "bestLeague": "L5A",
+   "topScorer": {
+    "name": "Gál Róbert",
+    "goals": 5
+   },
+   "seasonsCount": 5,
+   "matchesPlayed": 7
+  },
+  {
    "teamId": "55",
    "bestLeague": "L4C",
    "topScorer": {
@@ -1867,16 +1894,6 @@
    "matchesPlayed": 4
   },
   {
-   "teamId": "99",
-   "bestLeague": "L5A",
-   "topScorer": {
-    "name": "Gál Róbert",
-    "goals": 5
-   },
-   "seasonsCount": 5,
-   "matchesPlayed": 6
-  },
-  {
    "teamId": "1568",
    "bestLeague": "L5F",
    "topScorer": {
@@ -1884,7 +1901,7 @@
     "goals": 3
    },
    "seasonsCount": 1,
-   "matchesPlayed": 8
+   "matchesPlayed": 9
   },
   {
    "teamId": "201",
