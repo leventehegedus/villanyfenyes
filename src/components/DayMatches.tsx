@@ -2,7 +2,6 @@ import { Link } from 'react-router'
 import { useQueries } from '@tanstack/react-query'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 import { MatchRow } from '@/components/MatchList'
-import { PageHeader } from '@/components/PageHeader'
 import { EmptyState, ListSkeleton } from '@/components/QueryBoundary'
 import { STRIPED_LIST } from '@/components/row-style'
 import { Button } from '@/components/ui/button'
@@ -14,7 +13,7 @@ import { matchDays, pickDay, siteDay, stepDay } from '@/lib/schedule'
 import { cn } from '@/lib/utils'
 
 /** Every league's matches on one Budapest day (?d=YYYY-MM-DD), grouped by league; arrows jump between match days. */
-export default function DayPage() {
+export function DayMatches() {
   const t = useT()
   const { prefs } = usePrefs()
   const { seasonId, leagues, isCurrent, noData, params, setSelection } = useSelection()
@@ -29,8 +28,7 @@ export default function DayPage() {
   const day = pickDay(days, params.get('d'), siteDay(now.toISOString()))
   const go = (d: string | null) => d && setSelection({ extra: { d } })
 
-  const header = <PageHeader title={t('dayTitle')} picker="season" />
-  if (noData) return <div className="space-y-4">{header}<EmptyState>{t('noData')}</EmptyState></div>
+  if (noData) return <EmptyState>{t('noData')}</EmptyState>
   const pending = leagues.length === 0 || queries.some((q) => q.isPending)
   const prev = day && stepDay(days, day, -1)
   const next = day && stepDay(days, day, 1)
@@ -47,7 +45,6 @@ export default function DayPage() {
 
   return (
     <div className="space-y-4">
-      {header}
       <div className="flex items-center justify-between gap-2">
         <Button variant="outline" size="icon" onClick={() => go(prev)} disabled={!prev} aria-label={t('dayPrev')} title={t('dayPrev')}>
           <ChevronLeft aria-hidden />

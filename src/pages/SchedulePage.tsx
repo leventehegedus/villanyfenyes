@@ -1,3 +1,4 @@
+import { DayMatches } from '@/components/DayMatches'
 import { MatchFilters } from '@/components/MatchFilters'
 import { MatchList } from '@/components/MatchList'
 import { PageHeader } from '@/components/PageHeader'
@@ -14,7 +15,11 @@ export default function SchedulePage() {
 
   return (
     <div className="space-y-4">
-      <PageHeader title={t('navSchedule')} />
+      <PageHeader title={t('navSchedule')} picker="all" />
+      {/* No league in the URL: today's matches of every league; a league brings back its full schedule. */}
+      {!params.has('l') ? (
+        <DayMatches />
+      ) : (
       <QueryBoundary query={query} idle={noData || seasonId === null || league === null}>
         {(data) => {
           const matches = filterMatches(data.matches, filters)
@@ -30,6 +35,7 @@ export default function SchedulePage() {
           )
         }}
       </QueryBoundary>
+      )}
     </div>
   )
 }
