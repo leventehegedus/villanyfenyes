@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react'
 import { Link } from 'react-router'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { CardHeading } from '@/components/CardHeading'
+import { Card, CardContent } from '@/components/ui/card'
 import { usePrefs, useT } from '@/hooks/prefs'
 import type { MessageKey } from '@/i18n/dict'
 import type { TeamAllTimeData } from '@/lib/data'
@@ -46,12 +47,7 @@ export function Records({ file, teamName }: Props) {
   ]
   return (
     <Card>
-      <CardHeader>
-        <CardTitle>
-          <h2>{t('records')}</h2>
-        </CardTitle>
-        <CardDescription>{t('computedNote')}</CardDescription>
-      </CardHeader>
+      <CardHeading title={t('records')} note={t('computedNote')} />
       <CardContent>
         <dl className="grid grid-cols-1 gap-x-4 gap-y-1 text-sm sm:grid-cols-[auto_1fr]">
           {records.map(([key, m]) => (
