@@ -9,7 +9,8 @@ import { SeasonLeaguePicker } from '@/components/SeasonLeaguePicker'
 import { Stat } from '@/components/Stat'
 import { WeekTable } from '@/components/WeekTable'
 import { Button } from '@/components/ui/button'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { Card, CardContent } from '@/components/ui/card'
+import { CardHeading } from '@/components/CardHeading'
 import { usePrefs, useT } from '@/hooks/prefs'
 import { useTeamAllTime } from '@/hooks/queries'
 import { useLeagueData } from '@/hooks/useLeagueData'
@@ -65,10 +66,7 @@ function TeamView({ teamId, data, keep, teamName }: { teamId: string; data: Leag
       </header>
 
       <Card>
-        <CardHeader>
-          <CardTitle>{t('statsTitle')}</CardTitle>
-          <CardDescription>{t('computedNote')}</CardDescription>
-        </CardHeader>
+        <CardHeading title={t('statsTitle')} note={t('computedNote')} />
         <CardContent className="space-y-4">
           <dl className="grid grid-cols-2 gap-2 sm:grid-cols-4">
             <Stat label={t('played')} value={s.played} missing={missing} />
@@ -98,10 +96,7 @@ function TeamView({ teamId, data, keep, teamName }: { teamId: string; data: Leag
 
       <div className="grid gap-4 md:grid-cols-2">
         <Card>
-          <CardHeader>
-            <CardTitle>{t('scorers')}</CardTitle>
-            <CardDescription>{t('computedNote')}</CardDescription>
-          </CardHeader>
+          <CardHeading title={t('scorers')} note={t('computedNote')} />
           <CardContent>
             {scorers.length === 0 ? (
               <p className="text-sm text-muted-foreground">{t('scorersEmpty')}</p>
@@ -120,9 +115,7 @@ function TeamView({ teamId, data, keep, teamName }: { teamId: string; data: Leag
           </CardContent>
         </Card>
         <Card>
-          <CardHeader>
-            <CardTitle>{t('siteSummary')}</CardTitle>
-          </CardHeader>
+          <CardHeading title={t('siteSummary')} />
           <CardContent>
             <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-sm">
               <dt className="text-muted-foreground">{t('topScorer')}</dt>

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { leagueFixture } from './__fixtures__/league'
-import { filterMatches, groupByWeek, lastResult, nextMatch, weekStart } from './schedule'
+import { filterMatches, groupByWeek, lastResult, matchDays, nextMatch, pickDay, siteDay, stepDay, weekStart } from './schedule'
 
 const { matches } = leagueFixture
 const now = new Date('2026-10-20T00:00:00Z')
@@ -40,5 +40,27 @@ describe('schedule', () => {
   it('computes week start in Budapest time across midnight', () => {
     // Sunday 23:30 UTC is Monday 00:30 in Budapest (CET).
     expect(weekStart('2026-11-15T23:30:00.000Z')).toBe('2026-11-16')
+  })
+
+  it('maps kickoffs to Budapest days and lists the match days', () => {
+    expect(siteDay('2026-11-15T23:30:00.000Z')).toBe('2026-11-16')
+    expect(siteDay('2026-11-15T22:59:00.000Z')).toBe('2026-11-15')
+    const days = matchDays(matches)
+    expect(days).toEqual([...days].sort())
+    expect(new Set(days).size).toBe(days.length)
+    expect(matchDays(matches.map((m) => ({ ...m, kickoff: null })))).toEqual([])
+  })
+
+  it('picks the day to show and steps between match days', () => {
+    const days = ['2026-11-10', '2026-11-12', '2026-11-19']
+    expect(pickDay(days, '2026-11-11', '2026-11-12')).toBe('2026-11-11')
+    expect(pickDay(days, 'nonsense', '2026-11-12')).toBe('2026-11-12')
+    expect(pickDay(days, null, '2026-11-13')).toBe('2026-11-19')
+    expect(pickDay(days, null, '2026-12-01')).toBe('2026-11-19')
+    expect(pickDay([], null, '2026-12-01')).toBeNull()
+    expect(stepDay(days, '2026-11-11', 1)).toBe('2026-11-12')
+    expect(stepDay(days, '2026-11-12', -1)).toBe('2026-11-10')
+    expect(stepDay(days, '2026-11-10', -1)).toBeNull()
+    expect(stepDay(days, '2026-11-19', 1)).toBeNull()
   })
 })

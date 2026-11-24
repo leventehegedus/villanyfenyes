@@ -2,7 +2,8 @@ import type { ReactNode } from 'react'
 import { toast } from 'sonner'
 import { PageHeader } from '@/components/PageHeader'
 import { Button } from '@/components/ui/button'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { Card, CardContent } from '@/components/ui/card'
+import { CardHeading } from '@/components/CardHeading'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group'
 import { DEFAULT_PREFS, usePrefs, useT } from '@/hooks/prefs'
@@ -140,18 +141,13 @@ export default function SettingsPage() {
         </CardContent>
       </Card>
       <Card>
-        <CardHeader>
-          <CardTitle>{t('diagnostics')}</CardTitle>
-        </CardHeader>
+        <CardHeading title={t('diagnostics')} />
         <CardContent className="space-y-3">
           <Diagnostics />
         </CardContent>
       </Card>
       <Card>
-        <CardHeader>
-          <CardTitle>{t('dataSource')}</CardTitle>
-          <CardDescription>{t('dataSourceNote')}</CardDescription>
-        </CardHeader>
+        <CardHeading title={t('dataSource')} note={t('dataSourceNote')} />
         <CardContent>
           <a href={SOURCE_SITE} target="_blank" rel="noreferrer" className="text-sm underline underline-offset-2">
             {SOURCE_SITE.replace('https://', '')}

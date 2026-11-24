@@ -1,5 +1,6 @@
 import { Badge } from '@/components/ui/badge'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { CardHeading } from '@/components/CardHeading'
+import { Card, CardContent } from '@/components/ui/card'
 import { rowProps } from '@/components/row-style'
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table'
 import { usePrefs, useT } from '@/hooks/prefs'
@@ -15,11 +16,7 @@ export function Timeline({ file }: { file: TeamAllTimeData }) {
   const { best, worst } = bestWorstSeason(file)
   return (
     <Card>
-      <CardHeader>
-        <CardTitle>
-          <h2>{t('timeline')}</h2>
-        </CardTitle>
-      </CardHeader>
+      <CardHeading title={t('timeline')} />
       <CardContent className="max-h-[28rem] overflow-auto">
         <Table>
           <TableHeader>

@@ -4,7 +4,8 @@ import { rowProps } from '@/components/row-style'
 import { PageHeader } from '@/components/PageHeader'
 import { EmptyState, QueryBoundary } from '@/components/QueryBoundary'
 import { Button } from '@/components/ui/button'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { CardHeading } from '@/components/CardHeading'
+import { Card, CardContent } from '@/components/ui/card'
 import { useT } from '@/hooks/prefs'
 import { useLeaderboard, useLeague, useSeasons } from '@/hooks/queries'
 import type { MessageKey } from '@/i18n/dict'
@@ -31,12 +32,7 @@ function Board({ rows, board, current }: { rows: readonly LeaderboardRow[]; boar
   const shown = open ? ranked : ranked.slice(0, TOP)
   return (
     <Card>
-      <CardHeader>
-        <CardTitle>
-          <h2>{t(board.title)}</h2>
-        </CardTitle>
-        <CardDescription>{t(board.note)}</CardDescription>
-      </CardHeader>
+      <CardHeading title={t(board.title)} note={t(board.note)} />
       <CardContent className="space-y-2">
         {ranked.length === 0 ? (
           <p className="text-sm text-muted-foreground">{t('noData')}</p>

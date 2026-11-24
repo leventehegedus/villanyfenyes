@@ -4,7 +4,7 @@ import type { ChartConfig } from '@/components/ui/chart'
 import { usePrefs, useT } from '@/hooks/prefs'
 import { matchLabel, stepTicks } from '@/lib/format'
 import { weekStart } from '@/lib/schedule'
-import { CLICKABLE_CHART, clickedIndex } from '@/lib/charts'
+import { CLICKABLE_CHART, clickedIndex, AXIS } from '@/lib/charts'
 import type { ChartClick } from '@/lib/charts'
 import type { TeamStats } from '@/lib/stats'
 
@@ -63,8 +63,8 @@ export default function TeamCharts({ teamId, progression, teamName, selectedWeek
         <ChartContainer config={pointsConfig} className="h-48 w-full">
           <LineChart data={data} margin={{ left: -20, right: 8, top: 8 }} onClick={select} className={CLICKABLE_CHART}>
             <CartesianGrid vertical={false} />
-            <XAxis dataKey="label" tickLine={false} axisLine={false} fontSize={11} />
-            <YAxis domain={[0, pointTicks.at(-1) ?? 3]} ticks={pointTicks} interval={0} tickLine={false} axisLine={false} fontSize={11} />
+            <XAxis dataKey="label" {...AXIS} />
+            <YAxis domain={[0, pointTicks.at(-1) ?? 3]} ticks={pointTicks} interval={0} {...AXIS} />
             <ChartTooltip content={tooltip} />
             {marker}
             <Line dataKey="points" stroke="var(--color-points)" strokeWidth={2} dot={{ r: 3 }} isAnimationActive={false} />
@@ -76,8 +76,8 @@ export default function TeamCharts({ teamId, progression, teamName, selectedWeek
         <ChartContainer config={goalsConfig} className="h-48 w-full">
           <BarChart data={data} margin={{ left: -20, right: 8, top: 8 }} onClick={select} className={CLICKABLE_CHART}>
             <CartesianGrid vertical={false} />
-            <XAxis dataKey="label" tickLine={false} axisLine={false} fontSize={11} />
-            <YAxis allowDecimals={false} tickLine={false} axisLine={false} fontSize={11} />
+            <XAxis dataKey="label" {...AXIS} />
+            <YAxis allowDecimals={false} {...AXIS} />
             <ChartTooltip content={matchOnly} />
             {marker}
             <Bar dataKey="goalsFor" fill="var(--color-goalsFor)" radius={2} isAnimationActive={false} />

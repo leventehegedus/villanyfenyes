@@ -12,4 +12,7 @@ export function clickedIndex(state: ChartClick, labels: readonly string[]): numb
 }
 
 /** Classes for a clickable chart: pointer cursor, no focus ring after a mouse click (keyboard keeps it). */
+/** Shared look of chart axes: no tick or axis lines, small labels. */
+export const AXIS = { tickLine: false, axisLine: false, fontSize: 11 } as const
+
 export const CLICKABLE_CHART = 'cursor-pointer [&_.recharts-surface:focus:not(:focus-visible)]:outline-none'

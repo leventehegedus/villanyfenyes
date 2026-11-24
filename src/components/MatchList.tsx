@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import type { ReactNode } from 'react'
 import { Link } from 'react-router'
 import { usePrefs, useT } from '@/hooks/prefs'
 import { formatDay, formatKickoffShort } from '@/lib/format'
@@ -42,6 +43,22 @@ export function MatchRow({ match: m, teamName, keep, now }: RowProps) {
   )
 }
 
+type GroupProps = Omit<RowProps, 'match'> & { matches: readonly Match[]; title: ReactNode; label: string; id?: string; className?: string }
+
+/** One titled block of match rows: a week of the schedule or a league on the day view. */
+export function MatchGroup({ matches, title, label, id, className, ...row }: GroupProps) {
+  return (
+    <section id={id} className={className} aria-label={label}>
+      <h3 className="mb-1 px-2 text-center text-xs font-semibold uppercase tracking-wide text-muted-foreground">{title}</h3>
+      <ul className={cn('divide-y divide-border/60', STRIPED_LIST)}>
+        {matches.map((m) => (
+          <MatchRow key={m.id} match={m} {...row} />
+        ))}
+      </ul>
+    </section>
+  )
+}
+
 /** Matches grouped by Budapest week (the site publishes no round numbers). */
 export function MatchList({
   matches,
@@ -64,21 +81,17 @@ export function MatchList({
   return (
     <div className="space-y-4">
       {groups.map((g) => (
-        <section
+        <MatchGroup
           key={g.week ?? 'none'}
           id={scrollToCurrent && g.week === currentKey ? 'current-week' : undefined}
           className="scroll-mt-32"
-          aria-label={g.week ?? t('noKickoff')}
-        >
-          <h3 className="mb-1 px-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-            {g.week ? t('weekOf', { date: formatDay(`${g.week}T12:00:00Z`, prefs.locale, 'UTC') }) : t('noKickoff')}
-          </h3>
-          <ul className={cn('divide-y divide-border/60', STRIPED_LIST)}>
-            {(newestFirst ? [...g.matches].reverse() : g.matches).map((m) => (
-              <MatchRow key={m.id} match={m} teamName={teamName} keep={keep} now={now} />
-            ))}
-          </ul>
-        </section>
+          label={g.week ?? t('noKickoff')}
+          title={g.week ? t('weekOf', { date: formatDay(`${g.week}T12:00:00Z`, prefs.locale, 'UTC') }) : t('noKickoff')}
+          matches={newestFirst ? [...g.matches].reverse() : g.matches}
+          teamName={teamName}
+          keep={keep}
+          now={now}
+        />
       ))}
     </div>
   )

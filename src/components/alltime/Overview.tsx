@@ -1,5 +1,6 @@
 import { Stat } from '@/components/Stat'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { CardHeading } from '@/components/CardHeading'
+import { Card, CardContent } from '@/components/ui/card'
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table'
 import { usePrefs, useT } from '@/hooks/prefs'
 import { honours, leagueTotals, overall, rates } from '@/lib/alltime'
@@ -87,12 +88,7 @@ export function LeagueTotals({ file }: Props) {
   ]
   return (
     <Card>
-      <CardHeader>
-        <CardTitle>
-          <h2>{t('byLeague')}</h2>
-        </CardTitle>
-        <CardDescription>{t('allTimeNote')}</CardDescription>
-      </CardHeader>
+      <CardHeading title={t('byLeague')} note={t('allTimeNote')} />
       <CardContent>
         <Table>
           <TableHeader>

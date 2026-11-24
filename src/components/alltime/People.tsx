@@ -1,6 +1,7 @@
 import { Link } from 'react-router'
 import { Stat } from '@/components/Stat'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { CardHeading } from '@/components/CardHeading'
+import { Card, CardContent } from '@/components/ui/card'
 import { rowProps } from '@/components/row-style'
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table'
 import { usePrefs, useT } from '@/hooks/prefs'
@@ -29,12 +30,7 @@ export function Opponents({ file, teamName }: Props) {
     ) : null
   return (
     <Card>
-      <CardHeader>
-        <CardTitle>
-          <h2>{t('opponents')}</h2>
-        </CardTitle>
-        <CardDescription>{t('minMatchesNote', { n: MIN_MATCHES })}</CardDescription>
-      </CardHeader>
+      <CardHeading title={t('opponents')} note={t('minMatchesNote', { n: MIN_MATCHES })} />
       <CardContent className="space-y-3">
         <dl className="grid grid-cols-1 gap-2 sm:grid-cols-3">
           <Stat label={t('mostPlayed')} value={name(h.mostPlayed)} missing={missing} />
@@ -80,14 +76,7 @@ export function AllTimeScorers({ file }: { file: TeamAllTimeData }) {
   const { playedMatches, coveredMatches, rows } = file.scorers
   return (
     <Card>
-      <CardHeader>
-        <CardTitle>
-          <h2>{t('scorers')}</h2>
-        </CardTitle>
-        <CardDescription>
-          {t('scorerCoverage', { covered: coveredMatches, played: playedMatches })} {t('computedNote')}
-        </CardDescription>
-      </CardHeader>
+      <CardHeading title={t('scorers')} note={`${t('scorerCoverage', { covered: coveredMatches, played: playedMatches })} ${t('computedNote')}`} />
       <CardContent className="space-y-3">
         {coveredMatches === 0 ? (
           <p className="text-sm text-muted-foreground">{t('noData')}</p>

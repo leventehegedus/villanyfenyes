@@ -49,5 +49,7 @@ export function useSelection() {
     setSelection,
     /** Query string that keeps the selection when linking to another page. */
     keep: seasonId !== null && league ? `?s=${seasonId}&l=${league}` : '',
+    /** Like `keep`, without the league. */
+    keepSeason: seasonId !== null ? `?s=${seasonId}` : '',
   }
 }

@@ -65,3 +65,7 @@ Scorers list rows use the standings colouring: gold, silver, bronze for ranks 1-
 Leaderboard: teams of the current season's L1 are set in bold (read from that league file; nothing bold if it fails), with a one-line legend under the page note.
 Match lists (schedule, team page, what-if inputs, player log) are striped too (`STRIPED_LIST` / `rowProps(null, i)`). Hover/focus accent (`--accent`, `--ring`) and the odds heatmap hue (`--seq`) are yellow instead of green in both themes; win/loss colours (`--win`) stay green.
 Rankings and match lists share two row colours: page background and `--stripe` (foreground 3 % light, 5 % dark, over the background); medal tints mix over the background too.
+
+## 2026-11-24 schedule opens on today's matches (branch `feat/daily-matches`)
+
+`/menetrend` without `l` in the URL shows every league of the selected season on one Budapest day (`DayMatches`, `?d=YYYY-MM-DD`), grouped by league: today if it has matches, else the next match day, else the last; arrows jump to the previous/next day with matches (`siteDay`, `matchDays`, `pickDay`, `stepDay` in `src/lib/schedule.ts`). The league picker there has "Minden liga" (removes `l`); choosing a league shows the usual week-grouped schedule with filters. The Menetrend nav link keeps only the season (`keepSeason`), so it always opens on every league. League files load with `useQueries` and the shared `leagueQuery` options. Checked: desktop dark (all leagues, switching to L2B), mobile light; e2e green.

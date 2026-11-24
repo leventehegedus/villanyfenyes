@@ -58,6 +58,11 @@ export function stepTicks(max: number, step: number): number[] {
   return Array.from({ length: top / step + 1 }, (_, i) => i * step)
 }
 
+/** A calendar day (YYYY-MM-DD) in full, e.g. "2026. november 25., szerda". */
+export function formatLongDay(day: string, locale: Locale): string {
+  return new Intl.DateTimeFormat(locale, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' }).format(new Date(`${day}T12:00:00Z`))
+}
+
 export function formatDate(iso: string, locale: Locale, timeZone: string): string {
   return new Intl.DateTimeFormat(locale, { year: 'numeric', month: '2-digit', day: '2-digit', timeZone }).format(new Date(iso))
 }

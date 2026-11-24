@@ -1,4 +1,5 @@
 import { CartesianGrid, Line, LineChart, XAxis, YAxis } from 'recharts'
+import { AXIS } from '@/lib/charts'
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from '@/components/ui/chart'
 import type { ChartConfig } from '@/components/ui/chart'
 import { useT } from '@/hooks/prefs'
@@ -17,8 +18,8 @@ export default function GoalsChart({ data }: { data: ReturnType<typeof goalsPerS
       <ChartContainer config={config} className="h-56 w-full">
         <LineChart data={data} margin={{ left: -20, right: 8, top: 8 }}>
           <CartesianGrid vertical={false} />
-          <XAxis dataKey="label" tickLine={false} axisLine={false} fontSize={11} minTickGap={16} />
-          <YAxis tickLine={false} axisLine={false} fontSize={11} />
+          <XAxis dataKey="label" {...AXIS} minTickGap={16} />
+          <YAxis {...AXIS} />
           <ChartTooltip content={<ChartTooltipContent />} />
           {(['forPerMatch', 'againstPerMatch'] as const).map((key) => (
             <Line key={key} dataKey={key} stroke={`var(--color-${key})`} strokeWidth={2} dot={{ r: 2 }} connectNulls isAnimationActive={false} />
