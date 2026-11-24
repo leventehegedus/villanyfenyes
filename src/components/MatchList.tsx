@@ -73,7 +73,7 @@ export function MatchList({
           <h3 className="mb-1 px-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
             {g.week ? t('weekOf', { date: formatDay(`${g.week}T12:00:00Z`, prefs.locale, 'UTC') }) : t('noKickoff')}
           </h3>
-          <ul className={cn('divide-y rounded-xl border bg-card', STRIPED_LIST)}>
+          <ul className={cn('divide-y divide-border/60', STRIPED_LIST)}>
             {(newestFirst ? [...g.matches].reverse() : g.matches).map((m) => (
               <MatchRow key={m.id} match={m} teamName={teamName} keep={keep} now={now} />
             ))}
