@@ -2020,23 +2020,23 @@
    "scorers": [
     {
      "name": "Papp Zsombor István",
-     "goals": 3,
-     "teamId": "1471"
+     "teamId": "1471",
+     "goals": 3
     },
     {
      "name": "Brandt Péter Benedek",
-     "goals": 1,
-     "teamId": "1471"
+     "teamId": "1471",
+     "goals": 1
     },
     {
      "name": "Hasanbegovic Sasa",
-     "goals": 1,
-     "teamId": "1471"
+     "teamId": "1471",
+     "goals": 1
     },
     {
      "name": "Helmes Vilmos",
-     "goals": 1,
-     "teamId": "1471"
+     "teamId": "1471",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T02:12:59.669Z"
@@ -2265,7 +2265,7 @@
    "teamId": "126",
    "bestLeague": "L2B",
    "topScorer": {
-    "name": "Himics Dávid",
+    "name": "Nagy Ádám",
     "goals": 6
    },
    "seasonsCount": 10,

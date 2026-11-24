@@ -1926,23 +1926,23 @@
    "scorers": [
     {
      "name": "Doma Gergely",
-     "goals": 3,
-     "teamId": "47"
+     "teamId": "47",
+     "goals": 3
     },
     {
      "name": "Molnár Ákos",
-     "goals": 1,
-     "teamId": "47"
+     "teamId": "47",
+     "goals": 1
     },
     {
      "name": "Széll Sándor",
-     "goals": 1,
-     "teamId": "47"
+     "teamId": "47",
+     "goals": 1
     },
     {
      "name": "Zsdrál Bertalan",
-     "goals": 1,
-     "teamId": "47"
+     "teamId": "47",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T02:12:59.669Z"
@@ -1960,28 +1960,28 @@
    "scorers": [
     {
      "name": "Ürmös Zoltán",
-     "goals": 4,
-     "teamId": "153"
+     "teamId": "153",
+     "goals": 4
     },
     {
      "name": "Szatmari Peter",
-     "goals": 2,
-     "teamId": "153"
+     "teamId": "153",
+     "goals": 2
     },
     {
      "name": "Kitzinger Tamás",
-     "goals": 1,
-     "teamId": "153"
+     "teamId": "153",
+     "goals": 1
     },
     {
      "name": "Enyedi Tamás",
-     "goals": 1,
-     "teamId": "153"
+     "teamId": "153",
+     "goals": 1
     },
     {
      "name": "Tóth Attila",
-     "goals": 1,
-     "teamId": "153"
+     "teamId": "153",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T02:12:59.669Z"
@@ -2067,8 +2067,8 @@
    "scorers": [
     {
      "name": "Lukács Gergely",
-     "goals": 4,
-     "teamId": "131"
+     "teamId": "131",
+     "goals": 4
     }
    ],
    "detailFetchedAt": "2026-11-24T02:12:59.669Z"
@@ -2361,7 +2361,7 @@
    "teamId": "1504",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Purosz Leonidasz",
+    "name": "Pothóczki Ábel",
     "goals": 5
    },
    "seasonsCount": 3,
@@ -2371,7 +2371,7 @@
    "teamId": "1512",
    "bestLeague": "L4C",
    "topScorer": {
-    "name": "Tóth Domonkos",
+    "name": "Péter Adrián",
     "goals": 4
    },
    "seasonsCount": 2,

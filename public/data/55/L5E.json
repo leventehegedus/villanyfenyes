@@ -1835,23 +1835,23 @@
    "scorers": [
     {
      "name": "Iker Előd Sebestyén",
-     "goals": 1,
-     "teamId": "1571"
+     "teamId": "1571",
+     "goals": 1
     },
     {
      "name": "Kis Hunor",
-     "goals": 1,
-     "teamId": "1571"
+     "teamId": "1571",
+     "goals": 1
     },
     {
      "name": "Varga Áron Gábor",
-     "goals": 1,
-     "teamId": "1571"
+     "teamId": "1571",
+     "goals": 1
     },
     {
      "name": "Benczik-Hrncsár Áron",
-     "goals": 1,
-     "teamId": "1571"
+     "teamId": "1571",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T02:12:59.669Z"
@@ -1869,13 +1869,13 @@
    "scorers": [
     {
      "name": "Józsa István Roland",
-     "goals": 3,
-     "teamId": "1486"
+     "teamId": "1486",
+     "goals": 3
     },
     {
      "name": "Farkas Zsombor",
-     "goals": 2,
-     "teamId": "1486"
+     "teamId": "1486",
+     "goals": 2
     }
    ],
    "detailFetchedAt": "2026-11-24T02:12:59.669Z"
@@ -1906,28 +1906,28 @@
    "scorers": [
     {
      "name": "Nagy Balázs",
-     "goals": 5,
-     "teamId": "193"
+     "teamId": "193",
+     "goals": 5
     },
     {
      "name": "Dominek Márk",
-     "goals": 1,
-     "teamId": "193"
+     "teamId": "193",
+     "goals": 1
     },
     {
      "name": "Dr. Nagy Balázs",
-     "goals": 1,
-     "teamId": "193"
+     "teamId": "193",
+     "goals": 1
     },
     {
      "name": "Polka András",
-     "goals": 1,
-     "teamId": "193"
+     "teamId": "193",
+     "goals": 1
     },
     {
      "name": "Szerencsi Dániel",
-     "goals": 1,
-     "teamId": "193"
+     "teamId": "193",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T02:12:59.669Z"
@@ -1945,18 +1945,18 @@
    "scorers": [
     {
      "name": "Veréb Balázs",
-     "goals": 3,
-     "teamId": "21"
+     "teamId": "21",
+     "goals": 3
     },
     {
      "name": "Pákozdi Máté Márk",
-     "goals": 1,
-     "teamId": "21"
+     "teamId": "21",
+     "goals": 1
     },
     {
      "name": "Limbek Soma",
-     "goals": 1,
-     "teamId": "21"
+     "teamId": "21",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T02:12:59.669Z"
@@ -2261,7 +2261,7 @@
    "teamId": "1532",
    "bestLeague": "L5A",
    "topScorer": {
-    "name": "Czibula Márk Milán",
+    "name": "Kalapos Titusz",
     "goals": 3
    },
    "seasonsCount": 2,

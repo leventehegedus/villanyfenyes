@@ -1933,18 +1933,18 @@
    "scorers": [
     {
      "name": "Turóczi Viktor",
-     "goals": 2,
-     "teamId": "54"
+     "teamId": "54",
+     "goals": 2
     },
     {
      "name": "Boa Benjámin Péter",
-     "goals": 1,
-     "teamId": "54"
+     "teamId": "54",
+     "goals": 1
     },
     {
      "name": "Szita Dávid László",
-     "goals": 1,
-     "teamId": "54"
+     "teamId": "54",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T02:12:59.669Z"
@@ -2001,33 +2001,33 @@
    "scorers": [
     {
      "name": "Morvai Gábor",
-     "goals": 3,
-     "teamId": "54"
+     "teamId": "54",
+     "goals": 3
     },
     {
      "name": "Izsak Jeno Adam",
-     "goals": 3,
-     "teamId": "54"
+     "teamId": "54",
+     "goals": 3
     },
     {
      "name": "Turóczi Viktor",
-     "goals": 3,
-     "teamId": "54"
+     "teamId": "54",
+     "goals": 3
     },
     {
      "name": "Szemes Péter",
-     "goals": 3,
-     "teamId": "54"
+     "teamId": "54",
+     "goals": 3
     },
     {
      "name": "Szita Dávid László",
-     "goals": 3,
-     "teamId": "54"
+     "teamId": "54",
+     "goals": 3
     },
     {
      "name": "Boa Benjámin Péter",
-     "goals": 1,
-     "teamId": "54"
+     "teamId": "54",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T02:12:59.669Z"
@@ -2356,7 +2356,7 @@
    "teamId": "62",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Pusztai Bertalan",
+    "name": "Rafael Moreira de Souza",
     "goals": 5
    },
    "seasonsCount": 5,

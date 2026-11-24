@@ -2171,23 +2171,23 @@
    "scorers": [
     {
      "name": "Novozánszki Zsombor",
-     "goals": 4,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 4
     },
     {
      "name": "Horváth Péter",
-     "goals": 3,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 3
     },
     {
      "name": "Bordás Máté Vilmos",
-     "goals": 1,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 1
     },
     {
      "name": "Őze Sándor",
-     "goals": 1,
-     "teamId": "85"
+     "teamId": "85",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T02:12:59.669Z"
@@ -2259,28 +2259,28 @@
    "scorers": [
     {
      "name": "Dénes Magor",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     },
     {
      "name": "Tóth Ádám",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     },
     {
      "name": "Skarka Kaspar András",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     },
     {
      "name": "Bányay Csongor",
-     "goals": 1,
-     "teamId": "39"
+     "teamId": "39",
+     "goals": 1
     },
     {
      "name": "Sziffer Bence",
-     "goals": 1,
-     "teamId": "40"
+     "teamId": "40",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T02:12:59.669Z"

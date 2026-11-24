@@ -1972,28 +1972,28 @@
    "scorers": [
     {
      "name": "Vigano Mario",
-     "goals": 2,
-     "teamId": "1560"
+     "teamId": "1560",
+     "goals": 2
     },
     {
      "name": "Páll Donát Domonkos",
-     "goals": 2,
-     "teamId": "1560"
+     "teamId": "1560",
+     "goals": 2
     },
     {
      "name": "Takács Ábel",
-     "goals": 1,
-     "teamId": "1560"
+     "teamId": "1560",
+     "goals": 1
     },
     {
      "name": "Bognár Milán",
-     "goals": 1,
-     "teamId": "1560"
+     "teamId": "1560",
+     "goals": 1
     },
     {
      "name": "B. Tóth Milan",
-     "goals": 1,
-     "teamId": "1560"
+     "teamId": "1560",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T02:12:59.669Z"
@@ -2011,33 +2011,33 @@
    "scorers": [
     {
      "name": "Szilágyi Péter",
-     "goals": 4,
-     "teamId": "156"
+     "teamId": "156",
+     "goals": 4
     },
     {
      "name": "Horváth Attila",
-     "goals": 2,
-     "teamId": "156"
+     "teamId": "156",
+     "goals": 2
     },
     {
      "name": "Szemesi Tamás",
-     "goals": 1,
-     "teamId": "156"
+     "teamId": "156",
+     "goals": 1
     },
     {
      "name": "Szemesi Péter",
-     "goals": 1,
-     "teamId": "156"
+     "teamId": "156",
+     "goals": 1
     },
     {
      "name": "Jerjomina-Kramarics Miklós",
-     "goals": 1,
-     "teamId": "156"
+     "teamId": "156",
+     "goals": 1
     },
     {
      "name": "Becsei Erik",
-     "goals": 1,
-     "teamId": "156"
+     "teamId": "156",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T02:12:59.669Z"
@@ -2055,18 +2055,18 @@
    "scorers": [
     {
      "name": "Bakos Balázs",
-     "goals": 2,
-     "teamId": "138"
+     "teamId": "138",
+     "goals": 2
     },
     {
      "name": "Zagyva Mátyás",
-     "goals": 1,
-     "teamId": "138"
+     "teamId": "138",
+     "goals": 1
     },
     {
      "name": "Juhász Gábor",
-     "goals": 1,
-     "teamId": "138"
+     "teamId": "138",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T02:12:59.669Z"
@@ -2084,28 +2084,28 @@
    "scorers": [
     {
      "name": "Varga Domonkos",
-     "goals": 2,
-     "teamId": "1575"
+     "teamId": "1575",
+     "goals": 2
     },
     {
      "name": "Tóth Sebestyén",
-     "goals": 2,
-     "teamId": "1575"
+     "teamId": "1575",
+     "goals": 2
     },
     {
      "name": "Nahum Dominik",
-     "goals": 1,
-     "teamId": "1575"
+     "teamId": "1575",
+     "goals": 1
     },
     {
      "name": "Virág András Bence",
-     "goals": 1,
-     "teamId": "1575"
+     "teamId": "1575",
+     "goals": 1
     },
     {
      "name": "Speer Bálint Bence",
-     "goals": 1,
-     "teamId": "1575"
+     "teamId": "1575",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T02:12:59.669Z"
@@ -2411,7 +2411,7 @@
    "teamId": "144",
    "bestLeague": "L3B",
    "topScorer": {
-    "name": "Lovász Benjámin",
+    "name": "Gégény Bálint",
     "goals": 4
    },
    "seasonsCount": 6,
@@ -2421,7 +2421,7 @@
    "teamId": "1495",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Tóth Ábel Csongor",
+    "name": "Erdős Péter Zsombot",
     "goals": 2
    },
    "seasonsCount": 3,
