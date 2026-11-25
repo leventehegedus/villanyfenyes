@@ -2001,31 +2001,31 @@
    "scorers": [
     {
      "name": "Dudás Zoltán",
-     "teamId": "220",
-     "goals": 2
+     "goals": 2,
+     "teamId": "220"
     },
     {
      "name": "Sári Márk",
-     "teamId": "220",
-     "goals": 2
+     "goals": 2,
+     "teamId": "220"
     },
     {
      "name": "Lontai Bendegúz",
-     "teamId": "220",
-     "goals": 1
+     "goals": 1,
+     "teamId": "220"
     },
     {
      "name": "Somogyi Kristóf",
-     "teamId": "220",
-     "goals": 1
+     "goals": 1,
+     "teamId": "220"
     },
     {
      "name": "Tuska József",
-     "teamId": "220",
-     "goals": 1
+     "goals": 1,
+     "teamId": "220"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57313",
@@ -2094,21 +2094,21 @@
    "scorers": [
     {
      "name": "Reményi Balázs",
-     "teamId": "29",
-     "goals": 3
+     "goals": 3,
+     "teamId": "29"
     },
     {
      "name": "Horváth Bence",
-     "teamId": "29",
-     "goals": 2
+     "goals": 2,
+     "teamId": "29"
     },
     {
      "name": "Tompa Kristóf",
-     "teamId": "29",
-     "goals": 1
+     "goals": 1,
+     "teamId": "29"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57320",
@@ -2196,21 +2196,21 @@
    "scorers": [
     {
      "name": "Hornyák Krisztofer",
-     "teamId": "154",
-     "goals": 1
+     "goals": 1,
+     "teamId": "154"
     },
     {
      "name": "Hegedüs Dániel",
-     "teamId": "154",
-     "goals": 1
+     "goals": 1,
+     "teamId": "154"
     },
     {
      "name": "Juhász Csongor",
-     "teamId": "154",
-     "goals": 1
+     "goals": 1,
+     "teamId": "154"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57353",
@@ -2223,7 +2223,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57413",
@@ -2269,8 +2269,29 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "scorers": [
+    {
+     "name": "Reizinger Bence",
+     "goals": 5,
+     "teamId": "37"
+    },
+    {
+     "name": "Fülöp Gergő",
+     "goals": 2,
+     "teamId": "37"
+    },
+    {
+     "name": "Fülöp Csongor",
+     "goals": 2,
+     "teamId": "37"
+    },
+    {
+     "name": "Molnár Levente",
+     "goals": 1,
+     "teamId": "37"
+    }
+   ],
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "x-55-L2B-202611251700-kulakok-dzsum-dzsum",
@@ -2517,7 +2538,7 @@
    "teamId": "220",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Lontai Bendegúz",
+    "name": "Dudás Zoltán",
     "goals": 5
    },
    "seasonsCount": 16,
@@ -2557,7 +2578,7 @@
    "teamId": "31",
    "bestLeague": "L2B",
    "topScorer": {
-    "name": "Hencsei Zsombor",
+    "name": "Igari András",
     "goals": 3
    },
    "seasonsCount": 16,

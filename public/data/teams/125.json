@@ -10,16 +10,16 @@
    "label": "2026 - Ősz",
    "league": "L5B",
    "finished": false,
-   "position": 4,
+   "position": 5,
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 8,
+    "played": 9,
     "won": 5,
     "drawn": 1,
-    "lost": 2,
-    "goalsFor": 53,
-    "goalsAgainst": 43,
+    "lost": 3,
+    "goalsFor": 57,
+    "goalsAgainst": 53,
     "points": 16
    }
   }
@@ -128,6 +128,19 @@
     "goalsAgainst": 2,
     "points": 3
    }
+  },
+  {
+   "teamId": "24",
+   "name": "A jó, a rossz és a dagadt",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 10,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -207,28 +220,28 @@
    "from": {
     "seasonId": 55,
     "league": "L5B",
-    "matchId": "56825",
-    "kickoff": "2026-09-28T19:00:00.000Z",
-    "opponentId": "228",
-    "goalsFor": 5,
-    "goalsAgainst": 6
+    "matchId": "57381",
+    "kickoff": "2026-11-23T20:00:00.000Z",
+    "opponentId": "24",
+    "goalsFor": 4,
+    "goalsAgainst": 10
    },
    "to": {
     "seasonId": 55,
     "league": "L5B",
-    "matchId": "56825",
-    "kickoff": "2026-09-28T19:00:00.000Z",
-    "opponentId": "228",
-    "goalsFor": 5,
-    "goalsAgainst": 6
+    "matchId": "57381",
+    "kickoff": "2026-11-23T20:00:00.000Z",
+    "opponentId": "24",
+    "goalsFor": 4,
+    "goalsAgainst": 10
    }
   }
  },
  "cleanSheets": 1,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 8,
-  "coveredMatches": 8,
+  "playedMatches": 9,
+  "coveredMatches": 9,
   "rows": [
    {
     "name": "Száraz Dániel",
@@ -238,8 +251,8 @@
    },
    {
     "name": "Németh Ákos",
-    "goals": 10,
-    "matches": 6,
+    "goals": 11,
+    "matches": 7,
     "hatTricks": 1
    },
    {
@@ -250,8 +263,8 @@
    },
    {
     "name": "Tar Marcell",
-    "goals": 6,
-    "matches": 4,
+    "goals": 7,
+    "matches": 5,
     "hatTricks": 0
    },
    {
@@ -261,15 +274,15 @@
     "hatTricks": 1
    },
    {
-    "name": "Tóth Kristóf",
-    "goals": 3,
-    "matches": 3,
+    "name": "Czotter Istvan",
+    "goals": 4,
+    "matches": 2,
     "hatTricks": 0
    },
    {
-    "name": "Czotter Istvan",
-    "goals": 2,
-    "matches": 1,
+    "name": "Tóth Kristóf",
+    "goals": 3,
+    "matches": 3,
     "hatTricks": 0
    },
    {

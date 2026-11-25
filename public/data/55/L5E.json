@@ -25,6 +25,11 @@
    "name": "EKSCHÖN TÍM"
   },
   {
+   "id": "193",
+   "siteId": 193,
+   "name": "Boccs-boccs"
+  },
+  {
    "id": "1571",
    "siteId": 1571,
    "name": "FÉK FC"
@@ -33,11 +38,6 @@
    "id": "21",
    "siteId": 21,
    "name": "Mégnemveszíthetek"
-  },
-  {
-   "id": "193",
-   "siteId": 193,
-   "name": "Boccs-boccs"
   },
   {
    "id": "1532",
@@ -131,6 +131,19 @@
   },
   {
    "position": 5,
+   "teamId": "193",
+   "played": 9,
+   "won": 4,
+   "drawn": 1,
+   "lost": 4,
+   "goalsFor": 43,
+   "goalsAgainst": 54,
+   "goalDiff": -11,
+   "points": 13,
+   "markers": []
+  },
+  {
+   "position": 6,
    "teamId": "1571",
    "played": 7,
    "won": 4,
@@ -146,7 +159,7 @@
    ]
   },
   {
-   "position": 6,
+   "position": 7,
    "teamId": "21",
    "played": 8,
    "won": 3,
@@ -156,19 +169,6 @@
    "goalsAgainst": 45,
    "goalDiff": -7,
    "points": 11,
-   "markers": []
-  },
-  {
-   "position": 7,
-   "teamId": "193",
-   "played": 8,
-   "won": 3,
-   "drawn": 1,
-   "lost": 4,
-   "goalsFor": 34,
-   "goalsAgainst": 48,
-   "goalDiff": -14,
-   "points": 10,
    "markers": []
   },
   {
@@ -217,13 +217,13 @@
   {
    "position": 11,
    "teamId": "1561",
-   "played": 7,
+   "played": 8,
    "won": 0,
    "drawn": 2,
-   "lost": 5,
-   "goalsFor": 22,
-   "goalsAgainst": 46,
-   "goalDiff": -24,
+   "lost": 6,
+   "goalsFor": 28,
+   "goalsAgainst": 55,
+   "goalDiff": -27,
    "points": 2,
    "markers": [
     "lossStreak"
@@ -1836,26 +1836,26 @@
    "scorers": [
     {
      "name": "Iker Előd Sebestyén",
-     "teamId": "1571",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1571"
     },
     {
      "name": "Kis Hunor",
-     "teamId": "1571",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1571"
     },
     {
      "name": "Varga Áron Gábor",
-     "teamId": "1571",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1571"
     },
     {
      "name": "Benczik-Hrncsár Áron",
-     "teamId": "1571",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1571"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57336",
@@ -1870,16 +1870,16 @@
    "scorers": [
     {
      "name": "Józsa István Roland",
-     "teamId": "1486",
-     "goals": 3
+     "goals": 3,
+     "teamId": "1486"
     },
     {
      "name": "Farkas Zsombor",
-     "teamId": "1486",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1486"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57317",
@@ -1892,7 +1892,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57343",
@@ -1901,37 +1901,52 @@
    "awayTeamId": "1561",
    "kickoff": "2026-11-19T17:00:00.000Z",
    "venue": "Bogdánfy_1",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 9,
+   "awayGoals": 6,
+   "status": "played",
    "scorers": [
     {
      "name": "Nagy Balázs",
-     "teamId": "193",
-     "goals": 5
+     "goals": 5,
+     "teamId": "193"
     },
     {
      "name": "Dominek Márk",
-     "teamId": "193",
-     "goals": 1
+     "goals": 1,
+     "teamId": "193"
     },
     {
      "name": "Dr. Nagy Balázs",
-     "teamId": "193",
-     "goals": 1
+     "goals": 1,
+     "teamId": "193"
     },
     {
      "name": "Polka András",
-     "teamId": "193",
-     "goals": 1
+     "goals": 1,
+     "teamId": "193"
     },
     {
      "name": "Szerencsi Dániel",
-     "teamId": "193",
-     "goals": 1
+     "goals": 1,
+     "teamId": "193"
+    },
+    {
+     "name": "Kozák Márton",
+     "goals": 3,
+     "teamId": "1561"
+    },
+    {
+     "name": "Hegedüs Ákos László",
+     "goals": 2,
+     "teamId": "1561"
+    },
+    {
+     "name": "Gergely Szilárd",
+     "goals": 1,
+     "teamId": "1561"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "56764",
@@ -1970,31 +1985,31 @@
    "scorers": [
     {
      "name": "Veréb Balázs",
-     "teamId": "21",
-     "goals": 7
+     "goals": 7,
+     "teamId": "21"
     },
     {
      "name": "Pákozdi Máté Márk",
-     "teamId": "21",
-     "goals": 1
+     "goals": 1,
+     "teamId": "21"
     },
     {
      "name": "Limbek Soma",
-     "teamId": "21",
-     "goals": 1
+     "goals": 1,
+     "teamId": "21"
     },
     {
      "name": "Juhász Ákos Zoltán",
-     "teamId": "21",
-     "goals": 1
+     "goals": 1,
+     "teamId": "21"
     },
     {
      "name": "Szomolai Bálint Tibor",
-     "teamId": "21",
-     "goals": 1
+     "goals": 1,
+     "teamId": "21"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57364",
@@ -2007,7 +2022,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57410",
@@ -2019,8 +2034,24 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "scorers": [
+    {
+     "name": "Gergő Szebeni",
+     "goals": 1,
+     "teamId": "1561"
+    },
+    {
+     "name": "Gergely Szilárd",
+     "goals": 1,
+     "teamId": "1561"
+    },
+    {
+     "name": "Zalán Varga",
+     "goals": 1,
+     "teamId": "1561"
+    }
+   ],
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "x-55-L5E-202611301700-los-galacticos-oso-fc",
@@ -2260,6 +2291,16 @@
    "matchesPlayed": 8
   },
   {
+   "teamId": "193",
+   "bestLeague": "L3A",
+   "topScorer": {
+    "name": "Nagy Balázs",
+    "goals": 5
+   },
+   "seasonsCount": 38,
+   "matchesPlayed": 9
+  },
+  {
    "teamId": "1571",
    "bestLeague": "L5E",
    "topScorer": {
@@ -2280,20 +2321,10 @@
    "matchesPlayed": 8
   },
   {
-   "teamId": "193",
-   "bestLeague": "L3A",
-   "topScorer": {
-    "name": "Nagy Balázs",
-    "goals": 5
-   },
-   "seasonsCount": 38,
-   "matchesPlayed": 8
-  },
-  {
    "teamId": "1532",
    "bestLeague": "L5A",
    "topScorer": {
-    "name": "Czibula Márk Milán",
+    "name": "Kalapos Titusz",
     "goals": 3
    },
    "seasonsCount": 2,
@@ -2313,7 +2344,7 @@
    "teamId": "1476",
    "bestLeague": "L5C",
    "topScorer": {
-    "name": "Simon Brúnó",
+    "name": "Vitényi Dávid",
     "goals": 4
    },
    "seasonsCount": 2,
@@ -2327,7 +2358,7 @@
     "goals": 3
    },
    "seasonsCount": 1,
-   "matchesPlayed": 7
+   "matchesPlayed": 8
   },
   {
    "teamId": "1536",

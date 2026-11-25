@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L5E",
    "finished": false,
-   "position": 7,
+   "position": 5,
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 8,
-    "won": 3,
+    "played": 9,
+    "won": 4,
     "drawn": 1,
     "lost": 4,
-    "goalsFor": 34,
-    "goalsAgainst": 48,
-    "points": 10
+    "goalsFor": 43,
+    "goalsAgainst": 54,
+    "points": 13
    }
   }
  ],
@@ -128,17 +128,30 @@
     "goalsAgainst": 6,
     "points": 0
    }
+  },
+  {
+   "teamId": "1561",
+   "name": "Team Red",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 6,
+    "points": 3
+   }
   }
  ],
  "records": {
   "biggestWin": {
    "seasonId": 55,
    "league": "L5E",
-   "matchId": "56943",
-   "kickoff": "2026-10-09T19:00:00.000Z",
-   "opponentId": "1536",
-   "goalsFor": 7,
-   "goalsAgainst": 4
+   "matchId": "57343",
+   "kickoff": "2026-11-19T17:00:00.000Z",
+   "opponentId": "1561",
+   "goalsFor": 9,
+   "goalsAgainst": 6
   },
   "biggestDefeat": {
    "seasonId": 55,
@@ -152,11 +165,11 @@
   "highestScoring": {
    "seasonId": 55,
    "league": "L5E",
-   "matchId": "56769",
-   "kickoff": "2026-09-21T18:00:00.000Z",
-   "opponentId": "163",
-   "goalsFor": 4,
-   "goalsAgainst": 10
+   "matchId": "57343",
+   "kickoff": "2026-11-19T17:00:00.000Z",
+   "opponentId": "1561",
+   "goalsFor": 9,
+   "goalsAgainst": 6
   }
  },
  "streaks": {
@@ -227,25 +240,31 @@
  "cleanSheets": 0,
  "failedToScore": 1,
  "scorers": {
-  "playedMatches": 8,
-  "coveredMatches": 8,
+  "playedMatches": 9,
+  "coveredMatches": 9,
   "rows": [
    {
     "name": "Nagy Balázs",
-    "goals": 11,
-    "matches": 3,
-    "hatTricks": 2
+    "goals": 16,
+    "matches": 4,
+    "hatTricks": 3
    },
    {
     "name": "Dominek Márk",
-    "goals": 4,
-    "matches": 2,
+    "goals": 5,
+    "matches": 3,
     "hatTricks": 1
    },
    {
     "name": "Dr. Nagy Balázs",
-    "goals": 4,
-    "matches": 3,
+    "goals": 5,
+    "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Polka András",
+    "goals": 2,
+    "matches": 2,
     "hatTricks": 0
    },
    {
@@ -261,7 +280,7 @@
     "hatTricks": 0
    },
    {
-    "name": "Polka András",
+    "name": "Szerencsi Dániel",
     "goals": 1,
     "matches": 1,
     "hatTricks": 0

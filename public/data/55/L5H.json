@@ -1795,26 +1795,26 @@
    "scorers": [
     {
      "name": "Görgényi András",
-     "teamId": "1556",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1556"
     },
     {
      "name": "Kollár Ádám",
-     "teamId": "1556",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1556"
     },
     {
      "name": "Wang Tian Yao",
-     "teamId": "1556",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1556"
     },
     {
      "name": "Brúnó Milassin",
-     "teamId": "1556",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1556"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57331",
@@ -1829,21 +1829,21 @@
    "scorers": [
     {
      "name": "Oláh Máté",
-     "teamId": "232",
-     "goals": 2
+     "goals": 2,
+     "teamId": "232"
     },
     {
      "name": "Farkas Bence",
-     "teamId": "232",
-     "goals": 2
+     "goals": 2,
+     "teamId": "232"
     },
     {
      "name": "Németh Zalán Barnabás",
-     "teamId": "232",
-     "goals": 1
+     "goals": 1,
+     "teamId": "232"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57298",
@@ -1858,26 +1858,26 @@
    "scorers": [
     {
      "name": "Nagy Mihály Gyula",
-     "teamId": "1566",
-     "goals": 8
+     "goals": 8,
+     "teamId": "1566"
     },
     {
      "name": "Daróczi Donát",
-     "teamId": "1566",
-     "goals": 5
+     "goals": 5,
+     "teamId": "1566"
     },
     {
      "name": "Fodor Kornél",
-     "teamId": "1566",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1566"
     },
     {
      "name": "Jordán Bertalan",
-     "teamId": "1566",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1566"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57327",
@@ -1892,41 +1892,41 @@
    "scorers": [
     {
      "name": "Filipánics András",
-     "teamId": "1553",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1553"
     },
     {
      "name": "Ghiczy Gergő",
-     "teamId": "1553",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1553"
     },
     {
      "name": "Kósa Zoárd",
-     "teamId": "1553",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1553"
     },
     {
      "name": "Takács Benedek",
-     "teamId": "1556",
-     "goals": 4
+     "goals": 4,
+     "teamId": "1556"
     },
     {
      "name": "Görgényi András",
-     "teamId": "1556",
-     "goals": 3
+     "goals": 3,
+     "teamId": "1556"
     },
     {
      "name": "Kollár Ádám",
-     "teamId": "1556",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1556"
     },
     {
      "name": "Wang Tian Yao",
-     "teamId": "1556",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1556"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57310",
@@ -1939,7 +1939,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57358",
@@ -1951,8 +1951,24 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "scorers": [
+    {
+     "name": "Berzsák Bulcsú",
+     "goals": 1,
+     "teamId": "1577"
+    },
+    {
+     "name": "Antalffy-Zsiros Attila",
+     "goals": 1,
+     "teamId": "1577"
+    },
+    {
+     "name": "Koller Aron",
+     "goals": 1,
+     "teamId": "1577"
+    }
+   ],
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "x-55-L5H-202611251700-futball-pistak-szamaras-se",
@@ -2218,7 +2234,7 @@
    "teamId": "35",
    "bestLeague": "L3C",
    "topScorer": {
-    "name": "Kész Roland",
+    "name": "Mórocz Bence",
     "goals": 6
    },
    "seasonsCount": 6,
@@ -2258,7 +2274,7 @@
    "teamId": "225",
    "bestLeague": "L5C",
    "topScorer": {
-    "name": "Komáromy Áron",
+    "name": "Kozma Boldizsár",
     "goals": 2
    },
    "seasonsCount": 4,

@@ -5,6 +5,11 @@
  "sourceUrl": "https://villanyfenyesbajnoksag.hu/tabella?selected_season=55&league=L5B",
  "teams": [
   {
+   "id": "24",
+   "siteId": 24,
+   "name": "A jó, a rossz és a dagadt"
+  },
+  {
    "id": "1533",
    "siteId": 1533,
    "name": "Sördögök"
@@ -23,11 +28,6 @@
    "id": "125",
    "siteId": 125,
    "name": "Alibi FC"
-  },
-  {
-   "id": "24",
-   "siteId": 24,
-   "name": "A jó, a rossz és a dagadt"
   },
   {
    "id": "1483",
@@ -68,6 +68,22 @@
  "standings": [
   {
    "position": 1,
+   "teamId": "24",
+   "played": 9,
+   "won": 6,
+   "drawn": 1,
+   "lost": 2,
+   "goalsFor": 54,
+   "goalsAgainst": 45,
+   "goalDiff": 9,
+   "points": 19,
+   "markers": [
+    "manyGoals",
+    "promotion"
+   ]
+  },
+  {
+   "position": 2,
    "teamId": "1533",
    "played": 8,
    "won": 6,
@@ -83,7 +99,7 @@
    ]
   },
   {
-   "position": 2,
+   "position": 3,
    "teamId": "228",
    "played": 8,
    "won": 6,
@@ -94,12 +110,11 @@
    "goalDiff": 12,
    "points": 18,
    "markers": [
-    "fewConceded",
-    "promotion"
+    "fewConceded"
    ]
   },
   {
-   "position": 3,
+   "position": 4,
    "teamId": "105",
    "played": 8,
    "won": 6,
@@ -115,34 +130,18 @@
    ]
   },
   {
-   "position": 4,
-   "teamId": "125",
-   "played": 8,
-   "won": 5,
-   "drawn": 1,
-   "lost": 2,
-   "goalsFor": 53,
-   "goalsAgainst": 43,
-   "goalDiff": 10,
-   "points": 16,
-   "markers": [
-    "winStreak",
-    "manyGoals"
-   ]
-  },
-  {
    "position": 5,
-   "teamId": "24",
-   "played": 8,
+   "teamId": "125",
+   "played": 9,
    "won": 5,
    "drawn": 1,
-   "lost": 2,
-   "goalsFor": 44,
-   "goalsAgainst": 41,
-   "goalDiff": 3,
+   "lost": 3,
+   "goalsFor": 57,
+   "goalsAgainst": 53,
+   "goalDiff": 4,
    "points": 16,
    "markers": [
-    "lossStreak"
+    "manyGoals"
    ]
   },
   {
@@ -1944,7 +1943,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57297",
@@ -1997,27 +1996,42 @@
    "awayTeamId": "125",
    "kickoff": "2026-11-23T20:00:00.000Z",
    "venue": "Bogdánfy_3",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 10,
+   "awayGoals": 4,
+   "status": "played",
    "scorers": [
     {
      "name": "Morvai Gábor",
-     "teamId": "24",
-     "goals": 4
+     "goals": 4,
+     "teamId": "24"
     },
     {
      "name": "Beleznai Kornél",
-     "teamId": "24",
-     "goals": 3
+     "goals": 3,
+     "teamId": "24"
     },
     {
      "name": "Szemes Péter",
-     "teamId": "24",
-     "goals": 3
+     "goals": 3,
+     "teamId": "24"
+    },
+    {
+     "name": "Czotter Istvan",
+     "goals": 2,
+     "teamId": "125"
+    },
+    {
+     "name": "Tar Marcell",
+     "goals": 1,
+     "teamId": "125"
+    },
+    {
+     "name": "Németh Ákos",
+     "goals": 1,
+     "teamId": "125"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57478",
@@ -2030,7 +2044,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "x-55-L5B-202611261900-jo-az-x-magyi",
@@ -2243,6 +2257,16 @@
  ],
  "summaries": [
   {
+   "teamId": "24",
+   "bestLeague": "L3B",
+   "topScorer": {
+    "name": "Morvai Gábor",
+    "goals": 5
+   },
+   "seasonsCount": 23,
+   "matchesPlayed": 9
+  },
+  {
    "teamId": "1533",
    "bestLeague": "L5B",
    "topScorer": {
@@ -2280,17 +2304,7 @@
     "goals": 5
    },
    "seasonsCount": 9,
-   "matchesPlayed": 8
-  },
-  {
-   "teamId": "24",
-   "bestLeague": "L3B",
-   "topScorer": {
-    "name": "Morvai Gábor",
-    "goals": 5
-   },
-   "seasonsCount": 23,
-   "matchesPlayed": 8
+   "matchesPlayed": 9
   },
   {
    "teamId": "1483",
@@ -2346,7 +2360,7 @@
    "teamId": "1559",
    "bestLeague": "L5B",
    "topScorer": {
-    "name": "Hudi Martin",
+    "name": "Loósz Benedek",
     "goals": 3
    },
    "seasonsCount": 1,

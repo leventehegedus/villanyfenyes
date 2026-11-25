@@ -1979,7 +1979,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57271",
@@ -2106,31 +2106,31 @@
    "scorers": [
     {
      "name": "Kunkli László",
-     "teamId": "1469",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1469"
     },
     {
      "name": "Novozánszki Zsombor",
-     "teamId": "1469",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1469"
     },
     {
      "name": "Vágó Ádám",
-     "teamId": "1469",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1469"
     },
     {
      "name": "Fülöp Máté",
-     "teamId": "1469",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1469"
     },
     {
      "name": "Kristóf Noel Garami",
-     "teamId": "1469",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1469"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57619",
@@ -2145,26 +2145,26 @@
    "scorers": [
     {
      "name": "Kékegyi Márk",
-     "teamId": "1518",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1518"
     },
     {
      "name": "Hegedűs András",
-     "teamId": "1518",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1518"
     },
     {
      "name": "Székács Kristóf",
-     "teamId": "1518",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1518"
     },
     {
      "name": "Kis Sándor",
-     "teamId": "1518",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1518"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57326",
@@ -2179,31 +2179,31 @@
    "scorers": [
     {
      "name": "Unyi Dániel",
-     "teamId": "1534",
-     "goals": 3
+     "goals": 3,
+     "teamId": "1534"
     },
     {
      "name": "Fuszonecker Tamás",
-     "teamId": "1534",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1534"
     },
     {
      "name": "Horváth Dominik",
-     "teamId": "1534",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1534"
     },
     {
      "name": "Böröcz Bence",
-     "teamId": "1534",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1534"
     },
     {
      "name": "Virosztkó József",
-     "teamId": "1534",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1534"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57339",
@@ -2218,21 +2218,21 @@
    "scorers": [
     {
      "name": "Máté Bajomi",
-     "teamId": "1567",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1567"
     },
     {
      "name": "Varga Ádám",
-     "teamId": "1567",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1567"
     },
     {
      "name": "Kopasz Gergő",
-     "teamId": "1567",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1567"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "56905",
@@ -2247,41 +2247,41 @@
    "scorers": [
     {
      "name": "Vasbányai Vince",
-     "teamId": "1488",
-     "goals": 3
+     "goals": 3,
+     "teamId": "1488"
     },
     {
      "name": "Heffner Attila Hunor",
-     "teamId": "1488",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1488"
     },
     {
      "name": "Dékány Péter",
-     "teamId": "1488",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1488"
     },
     {
      "name": "Lukács Ákos",
-     "teamId": "1488",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1488"
     },
     {
      "name": "Kovács Barna",
-     "teamId": "1488",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1488"
     },
     {
      "name": "Péteri Bendegúz",
-     "teamId": "1488",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1488"
     },
     {
      "name": "Lukács Ádám",
-     "teamId": "1488",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1488"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57415",
@@ -2333,7 +2333,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "x-55-L5G-202611251700-she-said-she-was-5-1-golatanacs",

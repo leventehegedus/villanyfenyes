@@ -40,14 +40,14 @@
    "name": "DEG(eneráltak)"
   },
   {
-   "id": "181",
-   "siteId": 181,
-   "name": "Brazilok"
-  },
-  {
    "id": "1565",
    "siteId": 1565,
    "name": "szopókás póverád"
+  },
+  {
+   "id": "181",
+   "siteId": 181,
+   "name": "Brazilok"
   },
   {
    "id": "1473",
@@ -179,6 +179,19 @@
   },
   {
    "position": 8,
+   "teamId": "1565",
+   "played": 8,
+   "won": 3,
+   "drawn": 1,
+   "lost": 4,
+   "goalsFor": 44,
+   "goalsAgainst": 49,
+   "goalDiff": -5,
+   "points": 10,
+   "markers": []
+  },
+  {
+   "position": 9,
    "teamId": "181",
    "played": 7,
    "won": 3,
@@ -188,19 +201,6 @@
    "goalsAgainst": 34,
    "goalDiff": -4,
    "points": 9,
-   "markers": []
-  },
-  {
-   "position": 9,
-   "teamId": "1565",
-   "played": 7,
-   "won": 2,
-   "drawn": 1,
-   "lost": 4,
-   "goalsFor": 35,
-   "goalsAgainst": 43,
-   "goalDiff": -8,
-   "points": 7,
    "markers": []
   },
   {
@@ -221,13 +221,13 @@
   {
    "position": 11,
    "teamId": "75",
-   "played": 7,
+   "played": 8,
    "won": 1,
    "drawn": 0,
-   "lost": 6,
-   "goalsFor": 22,
-   "goalsAgainst": 59,
-   "goalDiff": -37,
+   "lost": 7,
+   "goalsFor": 28,
+   "goalsAgainst": 68,
+   "goalDiff": -40,
    "points": 3,
    "markers": []
   },
@@ -2034,41 +2034,41 @@
    "scorers": [
     {
      "name": "Barnabás Ilosvai",
-     "teamId": "75",
-     "goals": 3
+     "goals": 3,
+     "teamId": "75"
     },
     {
      "name": "Theisz Aurél Levente",
-     "teamId": "75",
-     "goals": 1
+     "goals": 1,
+     "teamId": "75"
     },
     {
      "name": "Balás Áron",
-     "teamId": "240",
-     "goals": 3
+     "goals": 3,
+     "teamId": "240"
     },
     {
      "name": "Viktor Szabó",
-     "teamId": "240",
-     "goals": 3
+     "goals": 3,
+     "teamId": "240"
     },
     {
      "name": "Fedor István",
-     "teamId": "240",
-     "goals": 1
+     "goals": 1,
+     "teamId": "240"
     },
     {
      "name": "Szőke Tamás János",
-     "teamId": "240",
-     "goals": 1
+     "goals": 1,
+     "teamId": "240"
     },
     {
      "name": "Bedő Sebestyén",
-     "teamId": "240",
-     "goals": 1
+     "goals": 1,
+     "teamId": "240"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57335",
@@ -2083,36 +2083,36 @@
    "scorers": [
     {
      "name": "Péntek Péter",
-     "teamId": "241",
-     "goals": 6
+     "goals": 6,
+     "teamId": "241"
     },
     {
      "name": "Elekes Dániel",
-     "teamId": "241",
-     "goals": 6
+     "goals": 6,
+     "teamId": "241"
     },
     {
      "name": "Centgraf András",
-     "teamId": "241",
-     "goals": 2
+     "goals": 2,
+     "teamId": "241"
     },
     {
      "name": "Horog Zalán",
-     "teamId": "241",
-     "goals": 2
+     "goals": 2,
+     "teamId": "241"
     },
     {
      "name": "Alvári Botond Zétény",
-     "teamId": "241",
-     "goals": 1
+     "goals": 1,
+     "teamId": "241"
     },
     {
      "name": "Szerencsi Márton",
-     "teamId": "241",
-     "goals": 1
+     "goals": 1,
+     "teamId": "241"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57294",
@@ -2127,26 +2127,26 @@
    "scorers": [
     {
      "name": "Varga Bálint",
-     "teamId": "132",
-     "goals": 1
+     "goals": 1,
+     "teamId": "132"
     },
     {
      "name": "Kelemen Ábel",
-     "teamId": "132",
-     "goals": 1
+     "goals": 1,
+     "teamId": "132"
     },
     {
      "name": "dr. Filipszki Gábor",
-     "teamId": "181",
-     "goals": 5
+     "goals": 5,
+     "teamId": "181"
     },
     {
      "name": "Dr. Bebesi Ákos László",
-     "teamId": "181",
-     "goals": 3
+     "goals": 3,
+     "teamId": "181"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57292",
@@ -2155,27 +2155,42 @@
    "awayTeamId": "1565",
    "kickoff": "2026-11-19T18:00:00.000Z",
    "venue": "Bogdánfy_4",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 6,
+   "awayGoals": 9,
+   "status": "played",
    "scorers": [
     {
      "name": "Barnabás Ilosvai",
-     "teamId": "75",
-     "goals": 3
+     "goals": 3,
+     "teamId": "75"
     },
     {
      "name": "Szedlacsek Bálint",
-     "teamId": "75",
-     "goals": 2
+     "goals": 2,
+     "teamId": "75"
     },
     {
      "name": "Szalay Miklós",
-     "teamId": "75",
-     "goals": 1
+     "goals": 1,
+     "teamId": "75"
+    },
+    {
+     "name": "Berhes Istvan Botond",
+     "goals": 4,
+     "teamId": "1565"
+    },
+    {
+     "name": "Maradi Bene",
+     "goals": 3,
+     "teamId": "1565"
+    },
+    {
+     "name": "Takács Gergely Zsolt",
+     "goals": 2,
+     "teamId": "1565"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57333",
@@ -2222,7 +2237,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "x-55-L5C-202611252100-ment-melle-is-pinatinaikos",
@@ -2465,7 +2480,7 @@
    "teamId": "241",
    "bestLeague": "L5A",
    "topScorer": {
-    "name": "Krizsan Balazs",
+    "name": "Elekes Dániel",
     "goals": 6
    },
    "seasonsCount": 3,
@@ -2492,6 +2507,16 @@
    "matchesPlayed": 7
   },
   {
+   "teamId": "1565",
+   "bestLeague": "L5C",
+   "topScorer": {
+    "name": "Maradi Bene",
+    "goals": 4
+   },
+   "seasonsCount": 1,
+   "matchesPlayed": 8
+  },
+  {
    "teamId": "181",
    "bestLeague": "L3B",
    "topScorer": {
@@ -2502,20 +2527,10 @@
    "matchesPlayed": 7
   },
   {
-   "teamId": "1565",
-   "bestLeague": "L5C",
-   "topScorer": {
-    "name": "Maradi Bene",
-    "goals": 4
-   },
-   "seasonsCount": 1,
-   "matchesPlayed": 7
-  },
-  {
    "teamId": "1473",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Szekeres Kornél",
+    "name": "Tóth Martin",
     "goals": 3
    },
    "seasonsCount": 4,
@@ -2529,7 +2544,7 @@
     "goals": 3
    },
    "seasonsCount": 3,
-   "matchesPlayed": 7
+   "matchesPlayed": 8
   },
   {
    "teamId": "113",

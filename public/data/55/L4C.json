@@ -1926,26 +1926,26 @@
    "scorers": [
     {
      "name": "Doma Gergely",
-     "teamId": "47",
-     "goals": 3
+     "goals": 3,
+     "teamId": "47"
     },
     {
      "name": "Molnár Ákos",
-     "teamId": "47",
-     "goals": 1
+     "goals": 1,
+     "teamId": "47"
     },
     {
      "name": "Széll Sándor",
-     "teamId": "47",
-     "goals": 1
+     "goals": 1,
+     "teamId": "47"
     },
     {
      "name": "Zsdrál Bertalan",
-     "teamId": "47",
-     "goals": 1
+     "goals": 1,
+     "teamId": "47"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57244",
@@ -1960,31 +1960,31 @@
    "scorers": [
     {
      "name": "Ürmös Zoltán",
-     "teamId": "153",
-     "goals": 4
+     "goals": 4,
+     "teamId": "153"
     },
     {
      "name": "Szatmari Peter",
-     "teamId": "153",
-     "goals": 2
+     "goals": 2,
+     "teamId": "153"
     },
     {
      "name": "Kitzinger Tamás",
-     "teamId": "153",
-     "goals": 1
+     "goals": 1,
+     "teamId": "153"
     },
     {
      "name": "Enyedi Tamás",
-     "teamId": "153",
-     "goals": 1
+     "goals": 1,
+     "teamId": "153"
     },
     {
      "name": "Tóth Attila",
-     "teamId": "153",
-     "goals": 1
+     "goals": 1,
+     "teamId": "153"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57267",
@@ -2067,11 +2067,11 @@
    "scorers": [
     {
      "name": "Lukács Gergely",
-     "teamId": "131",
-     "goals": 4
+     "goals": 4,
+     "teamId": "131"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57346",
@@ -2140,11 +2140,11 @@
    "scorers": [
     {
      "name": "Tkalcec Péter",
-     "teamId": "1512",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1512"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "x-55-L4C-202611251800-gabszk-meccs-lemondva-fc",
@@ -2377,7 +2377,7 @@
    "teamId": "1512",
    "bestLeague": "L4C",
    "topScorer": {
-    "name": "Kis Ádám",
+    "name": "Péter Adrián",
     "goals": 4
    },
    "seasonsCount": 2,

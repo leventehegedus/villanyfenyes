@@ -1794,6 +1794,14 @@
    "goalsFor": 24
   },
   {
+   "teamId": "24",
+   "name": "A jó, a rossz és a dagadt",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 6,
+   "goalsFor": 54
+  },
+  {
    "teamId": "1533",
    "name": "Sördögök",
    "titles": 0,
@@ -1823,15 +1831,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 5,
-   "goalsFor": 53
-  },
-  {
-   "teamId": "24",
-   "name": "A jó, a rossz és a dagadt",
-   "titles": 0,
-   "l1Seasons": 0,
-   "won": 5,
-   "goalsFor": 44
+   "goalsFor": 57
   },
   {
    "teamId": "1483",
@@ -1946,20 +1946,20 @@
    "goalsFor": 33
   },
   {
+   "teamId": "1565",
+   "name": "szopókás póverád",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 44
+  },
+  {
    "teamId": "181",
    "name": "Brazilok",
    "titles": 0,
    "l1Seasons": 0,
    "won": 3,
    "goalsFor": 30
-  },
-  {
-   "teamId": "1565",
-   "name": "szopókás póverád",
-   "titles": 0,
-   "l1Seasons": 0,
-   "won": 2,
-   "goalsFor": 35
   },
   {
    "teamId": "1473",
@@ -1975,7 +1975,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 1,
-   "goalsFor": 22
+   "goalsFor": 28
   },
   {
    "teamId": "113",
@@ -2114,6 +2114,14 @@
    "goalsFor": 39
   },
   {
+   "teamId": "193",
+   "name": "Boccs-boccs",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 43
+  },
+  {
    "teamId": "1571",
    "name": "FÉK FC",
    "titles": 0,
@@ -2128,14 +2136,6 @@
    "l1Seasons": 0,
    "won": 3,
    "goalsFor": 38
-  },
-  {
-   "teamId": "193",
-   "name": "Boccs-boccs",
-   "titles": 0,
-   "l1Seasons": 0,
-   "won": 3,
-   "goalsFor": 34
   },
   {
    "teamId": "1532",
@@ -2167,7 +2167,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 0,
-   "goalsFor": 22
+   "goalsFor": 28
   },
   {
    "teamId": "1536",

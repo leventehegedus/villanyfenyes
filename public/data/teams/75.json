@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 1,
     "drawn": 0,
-    "lost": 6,
-    "goalsFor": 22,
-    "goalsAgainst": 59,
+    "lost": 7,
+    "goalsFor": 28,
+    "goalsAgainst": 68,
     "points": 3
    }
   }
@@ -114,6 +114,19 @@
     "goalsFor": 8,
     "goalsAgainst": 3,
     "points": 3
+   }
+  },
+  {
+   "teamId": "1565",
+   "name": "szopókás póverád",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 6,
+    "goalsAgainst": 9,
+    "points": 0
    }
   }
  ],
@@ -214,20 +227,32 @@
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 7,
-  "coveredMatches": 7,
+  "playedMatches": 8,
+  "coveredMatches": 8,
   "rows": [
    {
     "name": "Barnabás Ilosvai",
-    "goals": 9,
-    "matches": 5,
-    "hatTricks": 1
+    "goals": 12,
+    "matches": 6,
+    "hatTricks": 2
    },
    {
     "name": "Paksi Ábel",
     "goals": 6,
     "matches": 3,
     "hatTricks": 1
+   },
+   {
+    "name": "Szalay Miklós",
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szedlacsek Bálint",
+    "goals": 3,
+    "matches": 2,
+    "hatTricks": 0
    },
    {
     "name": "Esküdt Ádám Péter",
@@ -239,18 +264,6 @@
     "name": "Pásztor Ádám Vilmos",
     "goals": 2,
     "matches": 2,
-    "hatTricks": 0
-   },
-   {
-    "name": "Szalay Miklós",
-    "goals": 2,
-    "matches": 2,
-    "hatTricks": 0
-   },
-   {
-    "name": "Szedlacsek Bálint",
-    "goals": 1,
-    "matches": 1,
     "hatTricks": 0
    }
   ]

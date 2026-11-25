@@ -1933,41 +1933,41 @@
    "scorers": [
     {
      "name": "Turóczi Viktor",
-     "teamId": "54",
-     "goals": 2
+     "goals": 2,
+     "teamId": "54"
     },
     {
      "name": "Boa Benjámin Péter",
-     "teamId": "54",
-     "goals": 1
+     "goals": 1,
+     "teamId": "54"
     },
     {
      "name": "Szita Dávid László",
-     "teamId": "54",
-     "goals": 1
+     "goals": 1,
+     "teamId": "54"
     },
     {
      "name": "Hurubás Kende",
-     "teamId": "1507",
-     "goals": 3
+     "goals": 3,
+     "teamId": "1507"
     },
     {
      "name": "Nagy Szabolcs",
-     "teamId": "1507",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1507"
     },
     {
      "name": "Nagy Dominik Zoltán",
-     "teamId": "1507",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1507"
     },
     {
      "name": "Lőrincz Gergely Attila",
-     "teamId": "1507",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1507"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57017",
@@ -2021,36 +2021,36 @@
    "scorers": [
     {
      "name": "Morvai Gábor",
-     "teamId": "54",
-     "goals": 3
+     "goals": 3,
+     "teamId": "54"
     },
     {
      "name": "Izsak Jeno Adam",
-     "teamId": "54",
-     "goals": 3
+     "goals": 3,
+     "teamId": "54"
     },
     {
      "name": "Turóczi Viktor",
-     "teamId": "54",
-     "goals": 3
+     "goals": 3,
+     "teamId": "54"
     },
     {
      "name": "Szemes Péter",
-     "teamId": "54",
-     "goals": 3
+     "goals": 3,
+     "teamId": "54"
     },
     {
      "name": "Szita Dávid László",
-     "teamId": "54",
-     "goals": 3
+     "goals": 3,
+     "teamId": "54"
     },
     {
      "name": "Boa Benjámin Péter",
-     "teamId": "54",
-     "goals": 1
+     "goals": 1,
+     "teamId": "54"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57350",

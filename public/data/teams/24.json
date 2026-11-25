@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L5B",
    "finished": false,
-   "position": 5,
+   "position": 1,
    "teamsInLeague": 12,
-   "marker": null,
+   "marker": "promotion",
    "totals": {
-    "played": 8,
-    "won": 5,
+    "played": 9,
+    "won": 6,
     "drawn": 1,
     "lost": 2,
-    "goalsFor": 44,
-    "goalsAgainst": 41,
-    "points": 16
+    "goalsFor": 54,
+    "goalsAgainst": 45,
+    "points": 19
    }
   }
  ],
@@ -128,17 +128,30 @@
     "goalsAgainst": 6,
     "points": 0
    }
+  },
+  {
+   "teamId": "125",
+   "name": "Alibi FC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 10,
+    "goalsAgainst": 4,
+    "points": 3
+   }
   }
  ],
  "records": {
   "biggestWin": {
    "seasonId": 55,
    "league": "L5B",
-   "matchId": "56901",
-   "kickoff": "2026-10-08T16:00:00.000Z",
-   "opponentId": "143",
-   "goalsFor": 6,
-   "goalsAgainst": 0
+   "matchId": "57381",
+   "kickoff": "2026-11-23T20:00:00.000Z",
+   "opponentId": "125",
+   "goalsFor": 10,
+   "goalsAgainst": 4
   },
   "biggestDefeat": {
    "seasonId": 55,
@@ -227,26 +240,26 @@
  "cleanSheets": 1,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 8,
-  "coveredMatches": 8,
+  "playedMatches": 9,
+  "coveredMatches": 9,
   "rows": [
    {
     "name": "Morvai Gábor",
-    "goals": 14,
-    "matches": 5,
-    "hatTricks": 3
+    "goals": 18,
+    "matches": 6,
+    "hatTricks": 4
    },
    {
     "name": "Szemes Péter",
-    "goals": 8,
-    "matches": 4,
-    "hatTricks": 1
+    "goals": 11,
+    "matches": 5,
+    "hatTricks": 2
    },
    {
     "name": "Beleznai Kornél",
-    "goals": 7,
-    "matches": 4,
-    "hatTricks": 1
+    "goals": 10,
+    "matches": 5,
+    "hatTricks": 2
    }
   ]
  }

@@ -2045,7 +2045,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57344",
@@ -2060,16 +2060,16 @@
    "scorers": [
     {
      "name": "Dovák Csaba",
-     "teamId": "1562",
-     "goals": 3
+     "goals": 3,
+     "teamId": "1562"
     },
     {
      "name": "Draviczky Ádám",
-     "teamId": "1562",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1562"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57303",
@@ -2084,16 +2084,16 @@
    "scorers": [
     {
      "name": "Biró Dávid Márton",
-     "teamId": "19",
-     "goals": 1
+     "goals": 1,
+     "teamId": "19"
     },
     {
      "name": "Karancs Iván",
-     "teamId": "19",
-     "goals": 1
+     "goals": 1,
+     "teamId": "19"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57315",
@@ -2108,31 +2108,31 @@
    "scorers": [
     {
      "name": "Gergely Tamas",
-     "teamId": "44",
-     "goals": 3
+     "goals": 3,
+     "teamId": "44"
     },
     {
      "name": "Dobozi Bence",
-     "teamId": "44",
-     "goals": 1
+     "goals": 1,
+     "teamId": "44"
     },
     {
      "name": "Ujfaludi Gábor",
-     "teamId": "1526",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1526"
     },
     {
      "name": "Ötvös Zsombor Kálmán",
-     "teamId": "1526",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1526"
     },
     {
      "name": "Andor Levente",
-     "teamId": "1526",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1526"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57345",
@@ -2145,7 +2145,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "57412",
@@ -2253,36 +2253,36 @@
    "scorers": [
     {
      "name": "Andor Levente",
-     "teamId": "1526",
-     "goals": 3
+     "goals": 3,
+     "teamId": "1526"
     },
     {
      "name": "Szakály Máté",
-     "teamId": "1526",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1526"
     },
     {
      "name": "Ujfaludi Gábor",
-     "teamId": "1526",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1526"
     },
     {
      "name": "Szakonyi Bence Csongor",
-     "teamId": "1526",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1526"
     },
     {
      "name": "Ötvös Zsombor Kálmán",
-     "teamId": "1526",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1526"
     },
     {
      "name": "Beke Dániel",
-     "teamId": "1526",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1526"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
   },
   {
    "id": "x-55-L5A-202611251900-keverton-klub-elmarad-fc",
