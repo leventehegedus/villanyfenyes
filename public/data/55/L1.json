@@ -2095,23 +2095,23 @@
    "scorers": [
     {
      "name": "Fröhlich Tamás",
-     "goals": 2,
-     "teamId": "199"
+     "teamId": "199",
+     "goals": 2
     },
     {
      "name": "Siket Máté",
-     "goals": 2,
-     "teamId": "199"
+     "teamId": "199",
+     "goals": 2
     },
     {
      "name": "Alt Ákos",
-     "goals": 2,
-     "teamId": "199"
+     "teamId": "199",
+     "goals": 2
     },
     {
      "name": "Gondos Andor",
-     "goals": 2,
-     "teamId": "199"
+     "teamId": "199",
+     "goals": 2
     }
    ],
    "detailFetchedAt": "2026-11-24T23:54:17.194Z"
@@ -2129,8 +2129,8 @@
    "scorers": [
     {
      "name": "Szilágyi Dávid",
-     "goals": 2,
-     "teamId": "166"
+     "teamId": "166",
+     "goals": 2
     }
    ],
    "detailFetchedAt": "2026-11-24T23:54:17.194Z"

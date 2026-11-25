@@ -2060,13 +2060,13 @@
    "scorers": [
     {
      "name": "Dovák Csaba",
-     "goals": 3,
-     "teamId": "1562"
+     "teamId": "1562",
+     "goals": 3
     },
     {
      "name": "Draviczky Ádám",
-     "goals": 1,
-     "teamId": "1562"
+     "teamId": "1562",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T23:54:17.194Z"
@@ -2084,13 +2084,13 @@
    "scorers": [
     {
      "name": "Biró Dávid Márton",
-     "goals": 1,
-     "teamId": "19"
+     "teamId": "19",
+     "goals": 1
     },
     {
      "name": "Karancs Iván",
-     "goals": 1,
-     "teamId": "19"
+     "teamId": "19",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T23:54:17.194Z"
@@ -2108,28 +2108,28 @@
    "scorers": [
     {
      "name": "Gergely Tamas",
-     "goals": 3,
-     "teamId": "44"
+     "teamId": "44",
+     "goals": 3
     },
     {
      "name": "Dobozi Bence",
-     "goals": 1,
-     "teamId": "44"
+     "teamId": "44",
+     "goals": 1
     },
     {
      "name": "Ujfaludi Gábor",
-     "goals": 2,
-     "teamId": "1526"
+     "teamId": "1526",
+     "goals": 2
     },
     {
      "name": "Ötvös Zsombor Kálmán",
-     "goals": 2,
-     "teamId": "1526"
+     "teamId": "1526",
+     "goals": 2
     },
     {
      "name": "Andor Levente",
-     "goals": 1,
-     "teamId": "1526"
+     "teamId": "1526",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T23:54:17.194Z"
@@ -2214,28 +2214,28 @@
    "scorers": [
     {
      "name": "Takács Ábel",
-     "goals": 4,
-     "teamId": "42"
+     "teamId": "42",
+     "goals": 4
     },
     {
      "name": "Lenner András",
-     "goals": 2,
-     "teamId": "42"
+     "teamId": "42",
+     "goals": 2
     },
     {
      "name": "Tordasi Bálint",
-     "goals": 1,
-     "teamId": "42"
+     "teamId": "42",
+     "goals": 1
     },
     {
      "name": "Medgyesy Csongor",
-     "goals": 1,
-     "teamId": "209"
+     "teamId": "209",
+     "goals": 1
     },
     {
      "name": "Havasi Róbert Dániel",
-     "goals": 1,
-     "teamId": "209"
+     "teamId": "209",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T23:54:17.194Z"
@@ -2253,33 +2253,33 @@
    "scorers": [
     {
      "name": "Andor Levente",
-     "goals": 3,
-     "teamId": "1526"
+     "teamId": "1526",
+     "goals": 3
     },
     {
      "name": "Szakály Máté",
-     "goals": 2,
-     "teamId": "1526"
+     "teamId": "1526",
+     "goals": 2
     },
     {
      "name": "Ujfaludi Gábor",
-     "goals": 1,
-     "teamId": "1526"
+     "teamId": "1526",
+     "goals": 1
     },
     {
      "name": "Szakonyi Bence Csongor",
-     "goals": 1,
-     "teamId": "1526"
+     "teamId": "1526",
+     "goals": 1
     },
     {
      "name": "Ötvös Zsombor Kálmán",
-     "goals": 1,
-     "teamId": "1526"
+     "teamId": "1526",
+     "goals": 1
     },
     {
      "name": "Beke Dániel",
-     "goals": 1,
-     "teamId": "1526"
+     "teamId": "1526",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T23:54:17.194Z"

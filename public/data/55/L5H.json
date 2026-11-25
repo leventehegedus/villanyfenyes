@@ -1795,23 +1795,23 @@
    "scorers": [
     {
      "name": "Görgényi András",
-     "goals": 2,
-     "teamId": "1556"
+     "teamId": "1556",
+     "goals": 2
     },
     {
      "name": "Kollár Ádám",
-     "goals": 2,
-     "teamId": "1556"
+     "teamId": "1556",
+     "goals": 2
     },
     {
      "name": "Wang Tian Yao",
-     "goals": 1,
-     "teamId": "1556"
+     "teamId": "1556",
+     "goals": 1
     },
     {
      "name": "Brúnó Milassin",
-     "goals": 1,
-     "teamId": "1556"
+     "teamId": "1556",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T23:54:17.194Z"
@@ -1829,18 +1829,18 @@
    "scorers": [
     {
      "name": "Oláh Máté",
-     "goals": 2,
-     "teamId": "232"
+     "teamId": "232",
+     "goals": 2
     },
     {
      "name": "Farkas Bence",
-     "goals": 2,
-     "teamId": "232"
+     "teamId": "232",
+     "goals": 2
     },
     {
      "name": "Németh Zalán Barnabás",
-     "goals": 1,
-     "teamId": "232"
+     "teamId": "232",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T23:54:17.194Z"
@@ -1858,23 +1858,23 @@
    "scorers": [
     {
      "name": "Nagy Mihály Gyula",
-     "goals": 8,
-     "teamId": "1566"
+     "teamId": "1566",
+     "goals": 8
     },
     {
      "name": "Daróczi Donát",
-     "goals": 5,
-     "teamId": "1566"
+     "teamId": "1566",
+     "goals": 5
     },
     {
      "name": "Fodor Kornél",
-     "goals": 2,
-     "teamId": "1566"
+     "teamId": "1566",
+     "goals": 2
     },
     {
      "name": "Jordán Bertalan",
-     "goals": 2,
-     "teamId": "1566"
+     "teamId": "1566",
+     "goals": 2
     }
    ],
    "detailFetchedAt": "2026-11-24T23:54:17.194Z"
@@ -1892,38 +1892,38 @@
    "scorers": [
     {
      "name": "Filipánics András",
-     "goals": 1,
-     "teamId": "1553"
+     "teamId": "1553",
+     "goals": 1
     },
     {
      "name": "Ghiczy Gergő",
-     "goals": 1,
-     "teamId": "1553"
+     "teamId": "1553",
+     "goals": 1
     },
     {
      "name": "Kósa Zoárd",
-     "goals": 1,
-     "teamId": "1553"
+     "teamId": "1553",
+     "goals": 1
     },
     {
      "name": "Takács Benedek",
-     "goals": 4,
-     "teamId": "1556"
+     "teamId": "1556",
+     "goals": 4
     },
     {
      "name": "Görgényi András",
-     "goals": 3,
-     "teamId": "1556"
+     "teamId": "1556",
+     "goals": 3
     },
     {
      "name": "Kollár Ádám",
-     "goals": 1,
-     "teamId": "1556"
+     "teamId": "1556",
+     "goals": 1
     },
     {
      "name": "Wang Tian Yao",
-     "goals": 1,
-     "teamId": "1556"
+     "teamId": "1556",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T23:54:17.194Z"

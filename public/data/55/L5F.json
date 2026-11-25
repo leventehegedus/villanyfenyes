@@ -1460,28 +1460,28 @@
    "scorers": [
     {
      "name": "Fodor András",
-     "goals": 2,
-     "teamId": "203"
+     "teamId": "203",
+     "goals": 2
     },
     {
      "name": "Fülöp Bence",
-     "goals": 1,
-     "teamId": "203"
+     "teamId": "203",
+     "goals": 1
     },
     {
      "name": "Prezsnyák Péter",
-     "goals": 1,
-     "teamId": "203"
+     "teamId": "203",
+     "goals": 1
     },
     {
      "name": "Vichnalek Dávid",
-     "goals": 3,
-     "teamId": "1568"
+     "teamId": "1568",
+     "goals": 3
     },
     {
      "name": "Tomojzer Péter",
-     "goals": 2,
-     "teamId": "1568"
+     "teamId": "1568",
+     "goals": 2
     }
    ],
    "detailFetchedAt": "2026-11-24T23:54:17.194Z"
@@ -1525,28 +1525,28 @@
    "scorers": [
     {
      "name": "Fábián Hunor",
-     "goals": 1,
-     "teamId": "55"
+     "teamId": "55",
+     "goals": 1
     },
     {
      "name": "Ignátkó Bence",
-     "goals": 1,
-     "teamId": "55"
+     "teamId": "55",
+     "goals": 1
     },
     {
      "name": "Dániel Jaczkó",
-     "goals": 1,
-     "teamId": "55"
+     "teamId": "55",
+     "goals": 1
     },
     {
      "name": "Holló Balázs",
-     "goals": 2,
-     "teamId": "89"
+     "teamId": "89",
+     "goals": 2
     },
     {
      "name": "Lipcsey Levente",
-     "goals": 1,
-     "teamId": "89"
+     "teamId": "89",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T23:54:17.194Z"
@@ -1845,7 +1845,7 @@
    "teamId": "1552",
    "bestLeague": "L5F",
    "topScorer": {
-    "name": "Varga Bálint",
+    "name": "Kocsis Mátyás",
     "goals": 4
    },
    "seasonsCount": 1,

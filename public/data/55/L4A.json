@@ -2067,28 +2067,28 @@
    "scorers": [
     {
      "name": "Ádám Zsuga",
-     "goals": 3,
-     "teamId": "126"
+     "teamId": "126",
+     "goals": 3
     },
     {
      "name": "Hollósi Gergely",
-     "goals": 2,
-     "teamId": "126"
+     "teamId": "126",
+     "goals": 2
     },
     {
      "name": "Ficzere Dániel",
-     "goals": 2,
-     "teamId": "126"
+     "teamId": "126",
+     "goals": 2
     },
     {
      "name": "Kántor Tibor",
-     "goals": 1,
-     "teamId": "126"
+     "teamId": "126",
+     "goals": 1
     },
     {
      "name": "Nagy Ádám",
-     "goals": 1,
-     "teamId": "126"
+     "teamId": "126",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-24T23:54:17.194Z"

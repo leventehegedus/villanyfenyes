@@ -2003,18 +2003,18 @@
    "scorers": [
     {
      "name": "Morvai Gábor",
-     "goals": 4,
-     "teamId": "24"
+     "teamId": "24",
+     "goals": 4
     },
     {
      "name": "Beleznai Kornél",
-     "goals": 3,
-     "teamId": "24"
+     "teamId": "24",
+     "goals": 3
     },
     {
      "name": "Szemes Péter",
-     "goals": 3,
-     "teamId": "24"
+     "teamId": "24",
+     "goals": 3
     }
    ],
    "detailFetchedAt": "2026-11-24T23:54:17.194Z"
