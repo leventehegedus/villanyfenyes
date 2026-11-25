@@ -446,8 +446,8 @@
    "name": "Selecao",
    "titles": 0,
    "l1Seasons": 1,
-   "won": 5,
-   "goalsFor": 60
+   "won": 6,
+   "goalsFor": 65
   },
   {
    "teamId": "526",
@@ -959,7 +959,7 @@
    "titles": 0,
    "l1Seasons": 1,
    "won": 1,
-   "goalsFor": 23
+   "goalsFor": 25
   },
   {
    "teamId": "166",
@@ -967,7 +967,7 @@
    "titles": 0,
    "l1Seasons": 1,
    "won": 1,
-   "goalsFor": 20
+   "goalsFor": 22
   },
   {
    "teamId": "45",
@@ -1038,8 +1038,8 @@
    "name": "A Polgár Jenő",
    "titles": 0,
    "l1Seasons": 0,
-   "won": 7,
-   "goalsFor": 52
+   "won": 8,
+   "goalsFor": 57
   },
   {
    "teamId": "26",
@@ -1543,7 +1543,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 4,
-   "goalsFor": 38
+   "goalsFor": 39
   },
   {
    "teamId": "86",
@@ -2374,8 +2374,8 @@
    "name": "Busquets serege",
    "titles": 0,
    "l1Seasons": 0,
-   "won": 7,
-   "goalsFor": 60
+   "won": 9,
+   "goalsFor": 84
   },
   {
    "teamId": "1577",
@@ -2383,7 +2383,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 6,
-   "goalsFor": 40
+   "goalsFor": 43
   },
   {
    "teamId": "91",
@@ -2391,7 +2391,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 5,
-   "goalsFor": 64
+   "goalsFor": 68
   },
   {
    "teamId": "1556",

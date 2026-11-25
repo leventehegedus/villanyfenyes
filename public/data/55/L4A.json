@@ -2005,7 +2005,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57323",
@@ -2051,8 +2051,29 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "scorers": [
+    {
+     "name": "Jánosi Imre Hunor",
+     "goals": 2,
+     "teamId": "1523"
+    },
+    {
+     "name": "Kocsis Gellért",
+     "goals": 1,
+     "teamId": "1523"
+    },
+    {
+     "name": "Csordás Kevin",
+     "goals": 1,
+     "teamId": "1523"
+    },
+    {
+     "name": "Horváth Balázs",
+     "goals": 1,
+     "teamId": "1523"
+    }
+   ],
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57378",
@@ -2091,7 +2112,7 @@
      "teamId": "126"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "x-55-L4A-202611252000-gabriel-jesus-jse",
@@ -2291,7 +2312,7 @@
    "teamId": "126",
    "bestLeague": "L2B",
    "topScorer": {
-    "name": "Nagy Ádám",
+    "name": "Himics Dávid",
     "goals": 6
    },
    "seasonsCount": 10,
@@ -2391,7 +2412,7 @@
    "teamId": "34",
    "bestLeague": "L2B",
    "topScorer": {
-    "name": "Rajnai Gábor",
+    "name": "Farkas Márton",
     "goals": 5
    },
    "seasonsCount": 13,

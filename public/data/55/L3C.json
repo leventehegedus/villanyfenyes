@@ -1818,7 +1818,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57656",
@@ -1867,7 +1867,7 @@
      "teamId": "219"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57325",
@@ -1896,7 +1896,7 @@
      "teamId": "230"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57296",
@@ -2003,7 +2003,7 @@
      "teamId": "219"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57403",
@@ -2015,8 +2015,14 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "scorers": [
+    {
+     "name": "Dr. Lukács Dávid",
+     "goals": 3,
+     "teamId": "41"
+    }
+   ],
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57383",
@@ -2029,7 +2035,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "x-55-L3C-202611261700-kozhely-fc-ejakulazio",
@@ -2219,7 +2225,7 @@
    "teamId": "192",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Könyves László",
+    "name": "Varga Örs",
     "goals": 6
    },
    "seasonsCount": 5,

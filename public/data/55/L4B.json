@@ -1967,7 +1967,7 @@
      "teamId": "1507"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57017",
@@ -2050,7 +2050,7 @@
      "teamId": "54"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57350",
@@ -2124,16 +2124,16 @@
    "scorers": [
     {
      "name": "Szöllősi Bálint",
-     "teamId": "80",
-     "goals": 1
+     "goals": 1,
+     "teamId": "80"
     },
     {
      "name": "András Halasi",
-     "teamId": "141",
-     "goals": 4
+     "goals": 4,
+     "teamId": "141"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "x-55-L4B-202611252000-szig-stars-haver-fc",

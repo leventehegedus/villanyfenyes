@@ -50,11 +50,6 @@
    "name": "Nagyon fincsi"
   },
   {
-   "id": "107",
-   "siteId": 107,
-   "name": "Banditák"
-  },
-  {
    "id": "108",
    "siteId": 108,
    "name": "Szia Uram!"
@@ -63,6 +58,11 @@
    "id": "166",
    "siteId": 166,
    "name": "Borg"
+  },
+  {
+   "id": "107",
+   "siteId": 107,
+   "name": "Banditák"
   }
  ],
  "standings": [
@@ -204,6 +204,36 @@
   },
   {
    "position": 10,
+   "teamId": "108",
+   "played": 9,
+   "won": 1,
+   "drawn": 3,
+   "lost": 5,
+   "goalsFor": 25,
+   "goalsAgainst": 35,
+   "goalDiff": -10,
+   "points": 6,
+   "markers": [
+    "relegation"
+   ]
+  },
+  {
+   "position": 11,
+   "teamId": "166",
+   "played": 9,
+   "won": 1,
+   "drawn": 3,
+   "lost": 5,
+   "goalsFor": 22,
+   "goalsAgainst": 41,
+   "goalDiff": -19,
+   "points": 6,
+   "markers": [
+    "relegation"
+   ]
+  },
+  {
+   "position": 12,
    "teamId": "107",
    "played": 9,
    "won": 1,
@@ -214,37 +244,6 @@
    "goalDiff": -16,
    "points": 5,
    "markers": [
-    "relegation"
-   ]
-  },
-  {
-   "position": 11,
-   "teamId": "108",
-   "played": 8,
-   "won": 1,
-   "drawn": 2,
-   "lost": 5,
-   "goalsFor": 23,
-   "goalsAgainst": 33,
-   "goalDiff": -10,
-   "points": 5,
-   "markers": [
-    "relegation"
-   ]
-  },
-  {
-   "position": 12,
-   "teamId": "166",
-   "played": 8,
-   "won": 1,
-   "drawn": 2,
-   "lost": 5,
-   "goalsFor": 20,
-   "goalsAgainst": 39,
-   "goalDiff": -19,
-   "points": 5,
-   "markers": [
-    "lossStreak",
     "relegation"
    ]
   }
@@ -2114,7 +2113,7 @@
      "teamId": "199"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "48352",
@@ -2123,17 +2122,27 @@
    "awayTeamId": "108",
    "kickoff": "2026-11-19T19:00:00.000Z",
    "venue": "Bogdánfy_1",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "status": "played",
    "scorers": [
     {
      "name": "Szilágyi Dávid",
      "goals": 2,
      "teamId": "166"
+    },
+    {
+     "name": "Madura Máté",
+     "goals": 1,
+     "teamId": "108"
+    },
+    {
+     "name": "Halász Bertalan",
+     "goals": 1,
+     "teamId": "108"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "48353",
@@ -2193,7 +2202,7 @@
    "venue": "Bogdánfy_1",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
+   "status": "unknown",
    "scorers": null,
    "detailFetchedAt": null
   },
@@ -2206,7 +2215,7 @@
    "venue": "Bogdánfy_1",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
+   "status": "unknown",
    "scorers": null,
    "detailFetchedAt": null
   },
@@ -2433,16 +2442,6 @@
    "matchesPlayed": 9
   },
   {
-   "teamId": "107",
-   "bestLeague": "L1",
-   "topScorer": {
-    "name": "sikvölgyi martin",
-    "goals": 13
-   },
-   "seasonsCount": 22,
-   "matchesPlayed": 9
-  },
-  {
    "teamId": "108",
    "bestLeague": "L1",
    "topScorer": {
@@ -2450,7 +2449,7 @@
     "goals": 5
    },
    "seasonsCount": 10,
-   "matchesPlayed": 8
+   "matchesPlayed": 9
   },
   {
    "teamId": "166",
@@ -2460,7 +2459,17 @@
     "goals": 5
    },
    "seasonsCount": 9,
-   "matchesPlayed": 8
+   "matchesPlayed": 9
+  },
+  {
+   "teamId": "107",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "sikvölgyi martin",
+    "goals": 13
+   },
+   "seasonsCount": 22,
+   "matchesPlayed": 9
   }
  ]
 }

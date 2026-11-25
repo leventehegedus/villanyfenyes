@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": "promotion",
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 6,
     "drawn": 0,
-    "lost": 1,
-    "goalsFor": 40,
-    "goalsAgainst": 27,
+    "lost": 2,
+    "goalsFor": 43,
+    "goalsAgainst": 34,
     "points": 18
    }
   }
@@ -115,6 +115,19 @@
     "goalsAgainst": 4,
     "points": 3
    }
+  },
+  {
+   "teamId": "1566",
+   "name": "Busquets serege",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 7,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -130,10 +143,10 @@
   "biggestDefeat": {
    "seasonId": 55,
    "league": "L5H",
-   "matchId": "56852",
-   "kickoff": "2026-09-29T16:00:00.000Z",
-   "opponentId": "164",
-   "goalsFor": 5,
+   "matchId": "57358",
+   "kickoff": "2026-11-24T20:00:00.000Z",
+   "opponentId": "1566",
+   "goalsFor": 3,
    "goalsAgainst": 7
   },
   "highestScoring": {
@@ -194,19 +207,19 @@
    "from": {
     "seasonId": 55,
     "league": "L5H",
-    "matchId": "56852",
-    "kickoff": "2026-09-29T16:00:00.000Z",
-    "opponentId": "164",
-    "goalsFor": 5,
+    "matchId": "57358",
+    "kickoff": "2026-11-24T20:00:00.000Z",
+    "opponentId": "1566",
+    "goalsFor": 3,
     "goalsAgainst": 7
    },
    "to": {
     "seasonId": 55,
     "league": "L5H",
-    "matchId": "56852",
-    "kickoff": "2026-09-29T16:00:00.000Z",
-    "opponentId": "164",
-    "goalsFor": 5,
+    "matchId": "57358",
+    "kickoff": "2026-11-24T20:00:00.000Z",
+    "opponentId": "1566",
+    "goalsFor": 3,
     "goalsAgainst": 7
    }
   }
@@ -214,25 +227,25 @@
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 7,
-  "coveredMatches": 7,
+  "playedMatches": 8,
+  "coveredMatches": 8,
   "rows": [
    {
     "name": "Koller Aron",
-    "goals": 14,
-    "matches": 5,
+    "goals": 15,
+    "matches": 6,
     "hatTricks": 2
    },
    {
     "name": "Antalffy-Zsiros Attila",
-    "goals": 10,
-    "matches": 6,
+    "goals": 11,
+    "matches": 7,
     "hatTricks": 1
    },
    {
     "name": "Berzsák Bulcsú",
-    "goals": 4,
-    "matches": 3,
+    "goals": 5,
+    "matches": 4,
     "hatTricks": 0
    },
    {

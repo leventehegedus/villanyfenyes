@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L4C",
    "finished": false,
-   "position": 6,
+   "position": 3,
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 7,
-    "won": 4,
+    "played": 8,
+    "won": 5,
     "drawn": 0,
     "lost": 3,
-    "goalsFor": 40,
-    "goalsAgainst": 33,
-    "points": 12
+    "goalsFor": 45,
+    "goalsAgainst": 34,
+    "points": 15
    }
   },
   {
@@ -276,6 +276,19 @@
     "goalsAgainst": 8,
     "points": 0
    }
+  },
+  {
+   "teamId": "1512",
+   "name": "Los Magos",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 1,
+    "points": 3
+   }
   }
  ],
  "records": {
@@ -375,13 +388,25 @@
  "cleanSheets": 0,
  "failedToScore": 1,
  "scorers": {
-  "playedMatches": 18,
-  "coveredMatches": 18,
+  "playedMatches": 19,
+  "coveredMatches": 19,
   "rows": [
+   {
+    "name": "Ürmös Zoltán",
+    "goals": 8,
+    "matches": 5,
+    "hatTricks": 0
+   },
    {
     "name": "Lökkös Gergő",
     "goals": 6,
     "matches": 4,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szatmari Peter",
+    "goals": 6,
+    "matches": 5,
     "hatTricks": 0
    },
    {
@@ -391,22 +416,10 @@
     "hatTricks": 0
    },
    {
-    "name": "Ürmös Zoltán",
-    "goals": 6,
-    "matches": 4,
-    "hatTricks": 0
-   },
-   {
     "name": "Enyedi Tamás",
     "goals": 5,
     "matches": 2,
     "hatTricks": 1
-   },
-   {
-    "name": "Szatmari Peter",
-    "goals": 5,
-    "matches": 4,
-    "hatTricks": 0
    },
    {
     "name": "Tóth Attila",
@@ -422,8 +435,14 @@
    },
    {
     "name": "Gregorich Gergely",
-    "goals": 2,
-    "matches": 2,
+    "goals": 3,
+    "matches": 3,
+    "hatTricks": 0
+   },
+   {
+    "name": "Heller Erik",
+    "goals": 1,
+    "matches": 1,
     "hatTricks": 0
    },
    {

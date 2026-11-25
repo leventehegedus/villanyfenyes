@@ -2190,7 +2190,7 @@
      "teamId": "85"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57304",
@@ -2312,7 +2312,7 @@
      "teamId": "1489"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57404",
@@ -2325,7 +2325,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "x-55-L3D-202611261900-huslovagok-afst",
@@ -2535,7 +2535,7 @@
    "teamId": "85",
    "bestLeague": "L3B",
    "topScorer": {
-    "name": "Novozánszki Zsombor",
+    "name": "Horváth Péter",
     "goals": 6
    },
    "seasonsCount": 14,

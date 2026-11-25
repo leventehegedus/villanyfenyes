@@ -69,14 +69,14 @@
   {
    "position": 1,
    "teamId": "1480",
-   "played": 7,
-   "won": 7,
+   "played": 8,
+   "won": 8,
    "drawn": 0,
    "lost": 0,
-   "goalsFor": 52,
+   "goalsFor": 57,
    "goalsAgainst": 26,
-   "goalDiff": 26,
-   "points": 21,
+   "goalDiff": 31,
+   "points": 24,
    "markers": [
     "winStreak",
     "manyGoals",
@@ -222,13 +222,13 @@
   {
    "position": 11,
    "teamId": "95",
-   "played": 9,
+   "played": 10,
    "won": 2,
    "drawn": 1,
-   "lost": 6,
+   "lost": 7,
    "goalsFor": 47,
-   "goalsAgainst": 78,
-   "goalDiff": -31,
+   "goalsAgainst": 83,
+   "goalDiff": -36,
    "points": 7,
    "markers": [
     "manyGoals",
@@ -1999,7 +1999,7 @@
      "teamId": "1479"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57324",
@@ -2038,7 +2038,7 @@
      "teamId": "26"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57288",
@@ -2092,7 +2092,7 @@
      "teamId": "198"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57627",
@@ -2155,9 +2155,9 @@
    "awayTeamId": "1480",
    "kickoff": "2026-11-20T17:00:00.000Z",
    "venue": "Bogdánfy_2",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "status": "played",
    "scorers": [
     {
      "name": "Vizkeleti Alex",
@@ -2165,7 +2165,7 @@
      "teamId": "1480"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "48370",
@@ -2192,6 +2192,16 @@
    "status": "unknown",
    "scorers": [
     {
+     "name": "Komán Attila",
+     "goals": 3,
+     "teamId": "82"
+    },
+    {
+     "name": "Tomasovszky Péter",
+     "goals": 1,
+     "teamId": "82"
+    },
+    {
      "name": "Rékasy Zoltán",
      "goals": 3,
      "teamId": "198"
@@ -2212,7 +2222,7 @@
      "teamId": "198"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57361",
@@ -2224,8 +2234,34 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "scorers": [
+    {
+     "name": "Dányi Gellért",
+     "goals": 4,
+     "teamId": "161"
+    },
+    {
+     "name": "Kovács Kristóf",
+     "goals": 3,
+     "teamId": "161"
+    },
+    {
+     "name": "Zimányi Huba",
+     "goals": 2,
+     "teamId": "161"
+    },
+    {
+     "name": "Méhes Levente",
+     "goals": 2,
+     "teamId": "161"
+    },
+    {
+     "name": "Xeravits Domonkos",
+     "goals": 1,
+     "teamId": "161"
+    }
+   ],
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "x-55-L3A-202611301800-berug-fc-penisz-land",
@@ -2406,13 +2442,13 @@
     "goals": 15
    },
    "seasonsCount": 3,
-   "matchesPlayed": 7
+   "matchesPlayed": 8
   },
   {
    "teamId": "26",
    "bestLeague": "L2A",
    "topScorer": {
-    "name": "Orosz Dávid",
+    "name": "Dávid Bence",
     "goals": 5
    },
    "seasonsCount": 9,
@@ -2462,7 +2498,7 @@
    "teamId": "198",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Tihanyi Márton",
+    "name": "Stift Máté Kálmán",
     "goals": 5
    },
    "seasonsCount": 11,
@@ -2502,11 +2538,11 @@
    "teamId": "95",
    "bestLeague": null,
    "topScorer": {
-    "name": "Szabó Balázs",
+    "name": "Mayer Emil",
     "goals": 4
    },
    "seasonsCount": 17,
-   "matchesPlayed": 9
+   "matchesPlayed": 10
   },
   {
    "teamId": "208",

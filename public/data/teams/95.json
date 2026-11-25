@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": "relegation",
    "totals": {
-    "played": 9,
+    "played": 10,
     "won": 2,
     "drawn": 1,
-    "lost": 6,
+    "lost": 7,
     "goalsFor": 47,
-    "goalsAgainst": 78,
+    "goalsAgainst": 83,
     "points": 7
    }
   }
@@ -141,6 +141,19 @@
     "goalsAgainst": 7,
     "points": 3
    }
+  },
+  {
+   "teamId": "1480",
+   "name": "A Polgár Jenő",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -238,10 +251,10 @@
   }
  },
  "cleanSheets": 0,
- "failedToScore": 1,
+ "failedToScore": 2,
  "scorers": {
-  "playedMatches": 9,
-  "coveredMatches": 9,
+  "playedMatches": 10,
+  "coveredMatches": 10,
   "rows": [
    {
     "name": "Mayer Emil",

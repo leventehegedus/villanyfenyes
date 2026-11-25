@@ -15,6 +15,11 @@
    "name": "GABSZK"
   },
   {
+   "id": "153",
+   "siteId": 153,
+   "name": "Selecao"
+  },
+  {
    "id": "1504",
    "siteId": 1504,
    "name": "Fényév FC"
@@ -28,11 +33,6 @@
    "id": "86",
    "siteId": 86,
    "name": "Sörfoci"
-  },
-  {
-   "id": "153",
-   "siteId": 153,
-   "name": "Selecao"
   },
   {
    "id": "47",
@@ -101,6 +101,21 @@
   },
   {
    "position": 3,
+   "teamId": "153",
+   "played": 8,
+   "won": 5,
+   "drawn": 0,
+   "lost": 3,
+   "goalsFor": 45,
+   "goalsAgainst": 34,
+   "goalDiff": 11,
+   "points": 15,
+   "markers": [
+    "manyGoals"
+   ]
+  },
+  {
+   "position": 4,
    "teamId": "1504",
    "played": 8,
    "won": 4,
@@ -113,20 +128,20 @@
    "markers": []
   },
   {
-   "position": 4,
+   "position": 5,
    "teamId": "1512",
-   "played": 9,
+   "played": 10,
    "won": 4,
    "drawn": 1,
-   "lost": 4,
-   "goalsFor": 38,
-   "goalsAgainst": 38,
-   "goalDiff": 0,
+   "lost": 5,
+   "goalsFor": 39,
+   "goalsAgainst": 43,
+   "goalDiff": -4,
    "points": 13,
    "markers": []
   },
   {
-   "position": 5,
+   "position": 6,
    "teamId": "86",
    "played": 6,
    "won": 4,
@@ -138,21 +153,6 @@
    "points": 12,
    "markers": [
     "fewConceded"
-   ]
-  },
-  {
-   "position": 6,
-   "teamId": "153",
-   "played": 7,
-   "won": 4,
-   "drawn": 0,
-   "lost": 3,
-   "goalsFor": 40,
-   "goalsAgainst": 33,
-   "goalDiff": 7,
-   "points": 12,
-   "markers": [
-    "lossStreak"
    ]
   },
   {
@@ -564,40 +564,6 @@
    "detailFetchedAt": "2026-11-20T12:38:28.503Z"
   },
   {
-   "id": "56669",
-   "siteId": 56669,
-   "homeTeamId": "86",
-   "awayTeamId": "137",
-   "kickoff": "2026-09-15T18:00:00.000Z",
-   "venue": "Bogdánfy_4",
-   "homeGoals": 7,
-   "awayGoals": 4,
-   "status": "played",
-   "scorers": [
-    {
-     "name": "Szőke Péter",
-     "teamId": "86",
-     "goals": 2
-    },
-    {
-     "name": "Váradi Vince",
-     "teamId": "86",
-     "goals": 2
-    },
-    {
-     "name": "Pellet Dávid",
-     "teamId": "86",
-     "goals": 2
-    },
-    {
-     "name": "Kókai Bálint",
-     "teamId": "86",
-     "goals": 1
-    }
-   ],
-   "detailFetchedAt": "2026-11-20T12:38:28.503Z"
-  },
-  {
    "id": "57351",
    "siteId": 57351,
    "homeTeamId": "153",
@@ -646,6 +612,40 @@
     {
      "name": "Katona Márton",
      "teamId": "173",
+     "goals": 1
+    }
+   ],
+   "detailFetchedAt": "2026-11-20T12:38:28.503Z"
+  },
+  {
+   "id": "56669",
+   "siteId": 56669,
+   "homeTeamId": "86",
+   "awayTeamId": "137",
+   "kickoff": "2026-09-15T18:00:00.000Z",
+   "venue": "Bogdánfy_4",
+   "homeGoals": 7,
+   "awayGoals": 4,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Szőke Péter",
+     "teamId": "86",
+     "goals": 2
+    },
+    {
+     "name": "Váradi Vince",
+     "teamId": "86",
+     "goals": 2
+    },
+    {
+     "name": "Pellet Dávid",
+     "teamId": "86",
+     "goals": 2
+    },
+    {
+     "name": "Kókai Bálint",
+     "teamId": "86",
      "goals": 1
     }
    ],
@@ -1945,7 +1945,7 @@
      "teamId": "47"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57244",
@@ -1984,7 +1984,7 @@
      "teamId": "153"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57267",
@@ -2071,7 +2071,7 @@
      "teamId": "131"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57346",
@@ -2086,46 +2086,46 @@
    "scorers": [
     {
      "name": "Szécsényi Szilárd",
-     "teamId": "101",
-     "goals": 3
+     "goals": 3,
+     "teamId": "101"
     },
     {
      "name": "Glück Péter",
-     "teamId": "101",
-     "goals": 2
+     "goals": 2,
+     "teamId": "101"
     },
     {
      "name": "Rostás Tibor",
-     "teamId": "101",
-     "goals": 1
+     "goals": 1,
+     "teamId": "101"
     },
     {
      "name": "Tucsek Balázs",
-     "teamId": "101",
-     "goals": 1
+     "goals": 1,
+     "teamId": "101"
     },
     {
      "name": "Langer Attila",
-     "teamId": "101",
-     "goals": 1
+     "goals": 1,
+     "teamId": "101"
     },
     {
      "name": "Máté Tibor Mestyanek",
-     "teamId": "101",
-     "goals": 1
+     "goals": 1,
+     "teamId": "101"
     },
     {
      "name": "Péter Németh",
-     "teamId": "1513",
-     "goals": 4
+     "goals": 4,
+     "teamId": "1513"
     },
     {
      "name": "Szabó Szilárd",
-     "teamId": "1513",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1513"
     }
    ],
-   "detailFetchedAt": "2026-11-24T13:43:15.877Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "56550",
@@ -2134,17 +2134,37 @@
    "awayTeamId": "1512",
    "kickoff": "2026-11-23T16:00:00.000Z",
    "venue": "Bogdánfy_1",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "status": "played",
    "scorers": [
+    {
+     "name": "Ürmös Zoltán",
+     "goals": 2,
+     "teamId": "153"
+    },
+    {
+     "name": "Heller Erik",
+     "goals": 1,
+     "teamId": "153"
+    },
+    {
+     "name": "Szatmari Peter",
+     "goals": 1,
+     "teamId": "153"
+    },
+    {
+     "name": "Gregorich Gergely",
+     "goals": 1,
+     "teamId": "153"
+    },
     {
      "name": "Tkalcec Péter",
      "goals": 1,
      "teamId": "1512"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "x-55-L4C-202611251800-gabszk-meccs-lemondva-fc",
@@ -2155,7 +2175,7 @@
    "venue": "Bogdánfy_2",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
+   "status": "unknown",
    "scorers": null,
    "detailFetchedAt": null
   },
@@ -2364,6 +2384,16 @@
    "matchesPlayed": 8
   },
   {
+   "teamId": "153",
+   "bestLeague": null,
+   "topScorer": {
+    "name": "Ürmös Zoltán",
+    "goals": 4
+   },
+   "seasonsCount": 35,
+   "matchesPlayed": 8
+  },
+  {
    "teamId": "1504",
    "bestLeague": "L3A",
    "topScorer": {
@@ -2381,7 +2411,7 @@
     "goals": 4
    },
    "seasonsCount": 2,
-   "matchesPlayed": 9
+   "matchesPlayed": 10
   },
   {
    "teamId": "86",
@@ -2392,16 +2422,6 @@
    },
    "seasonsCount": 11,
    "matchesPlayed": 6
-  },
-  {
-   "teamId": "153",
-   "bestLeague": null,
-   "topScorer": {
-    "name": "Ürmös Zoltán",
-    "goals": 4
-   },
-   "seasonsCount": 35,
-   "matchesPlayed": 7
   },
   {
    "teamId": "47",

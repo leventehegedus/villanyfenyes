@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L1",
    "finished": false,
-   "position": 12,
+   "position": 11,
    "teamsInLeague": 12,
    "marker": "relegation",
    "totals": {
-    "played": 8,
+    "played": 9,
     "won": 1,
-    "drawn": 2,
+    "drawn": 3,
     "lost": 5,
-    "goalsFor": 20,
-    "goalsAgainst": 39,
-    "points": 5
+    "goalsFor": 22,
+    "goalsAgainst": 41,
+    "points": 6
    }
   }
  ],
@@ -128,6 +128,19 @@
     "goalsAgainst": 7,
     "points": 0
    }
+  },
+  {
+   "teamId": "108",
+   "name": "Szia Uram!",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 2,
+    "points": 1
+   }
   }
  ],
  "records": {
@@ -227,8 +240,8 @@
  "cleanSheets": 0,
  "failedToScore": 1,
  "scorers": {
-  "playedMatches": 8,
-  "coveredMatches": 8,
+  "playedMatches": 9,
+  "coveredMatches": 9,
   "rows": [
    {
     "name": "Grigorszky Péter",
@@ -252,6 +265,12 @@
     "name": "Petróczi Zsolt",
     "goals": 2,
     "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Szilágyi Dávid",
+    "goals": 2,
+    "matches": 1,
     "hatTricks": 0
    }
   ]

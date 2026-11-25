@@ -69,14 +69,14 @@
   {
    "position": 1,
    "teamId": "1566",
-   "played": 7,
-   "won": 7,
+   "played": 9,
+   "won": 9,
    "drawn": 0,
    "lost": 0,
-   "goalsFor": 60,
-   "goalsAgainst": 15,
-   "goalDiff": 45,
-   "points": 21,
+   "goalsFor": 84,
+   "goalsAgainst": 22,
+   "goalDiff": 62,
+   "points": 27,
    "markers": [
     "winStreak",
     "manyGoals",
@@ -87,33 +87,30 @@
   {
    "position": 2,
    "teamId": "1577",
-   "played": 7,
+   "played": 8,
    "won": 6,
    "drawn": 0,
-   "lost": 1,
-   "goalsFor": 40,
-   "goalsAgainst": 27,
-   "goalDiff": 13,
+   "lost": 2,
+   "goalsFor": 43,
+   "goalsAgainst": 34,
+   "goalDiff": 9,
    "points": 18,
    "markers": [
-    "winStreak",
-    "fewConceded",
     "promotion"
    ]
   },
   {
    "position": 3,
    "teamId": "91",
-   "played": 8,
+   "played": 9,
    "won": 5,
    "drawn": 2,
-   "lost": 1,
-   "goalsFor": 64,
-   "goalsAgainst": 33,
-   "goalDiff": 31,
+   "lost": 2,
+   "goalsFor": 68,
+   "goalsAgainst": 50,
+   "goalDiff": 18,
    "points": 17,
    "markers": [
-    "winStreak",
     "manyGoals"
    ]
   },
@@ -1814,7 +1811,7 @@
      "teamId": "1556"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57331",
@@ -1843,7 +1840,7 @@
      "teamId": "232"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57298",
@@ -1852,10 +1849,15 @@
    "awayTeamId": "1566",
    "kickoff": "2026-11-19T17:00:00.000Z",
    "venue": "Bogdánfy_4",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 4,
+   "awayGoals": 17,
+   "status": "played",
    "scorers": [
+    {
+     "name": "Szelényi Dániel",
+     "goals": 4,
+     "teamId": "91"
+    },
     {
      "name": "Nagy Mihály Gyula",
      "goals": 8,
@@ -1877,7 +1879,7 @@
      "teamId": "1566"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57327",
@@ -1926,7 +1928,7 @@
      "teamId": "1556"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57310",
@@ -1938,8 +1940,34 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "scorers": [
+    {
+     "name": "Vadas Gellért",
+     "goals": 2,
+     "teamId": "227"
+    },
+    {
+     "name": "Kiss Benedek",
+     "goals": 1,
+     "teamId": "227"
+    },
+    {
+     "name": "Telek András",
+     "goals": 1,
+     "teamId": "227"
+    },
+    {
+     "name": "Karvázy Ábel",
+     "goals": 1,
+     "teamId": "227"
+    },
+    {
+     "name": "Németh Bence",
+     "goals": 1,
+     "teamId": "227"
+    }
+   ],
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57358",
@@ -1948,10 +1976,25 @@
    "awayTeamId": "1577",
    "kickoff": "2026-11-24T20:00:00.000Z",
    "venue": "Bogdánfy_4",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 7,
+   "awayGoals": 3,
+   "status": "played",
    "scorers": [
+    {
+     "name": "Fodor Kornél",
+     "goals": 3,
+     "teamId": "1566"
+    },
+    {
+     "name": "Nagy Mihály Gyula",
+     "goals": 3,
+     "teamId": "1566"
+    },
+    {
+     "name": "Daróczi Donát",
+     "goals": 1,
+     "teamId": "1566"
+    },
     {
      "name": "Berzsák Bulcsú",
      "goals": 1,
@@ -1968,20 +2011,20 @@
      "teamId": "1577"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
-   "id": "x-55-L5H-202611251700-futball-pistak-szamaras-se",
-   "siteId": null,
+   "id": "57401",
+   "siteId": 57401,
    "homeTeamId": "1524",
    "awayTeamId": "1553",
    "kickoff": "2026-11-25T17:00:00.000Z",
    "venue": "Bogdánfy_3",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "x-55-L5H-202611252000-villanyfenyes-szepseg-das-originals-moricz-all-stars",
@@ -2188,7 +2231,7 @@
     "goals": 8
    },
    "seasonsCount": 1,
-   "matchesPlayed": 7
+   "matchesPlayed": 9
   },
   {
    "teamId": "1577",
@@ -2198,7 +2241,7 @@
     "goals": 6
    },
    "seasonsCount": 1,
-   "matchesPlayed": 7
+   "matchesPlayed": 8
   },
   {
    "teamId": "91",
@@ -2208,7 +2251,7 @@
     "goals": 8
    },
    "seasonsCount": 4,
-   "matchesPlayed": 8
+   "matchesPlayed": 9
   },
   {
    "teamId": "1556",
@@ -2274,7 +2317,7 @@
    "teamId": "225",
    "bestLeague": "L5C",
    "topScorer": {
-    "name": "Kozma Boldizsár",
+    "name": "Lenkei Botond",
     "goals": 2
    },
    "seasonsCount": 4,

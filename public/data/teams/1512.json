@@ -10,16 +10,16 @@
    "label": "2026 - Ősz",
    "league": "L4C",
    "finished": false,
-   "position": 4,
+   "position": 5,
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 9,
+    "played": 10,
     "won": 4,
     "drawn": 1,
-    "lost": 4,
-    "goalsFor": 38,
-    "goalsAgainst": 38,
+    "lost": 5,
+    "goalsFor": 39,
+    "goalsAgainst": 43,
     "points": 13
    }
   }
@@ -141,6 +141,19 @@
     "goalsAgainst": 3,
     "points": 3
    }
+  },
+  {
+   "teamId": "153",
+   "name": "Selecao",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 5,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -240,8 +253,8 @@
  "cleanSheets": 1,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 9,
-  "coveredMatches": 9,
+  "playedMatches": 10,
+  "coveredMatches": 10,
   "rows": [
    {
     "name": "Péter Adrián",
@@ -268,13 +281,13 @@
     "hatTricks": 0
    },
    {
-    "name": "Kurucz Dániel",
-    "goals": 3,
-    "matches": 3,
+    "name": "Tkalcec Péter",
+    "goals": 4,
+    "matches": 4,
     "hatTricks": 0
    },
    {
-    "name": "Tkalcec Péter",
+    "name": "Kurucz Dániel",
     "goals": 3,
     "matches": 3,
     "hatTricks": 0

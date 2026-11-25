@@ -1868,7 +1868,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57342",
@@ -1907,7 +1907,7 @@
      "teamId": "170"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57300",
@@ -1946,7 +1946,7 @@
      "teamId": "38"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57332",
@@ -1959,7 +1959,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57318",
@@ -2047,7 +2047,7 @@
      "teamId": "45"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57380",
@@ -2106,7 +2106,7 @@
      "teamId": "170"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57411",
@@ -2119,7 +2119,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57386",
@@ -2131,8 +2131,24 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "scorers": [
+    {
+     "name": "Szőke István",
+     "goals": 2,
+     "teamId": "139"
+    },
+    {
+     "name": "Kéménczy Márton",
+     "goals": 1,
+     "teamId": "139"
+    },
+    {
+     "name": "Rimóczi Gergő",
+     "goals": 1,
+     "teamId": "139"
+    }
+   ],
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57372",
@@ -2145,7 +2161,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "x-55-L2A-202611301900-national-sechs-al-dubai",

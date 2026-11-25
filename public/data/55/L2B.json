@@ -2025,7 +2025,7 @@
      "teamId": "220"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57313",
@@ -2108,7 +2108,7 @@
      "teamId": "29"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57320",
@@ -2210,7 +2210,7 @@
      "teamId": "154"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57353",
@@ -2223,7 +2223,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57413",
@@ -2289,22 +2289,42 @@
      "name": "Molnár Levente",
      "goals": 1,
      "teamId": "37"
+    },
+    {
+     "name": "Juhász Csongor",
+     "goals": 2,
+     "teamId": "154"
+    },
+    {
+     "name": "Pallaghy József Barnabás",
+     "goals": 1,
+     "teamId": "154"
+    },
+    {
+     "name": "Hornyák Krisztofer",
+     "goals": 1,
+     "teamId": "154"
+    },
+    {
+     "name": "Hegedüs Balázs",
+     "goals": 1,
+     "teamId": "154"
     }
    ],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
-   "id": "x-55-L2B-202611251700-kulakok-dzsum-dzsum",
-   "siteId": null,
+   "id": "57402",
+   "siteId": 57402,
    "homeTeamId": "73",
    "awayTeamId": "123",
    "kickoff": "2026-11-25T17:00:00.000Z",
    "venue": "Bogdánfy_2",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "x-55-L2B-202611251900-toilet-time-vergewalti-gang",
@@ -2315,7 +2335,7 @@
    "venue": "Bogdánfy_3",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
+   "status": "unknown",
    "scorers": null,
    "detailFetchedAt": null
   },
@@ -2538,7 +2558,7 @@
    "teamId": "220",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Dudás Zoltán",
+    "name": "Lontai Bendegúz",
     "goals": 5
    },
    "seasonsCount": 16,
@@ -2578,7 +2598,7 @@
    "teamId": "31",
    "bestLeague": "L2B",
    "topScorer": {
-    "name": "Igari András",
+    "name": "Hencsei Zsombor",
     "goals": 3
    },
    "seasonsCount": 16,

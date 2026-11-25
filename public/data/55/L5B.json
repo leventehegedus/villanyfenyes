@@ -1943,7 +1943,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "57297",
@@ -2002,33 +2002,33 @@
    "scorers": [
     {
      "name": "Morvai Gábor",
-     "goals": 4,
-     "teamId": "24"
+     "teamId": "24",
+     "goals": 4
     },
     {
      "name": "Beleznai Kornél",
-     "goals": 3,
-     "teamId": "24"
+     "teamId": "24",
+     "goals": 3
     },
     {
      "name": "Szemes Péter",
-     "goals": 3,
-     "teamId": "24"
+     "teamId": "24",
+     "goals": 3
     },
     {
      "name": "Czotter Istvan",
-     "goals": 2,
-     "teamId": "125"
+     "teamId": "125",
+     "goals": 2
     },
     {
      "name": "Tar Marcell",
-     "goals": 1,
-     "teamId": "125"
+     "teamId": "125",
+     "goals": 1
     },
     {
      "name": "Németh Ákos",
-     "goals": 1,
-     "teamId": "125"
+     "teamId": "125",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-25T08:33:21.402Z"
@@ -2044,7 +2044,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-25T08:33:21.402Z"
+   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
    "id": "x-55-L5B-202611261900-jo-az-x-magyi",
@@ -2360,7 +2360,7 @@
    "teamId": "1559",
    "bestLeague": "L5B",
    "topScorer": {
-    "name": "Loósz Benedek",
+    "name": "Hudi Martin",
     "goals": 3
    },
    "seasonsCount": 1,
