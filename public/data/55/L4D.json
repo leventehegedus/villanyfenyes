@@ -2003,7 +2003,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "57316",
@@ -2037,7 +2037,7 @@
      "teamId": "1537"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "56572",
@@ -2076,7 +2076,7 @@
      "teamId": "1530"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "57289",
@@ -2125,7 +2125,7 @@
      "teamId": "1530"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "57330",
@@ -2169,7 +2169,7 @@
      "teamId": "96"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "57319",
@@ -2233,7 +2233,7 @@
      "teamId": "189"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "57421",
@@ -2267,7 +2267,7 @@
      "teamId": "50"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "57359",
@@ -2291,7 +2291,7 @@
      "teamId": "1528"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "x-55-L4D-202611262000-polak-kiddos-fleo-rc",
@@ -2597,7 +2597,7 @@
    "teamId": "50",
    "bestLeague": "L2A",
    "topScorer": {
-    "name": "Kálóczi István",
+    "name": "Bakó Dávid",
     "goals": 7
    },
    "seasonsCount": 7,
@@ -2617,7 +2617,7 @@
    "teamId": "1537",
    "bestLeague": "L4D",
    "topScorer": {
-    "name": "Szilágyi Bálint Zsolt",
+    "name": "Lukács Gergő",
     "goals": 5
    },
    "seasonsCount": 2,

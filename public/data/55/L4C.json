@@ -1945,7 +1945,7 @@
      "teamId": "47"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "57244",
@@ -1984,7 +1984,7 @@
      "teamId": "153"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "57267",
@@ -2071,7 +2071,7 @@
      "teamId": "131"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "57346",
@@ -2177,7 +2177,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "x-55-L4C-202611261700-team-miller-sorfoci",
@@ -2407,7 +2407,7 @@
    "teamId": "1512",
    "bestLeague": "L4C",
    "topScorer": {
-    "name": "Tóth Domonkos",
+    "name": "Kis Ádám",
     "goals": 4
    },
    "seasonsCount": 2,

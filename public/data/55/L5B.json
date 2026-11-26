@@ -1943,7 +1943,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "57297",
@@ -2044,7 +2044,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "x-55-L5B-202611261900-jo-az-x-magyi",
@@ -2360,7 +2360,7 @@
    "teamId": "1559",
    "bestLeague": "L5B",
    "topScorer": {
-    "name": "Loósz Benedek",
+    "name": "Hudi Martin",
     "goals": 3
    },
    "seasonsCount": 1,

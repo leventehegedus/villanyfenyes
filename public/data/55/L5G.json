@@ -2131,7 +2131,7 @@
      "teamId": "1469"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "57619",
@@ -2165,7 +2165,7 @@
      "teamId": "1518"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "57326",
@@ -2204,7 +2204,7 @@
      "teamId": "1534"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "57339",
@@ -2219,28 +2219,28 @@
    "scorers": [
     {
      "name": "Máté Bajomi",
-     "goals": 2,
-     "teamId": "1567"
+     "teamId": "1567",
+     "goals": 2
     },
     {
      "name": "Varga Ádám",
-     "goals": 2,
-     "teamId": "1567"
+     "teamId": "1567",
+     "goals": 2
     },
     {
      "name": "Kopasz Gergő",
-     "goals": 1,
-     "teamId": "1567"
+     "teamId": "1567",
+     "goals": 1
     },
     {
      "name": "Szőcs András",
-     "goals": 1,
-     "teamId": "1572"
+     "teamId": "1572",
+     "goals": 1
     },
     {
      "name": "Tolnai Márton",
-     "goals": 1,
-     "teamId": "1572"
+     "teamId": "1572",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-26T00:55:10.463Z"
@@ -2292,7 +2292,7 @@
      "teamId": "1488"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "57415",
@@ -2307,28 +2307,28 @@
    "scorers": [
     {
      "name": "Adorján Domonkos",
-     "goals": 2,
-     "teamId": "1518"
+     "teamId": "1518",
+     "goals": 2
     },
     {
      "name": "Unyi Dániel",
-     "goals": 4,
-     "teamId": "1534"
+     "teamId": "1534",
+     "goals": 4
     },
     {
      "name": "Gajzágó Márk",
-     "goals": 2,
-     "teamId": "1534"
+     "teamId": "1534",
+     "goals": 2
     },
     {
      "name": "Szemán Balázs",
-     "goals": 1,
-     "teamId": "1534"
+     "teamId": "1534",
+     "goals": 1
     },
     {
      "name": "Horváth Dominik",
-     "goals": 1,
-     "teamId": "1534"
+     "teamId": "1534",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-26T00:55:10.463Z"
@@ -2344,7 +2344,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "57373",
@@ -2373,7 +2373,7 @@
      "teamId": "1572"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "x-55-L5G-202611271700-footbalekok-gugugaga-gang",

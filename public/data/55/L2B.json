@@ -2025,7 +2025,7 @@
      "teamId": "220"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "57313",
@@ -2108,7 +2108,7 @@
      "teamId": "29"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "57320",
@@ -2210,7 +2210,7 @@
      "teamId": "154"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "57353",
@@ -2223,7 +2223,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "57413",
@@ -2238,23 +2238,23 @@
    "scorers": [
     {
      "name": "Kiss Bence",
-     "goals": 3,
-     "teamId": "81"
+     "teamId": "81",
+     "goals": 3
     },
     {
      "name": "Csiha Bence",
-     "goals": 1,
-     "teamId": "81"
+     "teamId": "81",
+     "goals": 1
     },
     {
      "name": "Bertold Pék",
-     "goals": 3,
-     "teamId": "220"
+     "teamId": "220",
+     "goals": 3
     },
     {
      "name": "Dudás Zoltán",
-     "goals": 1,
-     "teamId": "220"
+     "teamId": "220",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-26T00:55:10.463Z"
@@ -2311,7 +2311,7 @@
      "teamId": "154"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "57402",
@@ -2324,7 +2324,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "57385",
@@ -2337,7 +2337,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
   },
   {
    "id": "x-55-L2B-202611301700-tunyacsap-cefre-town",
@@ -2558,7 +2558,7 @@
    "teamId": "220",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Vörös László",
+    "name": "Dudás Zoltán",
     "goals": 5
    },
    "seasonsCount": 16,
@@ -2598,7 +2598,7 @@
    "teamId": "31",
    "bestLeague": "L2B",
    "topScorer": {
-    "name": "Hencsei Zsombor",
+    "name": "Igari András",
     "goals": 3
    },
    "seasonsCount": 16,
