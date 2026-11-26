@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 2,
     "drawn": 1,
-    "lost": 4,
-    "goalsFor": 32,
-    "goalsAgainst": 47,
+    "lost": 5,
+    "goalsFor": 38,
+    "goalsAgainst": 56,
     "points": 7
    }
   }
@@ -115,6 +115,19 @@
     "goalsAgainst": 4,
     "points": 1
    }
+  },
+  {
+   "teamId": "1526",
+   "name": "FC MENNYIVANMÉG",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 6,
+    "goalsAgainst": 9,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -139,11 +152,11 @@
   "highestScoring": {
    "seasonId": 55,
    "league": "L5A",
-   "matchId": "57209",
-   "kickoff": "2026-11-06T19:00:00.000Z",
-   "opponentId": "169",
-   "goalsFor": 9,
-   "goalsAgainst": 5
+   "matchId": "57407",
+   "kickoff": "2026-11-24T19:00:00.000Z",
+   "opponentId": "1526",
+   "goalsFor": 6,
+   "goalsAgainst": 9
   }
  },
  "streaks": {
@@ -214,14 +227,20 @@
  "cleanSheets": 0,
  "failedToScore": 1,
  "scorers": {
-  "playedMatches": 7,
-  "coveredMatches": 7,
+  "playedMatches": 8,
+  "coveredMatches": 8,
   "rows": [
    {
     "name": "Bodroghy Kristóf",
-    "goals": 10,
-    "matches": 5,
-    "hatTricks": 1
+    "goals": 13,
+    "matches": 6,
+    "hatTricks": 2
+   },
+   {
+    "name": "Kardos Gábor",
+    "goals": 5,
+    "matches": 4,
+    "hatTricks": 0
    },
    {
     "name": "Kozma Márton",
@@ -230,27 +249,21 @@
     "hatTricks": 0
    },
    {
-    "name": "Kardos Gábor",
+    "name": "Daniel Soós",
     "goals": 4,
-    "matches": 3,
+    "matches": 4,
     "hatTricks": 0
    },
    {
-    "name": "Daniel Soós",
-    "goals": 3,
-    "matches": 3,
+    "name": "Dobos-Kovács Mihály",
+    "goals": 2,
+    "matches": 2,
     "hatTricks": 0
    },
    {
     "name": "Horváth János András",
     "goals": 2,
     "matches": 2,
-    "hatTricks": 0
-   },
-   {
-    "name": "Dobos-Kovács Mihály",
-    "goals": 1,
-    "matches": 1,
     "hatTricks": 0
    },
    {

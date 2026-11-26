@@ -1855,7 +1855,7 @@
      "teamId": "1571"
     }
    ],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57336",
@@ -1879,7 +1879,7 @@
      "teamId": "1486"
     }
    ],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57317",
@@ -1892,7 +1892,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57343",
@@ -2009,7 +2009,7 @@
      "teamId": "21"
     }
    ],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57364",
@@ -2043,7 +2043,7 @@
      "teamId": "1476"
     }
    ],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57410",
@@ -2072,7 +2072,7 @@
      "teamId": "1561"
     }
    ],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "x-55-L5E-202611301700-los-galacticos-oso-fc",
@@ -2275,7 +2275,7 @@
    "teamId": "1486",
    "bestLeague": "L5B",
    "topScorer": {
-    "name": "Juth Benedek",
+    "name": "Farkas Zsombor",
     "goals": 6
    },
    "seasonsCount": 3,
@@ -2345,7 +2345,7 @@
    "teamId": "1532",
    "bestLeague": "L5A",
    "topScorer": {
-    "name": "Czibula Márk Milán",
+    "name": "Kalapos Titusz",
     "goals": 3
    },
    "seasonsCount": 2,
@@ -2375,7 +2375,7 @@
    "teamId": "1561",
    "bestLeague": "L5E",
    "topScorer": {
-    "name": "Kozák Márton",
+    "name": "Gergely Szilárd",
     "goals": 3
    },
    "seasonsCount": 1,

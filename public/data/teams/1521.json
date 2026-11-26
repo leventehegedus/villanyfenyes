@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L4A",
    "finished": false,
-   "position": 3,
+   "position": 1,
    "teamsInLeague": 12,
-   "marker": null,
+   "marker": "promotion",
    "totals": {
-    "played": 8,
-    "won": 6,
+    "played": 9,
+    "won": 7,
     "drawn": 0,
     "lost": 2,
-    "goalsFor": 59,
-    "goalsAgainst": 38,
-    "points": 18
+    "goalsFor": 65,
+    "goalsAgainst": 39,
+    "points": 21
    }
   }
  ],
@@ -128,6 +128,19 @@
     "goalsAgainst": 6,
     "points": 3
    }
+  },
+  {
+   "teamId": "36",
+   "name": "Gabriel Jesus",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 1,
+    "points": 3
+   }
   }
  ],
  "records": {
@@ -227,25 +240,25 @@
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 8,
-  "coveredMatches": 8,
+  "playedMatches": 9,
+  "coveredMatches": 9,
   "rows": [
    {
     "name": "Mátyás Szívós",
-    "goals": 19,
-    "matches": 5,
+    "goals": 21,
+    "matches": 6,
     "hatTricks": 4
    },
    {
     "name": "Némedi Balázs",
-    "goals": 9,
-    "matches": 5,
-    "hatTricks": 1
+    "goals": 12,
+    "matches": 6,
+    "hatTricks": 2
    },
    {
     "name": "Prága Kristóf",
-    "goals": 9,
-    "matches": 5,
+    "goals": 10,
+    "matches": 6,
     "hatTricks": 1
    },
    {

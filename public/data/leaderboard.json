@@ -895,7 +895,7 @@
    "titles": 0,
    "l1Seasons": 1,
    "won": 3,
-   "goalsFor": 51
+   "goalsFor": 52
   },
   {
    "teamId": "154",
@@ -934,8 +934,8 @@
    "name": "Toilet Time",
    "titles": 0,
    "l1Seasons": 1,
-   "won": 8,
-   "goalsFor": 73
+   "won": 9,
+   "goalsFor": 75
   },
   {
    "teamId": "73",
@@ -1330,6 +1330,14 @@
    "goalsFor": 24
   },
   {
+   "teamId": "1521",
+   "name": "JSE",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 7,
+   "goalsFor": 65
+  },
+  {
    "teamId": "121",
    "name": "Kék Labdák",
    "titles": 0,
@@ -1344,14 +1352,6 @@
    "l1Seasons": 0,
    "won": 6,
    "goalsFor": 46
-  },
-  {
-   "teamId": "1521",
-   "name": "JSE",
-   "titles": 0,
-   "l1Seasons": 0,
-   "won": 6,
-   "goalsFor": 59
   },
   {
    "teamId": "1520",
@@ -1375,7 +1375,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 4,
-   "goalsFor": 26
+   "goalsFor": 27
   },
   {
    "teamId": "1471",
@@ -1706,20 +1706,20 @@
    "goalsFor": 71
   },
   {
+   "teamId": "1526",
+   "name": "FC MENNYIVANMÉG",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 8,
+   "goalsFor": 64
+  },
+  {
    "teamId": "19",
    "name": "A kispad legjobbjai",
    "titles": 0,
    "l1Seasons": 0,
    "won": 7,
    "goalsFor": 41
-  },
-  {
-   "teamId": "1526",
-   "name": "FC MENNYIVANMÉG",
-   "titles": 0,
-   "l1Seasons": 0,
-   "won": 7,
-   "goalsFor": 55
   },
   {
    "teamId": "1550",
@@ -1767,7 +1767,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 2,
-   "goalsFor": 32
+   "goalsFor": 38
   },
   {
    "teamId": "1562",
@@ -1894,8 +1894,8 @@
    "name": "Ment Mellé is",
    "titles": 0,
    "l1Seasons": 0,
-   "won": 6,
-   "goalsFor": 38
+   "won": 7,
+   "goalsFor": 43
   },
   {
    "teamId": "1544",
@@ -1911,7 +1911,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 5,
-   "goalsFor": 57
+   "goalsFor": 61
   },
   {
    "teamId": "216",

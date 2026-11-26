@@ -1915,7 +1915,7 @@
      "teamId": "43"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57283",
@@ -2003,7 +2003,7 @@
      "teamId": "72"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57311",
@@ -2066,7 +2066,7 @@
      "teamId": "27"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "56640",
@@ -2120,7 +2120,7 @@
      "teamId": "146"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57328",
@@ -2139,7 +2139,7 @@
      "teamId": "98"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57357",
@@ -2222,7 +2222,7 @@
      "teamId": "233"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57389",
@@ -2235,6 +2235,21 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [
+    {
+     "name": "Bakucz Dániel Attila",
+     "goals": 3,
+     "teamId": "43"
+    },
+    {
+     "name": "Szász Viktor",
+     "goals": 2,
+     "teamId": "43"
+    },
+    {
+     "name": "Theobald Bence",
+     "goals": 2,
+     "teamId": "43"
+    },
     {
      "name": "Bojtor Csongor Marcell",
      "goals": 2,
@@ -2266,7 +2281,7 @@
      "teamId": "98"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57399",
@@ -2279,7 +2294,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "x-55-L3B-202611261700-minden-heten-haboru-lokomotiv-akademia",

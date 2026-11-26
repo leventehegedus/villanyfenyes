@@ -12,7 +12,7 @@
    "finished": false,
    "position": 10,
    "teamsInLeague": 12,
-   "marker": null,
+   "marker": "relegation",
    "totals": {
     "played": 7,
     "won": 2,

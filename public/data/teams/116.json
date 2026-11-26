@@ -14,13 +14,13 @@
    "teamsInLeague": 12,
    "marker": "promotion",
    "totals": {
-    "played": 8,
-    "won": 6,
+    "played": 9,
+    "won": 7,
     "drawn": 1,
     "lost": 1,
-    "goalsFor": 55,
-    "goalsAgainst": 29,
-    "points": 19
+    "goalsFor": 57,
+    "goalsAgainst": 30,
+    "points": 22
    }
   },
   {
@@ -172,6 +172,19 @@
     "goalsAgainst": 5,
     "points": 3
    }
+  },
+  {
+   "teamId": "182",
+   "name": "Vergewalti GANG",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 1,
+    "points": 3
+   }
   }
  ],
  "records": {
@@ -205,7 +218,7 @@
  },
  "streaks": {
   "win": {
-   "length": 4,
+   "length": 5,
    "from": {
     "seasonId": 55,
     "league": "L2B",
@@ -218,15 +231,15 @@
    "to": {
     "seasonId": 55,
     "league": "L2B",
-    "matchId": "57313",
-    "kickoff": "2026-11-16T20:00:00.000Z",
-    "opponentId": "197",
-    "goalsFor": 6,
-    "goalsAgainst": 5
+    "matchId": "57385",
+    "kickoff": "2026-11-25T19:00:00.000Z",
+    "opponentId": "182",
+    "goalsFor": 2,
+    "goalsAgainst": 1
    }
   },
   "unbeaten": {
-   "length": 6,
+   "length": 7,
    "from": {
     "seasonId": 55,
     "league": "L2B",
@@ -239,11 +252,11 @@
    "to": {
     "seasonId": 55,
     "league": "L2B",
-    "matchId": "57313",
-    "kickoff": "2026-11-16T20:00:00.000Z",
-    "opponentId": "197",
-    "goalsFor": 6,
-    "goalsAgainst": 5
+    "matchId": "57385",
+    "kickoff": "2026-11-25T19:00:00.000Z",
+    "opponentId": "182",
+    "goalsFor": 2,
+    "goalsAgainst": 1
    }
   },
   "loss": {
@@ -271,8 +284,8 @@
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 13,
-  "coveredMatches": 13,
+  "playedMatches": 14,
+  "coveredMatches": 14,
   "rows": [
    {
     "name": "Pusztai Bertalan",
@@ -294,8 +307,8 @@
    },
    {
     "name": "Mészáros László",
-    "goals": 8,
-    "matches": 6,
+    "goals": 9,
+    "matches": 7,
     "hatTricks": 0
    },
    {
@@ -329,6 +342,12 @@
     "hatTricks": 0
    },
    {
+    "name": "Petőfi Zsombor Pál",
+    "goals": 2,
+    "matches": 2,
+    "hatTricks": 0
+   },
+   {
     "name": "Sarnyai Domonkos",
     "goals": 2,
     "matches": 2,
@@ -336,12 +355,6 @@
    },
    {
     "name": "Gulácsi Zsombor Lajos",
-    "goals": 1,
-    "matches": 1,
-    "hatTricks": 0
-   },
-   {
-    "name": "Petőfi Zsombor Pál",
     "goals": 1,
     "matches": 1,
     "hatTricks": 0

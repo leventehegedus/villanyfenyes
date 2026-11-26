@@ -197,7 +197,9 @@
    "goalsAgainst": 33,
    "goalDiff": 4,
    "points": 8,
-   "markers": []
+   "markers": [
+    "relegation"
+   ]
   },
   {
    "position": 10,
@@ -210,7 +212,9 @@
    "goalsAgainst": 48,
    "goalDiff": -5,
    "points": 8,
-   "markers": []
+   "markers": [
+    "relegation"
+   ]
   },
   {
    "position": 11,
@@ -2003,7 +2007,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57316",
@@ -2016,6 +2020,16 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [
+    {
+     "name": "Verbovszky Bence",
+     "goals": 1,
+     "teamId": "65"
+    },
+    {
+     "name": "Juhász Tamás",
+     "goals": 1,
+     "teamId": "65"
+    },
     {
      "name": "Maukner Botond",
      "goals": 2,
@@ -2037,7 +2051,7 @@
      "teamId": "1537"
     }
    ],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "56572",
@@ -2076,7 +2090,7 @@
      "teamId": "1530"
     }
    ],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57289",
@@ -2125,7 +2139,7 @@
      "teamId": "1530"
     }
    ],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57330",
@@ -2169,7 +2183,7 @@
      "teamId": "96"
     }
    ],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57319",
@@ -2233,7 +2247,7 @@
      "teamId": "189"
     }
    ],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57421",
@@ -2267,7 +2281,7 @@
      "teamId": "50"
     }
    ],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57359",
@@ -2291,7 +2305,7 @@
      "teamId": "1528"
     }
    ],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "x-55-L4D-202611262000-polak-kiddos-fleo-rc",
@@ -2537,7 +2551,7 @@
    "teamId": "221",
    "bestLeague": "L4D",
    "topScorer": {
-    "name": "Marton Lázár",
+    "name": "Bangó-Fi Domonkos",
     "goals": 6
    },
    "seasonsCount": 4,

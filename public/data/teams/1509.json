@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 5,
     "drawn": 0,
-    "lost": 2,
-    "goalsFor": 57,
-    "goalsAgainst": 27,
+    "lost": 3,
+    "goalsFor": 61,
+    "goalsAgainst": 32,
     "points": 15
    }
   }
@@ -115,6 +115,19 @@
     "goalsAgainst": 4,
     "points": 3
    }
+  },
+  {
+   "teamId": "132",
+   "name": "Ment Mellé is",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 5,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -194,19 +207,19 @@
    "from": {
     "seasonId": 55,
     "league": "L5C",
-    "matchId": "56881",
-    "kickoff": "2026-10-05T18:00:00.000Z",
-    "opponentId": "216",
-    "goalsFor": 3,
+    "matchId": "57374",
+    "kickoff": "2026-11-25T21:00:00.000Z",
+    "opponentId": "132",
+    "goalsFor": 4,
     "goalsAgainst": 5
    },
    "to": {
     "seasonId": 55,
     "league": "L5C",
-    "matchId": "56881",
-    "kickoff": "2026-10-05T18:00:00.000Z",
-    "opponentId": "216",
-    "goalsFor": 3,
+    "matchId": "57374",
+    "kickoff": "2026-11-25T21:00:00.000Z",
+    "opponentId": "132",
+    "goalsFor": 4,
     "goalsAgainst": 5
    }
   }
@@ -214,14 +227,14 @@
  "cleanSheets": 1,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 7,
-  "coveredMatches": 7,
+  "playedMatches": 8,
+  "coveredMatches": 8,
   "rows": [
    {
     "name": "Teklits Vince",
-    "goals": 25,
-    "matches": 6,
-    "hatTricks": 5
+    "goals": 29,
+    "matches": 7,
+    "hatTricks": 6
    },
    {
     "name": "Mátyás Terebesi",

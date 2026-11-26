@@ -1999,7 +1999,7 @@
      "teamId": "1479"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57324",
@@ -2038,7 +2038,7 @@
      "teamId": "26"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57288",
@@ -2092,7 +2092,7 @@
      "teamId": "198"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57627",
@@ -2222,7 +2222,7 @@
      "teamId": "198"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57361",
@@ -2261,7 +2261,7 @@
      "teamId": "161"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "x-55-L3A-202611301800-berug-fc-penisz-land",
@@ -2448,7 +2448,7 @@
    "teamId": "26",
    "bestLeague": "L2A",
    "topScorer": {
-    "name": "Dávid Bence",
+    "name": "Orosz Dávid",
     "goals": 5
    },
    "seasonsCount": 9,

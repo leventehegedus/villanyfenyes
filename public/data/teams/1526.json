@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L5A",
    "finished": false,
-   "position": 3,
+   "position": 2,
    "teamsInLeague": 12,
-   "marker": null,
+   "marker": "promotion",
    "totals": {
-    "played": 8,
-    "won": 7,
+    "played": 9,
+    "won": 8,
     "drawn": 0,
     "lost": 1,
-    "goalsFor": 55,
-    "goalsAgainst": 27,
-    "points": 21
+    "goalsFor": 64,
+    "goalsAgainst": 33,
+    "points": 24
    }
   }
  ],
@@ -128,6 +128,19 @@
     "goalsAgainst": 6,
     "points": 3
    }
+  },
+  {
+   "teamId": "151",
+   "name": "Csokihiány",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 9,
+    "goalsAgainst": 6,
+    "points": 3
+   }
   }
  ],
  "records": {
@@ -152,11 +165,11 @@
   "highestScoring": {
    "seasonId": 55,
    "league": "L5A",
-   "matchId": "57649",
-   "kickoff": "2026-10-05T18:00:00.000Z",
-   "opponentId": "169",
-   "goalsFor": 13,
-   "goalsAgainst": 1
+   "matchId": "57407",
+   "kickoff": "2026-11-24T19:00:00.000Z",
+   "opponentId": "151",
+   "goalsFor": 9,
+   "goalsAgainst": 6
   }
  },
  "streaks": {
@@ -227,43 +240,43 @@
  "cleanSheets": 1,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 8,
-  "coveredMatches": 8,
+  "playedMatches": 9,
+  "coveredMatches": 9,
   "rows": [
    {
-    "name": "Ujfaludi Gábor",
-    "goals": 12,
+    "name": "Szakály Máté",
+    "goals": 13,
     "matches": 6,
     "hatTricks": 2
    },
    {
-    "name": "Szakály Máté",
-    "goals": 11,
-    "matches": 5,
+    "name": "Ujfaludi Gábor",
+    "goals": 13,
+    "matches": 7,
     "hatTricks": 2
    },
    {
     "name": "Andor Levente",
-    "goals": 9,
-    "matches": 4,
-    "hatTricks": 2
+    "goals": 12,
+    "matches": 5,
+    "hatTricks": 3
    },
    {
     "name": "Szakonyi Bence Csongor",
+    "goals": 9,
+    "matches": 6,
+    "hatTricks": 0
+   },
+   {
+    "name": "Beke Dániel",
     "goals": 8,
     "matches": 5,
     "hatTricks": 0
    },
    {
-    "name": "Beke Dániel",
-    "goals": 7,
-    "matches": 4,
-    "hatTricks": 0
-   },
-   {
     "name": "Ötvös Zsombor Kálmán",
-    "goals": 4,
-    "matches": 3,
+    "goals": 5,
+    "matches": 4,
     "hatTricks": 0
    },
    {

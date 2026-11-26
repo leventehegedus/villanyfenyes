@@ -199,7 +199,8 @@
    "goalDiff": -13,
    "points": 6,
    "markers": [
-    "lossStreak"
+    "lossStreak",
+    "relegation"
    ]
   },
   {
@@ -213,7 +214,9 @@
    "goalsAgainst": 56,
    "goalDiff": -24,
    "points": 6,
-   "markers": []
+   "markers": [
+    "relegation"
+   ]
   },
   {
    "position": 11,
@@ -1967,7 +1970,7 @@
      "teamId": "1507"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57017",
@@ -2050,7 +2053,7 @@
      "teamId": "54"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57350",
@@ -2145,8 +2148,14 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "scorers": [
+    {
+     "name": "Szöllősi Bálint",
+     "goals": 1,
+     "teamId": "80"
+    }
+   ],
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "x-55-L4B-202611262000-whiskey-tango-foxtrot-gyros-fc",
@@ -2376,7 +2385,7 @@
    "teamId": "62",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Pusztai Bertalan",
+    "name": "Rafael Moreira de Souza",
     "goals": 5
    },
    "seasonsCount": 5,

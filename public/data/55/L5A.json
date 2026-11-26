@@ -10,14 +10,14 @@
    "name": "Gépgólyák"
   },
   {
-   "id": "19",
-   "siteId": 19,
-   "name": "A kispad legjobbjai"
-  },
-  {
    "id": "1526",
    "siteId": 1526,
    "name": "FC MENNYIVANMÉG"
+  },
+  {
+   "id": "19",
+   "siteId": 19,
+   "name": "A kispad legjobbjai"
   },
   {
    "id": "1550",
@@ -85,6 +85,23 @@
   },
   {
    "position": 2,
+   "teamId": "1526",
+   "played": 9,
+   "won": 8,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 64,
+   "goalsAgainst": 33,
+   "goalDiff": 31,
+   "points": 24,
+   "markers": [
+    "winStreak",
+    "manyGoals",
+    "promotion"
+   ]
+  },
+  {
+   "position": 3,
    "teamId": "19",
    "played": 8,
    "won": 7,
@@ -96,23 +113,6 @@
    "points": 21,
    "markers": [
     "winStreak",
-    "fewConceded",
-    "promotion"
-   ]
-  },
-  {
-   "position": 3,
-   "teamId": "1526",
-   "played": 8,
-   "won": 7,
-   "drawn": 0,
-   "lost": 1,
-   "goalsFor": 55,
-   "goalsAgainst": 27,
-   "goalDiff": 28,
-   "points": 21,
-   "markers": [
-    "manyGoals",
     "fewConceded"
    ]
   },
@@ -191,13 +191,13 @@
   {
    "position": 9,
    "teamId": "151",
-   "played": 7,
+   "played": 8,
    "won": 2,
    "drawn": 1,
-   "lost": 4,
-   "goalsFor": 32,
-   "goalsAgainst": 47,
-   "goalDiff": -15,
+   "lost": 5,
+   "goalsFor": 38,
+   "goalsAgainst": 56,
+   "goalDiff": -18,
    "points": 7,
    "markers": []
   },
@@ -2045,7 +2045,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57344",
@@ -2069,31 +2069,7 @@
      "teamId": "1562"
     }
    ],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
-  },
-  {
-   "id": "57303",
-   "siteId": 57303,
-   "homeTeamId": "19",
-   "awayTeamId": "1493",
-   "kickoff": "2026-11-18T18:00:00.000Z",
-   "venue": "Bogdánfy_2",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
-   "scorers": [
-    {
-     "name": "Biró Dávid Márton",
-     "goals": 1,
-     "teamId": "19"
-    },
-    {
-     "name": "Karancs Iván",
-     "goals": 1,
-     "teamId": "19"
-    }
-   ],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57315",
@@ -2132,7 +2108,31 @@
      "teamId": "1526"
     }
    ],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+  },
+  {
+   "id": "57303",
+   "siteId": 57303,
+   "homeTeamId": "19",
+   "awayTeamId": "1493",
+   "kickoff": "2026-11-18T18:00:00.000Z",
+   "venue": "Bogdánfy_2",
+   "homeGoals": null,
+   "awayGoals": null,
+   "status": "unknown",
+   "scorers": [
+    {
+     "name": "Biró Dávid Márton",
+     "goals": 1,
+     "teamId": "19"
+    },
+    {
+     "name": "Karancs Iván",
+     "goals": 1,
+     "teamId": "19"
+    }
+   ],
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57345",
@@ -2145,7 +2145,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57412",
@@ -2247,10 +2247,30 @@
    "awayTeamId": "1526",
    "kickoff": "2026-11-24T19:00:00.000Z",
    "venue": "Bogdánfy_2",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 6,
+   "awayGoals": 9,
+   "status": "played",
    "scorers": [
+    {
+     "name": "Bodroghy Kristóf",
+     "goals": 3,
+     "teamId": "151"
+    },
+    {
+     "name": "Dobos-Kovács Mihály",
+     "goals": 1,
+     "teamId": "151"
+    },
+    {
+     "name": "Kardos Gábor",
+     "goals": 1,
+     "teamId": "151"
+    },
+    {
+     "name": "Daniel Soós",
+     "goals": 1,
+     "teamId": "151"
+    },
     {
      "name": "Andor Levente",
      "goals": 3,
@@ -2282,7 +2302,7 @@
      "teamId": "1526"
     }
    ],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57392",
@@ -2295,7 +2315,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "x-55-L5A-202611272000-csokihiany-keverton-klub",
@@ -2466,16 +2486,6 @@
    "matchesPlayed": 10
   },
   {
-   "teamId": "19",
-   "bestLeague": "L2A",
-   "topScorer": {
-    "name": "Karancs Iván",
-    "goals": 4
-   },
-   "seasonsCount": 37,
-   "matchesPlayed": 8
-  },
-  {
    "teamId": "1526",
    "bestLeague": "L5A",
    "topScorer": {
@@ -2483,6 +2493,16 @@
     "goals": 5
    },
    "seasonsCount": 2,
+   "matchesPlayed": 9
+  },
+  {
+   "teamId": "19",
+   "bestLeague": "L2A",
+   "topScorer": {
+    "name": "Karancs Iván",
+    "goals": 4
+   },
+   "seasonsCount": 37,
    "matchesPlayed": 8
   },
   {
@@ -2543,7 +2563,7 @@
     "goals": 10
    },
    "seasonsCount": 18,
-   "matchesPlayed": 7
+   "matchesPlayed": 8
   },
   {
    "teamId": "1562",

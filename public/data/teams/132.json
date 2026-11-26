@@ -14,13 +14,13 @@
    "teamsInLeague": 12,
    "marker": "promotion",
    "totals": {
-    "played": 6,
-    "won": 6,
+    "played": 7,
+    "won": 7,
     "drawn": 0,
     "lost": 0,
-    "goalsFor": 38,
-    "goalsAgainst": 17,
-    "points": 18
+    "goalsFor": 43,
+    "goalsAgainst": 21,
+    "points": 21
    }
   }
  ],
@@ -102,6 +102,19 @@
     "goalsAgainst": 2,
     "points": 3
    }
+  },
+  {
+   "teamId": "1509",
+   "name": "PINATINAIKOS",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 4,
+    "points": 3
+   }
   }
  ],
  "records": {
@@ -127,7 +140,7 @@
  },
  "streaks": {
   "win": {
-   "length": 6,
+   "length": 7,
    "from": {
     "seasonId": 55,
     "league": "L5C",
@@ -140,15 +153,15 @@
    "to": {
     "seasonId": 55,
     "league": "L5C",
-    "matchId": "57162",
-    "kickoff": "2026-11-04T20:00:00.000Z",
-    "opponentId": "1473",
-    "goalsFor": 4,
-    "goalsAgainst": 2
+    "matchId": "57374",
+    "kickoff": "2026-11-25T21:00:00.000Z",
+    "opponentId": "1509",
+    "goalsFor": 5,
+    "goalsAgainst": 4
    }
   },
   "unbeaten": {
-   "length": 6,
+   "length": 7,
    "from": {
     "seasonId": 55,
     "league": "L5C",
@@ -161,11 +174,11 @@
    "to": {
     "seasonId": 55,
     "league": "L5C",
-    "matchId": "57162",
-    "kickoff": "2026-11-04T20:00:00.000Z",
-    "opponentId": "1473",
-    "goalsFor": 4,
-    "goalsAgainst": 2
+    "matchId": "57374",
+    "kickoff": "2026-11-25T21:00:00.000Z",
+    "opponentId": "1509",
+    "goalsFor": 5,
+    "goalsAgainst": 4
    }
   },
   "loss": null
@@ -173,13 +186,13 @@
  "cleanSheets": 1,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 6,
-  "coveredMatches": 6,
+  "playedMatches": 7,
+  "coveredMatches": 7,
   "rows": [
    {
     "name": "Könye Nátán",
-    "goals": 9,
-    "matches": 6,
+    "goals": 11,
+    "matches": 7,
     "hatTricks": 1
    },
    {
@@ -201,15 +214,15 @@
     "hatTricks": 0
    },
    {
-    "name": "Kelemen Ábel",
-    "goals": 4,
-    "matches": 2,
+    "name": "Varga Bálint",
+    "goals": 5,
+    "matches": 4,
     "hatTricks": 0
    },
    {
-    "name": "Varga Bálint",
+    "name": "Kelemen Ábel",
     "goals": 4,
-    "matches": 3,
+    "matches": 2,
     "hatTricks": 0
    },
    {
@@ -219,7 +232,19 @@
     "hatTricks": 0
    },
    {
+    "name": "Fátyol Balázs",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
     "name": "Máté Tabajdi",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Száller Dániel",
     "goals": 1,
     "matches": 1,
     "hatTricks": 0

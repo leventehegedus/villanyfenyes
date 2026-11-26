@@ -197,7 +197,8 @@
    "points": 7,
    "markers": [
     "lossStreak",
-    "fewConceded"
+    "fewConceded",
+    "relegation"
    ]
   },
   {
@@ -212,7 +213,8 @@
    "goalDiff": -3,
    "points": 7,
    "markers": [
-    "fewConceded"
+    "fewConceded",
+    "relegation"
    ]
   },
   {
@@ -1945,7 +1947,7 @@
      "teamId": "47"
     }
    ],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57244",
@@ -1984,7 +1986,7 @@
      "teamId": "153"
     }
    ],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57267",
@@ -2071,7 +2073,7 @@
      "teamId": "131"
     }
    ],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57346",
@@ -2176,8 +2178,19 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "scorers": [
+    {
+     "name": "Nagy Kristóf",
+     "goals": 3,
+     "teamId": "147"
+    },
+    {
+     "name": "Nagy Gábor",
+     "goals": 2,
+     "teamId": "147"
+    }
+   ],
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "x-55-L4C-202611261700-team-miller-sorfoci",
@@ -2397,7 +2410,7 @@
    "teamId": "1504",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Purosz Leonidasz",
+    "name": "Pothóczki Ábel",
     "goals": 5
    },
    "seasonsCount": 3,

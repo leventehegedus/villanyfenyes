@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 8,
+    "played": 9,
     "won": 4,
     "drawn": 0,
-    "lost": 4,
-    "goalsFor": 26,
-    "goalsAgainst": 24,
+    "lost": 5,
+    "goalsFor": 27,
+    "goalsAgainst": 30,
     "points": 12
    }
   }
@@ -128,6 +128,19 @@
     "goalsAgainst": 5,
     "points": 0
    }
+  },
+  {
+   "teamId": "1521",
+   "name": "JSE",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 6,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -143,11 +156,11 @@
   "biggestDefeat": {
    "seasonId": 55,
    "league": "L4A",
-   "matchId": "56903",
-   "kickoff": "2026-10-05T19:00:00.000Z",
-   "opponentId": "152",
-   "goalsFor": 2,
-   "goalsAgainst": 5
+   "matchId": "57360",
+   "kickoff": "2026-11-25T20:00:00.000Z",
+   "opponentId": "1521",
+   "goalsFor": 1,
+   "goalsAgainst": 6
   },
   "highestScoring": {
    "seasonId": 55,
@@ -203,7 +216,7 @@
    }
   },
   "loss": {
-   "length": 4,
+   "length": 5,
    "from": {
     "seasonId": 55,
     "league": "L4A",
@@ -216,24 +229,24 @@
    "to": {
     "seasonId": 55,
     "league": "L4A",
-    "matchId": "57173",
-    "kickoff": "2026-11-04T19:00:00.000Z",
-    "opponentId": "126",
-    "goalsFor": 3,
-    "goalsAgainst": 5
+    "matchId": "57360",
+    "kickoff": "2026-11-25T20:00:00.000Z",
+    "opponentId": "1521",
+    "goalsFor": 1,
+    "goalsAgainst": 6
    }
   }
  },
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 8,
-  "coveredMatches": 8,
+  "playedMatches": 9,
+  "coveredMatches": 9,
   "rows": [
    {
     "name": "Fazakas Csaba",
-    "goals": 4,
-    "matches": 3,
+    "goals": 5,
+    "matches": 4,
     "hatTricks": 0
    },
    {

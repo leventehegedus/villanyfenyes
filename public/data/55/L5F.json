@@ -1432,7 +1432,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57282",
@@ -1445,7 +1445,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57227",
@@ -1484,7 +1484,7 @@
      "teamId": "1568"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57312",
@@ -1497,7 +1497,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57308",
@@ -1510,7 +1510,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57287",
@@ -1562,7 +1562,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57377",
@@ -1625,7 +1625,7 @@
      "teamId": "1549"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "57362",
@@ -1637,8 +1637,29 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "scorers": [
+    {
+     "name": "Ignátkó Bence",
+     "goals": 2,
+     "teamId": "55"
+    },
+    {
+     "name": "Fábián Hunor",
+     "goals": 1,
+     "teamId": "55"
+    },
+    {
+     "name": "Dániel Jaczkó",
+     "goals": 1,
+     "teamId": "55"
+    },
+    {
+     "name": "Gaskó Simon",
+     "goals": 1,
+     "teamId": "55"
+    }
+   ],
+   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
    "id": "x-55-L5F-202611262000-big-bulls-fc-tottenham-hatsor",
@@ -1851,7 +1872,7 @@
    "teamId": "1552",
    "bestLeague": "L5F",
    "topScorer": {
-    "name": "Varga Bálint",
+    "name": "Kocsis Mátyás",
     "goals": 4
    },
    "seasonsCount": 1,
