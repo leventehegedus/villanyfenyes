@@ -25,6 +25,11 @@
    "name": "SÜSÜ FC"
   },
   {
+   "id": "133",
+   "siteId": 133,
+   "name": "Crooks"
+  },
+  {
    "id": "41",
    "siteId": 41,
    "name": "Sonkástojás"
@@ -43,11 +48,6 @@
    "id": "124",
    "siteId": 124,
    "name": "Esélyetek SE"
-  },
-  {
-   "id": "133",
-   "siteId": 133,
-   "name": "Crooks"
   },
   {
    "id": "118",
@@ -133,6 +133,21 @@
   },
   {
    "position": 5,
+   "teamId": "133",
+   "played": 9,
+   "won": 4,
+   "drawn": 0,
+   "lost": 5,
+   "goalsFor": 31,
+   "goalsAgainst": 42,
+   "goalDiff": -11,
+   "points": 12,
+   "markers": [
+    "winStreak"
+   ]
+  },
+  {
+   "position": 6,
    "teamId": "41",
    "played": 7,
    "won": 3,
@@ -145,20 +160,23 @@
    "markers": []
   },
   {
-   "position": 6,
+   "position": 7,
    "teamId": "202",
-   "played": 8,
+   "played": 9,
    "won": 3,
    "drawn": 1,
-   "lost": 4,
-   "goalsFor": 44,
-   "goalsAgainst": 51,
-   "goalDiff": -7,
+   "lost": 5,
+   "goalsFor": 47,
+   "goalsAgainst": 56,
+   "goalDiff": -9,
    "points": 10,
-   "markers": []
+   "markers": [
+    "lossStreak",
+    "manyGoals"
+   ]
   },
   {
-   "position": 7,
+   "position": 8,
    "teamId": "77",
    "played": 9,
    "won": 3,
@@ -171,7 +189,7 @@
    "markers": []
   },
   {
-   "position": 8,
+   "position": 9,
    "teamId": "124",
    "played": 9,
    "won": 2,
@@ -180,19 +198,6 @@
    "goalsFor": 41,
    "goalsAgainst": 43,
    "goalDiff": -2,
-   "points": 9,
-   "markers": []
-  },
-  {
-   "position": 9,
-   "teamId": "133",
-   "played": 8,
-   "won": 3,
-   "drawn": 0,
-   "lost": 5,
-   "goalsFor": 26,
-   "goalsAgainst": 39,
-   "goalDiff": -13,
    "points": 9,
    "markers": []
   },
@@ -1818,7 +1823,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57656",
@@ -1867,7 +1872,7 @@
      "teamId": "219"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57325",
@@ -1896,7 +1901,7 @@
      "teamId": "230"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57296",
@@ -2003,7 +2008,7 @@
      "teamId": "219"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57403",
@@ -2022,7 +2027,7 @@
      "teamId": "41"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57383",
@@ -2031,11 +2036,17 @@
    "awayTeamId": "202",
    "kickoff": "2026-11-24T18:00:00.000Z",
    "venue": "Bogdánfy_2",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "homeGoals": 5,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Szó Bálint",
+     "goals": 3,
+     "teamId": "202"
+    }
+   ],
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "x-55-L3C-202611261700-kozhely-fc-ejakulazio",
@@ -2262,6 +2273,16 @@
    "matchesPlayed": 6
   },
   {
+   "teamId": "133",
+   "bestLeague": "L3A",
+   "topScorer": {
+    "name": "Petrik Áron",
+    "goals": 7
+   },
+   "seasonsCount": 11,
+   "matchesPlayed": 9
+  },
+  {
    "teamId": "41",
    "bestLeague": "L1",
    "topScorer": {
@@ -2279,7 +2300,7 @@
     "goals": 9
    },
    "seasonsCount": 25,
-   "matchesPlayed": 8
+   "matchesPlayed": 9
   },
   {
    "teamId": "77",
@@ -2300,16 +2321,6 @@
    },
    "seasonsCount": 24,
    "matchesPlayed": 9
-  },
-  {
-   "teamId": "133",
-   "bestLeague": "L3A",
-   "topScorer": {
-    "name": "Petrik Áron",
-    "goals": 7
-   },
-   "seasonsCount": 11,
-   "matchesPlayed": 8
   },
   {
    "teamId": "118",

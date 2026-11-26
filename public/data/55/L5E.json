@@ -1855,7 +1855,7 @@
      "teamId": "1571"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57336",
@@ -1879,7 +1879,7 @@
      "teamId": "1486"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57317",
@@ -1892,7 +1892,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57343",
@@ -2009,7 +2009,7 @@
      "teamId": "21"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57364",
@@ -2043,7 +2043,7 @@
      "teamId": "1476"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57410",
@@ -2072,7 +2072,7 @@
      "teamId": "1561"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "x-55-L5E-202611301700-los-galacticos-oso-fc",
@@ -2325,7 +2325,7 @@
    "teamId": "1571",
    "bestLeague": "L5E",
    "topScorer": {
-    "name": "Benczik-Hrncsár Áron",
+    "name": "Németh Keve Marcell",
     "goals": 2
    },
    "seasonsCount": 1,

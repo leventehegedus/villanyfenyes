@@ -87,15 +87,16 @@
   {
    "position": 2,
    "teamId": "1567",
-   "played": 8,
-   "won": 5,
+   "played": 9,
+   "won": 6,
    "drawn": 0,
    "lost": 3,
-   "goalsFor": 57,
-   "goalsAgainst": 37,
-   "goalDiff": 20,
-   "points": 15,
+   "goalsFor": 62,
+   "goalsAgainst": 39,
+   "goalDiff": 23,
+   "points": 18,
    "markers": [
+    "winStreak",
     "manyGoals",
     "promotion"
    ]
@@ -227,13 +228,13 @@
   {
    "position": 12,
    "teamId": "1572",
-   "played": 7,
+   "played": 8,
    "won": 0,
    "drawn": 3,
-   "lost": 4,
-   "goalsFor": 28,
-   "goalsAgainst": 38,
-   "goalDiff": -10,
+   "lost": 5,
+   "goalsFor": 30,
+   "goalsAgainst": 43,
+   "goalDiff": -13,
    "points": 3,
    "markers": []
   }
@@ -2130,7 +2131,7 @@
      "teamId": "1469"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57619",
@@ -2164,7 +2165,7 @@
      "teamId": "1518"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57326",
@@ -2203,7 +2204,7 @@
      "teamId": "1534"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57339",
@@ -2212,9 +2213,9 @@
    "awayTeamId": "1572",
    "kickoff": "2026-11-20T18:00:00.000Z",
    "venue": "Bogdánfy_3",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "status": "played",
    "scorers": [
     {
      "name": "Máté Bajomi",
@@ -2230,9 +2231,19 @@
      "name": "Kopasz Gergő",
      "goals": 1,
      "teamId": "1567"
+    },
+    {
+     "name": "Szőcs András",
+     "goals": 1,
+     "teamId": "1572"
+    },
+    {
+     "name": "Tolnai Márton",
+     "goals": 1,
+     "teamId": "1572"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "56905",
@@ -2281,7 +2292,7 @@
      "teamId": "1488"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57415",
@@ -2296,31 +2307,31 @@
    "scorers": [
     {
      "name": "Adorján Domonkos",
-     "teamId": "1518",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1518"
     },
     {
      "name": "Unyi Dániel",
-     "teamId": "1534",
-     "goals": 4
+     "goals": 4,
+     "teamId": "1534"
     },
     {
      "name": "Gajzágó Márk",
-     "teamId": "1534",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1534"
     },
     {
      "name": "Szemán Balázs",
-     "teamId": "1534",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1534"
     },
     {
      "name": "Horváth Dominik",
-     "teamId": "1534",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1534"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57363",
@@ -2333,7 +2344,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57373",
@@ -2345,8 +2356,24 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "scorers": [
+    {
+     "name": "Petrik Solt András",
+     "goals": 2,
+     "teamId": "1572"
+    },
+    {
+     "name": "Krassóy Nándor",
+     "goals": 2,
+     "teamId": "1572"
+    },
+    {
+     "name": "Szőcs András",
+     "goals": 1,
+     "teamId": "1572"
+    }
+   ],
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "x-55-L5G-202611271700-footbalekok-gugugaga-gang",
@@ -2537,7 +2564,7 @@
     "goals": 5
    },
    "seasonsCount": 1,
-   "matchesPlayed": 8
+   "matchesPlayed": 9
   },
   {
    "teamId": "1469",
@@ -2563,7 +2590,7 @@
    "teamId": "212",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Hámori Miklós",
+    "name": "Németh Norbert",
     "goals": 4
    },
    "seasonsCount": 8,
@@ -2603,7 +2630,7 @@
    "teamId": "1518",
    "bestLeague": "L5G",
    "topScorer": {
-    "name": "Hegedűs András",
+    "name": "Székács Kristóf",
     "goals": 4
    },
    "seasonsCount": 2,
@@ -2633,11 +2660,11 @@
    "teamId": "1572",
    "bestLeague": "L5G",
    "topScorer": {
-    "name": "Sabáli Soma",
+    "name": "Nádudvari Patrik",
     "goals": 2
    },
    "seasonsCount": 1,
-   "matchesPlayed": 7
+   "matchesPlayed": 8
   }
  ]
 }

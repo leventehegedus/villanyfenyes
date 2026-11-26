@@ -1811,7 +1811,7 @@
      "teamId": "1556"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57331",
@@ -1840,7 +1840,7 @@
      "teamId": "232"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57298",
@@ -1855,28 +1855,28 @@
    "scorers": [
     {
      "name": "Szelényi Dániel",
-     "goals": 4,
-     "teamId": "91"
+     "teamId": "91",
+     "goals": 4
     },
     {
      "name": "Nagy Mihály Gyula",
-     "goals": 8,
-     "teamId": "1566"
+     "teamId": "1566",
+     "goals": 8
     },
     {
      "name": "Daróczi Donát",
-     "goals": 5,
-     "teamId": "1566"
+     "teamId": "1566",
+     "goals": 5
     },
     {
      "name": "Fodor Kornél",
-     "goals": 2,
-     "teamId": "1566"
+     "teamId": "1566",
+     "goals": 2
     },
     {
      "name": "Jordán Bertalan",
-     "goals": 2,
-     "teamId": "1566"
+     "teamId": "1566",
+     "goals": 2
     }
    ],
    "detailFetchedAt": "2026-11-25T19:15:43.532Z"
@@ -1928,7 +1928,7 @@
      "teamId": "1556"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57310",
@@ -1967,7 +1967,7 @@
      "teamId": "227"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57358",
@@ -1982,33 +1982,33 @@
    "scorers": [
     {
      "name": "Fodor Kornél",
-     "goals": 3,
-     "teamId": "1566"
+     "teamId": "1566",
+     "goals": 3
     },
     {
      "name": "Nagy Mihály Gyula",
-     "goals": 3,
-     "teamId": "1566"
+     "teamId": "1566",
+     "goals": 3
     },
     {
      "name": "Daróczi Donát",
-     "goals": 1,
-     "teamId": "1566"
+     "teamId": "1566",
+     "goals": 1
     },
     {
      "name": "Berzsák Bulcsú",
-     "goals": 1,
-     "teamId": "1577"
+     "teamId": "1577",
+     "goals": 1
     },
     {
      "name": "Antalffy-Zsiros Attila",
-     "goals": 1,
-     "teamId": "1577"
+     "teamId": "1577",
+     "goals": 1
     },
     {
      "name": "Koller Aron",
-     "goals": 1,
-     "teamId": "1577"
+     "teamId": "1577",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-25T19:15:43.532Z"
@@ -2023,21 +2023,47 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "scorers": [
+    {
+     "name": "Ferenczi Csongor",
+     "goals": 2,
+     "teamId": "1553"
+    },
+    {
+     "name": "Ghiczy Gergő",
+     "goals": 2,
+     "teamId": "1553"
+    },
+    {
+     "name": "Bagyinszki Dániel",
+     "goals": 1,
+     "teamId": "1553"
+    },
+    {
+     "name": "Filipánics András",
+     "goals": 1,
+     "teamId": "1553"
+    },
+    {
+     "name": "Gyenes Márton Bendegúz",
+     "goals": 1,
+     "teamId": "1553"
+    }
+   ],
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
-   "id": "x-55-L5H-202611252000-villanyfenyes-szepseg-das-originals-moricz-all-stars",
-   "siteId": null,
+   "id": "57375",
+   "siteId": 57375,
    "homeTeamId": "227",
    "awayTeamId": "1563",
    "kickoff": "2026-11-25T20:00:00.000Z",
    "venue": "Bogdánfy_2",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "x-55-L5H-202611261800-csimpanzini-bananini-fc-felvideki-brazilok",
@@ -2277,7 +2303,7 @@
    "teamId": "35",
    "bestLeague": "L3C",
    "topScorer": {
-    "name": "Mórocz Bence",
+    "name": "Kész Roland",
     "goals": 6
    },
    "seasonsCount": 6,
@@ -2307,7 +2333,7 @@
    "teamId": "232",
    "bestLeague": "L5E",
    "topScorer": {
-    "name": "Krahling Illés",
+    "name": "Oláh Boldizsár",
     "goals": 4
    },
    "seasonsCount": 4,
@@ -2317,7 +2343,7 @@
    "teamId": "225",
    "bestLeague": "L5C",
    "topScorer": {
-    "name": "Lenkei Botond",
+    "name": "Komáromy Áron",
     "goals": 2
    },
    "seasonsCount": 4,

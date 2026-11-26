@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 0,
     "drawn": 3,
-    "lost": 4,
-    "goalsFor": 28,
-    "goalsAgainst": 38,
+    "lost": 5,
+    "goalsFor": 30,
+    "goalsAgainst": 43,
     "points": 3
    }
   }
@@ -115,6 +115,19 @@
     "goalsAgainst": 5,
     "points": 1
    }
+  },
+  {
+   "teamId": "1567",
+   "name": "Taktaharkányi Ifjúsági Fúvószenekar U-40",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 5,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -186,17 +199,17 @@
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 7,
-  "coveredMatches": 7,
+  "playedMatches": 8,
+  "coveredMatches": 8,
   "rows": [
    {
-    "name": "Nádudvari Patrik",
-    "goals": 4,
-    "matches": 3,
+    "name": "Szőcs András",
+    "goals": 5,
+    "matches": 4,
     "hatTricks": 0
    },
    {
-    "name": "Szőcs András",
+    "name": "Nádudvari Patrik",
     "goals": 4,
     "matches": 3,
     "hatTricks": 0
@@ -233,6 +246,12 @@
    },
    {
     "name": "Hodosi Csaba Lajos",
+    "goals": 1,
+    "matches": 1,
+    "hatTricks": 0
+   },
+   {
+    "name": "Tolnai Márton",
     "goals": 1,
     "matches": 1,
     "hatTricks": 0

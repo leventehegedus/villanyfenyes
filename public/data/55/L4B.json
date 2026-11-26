@@ -1967,7 +1967,7 @@
      "teamId": "1507"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57017",
@@ -2050,7 +2050,7 @@
      "teamId": "54"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57350",
@@ -2124,29 +2124,29 @@
    "scorers": [
     {
      "name": "Szöllősi Bálint",
-     "goals": 1,
-     "teamId": "80"
+     "teamId": "80",
+     "goals": 1
     },
     {
      "name": "András Halasi",
-     "goals": 4,
-     "teamId": "141"
+     "teamId": "141",
+     "goals": 4
     }
    ],
    "detailFetchedAt": "2026-11-25T19:15:43.532Z"
   },
   {
-   "id": "x-55-L4B-202611252000-szig-stars-haver-fc",
-   "siteId": null,
+   "id": "57396",
+   "siteId": 57396,
    "homeTeamId": "80",
    "awayTeamId": "1508",
    "kickoff": "2026-11-25T20:00:00.000Z",
    "venue": "Bogdánfy_3",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "x-55-L4B-202611262000-whiskey-tango-foxtrot-gyros-fc",

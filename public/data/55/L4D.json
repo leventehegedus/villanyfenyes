@@ -2003,7 +2003,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57316",
@@ -2037,7 +2037,7 @@
      "teamId": "1537"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "56572",
@@ -2076,7 +2076,7 @@
      "teamId": "1530"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57289",
@@ -2125,7 +2125,7 @@
      "teamId": "1530"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57330",
@@ -2169,7 +2169,7 @@
      "teamId": "96"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57319",
@@ -2233,7 +2233,7 @@
      "teamId": "189"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57421",
@@ -2267,11 +2267,11 @@
      "teamId": "50"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
-   "id": "x-55-L4D-202611251800-hoferovonat-a-focicsapat",
-   "siteId": null,
+   "id": "57359",
+   "siteId": 57359,
    "homeTeamId": "33",
    "awayTeamId": "1528",
    "kickoff": "2026-11-25T18:00:00.000Z",
@@ -2279,8 +2279,19 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": null,
-   "detailFetchedAt": null
+   "scorers": [
+    {
+     "name": "Dancsik Barnabás",
+     "goals": 4,
+     "teamId": "1528"
+    },
+    {
+     "name": "Nagy Levente",
+     "goals": 1,
+     "teamId": "1528"
+    }
+   ],
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "x-55-L4D-202611262000-polak-kiddos-fleo-rc",
@@ -2526,7 +2537,7 @@
    "teamId": "221",
    "bestLeague": "L4D",
    "topScorer": {
-    "name": "Bangó-Fi Domonkos",
+    "name": "Marton Lázár",
     "goals": 6
    },
    "seasonsCount": 4,
@@ -2586,7 +2597,7 @@
    "teamId": "50",
    "bestLeague": "L2A",
    "topScorer": {
-    "name": "Bakó Dávid",
+    "name": "Kálóczi István",
     "goals": 7
    },
    "seasonsCount": 7,
@@ -2606,7 +2617,7 @@
    "teamId": "1537",
    "bestLeague": "L4D",
    "topScorer": {
-    "name": "Lukács Gergő",
+    "name": "Szilágyi Bálint Zsolt",
     "goals": 5
    },
    "seasonsCount": 2,

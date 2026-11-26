@@ -2068,7 +2068,7 @@
      "teamId": "240"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57335",
@@ -2112,7 +2112,7 @@
      "teamId": "241"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57294",
@@ -2146,7 +2146,7 @@
      "teamId": "181"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57292",
@@ -2205,23 +2205,23 @@
    "scorers": [
     {
      "name": "Hajnal Ábris",
-     "goals": 1,
-     "teamId": "1531"
+     "teamId": "1531",
+     "goals": 1
     },
     {
      "name": "István Pásztor",
-     "goals": 1,
-     "teamId": "1531"
+     "teamId": "1531",
+     "goals": 1
     },
     {
      "name": "Pálffy Tamás",
-     "goals": 7,
-     "teamId": "1544"
+     "teamId": "1544",
+     "goals": 7
     },
     {
      "name": "Pados Szilárd Marcell",
-     "goals": 2,
-     "teamId": "1544"
+     "teamId": "1544",
+     "goals": 2
     }
    ],
    "detailFetchedAt": "2026-11-25T19:15:43.532Z"
@@ -2236,21 +2236,63 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "scorers": [
+    {
+     "name": "Kelemen Ábel",
+     "goals": 4,
+     "teamId": "132"
+    },
+    {
+     "name": "Schneider Dávid",
+     "goals": 3,
+     "teamId": "132"
+    },
+    {
+     "name": "Könye Nátán",
+     "goals": 2,
+     "teamId": "132"
+    },
+    {
+     "name": "Czika Zoltán",
+     "goals": 1,
+     "teamId": "132"
+    }
+   ],
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
-   "id": "x-55-L5C-202611252100-ment-melle-is-pinatinaikos",
-   "siteId": null,
+   "id": "57374",
+   "siteId": 57374,
    "homeTeamId": "132",
    "awayTeamId": "1509",
    "kickoff": "2026-11-25T21:00:00.000Z",
    "venue": "Bogdánfy_3",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [
+    {
+     "name": "Könye Nátán",
+     "goals": 2,
+     "teamId": "132"
+    },
+    {
+     "name": "Varga Bálint",
+     "goals": 1,
+     "teamId": "132"
+    },
+    {
+     "name": "Fátyol Balázs",
+     "goals": 1,
+     "teamId": "132"
+    },
+    {
+     "name": "Száller Dániel",
+     "goals": 1,
+     "teamId": "132"
+    }
+   ],
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "x-55-L5C-202611261700-brazilok-szopokas-poverad",
@@ -2480,7 +2522,7 @@
    "teamId": "241",
    "bestLeague": "L5A",
    "topScorer": {
-    "name": "Péntek Péter",
+    "name": "Elekes Dániel",
     "goals": 6
    },
    "seasonsCount": 3,
@@ -2510,7 +2552,7 @@
    "teamId": "1565",
    "bestLeague": "L5C",
    "topScorer": {
-    "name": "Maradi Bene",
+    "name": "Berhes Istvan Botond",
     "goals": 4
    },
    "seasonsCount": 1,
@@ -2540,7 +2582,7 @@
    "teamId": "75",
    "bestLeague": "L5A",
    "topScorer": {
-    "name": "Barnabás Ilosvai",
+    "name": "Paksi Ábel",
     "goals": 3
    },
    "seasonsCount": 3,

@@ -1915,7 +1915,7 @@
      "teamId": "43"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57283",
@@ -2003,7 +2003,7 @@
      "teamId": "72"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57311",
@@ -2066,7 +2066,7 @@
      "teamId": "27"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "56640",
@@ -2120,7 +2120,7 @@
      "teamId": "146"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57328",
@@ -2139,7 +2139,7 @@
      "teamId": "98"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57357",
@@ -2154,43 +2154,43 @@
    "scorers": [
     {
      "name": "Lengyel Attila",
-     "goals": 2,
-     "teamId": "72"
+     "teamId": "72",
+     "goals": 2
     },
     {
      "name": "Schütz Máté",
-     "goals": 1,
-     "teamId": "72"
+     "teamId": "72",
+     "goals": 1
     },
     {
      "name": "Stirling Balázs",
-     "goals": 1,
-     "teamId": "72"
+     "teamId": "72",
+     "goals": 1
     },
     {
      "name": "Balázs Ádám Makk",
-     "goals": 1,
-     "teamId": "72"
+     "teamId": "72",
+     "goals": 1
     },
     {
      "name": "Mándi Ferenc",
-     "goals": 3,
-     "teamId": "146"
+     "teamId": "146",
+     "goals": 3
     },
     {
      "name": "Alács Mihály",
-     "goals": 2,
-     "teamId": "146"
+     "teamId": "146",
+     "goals": 2
     },
     {
      "name": "Glück Péter",
-     "goals": 2,
-     "teamId": "146"
+     "teamId": "146",
+     "goals": 2
     },
     {
      "name": "Szikszay András Viktor",
-     "goals": 1,
-     "teamId": "146"
+     "teamId": "146",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-25T19:15:43.532Z"
@@ -2222,7 +2222,7 @@
      "teamId": "233"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57389",
@@ -2266,7 +2266,7 @@
      "teamId": "98"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57399",
@@ -2279,7 +2279,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "x-55-L3B-202611261700-minden-heten-haboru-lokomotiv-akademia",

@@ -1218,20 +1218,20 @@
    "goalsFor": 34
   },
   {
+   "teamId": "133",
+   "name": "Crooks",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 4,
+   "goalsFor": 31
+  },
+  {
    "teamId": "202",
    "name": "Szupermegaistencsászárüber",
    "titles": 0,
    "l1Seasons": 0,
    "won": 3,
-   "goalsFor": 44
-  },
-  {
-   "teamId": "133",
-   "name": "Crooks",
-   "titles": 0,
-   "l1Seasons": 0,
-   "won": 3,
-   "goalsFor": 26
+   "goalsFor": 47
   },
   {
    "teamId": "118",
@@ -2286,8 +2286,8 @@
    "name": "Taktaharkányi Ifjúsági Fúvószenekar U-40",
    "titles": 0,
    "l1Seasons": 0,
-   "won": 5,
-   "goalsFor": 57
+   "won": 6,
+   "goalsFor": 62
   },
   {
    "teamId": "1469",
@@ -2367,7 +2367,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 0,
-   "goalsFor": 28
+   "goalsFor": 30
   },
   {
    "teamId": "1566",

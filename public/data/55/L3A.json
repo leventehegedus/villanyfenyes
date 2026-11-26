@@ -1999,7 +1999,7 @@
      "teamId": "1479"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57324",
@@ -2038,7 +2038,7 @@
      "teamId": "26"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57288",
@@ -2092,7 +2092,7 @@
      "teamId": "198"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57627",
@@ -2161,8 +2161,8 @@
    "scorers": [
     {
      "name": "Vizkeleti Alex",
-     "goals": 5,
-     "teamId": "1480"
+     "teamId": "1480",
+     "goals": 5
     }
    ],
    "detailFetchedAt": "2026-11-25T19:15:43.532Z"
@@ -2178,7 +2178,7 @@
    "awayGoals": 2,
    "status": "played",
    "scorers": [],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57365",
@@ -2222,7 +2222,7 @@
      "teamId": "198"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57361",
@@ -2261,7 +2261,7 @@
      "teamId": "161"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "x-55-L3A-202611301800-berug-fc-penisz-land",
@@ -2468,8 +2468,8 @@
    "teamId": "60",
    "bestLeague": null,
    "topScorer": {
-    "name": "Molnár Tamás",
-    "goals": 4
+    "name": "Krányecz Csaba",
+    "goals": 5
    },
    "seasonsCount": 38,
    "matchesPlayed": 8
@@ -2498,7 +2498,7 @@
    "teamId": "198",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Stift Máté Kálmán",
+    "name": "Tihanyi Márton",
     "goals": 5
    },
    "seasonsCount": 11,

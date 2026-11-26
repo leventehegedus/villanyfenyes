@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L3C",
    "finished": false,
-   "position": 9,
+   "position": 5,
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 8,
-    "won": 3,
+    "played": 9,
+    "won": 4,
     "drawn": 0,
     "lost": 5,
-    "goalsFor": 26,
-    "goalsAgainst": 39,
-    "points": 9
+    "goalsFor": 31,
+    "goalsAgainst": 42,
+    "points": 12
    }
   }
  ],
@@ -128,6 +128,19 @@
     "goalsAgainst": 3,
     "points": 3
    }
+  },
+  {
+   "teamId": "202",
+   "name": "Szupermegaistencsászárüber",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 3,
+    "points": 3
+   }
   }
  ],
  "records": {
@@ -161,7 +174,7 @@
  },
  "streaks": {
   "win": {
-   "length": 1,
+   "length": 2,
    "from": {
     "seasonId": 55,
     "league": "L3C",
@@ -174,15 +187,15 @@
    "to": {
     "seasonId": 55,
     "league": "L3C",
-    "matchId": "57217",
-    "kickoff": "2026-11-10T20:00:00.000Z",
-    "opponentId": "159",
-    "goalsFor": 6,
+    "matchId": "57383",
+    "kickoff": "2026-11-24T18:00:00.000Z",
+    "opponentId": "202",
+    "goalsFor": 5,
     "goalsAgainst": 3
    }
   },
   "unbeaten": {
-   "length": 1,
+   "length": 2,
    "from": {
     "seasonId": 55,
     "league": "L3C",
@@ -195,10 +208,10 @@
    "to": {
     "seasonId": 55,
     "league": "L3C",
-    "matchId": "57217",
-    "kickoff": "2026-11-10T20:00:00.000Z",
-    "opponentId": "159",
-    "goalsFor": 6,
+    "matchId": "57383",
+    "kickoff": "2026-11-24T18:00:00.000Z",
+    "opponentId": "202",
+    "goalsFor": 5,
     "goalsAgainst": 3
    }
   },
@@ -227,8 +240,8 @@
  "cleanSheets": 0,
  "failedToScore": 2,
  "scorers": {
-  "playedMatches": 8,
-  "coveredMatches": 8,
+  "playedMatches": 9,
+  "coveredMatches": 9,
   "rows": []
  }
 }

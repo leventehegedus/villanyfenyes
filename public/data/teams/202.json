@@ -10,16 +10,16 @@
    "label": "2026 - Ősz",
    "league": "L3C",
    "finished": false,
-   "position": 6,
+   "position": 7,
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 8,
+    "played": 9,
     "won": 3,
     "drawn": 1,
-    "lost": 4,
-    "goalsFor": 44,
-    "goalsAgainst": 51,
+    "lost": 5,
+    "goalsFor": 47,
+    "goalsAgainst": 56,
     "points": 10
    }
   }
@@ -128,6 +128,19 @@
     "goalsAgainst": 14,
     "points": 0
    }
+  },
+  {
+   "teamId": "133",
+   "name": "Crooks",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 5,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -207,34 +220,34 @@
    "from": {
     "seasonId": 55,
     "league": "L3C",
-    "matchId": "56933",
-    "kickoff": "2026-10-06T16:00:00.000Z",
-    "opponentId": "41",
-    "goalsFor": 5,
-    "goalsAgainst": 8
+    "matchId": "57210",
+    "kickoff": "2026-11-06T17:00:00.000Z",
+    "opponentId": "110",
+    "goalsFor": 3,
+    "goalsAgainst": 14
    },
    "to": {
     "seasonId": 55,
     "league": "L3C",
-    "matchId": "56955",
-    "kickoff": "2026-10-14T16:00:00.000Z",
-    "opponentId": "1496",
-    "goalsFor": 4,
-    "goalsAgainst": 6
+    "matchId": "57383",
+    "kickoff": "2026-11-24T18:00:00.000Z",
+    "opponentId": "133",
+    "goalsFor": 3,
+    "goalsAgainst": 5
    }
   }
  },
  "cleanSheets": 1,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 8,
-  "coveredMatches": 8,
+  "playedMatches": 9,
+  "coveredMatches": 9,
   "rows": [
    {
     "name": "Szó Bálint",
-    "goals": 34,
-    "matches": 7,
-    "hatTricks": 6
+    "goals": 37,
+    "matches": 8,
+    "hatTricks": 7
    },
    {
     "name": "Ezer Ádám",

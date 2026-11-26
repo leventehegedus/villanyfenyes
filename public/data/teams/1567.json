@@ -14,13 +14,13 @@
    "teamsInLeague": 12,
    "marker": "promotion",
    "totals": {
-    "played": 8,
-    "won": 5,
+    "played": 9,
+    "won": 6,
     "drawn": 0,
     "lost": 3,
-    "goalsFor": 57,
-    "goalsAgainst": 37,
-    "points": 15
+    "goalsFor": 62,
+    "goalsAgainst": 39,
+    "points": 18
    }
   }
  ],
@@ -128,6 +128,19 @@
     "goalsAgainst": 1,
     "points": 3
    }
+  },
+  {
+   "teamId": "1572",
+   "name": "GÓLatanács",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 2,
+    "points": 3
+   }
   }
  ],
  "records": {
@@ -227,9 +240,15 @@
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 8,
-  "coveredMatches": 8,
+  "playedMatches": 9,
+  "coveredMatches": 9,
   "rows": [
+   {
+    "name": "Máté Bajomi",
+    "goals": 14,
+    "matches": 5,
+    "hatTricks": 3
+   },
    {
     "name": "Mester András",
     "goals": 14,
@@ -237,27 +256,21 @@
     "hatTricks": 2
    },
    {
-    "name": "Máté Bajomi",
-    "goals": 12,
+    "name": "Varga Ádám",
+    "goals": 9,
     "matches": 4,
-    "hatTricks": 3
+    "hatTricks": 1
    },
    {
     "name": "Kopasz Gergő",
-    "goals": 7,
-    "matches": 5,
+    "goals": 8,
+    "matches": 6,
     "hatTricks": 0
    },
    {
     "name": "Rivasz Balázs",
     "goals": 7,
     "matches": 4,
-    "hatTricks": 1
-   },
-   {
-    "name": "Varga Ádám",
-    "goals": 7,
-    "matches": 3,
     "hatTricks": 1
    },
    {

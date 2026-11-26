@@ -2025,7 +2025,7 @@
      "teamId": "220"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57313",
@@ -2108,7 +2108,7 @@
      "teamId": "29"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57320",
@@ -2210,7 +2210,7 @@
      "teamId": "154"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57353",
@@ -2223,7 +2223,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57413",
@@ -2238,26 +2238,26 @@
    "scorers": [
     {
      "name": "Kiss Bence",
-     "teamId": "81",
-     "goals": 3
+     "goals": 3,
+     "teamId": "81"
     },
     {
      "name": "Csiha Bence",
-     "teamId": "81",
-     "goals": 1
+     "goals": 1,
+     "teamId": "81"
     },
     {
      "name": "Bertold Pék",
-     "teamId": "220",
-     "goals": 3
+     "goals": 3,
+     "teamId": "220"
     },
     {
      "name": "Dudás Zoltán",
-     "teamId": "220",
-     "goals": 1
+     "goals": 1,
+     "teamId": "220"
     }
    ],
-   "detailFetchedAt": "2026-11-24T23:54:17.194Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57397",
@@ -2311,7 +2311,7 @@
      "teamId": "154"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "57402",
@@ -2324,11 +2324,11 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
-   "id": "x-55-L2B-202611251900-toilet-time-vergewalti-gang",
-   "siteId": null,
+   "id": "57385",
+   "siteId": 57385,
    "homeTeamId": "116",
    "awayTeamId": "182",
    "kickoff": "2026-11-25T19:00:00.000Z",
@@ -2336,8 +2336,8 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": null,
-   "detailFetchedAt": null
+   "scorers": [],
+   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
   },
   {
    "id": "x-55-L2B-202611301700-tunyacsap-cefre-town",
@@ -2558,7 +2558,7 @@
    "teamId": "220",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Lontai Bendegúz",
+    "name": "Vörös László",
     "goals": 5
    },
    "seasonsCount": 16,
