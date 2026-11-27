@@ -2171,26 +2171,26 @@
    "scorers": [
     {
      "name": "Novozánszki Zsombor",
-     "teamId": "85",
-     "goals": 4
+     "goals": 4,
+     "teamId": "85"
     },
     {
      "name": "Horváth Péter",
-     "teamId": "85",
-     "goals": 3
+     "goals": 3,
+     "teamId": "85"
     },
     {
      "name": "Bordás Máté Vilmos",
-     "teamId": "85",
-     "goals": 1
+     "goals": 1,
+     "teamId": "85"
     },
     {
      "name": "Őze Sándor",
-     "teamId": "85",
-     "goals": 1
+     "goals": 1,
+     "teamId": "85"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57304",
@@ -2298,21 +2298,21 @@
    "scorers": [
     {
      "name": "Kiss László Bende",
-     "teamId": "1489",
-     "goals": 3
+     "goals": 3,
+     "teamId": "1489"
     },
     {
      "name": "Bús Bertalan Patrik",
-     "teamId": "1489",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1489"
     },
     {
      "name": "Horváth Máté",
-     "teamId": "1489",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1489"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57404",
@@ -2325,7 +2325,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57382",
@@ -2337,8 +2337,49 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "scorers": [
+    {
+     "name": "Hamburger Ákos",
+     "goals": 3,
+     "teamId": "52"
+    },
+    {
+     "name": "Budavári Bendegúz",
+     "goals": 3,
+     "teamId": "52"
+    },
+    {
+     "name": "Török Tamás",
+     "goals": 1,
+     "teamId": "52"
+    },
+    {
+     "name": "Bordás Máté Vilmos",
+     "goals": 4,
+     "teamId": "85"
+    },
+    {
+     "name": "Horváth Péter",
+     "goals": 3,
+     "teamId": "85"
+    },
+    {
+     "name": "Slenker Balázs",
+     "goals": 3,
+     "teamId": "85"
+    },
+    {
+     "name": "Novozánszki Zsombor",
+     "goals": 3,
+     "teamId": "85"
+    },
+    {
+     "name": "Kristof Ludanyi",
+     "goals": 2,
+     "teamId": "85"
+    }
+   ],
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57366",
@@ -2350,8 +2391,19 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "scorers": [
+    {
+     "name": "Tóth Artúr Benedek",
+     "goals": 4,
+     "teamId": "84"
+    },
+    {
+     "name": "Grósz Mátyás",
+     "goals": 3,
+     "teamId": "84"
+    }
+   ],
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "x-55-L3D-202611271900-veresiktas-fc-nagykiralyok",

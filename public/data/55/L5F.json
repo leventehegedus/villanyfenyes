@@ -1462,31 +1462,31 @@
    "scorers": [
     {
      "name": "Fodor András",
-     "teamId": "203",
-     "goals": 2
+     "goals": 2,
+     "teamId": "203"
     },
     {
      "name": "Fülöp Bence",
-     "teamId": "203",
-     "goals": 1
+     "goals": 1,
+     "teamId": "203"
     },
     {
      "name": "Prezsnyák Péter",
-     "teamId": "203",
-     "goals": 1
+     "goals": 1,
+     "teamId": "203"
     },
     {
      "name": "Vichnalek Dávid",
-     "teamId": "1568",
-     "goals": 3
+     "goals": 3,
+     "teamId": "1568"
     },
     {
      "name": "Tomojzer Péter",
-     "teamId": "1568",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1568"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57312",
@@ -1499,7 +1499,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57308",
@@ -1512,7 +1512,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57287",
@@ -1564,7 +1564,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57377",
@@ -1672,26 +1672,26 @@
    "scorers": [
     {
      "name": "Ignátkó Bence",
-     "teamId": "55",
-     "goals": 2
+     "goals": 2,
+     "teamId": "55"
     },
     {
      "name": "Fábián Hunor",
-     "teamId": "55",
-     "goals": 1
+     "goals": 1,
+     "teamId": "55"
     },
     {
      "name": "Dániel Jaczkó",
-     "teamId": "55",
-     "goals": 1
+     "goals": 1,
+     "teamId": "55"
     },
     {
      "name": "Gaskó Simon",
-     "teamId": "55",
-     "goals": 1
+     "goals": 1,
+     "teamId": "55"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57367",
@@ -1706,26 +1706,26 @@
    "scorers": [
     {
      "name": "Holló Balázs",
-     "teamId": "89",
-     "goals": 4
+     "goals": 4,
+     "teamId": "89"
     },
     {
      "name": "Lipcsey Levente",
-     "teamId": "89",
-     "goals": 1
+     "goals": 1,
+     "teamId": "89"
     },
     {
      "name": "Krakkai Levente",
-     "teamId": "89",
-     "goals": 1
+     "goals": 1,
+     "teamId": "89"
     },
     {
      "name": "Szitka Akos",
-     "teamId": "89",
-     "goals": 1
+     "goals": 1,
+     "teamId": "89"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "x-55-L5F-202611271700-asfc-ekho",

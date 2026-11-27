@@ -1869,7 +1869,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57342",
@@ -1884,31 +1884,31 @@
    "scorers": [
     {
      "name": "Mészáros Sándor Máté",
-     "teamId": "170",
-     "goals": 4
+     "goals": 4,
+     "teamId": "170"
     },
     {
      "name": "Fertig Dávid",
-     "teamId": "170",
-     "goals": 3
+     "goals": 3,
+     "teamId": "170"
     },
     {
      "name": "Kecskeméti Balázs",
-     "teamId": "170",
-     "goals": 2
+     "goals": 2,
+     "teamId": "170"
     },
     {
      "name": "Kosztyu Ádám",
-     "teamId": "170",
-     "goals": 1
+     "goals": 1,
+     "teamId": "170"
     },
     {
      "name": "Nagy Dániel",
-     "teamId": "170",
-     "goals": 1
+     "goals": 1,
+     "teamId": "170"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57300",
@@ -1923,31 +1923,31 @@
    "scorers": [
     {
      "name": "Erdei Krisztián",
-     "teamId": "38",
-     "goals": 5
+     "goals": 5,
+     "teamId": "38"
     },
     {
      "name": "Lakatos István Levente",
-     "teamId": "38",
-     "goals": 3
+     "goals": 3,
+     "teamId": "38"
     },
     {
      "name": "Romsics Péter",
-     "teamId": "38",
-     "goals": 2
+     "goals": 2,
+     "teamId": "38"
     },
     {
      "name": "Szabadi Zalán",
-     "teamId": "38",
-     "goals": 2
+     "goals": 2,
+     "teamId": "38"
     },
     {
      "name": "Hajas Ádám",
-     "teamId": "38",
-     "goals": 1
+     "goals": 1,
+     "teamId": "38"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57332",
@@ -1960,7 +1960,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57318",
@@ -2029,26 +2029,26 @@
    "scorers": [
     {
      "name": "Csorba Adrián",
-     "teamId": "45",
-     "goals": 3
+     "goals": 3,
+     "teamId": "45"
     },
     {
      "name": "Pintér Richárd",
-     "teamId": "45",
-     "goals": 2
+     "goals": 2,
+     "teamId": "45"
     },
     {
      "name": "Török Tamás",
-     "teamId": "45",
-     "goals": 1
+     "goals": 1,
+     "teamId": "45"
     },
     {
      "name": "Dr. Zováthi Örkény",
-     "teamId": "45",
-     "goals": 1
+     "goals": 1,
+     "teamId": "45"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57380",
@@ -2063,51 +2063,51 @@
    "scorers": [
     {
      "name": "Erdei Krisztián",
-     "teamId": "38",
-     "goals": 2
+     "goals": 2,
+     "teamId": "38"
     },
     {
      "name": "Szabadi Zalán",
-     "teamId": "38",
-     "goals": 2
+     "goals": 2,
+     "teamId": "38"
     },
     {
      "name": "Romsics Péter",
-     "teamId": "38",
-     "goals": 1
+     "goals": 1,
+     "teamId": "38"
     },
     {
      "name": "Tálas Artúr",
-     "teamId": "38",
-     "goals": 1
+     "goals": 1,
+     "teamId": "38"
     },
     {
      "name": "Pesti Ádám",
-     "teamId": "38",
-     "goals": 1
+     "goals": 1,
+     "teamId": "38"
     },
     {
      "name": "Hajas Ádám",
-     "teamId": "38",
-     "goals": 1
+     "goals": 1,
+     "teamId": "38"
     },
     {
      "name": "Lakatos István Levente",
-     "teamId": "38",
-     "goals": 1
+     "goals": 1,
+     "teamId": "38"
     },
     {
      "name": "Kosztyu Ádám",
-     "teamId": "170",
-     "goals": 1
+     "goals": 1,
+     "teamId": "170"
     },
     {
      "name": "Kecskeméti Balázs",
-     "teamId": "170",
-     "goals": 1
+     "goals": 1,
+     "teamId": "170"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57411",
@@ -2120,7 +2120,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57386",
@@ -2135,21 +2135,21 @@
    "scorers": [
     {
      "name": "Szőke István",
-     "teamId": "139",
-     "goals": 2
+     "goals": 2,
+     "teamId": "139"
     },
     {
      "name": "Kéménczy Márton",
-     "teamId": "139",
-     "goals": 1
+     "goals": 1,
+     "teamId": "139"
     },
     {
      "name": "Rimóczi Gergő",
-     "teamId": "139",
-     "goals": 1
+     "goals": 1,
+     "teamId": "139"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57372",
@@ -2162,7 +2162,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "x-55-L2A-202611301900-national-sechs-al-dubai",
@@ -2409,7 +2409,7 @@
    "teamId": "115",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Zoltán Prantner",
+    "name": "Tüttő Olivér",
     "goals": 4
    },
    "seasonsCount": 8,
@@ -2439,7 +2439,7 @@
    "teamId": "188",
    "bestLeague": "L2A",
    "topScorer": {
-    "name": "Kovács Patrik",
+    "name": "Nagy Balázs Ákos",
     "goals": 4
    },
    "seasonsCount": 4,
@@ -2449,7 +2449,7 @@
    "teamId": "70",
    "bestLeague": "L2A",
    "topScorer": {
-    "name": "Schütz Ádám",
+    "name": "Markóczy Márk",
     "goals": 6
    },
    "seasonsCount": 5,

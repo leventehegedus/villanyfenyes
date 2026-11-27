@@ -1838,41 +1838,41 @@
    "scorers": [
     {
      "name": "Veres András",
-     "teamId": "110",
-     "goals": 3
+     "goals": 3,
+     "teamId": "110"
     },
     {
      "name": "Németh Csaba",
-     "teamId": "110",
-     "goals": 2
+     "goals": 2,
+     "teamId": "110"
     },
     {
      "name": "Szűcs Tamás",
-     "teamId": "110",
-     "goals": 2
+     "goals": 2,
+     "teamId": "110"
     },
     {
      "name": "Szilágyi Bálint Zsolt",
-     "teamId": "110",
-     "goals": 1
+     "goals": 1,
+     "teamId": "110"
     },
     {
      "name": "Illyés Péter",
-     "teamId": "110",
-     "goals": 1
+     "goals": 1,
+     "teamId": "110"
     },
     {
      "name": "Füzesi Vince",
-     "teamId": "219",
-     "goals": 1
+     "goals": 1,
+     "teamId": "219"
     },
     {
      "name": "Tábori Péter",
-     "teamId": "219",
-     "goals": 1
+     "goals": 1,
+     "teamId": "219"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57325",
@@ -1887,21 +1887,21 @@
    "scorers": [
     {
      "name": "Veres László Dávid",
-     "teamId": "230",
-     "goals": 4
+     "goals": 4,
+     "teamId": "230"
     },
     {
      "name": "Meszlényi Márk",
-     "teamId": "230",
-     "goals": 2
+     "goals": 2,
+     "teamId": "230"
     },
     {
      "name": "Balla Dávid",
-     "teamId": "230",
-     "goals": 1
+     "goals": 1,
+     "teamId": "230"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57296",
@@ -1994,21 +1994,21 @@
    "scorers": [
     {
      "name": "Füzesi Vince",
-     "teamId": "219",
-     "goals": 2
+     "goals": 2,
+     "teamId": "219"
     },
     {
      "name": "Zsigmond Boldizsár",
-     "teamId": "219",
-     "goals": 2
+     "goals": 2,
+     "teamId": "219"
     },
     {
      "name": "Molnár Csaba",
-     "teamId": "219",
-     "goals": 2
+     "goals": 2,
+     "teamId": "219"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57403",
@@ -2023,11 +2023,11 @@
    "scorers": [
     {
      "name": "Dr. Lukács Dávid",
-     "teamId": "41",
-     "goals": 3
+     "goals": 3,
+     "teamId": "41"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57383",
@@ -2058,8 +2058,34 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "scorers": [
+    {
+     "name": "Péter Hoffmann",
+     "goals": 4,
+     "teamId": "230"
+    },
+    {
+     "name": "Balla Dávid",
+     "goals": 4,
+     "teamId": "230"
+    },
+    {
+     "name": "Lehel Péter András",
+     "goals": 2,
+     "teamId": "230"
+    },
+    {
+     "name": "Miklós Martin",
+     "goals": 2,
+     "teamId": "230"
+    },
+    {
+     "name": "Kállai Gábor",
+     "goals": 1,
+     "teamId": "230"
+    }
+   ],
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "x-55-L3C-202611301800-eselyetek-se-crooks",
@@ -2336,7 +2362,7 @@
    "teamId": "230",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Veres László Dávid",
+    "name": "Balla Dávid",
     "goals": 4
    },
    "seasonsCount": 37,

@@ -30,24 +30,24 @@
    "name": "Alibi FC"
   },
   {
-   "id": "1483",
-   "siteId": 1483,
-   "name": "Al Kohol"
-  },
-  {
    "id": "143",
    "siteId": 143,
    "name": "Magyi"
   },
   {
-   "id": "215",
-   "siteId": 215,
-   "name": "Csendes FIFA"
+   "id": "1483",
+   "siteId": 1483,
+   "name": "Al Kohol"
   },
   {
    "id": "58",
    "siteId": 58,
    "name": "Jó az X"
+  },
+  {
+   "id": "215",
+   "siteId": 215,
+   "name": "Csendes FIFA"
   },
   {
    "id": "57",
@@ -146,6 +146,19 @@
   },
   {
    "position": 6,
+   "teamId": "143",
+   "played": 10,
+   "won": 3,
+   "drawn": 2,
+   "lost": 5,
+   "goalsFor": 30,
+   "goalsAgainst": 39,
+   "goalDiff": -9,
+   "points": 11,
+   "markers": []
+  },
+  {
+   "position": 7,
    "teamId": "1483",
    "played": 9,
    "won": 3,
@@ -160,20 +173,20 @@
    ]
   },
   {
-   "position": 7,
-   "teamId": "143",
-   "played": 9,
-   "won": 3,
-   "drawn": 1,
-   "lost": 5,
+   "position": 8,
+   "teamId": "58",
+   "played": 7,
+   "won": 2,
+   "drawn": 2,
+   "lost": 3,
    "goalsFor": 27,
-   "goalsAgainst": 36,
-   "goalDiff": -9,
-   "points": 10,
+   "goalsAgainst": 31,
+   "goalDiff": -4,
+   "points": 8,
    "markers": []
   },
   {
-   "position": 8,
+   "position": 9,
    "teamId": "215",
    "played": 7,
    "won": 2,
@@ -182,21 +195,6 @@
    "goalsFor": 21,
    "goalsAgainst": 23,
    "goalDiff": -2,
-   "points": 7,
-   "markers": [
-    "fewConceded"
-   ]
-  },
-  {
-   "position": 9,
-   "teamId": "58",
-   "played": 6,
-   "won": 2,
-   "drawn": 1,
-   "lost": 3,
-   "goalsFor": 24,
-   "goalsAgainst": 28,
-   "goalDiff": -4,
    "points": 7,
    "markers": [
     "fewConceded"
@@ -1943,7 +1941,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57297",
@@ -2044,7 +2042,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57391",
@@ -2053,11 +2051,42 @@
    "awayTeamId": "143",
    "kickoff": "2026-11-26T19:00:00.000Z",
    "venue": "Bogdánfy_3",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Tóth Ákos",
+     "goals": 1,
+     "teamId": "58"
+    },
+    {
+     "name": "Sudár Roland",
+     "goals": 1,
+     "teamId": "58"
+    },
+    {
+     "name": "Németh Bence",
+     "goals": 1,
+     "teamId": "58"
+    },
+    {
+     "name": "Bácskai Zoltán",
+     "goals": 1,
+     "teamId": "143"
+    },
+    {
+     "name": "Tóth Gergely",
+     "goals": 1,
+     "teamId": "143"
+    },
+    {
+     "name": "Fukker Norbert",
+     "goals": 1,
+     "teamId": "143"
+    }
+   ],
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "x-55-L5B-202611271800-zomboss-sordogok",
@@ -2307,6 +2336,16 @@
    "matchesPlayed": 9
   },
   {
+   "teamId": "143",
+   "bestLeague": "L3B",
+   "topScorer": {
+    "name": "Rózsa Benedek",
+    "goals": 6
+   },
+   "seasonsCount": 29,
+   "matchesPlayed": 10
+  },
+  {
    "teamId": "1483",
    "bestLeague": "L3C",
    "topScorer": {
@@ -2317,14 +2356,14 @@
    "matchesPlayed": 9
   },
   {
-   "teamId": "143",
-   "bestLeague": "L3B",
+   "teamId": "58",
+   "bestLeague": "L2A",
    "topScorer": {
-    "name": "Rózsa Benedek",
+    "name": "Horváth Győző",
     "goals": 6
    },
-   "seasonsCount": 29,
-   "matchesPlayed": 9
+   "seasonsCount": 22,
+   "matchesPlayed": 7
   },
   {
    "teamId": "215",
@@ -2335,16 +2374,6 @@
    },
    "seasonsCount": 30,
    "matchesPlayed": 7
-  },
-  {
-   "teamId": "58",
-   "bestLeague": "L2A",
-   "topScorer": {
-    "name": "Horváth Győző",
-    "goals": 6
-   },
-   "seasonsCount": 22,
-   "matchesPlayed": 6
   },
   {
    "teamId": "57",
@@ -2360,7 +2389,7 @@
    "teamId": "1559",
    "bestLeague": "L5B",
    "topScorer": {
-    "name": "Loósz Benedek",
+    "name": "Hudi Martin",
     "goals": 3
    },
    "seasonsCount": 1,

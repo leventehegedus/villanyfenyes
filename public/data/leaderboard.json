@@ -695,7 +695,7 @@
    "titles": 0,
    "l1Seasons": 11,
    "won": 49,
-   "goalsFor": 495
+   "goalsFor": 500
   },
   {
    "teamId": "94",
@@ -727,7 +727,7 @@
    "titles": 1,
    "l1Seasons": 9,
    "won": 58,
-   "goalsFor": 523
+   "goalsFor": 528
   },
   {
    "teamId": "69",
@@ -1834,6 +1834,14 @@
    "goalsFor": 57
   },
   {
+   "teamId": "143",
+   "name": "Magyi",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 3,
+   "goalsFor": 30
+  },
+  {
    "teamId": "1483",
    "name": "Al Kohol",
    "titles": 0,
@@ -1842,11 +1850,11 @@
    "goalsFor": 47
   },
   {
-   "teamId": "143",
-   "name": "Magyi",
+   "teamId": "58",
+   "name": "Jó az X",
    "titles": 0,
    "l1Seasons": 0,
-   "won": 3,
+   "won": 2,
    "goalsFor": 27
   },
   {
@@ -1856,14 +1864,6 @@
    "l1Seasons": 0,
    "won": 2,
    "goalsFor": 21
-  },
-  {
-   "teamId": "58",
-   "name": "Jó az X",
-   "titles": 0,
-   "l1Seasons": 0,
-   "won": 2,
-   "goalsFor": 24
   },
   {
    "teamId": "57",

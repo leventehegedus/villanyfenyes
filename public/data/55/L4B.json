@@ -2024,36 +2024,36 @@
    "scorers": [
     {
      "name": "Morvai Gábor",
-     "teamId": "54",
-     "goals": 3
+     "goals": 3,
+     "teamId": "54"
     },
     {
      "name": "Izsak Jeno Adam",
-     "teamId": "54",
-     "goals": 3
+     "goals": 3,
+     "teamId": "54"
     },
     {
      "name": "Turóczi Viktor",
-     "teamId": "54",
-     "goals": 3
+     "goals": 3,
+     "teamId": "54"
     },
     {
      "name": "Szemes Péter",
-     "teamId": "54",
-     "goals": 3
+     "goals": 3,
+     "teamId": "54"
     },
     {
      "name": "Szita Dávid László",
-     "teamId": "54",
-     "goals": 3
+     "goals": 3,
+     "teamId": "54"
     },
     {
      "name": "Boa Benjámin Péter",
-     "teamId": "54",
-     "goals": 1
+     "goals": 1,
+     "teamId": "54"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57350",
@@ -2151,11 +2151,11 @@
    "scorers": [
     {
      "name": "Szöllősi Bálint",
-     "teamId": "80",
-     "goals": 1
+     "goals": 1,
+     "teamId": "80"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57398",
@@ -2170,16 +2170,16 @@
    "scorers": [
     {
      "name": "Daniel collada nolent",
-     "teamId": "62",
-     "goals": 3
+     "goals": 3,
+     "teamId": "62"
     },
     {
      "name": "Matteo Signoretto",
-     "teamId": "62",
-     "goals": 2
+     "goals": 2,
+     "teamId": "62"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "x-55-L4B-202612011800-felizgatott-makaronik-twisters",

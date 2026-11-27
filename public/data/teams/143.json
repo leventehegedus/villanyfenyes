@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L5B",
    "finished": false,
-   "position": 7,
+   "position": 6,
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 9,
+    "played": 10,
     "won": 3,
-    "drawn": 1,
+    "drawn": 2,
     "lost": 5,
-    "goalsFor": 27,
-    "goalsAgainst": 36,
-    "points": 10
+    "goalsFor": 30,
+    "goalsAgainst": 39,
+    "points": 11
    }
   }
  ],
@@ -141,6 +141,19 @@
     "goalsAgainst": 6,
     "points": 0
    }
+  },
+  {
+   "teamId": "58",
+   "name": "Jó az X",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 3,
+    "points": 1
+   }
   }
  ],
  "records": {
@@ -240,9 +253,15 @@
  "cleanSheets": 0,
  "failedToScore": 2,
  "scorers": {
-  "playedMatches": 9,
-  "coveredMatches": 9,
+  "playedMatches": 10,
+  "coveredMatches": 10,
   "rows": [
+   {
+    "name": "Fukker Norbert",
+    "goals": 7,
+    "matches": 4,
+    "hatTricks": 1
+   },
    {
     "name": "Auer Barnabás",
     "goals": 6,
@@ -250,15 +269,15 @@
     "hatTricks": 1
    },
    {
-    "name": "Fukker Norbert",
-    "goals": 6,
+    "name": "Bácskai Zoltán",
+    "goals": 4,
     "matches": 3,
-    "hatTricks": 1
+    "hatTricks": 0
    },
    {
-    "name": "Bácskai Zoltán",
-    "goals": 3,
-    "matches": 2,
+    "name": "Tóth Gergely",
+    "goals": 4,
+    "matches": 4,
     "hatTricks": 0
    },
    {
@@ -269,12 +288,6 @@
    },
    {
     "name": "Mikesy János",
-    "goals": 3,
-    "matches": 3,
-    "hatTricks": 0
-   },
-   {
-    "name": "Tóth Gergely",
     "goals": 3,
     "matches": 3,
     "hatTricks": 0

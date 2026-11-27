@@ -2032,41 +2032,41 @@
    "scorers": [
     {
      "name": "Barnabás Ilosvai",
-     "teamId": "75",
-     "goals": 3
+     "goals": 3,
+     "teamId": "75"
     },
     {
      "name": "Theisz Aurél Levente",
-     "teamId": "75",
-     "goals": 1
+     "goals": 1,
+     "teamId": "75"
     },
     {
      "name": "Balás Áron",
-     "teamId": "240",
-     "goals": 3
+     "goals": 3,
+     "teamId": "240"
     },
     {
      "name": "Viktor Szabó",
-     "teamId": "240",
-     "goals": 3
+     "goals": 3,
+     "teamId": "240"
     },
     {
      "name": "Fedor István",
-     "teamId": "240",
-     "goals": 1
+     "goals": 1,
+     "teamId": "240"
     },
     {
      "name": "Szőke Tamás János",
-     "teamId": "240",
-     "goals": 1
+     "goals": 1,
+     "teamId": "240"
     },
     {
      "name": "Bedő Sebestyén",
-     "teamId": "240",
-     "goals": 1
+     "goals": 1,
+     "teamId": "240"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57335",
@@ -2081,36 +2081,36 @@
    "scorers": [
     {
      "name": "Péntek Péter",
-     "teamId": "241",
-     "goals": 6
+     "goals": 6,
+     "teamId": "241"
     },
     {
      "name": "Elekes Dániel",
-     "teamId": "241",
-     "goals": 6
+     "goals": 6,
+     "teamId": "241"
     },
     {
      "name": "Centgraf András",
-     "teamId": "241",
-     "goals": 2
+     "goals": 2,
+     "teamId": "241"
     },
     {
      "name": "Horog Zalán",
-     "teamId": "241",
-     "goals": 2
+     "goals": 2,
+     "teamId": "241"
     },
     {
      "name": "Alvári Botond Zétény",
-     "teamId": "241",
-     "goals": 1
+     "goals": 1,
+     "teamId": "241"
     },
     {
      "name": "Szerencsi Márton",
-     "teamId": "241",
-     "goals": 1
+     "goals": 1,
+     "teamId": "241"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57294",
@@ -2125,26 +2125,26 @@
    "scorers": [
     {
      "name": "Varga Bálint",
-     "teamId": "132",
-     "goals": 1
+     "goals": 1,
+     "teamId": "132"
     },
     {
      "name": "Kelemen Ábel",
-     "teamId": "132",
-     "goals": 1
+     "goals": 1,
+     "teamId": "132"
     },
     {
      "name": "dr. Filipszki Gábor",
-     "teamId": "181",
-     "goals": 5
+     "goals": 5,
+     "teamId": "181"
     },
     {
      "name": "Dr. Bebesi Ákos László",
-     "teamId": "181",
-     "goals": 3
+     "goals": 3,
+     "teamId": "181"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57292",
@@ -2237,26 +2237,26 @@
    "scorers": [
     {
      "name": "Kelemen Ábel",
-     "teamId": "132",
-     "goals": 4
+     "goals": 4,
+     "teamId": "132"
     },
     {
      "name": "Schneider Dávid",
-     "teamId": "132",
-     "goals": 3
+     "goals": 3,
+     "teamId": "132"
     },
     {
      "name": "Könye Nátán",
-     "teamId": "132",
-     "goals": 2
+     "goals": 2,
+     "teamId": "132"
     },
     {
      "name": "Czika Zoltán",
-     "teamId": "132",
-     "goals": 1
+     "goals": 1,
+     "teamId": "132"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57374",
@@ -2308,7 +2308,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57390",
@@ -2321,7 +2321,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "x-55-L5C-202611271900-deg-eneraltak-stoczek-wanderers-fc",
@@ -2575,7 +2575,7 @@
    "teamId": "1473",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Szekeres Kornél",
+    "name": "Tóth Martin",
     "goals": 3
    },
    "seasonsCount": 4,
@@ -2585,7 +2585,7 @@
    "teamId": "75",
    "bestLeague": "L5A",
    "topScorer": {
-    "name": "Paksi Ábel",
+    "name": "Barnabás Ilosvai",
     "goals": 3
    },
    "seasonsCount": 3,

@@ -20,14 +20,14 @@
    "name": "Gyermekláncfűrész"
   },
   {
-   "id": "90",
-   "siteId": 90,
-   "name": "Invincibles"
-  },
-  {
    "id": "199",
    "siteId": 199,
    "name": "2 zenész"
+  },
+  {
+   "id": "90",
+   "siteId": 90,
+   "name": "Invincibles"
   },
   {
    "id": "93",
@@ -102,21 +102,35 @@
   {
    "position": 3,
    "teamId": "100",
-   "played": 9,
+   "played": 10,
    "won": 6,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 3,
-   "goalsFor": 33,
-   "goalsAgainst": 25,
+   "goalsFor": 38,
+   "goalsAgainst": 30,
    "goalDiff": 8,
-   "points": 18,
+   "points": 19,
    "markers": [
-    "lossStreak",
     "fewConceded"
    ]
   },
   {
    "position": 4,
+   "teamId": "199",
+   "played": 9,
+   "won": 5,
+   "drawn": 1,
+   "lost": 3,
+   "goalsFor": 35,
+   "goalsAgainst": 21,
+   "goalDiff": 14,
+   "points": 16,
+   "markers": [
+    "fewConceded"
+   ]
+  },
+  {
+   "position": 5,
    "teamId": "90",
    "played": 9,
    "won": 5,
@@ -128,21 +142,6 @@
    "points": 15,
    "markers": [
     "winStreak"
-   ]
-  },
-  {
-   "position": 5,
-   "teamId": "199",
-   "played": 8,
-   "won": 5,
-   "drawn": 0,
-   "lost": 3,
-   "goalsFor": 30,
-   "goalsAgainst": 16,
-   "goalDiff": 14,
-   "points": 15,
-   "markers": [
-    "fewConceded"
    ]
   },
   {
@@ -2094,26 +2093,26 @@
    "scorers": [
     {
      "name": "Fröhlich Tamás",
-     "teamId": "199",
-     "goals": 2
+     "goals": 2,
+     "teamId": "199"
     },
     {
      "name": "Siket Máté",
-     "teamId": "199",
-     "goals": 2
+     "goals": 2,
+     "teamId": "199"
     },
     {
      "name": "Alt Ákos",
-     "teamId": "199",
-     "goals": 2
+     "goals": 2,
+     "teamId": "199"
     },
     {
      "name": "Gondos Andor",
-     "teamId": "199",
-     "goals": 2
+     "goals": 2,
+     "teamId": "199"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "48352",
@@ -2204,7 +2203,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "48355",
@@ -2217,7 +2216,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "48356",
@@ -2232,26 +2231,26 @@
    "scorers": [
     {
      "name": "Sugár Soma",
-     "teamId": "94",
-     "goals": 3
+     "goals": 3,
+     "teamId": "94"
     },
     {
      "name": "Kántor Tibor",
-     "teamId": "94",
-     "goals": 2
+     "goals": 2,
+     "teamId": "94"
     },
     {
      "name": "Kiséry Máté Soma",
-     "teamId": "94",
-     "goals": 2
+     "goals": 2,
+     "teamId": "94"
     },
     {
      "name": "Benyovszki Patrik",
-     "teamId": "94",
-     "goals": 1
+     "goals": 1,
+     "teamId": "94"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "48357",
@@ -2264,7 +2263,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "48358",
@@ -2273,27 +2272,42 @@
    "awayTeamId": "199",
    "kickoff": "2026-11-26T19:00:00.000Z",
    "venue": "Bogdánfy_1",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 5,
+   "awayGoals": 5,
+   "status": "played",
    "scorers": [
     {
+     "name": "Füle András",
+     "goals": 2,
+     "teamId": "100"
+    },
+    {
+     "name": "Horváth Zalán",
+     "goals": 2,
+     "teamId": "100"
+    },
+    {
+     "name": "Horváth Bálint",
+     "goals": 1,
+     "teamId": "100"
+    },
+    {
      "name": "Raport Dániel",
-     "teamId": "199",
-     "goals": 3
+     "goals": 3,
+     "teamId": "199"
     },
     {
      "name": "Stranyóczky László",
-     "teamId": "199",
-     "goals": 1
+     "goals": 1,
+     "teamId": "199"
     },
     {
      "name": "Alt Ákos",
-     "teamId": "199",
-     "goals": 1
+     "goals": 1,
+     "teamId": "199"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "48359",
@@ -2305,8 +2319,19 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "scorers": [
+    {
+     "name": "Szabo Andras",
+     "goals": 1,
+     "teamId": "107"
+    },
+    {
+     "name": "Novák Dániel",
+     "goals": 1,
+     "teamId": "107"
+    }
+   ],
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "x-55-L1-202612021800-szia-uram-invincibles",
@@ -2402,7 +2427,7 @@
    "teamId": "142",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Bencze Mártom",
+    "name": "Andorka Kristóf",
     "goals": 4
    },
    "seasonsCount": 8,
@@ -2416,6 +2441,16 @@
     "goals": 8
    },
    "seasonsCount": 21,
+   "matchesPlayed": 10
+  },
+  {
+   "teamId": "199",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Stranyóczky László",
+    "goals": 5
+   },
+   "seasonsCount": 24,
    "matchesPlayed": 9
   },
   {
@@ -2427,16 +2462,6 @@
    },
    "seasonsCount": 7,
    "matchesPlayed": 9
-  },
-  {
-   "teamId": "199",
-   "bestLeague": "L1",
-   "topScorer": {
-    "name": "Stranyóczky László",
-    "goals": 5
-   },
-   "seasonsCount": 24,
-   "matchesPlayed": 8
   },
   {
    "teamId": "93",
@@ -2472,7 +2497,7 @@
    "teamId": "149",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Szabó Koppány",
+    "name": "Markó Péter Dániel",
     "goals": 5
    },
    "seasonsCount": 9,

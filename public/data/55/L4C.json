@@ -2067,11 +2067,11 @@
    "scorers": [
     {
      "name": "Lukács Gergely",
-     "teamId": "131",
-     "goals": 4
+     "goals": 4,
+     "teamId": "131"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57346",
@@ -2179,16 +2179,16 @@
    "scorers": [
     {
      "name": "Nagy Kristóf",
-     "teamId": "147",
-     "goals": 3
+     "goals": 3,
+     "teamId": "147"
     },
     {
      "name": "Nagy Gábor",
-     "teamId": "147",
-     "goals": 2
+     "goals": 2,
+     "teamId": "147"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "57370",
@@ -2201,7 +2201,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
    "id": "x-55-L4C-202612011700-team-miller-roby-bacsi-bunbandaja",
@@ -2408,7 +2408,7 @@
    "teamId": "1504",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Purosz Leonidasz",
+    "name": "Pothóczki Ábel",
     "goals": 5
    },
    "seasonsCount": 3,
@@ -2418,7 +2418,7 @@
    "teamId": "1512",
    "bestLeague": "L4C",
    "topScorer": {
-    "name": "Kis Ádám",
+    "name": "Péter Adrián",
     "goals": 4
    },
    "seasonsCount": 2,

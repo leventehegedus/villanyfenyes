@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L1",
    "finished": false,
-   "position": 5,
+   "position": 4,
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 8,
+    "played": 9,
     "won": 5,
-    "drawn": 0,
+    "drawn": 1,
     "lost": 3,
-    "goalsFor": 30,
-    "goalsAgainst": 16,
-    "points": 15
+    "goalsFor": 35,
+    "goalsAgainst": 21,
+    "points": 16
    }
   },
   {
@@ -495,13 +495,13 @@
    "teamId": "100",
    "name": "Gyermekláncfűrész",
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 0,
-    "drawn": 1,
+    "drawn": 2,
     "lost": 6,
-    "goalsFor": 28,
-    "goalsAgainst": 44,
-    "points": 1
+    "goalsFor": 33,
+    "goalsAgainst": 49,
+    "points": 2
    }
   },
   {
@@ -901,19 +901,19 @@
  "cleanSheets": 9,
  "failedToScore": 3,
  "scorers": {
-  "playedMatches": 115,
-  "coveredMatches": 115,
+  "playedMatches": 116,
+  "coveredMatches": 116,
   "rows": [
    {
     "name": "Stranyóczky László",
-    "goals": 38,
-    "matches": 19,
+    "goals": 39,
+    "matches": 20,
     "hatTricks": 7
    },
    {
     "name": "Alt Ákos",
-    "goals": 21,
-    "matches": 12,
+    "goals": 22,
+    "matches": 13,
     "hatTricks": 3
    },
    {
@@ -936,9 +936,9 @@
    },
    {
     "name": "Raport Dániel",
-    "goals": 11,
-    "matches": 9,
-    "hatTricks": 0
+    "goals": 14,
+    "matches": 10,
+    "hatTricks": 1
    },
    {
     "name": "Fröhlich Tamás",
