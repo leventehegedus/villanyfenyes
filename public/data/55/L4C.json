@@ -2067,8 +2067,8 @@
    "scorers": [
     {
      "name": "Lukács Gergely",
-     "goals": 4,
-     "teamId": "131"
+     "teamId": "131",
+     "goals": 4
     }
    ],
    "detailFetchedAt": "2026-11-27T00:59:35.351Z"
@@ -2140,28 +2140,28 @@
    "scorers": [
     {
      "name": "Ürmös Zoltán",
-     "goals": 2,
-     "teamId": "153"
+     "teamId": "153",
+     "goals": 2
     },
     {
      "name": "Heller Erik",
-     "goals": 1,
-     "teamId": "153"
+     "teamId": "153",
+     "goals": 1
     },
     {
      "name": "Szatmari Peter",
-     "goals": 1,
-     "teamId": "153"
+     "teamId": "153",
+     "goals": 1
     },
     {
      "name": "Gregorich Gergely",
-     "goals": 1,
-     "teamId": "153"
+     "teamId": "153",
+     "goals": 1
     },
     {
      "name": "Tkalcec Péter",
-     "goals": 1,
-     "teamId": "1512"
+     "teamId": "1512",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T00:59:35.351Z"
@@ -2179,13 +2179,13 @@
    "scorers": [
     {
      "name": "Nagy Kristóf",
-     "goals": 3,
-     "teamId": "147"
+     "teamId": "147",
+     "goals": 3
     },
     {
      "name": "Nagy Gábor",
-     "goals": 2,
-     "teamId": "147"
+     "teamId": "147",
+     "goals": 2
     }
    ],
    "detailFetchedAt": "2026-11-27T00:59:35.351Z"
@@ -2408,7 +2408,7 @@
    "teamId": "1504",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Pothóczki Ábel",
+    "name": "Purosz Leonidasz",
     "goals": 5
    },
    "seasonsCount": 3,
@@ -2418,7 +2418,7 @@
    "teamId": "1512",
    "bestLeague": "L4C",
    "topScorer": {
-    "name": "Péter Adrián",
+    "name": "Kis Ádám",
     "goals": 4
    },
    "seasonsCount": 2,

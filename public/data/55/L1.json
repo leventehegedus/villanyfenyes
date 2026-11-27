@@ -2094,23 +2094,23 @@
    "scorers": [
     {
      "name": "Fröhlich Tamás",
-     "goals": 2,
-     "teamId": "199"
+     "teamId": "199",
+     "goals": 2
     },
     {
      "name": "Siket Máté",
-     "goals": 2,
-     "teamId": "199"
+     "teamId": "199",
+     "goals": 2
     },
     {
      "name": "Alt Ákos",
-     "goals": 2,
-     "teamId": "199"
+     "teamId": "199",
+     "goals": 2
     },
     {
      "name": "Gondos Andor",
-     "goals": 2,
-     "teamId": "199"
+     "teamId": "199",
+     "goals": 2
     }
    ],
    "detailFetchedAt": "2026-11-27T00:59:35.351Z"
@@ -2232,23 +2232,23 @@
    "scorers": [
     {
      "name": "Sugár Soma",
-     "goals": 3,
-     "teamId": "94"
+     "teamId": "94",
+     "goals": 3
     },
     {
      "name": "Kántor Tibor",
-     "goals": 2,
-     "teamId": "94"
+     "teamId": "94",
+     "goals": 2
     },
     {
      "name": "Kiséry Máté Soma",
-     "goals": 2,
-     "teamId": "94"
+     "teamId": "94",
+     "goals": 2
     },
     {
      "name": "Benyovszki Patrik",
-     "goals": 1,
-     "teamId": "94"
+     "teamId": "94",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T00:59:35.351Z"
@@ -2279,18 +2279,18 @@
    "scorers": [
     {
      "name": "Raport Dániel",
-     "goals": 3,
-     "teamId": "199"
+     "teamId": "199",
+     "goals": 3
     },
     {
      "name": "Stranyóczky László",
-     "goals": 1,
-     "teamId": "199"
+     "teamId": "199",
+     "goals": 1
     },
     {
      "name": "Alt Ákos",
-     "goals": 1,
-     "teamId": "199"
+     "teamId": "199",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T00:59:35.351Z"
@@ -2402,7 +2402,7 @@
    "teamId": "142",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Andorka Kristóf",
+    "name": "Bencze Mártom",
     "goals": 4
    },
    "seasonsCount": 8,

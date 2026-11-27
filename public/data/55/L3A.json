@@ -1993,8 +1993,8 @@
    "scorers": [
     {
      "name": "Tátrai Brúnó",
-     "goals": 4,
-     "teamId": "1479"
+     "teamId": "1479",
+     "goals": 4
     }
    ],
    "detailFetchedAt": "2026-11-27T00:59:35.351Z"
@@ -2012,28 +2012,28 @@
    "scorers": [
     {
      "name": "Németh Richárd",
-     "goals": 2,
-     "teamId": "26"
+     "teamId": "26",
+     "goals": 2
     },
     {
      "name": "Mikesy Tamás",
-     "goals": 1,
-     "teamId": "26"
+     "teamId": "26",
+     "goals": 1
     },
     {
      "name": "Kiss János",
-     "goals": 1,
-     "teamId": "26"
+     "teamId": "26",
+     "goals": 1
     },
     {
      "name": "Csipor Előd",
-     "goals": 1,
-     "teamId": "26"
+     "teamId": "26",
+     "goals": 1
     },
     {
      "name": "Selmeczi Péter",
-     "goals": 1,
-     "teamId": "26"
+     "teamId": "26",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T00:59:35.351Z"
@@ -2051,43 +2051,43 @@
    "scorers": [
     {
      "name": "Xeravits Domonkos",
-     "goals": 7,
-     "teamId": "161"
+     "teamId": "161",
+     "goals": 7
     },
     {
      "name": "Kovács Kristóf",
-     "goals": 3,
-     "teamId": "161"
+     "teamId": "161",
+     "goals": 3
     },
     {
      "name": "Dányi Gellért",
-     "goals": 2,
-     "teamId": "161"
+     "teamId": "161",
+     "goals": 2
     },
     {
      "name": "Méhes Levente",
-     "goals": 1,
-     "teamId": "161"
+     "teamId": "161",
+     "goals": 1
     },
     {
      "name": "Richlik Róbert Kristóf",
-     "goals": 3,
-     "teamId": "198"
+     "teamId": "198",
+     "goals": 3
     },
     {
      "name": "Tihanyi Márton",
-     "goals": 3,
-     "teamId": "198"
+     "teamId": "198",
+     "goals": 3
     },
     {
      "name": "Kovács Dominik",
-     "goals": 3,
-     "teamId": "198"
+     "teamId": "198",
+     "goals": 3
     },
     {
      "name": "Rékasy Zoltán",
-     "goals": 2,
-     "teamId": "198"
+     "teamId": "198",
+     "goals": 2
     }
    ],
    "detailFetchedAt": "2026-11-27T00:59:35.351Z"
@@ -2191,33 +2191,33 @@
    "scorers": [
     {
      "name": "Komán Attila",
-     "goals": 3,
-     "teamId": "82"
+     "teamId": "82",
+     "goals": 3
     },
     {
      "name": "Tomasovszky Péter",
-     "goals": 1,
-     "teamId": "82"
+     "teamId": "82",
+     "goals": 1
     },
     {
      "name": "Rékasy Zoltán",
-     "goals": 3,
-     "teamId": "198"
+     "teamId": "198",
+     "goals": 3
     },
     {
      "name": "Tihanyi Márton",
-     "goals": 3,
-     "teamId": "198"
+     "teamId": "198",
+     "goals": 3
     },
     {
      "name": "Richlik Róbert Kristóf",
-     "goals": 2,
-     "teamId": "198"
+     "teamId": "198",
+     "goals": 2
     },
     {
      "name": "Kovács Dominik",
-     "goals": 1,
-     "teamId": "198"
+     "teamId": "198",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T00:59:35.351Z"
@@ -2235,28 +2235,28 @@
    "scorers": [
     {
      "name": "Dányi Gellért",
-     "goals": 4,
-     "teamId": "161"
+     "teamId": "161",
+     "goals": 4
     },
     {
      "name": "Kovács Kristóf",
-     "goals": 3,
-     "teamId": "161"
+     "teamId": "161",
+     "goals": 3
     },
     {
      "name": "Zimányi Huba",
-     "goals": 2,
-     "teamId": "161"
+     "teamId": "161",
+     "goals": 2
     },
     {
      "name": "Méhes Levente",
-     "goals": 2,
-     "teamId": "161"
+     "teamId": "161",
+     "goals": 2
     },
     {
      "name": "Xeravits Domonkos",
-     "goals": 1,
-     "teamId": "161"
+     "teamId": "161",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T00:59:35.351Z"
@@ -2446,7 +2446,7 @@
    "teamId": "26",
    "bestLeague": "L2A",
    "topScorer": {
-    "name": "Dávid Bence",
+    "name": "Orosz Dávid",
     "goals": 5
    },
    "seasonsCount": 9,
@@ -2496,7 +2496,7 @@
    "teamId": "198",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Stift Máté Kálmán",
+    "name": "Tihanyi Márton",
     "goals": 5
    },
    "seasonsCount": 11,

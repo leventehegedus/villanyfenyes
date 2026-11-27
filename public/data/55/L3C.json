@@ -1838,38 +1838,38 @@
    "scorers": [
     {
      "name": "Veres András",
-     "goals": 3,
-     "teamId": "110"
+     "teamId": "110",
+     "goals": 3
     },
     {
      "name": "Németh Csaba",
-     "goals": 2,
-     "teamId": "110"
+     "teamId": "110",
+     "goals": 2
     },
     {
      "name": "Szűcs Tamás",
-     "goals": 2,
-     "teamId": "110"
+     "teamId": "110",
+     "goals": 2
     },
     {
      "name": "Szilágyi Bálint Zsolt",
-     "goals": 1,
-     "teamId": "110"
+     "teamId": "110",
+     "goals": 1
     },
     {
      "name": "Illyés Péter",
-     "goals": 1,
-     "teamId": "110"
+     "teamId": "110",
+     "goals": 1
     },
     {
      "name": "Füzesi Vince",
-     "goals": 1,
-     "teamId": "219"
+     "teamId": "219",
+     "goals": 1
     },
     {
      "name": "Tábori Péter",
-     "goals": 1,
-     "teamId": "219"
+     "teamId": "219",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T00:59:35.351Z"
@@ -1887,18 +1887,18 @@
    "scorers": [
     {
      "name": "Veres László Dávid",
-     "goals": 4,
-     "teamId": "230"
+     "teamId": "230",
+     "goals": 4
     },
     {
      "name": "Meszlényi Márk",
-     "goals": 2,
-     "teamId": "230"
+     "teamId": "230",
+     "goals": 2
     },
     {
      "name": "Balla Dávid",
-     "goals": 1,
-     "teamId": "230"
+     "teamId": "230",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T00:59:35.351Z"
@@ -1994,18 +1994,18 @@
    "scorers": [
     {
      "name": "Füzesi Vince",
-     "goals": 2,
-     "teamId": "219"
+     "teamId": "219",
+     "goals": 2
     },
     {
      "name": "Zsigmond Boldizsár",
-     "goals": 2,
-     "teamId": "219"
+     "teamId": "219",
+     "goals": 2
     },
     {
      "name": "Molnár Csaba",
-     "goals": 2,
-     "teamId": "219"
+     "teamId": "219",
+     "goals": 2
     }
    ],
    "detailFetchedAt": "2026-11-27T00:59:35.351Z"
@@ -2023,8 +2023,8 @@
    "scorers": [
     {
      "name": "Dr. Lukács Dávid",
-     "goals": 3,
-     "teamId": "41"
+     "teamId": "41",
+     "goals": 3
     }
    ],
    "detailFetchedAt": "2026-11-27T00:59:35.351Z"
@@ -2042,8 +2042,8 @@
    "scorers": [
     {
      "name": "Szó Bálint",
-     "goals": 3,
-     "teamId": "202"
+     "teamId": "202",
+     "goals": 3
     }
    ],
    "detailFetchedAt": "2026-11-27T00:59:35.351Z"
@@ -2236,7 +2236,7 @@
    "teamId": "192",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Könyves László",
+    "name": "Varga Örs",
     "goals": 6
    },
    "seasonsCount": 5,
