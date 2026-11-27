@@ -69,3 +69,7 @@ Rankings and match lists share two row colours: page background and `--stripe` (
 ## 2026-11-24 schedule opens on today's matches (branch `feat/daily-matches`)
 
 `/menetrend` without `l` in the URL shows every league of the selected season on one Budapest day (`DayMatches`, `?d=YYYY-MM-DD`), grouped by league: today if it has matches, else the next match day, else the last; arrows jump to the previous/next day with matches (`siteDay`, `matchDays`, `pickDay`, `stepDay` in `src/lib/schedule.ts`). The league picker there has "Minden liga" (removes `l`); choosing a league shows the usual week-grouped schedule with filters. The Menetrend nav link keeps only the season (`keepSeason`), so it always opens on every league. League files load with `useQueries` and the shared `leagueQuery` options. Checked: desktop dark (all leagues, switching to L2B), mobile light; e2e green.
+
+## 2026-11-27 mobile bottom nav docked
+
+The mobile bottom nav is no longer floating: it is docked to the bottom edge, full width and opaque, with safe-area padding (`viewport-fit=cover` in `index.html`; the layout root and the "more" sheet respect the insets). Checked in Chromium, iPhone 13 emulation, both themes; hidden on desktop. Not checked on a real iPhone. Open: all e2e smoke tests fail on a 404 console error, with and without this change (CI red since "feat: add Vercel Web Analytics").

@@ -110,7 +110,7 @@ export function Layout() {
   const sourceUrl = seasonId !== null && league ? `${SOURCE_SITE}/tabella?selected_season=${seasonId}&league=${league}` : `${SOURCE_SITE}/tabella`
 
   return (
-    <div className="flex min-h-svh flex-col">
+    <div className="flex min-h-svh flex-col pr-[env(safe-area-inset-right)] pl-[env(safe-area-inset-left)]">
       <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:z-50 focus:bg-background focus:p-2">
         {t('skipToContent')}
       </a>
@@ -145,7 +145,7 @@ export function Layout() {
 
       <nav
         aria-label={t('menu')}
-        className="fixed inset-x-3 bottom-[max(0.75rem,env(safe-area-inset-bottom))] z-30 grid grid-cols-4 gap-1 bg-neutral-950/90 p-1 text-white shadow-lg backdrop-blur lg:hidden"
+        className="fixed inset-x-0 bottom-0 z-30 grid grid-cols-4 gap-1 bg-neutral-950 pt-1 pr-[max(0.25rem,env(safe-area-inset-right))] pb-[max(0.25rem,env(safe-area-inset-bottom))] pl-[max(0.25rem,env(safe-area-inset-left))] text-white shadow-lg lg:hidden"
       >
         <NavItems items={PRIMARY} keep={keep} keepSeason={keepSeason} className={cn(ON_DARK, 'flex-col gap-0.5 py-2 text-[10px]')} activeClassName={ON_DARK_ACTIVE} />
         <button type="button" onClick={() => setMoreOpen(true)} className={cn(ON_DARK, 'flex flex-col items-center gap-0.5 py-2 font-heading text-[10px] font-semibold')}>
@@ -159,7 +159,7 @@ export function Layout() {
             <SheetTitle>{t('menu')}</SheetTitle>
             <SheetDescription className="sr-only">{t('appTagline')}</SheetDescription>
           </SheetHeader>
-          <nav className="grid gap-1 px-4 pb-6">
+          <nav className="grid gap-1 px-4 pb-[calc(1.5rem+env(safe-area-inset-bottom))]">
             <NavItems items={SECONDARY} keep={keep} keepSeason={keepSeason} onNavigate={() => setMoreOpen(false)} className="py-3 text-base" />
           </nav>
         </SheetContent>
