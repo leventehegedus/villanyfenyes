@@ -1985,23 +1985,23 @@
    "scorers": [
     {
      "name": "Tóth Gellért",
-     "goals": 2,
-     "teamId": "27"
+     "teamId": "27",
+     "goals": 2
     },
     {
      "name": "Szabó Mátyás",
-     "goals": 2,
-     "teamId": "27"
+     "teamId": "27",
+     "goals": 2
     },
     {
      "name": "Stirling Balázs",
-     "goals": 1,
-     "teamId": "72"
+     "teamId": "72",
+     "goals": 1
     },
     {
      "name": "Balázs Ádám Makk",
-     "goals": 1,
-     "teamId": "72"
+     "teamId": "72",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T12:18:54.422Z"
@@ -2067,7 +2067,7 @@
      "teamId": "27"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "56640",
@@ -2121,7 +2121,7 @@
      "teamId": "146"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57328",
@@ -2140,7 +2140,7 @@
      "teamId": "98"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57357",
@@ -2223,7 +2223,7 @@
      "teamId": "233"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57389",
@@ -2282,7 +2282,7 @@
      "teamId": "98"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57399",
@@ -2295,7 +2295,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57405",
@@ -2324,7 +2324,7 @@
      "teamId": "146"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "x-55-L3B-202611302000-vizes-zsomle-relazio",
@@ -2535,7 +2535,7 @@
    "teamId": "146",
    "bestLeague": "L2A",
    "topScorer": {
-    "name": "Mándi Ferenc",
+    "name": "Alács Mihály",
     "goals": 5
    },
    "seasonsCount": 12,
@@ -2575,7 +2575,7 @@
    "teamId": "72",
    "bestLeague": "L3B",
    "topScorer": {
-    "name": "Stirling Balázs",
+    "name": "Zsinka László István",
     "goals": 5
    },
    "seasonsCount": 4,

@@ -5,14 +5,14 @@
  "sourceUrl": "https://villanyfenyesbajnoksag.hu/tabella?selected_season=55&league=L1",
  "teams": [
   {
-   "id": "69",
-   "siteId": 69,
-   "name": "Lokomotív MFC"
-  },
-  {
    "id": "142",
    "siteId": 142,
    "name": "Szponzorok helye:_____"
+  },
+  {
+   "id": "69",
+   "siteId": 69,
+   "name": "Lokomotív MFC"
   },
   {
    "id": "100",
@@ -35,14 +35,14 @@
    "name": "Milinte te szemét Club de Football"
   },
   {
-   "id": "238",
-   "siteId": 238,
-   "name": "Jézus tanítványai"
-  },
-  {
    "id": "94",
    "siteId": 94,
    "name": "Turbo Nitro Super Team"
+  },
+  {
+   "id": "238",
+   "siteId": 238,
+   "name": "Jézus tanítványai"
   },
   {
    "id": "149",
@@ -68,6 +68,22 @@
  "standings": [
   {
    "position": 1,
+   "teamId": "142",
+   "played": 10,
+   "won": 8,
+   "drawn": 1,
+   "lost": 1,
+   "goalsFor": 43,
+   "goalsAgainst": 21,
+   "goalDiff": 22,
+   "points": 25,
+   "markers": [
+    "winStreak",
+    "fewConceded"
+   ]
+  },
+  {
+   "position": 2,
    "teamId": "69",
    "played": 9,
    "won": 8,
@@ -80,22 +96,6 @@
    "markers": [
     "winStreak",
     "manyGoals",
-    "fewConceded"
-   ]
-  },
-  {
-   "position": 2,
-   "teamId": "142",
-   "played": 9,
-   "won": 7,
-   "drawn": 1,
-   "lost": 1,
-   "goalsFor": 40,
-   "goalsAgainst": 19,
-   "goalDiff": 21,
-   "points": 22,
-   "markers": [
-    "winStreak",
     "fewConceded"
    ]
   },
@@ -161,29 +161,33 @@
   },
   {
    "position": 7,
-   "teamId": "238",
-   "played": 9,
+   "teamId": "94",
+   "played": 10,
    "won": 4,
    "drawn": 0,
-   "lost": 5,
-   "goalsFor": 31,
-   "goalsAgainst": 40,
+   "lost": 6,
+   "goalsFor": 45,
+   "goalsAgainst": 54,
    "goalDiff": -9,
    "points": 12,
-   "markers": []
+   "markers": [
+    "winStreak"
+   ]
   },
   {
    "position": 8,
-   "teamId": "94",
-   "played": 9,
-   "won": 3,
+   "teamId": "238",
+   "played": 10,
+   "won": 4,
    "drawn": 0,
    "lost": 6,
-   "goalsFor": 37,
-   "goalsAgainst": 49,
+   "goalsFor": 36,
+   "goalsAgainst": 48,
    "goalDiff": -12,
-   "points": 9,
-   "markers": []
+   "points": 12,
+   "markers": [
+    "lossStreak"
+   ]
   },
   {
    "position": 9,
@@ -234,15 +238,16 @@
   {
    "position": 12,
    "teamId": "107",
-   "played": 9,
+   "played": 10,
    "won": 1,
    "drawn": 2,
-   "lost": 6,
-   "goalsFor": 31,
-   "goalsAgainst": 47,
-   "goalDiff": -16,
+   "lost": 7,
+   "goalsFor": 33,
+   "goalsAgainst": 50,
+   "goalDiff": -17,
    "points": 5,
    "markers": [
+    "lossStreak",
     "relegation"
    ]
   }
@@ -2112,7 +2117,7 @@
      "teamId": "199"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "48352",
@@ -2203,7 +2208,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "48355",
@@ -2216,7 +2221,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "48356",
@@ -2225,10 +2230,30 @@
    "awayTeamId": "94",
    "kickoff": "2026-11-25T20:00:00.000Z",
    "venue": "Bogdánfy_1",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 5,
+   "awayGoals": 8,
+   "status": "played",
    "scorers": [
+    {
+     "name": "Maafi Dávid",
+     "goals": 2,
+     "teamId": "238"
+    },
+    {
+     "name": "Gelics Márton",
+     "goals": 1,
+     "teamId": "238"
+    },
+    {
+     "name": "Gauzer Levente",
+     "goals": 1,
+     "teamId": "238"
+    },
+    {
+     "name": "Szűcs Balázs",
+     "goals": 1,
+     "teamId": "238"
+    },
     {
      "name": "Sugár Soma",
      "goals": 3,
@@ -2250,7 +2275,7 @@
      "teamId": "94"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "48357",
@@ -2263,7 +2288,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "48358",
@@ -2278,33 +2303,33 @@
    "scorers": [
     {
      "name": "Füle András",
-     "goals": 2,
-     "teamId": "100"
+     "teamId": "100",
+     "goals": 2
     },
     {
      "name": "Horváth Zalán",
-     "goals": 2,
-     "teamId": "100"
+     "teamId": "100",
+     "goals": 2
     },
     {
      "name": "Horváth Bálint",
-     "goals": 1,
-     "teamId": "100"
+     "teamId": "100",
+     "goals": 1
     },
     {
      "name": "Raport Dániel",
-     "goals": 3,
-     "teamId": "199"
+     "teamId": "199",
+     "goals": 3
     },
     {
      "name": "Stranyóczky László",
-     "goals": 1,
-     "teamId": "199"
+     "teamId": "199",
+     "goals": 1
     },
     {
      "name": "Alt Ákos",
-     "goals": 1,
-     "teamId": "199"
+     "teamId": "199",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T12:18:54.422Z"
@@ -2316,9 +2341,9 @@
    "awayTeamId": "142",
    "kickoff": "2026-11-26T20:00:00.000Z",
    "venue": "Bogdánfy_1",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "status": "played",
    "scorers": [
     {
      "name": "Szabo Andras",
@@ -2329,9 +2354,19 @@
      "name": "Novák Dániel",
      "goals": 1,
      "teamId": "107"
+    },
+    {
+     "name": "Szigeti Balázs",
+     "goals": 2,
+     "teamId": "142"
+    },
+    {
+     "name": "Palásthy István",
+     "goals": 1,
+     "teamId": "142"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "x-55-L1-202612021800-szia-uram-invincibles",
@@ -2414,16 +2449,6 @@
  ],
  "summaries": [
   {
-   "teamId": "69",
-   "bestLeague": "L1",
-   "topScorer": {
-    "name": "Mogyorósi Zoltán",
-    "goals": 12
-   },
-   "seasonsCount": 22,
-   "matchesPlayed": 9
-  },
-  {
    "teamId": "142",
    "bestLeague": "L1",
    "topScorer": {
@@ -2431,6 +2456,16 @@
     "goals": 4
    },
    "seasonsCount": 8,
+   "matchesPlayed": 10
+  },
+  {
+   "teamId": "69",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Mogyorósi Zoltán",
+    "goals": 12
+   },
+   "seasonsCount": 22,
    "matchesPlayed": 9
   },
   {
@@ -2474,16 +2509,6 @@
    "matchesPlayed": 8
   },
   {
-   "teamId": "238",
-   "bestLeague": "L1",
-   "topScorer": {
-    "name": "Maafi Dávid",
-    "goals": 10
-   },
-   "seasonsCount": 7,
-   "matchesPlayed": 9
-  },
-  {
    "teamId": "94",
    "bestLeague": "L1",
    "topScorer": {
@@ -2491,13 +2516,23 @@
     "goals": 8
    },
    "seasonsCount": 19,
-   "matchesPlayed": 9
+   "matchesPlayed": 10
+  },
+  {
+   "teamId": "238",
+   "bestLeague": "L1",
+   "topScorer": {
+    "name": "Maafi Dávid",
+    "goals": 10
+   },
+   "seasonsCount": 7,
+   "matchesPlayed": 10
   },
   {
    "teamId": "149",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Markó Péter Dániel",
+    "name": "Szabó Koppány",
     "goals": 5
    },
    "seasonsCount": 9,
@@ -2531,7 +2566,7 @@
     "goals": 13
    },
    "seasonsCount": 22,
-   "matchesPlayed": 9
+   "matchesPlayed": 10
   }
  ]
 }

@@ -2008,7 +2008,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57323",
@@ -2076,7 +2076,7 @@
      "teamId": "1523"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57378",
@@ -2115,7 +2115,7 @@
      "teamId": "126"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57360",
@@ -2130,52 +2130,78 @@
    "scorers": [
     {
      "name": "Fazakas Csaba",
-     "teamId": "36",
-     "goals": 1
+     "goals": 1,
+     "teamId": "36"
     },
     {
      "name": "Némedi Balázs",
-     "teamId": "1521",
-     "goals": 3
+     "goals": 3,
+     "teamId": "1521"
     },
     {
      "name": "Mátyás Szívós",
-     "teamId": "1521",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1521"
     },
     {
      "name": "Prága Kristóf",
-     "teamId": "1521",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1521"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
-   "id": "x-55-L4A-202611271700-nocc-kanti-ibiza",
-   "siteId": null,
+   "id": "57425",
+   "siteId": 57425,
    "homeTeamId": "152",
    "awayTeamId": "1520",
    "kickoff": "2026-11-27T17:00:00.000Z",
    "venue": "Bogdánfy_3",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [
+    {
+     "name": "Prohászka Kristóf",
+     "goals": 1,
+     "teamId": "1520"
+    },
+    {
+     "name": "Klein Patrik",
+     "goals": 1,
+     "teamId": "1520"
+    },
+    {
+     "name": "Fatuska Benedek",
+     "goals": 1,
+     "teamId": "1520"
+    },
+    {
+     "name": "Pikács Patrik",
+     "goals": 1,
+     "teamId": "1520"
+    },
+    {
+     "name": "Lupu-Maár Endre",
+     "goals": 1,
+     "teamId": "1520"
+    }
+   ],
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
-   "id": "x-55-L4A-202611272000-kispalyasok-kfc-light",
-   "siteId": null,
+   "id": "57414",
+   "siteId": 57414,
    "homeTeamId": "20",
    "awayTeamId": "205",
    "kickoff": "2026-11-27T20:00:00.000Z",
    "venue": "Bogdánfy_3",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "x-55-L4A-202612021800-buda-ballers-ibiza",
@@ -2346,7 +2372,7 @@
    "teamId": "126",
    "bestLeague": "L2B",
    "topScorer": {
-    "name": "Nagy Ádám",
+    "name": "Himics Dávid",
     "goals": 6
    },
    "seasonsCount": 10,
@@ -2386,7 +2412,7 @@
    "teamId": "1471",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Daróczi Péter",
+    "name": "Papp Zsombor István",
     "goals": 3
    },
    "seasonsCount": 4,

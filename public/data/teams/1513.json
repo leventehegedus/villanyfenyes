@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 8,
+    "played": 9,
     "won": 3,
     "drawn": 1,
-    "lost": 4,
-    "goalsFor": 54,
-    "goalsAgainst": 55,
+    "lost": 5,
+    "goalsFor": 56,
+    "goalsAgainst": 60,
     "points": 10
    }
   }
@@ -128,6 +128,19 @@
     "goalsAgainst": 9,
     "points": 0
    }
+  },
+  {
+   "teamId": "147",
+   "name": "GABSZK",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 5,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -203,7 +216,7 @@
    }
   },
   "loss": {
-   "length": 2,
+   "length": 3,
    "from": {
     "seasonId": 55,
     "league": "L4C",
@@ -216,28 +229,28 @@
    "to": {
     "seasonId": 55,
     "league": "L4C",
-    "matchId": "57346",
-    "kickoff": "2026-11-20T18:00:00.000Z",
-    "opponentId": "101",
-    "goalsFor": 5,
-    "goalsAgainst": 9
+    "matchId": "57376",
+    "kickoff": "2026-11-25T18:00:00.000Z",
+    "opponentId": "147",
+    "goalsFor": 2,
+    "goalsAgainst": 5
    }
   }
  },
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 8,
-  "coveredMatches": 8,
+  "playedMatches": 9,
+  "coveredMatches": 9,
   "rows": [
    {
-    "name": "Heim Balázs",
-    "goals": 17,
-    "matches": 6,
+    "name": "Péter Németh",
+    "goals": 18,
+    "matches": 7,
     "hatTricks": 3
    },
    {
-    "name": "Péter Németh",
+    "name": "Heim Balázs",
     "goals": 17,
     "matches": 6,
     "hatTricks": 3
@@ -256,8 +269,8 @@
    },
    {
     "name": "Szabó Szilárd",
-    "goals": 3,
-    "matches": 2,
+    "goals": 4,
+    "matches": 3,
     "hatTricks": 0
    },
    {

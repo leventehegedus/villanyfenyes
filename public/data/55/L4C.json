@@ -86,14 +86,14 @@
   {
    "position": 2,
    "teamId": "147",
-   "played": 8,
-   "won": 6,
+   "played": 9,
+   "won": 7,
    "drawn": 1,
    "lost": 1,
-   "goalsFor": 36,
-   "goalsAgainst": 18,
-   "goalDiff": 18,
-   "points": 19,
+   "goalsFor": 41,
+   "goalsAgainst": 20,
+   "goalDiff": 21,
+   "points": 22,
    "markers": [
     "fewConceded",
     "promotion"
@@ -169,13 +169,13 @@
   {
    "position": 8,
    "teamId": "1513",
-   "played": 8,
+   "played": 9,
    "won": 3,
    "drawn": 1,
-   "lost": 4,
-   "goalsFor": 54,
-   "goalsAgainst": 55,
-   "goalDiff": -1,
+   "lost": 5,
+   "goalsFor": 56,
+   "goalsAgainst": 60,
+   "goalDiff": -4,
    "points": 10,
    "markers": [
     "lossStreak",
@@ -2071,7 +2071,7 @@
      "teamId": "131"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57346",
@@ -2173,9 +2173,9 @@
    "awayTeamId": "1513",
    "kickoff": "2026-11-25T18:00:00.000Z",
    "venue": "Bogdánfy_2",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "status": "played",
    "scorers": [
     {
      "name": "Nagy Kristóf",
@@ -2186,9 +2186,19 @@
      "name": "Nagy Gábor",
      "goals": 2,
      "teamId": "147"
+    },
+    {
+     "name": "Szabó Szilárd",
+     "goals": 1,
+     "teamId": "1513"
+    },
+    {
+     "name": "Péter Németh",
+     "goals": 1,
+     "teamId": "1513"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57370",
@@ -2200,8 +2210,39 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "scorers": [
+    {
+     "name": "Hajdu Tibor",
+     "goals": 2,
+     "teamId": "47"
+    },
+    {
+     "name": "Pallaghy József Barnabás",
+     "goals": 1,
+     "teamId": "47"
+    },
+    {
+     "name": "Széll Sándor",
+     "goals": 1,
+     "teamId": "47"
+    },
+    {
+     "name": "Váradi Vince",
+     "goals": 3,
+     "teamId": "86"
+    },
+    {
+     "name": "Kolok István Baksa",
+     "goals": 1,
+     "teamId": "86"
+    },
+    {
+     "name": "Varga Lukács",
+     "goals": 1,
+     "teamId": "86"
+    }
+   ],
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "x-55-L4C-202612011700-team-miller-roby-bacsi-bunbandaja",
@@ -2392,7 +2433,7 @@
     "goals": 5
    },
    "seasonsCount": 5,
-   "matchesPlayed": 8
+   "matchesPlayed": 9
   },
   {
    "teamId": "153",
@@ -2408,7 +2449,7 @@
    "teamId": "1504",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Pothóczki Ábel",
+    "name": "Purosz Leonidasz",
     "goals": 5
    },
    "seasonsCount": 3,
@@ -2418,7 +2459,7 @@
    "teamId": "1512",
    "bestLeague": "L4C",
    "topScorer": {
-    "name": "Péter Adrián",
+    "name": "Kis Ádám",
     "goals": 4
    },
    "seasonsCount": 2,
@@ -2438,7 +2479,7 @@
    "teamId": "47",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Hajdu Tibor",
+    "name": "Molnár Ákos",
     "goals": 5
    },
    "seasonsCount": 26,
@@ -2452,7 +2493,7 @@
     "goals": 5
    },
    "seasonsCount": 2,
-   "matchesPlayed": 8
+   "matchesPlayed": 9
   },
   {
    "teamId": "131",

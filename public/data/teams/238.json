@@ -10,16 +10,16 @@
    "label": "2026 - Ősz",
    "league": "L1",
    "finished": false,
-   "position": 7,
+   "position": 8,
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 9,
+    "played": 10,
     "won": 4,
     "drawn": 0,
-    "lost": 5,
-    "goalsFor": 31,
-    "goalsAgainst": 40,
+    "lost": 6,
+    "goalsFor": 36,
+    "goalsAgainst": 48,
     "points": 12
    }
   }
@@ -141,6 +141,19 @@
     "goalsAgainst": 7,
     "points": 0
    }
+  },
+  {
+   "teamId": "94",
+   "name": "Turbo Nitro Super Team",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 8,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -165,11 +178,11 @@
   "highestScoring": {
    "seasonId": 55,
    "league": "L1",
-   "matchId": "48344",
-   "kickoff": "2026-11-11T20:00:00.000Z",
-   "opponentId": "166",
-   "goalsFor": 7,
-   "goalsAgainst": 4
+   "matchId": "48356",
+   "kickoff": "2026-11-25T20:00:00.000Z",
+   "opponentId": "94",
+   "goalsFor": 5,
+   "goalsAgainst": 8
   }
  },
  "streaks": {
@@ -240,13 +253,13 @@
  "cleanSheets": 0,
  "failedToScore": 1,
  "scorers": {
-  "playedMatches": 9,
-  "coveredMatches": 9,
+  "playedMatches": 10,
+  "coveredMatches": 10,
   "rows": [
    {
     "name": "Gauzer Levente",
-    "goals": 7,
-    "matches": 5,
+    "goals": 8,
+    "matches": 6,
     "hatTricks": 0
    },
    {
@@ -257,8 +270,14 @@
    },
    {
     "name": "Gelics Márton",
-    "goals": 6,
-    "matches": 5,
+    "goals": 7,
+    "matches": 6,
+    "hatTricks": 0
+   },
+   {
+    "name": "Maafi Dávid",
+    "goals": 4,
+    "matches": 3,
     "hatTricks": 0
    },
    {
@@ -268,21 +287,15 @@
     "hatTricks": 0
    },
    {
-    "name": "Maafi Dávid",
-    "goals": 2,
-    "matches": 2,
+    "name": "Szűcs Balázs",
+    "goals": 3,
+    "matches": 3,
     "hatTricks": 0
    },
    {
     "name": "Rimóczi Tamás",
     "goals": 2,
     "matches": 1,
-    "hatTricks": 0
-   },
-   {
-    "name": "Szűcs Balázs",
-    "goals": 2,
-    "matches": 2,
     "hatTricks": 0
    }
   ]

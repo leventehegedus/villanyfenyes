@@ -1996,7 +1996,7 @@
      "teamId": "1560"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57354",
@@ -2040,7 +2040,7 @@
      "teamId": "156"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57306",
@@ -2069,7 +2069,7 @@
      "teamId": "138"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57409",
@@ -2108,7 +2108,7 @@
      "teamId": "1575"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57379",
@@ -2137,7 +2137,7 @@
      "teamId": "156"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57417",
@@ -2176,20 +2176,31 @@
      "teamId": "1560"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
-   "id": "x-55-L5D-202611271800-beton-fc-inflazio",
-   "siteId": null,
+   "id": "57418",
+   "siteId": 57418,
    "homeTeamId": "51",
    "awayTeamId": "144",
    "kickoff": "2026-11-27T18:00:00.000Z",
    "venue": "Bogdánfy_3",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [
+    {
+     "name": "Szilágyi Imre",
+     "goals": 4,
+     "teamId": "51"
+    },
+    {
+     "name": "Kiss Dávid",
+     "goals": 2,
+     "teamId": "51"
+    }
+   ],
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "x-55-L5D-202611302000-inflazio-toki-taka-fc",
@@ -2463,7 +2474,7 @@
    "teamId": "1495",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Szücs Máté",
+    "name": "Erdős Péter Zsombot",
     "goals": 2
    },
    "seasonsCount": 3,

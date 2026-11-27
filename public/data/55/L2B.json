@@ -2000,28 +2000,28 @@
    "scorers": [
     {
      "name": "Dudás Zoltán",
-     "goals": 2,
-     "teamId": "220"
+     "teamId": "220",
+     "goals": 2
     },
     {
      "name": "Sári Márk",
-     "goals": 2,
-     "teamId": "220"
+     "teamId": "220",
+     "goals": 2
     },
     {
      "name": "Lontai Bendegúz",
-     "goals": 1,
-     "teamId": "220"
+     "teamId": "220",
+     "goals": 1
     },
     {
      "name": "Somogyi Kristóf",
-     "goals": 1,
-     "teamId": "220"
+     "teamId": "220",
+     "goals": 1
     },
     {
      "name": "Tuska József",
-     "goals": 1,
-     "teamId": "220"
+     "teamId": "220",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T12:18:54.422Z"
@@ -2107,7 +2107,7 @@
      "teamId": "29"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57320",
@@ -2209,7 +2209,7 @@
      "teamId": "154"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57353",
@@ -2222,7 +2222,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57413",
@@ -2310,7 +2310,7 @@
      "teamId": "154"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57402",
@@ -2323,7 +2323,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57385",
@@ -2338,21 +2338,21 @@
    "scorers": [
     {
      "name": "Mészáros László",
-     "teamId": "116",
-     "goals": 1
+     "goals": 1,
+     "teamId": "116"
     },
     {
      "name": "Petőfi Zsombor Pál",
-     "teamId": "116",
-     "goals": 1
+     "goals": 1,
+     "teamId": "116"
     },
     {
      "name": "Rádi Kristóf",
-     "teamId": "182",
-     "goals": 1
+     "goals": 1,
+     "teamId": "182"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "x-55-L2B-202611301700-tunyacsap-cefre-town",
@@ -2573,7 +2573,7 @@
    "teamId": "220",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Bertold Pék",
+    "name": "Vörös László",
     "goals": 5
    },
    "seasonsCount": 16,
@@ -2613,7 +2613,7 @@
    "teamId": "31",
    "bestLeague": "L2B",
    "topScorer": {
-    "name": "Kovács Bence",
+    "name": "Hencsei Zsombor",
     "goals": 3
    },
    "seasonsCount": 16,

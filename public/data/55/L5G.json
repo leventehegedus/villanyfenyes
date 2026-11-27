@@ -2131,7 +2131,7 @@
      "teamId": "1469"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57619",
@@ -2165,7 +2165,7 @@
      "teamId": "1518"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57326",
@@ -2204,7 +2204,7 @@
      "teamId": "1534"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57339",
@@ -2292,7 +2292,7 @@
      "teamId": "1488"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57415",
@@ -2344,7 +2344,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57373",
@@ -2373,33 +2373,33 @@
      "teamId": "1572"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
-   "id": "x-55-L5G-202611271700-footbalekok-gugugaga-gang",
-   "siteId": null,
+   "id": "57423",
+   "siteId": 57423,
    "homeTeamId": "1557",
    "awayTeamId": "1570",
    "kickoff": "2026-11-27T17:00:00.000Z",
    "venue": "Bogdánfy_2",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
-   "id": "x-55-L5G-202611271900-becsuszok-taktaharkanyi-ifjusagi-fuvoszenekar-u-40",
-   "siteId": null,
+   "id": "57394",
+   "siteId": 57394,
    "homeTeamId": "59",
    "awayTeamId": "1567",
    "kickoff": "2026-11-27T19:00:00.000Z",
    "venue": "Bogdánfy_2",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "x-55-L5G-202611301900-asc-legends-george-fc",

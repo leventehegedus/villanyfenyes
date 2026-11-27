@@ -1795,23 +1795,23 @@
    "scorers": [
     {
      "name": "Görgényi András",
-     "goals": 2,
-     "teamId": "1556"
+     "teamId": "1556",
+     "goals": 2
     },
     {
      "name": "Kollár Ádám",
-     "goals": 2,
-     "teamId": "1556"
+     "teamId": "1556",
+     "goals": 2
     },
     {
      "name": "Wang Tian Yao",
-     "goals": 1,
-     "teamId": "1556"
+     "teamId": "1556",
+     "goals": 1
     },
     {
      "name": "Brúnó Milassin",
-     "goals": 1,
-     "teamId": "1556"
+     "teamId": "1556",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T12:18:54.422Z"
@@ -1843,7 +1843,7 @@
      "teamId": "232"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57298",
@@ -1931,7 +1931,7 @@
      "teamId": "1556"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57310",
@@ -1970,7 +1970,7 @@
      "teamId": "227"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57358",
@@ -2053,7 +2053,7 @@
      "teamId": "1553"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57375",
@@ -2066,7 +2066,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57369",
@@ -2078,8 +2078,24 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "scorers": [
+    {
+     "name": "Rózsavölgyi Péter",
+     "goals": 2,
+     "teamId": "232"
+    },
+    {
+     "name": "Oláh Boldizsár",
+     "goals": 2,
+     "teamId": "232"
+    },
+    {
+     "name": "Farkas Bence",
+     "goals": 1,
+     "teamId": "232"
+    }
+   ],
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "x-55-L5H-202612011700-szamaras-se-rosario-juniors",
@@ -2306,7 +2322,7 @@
    "teamId": "35",
    "bestLeague": "L3C",
    "topScorer": {
-    "name": "Mórocz Bence",
+    "name": "Kész Roland",
     "goals": 6
    },
    "seasonsCount": 6,
@@ -2346,7 +2362,7 @@
    "teamId": "225",
    "bestLeague": "L5C",
    "topScorer": {
-    "name": "Kozma Boldizsár",
+    "name": "Komáromy Áron",
     "goals": 2
    },
    "seasonsCount": 4,

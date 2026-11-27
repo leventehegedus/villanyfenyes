@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L1",
    "finished": false,
-   "position": 2,
+   "position": 1,
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 9,
-    "won": 7,
+    "played": 10,
+    "won": 8,
     "drawn": 1,
     "lost": 1,
-    "goalsFor": 40,
-    "goalsAgainst": 19,
-    "points": 22
+    "goalsFor": 43,
+    "goalsAgainst": 21,
+    "points": 25
    }
   },
   {
@@ -478,6 +478,19 @@
     "goalsAgainst": 2,
     "points": 3
    }
+  },
+  {
+   "teamId": "107",
+   "name": "Banditák",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 2,
+    "points": 3
+   }
   }
  ],
  "records": {
@@ -577,13 +590,13 @@
  "cleanSheets": 9,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 64,
-  "coveredMatches": 64,
+  "playedMatches": 65,
+  "coveredMatches": 65,
   "rows": [
    {
     "name": "Szigeti Balázs",
-    "goals": 35,
-    "matches": 21,
+    "goals": 37,
+    "matches": 22,
     "hatTricks": 3
    },
    {
@@ -642,8 +655,8 @@
    },
    {
     "name": "Palásthy István",
-    "goals": 6,
-    "matches": 5,
+    "goals": 7,
+    "matches": 6,
     "hatTricks": 0
    },
    {

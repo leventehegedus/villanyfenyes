@@ -10,17 +10,17 @@
    "label": "2026 - Ősz",
    "league": "L1",
    "finished": false,
-   "position": 8,
+   "position": 7,
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 9,
-    "won": 3,
+    "played": 10,
+    "won": 4,
     "drawn": 0,
     "lost": 6,
-    "goalsFor": 37,
-    "goalsAgainst": 49,
-    "points": 9
+    "goalsFor": 45,
+    "goalsAgainst": 54,
+    "points": 12
    }
   },
   {
@@ -460,6 +460,19 @@
     "goalsAgainst": 4,
     "points": 3
    }
+  },
+  {
+   "teamId": "238",
+   "name": "Jézus tanítványai",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 5,
+    "points": 3
+   }
   }
  ],
  "records": {
@@ -559,8 +572,8 @@
  "cleanSheets": 4,
  "failedToScore": 5,
  "scorers": {
-  "playedMatches": 53,
-  "coveredMatches": 53,
+  "playedMatches": 54,
+  "coveredMatches": 54,
   "rows": [
    {
     "name": "Dikasz Csanád",
@@ -569,16 +582,22 @@
     "hatTricks": 4
    },
    {
+    "name": "Benyovszki Patrik",
+    "goals": 18,
+    "matches": 11,
+    "hatTricks": 1
+   },
+   {
     "name": "Szabó Nándor",
     "goals": 18,
     "matches": 10,
     "hatTricks": 2
    },
    {
-    "name": "Benyovszki Patrik",
-    "goals": 17,
-    "matches": 10,
-    "hatTricks": 1
+    "name": "Sugár Soma",
+    "goals": 16,
+    "matches": 6,
+    "hatTricks": 4
    },
    {
     "name": "Csokonay László",
@@ -591,12 +610,6 @@
     "goals": 13,
     "matches": 2,
     "hatTricks": 2
-   },
-   {
-    "name": "Sugár Soma",
-    "goals": 13,
-    "matches": 5,
-    "hatTricks": 3
    },
    {
     "name": "Dániel Tóth",
@@ -618,14 +631,14 @@
    },
    {
     "name": "Kántor Tibor",
-    "goals": 2,
-    "matches": 2,
+    "goals": 4,
+    "matches": 3,
     "hatTricks": 0
    },
    {
     "name": "Kiséry Máté Soma",
-    "goals": 2,
-    "matches": 1,
+    "goals": 4,
+    "matches": 2,
     "hatTricks": 0
    },
    {

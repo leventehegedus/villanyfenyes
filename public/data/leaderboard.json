@@ -702,8 +702,8 @@
    "name": "Turbo Nitro Super Team",
    "titles": 0,
    "l1Seasons": 5,
-   "won": 20,
-   "goalsFor": 223
+   "won": 21,
+   "goalsFor": 231
   },
   {
    "teamId": "161",
@@ -743,7 +743,7 @@
    "titles": 0,
    "l1Seasons": 3,
    "won": 7,
-   "goalsFor": 94
+   "goalsFor": 96
   },
   {
    "teamId": "158",
@@ -806,8 +806,8 @@
    "name": "Szponzorok helye:_____",
    "titles": 3,
    "l1Seasons": 6,
-   "won": 48,
-   "goalsFor": 281
+   "won": 49,
+   "goalsFor": 284
   },
   {
    "teamId": "37",
@@ -951,7 +951,7 @@
    "titles": 0,
    "l1Seasons": 1,
    "won": 4,
-   "goalsFor": 31
+   "goalsFor": 36
   },
   {
    "teamId": "108",
@@ -1526,8 +1526,8 @@
    "name": "GABSZK",
    "titles": 0,
    "l1Seasons": 0,
-   "won": 6,
-   "goalsFor": 36
+   "won": 7,
+   "goalsFor": 41
   },
   {
    "teamId": "1504",
@@ -1567,7 +1567,7 @@
    "titles": 0,
    "l1Seasons": 0,
    "won": 3,
-   "goalsFor": 54
+   "goalsFor": 56
   },
   {
    "teamId": "131",

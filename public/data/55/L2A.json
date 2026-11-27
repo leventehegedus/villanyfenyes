@@ -1908,7 +1908,7 @@
      "teamId": "170"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57300",
@@ -1947,7 +1947,7 @@
      "teamId": "38"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57332",
@@ -1960,7 +1960,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57318",
@@ -2048,7 +2048,7 @@
      "teamId": "45"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57380",
@@ -2107,7 +2107,7 @@
      "teamId": "170"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57411",
@@ -2119,8 +2119,19 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "scorers": [
+    {
+     "name": "Nieselberger Ádám",
+     "goals": 3,
+     "teamId": "109"
+    },
+    {
+     "name": "Horváth Barnabás",
+     "goals": 1,
+     "teamId": "109"
+    }
+   ],
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57386",
@@ -2149,7 +2160,7 @@
      "teamId": "139"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57372",
@@ -2162,7 +2173,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "x-55-L2A-202611301900-national-sechs-al-dubai",
@@ -2449,7 +2460,7 @@
    "teamId": "70",
    "bestLeague": "L2A",
    "topScorer": {
-    "name": "Markóczy Márk",
+    "name": "Schütz Ádám",
     "goals": 6
    },
    "seasonsCount": 5,

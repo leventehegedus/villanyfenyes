@@ -2052,7 +2052,7 @@
      "teamId": "1537"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "56572",
@@ -2091,7 +2091,7 @@
      "teamId": "1530"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57289",
@@ -2140,7 +2140,7 @@
      "teamId": "1530"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57330",
@@ -2184,7 +2184,7 @@
      "teamId": "96"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57319",
@@ -2248,7 +2248,7 @@
      "teamId": "189"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57421",
@@ -2282,7 +2282,7 @@
      "teamId": "50"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57359",
@@ -2306,7 +2306,7 @@
      "teamId": "1528"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57406",
@@ -2330,20 +2330,51 @@
      "teamId": "1530"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
-   "id": "x-55-L4D-202611271800-kaptalan-seskoffender",
-   "siteId": null,
+   "id": "57426",
+   "siteId": 57426,
    "homeTeamId": "221",
    "awayTeamId": "1515",
    "kickoff": "2026-11-27T18:00:00.000Z",
    "venue": "Bogdánfy_2",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [
+    {
+     "name": "Könye Nátán",
+     "goals": 3,
+     "teamId": "1515"
+    },
+    {
+     "name": "Makkos Gergely",
+     "goals": 3,
+     "teamId": "1515"
+    },
+    {
+     "name": "Czövek Soma Attila",
+     "goals": 1,
+     "teamId": "1515"
+    },
+    {
+     "name": "Bitz Attila",
+     "goals": 1,
+     "teamId": "1515"
+    },
+    {
+     "name": "Jakus Jusztin",
+     "goals": 1,
+     "teamId": "1515"
+    },
+    {
+     "name": "Susán Dániel József",
+     "goals": 1,
+     "teamId": "1515"
+    }
+   ],
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "x-55-L4D-202611301700-hoferovonat-goats-fc",
@@ -2563,7 +2594,7 @@
    "teamId": "221",
    "bestLeague": "L4D",
    "topScorer": {
-    "name": "Marton Lázár",
+    "name": "Bangó-Fi Domonkos",
     "goals": 6
    },
    "seasonsCount": 4,
@@ -2623,7 +2654,7 @@
    "teamId": "50",
    "bestLeague": "L2A",
    "topScorer": {
-    "name": "Kálóczi István",
+    "name": "Bakó Dávid",
     "goals": 7
    },
    "seasonsCount": 7,
@@ -2643,7 +2674,7 @@
    "teamId": "1537",
    "bestLeague": "L4D",
    "topScorer": {
-    "name": "Szilágyi Bálint Zsolt",
+    "name": "Lukács Gergő",
     "goals": 5
    },
    "seasonsCount": 2,

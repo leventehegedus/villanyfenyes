@@ -1941,7 +1941,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57297",
@@ -2000,36 +2000,36 @@
    "scorers": [
     {
      "name": "Morvai Gábor",
-     "teamId": "24",
-     "goals": 4
+     "goals": 4,
+     "teamId": "24"
     },
     {
      "name": "Beleznai Kornél",
-     "teamId": "24",
-     "goals": 3
+     "goals": 3,
+     "teamId": "24"
     },
     {
      "name": "Szemes Péter",
-     "teamId": "24",
-     "goals": 3
+     "goals": 3,
+     "teamId": "24"
     },
     {
      "name": "Czotter Istvan",
-     "teamId": "125",
-     "goals": 2
+     "goals": 2,
+     "teamId": "125"
     },
     {
      "name": "Tar Marcell",
-     "teamId": "125",
-     "goals": 1
+     "goals": 1,
+     "teamId": "125"
     },
     {
      "name": "Németh Ákos",
-     "teamId": "125",
-     "goals": 1
+     "goals": 1,
+     "teamId": "125"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57478",
@@ -2042,7 +2042,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57391",
@@ -2057,62 +2057,62 @@
    "scorers": [
     {
      "name": "Tóth Ákos",
-     "goals": 1,
-     "teamId": "58"
+     "teamId": "58",
+     "goals": 1
     },
     {
      "name": "Sudár Roland",
-     "goals": 1,
-     "teamId": "58"
+     "teamId": "58",
+     "goals": 1
     },
     {
      "name": "Németh Bence",
-     "goals": 1,
-     "teamId": "58"
+     "teamId": "58",
+     "goals": 1
     },
     {
      "name": "Bácskai Zoltán",
-     "goals": 1,
-     "teamId": "143"
+     "teamId": "143",
+     "goals": 1
     },
     {
      "name": "Tóth Gergely",
-     "goals": 1,
-     "teamId": "143"
+     "teamId": "143",
+     "goals": 1
     },
     {
      "name": "Fukker Norbert",
-     "goals": 1,
-     "teamId": "143"
+     "teamId": "143",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T12:18:54.422Z"
   },
   {
-   "id": "x-55-L5B-202611271800-zomboss-sordogok",
-   "siteId": null,
+   "id": "57419",
+   "siteId": 57419,
    "homeTeamId": "57",
    "awayTeamId": "1533",
    "kickoff": "2026-11-27T18:00:00.000Z",
    "venue": "Bogdánfy_1",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
-   "id": "x-55-L5B-202611271900-csendes-fifa-aliz-utca-fc",
-   "siteId": null,
+   "id": "57384",
+   "siteId": 57384,
    "homeTeamId": "215",
    "awayTeamId": "1559",
    "kickoff": "2026-11-27T19:00:00.000Z",
    "venue": "Bogdánfy_4",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "x-55-L5B-202612031900-jo-az-x-energeng",
@@ -2389,7 +2389,7 @@
    "teamId": "1559",
    "bestLeague": "L5B",
    "topScorer": {
-    "name": "Hudi Martin",
+    "name": "Loósz Benedek",
     "goals": 3
    },
    "seasonsCount": 1,

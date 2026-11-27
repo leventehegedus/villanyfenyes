@@ -1462,28 +1462,28 @@
    "scorers": [
     {
      "name": "Fodor András",
-     "goals": 2,
-     "teamId": "203"
+     "teamId": "203",
+     "goals": 2
     },
     {
      "name": "Fülöp Bence",
-     "goals": 1,
-     "teamId": "203"
+     "teamId": "203",
+     "goals": 1
     },
     {
      "name": "Prezsnyák Péter",
-     "goals": 1,
-     "teamId": "203"
+     "teamId": "203",
+     "goals": 1
     },
     {
      "name": "Vichnalek Dávid",
-     "goals": 3,
-     "teamId": "1568"
+     "teamId": "1568",
+     "goals": 3
     },
     {
      "name": "Tomojzer Péter",
-     "goals": 2,
-     "teamId": "1568"
+     "teamId": "1568",
+     "goals": 2
     }
    ],
    "detailFetchedAt": "2026-11-27T12:18:54.422Z"
@@ -1498,8 +1498,24 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "scorers": [
+    {
+     "name": "Gór Viktor",
+     "goals": 2,
+     "teamId": "122"
+    },
+    {
+     "name": "Kovacs-Pal Zsolt",
+     "goals": 1,
+     "teamId": "122"
+    },
+    {
+     "name": "Fűrész Márton",
+     "goals": 1,
+     "teamId": "122"
+    }
+   ],
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57308",
@@ -1512,7 +1528,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57287",
@@ -1564,7 +1580,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57377",
@@ -1691,7 +1707,7 @@
      "teamId": "55"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57367",
@@ -1725,46 +1741,46 @@
      "teamId": "89"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
-   "id": "x-55-L5F-202611271700-asfc-ekho",
-   "siteId": null,
+   "id": "57502",
+   "siteId": 57502,
    "homeTeamId": "99",
    "awayTeamId": "157",
    "kickoff": "2026-11-27T17:00:00.000Z",
    "venue": "Bogdánfy_1",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
-   "id": "x-55-L5F-202611272000-torteto-maszkos-buzak-football-fanatix",
-   "siteId": null,
+   "id": "57420",
+   "siteId": 57420,
    "homeTeamId": "122",
    "awayTeamId": "1552",
    "kickoff": "2026-11-27T20:00:00.000Z",
    "venue": "Bogdánfy_2",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
-   "id": "x-55-L5F-202611272000-golvagohid-kecsap",
-   "siteId": null,
+   "id": "57368",
+   "siteId": 57368,
    "homeTeamId": "203",
    "awayTeamId": "1549",
    "kickoff": "2026-11-27T20:00:00.000Z",
    "venue": "Bogdánfy_4",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "x-55-L5F-202612012000-fontolva-harapok-john-pork-s-eleven",

@@ -1997,7 +1997,7 @@
      "teamId": "1479"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57324",
@@ -2036,7 +2036,7 @@
      "teamId": "26"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57288",
@@ -2090,7 +2090,7 @@
      "teamId": "198"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57627",
@@ -2220,7 +2220,7 @@
      "teamId": "198"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "57361",
@@ -2259,7 +2259,7 @@
      "teamId": "161"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
   },
   {
    "id": "x-55-L3A-202611301800-berug-fc-penisz-land",
@@ -2446,7 +2446,7 @@
    "teamId": "26",
    "bestLeague": "L2A",
    "topScorer": {
-    "name": "Dávid Bence",
+    "name": "Orosz Dávid",
     "goals": 5
    },
    "seasonsCount": 9,
@@ -2496,7 +2496,7 @@
    "teamId": "198",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Stift Máté Kálmán",
+    "name": "Tihanyi Márton",
     "goals": 5
    },
    "seasonsCount": 11,
