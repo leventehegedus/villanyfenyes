@@ -7,6 +7,8 @@ test.afterEach(async ({ page }, info) => {
 })
 
 test.beforeEach(async ({ page }, info) => {
+  // Vercel serves the Web Analytics script only on its own hosting; stub it so the local preview does not 404.
+  await page.route('**/_vercel/insights/script.js', (route) => route.fulfill({ contentType: 'text/javascript', body: '' }))
   page.on('console', (m) => m.type() === 'error' && info.annotations.push({ type: 'console-error', description: m.text() }))
   page.on('pageerror', (e) => info.annotations.push({ type: 'console-error', description: e.message }))
 })
