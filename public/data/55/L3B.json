@@ -243,6 +243,7 @@
    "points": 2,
    "markers": [
     "lossStreak",
+    "fewConceded",
     "relegation"
    ]
   }
@@ -1891,28 +1892,28 @@
    "scorers": [
     {
      "name": "Szász Viktor",
-     "goals": 2,
-     "teamId": "43"
+     "teamId": "43",
+     "goals": 2
     },
     {
      "name": "Kovács Áron",
-     "goals": 2,
-     "teamId": "43"
+     "teamId": "43",
+     "goals": 2
     },
     {
      "name": "Bakucz Dániel Attila",
-     "goals": 1,
-     "teamId": "43"
+     "teamId": "43",
+     "goals": 1
     },
     {
      "name": "Theobald Bence",
-     "goals": 1,
-     "teamId": "43"
+     "teamId": "43",
+     "goals": 1
     },
     {
      "name": "Bálint Varga",
-     "goals": 1,
-     "teamId": "43"
+     "teamId": "43",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-26T16:54:26.934Z"
@@ -2003,7 +2004,7 @@
      "teamId": "72"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57311",
@@ -2066,7 +2067,7 @@
      "teamId": "27"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "56640",
@@ -2120,7 +2121,7 @@
      "teamId": "146"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57328",
@@ -2139,7 +2140,7 @@
      "teamId": "98"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57357",
@@ -2222,7 +2223,7 @@
      "teamId": "233"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57389",
@@ -2281,7 +2282,7 @@
      "teamId": "98"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57399",
@@ -2294,20 +2295,20 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
-   "id": "x-55-L3B-202611261700-minden-heten-haboru-lokomotiv-akademia",
-   "siteId": null,
+   "id": "57405",
+   "siteId": 57405,
    "homeTeamId": "27",
    "awayTeamId": "146",
    "kickoff": "2026-11-26T17:00:00.000Z",
    "venue": "Bogdánfy_2",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "x-55-L3B-202611302000-vizes-zsomle-relazio",
@@ -2558,7 +2559,7 @@
    "teamId": "72",
    "bestLeague": "L3B",
    "topScorer": {
-    "name": "Stirling Balázs",
+    "name": "Zsinka László István",
     "goals": 5
    },
    "seasonsCount": 4,

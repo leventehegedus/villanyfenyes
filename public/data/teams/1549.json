@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 6,
+    "played": 7,
     "won": 0,
     "drawn": 1,
-    "lost": 5,
-    "goalsFor": 12,
-    "goalsAgainst": 36,
+    "lost": 6,
+    "goalsFor": 15,
+    "goalsAgainst": 44,
     "points": 1
    }
   }
@@ -102,6 +102,19 @@
     "goalsAgainst": 5,
     "points": 0
    }
+  },
+  {
+   "teamId": "1527",
+   "name": "John Pork's eleven",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 8,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -173,9 +186,15 @@
  "cleanSheets": 0,
  "failedToScore": 2,
  "scorers": {
-  "playedMatches": 6,
-  "coveredMatches": 6,
+  "playedMatches": 7,
+  "coveredMatches": 7,
   "rows": [
+   {
+    "name": "Pál Mihály",
+    "goals": 6,
+    "matches": 2,
+    "hatTricks": 2
+   },
    {
     "name": "Barabás-Kiss Zétény",
     "goals": 4,
@@ -187,12 +206,6 @@
     "goals": 3,
     "matches": 2,
     "hatTricks": 0
-   },
-   {
-    "name": "Pál Mihály",
-    "goals": 3,
-    "matches": 1,
-    "hatTricks": 1
    },
    {
     "name": "Kis Ádám Márk",

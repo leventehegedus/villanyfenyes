@@ -1936,38 +1936,38 @@
    "scorers": [
     {
      "name": "Turóczi Viktor",
-     "goals": 2,
-     "teamId": "54"
+     "teamId": "54",
+     "goals": 2
     },
     {
      "name": "Boa Benjámin Péter",
-     "goals": 1,
-     "teamId": "54"
+     "teamId": "54",
+     "goals": 1
     },
     {
      "name": "Szita Dávid László",
-     "goals": 1,
-     "teamId": "54"
+     "teamId": "54",
+     "goals": 1
     },
     {
      "name": "Hurubás Kende",
-     "goals": 3,
-     "teamId": "1507"
+     "teamId": "1507",
+     "goals": 3
     },
     {
      "name": "Nagy Szabolcs",
-     "goals": 2,
-     "teamId": "1507"
+     "teamId": "1507",
+     "goals": 2
     },
     {
      "name": "Nagy Dominik Zoltán",
-     "goals": 2,
-     "teamId": "1507"
+     "teamId": "1507",
+     "goals": 2
     },
     {
      "name": "Lőrincz Gergely Attila",
-     "goals": 2,
-     "teamId": "1507"
+     "teamId": "1507",
+     "goals": 2
     }
    ],
    "detailFetchedAt": "2026-11-26T16:54:26.934Z"
@@ -2053,7 +2053,7 @@
      "teamId": "54"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57350",
@@ -2155,20 +2155,31 @@
      "teamId": "80"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
-   "id": "x-55-L4B-202611262000-whiskey-tango-foxtrot-gyros-fc",
-   "siteId": null,
+   "id": "57398",
+   "siteId": 57398,
    "homeTeamId": "62",
    "awayTeamId": "106",
    "kickoff": "2026-11-26T20:00:00.000Z",
    "venue": "Bogdánfy_2",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [
+    {
+     "name": "Daniel collada nolent",
+     "goals": 3,
+     "teamId": "62"
+    },
+    {
+     "name": "Matteo Signoretto",
+     "goals": 2,
+     "teamId": "62"
+    }
+   ],
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "x-55-L4B-202612011800-felizgatott-makaronik-twisters",
@@ -2385,7 +2396,7 @@
    "teamId": "62",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Rafael Moreira de Souza",
+    "name": "Pusztai Bertalan",
     "goals": 5
    },
    "seasonsCount": 5,

@@ -2131,7 +2131,7 @@
      "teamId": "1469"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57619",
@@ -2165,7 +2165,7 @@
      "teamId": "1518"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57326",
@@ -2204,7 +2204,7 @@
      "teamId": "1534"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57339",
@@ -2292,7 +2292,7 @@
      "teamId": "1488"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57415",
@@ -2307,31 +2307,31 @@
    "scorers": [
     {
      "name": "Adorján Domonkos",
-     "teamId": "1518",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1518"
     },
     {
      "name": "Unyi Dániel",
-     "teamId": "1534",
-     "goals": 4
+     "goals": 4,
+     "teamId": "1534"
     },
     {
      "name": "Gajzágó Márk",
-     "teamId": "1534",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1534"
     },
     {
      "name": "Szemán Balázs",
-     "teamId": "1534",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1534"
     },
     {
      "name": "Horváth Dominik",
-     "teamId": "1534",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1534"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57363",
@@ -2344,7 +2344,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57373",
@@ -2373,7 +2373,7 @@
      "teamId": "1572"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "x-55-L5G-202611271700-footbalekok-gugugaga-gang",
@@ -2590,7 +2590,7 @@
    "teamId": "212",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Németh Norbert",
+    "name": "Hámori Miklós",
     "goals": 4
    },
    "seasonsCount": 8,
@@ -2630,7 +2630,7 @@
    "teamId": "1518",
    "bestLeague": "L5G",
    "topScorer": {
-    "name": "Székács Kristóf",
+    "name": "Hegedűs András",
     "goals": 4
    },
    "seasonsCount": 2,
@@ -2660,7 +2660,7 @@
    "teamId": "1572",
    "bestLeague": "L5G",
    "topScorer": {
-    "name": "Radics Bendegúz Ádám",
+    "name": "Sabáli Soma",
     "goals": 2
    },
    "seasonsCount": 1,

@@ -1943,7 +1943,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57297",
@@ -2002,33 +2002,33 @@
    "scorers": [
     {
      "name": "Morvai Gábor",
-     "goals": 4,
-     "teamId": "24"
+     "teamId": "24",
+     "goals": 4
     },
     {
      "name": "Beleznai Kornél",
-     "goals": 3,
-     "teamId": "24"
+     "teamId": "24",
+     "goals": 3
     },
     {
      "name": "Szemes Péter",
-     "goals": 3,
-     "teamId": "24"
+     "teamId": "24",
+     "goals": 3
     },
     {
      "name": "Czotter Istvan",
-     "goals": 2,
-     "teamId": "125"
+     "teamId": "125",
+     "goals": 2
     },
     {
      "name": "Tar Marcell",
-     "goals": 1,
-     "teamId": "125"
+     "teamId": "125",
+     "goals": 1
     },
     {
      "name": "Németh Ákos",
-     "goals": 1,
-     "teamId": "125"
+     "teamId": "125",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-26T16:54:26.934Z"
@@ -2044,20 +2044,20 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
-   "id": "x-55-L5B-202611261900-jo-az-x-magyi",
-   "siteId": null,
+   "id": "57391",
+   "siteId": 57391,
    "homeTeamId": "58",
    "awayTeamId": "143",
    "kickoff": "2026-11-26T19:00:00.000Z",
    "venue": "Bogdánfy_3",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "x-55-L5B-202611271800-zomboss-sordogok",

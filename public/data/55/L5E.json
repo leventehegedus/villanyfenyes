@@ -127,7 +127,9 @@
    "goalsAgainst": 30,
    "goalDiff": 9,
    "points": 14,
-   "markers": []
+   "markers": [
+    "fewConceded"
+   ]
   },
   {
    "position": 5,
@@ -1855,7 +1857,7 @@
      "teamId": "1571"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57336",
@@ -1879,7 +1881,7 @@
      "teamId": "1486"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57317",
@@ -1892,7 +1894,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57343",
@@ -2009,7 +2011,7 @@
      "teamId": "21"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57364",
@@ -2043,7 +2045,7 @@
      "teamId": "1476"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57410",
@@ -2072,7 +2074,7 @@
      "teamId": "1561"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "x-55-L5E-202611301700-los-galacticos-oso-fc",
@@ -2275,7 +2277,7 @@
    "teamId": "1486",
    "bestLeague": "L5B",
    "topScorer": {
-    "name": "Farkas Zsombor",
+    "name": "Juth Benedek",
     "goals": 6
    },
    "seasonsCount": 3,

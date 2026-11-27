@@ -1872,7 +1872,7 @@
      "teamId": "219"
     }
    ],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57325",
@@ -1901,7 +1901,7 @@
      "teamId": "230"
     }
    ],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57296",
@@ -2008,7 +2008,7 @@
      "teamId": "219"
     }
    ],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57403",
@@ -2027,7 +2027,7 @@
      "teamId": "41"
     }
    ],
-   "detailFetchedAt": "2026-11-26T03:34:40.169Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57383",
@@ -2042,24 +2042,24 @@
    "scorers": [
     {
      "name": "Szó Bálint",
-     "teamId": "202",
-     "goals": 3
+     "goals": 3,
+     "teamId": "202"
     }
    ],
-   "detailFetchedAt": "2026-11-26T00:55:10.463Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
-   "id": "x-55-L3C-202611261700-kozhely-fc-ejakulazio",
-   "siteId": null,
+   "id": "56714",
+   "siteId": 56714,
    "homeTeamId": "110",
    "awayTeamId": "230",
    "kickoff": "2026-11-26T17:00:00.000Z",
    "venue": "Bogdánfy_1",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "x-55-L3C-202611301800-eselyetek-se-crooks",
@@ -2236,7 +2236,7 @@
    "teamId": "192",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Varga Örs",
+    "name": "Könyves László",
     "goals": 6
    },
    "seasonsCount": 5,

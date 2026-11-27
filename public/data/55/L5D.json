@@ -1996,7 +1996,7 @@
      "teamId": "1560"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57354",
@@ -2040,7 +2040,7 @@
      "teamId": "156"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57306",
@@ -2069,7 +2069,7 @@
      "teamId": "138"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57409",
@@ -2108,33 +2108,75 @@
      "teamId": "1575"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
-   "id": "x-55-L5D-202611261800-k-fc-attacking",
-   "siteId": null,
+   "id": "57379",
+   "siteId": 57379,
    "homeTeamId": "155",
    "awayTeamId": "156",
    "kickoff": "2026-11-26T18:00:00.000Z",
    "venue": "Bogdánfy_3",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [
+    {
+     "name": "Becsei Erik",
+     "goals": 2,
+     "teamId": "156"
+    },
+    {
+     "name": "Szemesi Gábor",
+     "goals": 1,
+     "teamId": "156"
+    },
+    {
+     "name": "Horváth Attila",
+     "goals": 1,
+     "teamId": "156"
+    }
+   ],
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
-   "id": "x-55-L5D-202611262100-bozok-cf-baratok-fc",
-   "siteId": null,
+   "id": "57417",
+   "siteId": 57417,
    "homeTeamId": "138",
    "awayTeamId": "1560",
    "kickoff": "2026-11-26T21:00:00.000Z",
    "venue": "Bogdánfy_3",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [
+    {
+     "name": "Takács Ábel",
+     "goals": 3,
+     "teamId": "1560"
+    },
+    {
+     "name": "Páll Donát Domonkos",
+     "goals": 2,
+     "teamId": "1560"
+    },
+    {
+     "name": "Vigano Mario",
+     "goals": 1,
+     "teamId": "1560"
+    },
+    {
+     "name": "Lenti Bulcsú",
+     "goals": 1,
+     "teamId": "1560"
+    },
+    {
+     "name": "Bognár Milán",
+     "goals": 1,
+     "teamId": "1560"
+    }
+   ],
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "x-55-L5D-202611271800-beton-fc-inflazio",
@@ -2421,7 +2463,7 @@
    "teamId": "1495",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Tóth Ábel Csongor",
+    "name": "Tóth Botond",
     "goals": 2
    },
    "seasonsCount": 3,

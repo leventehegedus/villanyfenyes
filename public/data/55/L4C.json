@@ -110,9 +110,7 @@
    "goalsAgainst": 34,
    "goalDiff": 11,
    "points": 15,
-   "markers": [
-    "manyGoals"
-   ]
+   "markers": []
   },
   {
    "position": 4,
@@ -1928,23 +1926,23 @@
    "scorers": [
     {
      "name": "Doma Gergely",
-     "goals": 3,
-     "teamId": "47"
+     "teamId": "47",
+     "goals": 3
     },
     {
      "name": "Molnár Ákos",
-     "goals": 1,
-     "teamId": "47"
+     "teamId": "47",
+     "goals": 1
     },
     {
      "name": "Széll Sándor",
-     "goals": 1,
-     "teamId": "47"
+     "teamId": "47",
+     "goals": 1
     },
     {
      "name": "Zsdrál Bertalan",
-     "goals": 1,
-     "teamId": "47"
+     "teamId": "47",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-26T16:54:26.934Z"
@@ -1962,28 +1960,28 @@
    "scorers": [
     {
      "name": "Ürmös Zoltán",
-     "goals": 4,
-     "teamId": "153"
+     "teamId": "153",
+     "goals": 4
     },
     {
      "name": "Szatmari Peter",
-     "goals": 2,
-     "teamId": "153"
+     "teamId": "153",
+     "goals": 2
     },
     {
      "name": "Kitzinger Tamás",
-     "goals": 1,
-     "teamId": "153"
+     "teamId": "153",
+     "goals": 1
     },
     {
      "name": "Enyedi Tamás",
-     "goals": 1,
-     "teamId": "153"
+     "teamId": "153",
+     "goals": 1
     },
     {
      "name": "Tóth Attila",
-     "goals": 1,
-     "teamId": "153"
+     "teamId": "153",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-26T16:54:26.934Z"
@@ -2073,7 +2071,7 @@
      "teamId": "131"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57346",
@@ -2142,31 +2140,31 @@
    "scorers": [
     {
      "name": "Ürmös Zoltán",
-     "teamId": "153",
-     "goals": 2
+     "goals": 2,
+     "teamId": "153"
     },
     {
      "name": "Heller Erik",
-     "teamId": "153",
-     "goals": 1
+     "goals": 1,
+     "teamId": "153"
     },
     {
      "name": "Szatmari Peter",
-     "teamId": "153",
-     "goals": 1
+     "goals": 1,
+     "teamId": "153"
     },
     {
      "name": "Gregorich Gergely",
-     "teamId": "153",
-     "goals": 1
+     "goals": 1,
+     "teamId": "153"
     },
     {
      "name": "Tkalcec Péter",
-     "teamId": "1512",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1512"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57376",
@@ -2190,20 +2188,20 @@
      "teamId": "147"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
-   "id": "x-55-L4C-202611261700-team-miller-sorfoci",
-   "siteId": null,
+   "id": "57370",
+   "siteId": 57370,
    "homeTeamId": "47",
    "awayTeamId": "86",
    "kickoff": "2026-11-26T17:00:00.000Z",
    "venue": "Bogdánfy_4",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "x-55-L4C-202612011700-team-miller-roby-bacsi-bunbandaja",
@@ -2420,7 +2418,7 @@
    "teamId": "1512",
    "bestLeague": "L4C",
    "topScorer": {
-    "name": "Kis Ádám",
+    "name": "Péter Adrián",
     "goals": 4
    },
    "seasonsCount": 2,

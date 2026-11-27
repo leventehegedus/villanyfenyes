@@ -157,7 +157,8 @@
    "goalDiff": -3,
    "points": 12,
    "markers": [
-    "lossStreak"
+    "lossStreak",
+    "fewConceded"
    ]
   },
   {
@@ -2007,7 +2008,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57323",
@@ -2075,7 +2076,7 @@
      "teamId": "1523"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57378",
@@ -2114,7 +2115,7 @@
      "teamId": "126"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57360",
@@ -2129,23 +2130,23 @@
    "scorers": [
     {
      "name": "Fazakas Csaba",
-     "goals": 1,
-     "teamId": "36"
+     "teamId": "36",
+     "goals": 1
     },
     {
      "name": "Némedi Balázs",
-     "goals": 3,
-     "teamId": "1521"
+     "teamId": "1521",
+     "goals": 3
     },
     {
      "name": "Mátyás Szívós",
-     "goals": 2,
-     "teamId": "1521"
+     "teamId": "1521",
+     "goals": 2
     },
     {
      "name": "Prága Kristóf",
-     "goals": 1,
-     "teamId": "1521"
+     "teamId": "1521",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-26T16:54:26.934Z"
@@ -2345,7 +2346,7 @@
    "teamId": "126",
    "bestLeague": "L2B",
    "topScorer": {
-    "name": "Nagy Ádám",
+    "name": "Himics Dávid",
     "goals": 6
    },
    "seasonsCount": 10,

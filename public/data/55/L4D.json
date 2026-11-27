@@ -111,7 +111,6 @@
    "goalDiff": 23,
    "points": 13,
    "markers": [
-    "manyGoals",
     "fewConceded"
    ]
   },
@@ -156,7 +155,9 @@
    "goalsAgainst": 30,
    "goalDiff": 10,
    "points": 9,
-   "markers": []
+   "markers": [
+    "fewConceded"
+   ]
   },
   {
    "position": 7,
@@ -2051,7 +2052,7 @@
      "teamId": "1537"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "56572",
@@ -2090,7 +2091,7 @@
      "teamId": "1530"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57289",
@@ -2139,7 +2140,7 @@
      "teamId": "1530"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57330",
@@ -2183,7 +2184,7 @@
      "teamId": "96"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57319",
@@ -2247,7 +2248,7 @@
      "teamId": "189"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57421",
@@ -2281,7 +2282,7 @@
      "teamId": "50"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57359",
@@ -2305,20 +2306,20 @@
      "teamId": "1528"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
-   "id": "x-55-L4D-202611262000-polak-kiddos-fleo-rc",
-   "siteId": null,
+   "id": "57406",
+   "siteId": 57406,
    "homeTeamId": "65",
    "awayTeamId": "1530",
    "kickoff": "2026-11-26T20:00:00.000Z",
    "venue": "Bogdánfy_3",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "x-55-L4D-202611271800-kaptalan-seskoffender",

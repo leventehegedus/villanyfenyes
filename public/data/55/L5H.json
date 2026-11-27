@@ -199,7 +199,8 @@
    "goalDiff": -11,
    "points": 6,
    "markers": [
-    "lossStreak"
+    "lossStreak",
+    "fewConceded"
    ]
   },
   {
@@ -213,7 +214,9 @@
    "goalsAgainst": 30,
    "goalDiff": -17,
    "points": 3,
-   "markers": []
+   "markers": [
+    "fewConceded"
+   ]
   },
   {
    "position": 11,
@@ -1811,7 +1814,7 @@
      "teamId": "1556"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57331",
@@ -1840,7 +1843,7 @@
      "teamId": "232"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57298",
@@ -1928,7 +1931,7 @@
      "teamId": "1556"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57310",
@@ -1967,7 +1970,7 @@
      "teamId": "227"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57358",
@@ -1982,36 +1985,36 @@
    "scorers": [
     {
      "name": "Fodor Kornél",
-     "teamId": "1566",
-     "goals": 3
+     "goals": 3,
+     "teamId": "1566"
     },
     {
      "name": "Nagy Mihály Gyula",
-     "teamId": "1566",
-     "goals": 3
+     "goals": 3,
+     "teamId": "1566"
     },
     {
      "name": "Daróczi Donát",
-     "teamId": "1566",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1566"
     },
     {
      "name": "Berzsák Bulcsú",
-     "teamId": "1577",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1577"
     },
     {
      "name": "Antalffy-Zsiros Attila",
-     "teamId": "1577",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1577"
     },
     {
      "name": "Koller Aron",
-     "teamId": "1577",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1577"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57401",
@@ -2050,7 +2053,7 @@
      "teamId": "1553"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57375",
@@ -2063,20 +2066,20 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
-   "id": "x-55-L5H-202611261800-csimpanzini-bananini-fc-felvideki-brazilok",
-   "siteId": null,
+   "id": "57369",
+   "siteId": 57369,
    "homeTeamId": "35",
    "awayTeamId": "232",
    "kickoff": "2026-11-26T18:00:00.000Z",
    "venue": "Bogdánfy_4",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "x-55-L5H-202612011700-szamaras-se-rosario-juniors",
@@ -2303,7 +2306,7 @@
    "teamId": "35",
    "bestLeague": "L3C",
    "topScorer": {
-    "name": "Mórocz Bence",
+    "name": "Kész Roland",
     "goals": 6
    },
    "seasonsCount": 6,
@@ -2343,7 +2346,7 @@
    "teamId": "225",
    "bestLeague": "L5C",
    "topScorer": {
-    "name": "Lenkei Botond",
+    "name": "Komáromy Áron",
     "goals": 2
    },
    "seasonsCount": 4,

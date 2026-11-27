@@ -69,14 +69,14 @@
   {
    "position": 1,
    "teamId": "1527",
-   "played": 6,
-   "won": 6,
+   "played": 8,
+   "won": 8,
    "drawn": 0,
    "lost": 0,
-   "goalsFor": 49,
-   "goalsAgainst": 13,
-   "goalDiff": 36,
-   "points": 18,
+   "goalsFor": 62,
+   "goalsAgainst": 16,
+   "goalDiff": 46,
+   "points": 24,
    "markers": [
     "winStreak",
     "manyGoals",
@@ -133,13 +133,13 @@
   {
    "position": 5,
    "teamId": "99",
-   "played": 7,
+   "played": 8,
    "won": 3,
    "drawn": 1,
-   "lost": 3,
+   "lost": 4,
    "goalsFor": 23,
-   "goalsAgainst": 32,
-   "goalDiff": -9,
+   "goalsAgainst": 37,
+   "goalDiff": -14,
    "points": 10,
    "markers": []
   },
@@ -234,15 +234,17 @@
   {
    "position": 12,
    "teamId": "1549",
-   "played": 6,
+   "played": 7,
    "won": 0,
    "drawn": 1,
-   "lost": 5,
-   "goalsFor": 12,
-   "goalsAgainst": 36,
-   "goalDiff": -24,
+   "lost": 6,
+   "goalsFor": 15,
+   "goalsAgainst": 44,
+   "goalDiff": -29,
    "points": 1,
-   "markers": []
+   "markers": [
+    "lossStreak"
+   ]
   }
  ],
  "matches": [
@@ -1441,11 +1443,11 @@
    "awayTeamId": "1527",
    "kickoff": "2026-11-13T19:00:00.000Z",
    "venue": "Bogdánfy_1",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "status": "played",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57227",
@@ -1484,7 +1486,7 @@
      "teamId": "1568"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57312",
@@ -1497,7 +1499,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57308",
@@ -1510,7 +1512,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57287",
@@ -1562,7 +1564,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57377",
@@ -1577,36 +1579,36 @@
    "scorers": [
     {
      "name": "Rátkai Ádám",
-     "teamId": "99",
-     "goals": 2
+     "goals": 2,
+     "teamId": "99"
     },
     {
      "name": "Döbrönte Zoltán",
-     "teamId": "99",
-     "goals": 2
+     "goals": 2,
+     "teamId": "99"
     },
     {
      "name": "Szép Arnold",
-     "teamId": "99",
-     "goals": 1
+     "goals": 1,
+     "teamId": "99"
     },
     {
      "name": "Kőszegi Gábor",
-     "teamId": "99",
-     "goals": 1
+     "goals": 1,
+     "teamId": "99"
     },
     {
      "name": "Vichnalek Dávid",
-     "teamId": "1568",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1568"
     },
     {
      "name": "Ispánki Máté Márk",
-     "teamId": "1568",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1568"
     }
    ],
-   "detailFetchedAt": "2026-11-25T19:15:43.532Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "56528",
@@ -1615,17 +1617,47 @@
    "awayTeamId": "1549",
    "kickoff": "2026-11-24T21:00:00.000Z",
    "venue": "Bogdánfy_1",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 8,
+   "awayGoals": 3,
+   "status": "played",
    "scorers": [
+    {
+     "name": "Szabó Dávid",
+     "goals": 2,
+     "teamId": "1527"
+    },
+    {
+     "name": "Erdősi Márk",
+     "goals": 2,
+     "teamId": "1527"
+    },
+    {
+     "name": "Fábián Bence",
+     "goals": 1,
+     "teamId": "1527"
+    },
+    {
+     "name": "Németh Botond Mór",
+     "goals": 1,
+     "teamId": "1527"
+    },
+    {
+     "name": "Fejes Olivér",
+     "goals": 1,
+     "teamId": "1527"
+    },
+    {
+     "name": "Blaskó Zoltán",
+     "goals": 1,
+     "teamId": "1527"
+    },
     {
      "name": "Pál Mihály",
      "goals": 3,
      "teamId": "1549"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57362",
@@ -1659,20 +1691,41 @@
      "teamId": "55"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
-   "id": "x-55-L5F-202611262000-big-bulls-fc-tottenham-hatsor",
-   "siteId": null,
+   "id": "57367",
+   "siteId": 57367,
    "homeTeamId": "89",
    "awayTeamId": "178",
    "kickoff": "2026-11-26T20:00:00.000Z",
    "venue": "Bogdánfy_4",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [
+    {
+     "name": "Holló Balázs",
+     "goals": 4,
+     "teamId": "89"
+    },
+    {
+     "name": "Lipcsey Levente",
+     "goals": 1,
+     "teamId": "89"
+    },
+    {
+     "name": "Krakkai Levente",
+     "goals": 1,
+     "teamId": "89"
+    },
+    {
+     "name": "Szitka Akos",
+     "goals": 1,
+     "teamId": "89"
+    }
+   ],
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "x-55-L5F-202611271700-asfc-ekho",
@@ -1866,7 +1919,7 @@
     "goals": 6
    },
    "seasonsCount": 2,
-   "matchesPlayed": 6
+   "matchesPlayed": 8
   },
   {
    "teamId": "1552",
@@ -1906,7 +1959,7 @@
     "goals": 5
    },
    "seasonsCount": 5,
-   "matchesPlayed": 7
+   "matchesPlayed": 8
   },
   {
    "teamId": "55",
@@ -1973,7 +2026,7 @@
     "goals": 3
    },
    "seasonsCount": 1,
-   "matchesPlayed": 6
+   "matchesPlayed": 7
   }
  ]
 }

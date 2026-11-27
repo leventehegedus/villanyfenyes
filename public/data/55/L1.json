@@ -2113,7 +2113,7 @@
      "teamId": "199"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "48352",
@@ -2204,7 +2204,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "48355",
@@ -2217,7 +2217,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "48356",
@@ -2251,46 +2251,62 @@
      "teamId": "94"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
-   "id": "x-55-L1-202611261800-nagyon-fincsi-milinte-te-szemet-club-de-football",
-   "siteId": null,
+   "id": "48357",
+   "siteId": 48357,
    "homeTeamId": "149",
    "awayTeamId": "93",
    "kickoff": "2026-11-26T18:00:00.000Z",
    "venue": "Bogdánfy_1",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
-   "id": "x-55-L1-202611261900-gyermeklancfuresz-2-zenesz",
-   "siteId": null,
+   "id": "48358",
+   "siteId": 48358,
    "homeTeamId": "100",
    "awayTeamId": "199",
    "kickoff": "2026-11-26T19:00:00.000Z",
    "venue": "Bogdánfy_1",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [
+    {
+     "name": "Raport Dániel",
+     "goals": 3,
+     "teamId": "199"
+    },
+    {
+     "name": "Stranyóczky László",
+     "goals": 1,
+     "teamId": "199"
+    },
+    {
+     "name": "Alt Ákos",
+     "goals": 1,
+     "teamId": "199"
+    }
+   ],
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
-   "id": "x-55-L1-202611262000-banditak-szponzorok-helye",
-   "siteId": null,
+   "id": "48359",
+   "siteId": 48359,
    "homeTeamId": "107",
    "awayTeamId": "142",
    "kickoff": "2026-11-26T20:00:00.000Z",
    "venue": "Bogdánfy_1",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "x-55-L1-202612021800-szia-uram-invincibles",
@@ -2456,7 +2472,7 @@
    "teamId": "149",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Markó Péter Dániel",
+    "name": "Szabó Koppány",
     "goals": 5
    },
    "seasonsCount": 9,

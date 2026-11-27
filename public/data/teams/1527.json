@@ -14,13 +14,13 @@
    "teamsInLeague": 12,
    "marker": "promotion",
    "totals": {
-    "played": 6,
-    "won": 6,
+    "played": 8,
+    "won": 8,
     "drawn": 0,
     "lost": 0,
-    "goalsFor": 49,
-    "goalsAgainst": 13,
-    "points": 18
+    "goalsFor": 62,
+    "goalsAgainst": 16,
+    "points": 24
    }
   }
  ],
@@ -102,6 +102,32 @@
     "goalsAgainst": 6,
     "points": 3
    }
+  },
+  {
+   "teamId": "99",
+   "name": "ASFC",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 0,
+    "points": 3
+   }
+  },
+  {
+   "teamId": "1549",
+   "name": "Kecsap",
+   "totals": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "goalsFor": 8,
+    "goalsAgainst": 3,
+    "points": 3
+   }
   }
  ],
  "records": {
@@ -127,7 +153,7 @@
  },
  "streaks": {
   "win": {
-   "length": 6,
+   "length": 8,
    "from": {
     "seasonId": 55,
     "league": "L5F",
@@ -140,15 +166,15 @@
    "to": {
     "seasonId": 55,
     "league": "L5F",
-    "matchId": "57170",
-    "kickoff": "2026-11-06T19:00:00.000Z",
-    "opponentId": "203",
-    "goalsFor": 11,
-    "goalsAgainst": 6
+    "matchId": "56528",
+    "kickoff": "2026-11-24T21:00:00.000Z",
+    "opponentId": "1549",
+    "goalsFor": 8,
+    "goalsAgainst": 3
    }
   },
   "unbeaten": {
-   "length": 6,
+   "length": 8,
    "from": {
     "seasonId": 55,
     "league": "L5F",
@@ -161,55 +187,61 @@
    "to": {
     "seasonId": 55,
     "league": "L5F",
-    "matchId": "57170",
-    "kickoff": "2026-11-06T19:00:00.000Z",
-    "opponentId": "203",
-    "goalsFor": 11,
-    "goalsAgainst": 6
+    "matchId": "56528",
+    "kickoff": "2026-11-24T21:00:00.000Z",
+    "opponentId": "1549",
+    "goalsFor": 8,
+    "goalsAgainst": 3
    }
   },
   "loss": null
  },
- "cleanSheets": 2,
+ "cleanSheets": 3,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 6,
-  "coveredMatches": 6,
+  "playedMatches": 8,
+  "coveredMatches": 8,
   "rows": [
    {
     "name": "Erdősi Márk",
-    "goals": 13,
-    "matches": 4,
+    "goals": 15,
+    "matches": 5,
     "hatTricks": 3
    },
    {
     "name": "Szabó Dávid",
-    "goals": 11,
-    "matches": 3,
+    "goals": 13,
+    "matches": 4,
     "hatTricks": 2
    },
    {
     "name": "Fábián Bence",
-    "goals": 8,
-    "matches": 5,
+    "goals": 9,
+    "matches": 6,
     "hatTricks": 1
    },
    {
     "name": "Németh Botond Mór",
-    "goals": 5,
-    "matches": 4,
+    "goals": 6,
+    "matches": 5,
     "hatTricks": 0
    },
    {
     "name": "Fejes Olivér",
-    "goals": 3,
-    "matches": 2,
+    "goals": 4,
+    "matches": 3,
     "hatTricks": 0
    },
    {
     "name": "Blaskó Bálint",
     "goals": 2,
     "matches": 2,
+    "hatTricks": 0
+   },
+   {
+    "name": "Blaskó Zoltán",
+    "goals": 1,
+    "matches": 1,
     "hatTricks": 0
    }
   ]

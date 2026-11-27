@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 3,
     "drawn": 1,
-    "lost": 3,
+    "lost": 4,
     "goalsFor": 23,
-    "goalsAgainst": 32,
+    "goalsAgainst": 37,
     "points": 10
    }
   }
@@ -100,6 +100,19 @@
     "lost": 1,
     "goalsFor": 1,
     "goalsAgainst": 8,
+    "points": 0
+   }
+  },
+  {
+   "teamId": "1527",
+   "name": "John Pork's eleven",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
     "points": 0
    }
   },
@@ -190,7 +203,7 @@
    }
   },
   "loss": {
-   "length": 3,
+   "length": 4,
    "from": {
     "seasonId": 55,
     "league": "L5F",
@@ -203,19 +216,19 @@
    "to": {
     "seasonId": 55,
     "league": "L5F",
-    "matchId": "57155",
-    "kickoff": "2026-11-02T19:00:00.000Z",
-    "opponentId": "122",
-    "goalsFor": 1,
-    "goalsAgainst": 8
+    "matchId": "57282",
+    "kickoff": "2026-11-13T19:00:00.000Z",
+    "opponentId": "1527",
+    "goalsFor": 0,
+    "goalsAgainst": 5
    }
   }
  },
  "cleanSheets": 0,
- "failedToScore": 1,
+ "failedToScore": 2,
  "scorers": {
-  "playedMatches": 7,
-  "coveredMatches": 7,
+  "playedMatches": 8,
+  "coveredMatches": 8,
   "rows": [
    {
     "name": "Kőszegi Gábor",

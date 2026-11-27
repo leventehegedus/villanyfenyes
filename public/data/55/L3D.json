@@ -2190,7 +2190,7 @@
      "teamId": "85"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57304",
@@ -2312,7 +2312,7 @@
      "teamId": "1489"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57404",
@@ -2325,33 +2325,33 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
-   "id": "x-55-L3D-202611261900-huslovagok-afst",
-   "siteId": null,
+   "id": "57382",
+   "siteId": 57382,
    "homeTeamId": "52",
    "awayTeamId": "85",
    "kickoff": "2026-11-26T19:00:00.000Z",
    "venue": "Bogdánfy_2",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
-   "id": "x-55-L3D-202611261900-kraken-toretlen-fc",
-   "siteId": null,
+   "id": "57366",
+   "siteId": 57366,
    "homeTeamId": "67",
    "awayTeamId": "84",
    "kickoff": "2026-11-26T19:00:00.000Z",
    "venue": "Bogdánfy_4",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "x-55-L3D-202611271900-veresiktas-fc-nagykiralyok",
@@ -2535,7 +2535,7 @@
    "teamId": "85",
    "bestLeague": "L3B",
    "topScorer": {
-    "name": "Horváth Péter",
+    "name": "Novozánszki Zsombor",
     "goals": 6
    },
    "seasonsCount": 14,
@@ -2565,7 +2565,7 @@
    "teamId": "39",
    "bestLeague": "L3A",
    "topScorer": {
-    "name": "Tóth Ádám",
+    "name": "Frcska Döme Ákos",
     "goals": 5
    },
    "seasonsCount": 10,
@@ -2605,7 +2605,7 @@
    "teamId": "84",
    "bestLeague": "L3C",
    "topScorer": {
-    "name": "Tóth Artúr Benedek",
+    "name": "Grósz Bence",
     "goals": 5
    },
    "seasonsCount": 7,

@@ -2066,7 +2066,7 @@
      "teamId": "240"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57335",
@@ -2110,7 +2110,7 @@
      "teamId": "241"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57294",
@@ -2144,7 +2144,7 @@
      "teamId": "181"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57292",
@@ -2256,7 +2256,7 @@
      "teamId": "132"
     }
    ],
-   "detailFetchedAt": "2026-11-26T16:54:26.934Z"
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "57374",
@@ -2271,57 +2271,57 @@
    "scorers": [
     {
      "name": "Könye Nátán",
-     "goals": 2,
-     "teamId": "132"
+     "teamId": "132",
+     "goals": 2
     },
     {
      "name": "Varga Bálint",
-     "goals": 1,
-     "teamId": "132"
+     "teamId": "132",
+     "goals": 1
     },
     {
      "name": "Fátyol Balázs",
-     "goals": 1,
-     "teamId": "132"
+     "teamId": "132",
+     "goals": 1
     },
     {
      "name": "Száller Dániel",
-     "goals": 1,
-     "teamId": "132"
+     "teamId": "132",
+     "goals": 1
     },
     {
      "name": "Teklits Vince",
-     "goals": 4,
-     "teamId": "1509"
+     "teamId": "1509",
+     "goals": 4
     }
    ],
    "detailFetchedAt": "2026-11-26T16:54:26.934Z"
   },
   {
-   "id": "x-55-L5C-202611261700-brazilok-szopokas-poverad",
-   "siteId": null,
+   "id": "57395",
+   "siteId": 57395,
    "homeTeamId": "181",
    "awayTeamId": "1565",
    "kickoff": "2026-11-26T17:00:00.000Z",
    "venue": "Bogdánfy_3",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
-   "id": "x-55-L5C-202611261800-eszkfc-bomboclaat-fc",
-   "siteId": null,
+   "id": "57390",
+   "siteId": 57390,
    "homeTeamId": "216",
    "awayTeamId": "241",
    "kickoff": "2026-11-26T18:00:00.000Z",
    "venue": "Bogdánfy_2",
    "homeGoals": null,
    "awayGoals": null,
-   "status": "scheduled",
-   "scorers": null,
-   "detailFetchedAt": null
+   "status": "unknown",
+   "scorers": [],
+   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
   },
   {
    "id": "x-55-L5C-202611271900-deg-eneraltak-stoczek-wanderers-fc",
@@ -2525,7 +2525,7 @@
    "teamId": "241",
    "bestLeague": "L5A",
    "topScorer": {
-    "name": "Krizsan Balazs",
+    "name": "Elekes Dániel",
     "goals": 6
    },
    "seasonsCount": 3,
@@ -2575,7 +2575,7 @@
    "teamId": "1473",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Szekeres Kornél",
+    "name": "Tóth Martin",
     "goals": 3
    },
    "seasonsCount": 4,
@@ -2585,7 +2585,7 @@
    "teamId": "75",
    "bestLeague": "L5A",
    "topScorer": {
-    "name": "Imre-Horváth András",
+    "name": "Barnabás Ilosvai",
     "goals": 3
    },
    "seasonsCount": 3,
