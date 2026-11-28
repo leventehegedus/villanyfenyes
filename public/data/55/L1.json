@@ -2098,23 +2098,23 @@
    "scorers": [
     {
      "name": "Fröhlich Tamás",
-     "goals": 2,
-     "teamId": "199"
+     "teamId": "199",
+     "goals": 2
     },
     {
      "name": "Siket Máté",
-     "goals": 2,
-     "teamId": "199"
+     "teamId": "199",
+     "goals": 2
     },
     {
      "name": "Alt Ákos",
-     "goals": 2,
-     "teamId": "199"
+     "teamId": "199",
+     "goals": 2
     },
     {
      "name": "Gondos Andor",
-     "goals": 2,
-     "teamId": "199"
+     "teamId": "199",
+     "goals": 2
     }
    ],
    "detailFetchedAt": "2026-11-27T23:27:32.755Z"
@@ -2236,43 +2236,43 @@
    "scorers": [
     {
      "name": "Maafi Dávid",
-     "goals": 2,
-     "teamId": "238"
+     "teamId": "238",
+     "goals": 2
     },
     {
      "name": "Gelics Márton",
-     "goals": 1,
-     "teamId": "238"
+     "teamId": "238",
+     "goals": 1
     },
     {
      "name": "Gauzer Levente",
-     "goals": 1,
-     "teamId": "238"
+     "teamId": "238",
+     "goals": 1
     },
     {
      "name": "Szűcs Balázs",
-     "goals": 1,
-     "teamId": "238"
+     "teamId": "238",
+     "goals": 1
     },
     {
      "name": "Sugár Soma",
-     "goals": 3,
-     "teamId": "94"
+     "teamId": "94",
+     "goals": 3
     },
     {
      "name": "Kántor Tibor",
-     "goals": 2,
-     "teamId": "94"
+     "teamId": "94",
+     "goals": 2
     },
     {
      "name": "Kiséry Máté Soma",
-     "goals": 2,
-     "teamId": "94"
+     "teamId": "94",
+     "goals": 2
     },
     {
      "name": "Benyovszki Patrik",
-     "goals": 1,
-     "teamId": "94"
+     "teamId": "94",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T23:27:32.755Z"
@@ -2347,23 +2347,23 @@
    "scorers": [
     {
      "name": "Szabo Andras",
-     "goals": 1,
-     "teamId": "107"
+     "teamId": "107",
+     "goals": 1
     },
     {
      "name": "Novák Dániel",
-     "goals": 1,
-     "teamId": "107"
+     "teamId": "107",
+     "goals": 1
     },
     {
      "name": "Szigeti Balázs",
-     "goals": 2,
-     "teamId": "142"
+     "teamId": "142",
+     "goals": 2
     },
     {
      "name": "Palásthy István",
-     "goals": 1,
-     "teamId": "142"
+     "teamId": "142",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T23:27:32.755Z"
@@ -2532,7 +2532,7 @@
    "teamId": "149",
    "bestLeague": "L1",
    "topScorer": {
-    "name": "Szabó Koppány",
+    "name": "Markó Péter Dániel",
     "goals": 5
    },
    "seasonsCount": 9,

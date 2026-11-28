@@ -1838,23 +1838,23 @@
    "scorers": [
     {
      "name": "Iker Előd Sebestyén",
-     "goals": 1,
-     "teamId": "1571"
+     "teamId": "1571",
+     "goals": 1
     },
     {
      "name": "Kis Hunor",
-     "goals": 1,
-     "teamId": "1571"
+     "teamId": "1571",
+     "goals": 1
     },
     {
      "name": "Varga Áron Gábor",
-     "goals": 1,
-     "teamId": "1571"
+     "teamId": "1571",
+     "goals": 1
     },
     {
      "name": "Benczik-Hrncsár Áron",
-     "goals": 1,
-     "teamId": "1571"
+     "teamId": "1571",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T23:27:32.755Z"
@@ -1872,13 +1872,13 @@
    "scorers": [
     {
      "name": "Józsa István Roland",
-     "goals": 3,
-     "teamId": "1486"
+     "teamId": "1486",
+     "goals": 3
     },
     {
      "name": "Farkas Zsombor",
-     "goals": 2,
-     "teamId": "1486"
+     "teamId": "1486",
+     "goals": 2
     }
    ],
    "detailFetchedAt": "2026-11-27T23:27:32.755Z"
@@ -1987,28 +1987,28 @@
    "scorers": [
     {
      "name": "Veréb Balázs",
-     "goals": 7,
-     "teamId": "21"
+     "teamId": "21",
+     "goals": 7
     },
     {
      "name": "Pákozdi Máté Márk",
-     "goals": 1,
-     "teamId": "21"
+     "teamId": "21",
+     "goals": 1
     },
     {
      "name": "Limbek Soma",
-     "goals": 1,
-     "teamId": "21"
+     "teamId": "21",
+     "goals": 1
     },
     {
      "name": "Juhász Ákos Zoltán",
-     "goals": 1,
-     "teamId": "21"
+     "teamId": "21",
+     "goals": 1
     },
     {
      "name": "Szomolai Bálint Tibor",
-     "goals": 1,
-     "teamId": "21"
+     "teamId": "21",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T23:27:32.755Z"
@@ -2026,23 +2026,23 @@
    "scorers": [
     {
      "name": "Simon Brúnó",
-     "goals": 3,
-     "teamId": "1476"
+     "teamId": "1476",
+     "goals": 3
     },
     {
      "name": "Faludi Mátyás",
-     "goals": 1,
-     "teamId": "1476"
+     "teamId": "1476",
+     "goals": 1
     },
     {
      "name": "Szűcs Krisztián",
-     "goals": 1,
-     "teamId": "1476"
+     "teamId": "1476",
+     "goals": 1
     },
     {
      "name": "Vitényi Dávid",
-     "goals": 1,
-     "teamId": "1476"
+     "teamId": "1476",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T23:27:32.755Z"
@@ -2060,18 +2060,18 @@
    "scorers": [
     {
      "name": "Gergő Szebeni",
-     "goals": 1,
-     "teamId": "1561"
+     "teamId": "1561",
+     "goals": 1
     },
     {
      "name": "Gergely Szilárd",
-     "goals": 1,
-     "teamId": "1561"
+     "teamId": "1561",
+     "goals": 1
     },
     {
      "name": "Zalán Varga",
-     "goals": 1,
-     "teamId": "1561"
+     "teamId": "1561",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T23:27:32.755Z"
@@ -2277,7 +2277,7 @@
    "teamId": "1486",
    "bestLeague": "L5B",
    "topScorer": {
-    "name": "Juth Benedek",
+    "name": "Farkas Zsombor",
     "goals": 6
    },
    "seasonsCount": 3,
@@ -2347,7 +2347,7 @@
    "teamId": "1532",
    "bestLeague": "L5A",
    "topScorer": {
-    "name": "Czibula Márk Milán",
+    "name": "Kalapos Titusz",
     "goals": 3
    },
    "seasonsCount": 2,
@@ -2377,7 +2377,7 @@
    "teamId": "1561",
    "bestLeague": "L5E",
    "topScorer": {
-    "name": "Kozák Márton",
+    "name": "Gergely Szilárd",
     "goals": 3
    },
    "seasonsCount": 1,

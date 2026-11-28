@@ -1884,28 +1884,28 @@
    "scorers": [
     {
      "name": "Mészáros Sándor Máté",
-     "goals": 4,
-     "teamId": "170"
+     "teamId": "170",
+     "goals": 4
     },
     {
      "name": "Fertig Dávid",
-     "goals": 3,
-     "teamId": "170"
+     "teamId": "170",
+     "goals": 3
     },
     {
      "name": "Kecskeméti Balázs",
-     "goals": 2,
-     "teamId": "170"
+     "teamId": "170",
+     "goals": 2
     },
     {
      "name": "Kosztyu Ádám",
-     "goals": 1,
-     "teamId": "170"
+     "teamId": "170",
+     "goals": 1
     },
     {
      "name": "Nagy Dániel",
-     "goals": 1,
-     "teamId": "170"
+     "teamId": "170",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T23:27:32.755Z"
@@ -1923,28 +1923,28 @@
    "scorers": [
     {
      "name": "Erdei Krisztián",
-     "goals": 5,
-     "teamId": "38"
+     "teamId": "38",
+     "goals": 5
     },
     {
      "name": "Lakatos István Levente",
-     "goals": 3,
-     "teamId": "38"
+     "teamId": "38",
+     "goals": 3
     },
     {
      "name": "Romsics Péter",
-     "goals": 2,
-     "teamId": "38"
+     "teamId": "38",
+     "goals": 2
     },
     {
      "name": "Szabadi Zalán",
-     "goals": 2,
-     "teamId": "38"
+     "teamId": "38",
+     "goals": 2
     },
     {
      "name": "Hajas Ádám",
-     "goals": 1,
-     "teamId": "38"
+     "teamId": "38",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T23:27:32.755Z"
@@ -2029,23 +2029,23 @@
    "scorers": [
     {
      "name": "Csorba Adrián",
-     "goals": 3,
-     "teamId": "45"
+     "teamId": "45",
+     "goals": 3
     },
     {
      "name": "Pintér Richárd",
-     "goals": 2,
-     "teamId": "45"
+     "teamId": "45",
+     "goals": 2
     },
     {
      "name": "Török Tamás",
-     "goals": 1,
-     "teamId": "45"
+     "teamId": "45",
+     "goals": 1
     },
     {
      "name": "Dr. Zováthi Örkény",
-     "goals": 1,
-     "teamId": "45"
+     "teamId": "45",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T23:27:32.755Z"
@@ -2063,48 +2063,48 @@
    "scorers": [
     {
      "name": "Erdei Krisztián",
-     "goals": 2,
-     "teamId": "38"
+     "teamId": "38",
+     "goals": 2
     },
     {
      "name": "Szabadi Zalán",
-     "goals": 2,
-     "teamId": "38"
+     "teamId": "38",
+     "goals": 2
     },
     {
      "name": "Romsics Péter",
-     "goals": 1,
-     "teamId": "38"
+     "teamId": "38",
+     "goals": 1
     },
     {
      "name": "Tálas Artúr",
-     "goals": 1,
-     "teamId": "38"
+     "teamId": "38",
+     "goals": 1
     },
     {
      "name": "Pesti Ádám",
-     "goals": 1,
-     "teamId": "38"
+     "teamId": "38",
+     "goals": 1
     },
     {
      "name": "Hajas Ádám",
-     "goals": 1,
-     "teamId": "38"
+     "teamId": "38",
+     "goals": 1
     },
     {
      "name": "Lakatos István Levente",
-     "goals": 1,
-     "teamId": "38"
+     "teamId": "38",
+     "goals": 1
     },
     {
      "name": "Kosztyu Ádám",
-     "goals": 1,
-     "teamId": "170"
+     "teamId": "170",
+     "goals": 1
     },
     {
      "name": "Kecskeméti Balázs",
-     "goals": 1,
-     "teamId": "170"
+     "teamId": "170",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T23:27:32.755Z"
@@ -2122,13 +2122,13 @@
    "scorers": [
     {
      "name": "Nieselberger Ádám",
-     "goals": 3,
-     "teamId": "109"
+     "teamId": "109",
+     "goals": 3
     },
     {
      "name": "Horváth Barnabás",
-     "goals": 1,
-     "teamId": "109"
+     "teamId": "109",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T23:27:32.755Z"
@@ -2146,18 +2146,18 @@
    "scorers": [
     {
      "name": "Szőke István",
-     "goals": 2,
-     "teamId": "139"
+     "teamId": "139",
+     "goals": 2
     },
     {
      "name": "Kéménczy Márton",
-     "goals": 1,
-     "teamId": "139"
+     "teamId": "139",
+     "goals": 1
     },
     {
      "name": "Rimóczi Gergő",
-     "goals": 1,
-     "teamId": "139"
+     "teamId": "139",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T23:27:32.755Z"
@@ -2460,7 +2460,7 @@
    "teamId": "70",
    "bestLeague": "L2A",
    "topScorer": {
-    "name": "Schütz Ádám",
+    "name": "Markóczy Márk",
     "goals": 6
    },
    "seasonsCount": 5,

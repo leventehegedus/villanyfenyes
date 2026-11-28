@@ -2067,8 +2067,8 @@
    "scorers": [
     {
      "name": "Lukács Gergely",
-     "goals": 4,
-     "teamId": "131"
+     "teamId": "131",
+     "goals": 4
     }
    ],
    "detailFetchedAt": "2026-11-27T23:27:32.755Z"
@@ -2179,23 +2179,23 @@
    "scorers": [
     {
      "name": "Nagy Kristóf",
-     "goals": 3,
-     "teamId": "147"
+     "teamId": "147",
+     "goals": 3
     },
     {
      "name": "Nagy Gábor",
-     "goals": 2,
-     "teamId": "147"
+     "teamId": "147",
+     "goals": 2
     },
     {
      "name": "Szabó Szilárd",
-     "goals": 1,
-     "teamId": "1513"
+     "teamId": "1513",
+     "goals": 1
     },
     {
      "name": "Péter Németh",
-     "goals": 1,
-     "teamId": "1513"
+     "teamId": "1513",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T23:27:32.755Z"
@@ -2213,33 +2213,33 @@
    "scorers": [
     {
      "name": "Hajdu Tibor",
-     "goals": 2,
-     "teamId": "47"
+     "teamId": "47",
+     "goals": 2
     },
     {
      "name": "Pallaghy József Barnabás",
-     "goals": 1,
-     "teamId": "47"
+     "teamId": "47",
+     "goals": 1
     },
     {
      "name": "Széll Sándor",
-     "goals": 1,
-     "teamId": "47"
+     "teamId": "47",
+     "goals": 1
     },
     {
      "name": "Váradi Vince",
-     "goals": 3,
-     "teamId": "86"
+     "teamId": "86",
+     "goals": 3
     },
     {
      "name": "Kolok István Baksa",
-     "goals": 1,
-     "teamId": "86"
+     "teamId": "86",
+     "goals": 1
     },
     {
      "name": "Varga Lukács",
-     "goals": 1,
-     "teamId": "86"
+     "teamId": "86",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-27T23:27:32.755Z"
