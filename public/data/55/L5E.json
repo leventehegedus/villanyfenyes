@@ -1838,26 +1838,26 @@
    "scorers": [
     {
      "name": "Iker Előd Sebestyén",
-     "teamId": "1571",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1571"
     },
     {
      "name": "Kis Hunor",
-     "teamId": "1571",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1571"
     },
     {
      "name": "Varga Áron Gábor",
-     "teamId": "1571",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1571"
     },
     {
      "name": "Benczik-Hrncsár Áron",
-     "teamId": "1571",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1571"
     }
    ],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57336",
@@ -1872,16 +1872,16 @@
    "scorers": [
     {
      "name": "Józsa István Roland",
-     "teamId": "1486",
-     "goals": 3
+     "goals": 3,
+     "teamId": "1486"
     },
     {
      "name": "Farkas Zsombor",
-     "teamId": "1486",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1486"
     }
    ],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57317",
@@ -1894,7 +1894,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57343",
@@ -1987,31 +1987,31 @@
    "scorers": [
     {
      "name": "Veréb Balázs",
-     "teamId": "21",
-     "goals": 7
+     "goals": 7,
+     "teamId": "21"
     },
     {
      "name": "Pákozdi Máté Márk",
-     "teamId": "21",
-     "goals": 1
+     "goals": 1,
+     "teamId": "21"
     },
     {
      "name": "Limbek Soma",
-     "teamId": "21",
-     "goals": 1
+     "goals": 1,
+     "teamId": "21"
     },
     {
      "name": "Juhász Ákos Zoltán",
-     "teamId": "21",
-     "goals": 1
+     "goals": 1,
+     "teamId": "21"
     },
     {
      "name": "Szomolai Bálint Tibor",
-     "teamId": "21",
-     "goals": 1
+     "goals": 1,
+     "teamId": "21"
     }
    ],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57364",
@@ -2026,26 +2026,26 @@
    "scorers": [
     {
      "name": "Simon Brúnó",
-     "teamId": "1476",
-     "goals": 3
+     "goals": 3,
+     "teamId": "1476"
     },
     {
      "name": "Faludi Mátyás",
-     "teamId": "1476",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1476"
     },
     {
      "name": "Szűcs Krisztián",
-     "teamId": "1476",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1476"
     },
     {
      "name": "Vitényi Dávid",
-     "teamId": "1476",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1476"
     }
    ],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57410",
@@ -2060,21 +2060,21 @@
    "scorers": [
     {
      "name": "Gergő Szebeni",
-     "teamId": "1561",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1561"
     },
     {
      "name": "Gergely Szilárd",
-     "teamId": "1561",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1561"
     },
     {
      "name": "Zalán Varga",
-     "teamId": "1561",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1561"
     }
    ],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "x-55-L5E-202611301700-los-galacticos-oso-fc",
@@ -2277,7 +2277,7 @@
    "teamId": "1486",
    "bestLeague": "L5B",
    "topScorer": {
-    "name": "Farkas Zsombor",
+    "name": "Juth Benedek",
     "goals": 6
    },
    "seasonsCount": 3,
@@ -2347,7 +2347,7 @@
    "teamId": "1532",
    "bestLeague": "L5A",
    "topScorer": {
-    "name": "Kalapos Titusz",
+    "name": "Czibula Márk Milán",
     "goals": 3
    },
    "seasonsCount": 2,
@@ -2377,7 +2377,7 @@
    "teamId": "1561",
    "bestLeague": "L5E",
    "topScorer": {
-    "name": "Gergely Szilárd",
+    "name": "Kozák Márton",
     "goals": 3
    },
    "seasonsCount": 1,

@@ -1858,12 +1858,20 @@
    "goalsFor": 27
   },
   {
+   "teamId": "1559",
+   "name": "Alíz Utca FC",
+   "titles": 0,
+   "l1Seasons": 0,
+   "won": 2,
+   "goalsFor": 36
+  },
+  {
    "teamId": "215",
    "name": "Csendes FIFA",
    "titles": 0,
    "l1Seasons": 0,
    "won": 2,
-   "goalsFor": 21
+   "goalsFor": 24
   },
   {
    "teamId": "57",
@@ -1872,14 +1880,6 @@
    "l1Seasons": 0,
    "won": 2,
    "goalsFor": 22
-  },
-  {
-   "teamId": "1559",
-   "name": "Alíz Utca FC",
-   "titles": 0,
-   "l1Seasons": 0,
-   "won": 1,
-   "goalsFor": 32
   },
   {
    "teamId": "1564",

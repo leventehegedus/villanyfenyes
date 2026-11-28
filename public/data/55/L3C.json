@@ -1872,7 +1872,7 @@
      "teamId": "219"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57325",
@@ -1901,7 +1901,7 @@
      "teamId": "230"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57296",
@@ -2008,7 +2008,7 @@
      "teamId": "219"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57403",
@@ -2027,7 +2027,7 @@
      "teamId": "41"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57383",
@@ -2042,11 +2042,11 @@
    "scorers": [
     {
      "name": "Szó Bálint",
-     "teamId": "202",
-     "goals": 3
+     "goals": 3,
+     "teamId": "202"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "56714",
@@ -2085,7 +2085,7 @@
      "teamId": "230"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "x-55-L3C-202611301800-eselyetek-se-crooks",

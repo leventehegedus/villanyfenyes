@@ -2098,26 +2098,26 @@
    "scorers": [
     {
      "name": "Fröhlich Tamás",
-     "teamId": "199",
-     "goals": 2
+     "goals": 2,
+     "teamId": "199"
     },
     {
      "name": "Siket Máté",
-     "teamId": "199",
-     "goals": 2
+     "goals": 2,
+     "teamId": "199"
     },
     {
      "name": "Alt Ákos",
-     "teamId": "199",
-     "goals": 2
+     "goals": 2,
+     "teamId": "199"
     },
     {
      "name": "Gondos Andor",
-     "teamId": "199",
-     "goals": 2
+     "goals": 2,
+     "teamId": "199"
     }
    ],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "48352",
@@ -2208,7 +2208,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "48355",
@@ -2221,7 +2221,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "48356",
@@ -2288,7 +2288,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "48358",

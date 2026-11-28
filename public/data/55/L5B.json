@@ -45,6 +45,11 @@
    "name": "Jó az X"
   },
   {
+   "id": "1559",
+   "siteId": 1559,
+   "name": "Alíz Utca FC"
+  },
+  {
    "id": "215",
    "siteId": 215,
    "name": "Csendes FIFA"
@@ -53,11 +58,6 @@
    "id": "57",
    "siteId": 57,
    "name": "Zomboss"
-  },
-  {
-   "id": "1559",
-   "siteId": 1559,
-   "name": "Alíz Utca FC"
   },
   {
    "id": "1564",
@@ -187,21 +187,36 @@
   },
   {
    "position": 9,
+   "teamId": "1559",
+   "played": 9,
+   "won": 2,
+   "drawn": 2,
+   "lost": 5,
+   "goalsFor": 36,
+   "goalsAgainst": 47,
+   "goalDiff": -11,
+   "points": 8,
+   "markers": [
+    "winStreak"
+   ]
+  },
+  {
+   "position": 10,
    "teamId": "215",
-   "played": 7,
+   "played": 8,
    "won": 2,
    "drawn": 1,
-   "lost": 4,
-   "goalsFor": 21,
-   "goalsAgainst": 23,
-   "goalDiff": -2,
+   "lost": 5,
+   "goalsFor": 24,
+   "goalsAgainst": 27,
+   "goalDiff": -3,
    "points": 7,
    "markers": [
     "fewConceded"
    ]
   },
   {
-   "position": 10,
+   "position": 11,
    "teamId": "57",
    "played": 7,
    "won": 2,
@@ -214,19 +229,6 @@
    "markers": [
     "lossStreak"
    ]
-  },
-  {
-   "position": 11,
-   "teamId": "1559",
-   "played": 8,
-   "won": 1,
-   "drawn": 2,
-   "lost": 5,
-   "goalsFor": 32,
-   "goalsAgainst": 44,
-   "goalDiff": -12,
-   "points": 5,
-   "markers": []
   },
   {
    "position": 12,
@@ -1941,7 +1943,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57297",
@@ -2042,7 +2044,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57391",
@@ -2099,7 +2101,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57384",
@@ -2108,11 +2110,37 @@
    "awayTeamId": "1559",
    "kickoff": "2026-11-27T19:00:00.000Z",
    "venue": "Bogdánfy_4",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "status": "played",
+   "scorers": [
+    {
+     "name": "Hódi Péter",
+     "goals": 1,
+     "teamId": "215"
+    },
+    {
+     "name": "Adrien Morin",
+     "goals": 1,
+     "teamId": "215"
+    },
+    {
+     "name": "Matyi Bálint",
+     "goals": 1,
+     "teamId": "215"
+    },
+    {
+     "name": "Budai Bálint",
+     "goals": 3,
+     "teamId": "1559"
+    },
+    {
+     "name": "Székely István",
+     "goals": 1,
+     "teamId": "1559"
+    }
+   ],
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "x-55-L5B-202612031900-jo-az-x-energeng",
@@ -2366,6 +2394,16 @@
    "matchesPlayed": 7
   },
   {
+   "teamId": "1559",
+   "bestLeague": "L5B",
+   "topScorer": {
+    "name": "Budai Bálint",
+    "goals": 3
+   },
+   "seasonsCount": 1,
+   "matchesPlayed": 9
+  },
+  {
    "teamId": "215",
    "bestLeague": "L3A",
    "topScorer": {
@@ -2373,7 +2411,7 @@
     "goals": 3
    },
    "seasonsCount": 30,
-   "matchesPlayed": 7
+   "matchesPlayed": 8
   },
   {
    "teamId": "57",
@@ -2384,16 +2422,6 @@
    },
    "seasonsCount": 23,
    "matchesPlayed": 7
-  },
-  {
-   "teamId": "1559",
-   "bestLeague": "L5B",
-   "topScorer": {
-    "name": "Loósz Benedek",
-    "goals": 3
-   },
-   "seasonsCount": 1,
-   "matchesPlayed": 8
   },
   {
    "teamId": "1564",

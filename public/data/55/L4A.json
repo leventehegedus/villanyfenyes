@@ -2008,7 +2008,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57323",
@@ -2057,26 +2057,26 @@
    "scorers": [
     {
      "name": "Jánosi Imre Hunor",
-     "teamId": "1523",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1523"
     },
     {
      "name": "Kocsis Gellért",
-     "teamId": "1523",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1523"
     },
     {
      "name": "Csordás Kevin",
-     "teamId": "1523",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1523"
     },
     {
      "name": "Horváth Balázs",
-     "teamId": "1523",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1523"
     }
    ],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57378",
@@ -2091,31 +2091,31 @@
    "scorers": [
     {
      "name": "Ádám Zsuga",
-     "teamId": "126",
-     "goals": 3
+     "goals": 3,
+     "teamId": "126"
     },
     {
      "name": "Hollósi Gergely",
-     "teamId": "126",
-     "goals": 2
+     "goals": 2,
+     "teamId": "126"
     },
     {
      "name": "Ficzere Dániel",
-     "teamId": "126",
-     "goals": 2
+     "goals": 2,
+     "teamId": "126"
     },
     {
      "name": "Kántor Tibor",
-     "teamId": "126",
-     "goals": 1
+     "goals": 1,
+     "teamId": "126"
     },
     {
      "name": "Nagy Ádám",
-     "teamId": "126",
-     "goals": 1
+     "goals": 1,
+     "teamId": "126"
     }
    ],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57360",
@@ -2164,31 +2164,31 @@
    "scorers": [
     {
      "name": "Prohászka Kristóf",
-     "teamId": "1520",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1520"
     },
     {
      "name": "Klein Patrik",
-     "teamId": "1520",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1520"
     },
     {
      "name": "Fatuska Benedek",
-     "teamId": "1520",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1520"
     },
     {
      "name": "Pikács Patrik",
-     "teamId": "1520",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1520"
     },
     {
      "name": "Lupu-Maár Endre",
-     "teamId": "1520",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1520"
     }
    ],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57414",
@@ -2201,7 +2201,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "x-55-L4A-202612021800-buda-ballers-ibiza",
@@ -2372,7 +2372,7 @@
    "teamId": "126",
    "bestLeague": "L2B",
    "topScorer": {
-    "name": "Ádám Zsuga",
+    "name": "Himics Dávid",
     "goals": 6
    },
    "seasonsCount": 10,
@@ -2402,7 +2402,7 @@
    "teamId": "36",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Sziráki Tamás",
+    "name": "Fazakas Csaba",
     "goals": 5
    },
    "seasonsCount": 5,
@@ -2412,7 +2412,7 @@
    "teamId": "1471",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Szabó Tamás",
+    "name": "Papp Zsombor István",
     "goals": 3
    },
    "seasonsCount": 4,

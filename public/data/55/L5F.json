@@ -1501,21 +1501,21 @@
    "scorers": [
     {
      "name": "Gór Viktor",
-     "teamId": "122",
-     "goals": 2
+     "goals": 2,
+     "teamId": "122"
     },
     {
      "name": "Kovacs-Pal Zsolt",
-     "teamId": "122",
-     "goals": 1
+     "goals": 1,
+     "teamId": "122"
     },
     {
      "name": "Fűrész Márton",
-     "teamId": "122",
-     "goals": 1
+     "goals": 1,
+     "teamId": "122"
     }
    ],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57308",
@@ -1528,7 +1528,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57287",
@@ -1580,7 +1580,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57377",
@@ -1595,36 +1595,36 @@
    "scorers": [
     {
      "name": "Rátkai Ádám",
-     "teamId": "99",
-     "goals": 2
+     "goals": 2,
+     "teamId": "99"
     },
     {
      "name": "Döbrönte Zoltán",
-     "teamId": "99",
-     "goals": 2
+     "goals": 2,
+     "teamId": "99"
     },
     {
      "name": "Szép Arnold",
-     "teamId": "99",
-     "goals": 1
+     "goals": 1,
+     "teamId": "99"
     },
     {
      "name": "Kőszegi Gábor",
-     "teamId": "99",
-     "goals": 1
+     "goals": 1,
+     "teamId": "99"
     },
     {
      "name": "Vichnalek Dávid",
-     "teamId": "1568",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1568"
     },
     {
      "name": "Ispánki Máté Márk",
-     "teamId": "1568",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1568"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "56528",
@@ -1639,41 +1639,41 @@
    "scorers": [
     {
      "name": "Szabó Dávid",
-     "teamId": "1527",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1527"
     },
     {
      "name": "Erdősi Márk",
-     "teamId": "1527",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1527"
     },
     {
      "name": "Fábián Bence",
-     "teamId": "1527",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1527"
     },
     {
      "name": "Németh Botond Mór",
-     "teamId": "1527",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1527"
     },
     {
      "name": "Fejes Olivér",
-     "teamId": "1527",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1527"
     },
     {
      "name": "Blaskó Zoltán",
-     "teamId": "1527",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1527"
     },
     {
      "name": "Pál Mihály",
-     "teamId": "1549",
-     "goals": 3
+     "goals": 3,
+     "teamId": "1549"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57362",
@@ -1688,26 +1688,26 @@
    "scorers": [
     {
      "name": "Ignátkó Bence",
-     "teamId": "55",
-     "goals": 2
+     "goals": 2,
+     "teamId": "55"
     },
     {
      "name": "Fábián Hunor",
-     "teamId": "55",
-     "goals": 1
+     "goals": 1,
+     "teamId": "55"
     },
     {
      "name": "Dániel Jaczkó",
-     "teamId": "55",
-     "goals": 1
+     "goals": 1,
+     "teamId": "55"
     },
     {
      "name": "Gaskó Simon",
-     "teamId": "55",
-     "goals": 1
+     "goals": 1,
+     "teamId": "55"
     }
    ],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57367",
@@ -1722,26 +1722,26 @@
    "scorers": [
     {
      "name": "Holló Balázs",
-     "teamId": "89",
-     "goals": 4
+     "goals": 4,
+     "teamId": "89"
     },
     {
      "name": "Lipcsey Levente",
-     "teamId": "89",
-     "goals": 1
+     "goals": 1,
+     "teamId": "89"
     },
     {
      "name": "Krakkai Levente",
-     "teamId": "89",
-     "goals": 1
+     "goals": 1,
+     "teamId": "89"
     },
     {
      "name": "Szitka Akos",
-     "teamId": "89",
-     "goals": 1
+     "goals": 1,
+     "teamId": "89"
     }
    ],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57502",
@@ -1754,7 +1754,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57420",
@@ -1767,7 +1767,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57368",
@@ -1780,7 +1780,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "x-55-L5F-202612012000-fontolva-harapok-john-pork-s-eleven",
@@ -1941,7 +1941,7 @@
    "teamId": "1552",
    "bestLeague": "L5F",
    "topScorer": {
-    "name": "Varga Bálint",
+    "name": "Kocsis Mátyás",
     "goals": 4
    },
    "seasonsCount": 1,

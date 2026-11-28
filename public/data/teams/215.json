@@ -10,16 +10,16 @@
    "label": "2026 - Ősz",
    "league": "L5B",
    "finished": false,
-   "position": 9,
+   "position": 10,
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 7,
+    "played": 8,
     "won": 2,
     "drawn": 1,
-    "lost": 4,
-    "goalsFor": 21,
-    "goalsAgainst": 23,
+    "lost": 5,
+    "goalsFor": 24,
+    "goalsAgainst": 27,
     "points": 7
    }
   }
@@ -114,6 +114,19 @@
     "goalsFor": 6,
     "goalsAgainst": 2,
     "points": 3
+   }
+  },
+  {
+   "teamId": "1559",
+   "name": "Alíz Utca FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 3,
+    "goalsAgainst": 4,
+    "points": 0
    }
   }
  ],
@@ -214,25 +227,25 @@
  "cleanSheets": 0,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 7,
-  "coveredMatches": 7,
+  "playedMatches": 8,
+  "coveredMatches": 8,
   "rows": [
    {
     "name": "Matyi Bálint",
-    "goals": 7,
-    "matches": 5,
+    "goals": 8,
+    "matches": 6,
     "hatTricks": 0
    },
    {
     "name": "Adrien Morin",
-    "goals": 2,
-    "matches": 2,
+    "goals": 3,
+    "matches": 3,
     "hatTricks": 0
    },
    {
     "name": "Hódi Péter",
-    "goals": 2,
-    "matches": 2,
+    "goals": 3,
+    "matches": 3,
     "hatTricks": 0
    },
    {

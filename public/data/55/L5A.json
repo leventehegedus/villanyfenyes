@@ -2060,16 +2060,16 @@
    "scorers": [
     {
      "name": "Dovák Csaba",
-     "teamId": "1562",
-     "goals": 3
+     "goals": 3,
+     "teamId": "1562"
     },
     {
      "name": "Draviczky Ádám",
-     "teamId": "1562",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1562"
     }
    ],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57315",
@@ -2084,31 +2084,31 @@
    "scorers": [
     {
      "name": "Gergely Tamas",
-     "teamId": "44",
-     "goals": 3
+     "goals": 3,
+     "teamId": "44"
     },
     {
      "name": "Dobozi Bence",
-     "teamId": "44",
-     "goals": 1
+     "goals": 1,
+     "teamId": "44"
     },
     {
      "name": "Ujfaludi Gábor",
-     "teamId": "1526",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1526"
     },
     {
      "name": "Ötvös Zsombor Kálmán",
-     "teamId": "1526",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1526"
     },
     {
      "name": "Andor Levente",
-     "teamId": "1526",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1526"
     }
    ],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57303",
@@ -2123,16 +2123,16 @@
    "scorers": [
     {
      "name": "Biró Dávid Márton",
-     "teamId": "19",
-     "goals": 1
+     "goals": 1,
+     "teamId": "19"
     },
     {
      "name": "Karancs Iván",
-     "teamId": "19",
-     "goals": 1
+     "goals": 1,
+     "teamId": "19"
     }
    ],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57345",
@@ -2145,7 +2145,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57412",
@@ -2160,46 +2160,46 @@
    "scorers": [
     {
      "name": "Szita Dániel",
-     "teamId": "19",
-     "goals": 3
+     "goals": 3,
+     "teamId": "19"
     },
     {
      "name": "Karancs Iván",
-     "teamId": "19",
-     "goals": 3
+     "goals": 3,
+     "teamId": "19"
     },
     {
      "name": "Kelemen Zoltán",
-     "teamId": "19",
-     "goals": 1
+     "goals": 1,
+     "teamId": "19"
     },
     {
      "name": "Jenő Gyökeres",
-     "teamId": "19",
-     "goals": 1
+     "goals": 1,
+     "teamId": "19"
     },
     {
      "name": "Draviczky Ádám",
-     "teamId": "1562",
-     "goals": 2
+     "goals": 2,
+     "teamId": "1562"
     },
     {
      "name": "Levente Simko",
-     "teamId": "1562",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1562"
     },
     {
      "name": "Bónizs Balázs",
-     "teamId": "1562",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1562"
     },
     {
      "name": "Tőkés Bálint",
-     "teamId": "1562",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1562"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57648",
@@ -2214,31 +2214,31 @@
    "scorers": [
     {
      "name": "Takács Ábel",
-     "teamId": "42",
-     "goals": 4
+     "goals": 4,
+     "teamId": "42"
     },
     {
      "name": "Lenner András",
-     "teamId": "42",
-     "goals": 2
+     "goals": 2,
+     "teamId": "42"
     },
     {
      "name": "Tordasi Bálint",
-     "teamId": "42",
-     "goals": 1
+     "goals": 1,
+     "teamId": "42"
     },
     {
      "name": "Medgyesy Csongor",
-     "teamId": "209",
-     "goals": 1
+     "goals": 1,
+     "teamId": "209"
     },
     {
      "name": "Havasi Róbert Dániel",
-     "teamId": "209",
-     "goals": 1
+     "goals": 1,
+     "teamId": "209"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57407",
@@ -2315,7 +2315,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "56520",
@@ -2328,7 +2328,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "x-55-L5A-202611301900-a-kispad-legjobbjai-elmarad-fc",

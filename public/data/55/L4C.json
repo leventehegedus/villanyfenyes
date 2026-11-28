@@ -2067,11 +2067,11 @@
    "scorers": [
     {
      "name": "Lukács Gergely",
-     "teamId": "131",
-     "goals": 4
+     "goals": 4,
+     "teamId": "131"
     }
    ],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57346",
@@ -2140,31 +2140,31 @@
    "scorers": [
     {
      "name": "Ürmös Zoltán",
-     "teamId": "153",
-     "goals": 2
+     "goals": 2,
+     "teamId": "153"
     },
     {
      "name": "Heller Erik",
-     "teamId": "153",
-     "goals": 1
+     "goals": 1,
+     "teamId": "153"
     },
     {
      "name": "Szatmari Peter",
-     "teamId": "153",
-     "goals": 1
+     "goals": 1,
+     "teamId": "153"
     },
     {
      "name": "Gregorich Gergely",
-     "teamId": "153",
-     "goals": 1
+     "goals": 1,
+     "teamId": "153"
     },
     {
      "name": "Tkalcec Péter",
-     "teamId": "1512",
-     "goals": 1
+     "goals": 1,
+     "teamId": "1512"
     }
    ],
-   "detailFetchedAt": "2026-11-27T00:59:35.351Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "57376",
@@ -2213,36 +2213,36 @@
    "scorers": [
     {
      "name": "Hajdu Tibor",
-     "teamId": "47",
-     "goals": 2
+     "goals": 2,
+     "teamId": "47"
     },
     {
      "name": "Pallaghy József Barnabás",
-     "teamId": "47",
-     "goals": 1
+     "goals": 1,
+     "teamId": "47"
     },
     {
      "name": "Széll Sándor",
-     "teamId": "47",
-     "goals": 1
+     "goals": 1,
+     "teamId": "47"
     },
     {
      "name": "Váradi Vince",
-     "teamId": "86",
-     "goals": 3
+     "goals": 3,
+     "teamId": "86"
     },
     {
      "name": "Kolok István Baksa",
-     "teamId": "86",
-     "goals": 1
+     "goals": 1,
+     "teamId": "86"
     },
     {
      "name": "Varga Lukács",
-     "teamId": "86",
-     "goals": 1
+     "goals": 1,
+     "teamId": "86"
     }
    ],
-   "detailFetchedAt": "2026-11-27T23:27:32.755Z"
+   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
   },
   {
    "id": "x-55-L4C-202612011700-team-miller-roby-bacsi-bunbandaja",
@@ -2459,7 +2459,7 @@
    "teamId": "1512",
    "bestLeague": "L4C",
    "topScorer": {
-    "name": "Kis Ádám",
+    "name": "Tóth Domonkos",
     "goals": 4
    },
    "seasonsCount": 2,
