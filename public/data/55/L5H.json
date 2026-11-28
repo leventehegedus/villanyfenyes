@@ -1843,7 +1843,7 @@
      "teamId": "232"
     }
    ],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "57298",
@@ -1931,7 +1931,7 @@
      "teamId": "1556"
     }
    ],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "57310",
@@ -1970,7 +1970,7 @@
      "teamId": "227"
     }
    ],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "57358",
@@ -1985,33 +1985,33 @@
    "scorers": [
     {
      "name": "Fodor Kornél",
-     "goals": 3,
-     "teamId": "1566"
+     "teamId": "1566",
+     "goals": 3
     },
     {
      "name": "Nagy Mihály Gyula",
-     "goals": 3,
-     "teamId": "1566"
+     "teamId": "1566",
+     "goals": 3
     },
     {
      "name": "Daróczi Donát",
-     "goals": 1,
-     "teamId": "1566"
+     "teamId": "1566",
+     "goals": 1
     },
     {
      "name": "Berzsák Bulcsú",
-     "goals": 1,
-     "teamId": "1577"
+     "teamId": "1577",
+     "goals": 1
     },
     {
      "name": "Antalffy-Zsiros Attila",
-     "goals": 1,
-     "teamId": "1577"
+     "teamId": "1577",
+     "goals": 1
     },
     {
      "name": "Koller Aron",
-     "goals": 1,
-     "teamId": "1577"
+     "teamId": "1577",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-28T07:48:17.691Z"
@@ -2053,7 +2053,7 @@
      "teamId": "1553"
     }
    ],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "57375",
@@ -2066,7 +2066,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "57369",
@@ -2095,7 +2095,7 @@
      "teamId": "232"
     }
    ],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "x-55-L5H-202612011700-szamaras-se-rosario-juniors",

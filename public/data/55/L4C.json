@@ -2071,7 +2071,7 @@
      "teamId": "131"
     }
    ],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "57346",
@@ -2140,28 +2140,28 @@
    "scorers": [
     {
      "name": "Ürmös Zoltán",
-     "goals": 2,
-     "teamId": "153"
+     "teamId": "153",
+     "goals": 2
     },
     {
      "name": "Heller Erik",
-     "goals": 1,
-     "teamId": "153"
+     "teamId": "153",
+     "goals": 1
     },
     {
      "name": "Szatmari Peter",
-     "goals": 1,
-     "teamId": "153"
+     "teamId": "153",
+     "goals": 1
     },
     {
      "name": "Gregorich Gergely",
-     "goals": 1,
-     "teamId": "153"
+     "teamId": "153",
+     "goals": 1
     },
     {
      "name": "Tkalcec Péter",
-     "goals": 1,
-     "teamId": "1512"
+     "teamId": "1512",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-28T07:48:17.691Z"
@@ -2242,7 +2242,7 @@
      "teamId": "86"
     }
    ],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "x-55-L4C-202612011700-team-miller-roby-bacsi-bunbandaja",
@@ -2459,7 +2459,7 @@
    "teamId": "1512",
    "bestLeague": "L4C",
    "topScorer": {
-    "name": "Tóth Domonkos",
+    "name": "Kis Ádám",
     "goals": 4
    },
    "seasonsCount": 2,

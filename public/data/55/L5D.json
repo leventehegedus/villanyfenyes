@@ -69,14 +69,14 @@
   {
    "position": 1,
    "teamId": "1560",
-   "played": 7,
-   "won": 7,
+   "played": 8,
+   "won": 8,
    "drawn": 0,
    "lost": 0,
-   "goalsFor": 70,
-   "goalsAgainst": 24,
-   "goalDiff": 46,
-   "points": 21,
+   "goalsFor": 78,
+   "goalsAgainst": 28,
+   "goalDiff": 50,
+   "points": 24,
    "markers": [
     "winStreak",
     "manyGoals",
@@ -121,17 +121,15 @@
   {
    "position": 4,
    "teamId": "138",
-   "played": 8,
+   "played": 9,
    "won": 5,
    "drawn": 2,
-   "lost": 1,
-   "goalsFor": 35,
-   "goalsAgainst": 28,
-   "goalDiff": 7,
+   "lost": 2,
+   "goalsFor": 39,
+   "goalsAgainst": 36,
+   "goalDiff": 3,
    "points": 17,
-   "markers": [
-    "fewConceded"
-   ]
+   "markers": []
   },
   {
    "position": 5,
@@ -1996,7 +1994,7 @@
      "teamId": "1560"
     }
    ],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "57354",
@@ -2040,7 +2038,7 @@
      "teamId": "156"
     }
    ],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "57306",
@@ -2069,7 +2067,7 @@
      "teamId": "138"
     }
    ],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "57409",
@@ -2108,7 +2106,7 @@
      "teamId": "1575"
     }
    ],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "57379",
@@ -2137,7 +2135,7 @@
      "teamId": "156"
     }
    ],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "57417",
@@ -2146,10 +2144,20 @@
    "awayTeamId": "1560",
    "kickoff": "2026-11-26T21:00:00.000Z",
    "venue": "Bogdánfy_3",
-   "homeGoals": null,
-   "awayGoals": null,
-   "status": "unknown",
+   "homeGoals": 4,
+   "awayGoals": 8,
+   "status": "played",
    "scorers": [
+    {
+     "name": "Juhász Gábor",
+     "goals": 3,
+     "teamId": "138"
+    },
+    {
+     "name": "Zagyva Mátyás",
+     "goals": 1,
+     "teamId": "138"
+    },
     {
      "name": "Takács Ábel",
      "goals": 3,
@@ -2176,7 +2184,7 @@
      "teamId": "1560"
     }
    ],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "57418",
@@ -2200,7 +2208,7 @@
      "teamId": "51"
     }
    ],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "x-55-L5D-202611302000-inflazio-toki-taka-fc",
@@ -2368,7 +2376,7 @@
     "goals": 5
    },
    "seasonsCount": 1,
-   "matchesPlayed": 7
+   "matchesPlayed": 8
   },
   {
    "teamId": "51",
@@ -2398,7 +2406,7 @@
     "goals": 7
    },
    "seasonsCount": 4,
-   "matchesPlayed": 8
+   "matchesPlayed": 9
   },
   {
    "teamId": "1484",
@@ -2474,7 +2482,7 @@
    "teamId": "1495",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Tóth Ábel Csongor",
+    "name": "Tóth Botond",
     "goals": 2
    },
    "seasonsCount": 3,

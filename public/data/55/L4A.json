@@ -2008,7 +2008,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "57323",
@@ -2076,7 +2076,7 @@
      "teamId": "1523"
     }
    ],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "57378",
@@ -2115,7 +2115,7 @@
      "teamId": "126"
     }
    ],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "57360",
@@ -2188,7 +2188,7 @@
      "teamId": "1520"
     }
    ],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "57414",
@@ -2201,7 +2201,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "x-55-L4A-202612021800-buda-ballers-ibiza",
@@ -2372,7 +2372,7 @@
    "teamId": "126",
    "bestLeague": "L2B",
    "topScorer": {
-    "name": "Himics Dávid",
+    "name": "Ádám Zsuga",
     "goals": 6
    },
    "seasonsCount": 10,
@@ -2402,7 +2402,7 @@
    "teamId": "36",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Fazakas Csaba",
+    "name": "Sziráki Tamás",
     "goals": 5
    },
    "seasonsCount": 5,
@@ -2412,7 +2412,7 @@
    "teamId": "1471",
    "bestLeague": "L4A",
    "topScorer": {
-    "name": "Papp Zsombor István",
+    "name": "Vámosi Marcell",
     "goals": 3
    },
    "seasonsCount": 4,

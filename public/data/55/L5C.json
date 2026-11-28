@@ -2110,7 +2110,7 @@
      "teamId": "241"
     }
    ],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "57294",
@@ -2144,7 +2144,7 @@
      "teamId": "181"
     }
    ],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "57292",
@@ -2256,7 +2256,7 @@
      "teamId": "132"
     }
    ],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "57374",
@@ -2308,7 +2308,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "57390",
@@ -2321,7 +2321,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "57387",
@@ -2350,7 +2350,7 @@
      "teamId": "1544"
     }
    ],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "x-55-L5C-202612021900-el-westham-united-stoczek-wanderers-fc",
@@ -2541,7 +2541,7 @@
    "teamId": "241",
    "bestLeague": "L5A",
    "topScorer": {
-    "name": "Elekes Dániel",
+    "name": "Péntek Péter",
     "goals": 6
    },
    "seasonsCount": 3,
@@ -2601,7 +2601,7 @@
    "teamId": "75",
    "bestLeague": "L5A",
    "topScorer": {
-    "name": "Paksi Ábel",
+    "name": "Imre-Horváth András",
     "goals": 3
    },
    "seasonsCount": 3,

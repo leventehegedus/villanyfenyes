@@ -1943,7 +1943,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "57297",
@@ -2044,7 +2044,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "57391",
@@ -2059,36 +2059,36 @@
    "scorers": [
     {
      "name": "Tóth Ákos",
-     "teamId": "58",
-     "goals": 1
+     "goals": 1,
+     "teamId": "58"
     },
     {
      "name": "Sudár Roland",
-     "teamId": "58",
-     "goals": 1
+     "goals": 1,
+     "teamId": "58"
     },
     {
      "name": "Németh Bence",
-     "teamId": "58",
-     "goals": 1
+     "goals": 1,
+     "teamId": "58"
     },
     {
      "name": "Bácskai Zoltán",
-     "teamId": "143",
-     "goals": 1
+     "goals": 1,
+     "teamId": "143"
     },
     {
      "name": "Tóth Gergely",
-     "teamId": "143",
-     "goals": 1
+     "goals": 1,
+     "teamId": "143"
     },
     {
      "name": "Fukker Norbert",
-     "teamId": "143",
-     "goals": 1
+     "goals": 1,
+     "teamId": "143"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "57419",
@@ -2100,8 +2100,24 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "scorers": [
+    {
+     "name": "Susán Henrik",
+     "goals": 3,
+     "teamId": "1533"
+    },
+    {
+     "name": "Szász Gergely Gábor",
+     "goals": 2,
+     "teamId": "1533"
+    },
+    {
+     "name": "Felszner Márk",
+     "goals": 2,
+     "teamId": "1533"
+    }
+   ],
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "57384",
@@ -2116,28 +2132,28 @@
    "scorers": [
     {
      "name": "Hódi Péter",
-     "goals": 1,
-     "teamId": "215"
+     "teamId": "215",
+     "goals": 1
     },
     {
      "name": "Adrien Morin",
-     "goals": 1,
-     "teamId": "215"
+     "teamId": "215",
+     "goals": 1
     },
     {
      "name": "Matyi Bálint",
-     "goals": 1,
-     "teamId": "215"
+     "teamId": "215",
+     "goals": 1
     },
     {
      "name": "Budai Bálint",
-     "goals": 3,
-     "teamId": "1559"
+     "teamId": "1559",
+     "goals": 3
     },
     {
      "name": "Székely István",
-     "goals": 1,
-     "teamId": "1559"
+     "teamId": "1559",
+     "goals": 1
     }
    ],
    "detailFetchedAt": "2026-11-28T07:48:17.691Z"
@@ -2397,7 +2413,7 @@
    "teamId": "1559",
    "bestLeague": "L5B",
    "topScorer": {
-    "name": "Budai Bálint",
+    "name": "Hudi Martin",
     "goals": 3
    },
    "seasonsCount": 1,
@@ -2427,7 +2443,7 @@
    "teamId": "1564",
    "bestLeague": "L5B",
    "topScorer": {
-    "name": "Biró Tamás",
+    "name": "Hodánics Márton Péter",
     "goals": 3
    },
    "seasonsCount": 1,

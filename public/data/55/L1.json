@@ -2117,7 +2117,7 @@
      "teamId": "199"
     }
    ],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "48352",
@@ -2207,8 +2207,24 @@
    "homeGoals": null,
    "awayGoals": null,
    "status": "unknown",
-   "scorers": [],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "scorers": [
+    {
+     "name": "Mogyorósi Zoltán",
+     "goals": 4,
+     "teamId": "69"
+    },
+    {
+     "name": "Pap Zsombor",
+     "goals": 2,
+     "teamId": "69"
+    },
+    {
+     "name": "Kele Balázs",
+     "goals": 1,
+     "teamId": "69"
+    }
+   ],
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "48355",
@@ -2221,7 +2237,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "48356",
@@ -2288,7 +2304,7 @@
    "awayGoals": null,
    "status": "unknown",
    "scorers": [],
-   "detailFetchedAt": "2026-11-28T07:48:17.691Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "48358",
@@ -2303,36 +2319,36 @@
    "scorers": [
     {
      "name": "Füle András",
-     "teamId": "100",
-     "goals": 2
+     "goals": 2,
+     "teamId": "100"
     },
     {
      "name": "Horváth Zalán",
-     "teamId": "100",
-     "goals": 2
+     "goals": 2,
+     "teamId": "100"
     },
     {
      "name": "Horváth Bálint",
-     "teamId": "100",
-     "goals": 1
+     "goals": 1,
+     "teamId": "100"
     },
     {
      "name": "Raport Dániel",
-     "teamId": "199",
-     "goals": 3
+     "goals": 3,
+     "teamId": "199"
     },
     {
      "name": "Stranyóczky László",
-     "teamId": "199",
-     "goals": 1
+     "goals": 1,
+     "teamId": "199"
     },
     {
      "name": "Alt Ákos",
-     "teamId": "199",
-     "goals": 1
+     "goals": 1,
+     "teamId": "199"
     }
    ],
-   "detailFetchedAt": "2026-11-27T12:18:54.422Z"
+   "detailFetchedAt": "2026-11-28T17:32:47.333Z"
   },
   {
    "id": "48359",

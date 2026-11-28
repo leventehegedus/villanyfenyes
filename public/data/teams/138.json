@@ -14,12 +14,12 @@
    "teamsInLeague": 12,
    "marker": null,
    "totals": {
-    "played": 8,
+    "played": 9,
     "won": 5,
     "drawn": 2,
-    "lost": 1,
-    "goalsFor": 35,
-    "goalsAgainst": 28,
+    "lost": 2,
+    "goalsFor": 39,
+    "goalsAgainst": 36,
     "points": 17
    }
   }
@@ -128,6 +128,19 @@
     "goalsAgainst": 4,
     "points": 1
    }
+  },
+  {
+   "teamId": "1560",
+   "name": "Barátok FC",
+   "totals": {
+    "played": 1,
+    "won": 0,
+    "drawn": 0,
+    "lost": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 8,
+    "points": 0
+   }
   }
  ],
  "records": {
@@ -143,11 +156,11 @@
   "biggestDefeat": {
    "seasonId": 55,
    "league": "L5D",
-   "matchId": "56689",
-   "kickoff": "2026-09-18T18:00:00.000Z",
-   "opponentId": "1522",
-   "goalsFor": 8,
-   "goalsAgainst": 11
+   "matchId": "57417",
+   "kickoff": "2026-11-26T21:00:00.000Z",
+   "opponentId": "1560",
+   "goalsFor": 4,
+   "goalsAgainst": 8
   },
   "highestScoring": {
    "seasonId": 55,
@@ -207,39 +220,39 @@
    "from": {
     "seasonId": 55,
     "league": "L5D",
-    "matchId": "56689",
-    "kickoff": "2026-09-18T18:00:00.000Z",
-    "opponentId": "1522",
-    "goalsFor": 8,
-    "goalsAgainst": 11
+    "matchId": "57417",
+    "kickoff": "2026-11-26T21:00:00.000Z",
+    "opponentId": "1560",
+    "goalsFor": 4,
+    "goalsAgainst": 8
    },
    "to": {
     "seasonId": 55,
     "league": "L5D",
-    "matchId": "56689",
-    "kickoff": "2026-09-18T18:00:00.000Z",
-    "opponentId": "1522",
-    "goalsFor": 8,
-    "goalsAgainst": 11
+    "matchId": "57417",
+    "kickoff": "2026-11-26T21:00:00.000Z",
+    "opponentId": "1560",
+    "goalsFor": 4,
+    "goalsAgainst": 8
    }
   }
  },
  "cleanSheets": 1,
  "failedToScore": 0,
  "scorers": {
-  "playedMatches": 8,
-  "coveredMatches": 8,
+  "playedMatches": 9,
+  "coveredMatches": 9,
   "rows": [
+   {
+    "name": "Juhász Gábor",
+    "goals": 11,
+    "matches": 6,
+    "hatTricks": 2
+   },
    {
     "name": "Fodor Kornél",
     "goals": 10,
     "matches": 4,
-    "hatTricks": 1
-   },
-   {
-    "name": "Juhász Gábor",
-    "goals": 8,
-    "matches": 5,
     "hatTricks": 1
    },
    {
@@ -261,15 +274,15 @@
     "hatTricks": 0
    },
    {
-    "name": "Péter Gergely Soma",
-    "goals": 2,
-    "matches": 1,
+    "name": "Zagyva Mátyás",
+    "goals": 3,
+    "matches": 3,
     "hatTricks": 0
    },
    {
-    "name": "Zagyva Mátyás",
+    "name": "Péter Gergely Soma",
     "goals": 2,
-    "matches": 2,
+    "matches": 1,
     "hatTricks": 0
    }
   ]
